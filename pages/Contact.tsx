@@ -25,64 +25,62 @@ const Contact: React.FC = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!validateEmail(formState.email)) {
-      setEmailError("Invalid email address");
-      return;
-    }
+  if (!validateEmail(formState.email)) {
+    setEmailError("Invalid email address");
+    return;
+  }
 
-    setEmailError(null);
-    setLoading(true);
-    setSendError(null);
+  setEmailError(null);
+  setLoading(true);
+  setSendError(null);
 
-    if (!formRef.current) {
-      setSendError("Form not found.");
-      setLoading(false);
-      return;
-    }
-if (formRef.current) {
+  if (!formRef.current) {
+    setSendError("Form not found.");
+    setLoading(false);
+    return;
+  }
+
   const subjectInput = formRef.current.querySelector('input[name="subject"]') as HTMLInputElement | null;
-const messageInput = formRef.current.querySelector('textarea[name="message"]') as HTMLTextAreaElement | null;
+  const messageInput = formRef.current.querySelector('textarea[name="message"]') as HTMLTextAreaElement | null;
 
   if (subjectInput) {
-    subjectInput.value = subjectInput.value.replace(/-/g, ' ');
+    subjectInput.value = subjectInput.value.replace(/-/g, " ");
   }
 
   if (messageInput) {
-    messageInput.value = messageInput.value.replace(/-/g, ' ');
+    messageInput.value = messageInput.value.replace(/-/g, " ");
   }
-}
-    emailjs
-      .sendForm(
-        "service_gih8d89",
-        "service_idvn2025",
-        formRef.current,
-        "w9BCLA8UHnXFzQUI0"
-      )
-      .then(
-        () => {
-          setSubmitted(true);
-          setLoading(false);
-          setFormState({
-            name: "",
-            email: "",
-            company: "",
-            inquiryType: "general",
-            message: "",
-          });
 
-          setTimeout(() => {
-            setSubmitted(false);
-          }, 5000);
-        },
-        (err) => {
-          console.error("EmailJS Error:", err);
-          setSendError("An error occurred while sending. Please try again.");
-          setLoading(false);
-        }
-      );
-  };
+  emailjs.sendForm(
+    "service_gih8d89",
+    "service_idvn2025",
+    formRef.current!,
+    "w9BCLA8UHnXFzQUI0"
+  ).then(
+    () => {
+      setSubmitted(true);
+      setLoading(false);
+      setFormState({
+        name: "",
+        email: "",
+        company: "",
+        inquiryType: "general",
+        message: "",
+      });
+
+      setTimeout(() => {
+        setSubmitted(false);
+      }, 5000);
+    },
+    (err) => {
+      console.error("EmailJS Error:", err);
+      setSendError("An error occurred while sending. Please try again.");
+      setLoading(false);
+    }
+  );
+};
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
