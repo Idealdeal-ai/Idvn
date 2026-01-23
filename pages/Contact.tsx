@@ -54,11 +54,12 @@ const Contact: React.FC = () => {
   }
 
   emailjs.sendForm(
-    "service_gih8d89",
-    "service_idvn2025",
-    formRef.current!,
-    "w9BCLA8UHnXFzQUI0"
-  ).then(
+  import.meta.env.VITE_EMAILJS_service_gih8d89,
+  import.meta.env.VITE_EMAILJS_service_idvn2025,
+  formRef.current,
+  import.meta.env.VITE_EMAILJS_A8UHnXFzQUI0
+)
+  .then(
     () => {
       setSubmitted(true);
       setLoading(false);
