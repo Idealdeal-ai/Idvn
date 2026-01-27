@@ -27,6 +27,9 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
 
+  setLoading(true);
+  setSendError(null);
+
   if (!validateEmail(formState.email)) {
     setEmailError("Invalid email address");
     return;
@@ -53,34 +56,36 @@ const Contact: React.FC = () => {
     messageInput.value = messageInput.value.replace(/-/g, " ");
   }
 
-  emailjs.sendForm(
-  import.meta.env.VITE_EMAILJS_service_gih8d89,
-  import.meta.env.VITE_EMAILJS_service_idvn2025,
-  formRef.current,
-  import.meta.env.VITE_EMAILJS_A8UHnXFzQUI0
-)
-  .then(
-    () => {
-      setSubmitted(true);
-      setLoading(false);
-      setFormState({
-        name: "",
-        email: "",
-        company: "",
-        inquiryType: "general",
-        message: "",
-      });
-
-      setTimeout(() => {
-        setSubmitted(false);
-      }, 5000);
+  emailjs.send(
+    "service_gih8d89",          // Service ID
+    "service_idvn2025",         // Template ID
+    {
+      from_name: formState.name,
+      from_email: formState.email,
+      company: formState.company,
+      inquiryType: formState.inquiryType,
+      message: formState.message,
     },
-    (err) => {
-      console.error("EmailJS Error:", err);
-      setSendError("An error occurred while sending. Please try again.");
-      setLoading(false);
-    }
-  );
+    "w9BCLA8UHnXFzQUI0"          // Public Key
+  )
+  .then(() => {
+    setSubmitted(true);
+    setLoading(false);
+    setFormState({
+      name: "",
+      email: "",
+      company: "",
+      inquiryType: "general",
+      message: "",
+    });
+
+    setTimeout(() => setSubmitted(false), 5000);
+  })
+  .catch((err) => {
+    console.error("EmailJS Error:", err);
+    setSendError("An error occurred while sending. Please try again.");
+    setLoading(false);
+  });
 };
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
