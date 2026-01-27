@@ -12,7 +12,12 @@ interface ProductCardProps {
   images: string[];
   onInteraction?: () => void;
 }
-
+const tabs = [
+  { key: "all_sectors", label: "All Sectors" },
+  { key: "agriculture", label: "Agriculture" },
+  { key: "food", label: "Food Processing" },
+  { key: "textile", label: "Textile" },
+];
 const ProductCarousel: React.FC<{ images: string[], title: string, onInteraction?: () => void }> = ({ images, title, onInteraction }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -102,13 +107,19 @@ const AgricultureCard: React.FC<ProductCardProps> = ({ category, title, desc, in
 
 const Products: React.FC = () => {
   const { t, language } = useLanguage();
-  const [activeTab, setActiveTab] = useState('All Sectors');
+
+  const [activeTab, setActiveTab] = useState<'all_sectors' | 'agriculture' | 'manufacturing' | 'consumer_goods'>('all_sectors');
   const [history, setHistory] = useState<string[]>([]);
   const [recommendations, setRecommendations] = useState<any[]>([]);
-  const [isAiLoading, setIsAiLoading] = useState(false);
+  const [isAiLoading, setIsAiLoading] = useState<boolean>(false);
   const recSectionRef = useRef<HTMLDivElement>(null);
 
-  const tabs = ['All Sectors', 'Agriculture', 'Manufacturing', 'Consumer Goods'];
+  const tabs: { key: 'all_sectors' | 'agriculture' | 'manufacturing' | 'consumer_goods'; label: string }[] = [
+  { key: 'all_sectors', label: t('all_sectors') },
+  { key: 'agriculture', label: t('agriculture') },
+  { key: 'manufacturing', label: t('manufacturing') },
+  { key: 'consumer_goods', label: t('consumer_goods') },
+  ];
 
   const trackInteraction = (productName: string) => {
     setHistory(prev => {
@@ -118,16 +129,16 @@ const Products: React.FC = () => {
   };
 
   const handleAIInteraction = async (productName: string) => {
-  try {
-    await axios.post("http://localhost:3001/track", {
-      product: productName,
-      tab: activeTab,
-      history
-    });
-  } catch (err) {
-    console.error("AI tracking error:", err);
-  }
-};
+    try {
+      await axios.post("http://localhost:3001/track", {
+        product: productName,
+        tab: activeTab,
+        history
+      });
+    } catch (err) {
+      console.error("AI tracking error:", err);
+    }
+  };
     
   const getAiRecommendations = async () => {
   if (isAiLoading) return;
@@ -241,19 +252,23 @@ useEffect(() => {
         {/* Floating Tab Bar */}
         <div className="absolute -bottom-10 left-0 w-full px-4 z-[60]">
           <div className="max-w-4xl mx-auto bg-white dark:bg-slate-900 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-full p-2 flex justify-center gap-2 border border-slate-100 dark:border-slate-800">
-            {tabs.map((tab) => (
-           <button
-  key={tab}
-  onClick={() => setActiveTab(tab)}
-  className={`px-8 py-4 rounded-full transition-all font-bold text-[11px] tracking-[0.1em] uppercase whitespace-nowrap
-    ${activeTab === tab
+         
+         
+          {tabs.map((tab) => (
+  <button
+
+    key={tab.key}
+    onClick={() => setActiveTab(tab.key)}
+    className={`px-8 py-4 rounded-full transition-all font-bold text-[11px] tracking-[0.1em] uppercase whitespace-nowrap
+  ${
+    activeTab === tab.key
       ? 'bg-brandNavy text-white shadow-lg scale-105'
-      : 'bg-transparent text-black hover:text-brandNavy hover:bg-slate-100 dark:text-white dark:hover:bg-slate-800 dark:hover:text-white'
-    }
-  `}
->
-  {tab}
-</button>
+      : 'bg-transparent text-black hover:text-brandNavy hover:bg-slate-100 dark:text-white dark:hover:bg-slate-800'
+  }
+`}
+  >
+    {tab.label}
+  </button>
 ))}
           </div>
         </div>
@@ -262,8 +277,8 @@ useEffect(() => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24">
         
         {/* Agriculture Section */}
-        {(activeTab === 'All Sectors' || activeTab === 'Agriculture') && (
-          <section className="mb-32">
+       {(activeTab === 'all_sectors' || activeTab === 'agriculture') && (
+  <section className="mb-32">
             <div className="flex items-center gap-6 mb-16">
               <h2 className="text-2xl font-display font-bold text-primary italic whitespace-nowrap">01. Agriculture</h2>
               <div className="h-px w-full bg-slate-200 dark:bg-slate-800/50"></div>
@@ -282,7 +297,7 @@ useEffect(() => {
         )}
 
         {/* Manufacturing Section */}
-        {(activeTab === 'All Sectors' || activeTab === 'Manufacturing') && (
+        {(activeTab === 'all_sectors' || activeTab === 'manufacturing') && (
           <section className="mb-32">
             <div className="flex items-center gap-6 mb-16">
               <h2 className="text-2xl font-display font-bold text-primary italic whitespace-nowrap">02. Manufacturing</h2>
@@ -333,7 +348,7 @@ useEffect(() => {
         )}
 
         {/* Consumer Goods Section */}
-        {(activeTab === 'All Sectors' || activeTab === 'Consumer Goods') && (
+        {(activeTab === 'all_sectors' || activeTab === 'consumer_goods') && (
           <section className="mb-32">
             <div className="flex items-center gap-6 mb-16">
               <h2 className="text-2xl font-display font-bold text-primary italic whitespace-nowrap">03. Consumer Goods</h2>
