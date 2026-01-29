@@ -15,12 +15,12 @@ const Home: React.FC = () => {
 
     emailjs.send(
   'service_gih8d89',
-  'service_idvn2025',
+  'template_yhrlqso',
   {
     from_name: formState.name,
     from_email: formState.email,
-    subject: formState.subject.replace(/-/g, ' '),
-    message: formState.message.replace(/-/g, ' '),
+    subject: "Home Page Inquiry",
+    message: formState.message,
   },
   'w9BCLA8UHnXFzQUI0'
 ).then(() => {
