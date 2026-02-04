@@ -62,10 +62,10 @@ const About: React.FC = () => {
   ];
 
   const team = [
-    { name: 'Nguyen Minh Duc', role: t('ceo_role'), image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop' },
-    { name: 'Le Thi Kim Oanh', role: t('sourcing_role'), image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop' },
-    { name: 'Robert Henderson', role: t('logistics_role'), image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop' },
-    { name: 'Tran Van Binh', role: t('qa_role'), image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop' },
+    { name: 'Mohamed Ahmed (Mando)', role: t('Founder & CEO'), image: '/team/mo.png' },
+    { name: 'Ibrahim Darwish', role: t('Cofounder & Manger'), image: '/team/Ibrahim.jpeg' },
+
+    { name: 'Abdullah Al Saeed', role: t('Cofounder & CEO of ID-KSA'), image: '' },
   ];
 
   return (
