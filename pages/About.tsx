@@ -60,9 +60,7 @@ const About: React.FC = () => {
   const team = [
     { name: 'Mohamed Ahmed -Mando', role: t('Founder & CEO - Vietnam'), image: '/team/mando.png' },
     { name: 'Ibrahim Darwish', role: t('Cofounder & Managing Director - Vietnam'), image: '/team/Ibrahim.jpeg' },
-    { name: 'Abdullah Al Saeed', role: t('Cofounder & CEO - Saudi Arabia'), image: '' },
-    { name: 'Mohannad ', role: t('Partner & Head of Business Development'), image: '' },
-    { name: 'Ahmed Al Saeed', role: t( 'Partner & Operations Manager - Saudi Arabia'), image: '' },
+    { name: 'Said Haggag', role: t('Procurement & Sourcing Manager'), image: '/team/said.jpg' },
   ];
 
   return (
@@ -167,9 +165,9 @@ const About: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
-            {team.map((member, index) => (
-              <TeamMember key={index} {...member} />
-            ))}
+           {team.slice(0, 3).map((member, index) => (
+  <TeamMember key={index} {...member} />
+))}
           </div>
         </div>
       </section>
