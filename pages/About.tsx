@@ -58,8 +58,8 @@ const About: React.FC = () => {
   ];
 
   const team = [
-    { name: 'Mohamed Ahmed -Mando', role: t('Founder & CEO - Vietnam'), image: '/team/mando.png' },
-    { name: 'Ibrahim Darwish', role: t('Cofounder & Managing Director - Vietnam'), image: '/team/Ibrahim.jpeg' },
+    { name: 'Mohamed Ahmed - Mando', role: t('Founder & CEO'), image: '/team/mando.png' },
+    { name: 'Ibrahim Darwish', role: t('Cofounder & Managing Director'), image: '/team/Ibrahim.jpeg' },
     { name: 'Said Haggag', role: t('Procurement & Sourcing Manager'), image: '/team/said.jpg' },
   ];
 
