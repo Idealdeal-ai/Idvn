@@ -187,20 +187,22 @@ useEffect(() => {
       infoLabel: 'Certifications',
       infoValue: 'FairTrade, Organic',
       images: [
-        'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1497933321188-941f9ad36b12?q=80&w=2070&auto=format&fit=crop'
+        '/products/co1.png',
+        '/products/co2.png',
+        '/products/co3.png'
       ]
     },
     {
       category: 'PREMIUM GRADE',
       title: 'Processed Cashew Nuts',
-      desc: "Vietnam's finest cashews, available in various grades (W240, W320). Processed with state-of-the-art hygiene technology.",
+      desc: "Vietnam's finest cashews, available in various grades (W240, W320). Processed with state of the art hygiene technology.",
       infoLabel: 'Packaging',
-      infoValue: 'Bulk, Retail',
+      infoValue: 'Bulk , Organic',
       images: [
-        'https://images.unsplash.com/photo-1509315811345-672d83ef2fbc?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1623110503978-66ef816f1a8b?q=80&w=2070&auto=format&fit=crop'
+        '/products/shew1.png',
+        '/products/shew2.png',
+        '/products/shew3.png',
+        '/products/shew4.png',
       ]
     },
     {
@@ -208,10 +210,11 @@ useEffect(() => {
       title: 'Black & White Pepper',
       desc: 'High-density peppercorns with intense pungency. Cleaned and graded using ultrasonic and steam sterilization methods.',
       infoLabel: 'Origins',
-      infoValue: 'Binh Phuoc, Gia Lai',
+      infoValue: 'Bulk , Organic',
       images: [
-        'https://images.unsplash.com/photo-1554973653-c9071bd14011?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1509358271172-ca8135c65927?q=80&w=2070&auto=format&fit=crop'
+        '/products/pp1.png',
+        '/products/pp2.png',
+        '/products/pp3.png'
       ]
     }
   ];
