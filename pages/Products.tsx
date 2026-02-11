@@ -199,10 +199,10 @@ useEffect(() => {
       infoLabel: 'Packaging',
       infoValue: 'Bulk , Organic',
       images: [
-        '/products/shew1.png',
+        '/products/shew4.png',
         '/products/shew2.png',
         '/products/shew3.png',
-        '/products/shew4.png',
+        '/products/shew1.png',
       ]
     },
     {
