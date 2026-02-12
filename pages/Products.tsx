@@ -405,7 +405,7 @@ useEffect(() => {
       w-full h-full object-cover
       transition-all duration-300 ease-in-out
       brightness-90
-      group-hover:brightness-110
+      group-hover:brightness-105
       group-hover:scale-110
     "
   />
