@@ -413,7 +413,7 @@ useEffect(() => {
   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
 
   <div className="absolute bottom-0 left-0 right-0 p-6">
-    <h3 className="text-[#D9A84E] text-xl font-semibold">
+    <h3 className="text-[#60A5FA] text-xl font-semibold">
       {item.title}
     </h3>
   </div>
