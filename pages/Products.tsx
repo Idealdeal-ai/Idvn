@@ -1,7 +1,44 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../App';
 import axios from 'axios';
+
+// Consumer Goods Images & Titles
+type ConsumerImage = {
+  image: string;
+  title: string;
+};
+
+const consumerImages: ConsumerImage[] = [
+  {
+    image: "/products/clean.png",
+    title: "Home & Personal Care"
+  },
+  {
+    image: "/products/hygiene.png",
+    title: "Hygiene & Disposable Products"
+  },
+  {
+    image: "/products/snacks.png",
+    title: "Packaged Food & Snacks"
+  },
+  {
+    image: "/products/plastic.png",
+    title: "Plastic Household Items"
+  },
+  {
+    image: "/products/babyC.png",
+    title: "Baby Products"
+  },
+  {
+    image: "/products/mop.png",
+    title: "Cleaning Tools"
+  },
+  {
+    image: "/products/cans.png",
+    title: "Canned & Preserved Food"
+  }
+];
+
 
 interface ProductCardProps {
   category: string;
@@ -108,11 +145,14 @@ const AgricultureCard: React.FC<ProductCardProps> = ({ category, title, desc, in
 const Products: React.FC = () => {
   const { t, language } = useLanguage();
 
+  
+
   const [activeTab, setActiveTab] = useState<'all_sectors' | 'agriculture' | 'manufacturing' | 'consumer_goods'>('all_sectors');
   const [history, setHistory] = useState<string[]>([]);
   const [recommendations, setRecommendations] = useState<any[]>([]);
   const [isAiLoading, setIsAiLoading] = useState<boolean>(false);
   const recSectionRef = useRef<HTMLDivElement>(null);
+
 
   const tabs: { key: 'all_sectors' | 'agriculture' | 'manufacturing' | 'consumer_goods'; label: string }[] = [
   { key: 'all_sectors', label: t('all_sectors') },
@@ -202,7 +242,7 @@ useEffect(() => {
         '/products/shew4.png',
         '/products/shew2.png',
         '/products/shew3.png',
-        '/products/shew1.png',
+        '/products/shew.png',
       ]
     },
     {
@@ -224,12 +264,6 @@ useEffect(() => {
     { icon: 'chair', title: 'Wooden Furniture', desc: 'Sustainably sourced acacia and teak furniture for indoor and outdoor use.' },
     { icon: 'eco', title: 'Eco-Packaging', desc: 'Biodegradable packaging solutions for food service and retail sectors.' },
     { icon: 'architecture', title: 'Raw Materials', desc: 'Cement, clinker, and steel exports for international infrastructure projects.' },
-  ];
-
-  const consumerImages = [
-    'https://images.unsplash.com/photo-1590080875515-8a03b1447d90?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1563911191470-85aa161b4028?q=80&w=2070&auto=format&fit=crop'
   ];
 
   return (
@@ -359,20 +393,29 @@ useEffect(() => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-              {consumerImages.map((img, idx) => (
-                <div 
-                  key={idx} 
-                  onClick={() => trackInteraction('Consumer Item ' + (idx + 1))}
-                  className="rounded-2xl overflow-hidden h-[450px] shadow-sm hover:shadow-2xl transition-all group relative cursor-pointer"
-                >
-                  <img src={img} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Consumer Product" />
-                  <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+  {consumerImages.map((item, idx) => (
+  <div
+    key={idx}
+    className="relative rounded-2xl overflow-hidden h-[450px]"
+  >
+    <img
+      src={item.image}
+      alt={item.title}
+      className="w-full h-full object-cover"
+    />
 
+    <div className="absolute inset-0 bg-black/40"></div>
+
+    <div className="absolute bottom-0 left-0 right-0 p-6">
+      <h3 className="text-[#D9A84E] text-xl font-semibold">
+  {item.title}
+</h3>
+    </div>
+  </div>
+))}
+</div>
+</section>
+)}
         {/* AI Recommendations Section */}
         <section ref={recSectionRef} className="mt-24 pt-24 border-t border-slate-200 dark:border-slate-800">
           <div className="flex items-center justify-between mb-12">
@@ -436,41 +479,54 @@ useEffect(() => {
         </section>
       </div>
 
-      {/* Stats Strip */}
-      <section className="bg-brandNavy py-14 text-white">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-12">
-          {[
-            { value: '35+', label: 'PRODUCTS SOURCED' },
-            { value: '07+', label: 'PARTNER COUNTRIES' },
-            { value: '100%', label: 'QUALITY VERIFIED' },
-            { value: '24/7', label: 'GLOBAL SUPPORT' },
-          ].map((stat, idx) => (
-            <div key={idx} className="flex flex-col items-center flex-1 border-r last:border-0 border-white/10 px-6">
-              <span className="text-5xl font-bold text-primary mb-3">{stat.value}</span>
-              <span className="text-[10px] font-black text-slate-400 tracking-[0.2em] uppercase text-center">{stat.label}</span>
-            </div>
-          ))}
-        </div>
-      </section>
+     {/* Stats Strip */}
+<section className="bg-brandNavy py-14 text-white">
+  <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-12">
+    {[
+      { value: '35+', label: 'PRODUCTS SOURCED' },
+      { value: '07+', label: 'PARTNER COUNTRIES' },
+      { value: '100%', label: 'QUALITY VERIFIED' },
+      { value: '24/7', label: 'GLOBAL SUPPORT' },
+    ].map((stat, idx) => (
+      <div
+        key={idx}
+        className="flex flex-col items-center flex-1 border-r last:border-0 border-white/10 px-6"
+      >
+        <span className="text-5xl font-bold text-primary mb-3">
+          {stat.value}
+        </span>
+        <span className="text-[10px] font-black text-slate-400 tracking-[0.2em] uppercase text-center">
+          {stat.label}
+        </span>
+      </div>
+    ))}
+  </div>
+</section>
 
-      {/* Footer CTA */}
-      <section className="py-32 bg-white dark:bg-slate-900 text-center relative overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent"></div>
-        <div className="max-w-4xl mx-auto px-4 relative z-10">
-          <h2 className="text-5xl font-display font-bold text-primary mb-8 tracking-tight uppercase">Talk To Us</h2>
-          <p className="text-slate-600 dark:text-slate-400 text-xl mb-14 leading-relaxed max-w-3xl mx-auto">
-            At Ideal Deal Vietnam, we value clear communication and strong partnerships. Whether you're seeking reliable suppliers, business collaborations, or product information, our team is ready to assist with professionalism and efficiency.
-          </p>
-          <a 
-            href="#/contact" 
-            className="inline-block px-14 py-6 bg-primary text-brandNavy font-black rounded-xl shadow-[0_20px_40px_rgba(217,168,78,0.2)] hover:shadow-[0_25px_50px_rgba(217,168,78,0.3)] hover:scale-105 active:scale-95 transition-all uppercase tracking-[0.2em] text-sm"
-          >
-            CONTACT US NOW
-          </a>
-        </div>
-      </section>
-    </div>
-  );
+{/* Footer CTA */}
+<section className="py-32 bg-white dark:bg-slate-900 text-center relative overflow-hidden">
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent"></div>
+
+  <div className="max-w-4xl mx-auto px-4 relative z-10">
+    <h2 className="text-5xl font-display font-bold text-primary mb-8 tracking-tight uppercase">
+      Talk To Us
+    </h2>
+
+    <p className="text-slate-600 dark:text-slate-400 text-xl mb-14 leading-relaxed max-w-3xl mx-auto">
+      At Ideal Deal Vietnam, we value clear communication and strong partnerships. Whether you're seeking reliable suppliers, business collaborations, or product information, our team is ready to assist with professionalism and efficiency.
+    </p>
+
+    <a
+      href="#/contact"
+      className="inline-block px-14 py-6 bg-primary text-brandNavy font-black rounded-xl shadow-[0_20px_40px_rgba(217,168,78,0.2)] hover:shadow-[0_25px_50px_rgba(217,168,78,0.3)] hover:scale-105 active:scale-95 transition-all uppercase tracking-[0.2em] text-sm"
+    >
+      CONTACT US NOW
+    </a>
+  </div>
+</section>
+
+</div>
+);
 };
 
 export default Products;
