@@ -395,23 +395,29 @@ useEffect(() => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
   {consumerImages.map((item, idx) => (
   <div
-    key={idx}
-    className="relative rounded-2xl overflow-hidden h-[450px]"
-  >
-    <img
-      src={item.image}
-      alt={item.title}
-      className="w-full h-full object-cover"
-    />
+  key={idx}
+  className="relative rounded-2xl overflow-hidden h-[450px] group"
+>
+  <img
+    src={item.image}
+    alt={item.title}
+    className="
+      w-full h-full object-cover
+      transition-all duration-300 ease-in-out
+      brightness-75
+      group-hover:brightness-100
+      group-hover:scale-110
+    "
+  />
 
-    <div className="absolute inset-0 bg-black/40"></div>
+  <div className="absolute inset-0 bg-black/30"></div>
 
-    <div className="absolute bottom-0 left-0 right-0 p-6">
-      <h3 className="text-[#D9A84E] text-xl font-semibold">
-  {item.title}
-</h3>
-    </div>
+  <div className="absolute bottom-0 left-0 right-0 p-6">
+    <h3 className="text-[#D9A84E] text-xl font-semibold">
+      {item.title}
+    </h3>
   </div>
+</div>
 ))}
 </div>
 </section>
