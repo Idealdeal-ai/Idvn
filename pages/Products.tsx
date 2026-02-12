@@ -248,7 +248,7 @@ useEffect(() => {
     {
       category: 'SPECIALTY',
       title: 'Black & White Pepper',
-      desc: 'High-density peppercorns with intense pungency. Cleaned and graded using ultrasonic and steam sterilization methods.',
+      desc: 'High density peppercorns with intense pungency. Cleaned and graded using ultrasonic and steam sterilization methods.',
       infoLabel: 'Origins',
       infoValue: 'Bulk , Organic',
       images: [
