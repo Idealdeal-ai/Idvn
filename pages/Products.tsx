@@ -242,7 +242,7 @@ useEffect(() => {
         '/products/shew4.png',
         '/products/shew2.png',
         '/products/shew3.png',
-        '/products/shew.png',
+        '/products/shew1.png',
       ]
     },
     {
