@@ -404,13 +404,13 @@ useEffect(() => {
     className="
       w-full h-full object-cover
       transition-all duration-300 ease-in-out
-      brightness-75
-      group-hover:brightness-100
+      brightness-90
+      group-hover:brightness-110
       group-hover:scale-110
     "
   />
 
-  <div className="absolute inset-0 bg-black/30"></div>
+  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
 
   <div className="absolute bottom-0 left-0 right-0 p-6">
     <h3 className="text-[#D9A84E] text-xl font-semibold">
