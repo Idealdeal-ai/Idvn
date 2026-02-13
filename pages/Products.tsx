@@ -18,14 +18,6 @@ const consumerImages: ConsumerImage[] = [
     title: "Hygiene & Disposable Products"
   },
   {
-    image: "/products/snacks.png",
-    title: "Packaged Food & Snacks"
-  },
-  {
-    image: "/products/plastic.png",
-    title: "Plastic Household Items"
-  },
-  {
     image: "/products/babyC.png",
     title: "Baby Products"
   },
@@ -34,9 +26,26 @@ const consumerImages: ConsumerImage[] = [
     title: "Cleaning Tools"
   },
   {
+    image: "/products/plastic.png",
+    title: "Plastic Household Items"
+  },
+  {
     image: "/products/cans.png",
     title: "Canned & Preserved Food"
+  },
+  {
+    image: "/products/snacks.png",
+    title: "Packaged Food & Snacks"
+  },
+  {
+    image: "/products/Food Staples.jpeg",
+    title: "Food Staples"
+  },
+  {
+    image: "/products/Edible Oils & Fats.jpeg",
+    title: "Edible Oils & Fats"
   }
+
 ];
 
 
