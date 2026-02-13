@@ -271,7 +271,7 @@ useEffect(() => {
   const manufacturingIcons = [
     { icon: 'precision_manufacturing', title: 'Precision Components', desc: 'Mechanical parts and electronics assembly for the global tech supply chain.' },
     { icon: 'chair', title: 'Wooden Furniture', desc: 'Sustainably sourced acacia and teak furniture for indoor and outdoor use.' },
-    { icon: 'eco', title: 'Eco-Packaging', desc: 'Biodegradable packaging solutions for food service and retail sectors.' },
+    { icon: 'eco', title: 'Eco Packaging', desc: 'Biodegradable packaging solutions for food service and retail sectors.' },
     { icon: 'architecture', title: 'Raw Materials', desc: 'Cement, clinker, and steel exports for international infrastructure projects.' },
   ];
 
