@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage, Language } from '../App';
 
@@ -27,58 +27,114 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
 
   
 
-  const LanguageSelector = () => (
-    <div className="flex items-center gap-2">
-      <button 
-        onClick={() => setLanguage('en')}
-        className={`w-9 h-9 rounded-full flex items-center justify-center text-[11px] font-bold transition-all border-2 ${language === 'en' ? 'bg-primary border-primary text-brandNavy shadow-lg scale-110' : 'bg-slate-100 dark:bg-slate-800 border-transparent opacity-60 hover:opacity-100'}`}
-        title="English"
-        aria-label="Select English language"
-      >
-        EN
-      </button>
-      <button 
-        onClick={() => setLanguage('ar')}
-        className={`w-9 h-9 rounded-full flex items-center justify-center text-[11px] font-bold transition-all border-2 ${language === 'ar' ? 'bg-primary border-primary text-brandNavy shadow-lg scale-110' : 'bg-slate-100 dark:bg-slate-800 border-transparent opacity-60 hover:opacity-100'}`}
-        title="العربية"
-        aria-label="Select Arabic language"
-      >
-        AR
-      </button>
-      <button 
-        onClick={() => setLanguage('vi')}
-        className={`w-9 h-9 rounded-full flex items-center justify-center text-[11px] font-bold transition-all border-2 ${language === 'vi' ? 'bg-primary border-primary text-brandNavy shadow-lg scale-110' : 'bg-slate-100 dark:bg-slate-800 border-transparent opacity-60 hover:opacity-100'}`}
-        title="Tiếng Việt"
-        aria-label="Select Vietnamese language"
-      >
-        VN
-      </button>
-      <button 
-        onClick={() => setLanguage('zh')}
-        className={`w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold transition-all border-2 ${language === 'zh' ? 'bg-primary border-primary text-brandNavy shadow-lg scale-110' : 'bg-slate-100 dark:bg-slate-800 border-transparent opacity-60 hover:opacity-100'}`}
-        title="中文"
-        aria-label="Select Chinese language"
-      >
-        中
-      </button>
-      <button 
-        onClick={() => setLanguage('es')}
-        className={`w-9 h-9 rounded-full flex items-center justify-center text-[11px] font-bold transition-all border-2 ${language === 'es' ? 'bg-primary border-primary text-brandNavy shadow-lg scale-110' : 'bg-slate-100 dark:bg-slate-800 border-transparent opacity-60 hover:opacity-100'}`}
-        title="Español"
-        aria-label="Select Spanish language"
-      >
-        ES
-      </button>
-      <button 
-        onClick={() => setLanguage('fr')}
-        className={`w-9 h-9 rounded-full flex items-center justify-center text-[11px] font-bold transition-all border-2 ${language === 'fr' ? 'bg-primary border-primary text-brandNavy shadow-lg scale-110' : 'bg-slate-100 dark:bg-slate-800 border-transparent opacity-60 hover:opacity-100'}`}
-        title="Français"
-        aria-label="Select French language"
-      >
-        FR
-      </button>
-    </div>
-  );
+  const LanguageSelector = () => {
+    const [open, setOpen] = useState(false);
+    const ref = useRef<HTMLDivElement | null>(null);
+
+    // غيّر EXT لو هتستخدم svg بدل png
+    const EXT = "png"; // "svg" أو "png" أو "webp"
+
+    const LANGS: { code: Language; label: string; flagSrc: string; short: string }[] = [
+      { code: "en", label: "English",    flagSrc: `/flags/en.${EXT}`, short: "EN" },
+      { code: "ar", label: "العربية",    flagSrc: `/flags/ar.${EXT}`, short: "AR" },
+      { code: "vi", label: "Tiếng Việt", flagSrc: `/flags/vn.${EXT}`, short: "VI" },
+      { code: "zh", label: "中文",        flagSrc: `/flags/zh.${EXT}`, short: "ZH" },
+      { code: "es", label: "Español",    flagSrc: `/flags/es.${EXT}`, short: "ES" },
+      { code: "fr", label: "Français",   flagSrc: `/flags/fr.${EXT}`, short: "FR" },
+    ];
+
+    const current = LANGS.find(l => l.code === language) || LANGS[0];
+
+    useEffect(() => {
+      const onDocClick = (e: MouseEvent) => {
+        if (!ref.current) return;
+        if (!ref.current.contains(e.target as Node)) setOpen(false);
+      };
+      const onEsc = (e: KeyboardEvent) => {
+        if (e.key === "Escape") setOpen(false);
+      };
+      document.addEventListener("mousedown", onDocClick);
+      document.addEventListener("keydown", onEsc);
+      return () => {
+        document.removeEventListener("mousedown", onDocClick);
+        document.removeEventListener("keydown", onEsc);
+      };
+    }, []);
+
+    return (
+      <div ref={ref} className="relative">
+        {/* Trigger */}
+        <button
+          type="button"
+          onClick={() => setOpen(v => !v)}
+          aria-haspopup="menu"
+          aria-expanded={open}
+          className="flex items-center gap-2 px-3 py-2 rounded-full border-2 transition-all
+                     bg-slate-100 dark:bg-slate-800
+                     border-transparent hover:border-primary/40
+                     text-slate-700 dark:text-slate-200"
+          title="Language"
+        >
+          <img
+            src={current.flagSrc}
+            alt={`${current.label} flag`}
+            className="w-5 h-5 rounded-sm object-cover shadow-sm"
+            loading="lazy"
+          />
+          <span className="text-[11px] font-extrabold tracking-wider">
+            {current.short}
+          </span>
+          <span className={`material-symbols-outlined text-lg leading-none opacity-80 transition-transform ${open ? "rotate-180" : ""}`}>
+            expand_more
+          </span>
+        </button>
+
+        {/* Dropdown */}
+        {open && (
+          <div
+            role="menu"
+            className="absolute right-0 mt-2 w-56 overflow-hidden rounded-2xl
+                       border border-slate-200/70 dark:border-slate-700/60
+                       bg-white/95 dark:bg-[#0B1221]/95 backdrop-blur-md
+                       shadow-2xl z-[9999]"
+          >
+            {LANGS.map((l) => {
+              const active = l.code === language;
+              return (
+                <button
+                  key={l.code}
+                  role="menuitem"
+                  type="button"
+                  onClick={() => {
+                    setLanguage(l.code);
+                    setOpen(false);
+                  }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-all
+                              ${active
+                                ? "bg-primary/15 text-brandNavy dark:text-white"
+                                : "text-slate-700 dark:text-slate-200 hover:bg-slate-100/70 dark:hover:bg-slate-800/60"
+                              }`}
+                >
+                  <img
+                    src={l.flagSrc}
+                    alt={`${l.label} flag`}
+                    className="w-5 h-5 rounded-sm object-cover shadow-sm"
+                    loading="lazy"
+                  />
+                  <span className="flex-1 text-sm font-semibold">
+                    {l.label}
+                  </span>
+                  <span className={`text-[11px] font-extrabold tracking-wider ${active ? "opacity-90" : "opacity-60"}`}>
+                    {l.short}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    );
+  };
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/95 dark:bg-[#0B1221]/95 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800 transition-colors">
