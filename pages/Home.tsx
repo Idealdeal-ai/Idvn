@@ -134,11 +134,11 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <p className="text-4xl font-bold text-primary mb-1">35+</p>
+              <p className="text-4xl font-bold text-primary mb-1">12+</p>
               <p className="text-sm uppercase tracking-widest text-slate-400">{language === 'ar' ? 'منتجات مصدرة' : (language === 'fr' ? 'Produits Sourcés' : 'Products Sourced')}</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary mb-1">07+</p>
+              <p className="text-4xl font-bold text-primary mb-1">05+</p>
               <p className="text-sm uppercase tracking-widest text-slate-400">{language === 'ar' ? 'دول شريكة' : (language === 'fr' ? 'Pays Partenaires' : 'Partner Countries')}</p>
             </div>
             <div>

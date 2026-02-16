@@ -498,8 +498,8 @@ useEffect(() => {
 <section className="bg-brandNavy py-14 text-white">
   <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-12">
     {[
-      { value: '35+', label: 'PRODUCTS SOURCED' },
-      { value: '07+', label: 'PARTNER COUNTRIES' },
+      { value: '12+', label: 'PRODUCTS SOURCED' },
+      { value: '05+', label: 'PARTNER COUNTRIES' },
       { value: '100%', label: 'QUALITY VERIFIED' },
       { value: '24/7', label: 'GLOBAL SUPPORT' },
     ].map((stat, idx) => (
