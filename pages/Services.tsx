@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { useLanguage } from '../App';
 
@@ -349,12 +349,18 @@ const Services: React.FC = () => {
             {t('ready_desc')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a className="gold-gradient text-brandNavy px-10 py-4 rounded-lg font-bold text-lg shadow-2xl transition-transform hover:scale-105" href="#/contact">
-              {t('request_quote')}
-            </a>
-            <a className="border-2 border-white/30 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors" href="#">
-              {t('case_studies')}
-            </a>
+            <Link
+  to="/contact"
+  className="gold-gradient text-brandNavy px-10 py-4 rounded-lg font-bold text-lg shadow-2xl transition-transform hover:scale-105 inline-flex items-center justify-center"
+>
+  {t('request_quote')}
+</Link>
+           <Link
+  to="/contact"
+  className="border-2 border-white/30 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors inline-flex items-center justify-center"
+>
+  {t('case_studies')}
+</Link>
           </div>
         </div>
       </section>
