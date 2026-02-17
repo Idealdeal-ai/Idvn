@@ -2,15 +2,42 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+
+// ✅ الدومينات المسموح لها تنادي السيرفر
+const allowedOrigins = [
+  "https://www.idealdealvn.com",
+  "https://idealdealvn.com"
+];
+
+// ✅ CORS مضبوط
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // لو الطلب جاي من Postman/Server (origin فاضي) سيبه يعدي
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.includes(origin)) return callback(null, true);
+
+      return callback(new Error("Not allowed by CORS: " + origin));
+    },
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: false
+  })
+);
+
 app.use(express.json());
+
+// ✅ للتجربة السريعة من المتصفح
+app.get("/", (req, res) => {
+  res.status(200).send("AI server is running ✅");
+});
 
 // Endpoint اللي الفرونت بيناديه
 app.post("/recommend", async (req, res) => {
   try {
     const { tab, history } = req.body;
 
-    // مؤقتًا: توصيات تجريبية (بدون AI حقيقي)
     const recommendations = [
       {
         title: "Vietnam Premium Robusta Coffee",
@@ -33,14 +60,16 @@ app.post("/recommend", async (req, res) => {
     ];
 
     res.json(recommendations);
-
   } catch (err) {
     console.error("AI recommendation error:", err);
     res.status(500).json({ error: "AI recommendation failed" });
   }
 });
 
-// شغل السيرفر على نفس البورت اللي الفرونت بيناديه
-app.listen(3001, () => {
-  console.log("AI Server running on http://localhost:3001");
+// ✅ Render بيدي PORT لوحده
+const PORT = process.env.PORT || 3001;
+
+// ✅ لازم تسمع على 0.0.0.0 على الاستضافة
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`AI Server running on port ${PORT}`);
 });
