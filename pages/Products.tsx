@@ -500,7 +500,7 @@ useEffect(() => {
     {[
       { value: '12+', label: 'PRODUCTS SOURCED' },
       { value: '05+', label: 'PARTNER COUNTRIES' },
-      { value: '100%', label: 'QUALITY VERIFIED' },
+      { value: '98%', label: 'QUALITY VERIFIED' },
       { value: '24/7', label: 'GLOBAL SUPPORT' },
     ].map((stat, idx) => (
       <div

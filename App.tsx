@@ -37,7 +37,7 @@ const translations: Record<Language, Record<string, string>> = {
     quality_first: 'Quality First',
     quality_desc: 'Rigorous inspection standards.',
     global_reach: 'Global Reach',
-    global_desc: 'Across 7 continents.',
+    global_desc: 'Across 5 continents.',
     footer_desc: 'Your strategic partner for high quality Vietnamese products to the global market. Built on trust, driven by excellence.',
     copyright: 'Copyright © 2025 Ideal Deal Vietnam. All rights reserved.',
     built_on_trust: 'Built On Trust',

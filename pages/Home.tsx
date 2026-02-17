@@ -142,7 +142,7 @@ const Home: React.FC = () => {
               <p className="text-sm uppercase tracking-widest text-slate-400">{language === 'ar' ? 'دول شريكة' : (language === 'fr' ? 'Pays Partenaires' : 'Partner Countries')}</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary mb-1">100%</p>
+              <p className="text-4xl font-bold text-primary mb-1">98%</p>
               <p className="text-sm uppercase tracking-widest text-slate-400">{language === 'ar' ? 'جودة مضمونة' : (language === 'fr' ? 'Qualité Vérifiée' : 'Quality Verified')}</p>
             </div>
             <div>
