@@ -535,7 +535,7 @@ useEffect(() => {
 
     <Link
   to="/contact"
-  className="inline-block px-14 py-6 bg-primary text-brandNavy font-black rounded-xl ..."
+  className="inline-block px-14 py-6 bg-primary text-brandNavy font-black rounded-xl shadow-[0_20px_40px_rgba(217,168,78,0.2)] hover:shadow-[0_25px_50px_rgba(217,168,78,0.3)] hover:scale-105 active:scale-95 transition-all uppercase tracking-[0.2em] text-sm"
 >
   CONTACT US NOW
 </Link>
