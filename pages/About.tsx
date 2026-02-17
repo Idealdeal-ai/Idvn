@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { useLanguage } from '../App';
 
@@ -197,13 +197,13 @@ const About: React.FC = () => {
             <p className="text-slate-500 dark:text-slate-400 mb-6">
               {language === 'ar' ? 'هل لديك المزيد من الأسئلة؟' : (language === 'vi' ? 'Bạn vẫn còn thắc mắc?' : (language === 'zh' ? '还有其他问题吗？' : (language === 'es' ? '¿Aún tiene preguntas?' : (language === 'fr' ? 'Vous avez d\'autres questions ?' : 'Still have more questions?'))))}
             </p>
-            <a 
-              href="#/contact" 
-              className="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all"
-            >
-              {t('contact_hero_desc')}
-              <span className={`material-icons text-lg ${language === 'ar' ? 'rotate-180' : ''}`}>arrow_forward</span>
-            </a>
+            <Link
+  to="/contact"
+  className="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all"
+>
+  {t('contact_hero_desc')}
+  <span className={`material-icons text-lg ${language === 'ar' ? 'rotate-180' : ''}`}>arrow_forward</span>
+</Link>
           </div>
         </div>
       </section>

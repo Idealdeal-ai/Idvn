@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../App';
 import axios from 'axios';
-
+import { Link } from "react-router-dom";
 // Consumer Goods Images & Titles
 type ConsumerImage = {
   image: string;
@@ -236,9 +236,11 @@ useEffect(() => {
       infoLabel: 'Certifications',
       infoValue: 'FairTrade, Organic',
       images: [
-        '/products/co1.png',
-        '/products/co2.png',
-        '/products/co3.png'
+        '/products/idealdeal coffee beans 1.jpg',
+        '/products/idealdeal coffee beans 2.jpg',
+        '/products/idealdeal coffee beans 3.jpg',
+        '/products/idealdeal coffee beans 4.jpg',
+        '/products/idealdeal coffee beans 5.jpg'
       ]
     },
     {
@@ -531,12 +533,12 @@ useEffect(() => {
       At Ideal Deal Vietnam, we value clear communication and strong partnerships. Whether you're seeking reliable suppliers, business collaborations, or product information, our team is ready to assist with professionalism and efficiency.
     </p>
 
-    <a
-      href="#/contact"
-      className="inline-block px-14 py-6 bg-primary text-brandNavy font-black rounded-xl shadow-[0_20px_40px_rgba(217,168,78,0.2)] hover:shadow-[0_25px_50px_rgba(217,168,78,0.3)] hover:scale-105 active:scale-95 transition-all uppercase tracking-[0.2em] text-sm"
-    >
-      CONTACT US NOW
-    </a>
+    <Link
+  to="/contact"
+  className="inline-block px-14 py-6 bg-primary text-brandNavy font-black rounded-xl ..."
+>
+  CONTACT US NOW
+</Link>
   </div>
 </section>
 
