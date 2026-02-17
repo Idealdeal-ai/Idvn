@@ -65,11 +65,20 @@ app.post("/recommend", async (req, res) => {
     res.status(500).json({ error: "AI recommendation failed" });
   }
 });
+// ✅ Tracking endpoint
+app.post("/track", (req, res) => {
+  try {
+    const { product, tab, history } = req.body;
 
+    // حالياً بنسجل في اللوج بس
+    console.log("TRACK:", { product, tab, history });
+
+    res.json({ ok: true });
+  } catch (err) {
+    console.error("Track error:", err);
+    res.status(500).json({ error: "Track failed" });
+  }
+});
 // ✅ Render بيدي PORT لوحده
 const PORT = process.env.PORT || 3001;
-
-// ✅ لازم تسمع على 0.0.0.0 على الاستضافة
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`AI Server running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log("AI Server running on port", PORT));
