@@ -106,7 +106,7 @@ const translations: Record<Language, Record<string, string>> = {
     unmatched_network: "Unmatched Local Network",
     unmatched_network_desc: "Direct access to top tier Vietnamese manufacturers and raw material suppliers.",
     total_transparency: "Total Transparency",
-    total_transparency_desc: "Real-time tracking and clear, honest communication at every stage of the deal.",
+    total_transparency_desc: "Real time tracking and clear, honest communication at every stage of the deal.",
     risk_mitigation: "Risk Mitigation",
     risk_mitigation_desc: "We handle the legalities and standards compliance so you can focus on growing your business.",
     discuss_next_deal: "Let's Discuss Your Next Global Deal",
