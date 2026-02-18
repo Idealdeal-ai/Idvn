@@ -246,7 +246,7 @@ useEffect(() => {
     {
       category: 'PREMIUM GRADE',
       title: 'Processed Cashew Nuts',
-      desc: "Vietnam's finest cashews, available in various grades (W240, W320). Processed with state of the art hygiene technology.",
+      desc: "Vietnam's finest cashews, available in various grades (W240, W320,..etc). Processed with state of the art hygiene technology.",
       infoLabel: 'Packaging',
       infoValue: 'Bulk , Organic',
       images: [

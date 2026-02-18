@@ -156,7 +156,7 @@ const Services: React.FC = () => {
         'Inspections aléatoires finales (FRI)',
         'Rapport de qualité détaillé avec preuves photos et vidéos'
       ] : [
-        'Pre-production and mid-production inspections',
+        'Pre production and mid production inspections',
         'Final random inspections (FRI)',
         'Detailed quality report with photo/video evidence'
       ])))),
