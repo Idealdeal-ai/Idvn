@@ -63,7 +63,7 @@ const translations: Record<Language, Record<string, string>> = {
     value2: 'Uncompromising Efficiency',
     value3: 'Deep rooted Trust',
     services_hero_title: 'Our Services',
-    services_hero_desc: 'Empowering international businesses with seamless Vietnamese market entry, quality-assured sourcing, and end to end logistics solutions.',
+    services_hero_desc: 'Empowering international businesses with seamless Vietnamese market entry, quality assured sourcing, and end to end logistics solutions.',
     sourcing: 'Product Sourcing',
     sourcing_desc: 'Vietnam offers a wealth of high quality manufactured and natural goods. We bridge the gap by identifying the finest products that meet your specific market demands.',
     supplier_id: 'Supplier Identification',
