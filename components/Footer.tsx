@@ -32,6 +32,7 @@ const Footer: React.FC = () => {
             <div className="mt-2 space-y-2 text-[12px] leading-relaxed text-slate-500 dark:text-slate-400">
               <div className="font-semibold text-brandNavy dark:text-white">
                 CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM
+                Tax code: 0111274380
               </div>
 
               <div>
@@ -55,6 +56,7 @@ const Footer: React.FC = () => {
                 >
                   <span className="material-symbols-outlined text-base leading-none">mail</span>
                   <span>info@idealdealvn.com</span>
+                   <span>mando@idealdealvn.com</span>
                 </a>
               </div>
             </div>
