@@ -179,7 +179,7 @@ const Products: React.FC = () => {
 
   const handleAIInteraction = async (productName: string) => {
     try {
-      await axios.post("http://localhost:3001/track", {
+      await axios.post("https://idealdealvn.onrender.com//track", {
         product: productName,
         tab: activeTab,
         history
@@ -194,7 +194,7 @@ const Products: React.FC = () => {
   setIsAiLoading(true);
 
   try {
-    const res = await axios.post("http://localhost:3001/recommend", {
+    const res = await axios.post("https://idealdealvn.onrender.com/recommend", {
       tab: activeTab,
       history
     });
@@ -250,10 +250,11 @@ useEffect(() => {
       infoLabel: 'Packaging',
       infoValue: 'Bulk , Organic',
       images: [
-        '/products/shew4.png',
-        '/products/shew2.png',
-        '/products/shew3.png',
-        '/products/shew1.png',
+        '/products/idealdeal cashew 1.jpg',
+        '/products/idealdeal cashew 2.jpg',
+        '/products/idealdeal cashew 3.jpg',
+        '/products/idealdeal cashew 4.png',
+        '/products/idealdeal cashew 5.png'
       ]
     },
     {
@@ -263,9 +264,10 @@ useEffect(() => {
       infoLabel: 'Origins',
       infoValue: 'Bulk , Organic',
       images: [
-        '/products/pp1.png',
-        '/products/pp2.png',
-        '/products/pp3.png'
+        '/products/idealdeal black white pepper.jpg',
+        '/products/idealdeal blackpepper 2.jpg',
+        '/products/idealdeal blackpepper 3.jpg',
+        '/products/idealdeal whitepepper 4.png',
       ]
     }
   ];
