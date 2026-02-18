@@ -273,7 +273,7 @@ const Contact: React.FC = () => {
                   <div>
                     <p className="font-semibold text-lg">Office</p>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                      Office 306, 103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội 100000
+                      103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội 100000
                     </p>
                   </div>
                 </div>

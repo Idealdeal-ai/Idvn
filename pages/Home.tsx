@@ -345,7 +345,7 @@ const Home: React.FC = () => {
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <span className="material-icons-outlined text-primary text-xl">location_on</span>
                       </div>
-                      <p className="text-[11px] text-slate-600 dark:text-slate-300">{t('Office 306, 103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội 100000')}</p>
+                      <p className="text-[11px] text-slate-600 dark:text-slate-300">{t('103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội 100000')}</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
