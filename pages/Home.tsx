@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                 src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?q=80&w=2070&auto=format&fit=crop"
               />
               <div className={`absolute -bottom-6 ${language === 'ar' ? '-left-6' : '-right-6'} bg-brandNavy px-10 py-6 rounded-md shadow-xl hidden md:block border-b-4 border-primary`}>
-                <p className="text-primary text-4xl font-display font-extrabold leading-tight">01+</p>
+                <p className="text-primary text-4xl font-display font-extrabold leading-tight">01</p>
                 <p className="text-white text-[10px] font-bold uppercase tracking-[0.2em]">{t('years_trust')}</p>
               </div>
             </div>

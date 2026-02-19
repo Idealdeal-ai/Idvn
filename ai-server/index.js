@@ -47,13 +47,13 @@ app.post("/recommend", async (req, res) => {
       },
       {
         title: "Vietnam Cashew Kernels WW320",
-        description: "Export-grade cashew nuts with international standards.",
+        description: "Export grade cashew nuts with international standards.",
         category: "Nuts",
         reason: "Matches user's interest in agricultural exports."
       },
       {
         title: "Frozen Pangasius Fillet",
-        description: "Well-processed frozen fish for wholesale trading.",
+        description: "Well processed frozen fish for wholesale trading.",
         category: "Seafood",
         reason: "User browsed seafood and manufacturing categories."
       }

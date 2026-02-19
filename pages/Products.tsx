@@ -369,7 +369,7 @@ useEffect(() => {
                   <span className="text-[10px] font-black text-primary tracking-[0.2em] uppercase mb-3 block">INDUSTRIAL SCALE</span>
                   <h3 className="text-4xl font-display font-bold mb-6">Textile & Apparel OEM</h3>
                   <p className="text-slate-300 mb-10 max-w-md leading-relaxed">
-                    Full-cycle production services for global fashion brands, utilizing Vietnam's highly skilled workforce and modern garment facilities.
+                    Full cycle production services for global fashion brands, utilizing Vietnam's highly skilled workforce and modern garment facilities.
                   </p>
                   <div className="flex gap-4">
                     <button className="px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-brandNavy transition-all">Custom Sizing</button>
