@@ -74,7 +74,7 @@ const Home: React.FC = () => {
               className="bg-primary hover:bg-opacity-90 text-brandNavy font-extrabold px-10 py-5 rounded-md transition-all text-sm uppercase tracking-widest flex items-center justify-center gap-3 shadow-xl"
             >
               {t('explore')} 
-              <span className={`material-symbols-outlined text-base ${language === 'ar' ? 'rotate-180' : ''}`}>arrow_forward</span>
+              
             </Link>
             <Link 
               to="/about" 

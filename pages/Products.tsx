@@ -143,9 +143,7 @@ const AgricultureCard: React.FC<ProductCardProps> = ({ category, title, desc, in
       <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-10 flex-grow">{desc}</p>
       <div className="flex justify-between items-center pt-6 border-t border-slate-50 dark:border-slate-800">
         <span className="text-[11px] font-medium text-slate-400 tracking-wide">{infoLabel}: {infoValue}</span>
-        <button className="text-primary hover:translate-x-2 transition-transform" onClick={onInteraction}>
-          <span className="material-icons-round">east</span>
-        </button>
+       
       </div>
     </div>
   </div>
@@ -269,7 +267,20 @@ useEffect(() => {
         '/products/idealdeal-blackpepper-3.jpg',
         '/products/idealdeal-whitepepper-4.png',
       ]
-    }
+    },
+    {
+  category: 'EXPORTS',
+  title: 'Vietnamese Pineapple',
+  desc: 'Sweet, fragrant Vietnamese pineapples with firm golden flesh. Carefully selected and packed for export to meet international quality and phytosanitary standards.',
+  infoLabel: 'Packaging',
+  infoValue: 'Cartons / Bulk, Export Grade',
+  images: [
+    '/products/idealdeal-pineapple-1.jpg',
+    '/products/idealdeal-pineapple-2.jpg',
+    '/products/idealdeal-pineapple-3.jpg',
+    '/products/idealdeal-pineapple-4.jpg',
+  ],
+},
   ];
 
   const manufacturingIcons = [
