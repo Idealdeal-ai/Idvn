@@ -234,11 +234,11 @@ useEffect(() => {
       infoLabel: 'Certifications',
       infoValue: 'FairTrade, Organic',
       images: [
-        '/products/idealdeal-coffee-beans-1.jpg',
-        '/products/idealdeal-coffee-beans-2.jpg',
-        '/products/idealdeal-coffee-beans-3.jpg',
-        '/products/idealdeal-coffee-beans-4.jpg',
-        '/products/idealdeal-coffee-beans-5.jpg'
+        '/products/optimized/idealdeal-coffee-beans-1.jpg',
+        '/products/optimized/idealdeal-coffee-beans-2.jpg',
+        '/products/optimized/idealdeal-coffee-beans-3.jpg',
+        '/products/optimized/idealdeal-coffee-beans-4.jpg',
+        '/products/optimized/idealdeal-coffee-beans-5.jpg'
       ]
     },
     {
@@ -248,11 +248,11 @@ useEffect(() => {
       infoLabel: 'Packaging',
       infoValue: 'Bulk , Organic',
       images: [
-        '/products/idealdeal-cashew-1.jpg',
-        '/products/idealdeal-cashew-2.jpg',
-        '/products/idealdeal-cashew-3.jpg',
-        '/products/idealdeal-cashew-4.png',
-        '/products/idealdeal-cashew-5.png'
+        '/products/optimized/idealdeal-cashew-1.jpg',
+        '/products/optimized/idealdeal-cashew-2.jpg',
+        '/products/optimized/idealdeal-cashew-3.jpg',
+        '/products/optimized/idealdeal-cashew-4.png',
+        '/products/optimized/idealdeal-cashew-5.png'
       ]
     },
     {
@@ -263,9 +263,9 @@ useEffect(() => {
       infoValue: 'Bulk , Organic',
       images: [
         '/products/idealdeal-black-white-pepper.jpg',
-        '/products/idealdeal-blackpepper-2.jpg',
-        '/products/idealdeal-blackpepper-3.jpg',
-        '/products/idealdeal-whitepepper-4.png',
+        '/products/optimized/idealdeal-blackpepper-2.jpg',
+        '/products/optimized/idealdeal-blackpepper-3.jpg',
+        '/products/optimized/idealdeal-whitepepper-4.png',
       ]
     },
     {
