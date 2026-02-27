@@ -243,7 +243,7 @@ useEffect(() => {
     },
     {
       category: 'PREMIUM GRADE',
-      title: 'Processed Cashew Nuts',
+      title: 'Rew & Processed Cashew',
       desc: "Vietnam's finest cashews, available in various grades (W240, W320,..etc). Processed with state of the art hygiene technology.",
       infoLabel: 'Packaging',
       infoValue: 'Bulk , Organic',
@@ -268,6 +268,39 @@ useEffect(() => {
         '/products/idealdeal-whitepepper-4.png',
       ]
     },
+    {
+  category: 'EXPORTS',
+  title: 'Vietnamese Rice',
+  desc: 'Premium Vietnamese rice with consistent grain length, excellent aroma, and high milling standards. We supply white rice, brown rice, and broken rice in multiple export grades suitable for retail and bulk distribution.',
+  infoLabel: 'Varieties & Grades',
+  infoValue: 'Jasmine, ST25, DT8, OM18, Japonica | Brown Rice | 5%–25% Broken',
+  images: [
+    '/products/idealdeal-vietnam-rice-1.jpg',
+    '/products/idealdeal-vietnam-rice-2.jpg',
+    '/products/idealdeal-vietnam-rice-3.jpg',
+    '/products/idealdeal-vietnam-rice-4.jpg',
+    '/products/idealdeal-vietnam-rice-5.jpg',
+    '/products/idealdeal-vietnam-rice-6.jpg',
+    '/products/idealdeal-vietnam-rice-7.jpg',
+  ],
+},
+{
+  category: 'SPECIALITY',
+  title: 'Vietnamese Green Tea',
+  desc: 'Premium Vietnamese green tea sourced from highland regions and traditional tea gardens. Clean, fresh taste with balanced aroma available in multiple styles for retail and bulk export.',
+  infoLabel: 'Types & Grades',
+  infoValue: 'Thái Nguyên • Shan Tuyết • Jasmine Green • Gunpowder • Sencha-style',
+  qualityLabel: 'Quality',
+  qualityValue: 'Low moisture • Clean leaf • Consistent cut • Export-ready packaging',
+  images: [
+    '/products/idealdeal-green-tea-1.jpg',
+    '/products/idealdeal-green-tea-2.jpg',
+    '/products/idealdeal-green-tea-3.jpg',
+    '/products/idealdeal-green-tea-4.jpg',
+    '/products/idealdeal-green-tea-5.jpg',
+    '/products/idealdeal-green-tea-6.jpg',
+  ],
+},
     {
   category: 'EXPORTS',
   title: 'Vietnamese Pineapple',
