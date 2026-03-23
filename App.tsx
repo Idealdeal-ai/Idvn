@@ -29,7 +29,7 @@ const translations: Record<Language, Record<string, string>> = {
     hero_subtitle: "Connecting Vietnam's best natural and manufactured goods with international buyers who value quality, reliability, and long term excellence.",
     explore: 'Explore Our Services',
     learn_more: 'Learn More',
-    years_trust: 'Years of Trust',
+    years_trust: 'Established',
     about_title: 'About Ideal Deal Vietnam',
     about_heading: 'Bridging Markets with Integrity and Professionalism',
     about_p1: "Based in the heart of Vietnam's booming economy, we specialize in the export of premium Vietnamese products to global markets. Our journey is built on the foundation of trust and meticulous attention to detail.",
