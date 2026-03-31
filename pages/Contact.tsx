@@ -161,7 +161,7 @@ const Contact: React.FC = () => {
                     onChange={(e) =>
                       setFormState({ ...formState, name: e.target.value })
                     }
-                    className="w-full px-4 py-3 rounded-lg border-slate-200 dark:border-slate-700 dark:bg-slate-800 focus:ring-primary focus:border-primary transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   />
                 </div>
 
@@ -174,11 +174,13 @@ const Contact: React.FC = () => {
                     type="email"
                     value={formState.email}
                     onChange={handleEmailChange}
-                    className={`w-full px-4 py-3 rounded-lg border ${
-                      emailError
-                        ? "border-red-500 ring-red-500"
-                        : "border-slate-200 dark:border-slate-700"
-                    } dark:bg-slate-800 focus:ring-primary focus:border-primary transition-colors`}
+                   className={`w-full px-4 py-3 rounded-lg border 
+  ${emailError ? "border-red-500 ring-2 ring-red-200" : "border-gray-400"}
+  bg-white text-black
+  placeholder-gray-400
+  shadow-sm
+  focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary
+`}
                   />
                   {emailError && (
                     <p className="text-xs text-red-500 mt-1 font-medium">
@@ -198,7 +200,7 @@ const Contact: React.FC = () => {
                     onChange={(e) =>
                       setFormState({ ...formState, company: e.target.value })
                     }
-                    className="w-full px-4 py-3 rounded-lg border-slate-200 dark:border-slate-700 dark:bg-slate-800 focus:ring-primary focus:border-primary transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   />
                 </div>
 
@@ -215,7 +217,7 @@ const Contact: React.FC = () => {
                         inquiryType: e.target.value,
                       })
                     }
-                    className="w-full px-4 py-3 rounded-lg border-slate-200 dark:border-slate-700 dark:bg-slate-800 focus:ring-primary focus:border-primary transition-colors appearance-none"
+                   className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   >
                     <option value="general">General Inquiry</option>
                     <option value="sourcing">Product Sourcing</option>
@@ -235,7 +237,7 @@ const Contact: React.FC = () => {
                     onChange={(e) =>
                       setFormState({ ...formState, message: e.target.value })
                     }
-                    className="w-full px-4 py-3 rounded-lg border-slate-200 dark:border-slate-700 dark:bg-slate-800 focus:ring-primary focus:border-primary transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   />
                 </div>
 

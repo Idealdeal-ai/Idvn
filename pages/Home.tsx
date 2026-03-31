@@ -281,7 +281,7 @@ const Home: React.FC = () => {
         placeholder={t('full_name')}
         value={formState.name}
         onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-        className="w-full px-4 py-3 text-black placeholder-gray-500 bg-white dark:text-black dark:placeholder-gray-500 dark:bg-white"
+        className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
       />
 
       <input
@@ -292,7 +292,7 @@ const Home: React.FC = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setFormState({ ...formState, email: e.target.value })
         }
-        className="w-full px-4 py-3 text-black placeholder-gray-500 bg-white dark:text-black dark:placeholder-gray-500 dark:bg-white"
+       className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
       />
 
     </div>   {/* ← مهم جدًا: قفل div grid هنا */}
@@ -305,7 +305,7 @@ const Home: React.FC = () => {
       onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
         setFormState({ ...formState, subject: e.target.value })
       }
-     className="w-full px-4 py-3 text-black placeholder-gray-500 bg-white dark:text-black dark:placeholder-gray-500 dark:bg-white"
+     className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
     />
 
     <textarea
@@ -316,7 +316,7 @@ const Home: React.FC = () => {
       onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
         setFormState({ ...formState, message: e.target.value })
       }
-      className="w-full px-4 py-3 text-black placeholder-gray-500 bg-white dark:text-black dark:placeholder-gray-500 dark:bg-white"
+      className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
     />
 
     <button
