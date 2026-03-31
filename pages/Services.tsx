@@ -96,7 +96,7 @@ const Services: React.FC = () => {
         'Custom product development assistance',
         'Sample acquisition and review'
       ])))),
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCvdJhaYTyxILuNBEVJJ9Z0IAJIjB917Cs2aLBpIuiBPht3bUZ2uFju1Ynl84ARF6PdV-J6KAdmZamKkzkm8Sa6OpEIv0N1VeTcI5G-FQYS_u-RV1EKQErhNoMbk1-80AmYNJZmMkyTULyTsQuNtvJmZ1NFpF-Xpl8OdMUtcZT-K_w_VY0XA1xkybyUuY8MfJXp7EzxvMzhoqjhHNQvLfDvE4VCrrJ0FCYma1E2SE91nBhU2OQgH0DcHuNgetidUB_4EkrUZCPR9PY'
+      img: 'public/Idealdeal-product-sourcing.jpeg'
     },
     {
       title: t('supplier_id'),
@@ -128,7 +128,7 @@ const Services: React.FC = () => {
         'Production capacity verification',
         'Contract negotiation and legal protection'
       ])))),
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBgyeAawBAeLy5HauCVdlJpMqh0MWh1SG_S0RsK38FELhr2wlW5DsahrJTUbd_0ikfjM82Slh-kypPSUf3CSHUqMZBgty1fFXlqfGXzUtGICnJJbmnxKZ73cKrrAxp0PSSXI3t6V1WwUCmVz9Rs1mRoH6aWypatW67Rq7itSHrASXKThe4kMSD4I4Q8ccZZsimRc3-Mzmt-Yr5w4vODHVvZ1EGj6CztBN69JfZ60Snr3a5FEgscacunf9hG3lCF1OF6p2KnFmNy3KQ'
+      img: 'public/Idealdeal-supplier-identification.jpeg'
     },
     {
       title: t('quality_assurance'),
@@ -160,7 +160,7 @@ const Services: React.FC = () => {
         'Final random inspections (FRI)',
         'Detailed quality report with photo/video evidence'
       ])))),
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDqvYWsdEAMUTk8kZapDNhOLPMlA5x1jO2rQhpJJQmh2kZGf65b_b47uuHNOLKrLCedocss8qvDeYalFFJrMaBRq8kfUqArulIerlyOG5K0Pci7bma7Y6tJwuDkfc9P5-MW74AZcfXdKnQnmrhLH2c6VHEEolaD3p48v7ZNz0PyhiqGfXJ6Lg4pQMDhS--4JzGa-SFmoLPvB6O1QJ0rCzqpfv_ha-L_SxbPjzejYFTpu8yVAwOXduysmfamnimi7GCCcEh7QoszdPg'
+      img: 'public/Idealdeal-quality-assurance.jpeg'
     }
   ];
 
