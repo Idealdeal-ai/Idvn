@@ -96,7 +96,7 @@ const Services: React.FC = () => {
         'Custom product development assistance',
         'Sample acquisition and review'
       ])))),
-      img: 'public/Idealdeal-product-sourcing.jpeg'
+      img: '/Idealdeal-product-sourcing.jpeg'
     },
     {
       title: t('supplier_id'),
@@ -128,7 +128,7 @@ const Services: React.FC = () => {
         'Production capacity verification',
         'Contract negotiation and legal protection'
       ])))),
-      img: 'public/Idealdeal-supplier-identification.jpeg'
+      img: '/Idealdeal-supplier-identification.jpeg'
     },
     {
       title: t('quality_assurance'),
@@ -160,7 +160,7 @@ const Services: React.FC = () => {
         'Final random inspections (FRI)',
         'Detailed quality report with photo/video evidence'
       ])))),
-      img: 'public/Idealdeal-quality-assurance.jpeg'
+      img: '/Idealdeal-quality-assurance.jpeg'
     }
   ];
 
