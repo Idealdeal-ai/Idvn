@@ -1,5 +1,5 @@
 
-import {  useState } from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../App';
 import emailjs from "@emailjs/browser";
@@ -9,27 +9,40 @@ const Home: React.FC = () => {
   const { t, language } = useLanguage();
   const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [sendError, setSendError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true);
+    setSendError(null);
 
-    emailjs.send(
-  'service_gih8d89',
-  'template_yhrlqso',
-  {
-    from_name: formState.name,
-    from_email: formState.email,
-    subject: "Home Page Inquiry",
-    message: formState.message,
-  },
-  'w9BCLA8UHnXFzQUI0'
-).then(() => {
-      setSubmitted(true);
-      setFormState({ name: '', email: '', subject: '', message: '' });
-      setTimeout(() => setSubmitted(false), 5000);
-    }).catch(() => {
-      alert('Error sending message, please try again later.');
-    });
+    const serviceId  = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_HOME;
+    const publicKey  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    emailjs
+      .send(
+        serviceId,
+        templateId,
+        {
+          from_name:  formState.name,
+          from_email: formState.email,
+          subject:    "Home Page Inquiry",
+          message:    formState.message,
+        },
+        publicKey
+      )
+      .then(() => {
+        setSubmitted(true);
+        setLoading(false);
+        setFormState({ name: '', email: '', subject: '', message: '' });
+        setTimeout(() => setSubmitted(false), 5000);
+      })
+      .catch(() => {
+        setSendError(t('send_error') || 'Error sending message, please try again later.');
+        setLoading(false);
+      });
   };
 
  
@@ -321,10 +334,15 @@ const Home: React.FC = () => {
 
     <button
       type="submit"
-      className="w-full py-4 bg-brandNavy dark:bg-slate-800 text-white font-bold rounded-lg shadow-xl hover:brightness-110 transition"
+      disabled={loading}
+      className="w-full py-4 bg-brandNavy dark:bg-slate-800 text-white font-bold rounded-lg shadow-xl hover:brightness-110 transition disabled:opacity-50"
     >
-      {t('send_inquiry')}
+      {loading ? (t('sending') || 'Sending...') : t('send_inquiry')}
     </button>
+
+    {sendError && (
+      <p className="text-red-500 text-sm font-medium mt-2" role="alert">{sendError}</p>
+    )}
 
   </form>
 )}

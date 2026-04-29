@@ -97,6 +97,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
               <li><Link to="/" className="hover:text-primary transition-colors">{t('home')}</Link></li>
               <li><Link to="/products" className="hover:text-primary transition-colors">{t('products')}</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">{t('services')}</Link></li>
               <li><Link to="/about" className="hover:text-primary transition-colors">{t('about')}</Link></li>
               <li><Link to="/contact" className="hover:text-primary transition-colors">{t('contact')}</Link></li>
             </ul>
@@ -107,9 +108,9 @@ const Footer: React.FC = () => {
               {language === 'ar' ? 'قانوني' : 'Legal'}
             </h5>
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
-              <li><a href="#" className="hover:text-primary transition-colors">{language === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy'}</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">{language === 'ar' ? 'شروط الخدمة' : 'Terms of Service'}</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">{language === 'ar' ? 'سياسة الكوكيز' : 'Cookie Policy'}</a></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary transition-colors">{language === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy'}</Link></li>
+              <li><Link to="/terms-of-service" className="hover:text-primary transition-colors">{language === 'ar' ? 'شروط الخدمة' : 'Terms of Service'}</Link></li>
+              <li><Link to="/cookie-policy" className="hover:text-primary transition-colors">{language === 'ar' ? 'سياسة الكوكيز' : 'Cookie Policy'}</Link></li>
             </ul>
           </div>
         </div>

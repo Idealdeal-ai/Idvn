@@ -177,7 +177,7 @@ const Products: React.FC = () => {
 
   const handleAIInteraction = async (productName: string) => {
     try {
-      await axios.post("https://idealdealvn.onrender.com//track", {
+      await axios.post(`${import.meta.env.VITE_AI_SERVER_URL || 'https://idealdealvn.onrender.com'}/track`, {
         product: productName,
         tab: activeTab,
         history
@@ -192,7 +192,7 @@ const Products: React.FC = () => {
   setIsAiLoading(true);
 
   try {
-    const res = await axios.post("https://idealdealvn.onrender.com/recommend", {
+    const res = await axios.post(`${import.meta.env.VITE_AI_SERVER_URL || 'https://idealdealvn.onrender.com'}/recommend`, {
       tab: activeTab,
       history
     });

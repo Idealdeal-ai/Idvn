@@ -25,68 +25,59 @@ const Contact: React.FC = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  setLoading(true);
-  setSendError(null);
+    // Validate email BEFORE setting loading — ensures button is never frozen
+    if (!validateEmail(formState.email)) {
+      setEmailError(t('invalid_email') || "Invalid email address");
+      return;
+    }
 
-  if (!validateEmail(formState.email)) {
-    setEmailError("Invalid email address");
-    return;
-  }
+    setEmailError(null);
+    setLoading(true);
+    setSendError(null);
 
-  setEmailError(null);
-  setLoading(true);
-  setSendError(null);
+    if (!formRef.current) {
+      setSendError("Form not found.");
+      setLoading(false);
+      return;
+    }
 
-  if (!formRef.current) {
-    setSendError("Form not found.");
-    setLoading(false);
-    return;
-  }
+    const serviceId  = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_CONTACT;
+    const publicKey  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-  const subjectInput = formRef.current.querySelector('input[name="subject"]') as HTMLInputElement | null;
-  const messageInput = formRef.current.querySelector('textarea[name="message"]') as HTMLTextAreaElement | null;
-
-  if (subjectInput) {
-    subjectInput.value = subjectInput.value.replace(/-/g, " ");
-  }
-
-  if (messageInput) {
-    messageInput.value = messageInput.value.replace(/-/g, " ");
-  }
-
-  emailjs.send(
-    "service_gih8d89",          // Service ID
-    "service_idvn2025",         // Template ID
-    {
-      from_name: formState.name,
-      from_email: formState.email,
-      company: formState.company,
-      inquiryType: formState.inquiryType,
-      message: formState.message,
-    },
-    "w9BCLA8UHnXFzQUI0"          // Public Key
-  )
-  .then(() => {
-    setSubmitted(true);
-    setLoading(false);
-    setFormState({
-      name: "",
-      email: "",
-      company: "",
-      inquiryType: "general",
-      message: "",
-    });
-
-    setTimeout(() => setSubmitted(false), 5000);
-  })
-  .catch((err) => {
-    console.error("EmailJS Error:", err);
-    setSendError("An error occurred while sending. Please try again.");
-    setLoading(false);
-  });
-};
+    emailjs
+      .send(
+        serviceId,
+        templateId,
+        {
+          from_name:   formState.name,
+          from_email:  formState.email,
+          company:     formState.company,
+          inquiryType: formState.inquiryType,
+          message:     formState.message,
+        },
+        publicKey
+      )
+      .then(() => {
+        setSubmitted(true);
+        setLoading(false);
+        setFormState({
+          name: "",
+          email: "",
+          company: "",
+          inquiryType: "general",
+          message: "",
+        });
+        setTimeout(() => setSubmitted(false), 5000);
+      })
+      .catch((err) => {
+        console.error("EmailJS Error:", err);
+        setSendError(t('send_error') || "An error occurred while sending. Please try again.");
+        setLoading(false);
+      });
+  };
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -120,7 +111,7 @@ const Contact: React.FC = () => {
       {/* CONTENT */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* LEFT COLUMN - FORM */}
+          {/* LEFT COLUMN — FORM */}
           <div className="lg:col-span-2 bg-white dark:bg-slate-900 rounded-2xl shadow-xl p-8 border border-slate-100 dark:border-slate-800 transition-colors">
             <h2 className="text-2xl font-bold mb-8 text-brandNavy dark:text-primary">
               {t("send_message")}
@@ -128,131 +119,116 @@ const Contact: React.FC = () => {
 
             {submitted ? (
               <div className="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 p-6 rounded-lg mb-6 border border-green-200">
-                Message sent successfully. We will contact you soon.
+                {t('success_msg') || "Message sent successfully. We will contact you soon."}
               </div>
             ) : (
               <form
                 ref={formRef}
                 onSubmit={handleSubmit}
                 className="grid grid-cols-1 md:grid-cols-2 gap-6"
+                noValidate
               >
-                <input type="hidden" name="user_name" value={formState.name} />
-                <input type="hidden" name="user_email" value={formState.email} />
-                <input
-                  type="hidden"
-                  name="user_company"
-                  value={formState.company}
-                />
-                <input
-                  type="hidden"
-                  name="inquiry_type"
-                  value={formState.inquiryType}
-                />
-                <input type="hidden" name="message" value={formState.message} />
-
+                {/* Full Name */}
                 <div className="space-y-2">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300">
-                    Full Name
+                  <label htmlFor="contact-name" className="block text-sm font-medium text-slate-700 dark:text-slate-300">
+                    {t('full_name') || "Full Name"}
                   </label>
                   <input
+                    id="contact-name"
                     required
                     type="text"
                     value={formState.name}
-                    onChange={(e) =>
-                      setFormState({ ...formState, name: e.target.value })
-                    }
-                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                    onChange={(e) => setFormState({ ...formState, name: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white dark:bg-slate-800 text-black dark:text-white placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   />
                 </div>
 
+                {/* Email */}
                 <div className="space-y-2">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300">
-                    Email
+                  <label htmlFor="contact-email" className="block text-sm font-medium text-slate-700 dark:text-slate-300">
+                    {t('email') || "Email"}
                   </label>
                   <input
+                    id="contact-email"
                     required
                     type="email"
                     value={formState.email}
                     onChange={handleEmailChange}
-                   className={`w-full px-4 py-3 rounded-lg border 
-  ${emailError ? "border-red-500 ring-2 ring-red-200" : "border-gray-400"}
-  bg-white text-black
-  placeholder-gray-400
-  shadow-sm
-  focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary
-`}
+                    className={`w-full px-4 py-3 rounded-lg border ${
+                      emailError ? "border-red-500 ring-2 ring-red-200" : "border-gray-400"
+                    } bg-white dark:bg-slate-800 text-black dark:text-white placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary`}
+                    aria-describedby={emailError ? "contact-email-error" : undefined}
+                    aria-invalid={emailError ? "true" : "false"}
                   />
                   {emailError && (
-                    <p className="text-xs text-red-500 mt-1 font-medium">
+                    <p id="contact-email-error" className="text-xs text-red-500 mt-1 font-medium" role="alert">
                       {emailError}
                     </p>
                   )}
                 </div>
 
+                {/* Company */}
                 <div className="space-y-2">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300">
-                    Company
+                  <label htmlFor="contact-company" className="block text-sm font-medium text-slate-700 dark:text-slate-300">
+                    {t('company') || "Company"}
                   </label>
                   <input
+                    id="contact-company"
                     required
                     type="text"
                     value={formState.company}
-                    onChange={(e) =>
-                      setFormState({ ...formState, company: e.target.value })
-                    }
-                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                    onChange={(e) => setFormState({ ...formState, company: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white dark:bg-slate-800 text-black dark:text-white placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   />
                 </div>
 
+                {/* Inquiry Type */}
                 <div className="space-y-2">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300">
-                    Inquiry Type
+                  <label htmlFor="contact-inquiry" className="block text-sm font-medium text-slate-700 dark:text-slate-300">
+                    {t('inquiry_type') || "Inquiry Type"}
                   </label>
                   <select
+                    id="contact-inquiry"
                     required
                     value={formState.inquiryType}
-                    onChange={(e) =>
-                      setFormState({
-                        ...formState,
-                        inquiryType: e.target.value,
-                      })
-                    }
-                   className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                    onChange={(e) => setFormState({ ...formState, inquiryType: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white dark:bg-slate-800 text-black dark:text-white placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   >
-                    <option value="general">General Inquiry</option>
-                    <option value="sourcing">Product Sourcing</option>
-                    <option value="partnership">Partnership</option>
-                    <option value="support">Support</option>
+                    <option value="general">{t('general_inquiry') || "General Inquiry"}</option>
+                    <option value="sourcing">{t('prod_sourcing') || "Product Sourcing"}</option>
+                    <option value="partnership">{t('partnership') || "Partnership"}</option>
+                    <option value="support">{t('support') || "Support"}</option>
                   </select>
                 </div>
 
+                {/* Message */}
                 <div className="md:col-span-2 space-y-2">
-                  <label className="block text-sm font-medium text-slate-700 dark:text-slate-300">
-                    Message
+                  <label htmlFor="contact-message" className="block text-sm font-medium text-slate-700 dark:text-slate-300">
+                    {t('message') || "Message"}
                   </label>
                   <textarea
+                    id="contact-message"
                     required
                     rows={5}
                     value={formState.message}
-                    onChange={(e) =>
-                      setFormState({ ...formState, message: e.target.value })
-                    }
-                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white text-black placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                    onChange={(e) => setFormState({ ...formState, message: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-400 bg-white dark:bg-slate-800 text-black dark:text-white placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                   />
                 </div>
 
+                {/* Submit */}
                 <div className="md:col-span-2">
                   <button
                     type="submit"
                     disabled={loading}
                     className="w-full md:w-auto px-8 py-4 bg-primary text-brandNavy font-bold rounded-lg shadow-lg hover:brightness-110 transform hover:-translate-y-0.5 transition-all duration-200 disabled:opacity-50"
                   >
-                    {loading ? "Sending..." : "Send Inquiry"}
+                    {loading ? (t('sending') || "Sending...") : (t('send_inquiry') || "Send Inquiry")}
                   </button>
                 </div>
 
                 {sendError && (
-                  <div className="md:col-span-2 text-red-500 text-sm font-medium">
+                  <div className="md:col-span-2 text-red-500 text-sm font-medium" role="alert">
                     {sendError}
                   </div>
                 )}
@@ -264,16 +240,14 @@ const Contact: React.FC = () => {
           <div className="space-y-8">
             <div className="bg-brandNavy text-white rounded-2xl p-8 shadow-xl">
               <h3 className="text-xl font-bold mb-6 text-primary">
-                Contact Information
+                {t('contact_info') || "Contact Information"}
               </h3>
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">
-                    location_on
-                  </span>
+                  <span className="material-icons text-primary mt-1">location_on</span>
                   <div>
-                    <p className="font-semibold text-lg">Office</p>
+                    <p className="font-semibold text-lg">{t('office') || "Office"}</p>
                     <p className="text-slate-300 text-sm leading-relaxed">
                       103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội 100000
                     </p>
@@ -283,7 +257,7 @@ const Contact: React.FC = () => {
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
                   <span className="material-icons text-primary mt-1">email</span>
                   <div>
-                    <p className="font-semibold text-lg">Email Us</p>
+                    <p className="font-semibold text-lg">{t('email_us') || "Email Us"}</p>
                     <a
                       href="mailto:info@idealdealvn.com"
                       className="text-slate-300 text-sm hover:text-white transition-colors"
@@ -294,21 +268,17 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">
-                    phone_iphone
-                  </span>
+                  <span className="material-icons text-primary mt-1">phone_iphone</span>
                   <div>
-                    <p className="font-semibold text-lg">Call Us</p>
+                    <p className="font-semibold text-lg">{t('call_us') || "Call Us"}</p>
                     <p className="text-slate-300 text-sm">+84 (0) 828 278 808</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">
-                    schedule
-                  </span>
+                  <span className="material-icons text-primary mt-1">schedule</span>
                   <div>
-                    <p className="font-semibold text-lg">Business Hours</p>
+                    <p className="font-semibold text-lg">{t('business_hours') || "Business Hours"}</p>
                     <p className="text-slate-300 text-sm whitespace-pre-line">
                       {"Monday – Friday: 8:30 AM – 4:00 PM\nBreak Time: 11:30 AM – 1:00 PM\nSaturday & Sunday: Closed"}
                     </p>
@@ -319,6 +289,7 @@ const Contact: React.FC = () => {
 
             <div className="bg-slate-200 dark:bg-slate-800 rounded-2xl h-64 overflow-hidden border border-slate-100 dark:border-slate-700 shadow-md">
               <iframe
+                title="Ideal Deal Vietnam office location on Google Maps"
                 src="https://www.google.com/maps?q=103+Duong+Au+Co,+Tu+Lien,+Tay+Ho,+Ha+Noi&z=16&output=embed"
                 className="w-full h-full border-0"
                 loading="lazy"

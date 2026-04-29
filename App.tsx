@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -8,6 +9,10 @@ import Products from './pages/Products';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
+import CookiePolicy from './pages/CookiePolicy';
 import ChatBot from './components/ChatBot';
 
 export type Language = 'en' | 'ar' | 'vi' | 'zh' | 'es' | 'fr';
@@ -268,7 +273,7 @@ const translations: Record<Language, Record<string, string>> = {
     a3: "Oui, nous assurons une gestion logistique de bout en bout. Cela comprend la documentation, la coordination du fret et le support au dédouanement pour garantir une livraison fluide à votre destination.",
     q4: "Pouvez vous sourcer des produits non répertoriés dans votre catalogue ?",
     a4: "Absolument. Notre vaste réseau local nous permet de sourcer pratiquement n'importe quel produit vietnamien de haute qualité. Fournissez nous simplement vos spécifications, et nous trouverons le fournisseur idéal.",
-    v5: "¿Cuáles son sus condiciones de pago estándar?",
+    q5: "Quelles sont vos conditions de paiement standard ?",
     a5: "Nous travaillons généralement par virement T/T ou lettre de crédit (L/C) à vue. Les conditions spécifiques peuvent être négociées selon le volume et l'historique.",
     q6: "Combien de temps dure le processus de sourcing ?",
     a6: "L'identification initiale prend 5 à 7 jours ouvrables. Les cycles de production dépendent du produit, mais nous visons une efficacité maximale.",
@@ -840,7 +845,7 @@ const translations: Record<Language, Record<string, string>> = {
     a3: "Sí, proporcionamos una gestión logística integral. Esto incluye documentación, coordinación de fletes y apoyo en el despacho de aduanas para garantizar una entrega fluida en su destino.",
     q4: "¿Pueden conseguir productos que no figuran en su catálogo?",
     a4: "Absolutamente. Nuestra extensa red de proveedores nos permite conseguir virtualmente cualquier producto vietnamita de alta calidad. Solo bríndenos sus especificaciones y encontraremos al proveedor ideal.",
-    v5: "¿Cuáles son sus condiciones de pago estándar?",
+    q5: "¿Cuáles son sus condiciones de pago estándar?",
     a5: "Generalmente trabajamos con T/T o L/C a la vista. Los términos pueden negociarse según el volumen del pedido y la relación comercial.",
     q6: "¿Cuánto tiempo tarda el proceso de abastecimiento?",
     a6: "La identificación inicial suele tardar de 5 a 7 días hábiles. Los ciclos dependen del producto, pero buscamos la máxima eficiencia.",
@@ -928,25 +933,16 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
-        
-        {/* Floating Controls */}
-        <div className={`fixed bottom-6 z-[100] flex items-center gap-3 ${language === 'ar' ? 'right-6' : 'left-6'}`}>
-          <button 
-            onClick={toggleTheme}
-            className="w-12 h-12 rounded-full bg-white/10 dark:bg-slate-800/40 backdrop-blur-md shadow-2xl flex items-center justify-center border border-white/20 dark:border-slate-700/50 text-slate-800 dark:text-primary transition-transform hover:scale-110 active:scale-95"
-            title="Toggle Theme"
-          >
-            <span className="material-symbols-outlined">
-              {isDarkMode ? 'light_mode' : 'dark_mode'}
-            </span>
-          </button>
-        </div>
 
-        {/* AI Chat Bot */}
-        <ChatBot />
+        {/* AI Chat Bot — only rendered when feature flag is enabled */}
+        {import.meta.env.VITE_CHATBOT_ENABLED === 'true' && <ChatBot />}
       </div>
     </LanguageContext.Provider>
   );
