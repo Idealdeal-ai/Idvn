@@ -14,6 +14,19 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import CookiePolicy from './pages/CookiePolicy';
 import ChatBot from './components/ChatBot';
+import WhatsAppButton from './components/WhatsAppButton';
+// Product sub-pages
+import CategoryPage from './pages/products/CategoryPage';
+import ProductPage from './pages/products/ProductPage';
+// Country landing pages
+import CountryPage from './pages/CountryPage';
+// Blog
+import Blog from './pages/blog/Blog';
+import BlogPost from './pages/blog/BlogPost';
+// Services sub-pages
+import ServicePage from './pages/services/ServicePage';
+// Industries
+import Industries from './pages/Industries';
 
 export type Language = 'en' | 'ar' | 'vi' | 'zh' | 'es' | 'fr';
 
@@ -928,21 +941,40 @@ const App: React.FC = () => {
         <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <main className="flex-grow">
           <Routes>
+            {/* ── Core pages ───────────────────────────── */}
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/industries" element={<Industries />} />
+
+            {/* ── Product sub-pages ────────────────────── */}
+            <Route path="/products/:category" element={<CategoryPage />} />
+            <Route path="/products/:category/:slug" element={<ProductPage />} />
+
+            {/* ── Country landing pages ─────────────────── */}
+            <Route path="/export-to-:country" element={<CountryPage />} />
+
+            {/* ── Blog ─────────────────────────────────── */}
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
+
+            {/* ── Service sub-pages ─────────────────────── */}
+            <Route path="/services/:slug" element={<ServicePage />} />
+
+            {/* ── Legal ────────────────────────────────── */}
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/cookie-policy" element={<CookiePolicy />} />
+
+            {/* ── 404 ──────────────────────────────────── */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
-
-        {/* AI Chat Bot — only rendered when feature flag is enabled */}
-        {import.meta.env.VITE_CHATBOT_ENABLED === 'true' && <ChatBot />}
+        <ChatBot />
+        <WhatsAppButton />
       </div>
     </LanguageContext.Provider>
   );
