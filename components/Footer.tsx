@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-start items-start gap-4 text-sm text-slate-500 dark:text-slate-400 text-left">
+        <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row md:justify-between items-start md:items-center gap-4 md:pr-20 text-sm text-slate-500 dark:text-slate-400">
           <p>{t('copyright')}</p>
           <p className="italic font-medium">{t('built_on_trust')}</p>
         </div>
