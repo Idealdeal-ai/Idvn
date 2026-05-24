@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../App';
 import emailjs from "@emailjs/browser";
+import SEOHead, { organizationSchema } from '../components/SEOHead';
+import Icon from '../components/Icon';
 
 
 const Home: React.FC = () => {
@@ -51,7 +53,12 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <header 
+      <SEOHead
+        title={t('hero_title')}
+        description={t('hero_subtitle')}
+        schema={organizationSchema()}
+      />
+      <header
         className="min-h-screen flex items-center justify-center text-center pt-20 relative overflow-hidden"
         style={{ 
           backgroundImage: `linear-gradient(rgba(17, 55, 100, 0.65), rgba(17, 55, 100, 0.75)), url('${heroBackground}')`,
@@ -124,14 +131,14 @@ const Home: React.FC = () => {
               </div>
               <div className="mt-10 grid grid-cols-2 gap-8">
                 <div className="flex items-start gap-4">
-                  <span className="material-symbols-outlined text-primary mt-0.5">verified</span>
+                  <Icon name="verified" className="text-primary mt-0.5" aria-hidden />
                   <div>
                     <h4 className="font-bold text-brandNavy text-sm dark:text-white mb-1">{t('quality_first')}</h4>
                     <p className="text-[11px] text-slate-500">{t('quality_desc')}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="material-symbols-outlined text-primary mt-0.5">public</span>
+                  <Icon name="public" className="text-primary mt-0.5" aria-hidden />
                   <div>
                     <h4 className="font-bold text-brandNavy text-sm dark:text-white mb-1">{t('global_reach')}</h4>
                     <p className="text-[11px] text-slate-500">{t('global_desc')}</p>
@@ -147,7 +154,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <p className="text-4xl font-bold text-primary mb-1">12+</p>
+              <p className="text-4xl font-bold text-primary mb-1">16+</p>
               <p className="text-sm uppercase tracking-widest text-slate-400">{language === 'ar' ? 'منتجات مصدرة' : (language === 'fr' ? 'Produits Sourcés' : 'Products Sourced')}</p>
             </div>
             <div>
@@ -177,21 +184,21 @@ const Home: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-10 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all group">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-8 group-hover:bg-primary transition-colors">
-                <span className="material-icons-outlined text-primary group-hover:text-brandNavy">search</span>
+                <Icon name="search" className="text-primary group-hover:text-brandNavy" aria-hidden />
               </div>
               <h3 className="text-lg font-bold text-brandNavy dark:text-white mb-4">{t('strategic_sourcing')}</h3>
               <p className="text-xs text-slate-500 leading-relaxed">{t('strategic_sourcing_desc')}</p>
             </div>
             <div className="p-10 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all group">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-8 group-hover:bg-primary transition-colors">
-                <span className="material-icons-outlined text-primary group-hover:text-brandNavy">inventory_2</span>
+                <Icon name="inventory_2" className="text-primary group-hover:text-brandNavy" aria-hidden />
               </div>
               <h3 className="text-lg font-bold text-brandNavy dark:text-white mb-4">{t('qa_card_title')}</h3>
               <p className="text-xs text-slate-500 leading-relaxed">{t('qa_card_desc')}</p>
             </div>
             <div className="p-10 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all group">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-8 group-hover:bg-primary transition-colors">
-                <span className="material-icons-outlined text-primary group-hover:text-brandNavy">local_shipping</span>
+                <Icon name="local_shipping" className="text-primary group-hover:text-brandNavy" aria-hidden />
               </div>
               <h3 className="text-lg font-bold text-brandNavy dark:text-white mb-4">{t('logistics_mgmt')}</h3>
               <p className="text-xs text-slate-500 leading-relaxed">{t('logistics_mgmt_desc')}</p>
@@ -205,25 +212,25 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="text-primary text-[10px] font-bold tracking-[0.3em] uppercase mb-4 block">{language === 'ar' ? 'لماذا تختارنا' : (language === 'fr' ? 'POURQUOI NOUS CHOISIR' : 'WHY CHOOSE US')}</span>
+              <span className="text-primary text-[10px] font-bold tracking-[0.3em] uppercase mb-4 block">{language === 'ar' ? 'لماذا نحن' : (language === 'fr' ? 'Pourquoi nous ?' : (language === 'vi' ? 'Tại sao chúng tôi?' : (language === 'zh' ? '为何选我们' : (language === 'es' ? '¿Por qué nosotros?' : 'Why Us'))))}</span>
               <h2 className="text-4xl font-display font-extrabold mb-10 leading-tight max-w-md">{t('ideal_choice_title')}</h2>
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
-                  <span className="material-icons-round text-primary mt-1">check_circle</span>
+                  <Icon name="check_circle" className="text-primary mt-1" aria-hidden />
                   <div>
                     <h4 className="font-bold text-lg mb-1">{t('unmatched_network')}</h4>
                     <p className="text-sm text-slate-300">{t('unmatched_network_desc')}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="material-icons-round text-primary mt-1">check_circle</span>
+                  <Icon name="check_circle" className="text-primary mt-1" aria-hidden />
                   <div>
                     <h4 className="font-bold text-lg mb-1">{t('total_transparency')}</h4>
                     <p className="text-sm text-slate-300">{t('total_transparency_desc')}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="material-icons-round text-primary mt-1">check_circle</span>
+                  <Icon name="check_circle" className="text-primary mt-1" aria-hidden />
                   <div>
                     <h4 className="font-bold text-lg mb-1">{t('risk_mitigation')}</h4>
                     <p className="text-sm text-slate-300">{t('risk_mitigation_desc')}</p>
@@ -243,7 +250,7 @@ const Home: React.FC = () => {
                 />
                 {/* Bottom Left: Commitment Text Block */}
                 <div className="bg-[#12325F]/60 backdrop-blur-md p-8 rounded-xl border border-white/5 shadow-2xl flex flex-col justify-center min-h-[200px]">
-                   <span className="material-icons-round text-primary mb-4 text-3xl">verified_user</span>
+                   <Icon name="verified_user" size={30} className="text-primary mb-4" aria-hidden />
                    <h4 className="text-sm font-bold uppercase tracking-widest text-primary mb-2">{t('trust_integrity_title')}</h4>
                    <p className="text-[11px] text-slate-300 leading-relaxed italic">
                      "{t('trust_integrity_quote')}"
@@ -361,21 +368,21 @@ const Home: React.FC = () => {
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <span className="material-icons-outlined text-primary text-xl">location_on</span>
+                        <Icon name="location_on" className="text-primary" aria-hidden />
                       </div>
                       <p className="text-[11px] text-slate-600 dark:text-slate-300">{t('103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội 100000')}</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <span className="material-icons-outlined text-primary text-xl">mail</span>
+                        <Icon name="mail" className="text-primary" aria-hidden />
                       </div>
                       <p className="text-[11px] text-slate-600 dark:text-slate-300">info@idealdealvn.com</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <span className="material-symbols-outlined text-primary text-xl">call</span>
+                        <Icon name="call" className="text-primary" aria-hidden />
                       </div>
-                      <p className="text-[11px] text-slate-600 dark:text-slate-300">+84 (0) 8282 78 808</p>
+                      <p className="text-[11px] text-slate-600 dark:text-slate-300" dir="ltr" style={{ unicodeBidi: 'embed' }}>+84 (0) 8282 78 808</p>
                     </div>
                   </div>
                 </div>

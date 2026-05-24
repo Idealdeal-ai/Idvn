@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import { useLanguage } from "../App";
 import emailjs from "@emailjs/browser";
+import SEOHead from '../components/SEOHead';
+import Icon from '../components/Icon';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
@@ -89,6 +91,10 @@ const Contact: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <SEOHead
+        title={t('contact')}
+        description={t('contact_hero_desc')}
+      />
       {/* HERO */}
       <section className="relative py-20 bg-brandNavy overflow-hidden">
         <div className="absolute inset-0 opacity-20">
@@ -245,7 +251,7 @@ const Contact: React.FC = () => {
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">location_on</span>
+                  <Icon name="location_on" className="text-primary mt-1" aria-hidden />
                   <div>
                     <p className="font-semibold text-lg">{t('office') || "Office"}</p>
                     <p className="text-slate-300 text-sm leading-relaxed">
@@ -255,7 +261,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">email</span>
+                  <Icon name="email" className="text-primary mt-1" aria-hidden />
                   <div>
                     <p className="font-semibold text-lg">{t('email_us') || "Email Us"}</p>
                     <a
@@ -268,15 +274,15 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">phone_iphone</span>
+                  <Icon name="phone_iphone" className="text-primary mt-1" aria-hidden />
                   <div>
                     <p className="font-semibold text-lg">{t('call_us') || "Call Us"}</p>
-                    <p className="text-slate-300 text-sm">+84 (0) 828 278 808</p>
+                    <p className="text-slate-300 text-sm" dir="ltr" style={{ unicodeBidi: 'embed' }}>+84 (0) 828 278 808</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4 rtl:space-x-reverse">
-                  <span className="material-icons text-primary mt-1">schedule</span>
+                  <Icon name="schedule" className="text-primary mt-1" aria-hidden />
                   <div>
                     <p className="font-semibold text-lg">{t('business_hours') || "Business Hours"}</p>
                     <p className="text-slate-300 text-sm whitespace-pre-line">

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
 
 export interface FAQItem {
   question: string;
@@ -29,14 +30,11 @@ const FAQAccordion: React.FC<FAQAccordionProps> = ({ faqs, className = '' }) => 
               className="w-full flex items-start justify-between gap-4 py-5 text-left text-brandNavy dark:text-white font-semibold hover:text-primary dark:hover:text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded"
             >
               <span className="text-base leading-snug">{faq.question}</span>
-              <span
-                className={`material-symbols-outlined text-xl flex-shrink-0 transition-transform duration-300 ${
-                  isOpen ? 'rotate-180' : 'rotate-0'
-                }`}
-                aria-hidden="true"
-              >
-                expand_more
-              </span>
+              <ChevronDown
+                size={20}
+                className={`flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+                aria-hidden
+              />
             </button>
             <div
               className={`overflow-hidden transition-all duration-300 ease-in-out ${

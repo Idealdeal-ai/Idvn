@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { useLanguage } from '../App';
+import SEOHead, { organizationSchema, breadcrumbSchema } from '../components/SEOHead';
+import Icon from '../components/Icon';
 
-const Section: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
+const Section: React.FC<{ title: string; children: React.ReactNode; isRTL?: boolean }> = ({
+  title, children, isRTL = false,
+}) => (
   <section className="mb-10">
-    <h2 className="text-xl font-bold text-brandNavy dark:text-white mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
+    <h2 className={`text-xl font-bold text-brandNavy dark:text-white mb-4 pb-2 border-b border-slate-200 dark:border-slate-800 ${isRTL ? 'text-right' : ''}`}>
       {title}
     </h2>
-    <div className="space-y-3 text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+    <div className={`space-y-3 text-slate-600 dark:text-slate-400 leading-relaxed text-sm ${isRTL ? 'text-right' : ''}`}>
       {children}
     </div>
   </section>
@@ -18,6 +24,7 @@ interface CookieRowProps {
   purpose: string;
   duration: string;
   type: 'Essential' | 'Functional' | 'Analytics';
+  typeLabel: string;
 }
 
 const typeColors: Record<CookieRowProps['type'], string> = {
@@ -26,206 +33,191 @@ const typeColors: Record<CookieRowProps['type'], string> = {
   Analytics:  'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
 };
 
-const CookieRow: React.FC<CookieRowProps> = ({ name, provider, purpose, duration, type }) => (
+const CookieRow: React.FC<CookieRowProps> = ({ name, provider, purpose, duration, type, typeLabel }) => (
   <tr className="border-b border-slate-100 dark:border-slate-800 last:border-0">
     <td className="py-3 pr-4 font-mono text-xs text-brandNavy dark:text-white font-semibold whitespace-nowrap">{name}</td>
     <td className="py-3 pr-4 text-xs">{provider}</td>
     <td className="py-3 pr-4 text-xs">{purpose}</td>
     <td className="py-3 pr-4 text-xs whitespace-nowrap">{duration}</td>
     <td className="py-3 text-xs">
-      <span className={`inline-block px-2 py-0.5 rounded-full text-[11px] font-bold ${typeColors[type]}`}>
-        {type}
-      </span>
+      <span className={`inline-block px-2 py-0.5 rounded-full text-[11px] font-bold ${typeColors[type]}`}>{typeLabel}</span>
     </td>
   </tr>
 );
 
 const CookiePolicy: React.FC = () => {
+  const { t } = useTranslation('legal');
+  const { language } = useLanguage();
+  const isRTL = language === 'ar';
   const [consent, setConsent] = useState<'accepted' | 'declined' | null>(null);
 
   return (
-    <div className="pt-20">
-      {/* Hero */}
+    <div className="pt-20" dir={isRTL ? 'rtl' : 'ltr'}>
+      <SEOHead
+        title={t('cookies.seo_title')}
+        description={t('cookies.seo_description')}
+        keywords={['cookie policy', 'cookies', 'privacy', 'Ideal Deal Vietnam']}
+        schema={[organizationSchema(), breadcrumbSchema([{ name: 'Home', url: '/' }, { name: t('cookies.title'), url: '/cookie-policy' }])]}
+      />
+
       <section className="bg-brandNavy py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-primary text-[11px] font-bold tracking-[0.25em] uppercase mb-3">Legal</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white font-display uppercase tracking-tight mb-4">
-            Cookie Policy
-          </h1>
-          <p className="text-slate-400 text-sm">Last updated: 30 April 2026</p>
+          <p className={`text-primary text-[11px] font-bold tracking-[0.25em] uppercase mb-3 ${isRTL ? 'text-right' : ''}`}>{t('common.legal_label')}</p>
+          <h1 className={`text-4xl md:text-5xl font-extrabold text-white font-display uppercase tracking-tight mb-4 ${isRTL ? 'text-right' : ''}`}>{t('cookies.title')}</h1>
+          <p className={`text-slate-400 text-sm ${isRTL ? 'text-right' : ''}`}>{t('common.last_updated')}</p>
         </div>
       </section>
 
-      {/* Content */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 p-8 md:p-12">
 
-          <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-10">
-            This Cookie Policy explains how <strong className="text-brandNavy dark:text-white">Ideal Deal Vietnam</strong> (operated by CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM) uses cookies and similar technologies when you visit <strong className="text-slate-700 dark:text-slate-300">idealdealvn.com</strong>.
+          <p className={`text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-10 ${isRTL ? 'text-right' : ''}`}>
+            {t('cookies.intro_before')}
+            <strong className="text-brandNavy dark:text-white">{t('cookies.intro_brand')}</strong>
+            {t('cookies.intro_middle')}
+            <strong className="text-slate-700 dark:text-slate-300">{t('cookies.intro_site')}</strong>.
           </p>
 
-          <Section title="1. What Are Cookies?">
-            <p>Cookies are small text files placed on your device when you visit a website. They allow the site to remember your preferences and actions over time, and help us understand how visitors interact with our content.</p>
-            <p>Similar technologies include <strong className="text-slate-700 dark:text-slate-300">localStorage</strong> (used to remember your dark/light theme preference) and session storage.</p>
+          {/* Section 1 */}
+          <Section title={t('cookies.s1_title')} isRTL={isRTL}>
+            <p>{t('cookies.s1_p1')}</p>
+            <p>{t('cookies.s1_p2_before')}<strong className="text-slate-700 dark:text-slate-300">{t('cookies.s1_p2_local')}</strong>{t('cookies.s1_p2_after')}</p>
           </Section>
 
-          <Section title="2. Types of Cookies We Use">
-            <p>We use three categories of cookies:</p>
-
+          {/* Section 2 */}
+          <Section title={t('cookies.s2_title')} isRTL={isRTL}>
+            <p>{t('cookies.s2_intro')}</p>
             <div className="grid md:grid-cols-3 gap-4 mt-4">
               <div className="bg-green-50 dark:bg-green-900/10 border border-green-200 dark:border-green-800 rounded-xl p-4">
-                <p className="font-bold text-green-700 dark:text-green-400 mb-1 flex items-center gap-1.5">
-                  <span className="material-icons text-base">check_circle</span> Essential
+                <p className={`font-bold text-green-700 dark:text-green-400 mb-1 flex items-center gap-1.5 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                  <Icon name="check_circle" size={16} aria-hidden />{t('cookies.s2_essential_label')}
                 </p>
-                <p className="text-xs text-slate-600 dark:text-slate-400">Required for the website to function. Cannot be disabled.</p>
+                <p className={`text-xs text-slate-600 dark:text-slate-400 ${isRTL ? 'text-right' : ''}`}>{t('cookies.s2_essential_text')}</p>
               </div>
               <div className="bg-blue-50 dark:bg-blue-900/10 border border-blue-200 dark:border-blue-800 rounded-xl p-4">
-                <p className="font-bold text-blue-700 dark:text-blue-400 mb-1 flex items-center gap-1.5">
-                  <span className="material-icons text-base">tune</span> Functional
+                <p className={`font-bold text-blue-700 dark:text-blue-400 mb-1 flex items-center gap-1.5 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                  <Icon name="tune" size={16} aria-hidden />{t('cookies.s2_functional_label')}
                 </p>
-                <p className="text-xs text-slate-600 dark:text-slate-400">Remember your preferences like language and theme.</p>
+                <p className={`text-xs text-slate-600 dark:text-slate-400 ${isRTL ? 'text-right' : ''}`}>{t('cookies.s2_functional_text')}</p>
               </div>
               <div className="bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800 rounded-xl p-4">
-                <p className="font-bold text-amber-700 dark:text-amber-400 mb-1 flex items-center gap-1.5">
-                  <span className="material-icons text-base">bar_chart</span> Analytics
+                <p className={`font-bold text-amber-700 dark:text-amber-400 mb-1 flex items-center gap-1.5 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                  <Icon name="bar_chart" size={16} aria-hidden />{t('cookies.s2_analytics_label')}
                 </p>
-                <p className="text-xs text-slate-600 dark:text-slate-400">Help us understand visitor behaviour to improve the site.</p>
+                <p className={`text-xs text-slate-600 dark:text-slate-400 ${isRTL ? 'text-right' : ''}`}>{t('cookies.s2_analytics_text')}</p>
               </div>
             </div>
           </Section>
 
-          <Section title="3. Cookies We Use">
+          {/* Section 3 — Cookie table */}
+          <Section title={t('cookies.s3_title')} isRTL={isRTL}>
             <div className="overflow-x-auto -mx-2">
               <table className="w-full text-left min-w-[580px]">
                 <thead>
                   <tr className="border-b-2 border-slate-200 dark:border-slate-700">
-                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">Name</th>
-                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">Provider</th>
-                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">Purpose</th>
-                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">Duration</th>
-                    <th className="pb-3 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">Type</th>
+                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">{t('cookies.s3_col_name')}</th>
+                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">{t('cookies.s3_col_provider')}</th>
+                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">{t('cookies.s3_col_purpose')}</th>
+                    <th className="pb-3 pr-4 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">{t('cookies.s3_col_duration')}</th>
+                    <th className="pb-3 text-xs font-bold text-brandNavy dark:text-white uppercase tracking-wider">{t('cookies.s3_col_type')}</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <CookieRow
-                    name="theme"
-                    provider="idealdealvn.com"
-                    purpose="Stores your dark / light mode preference using localStorage"
-                    duration="Persistent"
-                    type="Functional"
-                  />
-                  <CookieRow
-                    name="language"
-                    provider="idealdealvn.com"
-                    purpose="Stores your selected display language (EN, AR, VI, ZH, ES, FR)"
-                    duration="Persistent"
-                    type="Functional"
-                  />
-                  <CookieRow
-                    name="_vercel_*"
-                    provider="Vercel"
-                    purpose="Infrastructure cookies used by our hosting provider for routing and performance"
-                    duration="Session"
-                    type="Essential"
-                  />
-                  <CookieRow
-                    name="__cf_bm"
-                    provider="Cloudflare / CDN fonts"
-                    purpose="Bot management cookie set by Cloudflare when loading Google Fonts"
-                    duration="30 minutes"
-                    type="Essential"
-                  />
+                  <CookieRow name="theme" provider="idealdealvn.com" purpose={t('cookies.s3_theme_purpose')} duration={t('cookies.s3_theme_duration')} type="Functional" typeLabel={t('cookies.s3_type_functional')} />
+                  <CookieRow name="language" provider="idealdealvn.com" purpose={t('cookies.s3_lang_purpose')} duration={t('cookies.s3_lang_duration')} type="Functional" typeLabel={t('cookies.s3_type_functional')} />
+                  <CookieRow name="_vercel_*" provider="Vercel" purpose={t('cookies.s3_vercel_purpose')} duration={t('cookies.s3_vercel_duration')} type="Essential" typeLabel={t('cookies.s3_type_essential')} />
+                  <CookieRow name="__cf_bm" provider="Cloudflare / CDN fonts" purpose={t('cookies.s3_cf_purpose')} duration={t('cookies.s3_cf_duration')} type="Essential" typeLabel={t('cookies.s3_type_essential')} />
                 </tbody>
               </table>
             </div>
-            <p className="text-xs text-slate-400 mt-3 italic">* We do not currently use third-party advertising or retargeting cookies.</p>
+            <p className={`text-xs text-slate-400 mt-3 italic ${isRTL ? 'text-right' : ''}`}>{t('cookies.s3_no_ads')}</p>
           </Section>
 
-          <Section title="4. Google Fonts & External Resources">
-            <p>Our website loads fonts from <strong className="text-slate-700 dark:text-slate-300">Google Fonts</strong> (fonts.googleapis.com). When your browser fetches these fonts, Google may receive your IP address and set its own cookies in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google's Privacy Policy</a>.</p>
+          {/* Section 4 — Google Fonts */}
+          <Section title={t('cookies.s4_title')} isRTL={isRTL}>
+            <p>
+              {t('cookies.s4_before')}
+              <strong className="text-slate-700 dark:text-slate-300">{t('cookies.s4_google')}</strong>
+              {t('cookies.s4_middle')}
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">{t('cookies.s4_policy_link')}</a>.
+            </p>
           </Section>
 
-          <Section title="5. How to Manage Cookies">
-            <p>You can control cookies in several ways:</p>
-            <ul className="list-disc list-inside space-y-2 pl-2">
+          {/* Section 5 — Manage Cookies */}
+          <Section title={t('cookies.s5_title')} isRTL={isRTL}>
+            <p>{t('cookies.s5_intro')}</p>
+            <ul className={`list-disc list-inside space-y-2 ${isRTL ? 'pr-2' : 'pl-2'}`}>
               <li>
-                <strong className="text-slate-700 dark:text-slate-300">Browser settings:</strong> Most browsers allow you to view, block, or delete cookies via their settings. Visit your browser's help pages for instructions:
-                <div className="flex flex-wrap gap-2 mt-2 ml-2">
+                <strong className="text-slate-700 dark:text-slate-300">{t('cookies.s5_browser_label')}</strong>
+                {t('cookies.s5_browser_text')}
+                <div className={`flex flex-wrap gap-2 mt-2 ${isRTL ? 'mr-2' : 'ml-2'}`}>
                   {[
-                    { name: 'Chrome', url: 'https://support.google.com/chrome/answer/95647' },
+                    { name: 'Chrome',  url: 'https://support.google.com/chrome/answer/95647' },
                     { name: 'Firefox', url: 'https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences' },
-                    { name: 'Safari', url: 'https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac' },
-                    { name: 'Edge', url: 'https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-168dab11-0753-043d-7c16-ede5947fc64d' },
+                    { name: 'Safari',  url: 'https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac' },
+                    { name: 'Edge',    url: 'https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-168dab11-0753-043d-7c16-ede5947fc64d' },
                   ].map((b) => (
-                    <a
-                      key={b.name}
-                      href={b.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-semibold text-brandNavy dark:text-white hover:bg-primary hover:text-brandNavy transition-colors"
-                    >
-                      {b.name}
-                      <span className="material-icons text-sm">open_in_new</span>
+                    <a key={b.name} href={b.url} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs font-semibold text-brandNavy dark:text-white hover:bg-primary hover:text-brandNavy transition-colors">
+                      {b.name}<Icon name="open_in_new" size={14} aria-hidden />
                     </a>
                   ))}
                 </div>
               </li>
-              <li><strong className="text-slate-700 dark:text-slate-300">Opt-out tools:</strong> For Google services, you can use the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google Analytics Opt-out Browser Add-on</a>.</li>
+              <li>
+                <strong className="text-slate-700 dark:text-slate-300">{t('cookies.s5_optout_label')}</strong>
+                {t('cookies.s5_optout_before')}
+                <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">{t('cookies.s5_optout_link')}</a>.
+              </li>
             </ul>
-            <p className="mt-2 text-xs italic">Note: Disabling essential cookies may affect the functionality of our website.</p>
+            <p className={`mt-2 text-xs italic ${isRTL ? 'text-right' : ''}`}>{t('cookies.s5_note')}</p>
           </Section>
 
-          {/* Inline consent panel */}
-          <Section title="6. Your Consent">
-            <p>By continuing to browse our website, you consent to our use of functional cookies as described above. Essential cookies are set automatically as they are required for the site to operate.</p>
+          {/* Section 6 — Consent (interactive) */}
+          <Section title={t('cookies.s6_title')} isRTL={isRTL}>
+            <p>{t('cookies.s6_text')}</p>
             {consent === null ? (
-              <div className="mt-4 flex flex-wrap gap-3">
-                <button
-                  onClick={() => setConsent('accepted')}
-                  className="px-6 py-2.5 bg-primary text-brandNavy font-bold rounded-lg text-sm hover:brightness-110 transition-all"
-                >
-                  Accept All Cookies
+              <div className={`mt-4 flex flex-wrap gap-3 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                <button onClick={() => setConsent('accepted')}
+                  className="px-6 py-2.5 bg-primary text-brandNavy font-bold rounded-lg text-sm hover:brightness-110 transition-all">
+                  {t('cookies.s6_accept')}
                 </button>
-                <button
-                  onClick={() => setConsent('declined')}
-                  className="px-6 py-2.5 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold rounded-lg text-sm hover:bg-slate-200 dark:hover:bg-slate-700 transition-all"
-                >
-                  Essential Only
+                <button onClick={() => setConsent('declined')}
+                  className="px-6 py-2.5 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold rounded-lg text-sm hover:bg-slate-200 dark:hover:bg-slate-700 transition-all">
+                  {t('cookies.s6_essential_only')}
                 </button>
               </div>
             ) : (
-              <div className={`mt-4 inline-flex items-center gap-2 px-5 py-3 rounded-lg text-sm font-semibold ${
+              <div className={`mt-4 inline-flex items-center gap-2 px-5 py-3 rounded-lg text-sm font-semibold ${isRTL ? 'flex-row-reverse' : ''} ${
                 consent === 'accepted'
                   ? 'bg-green-100 dark:bg-green-900/20 text-green-700 dark:text-green-400'
                   : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
               }`}>
-                <span className="material-icons text-base">
-                  {consent === 'accepted' ? 'check_circle' : 'info'}
-                </span>
-                {consent === 'accepted'
-                  ? 'Preferences saved — all cookies accepted.'
-                  : 'Preferences saved — essential cookies only.'}
+                <Icon name={consent === 'accepted' ? 'check_circle' : 'info'} size={16} aria-hidden />
+                {consent === 'accepted' ? t('cookies.s6_saved_all') : t('cookies.s6_saved_essential')}
               </div>
             )}
           </Section>
 
-          <Section title="7. Changes to This Policy">
-            <p>We may update this Cookie Policy periodically. Any changes will be posted on this page with a revised date. We encourage you to review this policy whenever you visit our website.</p>
+          {/* Section 7 */}
+          <Section title={t('cookies.s7_title')} isRTL={isRTL}>
+            <p>{t('cookies.s7_text')}</p>
           </Section>
 
-          <Section title="8. Contact">
-            <p>For questions about our use of cookies, please contact:</p>
-            <div className="bg-slate-50 dark:bg-slate-800 rounded-xl p-5 mt-3 space-y-1">
-              <p className="font-semibold text-brandNavy dark:text-white">CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM</p>
-              <p>103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội, Việt Nam</p>
-              <p>Email: <a href="mailto:info@idealdealvn.com" className="text-primary hover:underline">info@idealdealvn.com</a></p>
+          {/* Section 8 — Contact */}
+          <Section title={t('cookies.s8_title')} isRTL={isRTL}>
+            <p>{t('cookies.s8_intro')}</p>
+            <div className={`bg-slate-50 dark:bg-slate-800 rounded-xl p-5 mt-3 space-y-1 ${isRTL ? 'text-right' : ''}`}>
+              <p className="font-semibold text-brandNavy dark:text-white">{t('common.company_name')}</p>
+              <p>{t('common.company_address')}</p>
+              <p>Email: <a href={`mailto:${t('common.company_email')}`} className="text-primary hover:underline">{t('common.company_email')}</a></p>
             </div>
           </Section>
 
-          <div className="mt-10 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-wrap gap-4 text-sm">
-            <Link to="/privacy-policy" className="text-primary hover:underline font-semibold">Privacy Policy →</Link>
-            <Link to="/terms-of-service" className="text-primary hover:underline font-semibold">Terms of Service →</Link>
-            <Link to="/contact" className="text-primary hover:underline font-semibold">Contact Us →</Link>
+          <div className={`mt-10 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-wrap gap-4 text-sm ${isRTL ? 'flex-row-reverse' : ''}`}>
+            <Link to="/privacy-policy" className="text-primary hover:underline font-semibold">{t('common.link_privacy')} &rarr;</Link>
+            <Link to="/terms-of-service" className="text-primary hover:underline font-semibold">{t('common.link_terms')} &rarr;</Link>
+            <Link to="/contact" className="text-primary hover:underline font-semibold">{t('common.link_contact')} &rarr;</Link>
           </div>
         </div>
       </main>

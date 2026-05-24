@@ -1,0 +1,1121 @@
+{
+  "ui": {
+    "service_badge": "Dịch vụ",
+    "get_free_quote": "Nhận báo giá miễn phí",
+    "talk_to_expert": "Nói chuyện với chuyên gia",
+    "whats_included": "Bao gồm những gì",
+    "whats_included_sub": "Tất cả những gì bạn cần để tìm nguồn cung ứng, sản xuất và vận chuyển từ Việt Nam — đội ngũ của chúng tôi xử lý mọi thứ.",
+    "about_service": "Về dịch vụ {{name}} của chúng tôi",
+    "industries_we_serve": "Ngành hàng chúng tôi phục vụ",
+    "certifications_standards": "Chứng nhận & Tiêu chuẩn",
+    "need_fast_answer": "Cần câu trả lời nhanh?",
+    "whatsapp_cta_sub": "Nhắn tin trực tiếp cho đội ngũ của chúng tôi qua WhatsApp để nhận phản hồi trong ngày.",
+    "chat_on_whatsapp": "Chat qua WhatsApp",
+    "how_it_works": "Quy trình hoạt động",
+    "how_it_works_sub": "Quy trình rõ ràng từng bước từ lần liên hệ đầu tiên đến khi giao hàng.",
+    "faq_heading": "Câu hỏi thường gặp",
+    "related_services": "Dịch vụ liên quan",
+    "learn_more": "Tìm hiểu thêm",
+    "get_started_heading": "Bắt đầu với {{name}}",
+    "get_started_sub": "Cho chúng tôi biết yêu cầu của bạn và chúng tôi sẽ gửi đề xuất chi tiết trong vòng 24 giờ."
+  },
+  "content": {
+    "private-label": {
+      "name": "Sản xuất nhãn hiệu riêng",
+      "tagline": "Thương hiệu của bạn. Chất lượng Việt Nam.",
+      "heroDescription": "Biến ý tưởng sản phẩm thành thương hiệu thực sự với năng lực sản xuất nhãn hiệu riêng toàn diện của chúng tôi tại Việt Nam. Từ phát triển sản phẩm đến đóng gói hoàn thiện, chúng tôi đảm bảo mỗi sản phẩm mang đậm bản sắc thương hiệu của bạn.",
+      "longDescription": "## Tại sao chọn sản xuất nhãn hiệu riêng tại Việt Nam?\n\nViệt Nam kết hợp hoàn hảo giữa tay nghề cao và chi phí cạnh tranh, trở thành điểm đến lý tưởng cho sản xuất nhãn hiệu riêng. Dịch vụ toàn diện của chúng tôi giúp bạn xây dựng thương hiệu mà không cần sở hữu nhà máy hay có kinh nghiệm sản xuất.\n\n## Chúng tôi cung cấp gì?\n\nChúng tôi đảm nhận toàn bộ quy trình: từ chuyển đổi ý tưởng thành thông số kỹ thuật chi tiết, chọn nhà máy phù hợp, giám sát sản xuất, đến đảm bảo sản phẩm đáp ứng tiêu chuẩn của bạn trước khi giao hàng. Chúng tôi cũng giám sát thiết kế và in ấn bao bì phản ánh bản sắc thương hiệu ở mức độ cao nhất.\n\n## Ai được hưởng lợi từ dịch vụ này?\n\nDịch vụ này lý tưởng cho nhà bán lẻ muốn tạo dòng sản phẩm độc quyền, công ty thương mại điện tử muốn tạo sự khác biệt, startup tung ra sản phẩm đầu tiên, và thương hiệu đã có tên tuổi muốn mở rộng danh mục. Dù số lượng nhỏ hay lớn, đội ngũ chúng tôi cam kết đưa sản phẩm của bạn ra thị trường hiệu quả.",
+      "seoTitle": "Dịch vụ Sản xuất Nhãn hiệu Riêng tại Việt Nam | Ideal Deal",
+      "seoDescription": "Sản phẩm nhãn hiệu riêng chất lượng cao sản xuất tại Việt Nam. Chúng tôi đảm nhận sản xuất, đóng gói và kiểm soát chất lượng để giúp bạn xây dựng thương hiệu.",
+      "features": [
+        {
+          "icon": "Palette",
+          "title": "Phát triển bản sắc thương hiệu",
+          "description": "Đội ngũ thiết kế sản phẩm và bao bì của chúng tôi biến tầm nhìn của bạn thành hiện thực phản ánh chính xác bản sắc thương hiệu."
+        },
+        {
+          "icon": "Factory",
+          "title": "Mạng lưới nhà máy đáng tin cậy",
+          "description": "Chúng tôi tuyển chọn từ hơn 500 nhà máy đối tác được kiểm định tại Việt Nam để tìm nhà máy phù hợp nhất với sản phẩm và yêu cầu của bạn."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Kiểm soát chất lượng liên tục",
+          "description": "Đội ngũ kiểm soát chất lượng của chúng tôi giám sát từng giai đoạn sản xuất để đảm bảo sản phẩm đến tay bạn đúng thông số kỹ thuật."
+        },
+        {
+          "icon": "Package",
+          "title": "Giải pháp đóng gói toàn diện",
+          "description": "Từ thiết kế đến in ấn, chúng tôi cung cấp giải pháp đóng gói toàn diện làm nổi bật sản phẩm và đáp ứng yêu cầu thị trường mục tiêu."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Khả năng mở rộng linh hoạt",
+          "description": "Dù bạn bắt đầu với số lượng nhỏ để kiểm chứng thị trường hay đặt hàng số lượng lớn, chúng tôi thích nghi với nhu cầu của bạn ở từng giai đoạn."
+        },
+        {
+          "icon": "Globe",
+          "title": "Tuân thủ quy định quốc tế",
+          "description": "Chúng tôi đảm bảo sản phẩm của bạn tuân thủ yêu cầu nhập khẩu và tiêu chuẩn quốc tế tại các thị trường mục tiêu."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Tư vấn và xác định yêu cầu",
+          "description": "Chúng tôi làm việc với bạn để hiểu tầm nhìn, thông số kỹ thuật sản phẩm, thị trường mục tiêu và mục tiêu ngân sách để lập kế hoạch phù hợp."
+        },
+        {
+          "step": 2,
+          "title": "Phát triển sản phẩm và tạo mẫu",
+          "description": "Đội ngũ thiết kế phối hợp với nhà sản xuất để phát triển mẫu thử chính xác để xem xét và phê duyệt trước khi bắt đầu sản xuất."
+        },
+        {
+          "step": 3,
+          "title": "Lựa chọn nhà máy và đàm phán hợp đồng",
+          "description": "Chúng tôi xác định nhà máy phù hợp nhất từ mạng lưới đáng tin cậy và đàm phán giá cả, điều khoản tốt nhất cho bạn."
+        },
+        {
+          "step": 4,
+          "title": "Sản xuất và giám sát chất lượng",
+          "description": "Giám sát viên chất lượng theo dõi toàn bộ quá trình sản xuất và gửi báo cáo định kỳ kèm hình ảnh, video tiến độ thực tế."
+        },
+        {
+          "step": 5,
+          "title": "Vận chuyển và giao hàng",
+          "description": "Chúng tôi phối hợp vận chuyển, chuẩn bị chứng từ hải quan và bảo hiểm để đảm bảo lô hàng đến tay bạn đúng hạn và an toàn."
+        }
+      ],
+      "targetIndustries": [
+        "Thời trang & May mặc",
+        "Mỹ phẩm & Chăm sóc cá nhân",
+        "Hàng gia dụng",
+        "Điện tử & Thiết bị",
+        "Thực phẩm & Đồ uống",
+        "Sức khỏe & Thể thao"
+      ],
+      "certifications": [
+        "ISO 9001:2015",
+        "SA8000 — Trách nhiệm xã hội",
+        "OEKO-TEX (hàng dệt may)",
+        "CE (sản phẩm châu Âu)",
+        "FDA (thực phẩm & mỹ phẩm)",
+        "BSCI — Tuân thủ kinh doanh xã hội"
+      ],
+      "faqs": [
+        {
+          "question": "Số lượng đặt hàng tối thiểu cho nhãn hiệu riêng là bao nhiêu?",
+          "answer": "Số lượng tối thiểu thay đổi theo loại sản phẩm và nhà máy, thường bắt đầu từ 200-500 đơn vị. Chúng tôi giúp đàm phán điều kiện tốt nhất theo nhu cầu của bạn."
+        },
+        {
+          "question": "Mất bao lâu để phát triển mẫu thử?",
+          "answer": "Phát triển mẫu thử thường mất 2-4 tuần tùy độ phức tạp của sản phẩm. Chúng tôi đảm bảo sự tham gia của bạn ở từng giai đoạn để nhận phê duyệt."
+        },
+        {
+          "question": "Tôi có thể tùy chỉnh bao bì theo thương hiệu của mình không?",
+          "answer": "Chắc chắn rồi. Chúng tôi cung cấp giải pháp bao bì tùy chỉnh hoàn toàn bao gồm màu sắc, logo, font chữ và vật liệu theo bộ nhận diện thương hiệu."
+        },
+        {
+          "question": "Làm thế nào để đảm bảo chất lượng sản phẩm cuối cùng?",
+          "answer": "Chúng tôi áp dụng giao thức kiểm tra 3 giai đoạn: kiểm tra trước sản xuất, kiểm tra trong sản xuất và kiểm tra cuối cùng trước khi giao hàng theo tiêu chuẩn AQL quốc tế."
+        }
+      ]
+    },
+    "oem-manufacturing": {
+      "name": "Gia công OEM",
+      "tagline": "Thông số kỹ thuật của bạn. Tay nghề Việt Nam chuyên nghiệp.",
+      "heroDescription": "Chúng tôi chuyển đổi thông số kỹ thuật kỹ thuật chính xác của bạn thành sản phẩm xuất sắc với chất lượng cao và chi phí cạnh tranh. Quan hệ đối tác OEM với nhà máy Việt Nam của chúng tôi mang lại năng lực sản xuất đẳng cấp thế giới.",
+      "longDescription": "## Gia công OEM tại Việt Nam — Tại sao lại bây giờ?\n\nViệt Nam đã chứng kiến sự tăng trưởng vượt bậc về năng lực sản xuất trong thập kỷ qua, trở thành điểm đến hàng đầu cho các công ty toàn cầu tìm kiếm sản xuất chất lượng cao với chi phí hợp lý. Mạng lưới nhà máy đối tác của chúng tôi có chuyên môn và năng lực sản xuất để đáp ứng yêu cầu của bạn.\n\n## Dịch vụ OEM toàn diện\n\nChúng tôi cung cấp dịch vụ OEM toàn diện từ xem xét thông số kỹ thuật đến giao hàng. Đội ngũ kỹ sư và chuyên gia của chúng tôi làm việc chặt chẽ với nhà sản xuất để xác minh từng sản phẩm được sản xuất đúng thông số kỹ thuật của bạn.\n\n## Quản lý chất lượng và tuân thủ\n\nChúng tôi áp dụng hệ thống quản lý chất lượng nghiêm ngặt bao gồm: xem xét thông số kỹ thuật trước sản xuất, kiểm tra liên tục trong sản xuất, và kiểm tra cuối cùng toàn diện trước khi giao hàng.",
+      "seoTitle": "Dịch vụ Gia công OEM tại Việt Nam | Ideal Deal",
+      "seoDescription": "Kinh nghiệm rộng rãi trong gia công OEM tại Việt Nam. Chuyển đổi thông số kỹ thuật thành sản phẩm chất lượng cao với quản lý chất lượng toàn diện.",
+      "features": [
+        {
+          "icon": "Settings",
+          "title": "Phát triển theo thông số kỹ thuật chính xác",
+          "description": "Kỹ sư của chúng tôi phân tích thông số kỹ thuật và dịch chúng thành kế hoạch sản xuất có thể thực hiện với độ chính xác cao."
+        },
+        {
+          "icon": "Factory",
+          "title": "Năng lực sản xuất lớn",
+          "description": "Mạng lưới nhà máy đối tác có năng lực sản xuất đủ để đáp ứng đơn hàng từ nhỏ đến lớn của bạn."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Kiểm soát chất lượng đa giai đoạn",
+          "description": "Chúng tôi áp dụng giao thức kiểm tra 3 giai đoạn trong mỗi chu kỳ sản xuất để đảm bảo phù hợp hoàn toàn với thông số."
+        },
+        {
+          "icon": "Cpu",
+          "title": "Công nghệ sản xuất tiên tiến",
+          "description": "Nhà máy của chúng tôi được trang bị máy móc sản xuất và chế tạo hiện đại nhất để đảm bảo độ chính xác và chất lượng."
+        },
+        {
+          "icon": "FileText",
+          "title": "Tài liệu kỹ thuật toàn diện",
+          "description": "Chúng tôi cung cấp tài liệu kỹ thuật đầy đủ bao gồm hồ sơ kiểm tra, chứng chỉ phù hợp và báo cáo chất lượng cho mỗi đơn hàng."
+        },
+        {
+          "icon": "Globe",
+          "title": "Chứng nhận quốc tế được công nhận",
+          "description": "Chúng tôi đảm bảo sản phẩm của bạn nhận được chứng nhận và phê duyệt quốc tế cần thiết để thâm nhập thị trường mục tiêu."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Tiếp nhận và phân tích thông số kỹ thuật",
+          "description": "Chúng tôi xem xét thông số kỹ thuật, bản vẽ và mẫu thử để xác định nhà máy tốt nhất có khả năng thực hiện."
+        },
+        {
+          "step": 2,
+          "title": "Lựa chọn nhà máy và đấu thầu",
+          "description": "Chúng tôi đưa dự án ra cho các nhà máy được tuyển chọn và phân tích các đề xuất để đảm bảo cân bằng tốt nhất giữa chất lượng và giá cả."
+        },
+        {
+          "step": 3,
+          "title": "Phát triển mẫu thử và phê duyệt",
+          "description": "Nhà máy sản xuất mẫu thử được đánh giá kỹ lưỡng trước khi nhận phê duyệt của bạn để bắt đầu sản xuất thực tế."
+        },
+        {
+          "step": 4,
+          "title": "Sản xuất với giám sát liên tục",
+          "description": "Đội ngũ của chúng tôi giám sát việc bắt đầu sản xuất và gửi báo cáo tiến độ kèm hình ảnh, video để bạn luôn được cập nhật."
+        },
+        {
+          "step": 5,
+          "title": "Kiểm tra cuối cùng và giao hàng",
+          "description": "Chúng tôi tiến hành kiểm tra cuối cùng toàn diện trước khi giao hàng, sau đó phối hợp vận chuyển và chuẩn bị chứng từ hải quan."
+        }
+      ],
+      "targetIndustries": [
+        "Điện tử & Thiết bị điện",
+        "May mặc & Dệt may",
+        "Nội thất & Trang trí",
+        "Thiết bị công nghiệp",
+        "Vật liệu xây dựng",
+        "Thiết bị y tế & Sức khỏe"
+      ],
+      "certifications": [
+        "ISO 9001:2015",
+        "ISO 14001 — Quản lý môi trường",
+        "CE — Thị trường châu Âu",
+        "RoHS — Hạn chế chất nguy hiểm",
+        "UL — Phòng thí nghiệm Underwriters",
+        "FCC — Ủy ban truyền thông liên bang"
+      ],
+      "faqs": [
+        {
+          "question": "Những loại sản phẩm nào có thể được sản xuất theo hệ thống OEM?",
+          "answer": "Có thể sản xuất rất nhiều loại sản phẩm, bao gồm điện tử, may mặc, nội thất, thiết bị y tế, thiết bị công nghiệp và nhiều hơn nữa."
+        },
+        {
+          "question": "Bạn có làm việc với các công ty chỉ có mẫu thử không?",
+          "answer": "Có. Dù bạn có bản vẽ kỹ thuật đầy đủ hay chỉ có mẫu thử, đội ngũ của chúng tôi sẽ phát triển tài liệu sản xuất cần thiết để bắt đầu sản xuất."
+        },
+        {
+          "question": "Làm thế nào để bảo vệ quyền sở hữu trí tuệ của sản phẩm chúng tôi?",
+          "answer": "Chúng tôi ký kết thỏa thuận bảo mật (NDA) với tất cả đối tác và chọn nhà máy không làm việc với đối thủ cạnh tranh trong cùng danh mục sản phẩm."
+        },
+        {
+          "question": "Chu kỳ sản xuất OEM điển hình kéo dài bao lâu?",
+          "answer": "Chu kỳ sản xuất thường từ 45-90 ngày kể từ khi phê duyệt mẫu thử đến khi giao hàng, tùy thuộc vào độ phức tạp và số lượng."
+        }
+      ]
+    },
+    "export-support": {
+      "name": "Hỗ trợ xuất khẩu",
+      "tagline": "Từ nhà máy Việt Nam đến thị trường thế giới — chúng tôi đơn giản hóa từng bước.",
+      "heroDescription": "Chúng tôi cung cấp hỗ trợ xuất khẩu toàn diện để điều hướng liền mạch các yêu cầu nhập khẩu-xuất khẩu, tuân thủ quy định và sự phức tạp của việc tiếp cận thị trường quốc tế từ Việt Nam.",
+      "longDescription": "## Xuất khẩu từ Việt Nam — Cơ hội và thách thức\n\nViệt Nam có mạng lưới hiệp định thương mại tự do với hơn 50 quốc gia, mở ra cơ hội rộng lớn cho nhà xuất khẩu muốn tiếp cận thị trường toàn cầu với lợi thế thuế quan cạnh tranh. Tuy nhiên, điều hướng các yêu cầu tuân thủ và chứng từ hải quan là thách thức thực sự.\n\n## Dịch vụ hỗ trợ xuất khẩu toàn diện\n\nĐội ngũ chuyên gia của chúng tôi chuẩn bị tất cả chứng từ xuất khẩu cần thiết, phân loại mã HS, xây dựng chiến lược tuân thủ tiêu chuẩn chất lượng an toàn, và phối hợp chứng nhận xuất xứ. Chúng tôi đảm bảo lô hàng của bạn thông quan hiệu quả nhất.\n\n## Thâm nhập thị trường quốc tế\n\nChúng tôi cung cấp đánh giá toàn diện về khả năng thâm nhập thị trường mục tiêu của sản phẩm, bao gồm phân tích yêu cầu tuân thủ quy định, chứng nhận cần thiết và yêu cầu ghi nhãn, đóng gói ở từng thị trường.",
+      "seoTitle": "Dịch vụ Hỗ trợ Xuất khẩu từ Việt Nam | Ideal Deal",
+      "seoDescription": "Hỗ trợ xuất khẩu toàn diện cho doanh nghiệp muốn tiếp cận thị trường toàn cầu từ Việt Nam. Chúng tôi xử lý tuân thủ, chứng từ và vận chuyển quốc tế.",
+      "features": [
+        {
+          "icon": "FileText",
+          "title": "Chuẩn bị chứng từ xuất khẩu",
+          "description": "Chúng tôi chuẩn bị tất cả chứng từ xuất khẩu cần thiết một cách chính xác và chuyên nghiệp: C/O, hóa đơn thương mại, phiếu đóng gói, chứng từ vận tải."
+        },
+        {
+          "icon": "Globe",
+          "title": "Chiến lược tiếp cận thị trường",
+          "description": "Chúng tôi phân tích yêu cầu tuân thủ và quy định tại thị trường mục tiêu và xây dựng chiến lược thâm nhập phù hợp cho từng thị trường."
+        },
+        {
+          "icon": "Shield",
+          "title": "Tuân thủ quy định quốc tế",
+          "description": "Chúng tôi hướng dẫn bạn qua các yêu cầu an toàn, chất lượng và phù hợp riêng của từng thị trường để đảm bảo sản phẩm được chấp nhận."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Tối ưu hóa thuế hải quan",
+          "description": "Chúng tôi phân tích phân loại HS của các mặt hàng và xác định cơ hội giảm thuế hải quan thông qua hiệp định thương mại tự do."
+        },
+        {
+          "icon": "Users",
+          "title": "Phát triển kênh phân phối",
+          "description": "Chúng tôi giúp bạn xác định nhà phân phối và đối tác thương mại phù hợp tại thị trường mục tiêu và xây dựng quan hệ thành công."
+        },
+        {
+          "icon": "BarChart",
+          "title": "Nghiên cứu thị trường và tình báo thương mại",
+          "description": "Chúng tôi cung cấp báo cáo chi tiết về cạnh tranh, giá cả, sở thích người tiêu dùng và cơ hội tăng trưởng tại thị trường mục tiêu."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Đánh giá sẵn sàng xuất khẩu",
+          "description": "Chúng tôi đánh giá sản phẩm và thị trường mục tiêu để xác định yêu cầu tuân thủ, ước tính chi phí và lập kế hoạch xuất khẩu."
+        },
+        {
+          "step": 2,
+          "title": "Lập kế hoạch tuân thủ quy định",
+          "description": "Chúng tôi lập danh sách toàn diện các chứng nhận, tiêu chuẩn và yêu cầu quy định cần thiết để thâm nhập từng thị trường mục tiêu."
+        },
+        {
+          "step": 3,
+          "title": "Chuẩn bị chứng từ xuất khẩu",
+          "description": "Chúng tôi đảm nhận chuẩn bị tất cả chứng từ thương mại và hải quan theo tiêu chuẩn quốc tế."
+        },
+        {
+          "step": 4,
+          "title": "Phối hợp vận chuyển và logistics",
+          "description": "Chúng tôi phối hợp với đối tác vận chuyển đáng tin cậy để đảm bảo lô hàng đến đúng hạn với chi phí tốt nhất."
+        },
+        {
+          "step": 5,
+          "title": "Theo dõi và cải thiện hiệu suất",
+          "description": "Chúng tôi theo dõi hiệu suất lô hàng qua hải quan và liên tục đề xuất cải thiện quy trình xuất khẩu và giảm chi phí."
+        }
+      ],
+      "targetIndustries": [
+        "Hàng tiêu dùng",
+        "Điện tử & Thiết bị",
+        "May mặc & Dệt may",
+        "Thực phẩm & Nông sản",
+        "Vật tư công nghiệp",
+        "Sản phẩm sức khỏe & Làm đẹp"
+      ],
+      "certifications": [
+        "Hệ thống ưu đãi GSP",
+        "Hiệp định thương mại tự do CPTPP",
+        "Chứng nhận xuất xứ C/O",
+        "Chứng nhận HALAL cho thị trường Hồi giáo",
+        "Tuân thủ REACH châu Âu",
+        "Yêu cầu FDA Hoa Kỳ"
+      ],
+      "faqs": [
+        {
+          "question": "Bạn hỗ trợ xuất khẩu đến những thị trường nào?",
+          "answer": "Chúng tôi hỗ trợ xuất khẩu đến hơn 50 quốc gia, với kinh nghiệm sâu về thị trường Mỹ, châu Âu, Úc, Trung Đông và Đông Nam Á."
+        },
+        {
+          "question": "Mất bao lâu để có được chứng nhận xuất khẩu cần thiết?",
+          "answer": "Thời gian thay đổi theo loại chứng nhận và thị trường mục tiêu, thường từ 2 tuần đến 3 tháng. Chúng tôi bắt đầu quá trình sớm để tránh chậm trễ."
+        },
+        {
+          "question": "Bạn có giúp hiểu về hiệp định thương mại tự do không?",
+          "answer": "Có. Đội ngũ của chúng tôi phân tích lợi thế của hiệp định thương mại tự do mà Việt Nam tham gia và xác định cách tận dụng để giảm thuế hải quan."
+        },
+        {
+          "question": "Dịch vụ chuẩn bị chứng từ xuất khẩu bao gồm những gì?",
+          "answer": "Bao gồm: hóa đơn thương mại, phiếu đóng gói, chứng nhận xuất xứ, vận đơn (B/L hoặc AWB), giấy chứng nhận kiểm dịch thực vật nếu cần, và chứng từ đặc thù theo thị trường."
+        }
+      ]
+    },
+    "logistics": {
+      "name": "Dịch vụ logistics & vận chuyển",
+      "tagline": "Từ Việt Nam đến cửa nhà bạn — đúng hẹn, mọi lần.",
+      "heroDescription": "Chúng tôi cung cấp giải pháp logistics toàn diện từ Việt Nam đến điểm đến cuối cùng của bạn. Dù vận chuyển đường biển, hàng không hay đường bộ, đội ngũ của chúng tôi đảm bảo hàng hóa đến an toàn, hiệu quả và đúng hạn.",
+      "longDescription": "## Tại sao khách hàng của chúng tôi thành công trong vận chuyển từ Việt Nam?\n\nViệt Nam có cảng biển hàng đầu Đông Nam Á, sân bay quốc tế hiện đại và mạng lưới đường bộ rộng khắp đến tất cả vùng sản xuất. Điều này cho phép chúng tôi cung cấp nhiều lựa chọn vận chuyển và tìm giải pháp tối ưu cho từng lô hàng.\n\n## Dịch vụ logistics toàn diện\n\nChúng tôi quản lý toàn bộ chuỗi cung ứng từ giao hàng tại xưởng, thông qua thông quan hải quan và chuẩn bị chứng từ, đến phân phối cuối cùng tại đất nước bạn. Chúng tôi cung cấp theo dõi thời gian thực và vận chuyển an toàn qua các đối tác vận chuyển toàn cầu được chứng nhận.\n\n## Chứng từ hải quan tích hợp\n\nĐội ngũ chuyên gia của chúng tôi chuẩn bị tất cả chứng từ hải quan chính xác, bao gồm tờ khai hải quan, C/O, hóa đơn thương mại, và phiếu đóng gói được xác nhận.",
+      "seoTitle": "Dịch vụ Vận chuyển & Logistics từ Việt Nam | Ideal Deal",
+      "seoDescription": "Giải pháp logistics vận chuyển toàn diện từ Việt Nam. Vận chuyển biển, hàng không, đường bộ với quản lý hải quan đầy đủ và theo dõi thời gian thực.",
+      "features": [
+        {
+          "icon": "Ship",
+          "title": "Vận chuyển đường biển",
+          "description": "Giải pháp vận chuyển biển cạnh tranh cho container nguyên FCL và lẻ LCL qua các cảng lớn của Việt Nam đến mọi điểm đến toàn cầu."
+        },
+        {
+          "icon": "Plane",
+          "title": "Vận chuyển hàng không",
+          "description": "Dịch vụ vận chuyển hàng không nhanh và an toàn cho hàng hóa ưu tiên hoặc dễ vỡ qua các sân bay quốc tế chính."
+        },
+        {
+          "icon": "Truck",
+          "title": "Vận chuyển đường bộ & Phân phối",
+          "description": "Mạng lưới phân phối đường bộ bao phủ Việt Nam và các nước lân cận, với dịch vụ giao tận nhà trong nước đích."
+        },
+        {
+          "icon": "FileText",
+          "title": "Thông quan hải quan",
+          "description": "Đội ngũ chuyên gia chuẩn bị chứng từ hải quan và hoàn thành thủ tục thông quan tại Việt Nam và nước nhận hàng hiệu quả."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Theo dõi lô hàng thời gian thực",
+          "description": "Nền tảng theo dõi điện tử cho phép bạn xem vị trí lô hàng từng giây từ nhà máy đến khi nhận hàng."
+        },
+        {
+          "icon": "Shield",
+          "title": "Bảo hiểm hàng hóa toàn diện",
+          "description": "Chúng tôi cung cấp các lựa chọn bảo hiểm toàn diện bảo vệ bạn khỏi mọi tổn thất hoặc thiệt hại trong quá trình vận chuyển."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Đánh giá yêu cầu vận chuyển",
+          "description": "Chúng tôi phân tích nhu cầu của bạn: loại hàng hóa, điểm đến, lịch trình và ngân sách để đề xuất giải pháp logistics tối ưu."
+        },
+        {
+          "step": 2,
+          "title": "Đặt chỗ và phối hợp",
+          "description": "Chúng tôi đàm phán với hãng vận tải và đặt chỗ phù hợp, xác định tuyến đường tốt nhất để có giá tốt và thời gian nhanh nhất."
+        },
+        {
+          "step": 3,
+          "title": "Chuẩn bị chứng từ hải quan",
+          "description": "Đội ngũ của chúng tôi chuẩn bị đầy đủ chứng từ hải quan chính xác theo yêu cầu của cả Việt Nam và nước nhận hàng."
+        },
+        {
+          "step": 4,
+          "title": "Bốc xếp và vận chuyển",
+          "description": "Chúng tôi giám sát quá trình bốc xếp, đóng gói và đưa vào container, và gửi thông báo ngay khi lô hàng khởi hành."
+        },
+        {
+          "step": 5,
+          "title": "Giao hàng và lưu chứng từ",
+          "description": "Chúng tôi theo dõi lô hàng đến giao hàng cuối cùng và cung cấp đầy đủ chứng từ giao hàng và biên nhận."
+        }
+      ],
+      "targetIndustries": [
+        "Bán lẻ & Phân phối",
+        "Thương mại điện tử",
+        "Sản xuất & Công nghiệp",
+        "Thực phẩm & Đồ uống",
+        "Mỹ phẩm",
+        "Điện tử & Công nghệ"
+      ],
+      "certifications": [
+        "Đối tác kinh tế được cấp phép AEO",
+        "IATA — Hiệp hội vận tải hàng không quốc tế",
+        "ISO 9001 — Quản lý chất lượng",
+        "C-TPAT — Đối tác thương mại hải quan chống khủng bố",
+        "FIATA — Liên đoàn quốc tế các hiệp hội giao nhận vận tải"
+      ],
+      "faqs": [
+        {
+          "question": "Những lựa chọn vận chuyển nào có sẵn từ Việt Nam?",
+          "answer": "Chúng tôi cung cấp vận chuyển biển (FCL và LCL), vận chuyển hàng không, vận chuyển đường bộ đến các nước lân cận, cùng dịch vụ chuyển phát nhanh DHL, FedEx, UPS cho đơn hàng nhỏ."
+        },
+        {
+          "question": "Thời gian vận chuyển từ Việt Nam mất bao lâu?",
+          "answer": "Thời gian khác nhau tùy điểm đến: hàng không 3-7 ngày, biển đến châu Âu và Mỹ 25-35 ngày, đến Trung Đông và Úc 15-25 ngày."
+        },
+        {
+          "question": "Bạn có đảm nhận thông quan hải quan tại nước đến không?",
+          "answer": "Có, chúng tôi có mạng lưới đại lý hải quan tại các thị trường chính và đảm nhận thông quan tại nước đến để đảm bảo hàng hóa thông suốt."
+        },
+        {
+          "question": "Chi phí vận chuyển ước tính là bao nhiêu?",
+          "answer": "Chi phí thay đổi theo kích thước, trọng lượng, điểm đến và phương thức vận chuyển. Đội ngũ của chúng tôi cung cấp báo giá miễn phí với so sánh giữa các lựa chọn."
+        }
+      ]
+    },
+    "quality-control": {
+      "name": "Kiểm soát chất lượng",
+      "tagline": "Sản phẩm làm hài lòng khách hàng của bạn. Được đảm bảo trước khi giao hàng.",
+      "heroDescription": "Chúng tôi đảm bảo mỗi lô hàng rời Việt Nam đúng thông số kỹ thuật và tiêu chuẩn chất lượng quốc tế của bạn. Đội ngũ thanh tra chuyên nghiệp làm việc trực tiếp tại nhà máy để bảo vệ bạn khỏi các vấn đề chất lượng tốn kém.",
+      "longDescription": "## Tại sao kiểm soát chất lượng tại chỗ là điều bắt buộc?\n\nKiểm tra trực tiếp tại nhà máy là sự bảo vệ tốt nhất chống lại lỗi sản xuất có thể gây thiệt hại lớn. Kinh nghiệm của nhiều nhà nhập khẩu cho thấy chỉ dựa vào hình ảnh và tuyên bố của nhà máy là không đủ để duy trì tiêu chuẩn chất lượng.\n\n## Phương pháp kiểm soát chất lượng của chúng tôi\n\nĐội ngũ của chúng tôi bao gồm các thanh tra có nhiều năm kinh nghiệm trong các lĩnh vực sản xuất khác nhau. Họ thăm nhà máy thường xuyên và áp dụng quy trình kiểm tra chi tiết bao gồm: thông số sản phẩm, chất lượng nguyên liệu, độ chính xác hoàn thiện và tính chính xác của đóng gói.\n\n## Báo cáo được ghi lại và minh bạch\n\nSau mỗi lần kiểm tra, bạn nhận được báo cáo chi tiết kèm hình ảnh và video, nêu rõ kết quả kiểm tra, các vấn đề phát hiện và khuyến nghị của chúng tôi.",
+      "seoTitle": "Dịch vụ Kiểm soát Chất lượng tại Việt Nam | Ideal Deal",
+      "seoDescription": "Đội ngũ kiểm soát chất lượng chuyên nghiệp làm việc tại nhà máy Việt Nam. Kiểm tra trước giao hàng, giám sát sản xuất và đảm bảo tuân thủ tiêu chuẩn quốc tế.",
+      "features": [
+        {
+          "icon": "Eye",
+          "title": "Kiểm tra trước khi giao hàng",
+          "description": "Kiểm tra toàn diện sản phẩm trước khi giao hàng theo tiêu chuẩn AQL quốc tế để phát hiện lỗi trước khi hàng rời nhà máy."
+        },
+        {
+          "icon": "Activity",
+          "title": "Giám sát sản xuất trong quá trình",
+          "description": "Kiểm tra định kỳ trong quá trình sản xuất để phát hiện sớm bất kỳ sai lệch nào so với thông số kỹ thuật và xử lý ngay lập tức."
+        },
+        {
+          "icon": "CheckSquare",
+          "title": "Kiểm tra nguyên liệu thô",
+          "description": "Xác minh chính xác chất lượng nguyên liệu thô sử dụng trong sản xuất trước khi bắt đầu để đảm bảo chất lượng từ nguồn gốc."
+        },
+        {
+          "icon": "FileText",
+          "title": "Báo cáo chất lượng chi tiết",
+          "description": "Báo cáo kiểm tra toàn diện kèm hình ảnh, video và dữ liệu gửi trong vòng 24 giờ sau khi hoàn thành kiểm tra."
+        },
+        {
+          "icon": "Microscope",
+          "title": "Thử nghiệm phòng thí nghiệm được chứng nhận",
+          "description": "Chúng tôi gửi mẫu đến phòng thí nghiệm được chứng nhận quốc tế để thực hiện thử nghiệm chuyên biệt đảm bảo tuân thủ tiêu chuẩn kỹ thuật."
+        },
+        {
+          "icon": "Award",
+          "title": "Quản lý tuân thủ quy định",
+          "description": "Chúng tôi theo dõi yêu cầu tuân thủ tại thị trường mục tiêu và đảm bảo sản phẩm nhận được chứng nhận và phê duyệt cần thiết."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Xác định tiêu chuẩn chất lượng",
+          "description": "Chúng tôi cùng bạn xây dựng tiêu chuẩn chất lượng chính xác, danh sách kiểm tra tùy chỉnh và mức AQL phù hợp với sản phẩm."
+        },
+        {
+          "step": 2,
+          "title": "Lên lịch kiểm tra",
+          "description": "Chúng tôi sắp xếp lịch kiểm tra với nhà máy ở các giai đoạn phù hợp của sản xuất để đảm bảo phạm vi kiểm tra hiệu quả và toàn diện."
+        },
+        {
+          "step": 3,
+          "title": "Kiểm tra thực địa tại nhà máy",
+          "description": "Thanh tra của chúng tôi thăm nhà máy và thực hiện quy trình kiểm tra chi tiết với ghi lại hình ảnh và số liệu."
+        },
+        {
+          "step": 4,
+          "title": "Lập và gửi báo cáo kiểm tra",
+          "description": "Bạn nhận được báo cáo chi tiết bao gồm: quan sát, hình ảnh, khuyến nghị và quyết định cuối cùng (chấp nhận/từ chối/kiểm tra lại)."
+        },
+        {
+          "step": 5,
+          "title": "Theo dõi sửa chữa và phê duyệt",
+          "description": "Nếu có vấn đề, chúng tôi theo dõi với nhà máy để đảm bảo sửa chữa trước khi đưa ra phê duyệt cuối cùng cho giao hàng."
+        }
+      ],
+      "targetIndustries": [
+        "May mặc & Dệt may",
+        "Điện tử & Thiết bị",
+        "Hàng gia dụng",
+        "Đồ chơi & Sản phẩm trẻ em",
+        "Sức khỏe & Làm đẹp",
+        "Nội thất & Trang trí"
+      ],
+      "certifications": [
+        "Tiêu chuẩn AQL quốc tế",
+        "ISO 2859 — Quy trình lấy mẫu",
+        "ASTM — Tiêu chuẩn thử nghiệm Mỹ",
+        "EN — Tiêu chuẩn châu Âu",
+        "CPSC — An toàn sản phẩm tiêu dùng"
+      ],
+      "faqs": [
+        {
+          "question": "Sự khác biệt giữa các loại kiểm tra là gì?",
+          "answer": "Kiểm tra trước sản xuất xác minh nguyên liệu và thiết lập, kiểm tra trong sản xuất giám sát quá trình, và kiểm tra trước giao hàng kiểm tra sản phẩm cuối cùng. Chúng tôi khuyến nghị kết hợp để bảo vệ toàn diện."
+        },
+        {
+          "question": "Tỷ lệ mẫu trong kiểm tra là bao nhiêu?",
+          "answer": "Chúng tôi áp dụng tiêu chuẩn AQL được chứng nhận quốc tế để xác định kích thước mẫu, thường từ 10%-30% tổng đơn hàng tùy mức rủi ro chấp nhận."
+        },
+        {
+          "question": "Mất bao lâu để có báo cáo kiểm tra?",
+          "answer": "Bạn nhận được báo cáo trong vòng 24 giờ sau khi hoàn thành kiểm tra thực địa, kèm hình ảnh, video và dữ liệu đầy đủ."
+        },
+        {
+          "question": "Điều gì xảy ra nếu phát hiện lỗi trong lô hàng?",
+          "answer": "Chúng tôi ghi lại vấn đề chi tiết và đàm phán với nhà máy để sửa chữa, sản xuất lại hoặc bồi thường phù hợp, đồng hành cùng bạn cho đến khi giải quyết."
+        }
+      ]
+    },
+    "product-sourcing": {
+      "name": "Tìm nguồn cung ứng sản phẩm",
+      "tagline": "Tìm đúng sản phẩm với đúng mức giá.",
+      "heroDescription": "Chúng tôi tận dụng mạng lưới rộng lớn của nhà cung cấp tại Việt Nam để tìm đúng sản phẩm bạn cần với giá tốt nhất và chất lượng cao nhất. Từ nghiên cứu, so sánh đến đảm bảo mẫu và đàm phán hợp đồng.",
+      "longDescription": "## Sức mạnh của mạng lưới nhà cung cấp của chúng tôi\n\nSau nhiều năm làm việc trong thị trường Việt Nam, chúng tôi đã xây dựng quan hệ bền vững với hàng trăm nhà cung cấp đáng tin cậy trong nhiều lĩnh vực sản xuất khác nhau. Những quan hệ này cho phép bạn tiếp cận nguồn cung không thể tìm thấy một mình, với giá ưu đãi và điều kiện tốt hơn.\n\n## Quy trình tìm nguồn chuyên nghiệp\n\nChúng tôi không chỉ gửi danh sách nhà cung cấp — chúng tôi tiến hành đánh giá toàn diện mỗi nhà cung cấp tiềm năng, xác minh lịch sử kinh doanh, năng lực sản xuất, chứng nhận và tiêu chuẩn chất lượng. Sau đó chúng tôi đàm phán thay mặt bạn để có giá và điều kiện tốt nhất.\n\n## Minh bạch hoàn toàn về giá cả\n\nChúng tôi cung cấp so sánh chi tiết giữa các nhà cung cấp với phân tích chi phí tổng thể, bao gồm: giá sản phẩm, vận chuyển, hải quan và các khoản phí khác.",
+      "seoTitle": "Dịch vụ Tìm nguồn Sản phẩm từ Việt Nam | Ideal Deal",
+      "seoDescription": "Chuyên gia tìm nguồn sản phẩm tại Việt Nam. Chúng tôi tìm nhà cung cấp phù hợp, đàm phán giá tốt nhất và đảm bảo chất lượng sản phẩm.",
+      "features": [
+        {
+          "icon": "Search",
+          "title": "Tìm kiếm nhà cung cấp toàn diện",
+          "description": "Chúng tôi tìm kiếm trong cơ sở dữ liệu và mạng lưới quan hệ để tìm nhà cung cấp phù hợp với sản phẩm, chất lượng, giá cả và năng lực sản xuất yêu cầu."
+        },
+        {
+          "icon": "BarChart2",
+          "title": "Đánh giá và so sánh báo giá",
+          "description": "Chúng tôi thu thập nhiều báo giá và thực hiện so sánh toàn diện bao gồm chất lượng, giá cả, điều kiện, năng lực và độ tin cậy."
+        },
+        {
+          "icon": "Package",
+          "title": "Yêu cầu và đánh giá mẫu",
+          "description": "Chúng tôi phối hợp lấy mẫu từ nhà cung cấp được chọn, thực hiện đánh giá chất lượng kỹ lưỡng trước khi đưa ra quyết định cuối cùng."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Đàm phán giá chuyên nghiệp",
+          "description": "Đội ngũ giàu kinh nghiệm của chúng tôi đàm phán để đảm bảo giá tốt nhất mà không ảnh hưởng đến yêu cầu chất lượng."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Xác minh nhà cung cấp",
+          "description": "Chúng tôi thực hiện xác minh thực địa và tài liệu toàn diện về mỗi nhà cung cấp trước khi giới thiệu để đảm bảo độ tin cậy và tuân thủ."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Quản lý quan hệ nhà cung cấp dài hạn",
+          "description": "Chúng tôi giúp bạn xây dựng quan hệ thương mại bền vững với nhà cung cấp để được ưu tiên và điều kiện tốt hơn theo thời gian."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Xác định thông số kỹ thuật sản phẩm",
+          "description": "Chúng tôi cùng bạn ghi lại thông số sản phẩm chính xác, giá mục tiêu, số lượng đặt hàng và bất kỳ yêu cầu đặc biệt nào."
+        },
+        {
+          "step": 2,
+          "title": "Nghiên cứu và khảo sát thị trường",
+          "description": "Đội ngũ của chúng tôi tìm kiếm trong mạng lưới nhà cung cấp, xác định ứng viên phù hợp và thu thập thông tin chi tiết về từng người."
+        },
+        {
+          "step": 3,
+          "title": "Yêu cầu báo giá và so sánh",
+          "description": "Chúng tôi liên hệ với các nhà cung cấp được chọn, yêu cầu báo giá chi tiết và thực hiện so sánh toàn diện giữa chúng."
+        },
+        {
+          "step": 4,
+          "title": "Phối hợp mẫu và đánh giá",
+          "description": "Chúng tôi phối hợp lấy mẫu và thực hiện đánh giá chất lượng chính xác, gửi mẫu cho bạn kiểm tra cuối cùng."
+        },
+        {
+          "step": 5,
+          "title": "Đàm phán và ký kết hợp đồng",
+          "description": "Chúng tôi đàm phán giá cả, điều kiện, lịch trình và giúp bạn hoàn tất hợp đồng nhà cung cấp cuối cùng."
+        }
+      ],
+      "targetIndustries": [
+        "Bán lẻ & Bán buôn",
+        "Thương mại điện tử & Amazon",
+        "Thương hiệu & Nhà phân phối",
+        "Startup & Doanh nghiệp mới",
+        "Công ty xuất nhập khẩu",
+        "Người mua chính phủ"
+      ],
+      "certifications": [
+        "Xác minh đăng ký kinh doanh",
+        "Kiểm toán ISO 9001",
+        "Kiểm toán trách nhiệm xã hội BSCI",
+        "Xem xét hồ sơ xuất khẩu",
+        "Đánh giá dòng tiền và khả năng thanh toán của nhà cung cấp"
+      ],
+      "faqs": [
+        {
+          "question": "Mất bao lâu để tìm được nhà cung cấp phù hợp?",
+          "answer": "Thường mất 1-3 tuần: một tuần để nghiên cứu ban đầu, một tuần để thu thập báo giá và một tuần để phối hợp mẫu."
+        },
+        {
+          "question": "Bạn sẽ giới thiệu bao nhiêu nhà cung cấp?",
+          "answer": "Chúng tôi thường giới thiệu 3-5 nhà cung cấp đủ tiêu chuẩn với đánh giá so sánh chi tiết về từng người để giúp bạn đưa ra quyết định tốt nhất."
+        },
+        {
+          "question": "Bạn có thể tìm nhà cung cấp cho sản phẩm chuyên biệt hoặc ít phổ biến không?",
+          "answer": "Có, mạng lưới của chúng tôi trải rộng nhiều lĩnh vực chuyên biệt. Nếu không tìm thấy trong mạng lưới, chúng tôi mở rộng tìm kiếm trong thị trường Việt Nam nói chung."
+        },
+        {
+          "question": "Phương pháp xác minh độ tin cậy nhà cung cấp của bạn là gì?",
+          "answer": "Chúng tôi thực hiện xác minh thực địa tại chỗ, xem xét tài liệu cấp phép và chứng nhận, phân tích lịch sử xuất khẩu và phỏng vấn khách hàng cũ trước bất kỳ giới thiệu nào."
+        }
+      ]
+    },
+    "supplier-identification": {
+      "name": "Xác định nhà cung cấp",
+      "tagline": "Tìm đối tác Việt Nam lý tưởng của bạn.",
+      "heroDescription": "Chúng tôi sử dụng phương pháp nghiên cứu chuyên sâu để xác định các nhà cung cấp Việt Nam đáp ứng chính xác yêu cầu của bạn về năng lực sản xuất, chứng nhận, tuân thủ và độ tin cậy.",
+      "longDescription": "## Điều gì làm cho việc xác định nhà cung cấp trở thành thách thức thực sự\n\nThị trường Việt Nam có hàng nghìn nhà cung cấp trong nhiều lĩnh vực, khiến việc xác định đối tác phù hợp trở nên phức tạp đòi hỏi nghiên cứu tỉ mỉ và đánh giá chuyên nghiệp. Những gì xuất hiện trong danh sách nền tảng trực tuyến không tiết lộ toàn bộ bức tranh về hiệu suất và độ tin cậy của nhà cung cấp.\n\n## Phương pháp xác định nhà cung cấp của chúng tôi\n\nChúng tôi kết hợp nghiên cứu tài liệu chuyên sâu và xác minh thực địa trực tiếp. Chúng tôi thăm nhà máy trực tiếp, tiến hành cuộc trò chuyện với ban quản lý, xem xét hồ sơ tài chính, chứng nhận và báo cáo kiểm toán, đồng thời xác minh tài liệu tham khảo từ khách hàng cũ.\n\n## Danh sách rút gọn sẵn sàng để quyết định\n\nThay vì làm bạn choáng ngợp với hàng chục cái tên, chúng tôi trình bày danh sách rút gọn gồm 3-5 nhà cung cấp tốt nhất với phân tích so sánh toàn diện.",
+      "seoTitle": "Xác định Nhà cung cấp tại Việt Nam | Ideal Deal",
+      "seoDescription": "Dịch vụ xác định nhà cung cấp chuyên biệt tại Việt Nam. Tìm đối tác sản xuất đáng tin cậy thông qua nghiên cứu tỉ mỉ và xác minh thực địa toàn diện.",
+      "features": [
+        {
+          "icon": "Search",
+          "title": "Nghiên cứu toàn diện và có hệ thống",
+          "description": "Chúng tôi tìm kiếm trong cơ sở dữ liệu ngành, hồ sơ xuất khẩu, nền tảng thương mại và mạng lưới quan hệ địa phương để xác định nhà cung cấp tiềm năng."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Kiểm tra thực địa để xác minh",
+          "description": "Đội ngũ của chúng tôi thăm nhà máy trực tiếp để xác minh năng lực sản xuất, môi trường vận hành, tuân thủ và thực tiễn thực tế."
+        },
+        {
+          "icon": "Star",
+          "title": "Đánh giá chính xác theo tiêu chí khách quan",
+          "description": "Mỗi nhà cung cấp được đánh giá toàn diện dựa trên: chất lượng, giá cả, hiệu suất, độ tin cậy và tuân thủ quy định."
+        },
+        {
+          "icon": "FileText",
+          "title": "Báo cáo so sánh chi tiết",
+          "description": "Chúng tôi cung cấp báo cáo so sánh toàn diện cho phép bạn đưa ra quyết định có căn cứ về việc chọn đối tác sản xuất phù hợp nhất."
+        },
+        {
+          "icon": "Link",
+          "title": "Tạo điều kiện kết nối ban đầu",
+          "description": "Chúng tôi phối hợp các cuộc họp giới thiệu ban đầu và giúp xây dựng nền tảng vững chắc cho quan hệ đối tác thương mại lâu dài."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Hỗ trợ sau lựa chọn",
+          "description": "Đội ngũ của chúng tôi theo dõi quan hệ đối tác sau lựa chọn để đảm bảo mọi thứ diễn ra theo đúng hướng và đáp ứng kỳ vọng."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Xác định yêu cầu đối tác lý tưởng",
+          "description": "Chúng tôi ghi lại chính xác những gì bạn tìm kiếm ở đối tác: ngành, năng lực, chứng nhận, vị trí địa lý và khả năng kỹ thuật."
+        },
+        {
+          "step": 2,
+          "title": "Nghiên cứu và sàng lọc ứng viên",
+          "description": "Chúng tôi tìm kiếm trong cơ sở dữ liệu, mạng lưới quan hệ và nền tảng thương mại để tổng hợp danh sách ban đầu các nhà cung cấp tiềm năng."
+        },
+        {
+          "step": 3,
+          "title": "Xác minh thực địa và tài liệu",
+          "description": "Chúng tôi xác minh mỗi nhà cung cấp tiềm năng thông qua kiểm tra thực địa hoặc xem xét tài liệu toàn diện."
+        },
+        {
+          "step": 4,
+          "title": "Trình bày danh sách rút gọn với đánh giá",
+          "description": "Chúng tôi giao danh sách rút gọn gồm các ứng viên tốt nhất với đánh giá so sánh chi tiết và khuyến nghị có lý giải."
+        },
+        {
+          "step": 5,
+          "title": "Tạo điều kiện các cuộc họp và đàm phán ban đầu",
+          "description": "Chúng tôi phối hợp các cuộc gặp mặt và hỗ trợ trong đàm phán ban đầu để đặt nền móng vững chắc cho quan hệ đối tác."
+        }
+      ],
+      "targetIndustries": [
+        "Nhà sản xuất tìm nhà cung cấp linh kiện",
+        "Nhà bán lẻ muốn nhập khẩu trực tiếp",
+        "Công ty nhãn hiệu riêng",
+        "Dự án mở rộng thị trường",
+        "Công ty quản lý chuỗi cung ứng"
+      ],
+      "certifications": [
+        "Xác minh đăng ký kinh doanh Việt Nam",
+        "Kiểm toán ISO",
+        "Kiểm toán trách nhiệm xã hội BSCI",
+        "Hồ sơ xuất nhập khẩu",
+        "Đánh giá tài chính về khả năng thanh toán"
+      ],
+      "faqs": [
+        {
+          "question": "Điều gì phân biệt dịch vụ xác định nhà cung cấp với tìm nguồn cung ứng thông thường?",
+          "answer": "Xác định nhà cung cấp tập trung vào tìm đối tác chiến lược dài hạn, bao gồm đánh giá sâu hơn về năng lực và độ tin cậy chứ không chỉ giá cả."
+        },
+        {
+          "question": "Quá trình xác định nhà cung cấp mất bao lâu?",
+          "answer": "Quá trình thường mất 2-4 tuần, bao gồm nghiên cứu, xác minh thực địa và chuẩn bị báo cáo so sánh."
+        },
+        {
+          "question": "Bạn có thể tìm nhà cung cấp cho số lượng nhỏ hoặc startup không?",
+          "answer": "Có, chúng tôi hỗ trợ doanh nghiệp ở mọi giai đoạn phát triển. Nhiều nhà cung cấp đối tác chấp nhận số lượng nhỏ hoặc cung cấp sự linh hoạt cho khách hàng mới."
+        },
+        {
+          "question": "Điều gì xảy ra nếu không có nhà cung cấp nào được đề xuất phù hợp hoàn toàn?",
+          "answer": "Chúng tôi tiếp tục tìm kiếm mà không tính thêm phí cho đến khi tìm được đối tác phù hợp. Sự hài lòng của bạn với kết quả cuối cùng là điều quan trọng."
+        }
+      ]
+    },
+    "factory-audits": {
+      "name": "Kiểm toán nhà máy",
+      "tagline": "Xác minh trước khi tin tưởng. Kiểm toán trước khi đầu tư.",
+      "heroDescription": "Đánh giá nhà máy toàn diện cung cấp cho bạn bức tranh rõ ràng và đáng tin cậy về năng lực sản xuất, thực tiễn và tuân thủ trước khi cam kết với bất kỳ nhà cung cấp nào tại Việt Nam.",
+      "longDescription": "## Tại sao kiểm toán nhà máy trước khi cam kết là điều bắt buộc?\n\nXây dựng quan hệ đối tác thương mại dài hạn với nhà máy chưa được xác minh tiềm ẩn rủi ro đáng kể: vấn đề chất lượng, chậm trễ giao hàng và vi phạm tuân thủ có thể gây thiệt hại lớn. Kiểm toán thực địa toàn diện của chúng tôi bảo vệ bạn khỏi những rủi ro này.\n\n## Kiểm toán của chúng tôi bao gồm gì\n\nKiểm toán nhà máy của chúng tôi bao gồm 8 lĩnh vực chính: cơ sở hạ tầng và thiết bị, hệ thống quản lý chất lượng, thực tiễn lao động và an toàn nghề nghiệp, tuân thủ môi trường, năng lực sản xuất thực tế, quản lý chuỗi cung ứng, hiệu suất tài chính và ổn định, và tuân thủ quy định địa phương và quốc tế.\n\n## Báo cáo kiểm toán toàn diện và có thể thực hiện được\n\nSau khi hoàn thành kiểm toán, bạn nhận được báo cáo chi tiết kèm hình ảnh và tài liệu toàn diện, bao gồm: phát hiện chi tiết, phân loại rủi ro, khuyến nghị thực tế và kế hoạch hành động khắc phục.",
+      "seoTitle": "Dịch vụ Kiểm toán Nhà máy tại Việt Nam | Ideal Deal",
+      "seoDescription": "Kiểm toán nhà máy toàn diện tại Việt Nam. Chúng tôi xác minh năng lực sản xuất, tuân thủ và thực tiễn của nhà máy trước khi bắt đầu bất kỳ quan hệ đối tác nào.",
+      "features": [
+        {
+          "icon": "ClipboardCheck",
+          "title": "Kiểm toán hoạt động toàn diện",
+          "description": "Đánh giá chính xác tất cả các khía cạnh của hoạt động sản xuất: dây chuyền sản xuất, thiết bị, quy trình chất lượng và đào tạo công nhân."
+        },
+        {
+          "icon": "Users",
+          "title": "Kiểm toán tiêu chuẩn lao động và an toàn",
+          "description": "Chúng tôi xác minh sự tuân thủ của nhà máy với tiêu chuẩn lao động quốc tế và các giao thức an toàn nghề nghiệp."
+        },
+        {
+          "icon": "Leaf",
+          "title": "Kiểm toán tuân thủ môi trường",
+          "description": "Chúng tôi đánh giá thực tiễn bền vững, tuân thủ môi trường và quản lý chất thải để xác minh đáp ứng tiêu chuẩn quốc tế."
+        },
+        {
+          "icon": "BarChart",
+          "title": "Đánh giá năng lực sản xuất",
+          "description": "Chúng tôi phân tích năng lực sản xuất thực tế của nhà máy và khả năng thực hiện nhiều kích thước đơn hàng đúng hạn."
+        },
+        {
+          "icon": "FileText",
+          "title": "Báo cáo kiểm toán được ghi chép và toàn diện",
+          "description": "Báo cáo kiểm toán chi tiết kèm hình ảnh và bằng chứng được ghi lại, nêu rõ phát hiện, rủi ro và khuyến nghị thực tế."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Hỗ trợ hành động khắc phục",
+          "description": "Chúng tôi giúp nhà máy xây dựng và thực hiện kế hoạch hành động khắc phục để giải quyết các thiếu sót được phát hiện."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Xác định phạm vi và mục tiêu kiểm toán",
+          "description": "Chúng tôi thảo luận với bạn về mục tiêu cụ thể của kiểm toán, các lĩnh vực ưu tiên và tiêu chuẩn cần đo lường."
+        },
+        {
+          "step": 2,
+          "title": "Chuẩn bị và thu thập thông tin",
+          "description": "Chúng tôi yêu cầu nhà máy chuẩn bị tài liệu cần thiết và chuẩn bị danh sách kiểm tra chi tiết phù hợp với loại và lĩnh vực của nhà máy."
+        },
+        {
+          "step": 3,
+          "title": "Kiểm tra thực địa kiểm toán",
+          "description": "Kiểm toán viên được chứng nhận của chúng tôi thăm nhà máy và thực hiện kiểm toán toàn diện với ghi chép chính xác bằng hình ảnh và quan sát."
+        },
+        {
+          "step": 4,
+          "title": "Phân tích phát hiện và chuẩn bị báo cáo",
+          "description": "Chúng tôi phân tích phát hiện, phân loại rủi ro và chuẩn bị báo cáo toàn diện với khuyến nghị thực tế."
+        },
+        {
+          "step": 5,
+          "title": "Theo dõi và xác minh khắc phục",
+          "description": "Chúng tôi theo dõi thực hiện kế hoạch hành động khắc phục và tiến hành kiểm toán theo dõi để xác minh các thiếu sót đã được giải quyết."
+        }
+      ],
+      "targetIndustries": [
+        "Doanh nghiệp tìm kiếm nhà cung cấp mới",
+        "Nhà nhập khẩu thường xuyên",
+        "Công ty chuỗi cung ứng",
+        "Nhà đầu tư và người mua",
+        "Công ty phân phối toàn cầu"
+      ],
+      "certifications": [
+        "Kiểm toán trách nhiệm xã hội BSCI",
+        "Kiểm toán SMETA 4-Pillar",
+        "Kiểm toán môi trường ISO 14001",
+        "Tuân thủ SA8000",
+        "Yêu cầu minh bạch Sedex"
+      ],
+      "faqs": [
+        {
+          "question": "Kiểm toán nhà máy mất bao lâu?",
+          "answer": "Kiểm toán thực địa thường mất 1-2 ngày tùy kích thước và độ phức tạp của nhà máy, sau đó 3-5 ngày để chuẩn bị báo cáo cuối cùng."
+        },
+        {
+          "question": "Nhà máy có biết trước lịch kiểm toán không?",
+          "answer": "Thông thường chúng tôi tiến hành kiểm toán được thông báo, tuy nhiên chúng tôi có thể thực hiện kiểm toán đột xuất theo yêu cầu của bạn để có hình ảnh thực tế hơn."
+        },
+        {
+          "question": "Nhà máy cần nộp những tài liệu gì?",
+          "answer": "Chúng tôi yêu cầu: hồ sơ giấy phép, chứng nhận ISO hoặc tiêu chuẩn chất lượng, hồ sơ lao động, báo cáo hiệu suất môi trường và mẫu hồ sơ kiểm soát chất lượng."
+        },
+        {
+          "question": "Kết quả kiểm toán có ý nghĩa thực tế là gì?",
+          "answer": "Báo cáo phân loại rủi ro thành: nghiêm trọng (cần xử lý ngay), quan trọng (cần kế hoạch khắc phục) và khuyến nghị (cải tiến được đề xuất). Quyết định quan hệ đối tác cuối cùng là của bạn."
+        }
+      ]
+    },
+    "procurement-management": {
+      "name": "Quản lý mua hàng",
+      "tagline": "Văn phòng mua hàng Việt Nam của riêng bạn.",
+      "heroDescription": "Chúng tôi hoạt động như văn phòng mua hàng tích hợp cho bạn tại Việt Nam, quản lý toàn bộ quan hệ nhà cung cấp, đàm phán hợp đồng, theo dõi đơn hàng và đảm bảo hiệu quả chuỗi cung ứng quanh năm.",
+      "longDescription": "## Quản lý mua hàng từ xa — Thách thức và giải pháp\n\nQuản lý nhà cung cấp và chuỗi cung ứng từ xa tại Việt Nam đặt ra thách thức thực sự: chênh lệch múi giờ, rào cản ngôn ngữ, khác biệt văn hóa và khó xác minh thực địa. Đội ngũ của chúng tôi có mặt tại Việt Nam đảm nhận những nhiệm vụ này thay bạn một cách hiệu quả và chuyên nghiệp.\n\n## Dịch vụ quản lý mua hàng bao gồm\n\nChúng tôi cung cấp quản lý mua hàng toàn diện bao gồm: theo dõi đơn hàng và lịch trình, giao tiếp hàng ngày với nhà cung cấp, quản lý thay đổi và khẩn cấp, theo dõi tiêu chuẩn chất lượng, theo dõi giá thị trường và phối hợp vận chuyển. Đội ngũ địa phương của chúng tôi hoạt động như là phần mở rộng của nhóm nội bộ của bạn.\n\n## Báo cáo định kỳ minh bạch\n\nBạn nhận được báo cáo hàng tuần hoặc hàng tháng chi tiết bao gồm: trạng thái đơn hàng, hiệu suất nhà cung cấp, bất kỳ vấn đề hoặc rủi ro tiềm năng nào và khuyến nghị cải tiến.",
+      "seoTitle": "Dịch vụ Quản lý Mua hàng tại Việt Nam | Ideal Deal",
+      "seoDescription": "Chúng tôi hoạt động như văn phòng mua hàng cho bạn tại Việt Nam. Quản lý nhà cung cấp, hợp đồng và đơn hàng để cải thiện hiệu quả chuỗi cung ứng.",
+      "features": [
+        {
+          "icon": "Briefcase",
+          "title": "Văn phòng mua hàng địa phương tích hợp",
+          "description": "Đội ngũ của chúng tôi tại Việt Nam hoạt động như văn phòng mua hàng địa phương với sự hiểu biết sâu sắc về thị trường và quan hệ được xây dựng trong nhiều năm."
+        },
+        {
+          "icon": "Users",
+          "title": "Quản lý quan hệ nhà cung cấp",
+          "description": "Chúng tôi xây dựng và duy trì quan hệ bền chặt với nhà cung cấp để đảm bảo ưu tiên xử lý và điều kiện thương mại tốt nhất."
+        },
+        {
+          "icon": "FileText",
+          "title": "Đàm phán và quản lý hợp đồng",
+          "description": "Chúng tôi đàm phán điều khoản thương mại, chuẩn bị hợp đồng và giám sát việc tuân thủ các điều khoản để bảo vệ lợi ích của bạn."
+        },
+        {
+          "icon": "Activity",
+          "title": "Theo dõi đơn hàng và giám sát hiệu suất",
+          "description": "Chúng tôi theo dõi trạng thái từng đơn hàng hàng ngày và thông báo ngay lập tức về bất kỳ chậm trễ hoặc sai lệch nào."
+        },
+        {
+          "icon": "TrendingDown",
+          "title": "Tối ưu hóa chi phí liên tục",
+          "description": "Chúng tôi liên tục theo dõi giá thị trường và tìm kiếm cơ hội tiết kiệm chi phí mà không ảnh hưởng đến tiêu chuẩn chất lượng."
+        },
+        {
+          "icon": "BarChart2",
+          "title": "Báo cáo định kỳ và phân tích hiệu suất",
+          "description": "Báo cáo thường xuyên bao gồm: hiệu suất nhà cung cấp, trạng thái đơn hàng, tiết kiệm chi phí và khuyến nghị cải tiến."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Đánh giá nhu cầu mua hàng",
+          "description": "Chúng tôi phân tích quy trình mua hàng hiện tại, khối lượng đơn hàng và quan hệ nhà cung cấp hiện có để thiết kế dịch vụ phù hợp nhu cầu của bạn."
+        },
+        {
+          "step": 2,
+          "title": "Lập kế hoạch và thiết kế quy trình mua hàng",
+          "description": "Chúng tôi thiết lập hệ thống rõ ràng cho quy trình mua hàng, cơ chế giao tiếp và giao thức quản lý đơn hàng."
+        },
+        {
+          "step": 3,
+          "title": "Tích hợp nhà cung cấp hiện có",
+          "description": "Chúng tôi chuẩn bị giao tiếp với nhà cung cấp hiện có của bạn tại Việt Nam và tích hợp họ vào hệ thống quản lý mới một cách liền mạch."
+        },
+        {
+          "step": 4,
+          "title": "Quản lý đơn hàng và lịch trình",
+          "description": "Chúng tôi đảm nhận quản lý đơn hàng hàng ngày, theo dõi lịch trình và xử lý mọi vấn đề ngay khi chúng phát sinh."
+        },
+        {
+          "step": 5,
+          "title": "Báo cáo hiệu suất và cải tiến liên tục",
+          "description": "Chúng tôi gửi báo cáo hiệu suất định kỳ và đề xuất sáng kiến cải tiến liên tục để nâng cao hiệu quả mua hàng và tiết kiệm chi phí."
+        }
+      ],
+      "targetIndustries": [
+        "Công ty nhập khẩu đã thành lập",
+        "Bán lẻ & Phân phối",
+        "Công ty thương mại điện tử",
+        "Công ty đa quốc gia",
+        "Công ty xây dựng chuỗi cung ứng"
+      ],
+      "certifications": [
+        "ISO 9001 — Quản lý chất lượng",
+        "Thực tiễn tốt nhất CIPS về mua hàng",
+        "Phương pháp Six Sigma để cải tiến",
+        "Quản lý rủi ro chuỗi cung ứng ISO 31000"
+      ],
+      "faqs": [
+        {
+          "question": "Có thể đạt được bao nhiêu tiết kiệm chi phí?",
+          "answer": "Khách hàng của chúng tôi thường đạt tiết kiệm chi phí từ 10-25% thông qua đàm phán giá tốt hơn, tối ưu hóa khối lượng đặt hàng và phối hợp vận chuyển."
+        },
+        {
+          "question": "Làm thế nào để xử lý rào cản ngôn ngữ với nhà cung cấp Việt Nam?",
+          "answer": "Đội ngũ của chúng tôi thông thạo tiếng Việt, tiếng Anh và nhiều ngôn ngữ khác, loại bỏ hoàn toàn rào cản ngôn ngữ và đảm bảo giao tiếp chính xác và hiệu quả."
+        },
+        {
+          "question": "Bạn có thể quản lý nhiều nhà cung cấp cùng một lúc không?",
+          "answer": "Có, chúng tôi chuyên quản lý danh mục nhiều nhà cung cấp. Hầu hết khách hàng của chúng tôi có từ 5-20 nhà cung cấp mà chúng tôi quản lý một cách có hệ thống."
+        },
+        {
+          "question": "Làm thế nào để đảm bảo tính liên tục khi khẩn cấp?",
+          "answer": "Chúng tôi có các giao thức liên tục được ghi chép và đội dự phòng cho từng tài khoản, cùng chiến lược đa dạng hóa nhà cung cấp để giảm thiểu rủi ro phụ thuộc vào một nhà cung cấp."
+        }
+      ]
+    },
+    "packaging-branding": {
+      "name": "Đóng gói & Thương hiệu",
+      "tagline": "Sản phẩm của bạn xứng đáng có bao bì đặc biệt.",
+      "heroDescription": "Chúng tôi cung cấp giải pháp đóng gói sáng tạo phản ánh giá trị thương hiệu của bạn, thu hút người tiêu dùng và đáp ứng tiêu chuẩn thị trường, với các lựa chọn thân thiện môi trường được sản xuất với giá cạnh tranh tại Việt Nam.",
+      "longDescription": "## Đóng gói — Ấn tượng đầu tiên của sản phẩm bạn\n\nĐóng gói không chỉ là vỏ bọc bảo vệ sản phẩm mà còn là công cụ marketing hiệu quả và là điều đầu tiên người tiêu dùng nhìn thấy. Trong thế giới cạnh tranh khốc liệt, đóng gói nổi bật tạo ra sự khác biệt thực sự giữa sản phẩm được mua và sản phẩm bị bỏ qua.\n\n## Năng lực đóng gói và thương hiệu của chúng tôi\n\nChúng tôi cung cấp dịch vụ đóng gói tích hợp bao gồm: thiết kế đồ họa, lựa chọn vật liệu, sản xuất và đảm bảo tuân thủ tiêu chuẩn. Chúng tôi hợp tác với các nhà in và nhà máy đóng gói hàng đầu tại Việt Nam để đảm bảo chất lượng cạnh tranh tiêu chuẩn quốc tế.\n\n## Tính bền vững môi trường trong đóng gói\n\nChúng tôi chuyên thiết kế và sản xuất bao bì bền vững thân thiện môi trường kết hợp sức hấp dẫn thị giác với tuân thủ các yêu cầu môi trường ngày càng tăng tại thị trường toàn cầu.",
+      "seoTitle": "Dịch vụ Đóng gói & Thương hiệu tại Việt Nam | Ideal Deal",
+      "seoDescription": "Giải pháp đóng gói sáng tạo được thiết kế tại Việt Nam. Thiết kế, lựa chọn vật liệu và sản xuất bao bì phản ánh bản sắc thương hiệu của bạn.",
+      "features": [
+        {
+          "icon": "Palette",
+          "title": "Thiết kế bao bì sáng tạo",
+          "description": "Đội ngũ thiết kế giàu kinh nghiệm biến tầm nhìn của bạn thành thiết kế bao bì hấp dẫn và nổi bật phản ánh chính xác bản sắc thương hiệu."
+        },
+        {
+          "icon": "Package",
+          "title": "Đa dạng loại bao bì",
+          "description": "Chúng tôi cung cấp giải pháp đóng gói đa dạng: hộp carton, túi giấy, hộp nhựa, bao bì thủy tinh, túi cao cấp và nhiều hơn nữa."
+        },
+        {
+          "icon": "Leaf",
+          "title": "Bao bì bền vững thân thiện môi trường",
+          "description": "Các lựa chọn bao bì xanh: vật liệu tái chế, bao bì phân hủy sinh học và thiết kế giảm tiêu thụ vật liệu."
+        },
+        {
+          "icon": "Printer",
+          "title": "In ấn chất lượng cao",
+          "description": "Công nghệ in tiên tiến: CMYK, Pantone, kỹ thuật số, ép kim loại và dập nổi để tạo bao bì đạt tiêu chuẩn thế giới."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Thử nghiệm bao bì và tuân thủ",
+          "description": "Chúng tôi tiến hành các thử nghiệm chuyên biệt về bao bì: thử nghiệm chịu lực, độ ẩm, rơi và tuân thủ yêu cầu thị trường mục tiêu."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Chiến lược thương hiệu",
+          "description": "Chúng tôi giúp bạn phát triển chiến lược thương hiệu toàn diện tăng cường nhận diện sản phẩm và xây dựng lòng trung thành của người tiêu dùng."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Tiếp thu bản sắc thương hiệu",
+          "description": "Chúng tôi tìm hiểu giá trị thương hiệu, khán giả mục tiêu và yêu cầu thị trường để hiểu đúng hướng bao bì."
+        },
+        {
+          "step": 2,
+          "title": "Thiết kế sáng tạo và trình bày đề xuất",
+          "description": "Đội thiết kế chuẩn bị nhiều đề xuất thiết kế và trình bày mẫu thử để lựa chọn và xem xét."
+        },
+        {
+          "step": 3,
+          "title": "Lựa chọn vật liệu và tìm nguồn",
+          "description": "Chúng tôi xác định vật liệu phù hợp nhất về chất lượng, bền vững và chi phí, lấy báo giá từ nhà cung cấp được chứng nhận."
+        },
+        {
+          "step": 4,
+          "title": "Sản xuất mẫu thử",
+          "description": "Chúng tôi sản xuất mẫu bao bì thực tế để đánh giá vật lý và xác nhận đáp ứng yêu cầu trước khi sản xuất đầy đủ."
+        },
+        {
+          "step": 5,
+          "title": "Sản xuất đầy đủ và giao hàng",
+          "description": "Sau khi phê duyệt mẫu thử, chúng tôi bắt đầu sản xuất với số lượng yêu cầu với giám sát chất lượng và giao hàng đúng hạn."
+        }
+      ],
+      "targetIndustries": [
+        "Hàng tiêu dùng & Bán lẻ",
+        "Mỹ phẩm & Chăm sóc cá nhân",
+        "Thực phẩm & Đồ uống",
+        "Thương hiệu cao cấp",
+        "Thương mại điện tử",
+        "Dược phẩm"
+      ],
+      "certifications": [
+        "FSC — Quản lý rừng có trách nhiệm",
+        "ISO 9001 — Chất lượng đóng gói",
+        "Tiêu chuẩn đóng gói thực phẩm FDA",
+        "Yêu cầu đóng gói EU châu Âu",
+        "Chứng nhận bao bì phân hủy sinh học"
+      ],
+      "faqs": [
+        {
+          "question": "Số lượng in tối thiểu cho bao bì là bao nhiêu?",
+          "answer": "Số lượng tối thiểu thay đổi tùy loại bao bì và phương pháp in, thường bắt đầu từ 500-1000 đơn vị cho in offset, ít hơn cho in kỹ thuật số."
+        },
+        {
+          "question": "Mất bao lâu để thiết kế và sản xuất bao bì?",
+          "answer": "Thiết kế thường mất 1-2 tuần, sản xuất mẫu thử 7-14 ngày và sản xuất đầy đủ 3-6 tuần."
+        },
+        {
+          "question": "Bạn có thể khớp đúng màu sắc của thương hiệu chúng tôi không?",
+          "answer": "Có, chúng tôi sử dụng hệ thống màu Pantone và kỹ thuật điều chỉnh màu nâng cao để đảm bảo màu sắc bao bì khớp với hướng dẫn thương hiệu."
+        },
+        {
+          "question": "Bạn có cung cấp bao bì thân thiện môi trường không?",
+          "answer": "Có, chúng tôi chuyên về giải pháp đóng gói bền vững. Chúng tôi cung cấp nhiều lựa chọn vật liệu xanh không hy sinh tính thẩm mỹ và độ bền."
+        }
+      ]
+    },
+    "market-research": {
+      "name": "Nghiên cứu thị trường",
+      "tagline": "Quyết định dựa trên dữ liệu. Không phải đoán mò.",
+      "heroDescription": "Chúng tôi cung cấp phân tích thị trường chuyên sâu để giúp bạn hiểu cơ hội kinh doanh tại Việt Nam và Đông Nam Á. Từ phân tích cạnh tranh đến nghiên cứu khả thi, chúng tôi trang bị quyết định của bạn bằng dữ liệu chính xác.",
+      "longDescription": "## Tại sao nghiên cứu thị trường là điều bắt buộc chứ không phải xa xỉ?\n\nThâm nhập thị trường mới hoặc tung sản phẩm mới mà không có hiểu biết sâu về thị trường tiềm ẩn rủi ro rất cao. Nghiên cứu thị trường chính xác bảo vệ khoản đầu tư của bạn và mang lại lợi thế cạnh tranh thực sự so với đối thủ hành động mà không có dữ liệu.\n\n## Lĩnh vực chuyên môn nghiên cứu của chúng tôi\n\nChúng tôi chuyên về nghiên cứu thị trường liên quan đến Việt Nam và Đông Nam Á, bao gồm: phân tích đối thủ và hiểu chiến lược của họ, đánh giá quy mô thị trường và cơ hội kinh doanh, nghiên cứu hành vi người tiêu dùng và sở thích, phân tích kênh phân phối và mô hình định giá.\n\n## Phương pháp nghiên cứu tích hợp\n\nChúng tôi kết hợp nghiên cứu định lượng (khảo sát quy mô lớn, dữ liệu thứ cấp) và nghiên cứu định tính (phỏng vấn chuyên sâu, nhóm tập trung), mang lại bức tranh toàn diện và chính xác để định hướng quyết định chiến lược của bạn.",
+      "seoTitle": "Dịch vụ Nghiên cứu Thị trường Việt Nam & Đông Nam Á | Ideal Deal",
+      "seoDescription": "Nghiên cứu thị trường chuyên sâu về Việt Nam và Đông Nam Á. Phân tích cạnh tranh, đánh giá cơ hội và hành vi người tiêu dùng hỗ trợ quyết định chiến lược.",
+      "features": [
+        {
+          "icon": "BarChart2",
+          "title": "Phân tích cạnh tranh và thị trường",
+          "description": "Nghiên cứu toàn diện về môi trường cạnh tranh bao gồm: chiến lược đối thủ, định giá, phân phối và điểm mạnh yếu."
+        },
+        {
+          "icon": "Users",
+          "title": "Nghiên cứu hành vi người tiêu dùng",
+          "description": "Hiểu sâu nhu cầu, sở thích và hành vi mua hàng của người tiêu dùng tại thị trường Việt Nam và Đông Nam Á."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Đánh giá quy mô cơ hội kinh doanh",
+          "description": "Phân tích chính xác quy mô thị trường mục tiêu, tiềm năng tăng trưởng và ước tính thị phần có thể đạt được."
+        },
+        {
+          "icon": "Globe",
+          "title": "Đánh giá sẵn sàng thị trường",
+          "description": "Xác định yêu cầu thâm nhập, rào cản, quy định và các yếu tố văn hóa cần xem xét tại bất kỳ thị trường mục tiêu nào."
+        },
+        {
+          "icon": "Search",
+          "title": "Khám phá cơ hội sản phẩm",
+          "description": "Xác định khoảng trống thị trường và cơ hội sản phẩm chưa được khai thác có thể mang lại lợi thế cạnh tranh mạnh mẽ."
+        },
+        {
+          "icon": "FileText",
+          "title": "Báo cáo chiến lược có thể thực hiện được",
+          "description": "Báo cáo nghiên cứu rõ ràng và có cấu trúc trình bày các hiểu biết chiến lược kèm khuyến nghị có thể thực hiện và kế hoạch hành động."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Xác định mục tiêu nghiên cứu và câu hỏi cốt lõi",
+          "description": "Chúng tôi cùng bạn xây dựng đúng câu hỏi nghiên cứu và đặt ra mục tiêu sẽ định hướng toàn bộ quá trình nghiên cứu."
+        },
+        {
+          "step": 2,
+          "title": "Thu thập dữ liệu sơ cấp và thứ cấp",
+          "description": "Chúng tôi thu thập dữ liệu từ nhiều nguồn: nghiên cứu tài liệu, khảo sát thực địa, phỏng vấn và báo cáo ngành."
+        },
+        {
+          "step": 3,
+          "title": "Phân tích thị trường và cạnh tranh",
+          "description": "Chúng tôi phân tích dữ liệu thu thập bằng phương pháp phân tích tiên tiến để trích xuất những hiểu biết sâu sắc và quan trọng nhất."
+        },
+        {
+          "step": 4,
+          "title": "Hình thành hiểu biết chiến lược",
+          "description": "Chúng tôi chuyển đổi kết quả phân tích thành hiểu biết chiến lược rõ ràng và cụ thể định hướng quyết định kinh doanh."
+        },
+        {
+          "step": 5,
+          "title": "Trình bày kết quả và khuyến nghị",
+          "description": "Chúng tôi trình bày kết quả trong báo cáo có cấu trúc chi tiết kèm thuyết trình giải thích các phát hiện chính và khuyến nghị thực tế."
+        }
+      ],
+      "targetIndustries": [
+        "Doanh nghiệp muốn thâm nhập thị trường Việt Nam",
+        "Nhà sản xuất tìm kiếm thị trường xuất khẩu",
+        "Quỹ đầu tư & Nhà đầu tư",
+        "Startup & Nhà sáng lập",
+        "Doanh nghiệp lớn muốn mở rộng"
+      ],
+      "certifications": [
+        "Thành viên ESOMAR về nghiên cứu",
+        "GDPR — Bảo vệ dữ liệu châu Âu",
+        "Tiêu chuẩn đạo đức nghiên cứu thị trường MRS",
+        "Cam kết bảo mật và bảo vệ dữ liệu người tham gia"
+      ],
+      "faqs": [
+        {
+          "question": "Một dự án nghiên cứu thị trường tích hợp mất bao lâu?",
+          "answer": "Thời gian thay đổi theo phạm vi: dự án nhỏ 3-4 tuần, dự án trung bình 6-8 tuần và dự án toàn diện có thể kéo dài đến 3 tháng."
+        },
+        {
+          "question": "Có thể tập trung vào một lĩnh vực công nghiệp cụ thể hoặc phân khúc thị trường nhất định không?",
+          "answer": "Có, chúng tôi có thể tùy chỉnh hoàn toàn nghiên cứu trên một lĩnh vực hoặc phân khúc thị trường cụ thể. Sự chuyên môn hóa mang lại kết quả chính xác và hữu ích hơn."
+        },
+        {
+          "question": "Bạn sử dụng phương pháp thu thập dữ liệu nào?",
+          "answer": "Chúng tôi sử dụng: khảo sát kỹ thuật số và phỏng vấn qua điện thoại, nhóm tập trung, quan sát thực địa và phân tích dữ liệu thứ cấp từ báo cáo ngành và cơ quan chính phủ."
+        },
+        {
+          "question": "Bạn có cung cấp nghiên cứu khả thi cho sản phẩm mới không?",
+          "answer": "Có, nghiên cứu khả thi là một trong những chuyên môn chính của chúng tôi. Bao gồm: phân tích nhu cầu, nghiên cứu cạnh tranh, đánh giá rủi ro, dự báo doanh thu và kế hoạch thâm nhập thị trường."
+        }
+      ]
+    }
+  }
+}

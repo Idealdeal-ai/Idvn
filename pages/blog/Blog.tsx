@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { blogPosts, blogCategories } from '../../data/blog';
 import SEOHead, { organizationSchema } from '../../components/SEOHead';
+import Icon from '../../components/Icon';
 
 const Blog: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -132,7 +133,7 @@ const Blog: React.FC = () => {
                         <div className="text-xs text-slate-400">{filtered[0].publishedAt}</div>
                         <span className="flex items-center gap-1 text-primary font-bold text-sm">
                           Read Article
-                          <span className="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span>
+                          <Icon name="arrow_forward" size={16} aria-hidden />
                         </span>
                       </div>
                     </div>

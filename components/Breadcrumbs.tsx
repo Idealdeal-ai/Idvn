@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ChevronRight } from 'lucide-react';
 
 export interface BreadcrumbItem {
   label: string;
@@ -22,9 +23,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, className = '' }) => {
         return (
           <React.Fragment key={idx}>
             {idx > 0 && (
-              <span className="material-symbols-outlined text-base leading-none select-none" aria-hidden="true">
-                chevron_right
-              </span>
+              <ChevronRight size={16} className="select-none" aria-hidden />
             )}
             {isLast || !item.href ? (
               <span

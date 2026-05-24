@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { useLanguage } from '../App';
+import SEOHead from '../components/SEOHead';
+import { servicesData } from '../data/services';
+import { useTranslation } from 'react-i18next';
+import Icon from '../components/Icon';
 
 const Services: React.FC = () => {
   const { t, language } = useLanguage();
+  const { t: ts } = useTranslation('services');
   const [trackingNumber, setTrackingNumber] = useState('');
   const [trackingResult, setTrackingResult] = useState<any>(null);
   const [isTrackLoading, setIsTrackLoading] = useState(false);
@@ -65,107 +70,25 @@ const Services: React.FC = () => {
     }, 1500); // Slightly increased delay for better visual feedback of the spinner
   };
 
-  const services = [
-    {
-      title: t('sourcing'),
-      num: '01',
-      icon: 'search',
-      desc: t('sourcing_desc'),
-      points: language === 'ar' ? [
-        'بحث عميق في السوق ومقارنة الأسعار',
-        'المساعدة في تطوير المنتجات المخصصة',
-        'الحصول على العينات ومراجعتها'
-      ] : (language === 'vi' ? [
-        'Nghiên cứu thị trường sâu và định giá cạnh tranh',
-        'Hỗ trợ phát triển sản phẩm tùy chỉnh',
-        'Thu thập và đánh giá mẫu hàng'
-      ] : (language === 'zh' ? [
-        '深入的市场调研和价格基准测试',
-        '定制化产品开发协助',
-        '样品获取和审查'
-      ] : (language === 'es' ? [
-        'Investigación profunda de mercado y comparación de precios',
-        'Asistencia en el desarrollo de productos personalizados',
-        'Adquisición y revisión de muestras'
-      ] : (language === 'fr' ? [
-        'Étude de marché approfondie et analyse comparative des prix',
-        'Aide au développement de produits personnalisés',
-        'Acquisition et examen d\'échantillons'
-      ] : [
-        'Deep market research and price benchmarking',
-        'Custom product development assistance',
-        'Sample acquisition and review'
-      ])))),
-      img: '/Idealdeal-product-sourcing.jpeg'
-    },
-    {
-      title: t('supplier_id'),
-      num: '02',
-      icon: 'handshake',
-      desc: t('supplier_desc'),
-      points: language === 'ar' ? [
-        'تدقيق صارم للمصانع وفحص الخلفية',
-        'التحقق من القدرة الإنتاجية',
-        'التفاوض على العقود والحماية القانونية'
-      ] : (language === 'vi' ? [
-        'Kiểm tra nhà máy và thẩm định lý lịch nghiêm ngặt',
-        'Xác minh năng lực sản xuất thực tế',
-        'Thương lượng hợp đồng và bảo vệ pháp lý'
-      ] : (language === 'zh' ? [
-        '严格的工厂审计和背景调查',
-        '生产能力验证',
-        '合同谈判和法律保护'
-      ] : (language === 'es' ? [
-        'Auditorías de fábrica rigurosas y verificaciones de antecedentes',
-        'Verificación de la capacidad de producción',
-        'Negociación de contratos y protección legal'
-      ] : (language === 'fr' ? [
-        'Audits d\'usine rigoureux et vérification des antécédents',
-        'Vérification de la capacité de production',
-        'Négociation de contrats et de protection juridique'
-      ] : [
-        'Rigorous factory audits and background checks',
-        'Production capacity verification',
-        'Contract negotiation and legal protection'
-      ])))),
-      img: '/Idealdeal-supplier-identification.jpeg'
-    },
-    {
-      title: t('quality_assurance'),
-      num: '03',
-      icon: 'verified',
-      desc: t('qa_desc'),
-      points: language === 'ar' ? [
-        'عمليات التفتيش قبل وأثناء الإنتاج',
-        'عمليات التفتيش العشوائية النهائية (FRI)',
-        'تقرير جودة مفصل مع أدلة صور وفيديو'
-      ] : (language === 'vi' ? [
-        'Kiểm tra trước và trong quá trình sản xuất',
-        'Kiểm tra ngẫu nhiên cuối cùng (FRI)',
-        'Báo cáo chất lượng chi tiết với bằng chứng ảnh/video'
-      ] : (language === 'zh' ? [
-        '生产前和生产中检查',
-        '最终随机抽检 (FRI)',
-        '带有照片/视频证据的详细质量报告'
-      ] : (language === 'es' ? [
-        'Inspecciones previas y durante la producción',
-        'Inspecciones aleatorias finales (FRI)',
-        'Informe de calidad detallado con evidencia de fotos y video'
-      ] : (language === 'fr' ? [
-        'Inspections avant et en cours de production',
-        'Inspections aléatoires finales (FRI)',
-        'Rapport de qualité détaillé avec preuves photos et vidéos'
-      ] : [
-        'Pre production and mid production inspections',
-        'Final random inspections (FRI)',
-        'Detailed quality report with photo/video evidence'
-      ])))),
-      img: '/Idealdeal-quality-assurance.jpeg'
-    }
-  ];
+  // Build card data from servicesData — translated via react-i18next services namespace
+  const services = servicesData.map((svc, idx) => {
+    // Try to get translated name/tagline from i18n; fall back to English base data
+    const translatedContent = ts(`content.${svc.slug}`, { returnObjects: true }) as Record<string, unknown> | string;
+    const isObj = typeof translatedContent === 'object' && !Array.isArray(translatedContent);
+    const name = isObj && typeof translatedContent.name === 'string' ? translatedContent.name : svc.name;
+    const tagline = isObj && typeof translatedContent.tagline === 'string' ? translatedContent.tagline : svc.tagline;
+    const features: string[] = isObj && Array.isArray(translatedContent.features)
+      ? (translatedContent.features as Array<{ title?: string }>).slice(0, 3).map(f => f.title ?? '')
+      : svc.features.slice(0, 3).map(f => f.title);
+    return { slug: svc.slug, title: name, num: String(idx + 1).padStart(2, '0'), icon: svc.icon, desc: tagline, points: features, img: svc.heroImage };
+  })
 
   return (
     <div className="pt-20">
+      <SEOHead
+        title={t('services')}
+        description={t('services_hero_desc')}
+      />
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-brandNavy">
         <div className="absolute inset-0 opacity-20">
           <img 
@@ -194,7 +117,7 @@ const Services: React.FC = () => {
             <div className="relative z-10">
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-12 h-12 rounded-2xl gold-gradient flex items-center justify-center text-brandNavy shadow-lg">
-                  <span className="material-icons-round">local_shipping</span>
+                  <Icon name="local_shipping" aria-hidden />
                 </div>
                 <div>
                   <h2 className="text-2xl font-display font-extrabold text-brandNavy dark:text-white uppercase tracking-tight">
@@ -244,7 +167,7 @@ const Services: React.FC = () => {
 
                 {!isTrackLoading && trackingResult === 'error' && (
                   <div className="p-4 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 rounded-xl border border-red-100 dark:border-red-800 text-sm font-bold flex items-center gap-3 animate-in fade-in slide-in-from-top-2">
-                    <span className="material-icons-round">error_outline</span>
+                    <Icon name="error_outline" aria-hidden />
                     {t('shipment_not_found')}
                   </div>
                 )}
@@ -302,7 +225,7 @@ const Services: React.FC = () => {
                     src={service.img}
                   />
                   <div className={`absolute top-6 ${language === 'ar' ? 'right-6' : 'left-6'} gold-gradient p-3.5 rounded-2xl shadow-xl z-10 border border-white/20`}>
-                    <span className="material-icons-round text-3xl text-brandNavy">{service.icon}</span>
+                    <Icon name={service.icon} size={30} className="text-brandNavy" aria-hidden />
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-brandNavy/40 to-transparent"></div>
                 </div>
@@ -322,17 +245,20 @@ const Services: React.FC = () => {
                   <ul className="space-y-4 mb-8 flex-grow">
                     {service.points.map((point, pIdx) => (
                       <li key={pIdx} className="flex items-start gap-3 text-sm text-slate-700 dark:text-slate-300 group/item">
-                        <span className="material-icons-round text-primary text-xl flex-shrink-0 transition-transform group-hover/item:scale-110">check_circle</span>
+                        <Icon name="check_circle" className="text-primary flex-shrink-0 transition-transform group-hover/item:scale-110" aria-hidden />
                         <span className="leading-snug">{point}</span>
                       </li>
                     ))}
                   </ul>
 
                   <div className="pt-6 border-t border-slate-50 dark:border-slate-800">
-                    <button className="flex items-center gap-2 text-primary text-xs font-black uppercase tracking-widest hover:gap-3 transition-all">
+                    <Link
+                      to={`/services/${service.slug}`}
+                      className="inline-flex items-center gap-2 text-primary text-xs font-black uppercase tracking-widest hover:gap-3 transition-all"
+                    >
                       {t('learn_more')}
-                      <span className={`material-icons-round text-sm ${language === 'ar' ? 'rotate-180' : ''}`}>arrow_forward</span>
-                    </button>
+                      <Icon name="arrow_forward" size={14} className={language === 'ar' ? 'rotate-180' : ''} aria-hidden />
+                    </Link>
                   </div>
                 </div>
               </div>

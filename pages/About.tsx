@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { useLanguage } from '../App';
+import SEOHead, { organizationSchema } from '../components/SEOHead';
+import Icon from '../components/Icon';
 
 const FAQItem: React.FC<{ question: string; answer: string }> = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +16,7 @@ const FAQItem: React.FC<{ question: string; answer: string }> = ({ question, ans
         <h4 className="text-lg font-bold text-brandNavy dark:text-white group-hover:text-primary transition-colors pr-8">
           {question}
         </h4>
-        <span className={`material-icons text-primary transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
-          expand_more
-        </span>
+        <Icon name="expand_more" className={`text-primary transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} aria-hidden />
       </button>
       <div 
         className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 pb-6' : 'max-h-0'}`}
@@ -65,6 +65,11 @@ const About: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <SEOHead
+        title={t('about_title')}
+        description={t('about_hero_desc')}
+        schema={organizationSchema()}
+      />
       <header className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <img 
           alt="Logistics Background" 
@@ -81,7 +86,7 @@ const About: React.FC = () => {
           </p>
         </div>
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <span className="material-icons text-white text-4xl">expand_more</span>
+          <Icon name="expand_more" size={36} className="text-white" aria-hidden />
         </div>
       </header>
 
@@ -118,7 +123,7 @@ const About: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-primary/50 transition-all group">
               <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-icons text-primary group-hover:text-brandNavy text-3xl">rocket_launch</span>
+                <Icon name="rocket_launch" size={30} className="text-primary group-hover:text-brandNavy" aria-hidden />
               </div>
               <h3 className="text-2xl font-display font-bold mb-4">{t('mission')}</h3>
               <p className="text-slate-300 leading-relaxed">
@@ -127,7 +132,7 @@ const About: React.FC = () => {
             </div>
             <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-primary/50 transition-all group">
               <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-icons text-primary group-hover:text-brandNavy text-3xl">visibility</span>
+                <Icon name="visibility" size={30} className="text-primary group-hover:text-brandNavy" aria-hidden />
               </div>
               <h3 className="text-2xl font-display font-bold mb-4">{t('vision')}</h3>
               <p className="text-slate-300 leading-relaxed">
@@ -136,13 +141,13 @@ const About: React.FC = () => {
             </div>
             <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-primary/50 transition-all group">
               <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-icons text-primary group-hover:text-brandNavy text-3xl">verified_user</span>
+                <Icon name="verified_user" size={30} className="text-primary group-hover:text-brandNavy" aria-hidden />
               </div>
               <h3 className="text-2xl font-display font-bold mb-4">{t('values')}</h3>
               <ul className="space-y-3 text-slate-300">
-                <li className="flex items-center gap-2"><span className="material-icons text-primary text-sm">circle</span> {t('value1')}</li>
-                <li className="flex items-center gap-2"><span className="material-icons text-primary text-sm">circle</span> {t('value2')}</li>
-                <li className="flex items-center gap-2"><span className="material-icons text-primary text-sm">circle</span> {t('value3')}</li>
+                <li className="flex items-center gap-2"><Icon name="circle" size={14} className="text-primary" aria-hidden /> {t('value1')}</li>
+                <li className="flex items-center gap-2"><Icon name="circle" size={14} className="text-primary" aria-hidden /> {t('value2')}</li>
+                <li className="flex items-center gap-2"><Icon name="circle" size={14} className="text-primary" aria-hidden /> {t('value3')}</li>
               </ul>
             </div>
           </div>
@@ -202,7 +207,7 @@ const About: React.FC = () => {
   className="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all"
 >
   {t('contact_hero_desc')}
-  <span className={`material-icons text-lg ${language === 'ar' ? 'rotate-180' : ''}`}>arrow_forward</span>
+  <Icon name="arrow_forward" size={18} className={language === 'ar' ? 'rotate-180' : ''} aria-hidden />
 </Link>
           </div>
         </div>

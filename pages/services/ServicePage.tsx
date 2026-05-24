@@ -1,14 +1,47 @@
 import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { getServiceBySlug, getRelatedServices } from '../../data/services';
+import { useTranslation } from 'react-i18next';
+import { getServiceBySlug, getRelatedServices, ServiceData } from '../../data/services';
 import SEOHead, { breadcrumbSchema, faqSchema, organizationSchema } from '../../components/SEOHead';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import FAQAccordion from '../../components/FAQAccordion';
 import RFQForm from '../../components/RFQForm';
+import { useLanguage } from '../../App';
+import Icon from '../../components/Icon';
 
 const WHATSAPP_NUMBER = '84828278808';
 
-// ── Inline content renderer (handles **bold**, *italic*, ##headings, paragraphs)
+// ── Translation overlay: merges i18n content over the base English service data ──
+function resolveServiceContent(
+  service: ServiceData,
+  ts: (key: string, options?: Record<string, unknown>) => string | Record<string, unknown> | string[],
+  language: string,
+): ServiceData {
+  if (language === 'en') return service;
+
+  const translated = ts(`content.${service.slug}`, { returnObjects: true });
+  if (!translated || typeof translated !== 'object' || Array.isArray(translated)) return service;
+
+  const t = translated as Record<string, unknown>;
+  if (!t.name) return service; // no translation found, fall back to English
+
+  return {
+    ...service,
+    name:            typeof t.name            === 'string' ? t.name            : service.name,
+    tagline:         typeof t.tagline         === 'string' ? t.tagline         : service.tagline,
+    heroDescription: typeof t.heroDescription === 'string' ? t.heroDescription : service.heroDescription,
+    longDescription: typeof t.longDescription === 'string' ? t.longDescription : service.longDescription,
+    seoTitle:        typeof t.seoTitle        === 'string' ? t.seoTitle        : service.seoTitle,
+    seoDescription:  typeof t.seoDescription  === 'string' ? t.seoDescription  : service.seoDescription,
+    features:        Array.isArray(t.features)       ? (t.features       as ServiceData['features'])       : service.features,
+    process:         Array.isArray(t.process)        ? (t.process        as ServiceData['process'])        : service.process,
+    targetIndustries:Array.isArray(t.targetIndustries)?(t.targetIndustries as string[])                    : service.targetIndustries,
+    certifications:  Array.isArray(t.certifications) ? (t.certifications  as string[])                    : service.certifications,
+    faqs:            Array.isArray(t.faqs)           ? (t.faqs           as ServiceData['faqs'])           : service.faqs,
+  };
+}
+
+// ── Inline content renderer (handles **bold**, *italic*, ##headings, paragraphs) ──
 const renderContent = (text: string): React.ReactNode[] => {
   const blocks = text.trim().split(/\n\n+/);
   return blocks.map((block, i) => {
@@ -73,28 +106,34 @@ const renderInline = (text: string): React.ReactNode => {
 const ServicePage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const service = getServiceBySlug(slug ?? '');
+  const { t: ts } = useTranslation('services');
+  const { language, t } = useLanguage();
+  const isRTL = language === 'ar';
 
   if (!service) return <Navigate to="/services" replace />;
 
-  const related = getRelatedServices(service);
+  // ── Apply language translations over English base data ──
+  const s = resolveServiceContent(service, ts as Parameters<typeof resolveServiceContent>[1], language);
 
-  const waMsg = `Hello! I am interested in your ${service.name} service. Please send me more information.`;
+  const related = getRelatedServices(service); // structural slugs — always from base data
+
+  const waMsg = `Hello! I am interested in your ${s.name} service. Please send me more information.`;
 
   const schema = [
     organizationSchema(),
     breadcrumbSchema([
-      { name: 'Home', url: '/' },
-      { name: 'Services', url: '/services' },
-      { name: service.name, url: `/services/${service.slug}` },
+      { name: t('breadcrumb_home'), url: '/' },
+      { name: t('breadcrumb_services'), url: '/services' },
+      { name: s.name, url: `/services/${service.slug}` },
     ]),
-    ...(service.faqs.length > 0 ? [faqSchema(service.faqs)] : []),
+    ...(s.faqs.length > 0 ? [faqSchema(s.faqs)] : []),
   ];
 
   return (
-    <>
+    <div dir={isRTL ? 'rtl' : 'ltr'}>
       <SEOHead
-        title={service.seoTitle}
-        description={service.seoDescription}
+        title={s.seoTitle}
+        description={s.seoDescription}
         keywords={service.keywords}
         schema={schema}
       />
@@ -111,42 +150,40 @@ const ServicePage: React.FC = () => {
           <Breadcrumbs
             className="mb-6 text-white/60"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Services', href: '/services' },
-              { label: service.name },
+              { label: t('breadcrumb_home'), href: '/' },
+              { label: t('breadcrumb_services'), href: '/services' },
+              { label: s.name },
             ]}
           />
-          <div className="flex items-center gap-4 mb-5">
+          <div className={`flex items-center gap-4 mb-5 ${isRTL ? 'flex-row-reverse justify-end' : ''}`}>
             <div className="w-14 h-14 rounded-2xl bg-primary/20 border border-primary/30 flex items-center justify-center">
-              <span className="material-symbols-outlined text-3xl text-primary" aria-hidden="true">
-                {service.icon}
-              </span>
+              <Icon name={service.icon} size={30} className="text-primary" aria-hidden />
             </div>
             <span className="bg-primary/20 border border-primary/40 text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
-              Service
+              {ts('ui.service_badge')}
             </span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-display font-bold mb-4 max-w-3xl">
-            {service.name}
+          <h1 className={`text-4xl md:text-5xl font-display font-bold mb-4 max-w-3xl ${isRTL ? 'text-right' : ''}`}>
+            {s.name}
           </h1>
-          <p className="text-xl text-white/80 mb-3 max-w-2xl font-medium">{service.tagline}</p>
-          <p className="text-white/60 max-w-2xl mb-8 leading-relaxed">{service.heroDescription}</p>
-          <div className="flex flex-wrap gap-3">
+          <p className={`text-xl text-white/80 mb-3 max-w-2xl font-medium ${isRTL ? 'text-right' : ''}`}>{s.tagline}</p>
+          <p className={`text-white/60 max-w-2xl mb-8 leading-relaxed ${isRTL ? 'text-right' : ''}`}>{s.heroDescription}</p>
+          <div className={`flex flex-wrap gap-3 ${isRTL ? 'flex-row-reverse' : ''}`}>
             <a
               href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waMsg)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-xl hover:bg-amber-500 transition-colors"
+              className={`inline-flex items-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-xl hover:bg-amber-500 transition-colors ${isRTL ? 'flex-row-reverse' : ''}`}
             >
-              <span className="material-symbols-outlined text-lg" aria-hidden="true">send</span>
-              Get a Free Quote
+              <Icon name="send" size={18} aria-hidden />
+              {ts('ui.get_free_quote')}
             </a>
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 border border-white/30 text-white font-medium px-6 py-3 rounded-xl hover:bg-white/10 transition-colors"
+              className={`inline-flex items-center gap-2 border border-white/30 text-white font-medium px-6 py-3 rounded-xl hover:bg-white/10 transition-colors ${isRTL ? 'flex-row-reverse' : ''}`}
             >
-              <span className="material-symbols-outlined text-lg" aria-hidden="true">mail</span>
-              Talk to an Expert
+              <Icon name="mail" size={18} aria-hidden />
+              {ts('ui.talk_to_expert')}
             </Link>
           </div>
         </div>
@@ -157,22 +194,20 @@ const ServicePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="text-3xl font-display font-bold text-brandNavy dark:text-white mb-4">
-              What's Included
+              {ts('ui.whats_included')}
             </h2>
             <p className="text-slate-500 dark:text-slate-400">
-              Everything you need to source, manufacture, and ship from Vietnam — handled by our team.
+              {ts('ui.whats_included_sub')}
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {service.features.map((feature, i) => (
+            {s.features.map((feature, i) => (
               <div
                 key={i}
-                className="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all"
+                className={`bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all ${isRTL ? 'text-right' : ''}`}
               >
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
-                  <span className="material-symbols-outlined text-2xl text-primary" aria-hidden="true">
-                    {feature.icon}
-                  </span>
+                <div className={`w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 ${isRTL ? 'mr-auto ml-0' : ''}`}>
+                  <Icon name={feature.icon} size={24} className="text-primary" aria-hidden />
                 </div>
                 <h3 className="font-bold text-brandNavy dark:text-white mb-2">{feature.title}</h3>
                 <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{feature.description}</p>
@@ -187,24 +222,24 @@ const ServicePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-16">
             {/* Article */}
-            <div className="lg:col-span-2">
+            <div className={`lg:col-span-2 ${isRTL ? 'text-right' : ''}`}>
               <h2 className="text-3xl font-display font-bold text-brandNavy dark:text-white mb-8">
-                About Our {service.name} Service
+                {ts('ui.about_service', { name: s.name })}
               </h2>
-              <div>{renderContent(service.longDescription)}</div>
+              <div>{renderContent(s.longDescription)}</div>
             </div>
 
             {/* Sidebar */}
             <aside className="space-y-8 lg:sticky lg:top-24 h-fit">
               {/* Industries */}
-              <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700">
+              <div className={`bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 ${isRTL ? 'text-right' : ''}`}>
                 <h3 className="font-bold text-brandNavy dark:text-white mb-4 text-sm uppercase tracking-wider">
-                  Industries We Serve
+                  {ts('ui.industries_we_serve')}
                 </h3>
                 <ul className="space-y-2">
-                  {service.targetIndustries.map((industry) => (
-                    <li key={industry} className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300">
-                      <span className="material-symbols-outlined text-primary text-base" aria-hidden="true">check_circle</span>
+                  {s.targetIndustries.map((industry) => (
+                    <li key={industry} className={`flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Icon name="check_circle" size={16} className="text-primary" aria-hidden />
                       {industry}
                     </li>
                   ))}
@@ -212,14 +247,14 @@ const ServicePage: React.FC = () => {
               </div>
 
               {/* Certifications */}
-              <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700">
+              <div className={`bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 ${isRTL ? 'text-right' : ''}`}>
                 <h3 className="font-bold text-brandNavy dark:text-white mb-4 text-sm uppercase tracking-wider">
-                  Certifications & Standards
+                  {ts('ui.certifications_standards')}
                 </h3>
                 <ul className="space-y-2">
-                  {service.certifications.map((cert) => (
-                    <li key={cert} className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300">
-                      <span className="material-symbols-outlined text-green-500 text-base" aria-hidden="true">verified</span>
+                  {s.certifications.map((cert) => (
+                    <li key={cert} className={`flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Icon name="verified" size={16} className="text-green-500" aria-hidden />
                       {cert}
                     </li>
                   ))}
@@ -227,19 +262,19 @@ const ServicePage: React.FC = () => {
               </div>
 
               {/* WhatsApp CTA */}
-              <div className="bg-green-50 dark:bg-green-900/20 rounded-2xl p-6 border border-green-200 dark:border-green-800">
-                <div className="font-bold text-brandNavy dark:text-white mb-2">Need a fast answer?</div>
+              <div className={`bg-green-50 dark:bg-green-900/20 rounded-2xl p-6 border border-green-200 dark:border-green-800 ${isRTL ? 'text-right' : ''}`}>
+                <div className="font-bold text-brandNavy dark:text-white mb-2">{ts('ui.need_fast_answer')}</div>
                 <p className="text-slate-500 dark:text-slate-400 text-sm mb-4">
-                  Message our team directly on WhatsApp for same-day responses.
+                  {ts('ui.whatsapp_cta_sub')}
                 </p>
                 <a
                   href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waMsg)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold px-4 py-3 rounded-xl transition-colors text-sm w-full"
+                  className={`flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold px-4 py-3 rounded-xl transition-colors text-sm w-full ${isRTL ? 'flex-row-reverse' : ''}`}
                 >
-                  <span className="material-symbols-outlined text-base" aria-hidden="true">chat</span>
-                  Chat on WhatsApp
+                  <Icon name="chat" size={16} aria-hidden />
+                  {ts('ui.chat_on_whatsapp')}
                 </a>
               </div>
             </aside>
@@ -252,23 +287,23 @@ const ServicePage: React.FC = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl font-display font-bold text-brandNavy dark:text-white mb-4">
-              How It Works
+              {ts('ui.how_it_works')}
             </h2>
             <p className="text-slate-500 dark:text-slate-400">
-              A clear, step-by-step process from first contact to delivery.
+              {ts('ui.how_it_works_sub')}
             </p>
           </div>
           <div className="relative">
             {/* Vertical connector */}
-            <div className="absolute left-6 top-8 bottom-8 w-0.5 bg-primary/20 hidden md:block" aria-hidden="true" />
+            <div className={`absolute ${isRTL ? 'right-6' : 'left-6'} top-8 bottom-8 w-0.5 bg-primary/20 hidden md:block`} aria-hidden="true" />
             <div className="space-y-8">
-              {service.process.map((step) => (
-                <div key={step.step} className="relative flex gap-6 items-start">
+              {s.process.map((step) => (
+                <div key={step.step} className={`relative flex gap-6 items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
                   {/* Step circle */}
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-display font-bold text-lg z-10">
                     {step.step}
                   </div>
-                  <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 flex-1 hover:border-primary transition-colors">
+                  <div className={`bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 flex-1 hover:border-primary transition-colors ${isRTL ? 'text-right' : ''}`}>
                     <h3 className="font-bold text-brandNavy dark:text-white mb-2">{step.title}</h3>
                     <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{step.description}</p>
                   </div>
@@ -280,13 +315,13 @@ const ServicePage: React.FC = () => {
       </section>
 
       {/* ── FAQ ─────────────────────────────────────────────── */}
-      {service.faqs.length > 0 && (
+      {s.faqs.length > 0 && (
         <section className="py-16 bg-white dark:bg-brandNavy">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-display font-bold text-brandNavy dark:text-white mb-8 text-center">
-              Frequently Asked Questions
+              {ts('ui.faq_heading')}
             </h2>
-            <FAQAccordion faqs={service.faqs} />
+            <FAQAccordion faqs={s.faqs} />
           </div>
         </section>
       )}
@@ -296,30 +331,31 @@ const ServicePage: React.FC = () => {
         <section className="py-16 bg-slate-50 dark:bg-slate-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-display font-bold text-brandNavy dark:text-white mb-8 text-center">
-              Related Services
+              {ts('ui.related_services')}
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {related.map((rs) => (
-                <Link
-                  key={rs.slug}
-                  to={`/services/${rs.slug}`}
-                  className="group bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all"
-                >
-                  <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
-                    <span className="material-symbols-outlined text-xl text-primary" aria-hidden="true">
-                      {rs.icon}
-                    </span>
-                  </div>
-                  <h3 className="font-bold text-brandNavy dark:text-white group-hover:text-primary transition-colors mb-2">
-                    {rs.name}
-                  </h3>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm line-clamp-2">{rs.tagline}</p>
-                  <div className="flex items-center gap-1 text-primary font-bold text-sm mt-4">
-                    Learn More
-                    <span className="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span>
-                  </div>
-                </Link>
-              ))}
+              {related.map((rs) => {
+                const rResolved = resolveServiceContent(rs, ts as Parameters<typeof resolveServiceContent>[1], language);
+                return (
+                  <Link
+                    key={rs.slug}
+                    to={`/services/${rs.slug}`}
+                    className={`group bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all ${isRTL ? 'text-right' : ''}`}
+                  >
+                    <div className={`w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-4 ${isRTL ? 'mr-auto ml-0' : ''}`}>
+                      <Icon name={rs.icon} className="text-primary" aria-hidden />
+                    </div>
+                    <h3 className="font-bold text-brandNavy dark:text-white group-hover:text-primary transition-colors mb-2">
+                      {rResolved.name}
+                    </h3>
+                    <p className="text-slate-500 dark:text-slate-400 text-sm line-clamp-2">{rResolved.tagline}</p>
+                    <div className={`flex items-center gap-1 text-primary font-bold text-sm mt-4 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      {ts('ui.learn_more')}
+                      <Icon name="arrow_forward" size={16} className={isRTL ? 'rotate-180' : ''} aria-hidden />
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -328,18 +364,18 @@ const ServicePage: React.FC = () => {
       {/* ── RFQ ─────────────────────────────────────────────── */}
       <section className="py-20 bg-white dark:bg-brandNavy">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
+          <div className={`text-center mb-10 ${isRTL ? 'text-right' : ''}`}>
             <h2 className="text-3xl font-display font-bold text-brandNavy dark:text-white mb-3">
-              Get Started with {service.name}
+              {ts('ui.get_started_heading', { name: s.name })}
             </h2>
             <p className="text-slate-500 dark:text-slate-400">
-              Tell us about your requirements and we'll send a detailed proposal within 24 hours.
+              {ts('ui.get_started_sub')}
             </p>
           </div>
-          <RFQForm productName={service.name} />
+          <RFQForm productName={s.name} />
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

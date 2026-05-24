@@ -39,15 +39,338 @@ export interface ServiceData {
 }
 
 export const servicesData: ServiceData[] = [
+
   // ─────────────────────────────────────────────────────────
-  // 1. PRIVATE LABEL
+  // 1. SUPPLIER IDENTIFICATION
+  // ─────────────────────────────────────────────────────────
+  {
+    slug: 'supplier-identification',
+    name: 'Supplier Identification',
+    tagline: 'Find the Right Supplier the First Time.',
+    heroDescription:
+      'We identify, verify, and rank Vietnamese food suppliers that match your exact requirements. Avoid costly mistakes from unverified factory claims our rigorous due diligence process gives you confidence before you place a single dollar.',
+    longDescription: `
+Finding reliable suppliers in a foreign market is one of the highest-stakes decisions in international trade. A wrong choice a factory with false certifications, overstated capacity, or undisclosed quality issues — can result in lost orders, financial losses, and reputational damage. Ideal Deal Vietnam's supplier identification service uses a proven multi-stage due diligence framework to connect you only with verified, capable partners.
+
+**The Hidden Risks of Unverified Suppliers**
+
+Vietnam's food export landscape includes thousands of manufacturers and trading companies, ranging from world-class certified factories to small operations with inflated capabilities. Online directories and trade platforms list hundreds of "certified" suppliers — but verification of these claims requires on-the-ground access that most overseas buyers simply do not have. Certificates can be expired, forged, or issued under conditions that no longer exist. Production capacity can be exaggerated. Product quality can vary dramatically between the sample and the commercial shipment.
+
+**Our Due Diligence Framework**
+
+Our supplier identification process covers five dimensions: Legal & Financial Verification, Certification & Compliance Audit, Production Capacity Assessment, Quality System Evaluation, and Commercial Reference Check.
+
+**Legal & Financial Verification**
+
+We verify the supplier's Vietnamese business registration, tax identification, and export licensing. We check for any regulatory violations, quality recalls, or port detention history. We confirm that the entity name on quotations matches the legal registered name to prevent bait-and-switch fraud.
+
+**Certification & Compliance Audit**
+
+We physically inspect and verify all quality certifications presented by the supplier. This includes checking validity dates, certifying body accreditation status, and scope of certification (which products and production lines are actually covered). We verify Halal certificates with the issuing authority, and organic certificates with the certification body.
+
+**Production Capacity Assessment**
+
+We conduct an on-site or video-assisted factory assessment to verify actual production capacity, equipment condition, workforce size, and operational readiness. We check whether the declared capacity is achievable given the factory's current workload and machinery.
+
+**Quality System Evaluation**
+
+We review the supplier's quality management system: incoming raw material inspection procedures, in-process quality control points, finished goods inspection protocols, non-conformance handling, and corrective action records. We assess whether the quality system is genuinely implemented or merely paper-based.
+
+**Commercial Reference Check**
+
+Where available, we conduct reference checks with existing customers of the supplier, focusing on on-time delivery performance, quality consistency, and responsiveness to problems. This real-world validation is the most reliable predictor of future performance.
+    `.trim(),
+    icon: 'domain_verification',
+    heroImage: '/Idealdeal-supplier-identification.jpeg',
+    features: [
+      {
+        icon: 'gavel',
+        title: 'Legal Verification',
+        description:
+          'Business registration, export licensing, and regulatory history checks — confirming the supplier is legally compliant and registered.',
+      },
+      {
+        icon: 'verified_user',
+        title: 'Certification Audit',
+        description:
+          'Physical inspection of all certificates (ISO, Halal, Organic, HACCP) with validity and scope verification directly with issuing bodies.',
+      },
+      {
+        icon: 'factory',
+        title: 'Capacity Assessment',
+        description:
+          'On-site or video factory visit to confirm actual production capacity, equipment condition, and workforce matches the supplier\'s claims.',
+      },
+      {
+        icon: 'checklist',
+        title: 'Quality System Review',
+        description:
+          'Evaluation of the supplier\'s QC procedures at raw material, in-process, and finished goods stages assessing genuine implementation.',
+      },
+      {
+        icon: 'star_rate',
+        title: 'Reference Validation',
+        description:
+          'Direct reference checks with the supplier\'s existing clients to validate delivery reliability and quality consistency in practice.',
+      },
+      {
+        icon: 'summarize',
+        title: 'Supplier Report',
+        description:
+          'A detailed supplier profile report with ratings, risk assessment, and a clear recommendation on whether to proceed.',
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Requirements Definition',
+        description:
+          'We document your product specification, volume, certification requirements, and commercial terms to define the ideal supplier profile.',
+      },
+      {
+        step: 2,
+        title: 'Candidate Identification',
+        description:
+          'We identify 5–10 candidate suppliers from our network and the broader Vietnamese market that broadly match your requirements.',
+      },
+      {
+        step: 3,
+        title: 'Due Diligence',
+        description:
+          'We apply our five dimension due diligence framework to each candidate, eliminating those that fail legal, certification, or capacity checks.',
+      },
+      {
+        step: 4,
+        title: 'Shortlist & Report',
+        description:
+          'We deliver a shortlist of 2–3 verified suppliers with detailed profile reports covering strengths, risks, and our recommendation.',
+      },
+      {
+        step: 5,
+        title: 'Introduction & Onboarding',
+        description:
+          'We facilitate introductions, coordinate factory visits (physical or virtual), and support commercial negotiation and contract execution.',
+      },
+    ],
+    targetIndustries: [
+      'First-Time Vietnam Importers',
+      'Retail Buying Teams',
+      'Commodity Traders',
+      'Private Label Brands',
+      'Food Industry Investors',
+      'Import Compliance Officers',
+    ],
+    certifications: [
+      'ISO 22000:2018 Verified',
+      'Halal Certificate Verified',
+      'Organic Certificate Verified',
+      'HACCP Verified',
+      'FDA Registration Verified',
+    ],
+    faqs: [
+      {
+        question: 'How long does supplier identification take?',
+        answer:
+          'A standard supplier identification engagement takes 10–15 business days from requirements definition to final shortlist report. Complex searches in niche categories may take up to 20 business days.',
+      },
+      {
+        question: 'What if no suitable supplier is found?',
+        answer:
+          'If we cannot identify a supplier meeting your minimum requirements after a thorough search, we will inform you honestly and discuss alternative approaches including product reformulation, adjusted specifications, or sourcing from adjacent categories.',
+      },
+      {
+        question: 'Can I visit the shortlisted factories?',
+        answer:
+          'Yes, and we strongly recommend it. We can arrange factory visits for you in Vietnam, including logistics, translation support, and a structured visit agenda. Alternatively, we can conduct a live video factory tour if you cannot travel.',
+      },
+      {
+        question: 'Do you provide ongoing supplier monitoring?',
+        answer:
+          'Yes. After initial identification and onboarding, we offer an ongoing supplier monitoring service that includes periodic QC audits, certificate renewal tracking, and performance reviews to ensure your supplier relationship remains healthy.',
+      },
+    ],
+    relatedServices: ['product-sourcing', 'factory-audits', 'quality-control'],
+    seoTitle: 'Supplier Identification & Verification Vietnam | Food Manufacturer Due Diligence',
+    seoDescription:
+      'Find and verify reliable food suppliers in Vietnam. Our 5-stage due diligence covers legal checks, certification audits, capacity assessment, and quality system review.',
+    keywords: [
+      'supplier identification vietnam',
+      'vietnam supplier verification',
+      'food manufacturer due diligence vietnam',
+      'find verified supplier vietnam',
+      'vietnam factory vetting',
+      'supplier audit vietnam',
+    ],
+  },
+
+
+  // ─────────────────────────────────────────────────────────
+  // 2. PRODUCT SOURCING
+  // ─────────────────────────────────────────────────────────
+  {
+    slug: 'product-sourcing',
+    name: 'Product Sourcing',
+    tagline: 'Source Anything from Vietnam We Handle the Rest.',
+    heroDescription:
+      'From identifying the right product category to negotiating with vetted suppliers, we manage your entire Vietnam sourcing journey. Coffee, cashew, rice, seafood, spices, or any food commodity our team delivers competitive pricing, verified quality, and reliable supply.',
+    longDescription: `
+Product sourcing from Vietnam is one of the most cost-effective strategies for food importers, distributors, and retail buyers worldwide. Vietnam is among the world's top exporters of coffee (2nd globally), cashew nuts (1st globally), black pepper (1st globally), and a major exporter of rice, frozen seafood, and tropical spices. Ideal Deal Vietnam's product sourcing service provides end-to-end support from initial market research and supplier identification through sample evaluation, price negotiation, and first shipment.
+
+**Why Source from Vietnam?**
+
+Vietnam's food export industry has matured significantly over the past two decades. The country combines low labor costs, world-class agri-processing infrastructure, and proximity to major raw material growing regions. Vietnamese suppliers now hold international certifications including ISO 22000, HACCP, BRC, Halal (JAKIM/ESMA), organic (EU/USDA), and FDA registration. For buyers, this means access to globally competitive product quality at prices significantly below comparable sources in Brazil, Indonesia, or India.
+
+**Our Sourcing Methodology**
+
+We begin every sourcing engagement with a comprehensive market scan: identifying the available product grades, price ranges, and lead times across our supplier network. We then match your specification packaging format, quality grade, certification requirements, and target price to the most suitable suppliers. We do not charge sourcing fees to buyers; our model is built on long-term trading relationships.
+
+**Product Categories We Source**
+
+Our core sourcing categories include: roasted and green coffee (Arabica and Robusta), processed cashew nuts (W180–W450, splits, pieces), jasmine and fragrant rice, frozen and dried seafood (shrimp, pangasius, squid), and ground and whole spices (black pepper, turmeric, cinnamon, star anise). We can also source packaging materials, agricultural equipment, and processed food ingredients on request.
+
+**Price Benchmarking and Negotiation**
+
+We provide transparent price benchmarking based on current market data from commodity exchanges and direct supplier quotations. Our team negotiates directly with factory owners  not trading intermediaries to secure the most competitive pricing. We document every negotiation step and provide you with a full price breakdown before you commit to any order.
+
+**Sample Management**
+
+We coordinate sample requests, production, packaging, labeling, and express shipping to your location. For most products, samples are available within 5–10 business days. We can manage multi-supplier sample comparisons to help you select the best partner before placing a commercial order.
+
+**Risk Management**
+
+Sourcing from a new country always carries risks supplier reliability, product quality inconsistency, documentation errors, and shipping delays. Our sourcing service builds a risk mitigation layer into every step: supplier background checks, contract drafting with performance clauses, pre-shipment inspection, and documentary review before payment release.
+    `.trim(),
+    icon: 'search',
+    heroImage: '/Idealdeal-product-sourcing.jpeg',
+    features: [
+      {
+        icon: 'travel_explore',
+        title: 'Market Scan & Benchmarking',
+        description:
+          'We scan the Vietnamese market for your product category and provide a competitive price benchmark before you engage any supplier.',
+      },
+      {
+        icon: 'handshake',
+        title: 'Supplier Negotiation',
+        description:
+          'Direct factory level price negotiation we go to the source, not to trading intermediaries, to get you the best possible price.',
+      },
+      {
+        icon: 'science',
+        title: 'Sample Coordination',
+        description:
+          'We manage sample requests, production, packaging, and express shipping to your location typically within 5–10 business days.',
+      },
+      {
+        icon: 'contract',
+        title: 'Contract Drafting',
+        description:
+          'Supply agreements with performance clauses, quality standards, delivery schedules, and payment terms designed to protect your interests.',
+      },
+      {
+        icon: 'verified',
+        title: 'Pre-Shipment Verification',
+        description:
+          'Every order includes a pre-shipment inspection and document review before we authorize payment release or container loading.',
+      },
+      {
+        icon: 'support_agent',
+        title: 'Dedicated Sourcing Manager',
+        description:
+          'A single point of contact who knows your business, your product requirements, and your quality standards for every order.',
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Requirements Brief',
+        description:
+          'Share your product specification, target price, required certifications, and volume. We assess availability and feasibility within 24 hours.',
+      },
+      {
+        step: 2,
+        title: 'Supplier Shortlist',
+        description:
+          'We identify 3–5 qualified suppliers from our vetted network, with a comparison of pricing, certifications, capacity, and lead times.',
+      },
+      {
+        step: 3,
+        title: 'Sample Evaluation',
+        description:
+          'Samples from shortlisted suppliers are dispatched to you for sensory and technical evaluation. We provide lab test results alongside the samples.',
+      },
+      {
+        step: 4,
+        title: 'Negotiation & Contract',
+        description:
+          'We negotiate final pricing, Incoterms, payment terms, and quality standards. A formal supply agreement is drafted and executed.',
+      },
+      {
+        step: 5,
+        title: 'Production & Shipment',
+        description:
+          'Production is monitored by our QC team. Pre-shipment inspection is conducted. Documents are verified before container departure.',
+      },
+    ],
+    targetIndustries: [
+      'Food Importers & Distributors',
+      'Supermarket Buying Teams',
+      'Commodity Traders',
+      'Specialty Food Retailers',
+      'Hotel & Hospitality Supply Companies',
+      'E-Commerce Food Businesses',
+    ],
+    certifications: [
+      'ISO 22000:2018',
+      'HACCP',
+      'Halal (JAKIM / ESMA)',
+      'Organic (EU / USDA)',
+      'FDA Registration',
+    ],
+    faqs: [
+      {
+        question: 'Do you charge a sourcing fee?',
+        answer:
+          'No. Our sourcing service is offered at no additional charge when you source through Ideal Deal Vietnam. Our revenue comes from the commercial margin on products we supply we are aligned with your goal of finding the best quality at the most competitive price.',
+      },
+      {
+        question: 'How long does it take to receive samples?',
+        answer:
+          'For most products, samples are available within 5–10 business days from your confirmed request. Express DHL or FedEx shipping is used to minimize transit time. Sample production cost is typically borne by us; freight is at the buyer\'s cost.',
+      },
+      {
+        question: 'Can you source products not listed on your website?',
+        answer:
+          'Yes. If a product is grown or processed in Vietnam, we can source it. We have extended our sourcing beyond our core categories to items including dried fruits, herbal teas, macadamia nuts, and bamboo products. Contact us to discuss your specific requirement.',
+      },
+      {
+        question: 'How do you ensure the supplier you recommend is legitimate?',
+        answer:
+          'Every supplier in our network has undergone a verification process: business registration check, factory visit (or video audit), certification verification, and reference check with existing customers. We do not introduce new suppliers to buyers without completing this process.',
+      },
+    ],
+    relatedServices: ['supplier-identification', 'quality-control', 'logistics'],
+    seoTitle: 'Product Sourcing from Vietnam | Coffee, Cashew, Rice, Seafood & Spices',
+    seoDescription:
+      'Professional product sourcing service from Vietnam. We identify, negotiate with, and verify suppliers for coffee, cashew nuts, rice, seafood, spices, and more.',
+    keywords: [
+      'product sourcing vietnam',
+      'food sourcing agent vietnam',
+      'vietnam sourcing service',
+      'buy coffee cashew from vietnam',
+      'vietnam food import agent',
+      'sourcing company vietnam',
+    ],
+  },
+  // ─────────────────────────────────────────────────────────
+  // 3. PRIVATE LABEL
   // ─────────────────────────────────────────────────────────
   {
     slug: 'private-label',
     name: 'Private Label Manufacturing',
     tagline: 'Your Brand. Vietnamese Quality.',
     heroDescription:
-      'Launch your own food brand with premium Vietnamese products — packaged, labeled, and certified to your exact specifications. We handle everything from formulation to freight.',
+      'Launch your own food brand with premium Vietnamese products packaged, labeled, and certified to your exact specifications. We handle everything from formulation to freight.',
     longDescription: `
 Private label manufacturing is one of the fastest-growing strategies for importers, distributors, and retailers who want to build brand equity without investing in production facilities. Ideal Deal Vietnam bridges the gap between world-class Vietnamese food production and your brand's specific requirements.
 
@@ -82,19 +405,19 @@ Standard private label orders (with approved artwork and confirmed specification
 Every private label batch undergoes third-party laboratory testing at SGS, Eurofins, or Bureau Veritas before shipment. We provide the full CoA with your shipment documents. Clients may also send their own inspectors or appoint a third-party inspection agency at any stage of production.
     `.trim(),
     icon: 'label',
-    heroImage: '/images/services/private-label-hero.jpg',
+    heroImage: '/service/Private Label Manufacturing.png',
     features: [
       {
         icon: 'inventory_2',
         title: 'Custom Packaging',
         description:
-          'Stand-up pouches, vacuum bags, tin cans, kraft sacks — any format, your brand colors, any language on the label.',
+          'Stand up pouches, vacuum bags, tin cans, kraft sacks any format, your brand colors, any language on the label.',
       },
       {
         icon: 'science',
         title: 'Product Formulation',
         description:
-          "Custom coffee blends, spice mixes, rice varieties — we develop recipes to match your target market's taste profile.",
+          "Custom coffee blends, spice mixes, rice varieties we develop recipes to match your target market's taste profile.",
       },
       {
         icon: 'verified',
@@ -106,7 +429,7 @@ Every private label batch undergoes third-party laboratory testing at SGS, Eurof
         icon: 'local_shipping',
         title: 'Full Export Documentation',
         description:
-          'C/O, CoA, Phytosanitary Certificate, Health Certificate, Packing List — all documents prepared and verified.',
+          'C/O, CoA, Phytosanitary Certificate, Health Certificate, Packing List all documents prepared and verified.',
       },
       {
         icon: 'scale',
@@ -118,7 +441,7 @@ Every private label batch undergoes third-party laboratory testing at SGS, Eurof
         icon: 'groups',
         title: 'Dedicated Account Manager',
         description:
-          'One point of contact from product development through final delivery — no handoffs, no confusion.',
+          'One point of contact from product development through final delivery no handoffs, no confusion.',
       },
     ],
     process: [
@@ -211,7 +534,7 @@ Every private label batch undergoes third-party laboratory testing at SGS, Eurof
   },
 
   // ─────────────────────────────────────────────────────────
-  // 2. OEM MANUFACTURING
+  // 4. OEM MANUFACTURING
   // ─────────────────────────────────────────────────────────
   {
     slug: 'oem-manufacturing',
@@ -247,7 +570,7 @@ OEM contracts typically start at 2–5 containers per month, scaling to 20+ cont
 Every OEM production batch is fully traceable from raw material lot to finished product. We maintain batch records, CoA, incoming material inspection reports, production logs, and finished goods inspection reports. These documents are available to you and your auditors at any time.
     `.trim(),
     icon: 'factory',
-    heroImage: '/images/services/oem-manufacturing-hero.jpg',
+    heroImage: '/service/OEM Manufacturing.png',
     features: [
       {
         icon: 'precision_manufacturing',
@@ -376,7 +699,7 @@ Every OEM production batch is fully traceable from raw material lot to finished 
   },
 
   // ─────────────────────────────────────────────────────────
-  // 3. EXPORT SUPPORT
+  // 5. EXPORT SUPPORT
   // ─────────────────────────────────────────────────────────
   {
     slug: 'export-support',
@@ -415,7 +738,7 @@ Vietnam is a signatory to 16 Free Trade Agreements, including EVFTA (EU-Vietnam)
 For clients new to importing from Vietnam, we provide a detailed importer guide covering: customs registration requirements in the destination country, applicable import duties and VAT rates, recommended customs brokers in key markets (Saudi Arabia, UAE, Egypt, UK, Netherlands, Germany), and product registration requirements for regulated categories such as seafood and organic products.
     `.trim(),
     icon: 'description',
-    heroImage: '/images/services/export-support-hero.jpg',
+    heroImage: '/service/Export Support & Documentation.png',
     features: [
       {
         icon: 'article',
@@ -543,7 +866,7 @@ For clients new to importing from Vietnam, we provide a detailed importer guide 
   },
 
   // ─────────────────────────────────────────────────────────
-  // 4. LOGISTICS
+  // 6. LOGISTICS
   // ─────────────────────────────────────────────────────────
   {
     slug: 'logistics',
@@ -581,7 +904,7 @@ For frozen seafood exports, we manage the complete cold chain: pre-cooling of fa
 We provide container booking confirmation, vessel departure notification, bill of lading copies, and arrival ETA updates for every shipment. Our operations team is reachable via WhatsApp, email, and phone for real-time updates.
     `.trim(),
     icon: 'local_shipping',
-    heroImage: '/images/services/logistics-hero.jpg',
+    heroImage: '/service/Freight & Logistics.png',
     features: [
       {
         icon: 'anchor',
@@ -707,7 +1030,7 @@ We provide container booking confirmation, vessel departure notification, bill o
   },
 
   // ─────────────────────────────────────────────────────────
-  // 5. QUALITY CONTROL
+  // 7. QUALITY CONTROL
   // ─────────────────────────────────────────────────────────
   {
     slug: 'quality-control',
@@ -750,7 +1073,7 @@ Our standard pre-shipment inspection covers: carton count verification, net weig
 Certificate of Analysis (CoA), Test Report, Inspection Certificate, Fumigation Certificate. All reports are issued on the testing body's official letterhead with accreditation number and are legally recognized by customs authorities worldwide.
     `.trim(),
     icon: 'verified',
-    heroImage: '/images/services/quality-control-hero.jpg',
+    heroImage: '/service/Quality Control & Inspection.png',
     features: [
       {
         icon: 'science',
@@ -876,6 +1199,663 @@ Certificate of Analysis (CoA), Test Report, Inspection Certificate, Fumigation C
       'certificate of analysis vietnam',
     ],
   },
+
+  // ─────────────────────────────────────────────────────────
+  // 8. FACTORY AUDITS
+  // ─────────────────────────────────────────────────────────
+  {
+    slug: 'factory-audits',
+    name: 'Factory Audits',
+    tagline: 'Know Exactly Who You\'re Buying From.',
+    heroDescription:
+      'Independent factory audits conducted by qualified food safety professionals. We assess production capabilities, quality systems, hygiene standards, social compliance, and certification status to give you a complete picture before you commit to a supplier.',
+    longDescription: `
+A factory audit is one of the most valuable tools available to international food buyers. It transforms a supplier from an unknown entity into a documented, rated, and understood partner. Ideal Deal Vietnam conducts systematic factory audits across Vietnam's food processing regions, delivering clear, actionable reports that support your sourcing decisions, compliance requirements, and ongoing supplier management.
+
+**Types of Factory Audits We Conduct**
+
+We offer four audit types calibrated to different buyer needs:
+
+**1. Capability Audit** — Assesses whether the factory can produce your product to your specification and volume. Reviews production lines, equipment, capacity, workforce, raw material sourcing, and track record with similar products. Recommended before placing a first order.
+
+**2. Quality Management System (QMS) Audit** — Evaluates the factory's quality management framework against ISO 22000, HACCP, or your proprietary quality standard. Reviews documented procedures, records, corrective action processes, and management commitment. Recommended for buyers with stringent quality standards.
+
+**3. Social Compliance Audit** — Assesses working conditions, labor practices, employment terms, health and safety, and environmental management against ETI Base Code, SA8000, or your own code of conduct. Required by many European and North American retail chains.
+
+**4. Certification Verification Audit** — Confirms that current certificates (Halal, Organic, ISO, FSSC, BRC) are valid, in-scope, and genuinely implemented — not just displayed on a wall. Includes direct verification with the certifying body.
+
+**Our Audit Team**
+
+Our auditors are qualified food scientists and quality managers with 10+ years of experience in Vietnamese food processing. All audits are conducted in Vietnamese (with full English reporting), eliminating the communication barriers that often limit the depth of international audits.
+
+**Audit Report**
+
+Every audit produces a structured written report covering: audit scope and methodology, facility overview, detailed findings by section, non-conformance classification (critical, major, minor), photographs and supporting evidence, and an overall rating with recommendation. Reports are delivered within 5 business days of the audit.
+
+**Follow-Up and CAPA Management**
+
+We can manage corrective action (CAPA) follow-up on your behalf — tracking the factory's responses to non-conformances and conducting a re-audit to verify that corrective actions have been implemented effectively.
+
+**Unannounced Audits**
+
+For high-trust supplier relationships, we offer unannounced audit programs where visits occur without advance notice to the factory. Unannounced audits provide the most accurate picture of a factory's day-to-day operations.
+    `.trim(),
+    icon: 'fact_check',
+    heroImage: '/service/Factory Audits.png',
+    features: [
+      {
+        icon: 'checklist_rtl',
+        title: 'Capability Audit',
+        description:
+          'Assesses production lines, equipment, workforce, and capacity against your specific product requirements before first order.',
+      },
+      {
+        icon: 'shield',
+        title: 'QMS Audit',
+        description:
+          'Reviews quality management system against ISO 22000, HACCP, or your proprietary standard — procedures, records, and real implementation.',
+      },
+      {
+        icon: 'people',
+        title: 'Social Compliance Audit',
+        description:
+          'Evaluates labor practices, working conditions, and environmental management against ETI Base Code, SA8000, or buyer code of conduct.',
+      },
+      {
+        icon: 'verified',
+        title: 'Certification Verification',
+        description:
+          'Confirms all certifications (Halal, Organic, ISO, BRC) are valid, in-scope, and genuinely implemented — verified directly with issuing bodies.',
+      },
+      {
+        icon: 'photo_camera',
+        title: 'Photo-Evidenced Reports',
+        description:
+          'Every non-conformance is photographed and documented. Reports delivered within 5 business days with clear ratings and recommendations.',
+      },
+      {
+        icon: 'notifications',
+        title: 'Unannounced Audit Option',
+        description:
+          'Surprise audits for ongoing supplier programs — providing the most accurate view of day-to-day operations and compliance.',
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Audit Scope Agreement',
+        description:
+          'We define the audit type, checklist standard, scope, and specific areas of focus based on your product and compliance requirements.',
+      },
+      {
+        step: 2,
+        title: 'Scheduling',
+        description:
+          'We coordinate audit scheduling with the factory (or conduct unannounced if requested). Typical lead time is 5–10 business days.',
+      },
+      {
+        step: 3,
+        title: 'On-Site Audit',
+        description:
+          'Our qualified auditor conducts a full-day structured audit covering all defined scope areas, with document review and production floor inspection.',
+      },
+      {
+        step: 4,
+        title: 'Closing Meeting',
+        description:
+          'The auditor conducts a closing meeting with factory management to present preliminary findings and agree on non-conformance classification.',
+      },
+      {
+        step: 5,
+        title: 'Report Delivery',
+        description:
+          'A complete written audit report with findings, non-conformances, photos, and overall rating is delivered within 5 business days.',
+      },
+    ],
+    targetIndustries: [
+      'Retail Chains & Supermarkets',
+      'Food Brand Owners',
+      'Import Compliance Teams',
+      'CSR & Sustainability Managers',
+      'Private Equity Food Investors',
+      'Government Food Regulatory Bodies',
+    ],
+    certifications: [
+      'ISO 22000 Audit Standard',
+      'HACCP Audit Standard',
+      'ETI Base Code',
+      'SA8000 Social Compliance',
+      'BRC Audit Criteria',
+    ],
+    faqs: [
+      {
+        question: 'How long does a factory audit take?',
+        answer:
+          'Most factory audits are conducted in one full day (8–10 hours on site). Larger or more complex facilities may require a two-day audit. The written report is delivered within 5 business days of the audit.',
+      },
+      {
+        question: 'Can the factory refuse the audit?',
+        answer:
+          'Factories can decline an audit request. However, in our experience, legitimate factories with nothing to hide welcome audits as an opportunity to demonstrate their capabilities. A refusal to allow an audit is itself a significant red flag.',
+      },
+      {
+        question: 'Do you conduct audits for non-food factories?',
+        answer:
+          'Our core expertise is in food processing facilities. We do not currently conduct audits for non-food manufacturing environments. For food-adjacent sectors such as packaging material suppliers or food-grade chemical suppliers, contact us to discuss scope.',
+      },
+      {
+        question: 'Can the audit report be used for customer compliance submissions?',
+        answer:
+          'Our audit reports are structured to align with major retail and industry audit requirements. However, if your customer requires a specific audit scheme (e.g., SMETA, BRC audit), please confirm the exact standard required before engagement so we can ensure full alignment.',
+      },
+    ],
+    relatedServices: ['supplier-identification', 'quality-control', 'procurement-management'],
+    seoTitle: 'Factory Audit Services Vietnam | Food Manufacturing Compliance & QMS Audit',
+    seoDescription:
+      'Independent factory audits in Vietnam for food buyers: capability, QMS, social compliance, and certification verification audits with 5-day report delivery.',
+    keywords: [
+      'factory audit vietnam',
+      'food factory audit vietnam',
+      'supplier audit vietnam',
+      'qms audit vietnam food',
+      'social compliance audit vietnam',
+      'factory inspection vietnam',
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────
+  // 9. PROCUREMENT MANAGEMENT
+  // ─────────────────────────────────────────────────────────
+  {
+    slug: 'procurement-management',
+    name: 'Procurement Management',
+    tagline: 'Your Vietnam Buying Office — Without the Overhead.',
+    heroDescription:
+      'We act as your embedded procurement team in Vietnam — managing purchase orders, supplier relationships, quality oversight, and logistics coordination for ongoing buying programs. Reduce your cost, risk, and operational complexity in one engagement.',
+    longDescription: `
+For importers buying regularly from Vietnam, managing the procurement process remotely is one of the most operationally demanding challenges in international trade. Purchase order issuance, supplier follow-up, production monitoring, quality control, document collection, and freight coordination require constant attention — across time zones, languages, and cultural differences. Ideal Deal Vietnam's procurement management service solves this by placing an experienced, on-the-ground team at your disposal.
+
+**What Procurement Management Covers**
+
+Our procurement management service is designed for buyers who need ongoing, reliable execution of their Vietnam sourcing program — not a one-time transaction. We cover the full procurement cycle from purchase order issuance to door delivery, handling every step in between.
+
+**Purchase Order Management**
+
+We issue, track, and manage purchase orders with your suppliers on your behalf. Every PO is monitored against agreed delivery dates, with weekly status updates provided to your team. We flag risks early — production delays, raw material shortages, quality deviations — and manage escalations before they become shipment problems.
+
+**Supplier Relationship Management**
+
+Strong supplier relationships are built over time through consistent communication, fair dealing, and mutual respect. Our team maintains these relationships on your behalf, ensuring your program receives priority attention from factory management — particularly during peak production seasons when factory capacity is constrained.
+
+**Production Monitoring**
+
+We conduct regular production progress checks at supplier factories during active manufacturing runs. For high-value orders or first-time production runs, our QC team visits the factory at key production milestones. We provide photo and video updates from the factory floor.
+
+**Quality Control Integration**
+
+Procurement management integrates seamlessly with our quality control service. Pre-shipment inspections, laboratory testing, and CoA collection are coordinated as standard components of every shipment. You receive a complete QC report before you authorize payment.
+
+**Payment and Finance Coordination**
+
+We support various payment structures including Letter of Credit (L/C), Telegraphic Transfer (TT) with deposit/balance terms, and Documents Against Payment (D/P). We advise on payment terms appropriate for your supplier relationship and risk tolerance, and coordinate with banks on document presentation for L/C transactions.
+
+**Reporting and Transparency**
+
+You receive a monthly procurement status report covering: orders placed, production status, shipments in transit, documents received, and upcoming renewals or reorders. Full visibility into your Vietnam supply chain, without needing to be present.
+    `.trim(),
+    icon: 'inventory',
+    heroImage: '/service/Procurement Management.png',
+    features: [
+      {
+        icon: 'receipt_long',
+        title: 'PO Tracking & Management',
+        description:
+          'We issue, track, and manage all purchase orders — monitoring delivery dates, flagging risks, and escalating issues before they cause delays.',
+      },
+      {
+        icon: 'groups',
+        title: 'Supplier Relationship Management',
+        description:
+          'Our team maintains your supplier relationships on the ground — ensuring your program gets priority attention during peak seasons.',
+      },
+      {
+        icon: 'videocam',
+        title: 'Production Monitoring',
+        description:
+          'Regular factory visits and photo/video updates during production runs — you see exactly what is happening without traveling to Vietnam.',
+      },
+      {
+        icon: 'verified',
+        title: 'Integrated QC',
+        description:
+          'Pre-shipment inspection and lab testing are built into every shipment. You receive a complete QC report before authorizing payment.',
+      },
+      {
+        icon: 'account_balance',
+        title: 'Payment Coordination',
+        description:
+          'Support for L/C, TT, and D/P payment structures — we coordinate with banks and suppliers to ensure smooth documentary transactions.',
+      },
+      {
+        icon: 'analytics',
+        title: 'Monthly Reporting',
+        description:
+          'Full visibility into your Vietnam supply chain via monthly status reports: orders, shipments, documents, and upcoming requirements.',
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Program Onboarding',
+        description:
+          'We document your supplier relationships, product specifications, quality standards, and commercial terms to set up your procurement program.',
+      },
+      {
+        step: 2,
+        title: 'PO Issuance',
+        description:
+          'Purchase orders are placed with your suppliers as directed, with production timelines confirmed and delivery date commitments documented.',
+      },
+      {
+        step: 3,
+        title: 'Production Oversight',
+        description:
+          'Factory progress is monitored throughout the production cycle. Issues are flagged and resolved before they impact delivery schedules.',
+      },
+      {
+        step: 4,
+        title: 'QC & Documentation',
+        description:
+          'Pre-shipment inspection is conducted. All export documents are collected, verified, and dispatched before payment release.',
+      },
+      {
+        step: 5,
+        title: 'Shipment & Reporting',
+        description:
+          'Container booking is confirmed, cargo is loaded, and shipping documents are forwarded. Monthly program status report is delivered to your team.',
+      },
+    ],
+    targetIndustries: [
+      'Import Companies Without Vietnam Staff',
+      'Retail Chains with Direct Import Programs',
+      'Commodity Trading Companies',
+      'Food Brand Owners',
+      'Private Label Retailers',
+      'Food Service Distributors',
+    ],
+    certifications: [
+      'ISO 22000:2018',
+      'HACCP',
+      'Halal (JAKIM / ESMA)',
+      'Organic (EU / USDA)',
+      'FDA Registration',
+    ],
+    faqs: [
+      {
+        question: 'Is procurement management suitable for small buyers?',
+        answer:
+          'Our procurement management service is most cost-effective for buyers placing regular orders — typically two or more shipments per month. For occasional buyers, our product sourcing and export support services provide equivalent coverage on a transaction-by-transaction basis.',
+      },
+      {
+        question: 'Can you manage procurement for multiple product categories simultaneously?',
+        answer:
+          'Yes. Many of our procurement management clients source multiple categories — for example, coffee, cashew nuts, and spices — through a single engagement. We manage all categories under a unified program with consolidated monthly reporting.',
+      },
+      {
+        question: 'What happens if a supplier misses a production deadline?',
+        answer:
+          'We escalate immediately to factory management and assess options: partial shipment, air freight for urgent portions, or rescheduling. We communicate transparently with you throughout and present the available options with cost and timeline implications.',
+      },
+      {
+        question: 'Do we need to have existing supplier relationships, or can you establish new ones?',
+        answer:
+          'Either approach works. We can manage your existing Vietnamese suppliers or identify and onboard new ones as part of the procurement management engagement. Many clients start by transferring existing relationships to our management.',
+      },
+    ],
+    relatedServices: ['product-sourcing', 'export-support', 'logistics'],
+    seoTitle: 'Procurement Management Vietnam | Vietnam Buying Office & Supply Chain Management',
+    seoDescription:
+      'Outsourced procurement management in Vietnam: PO tracking, supplier management, production monitoring, QC integration, and monthly reporting for regular import programs.',
+    keywords: [
+      'procurement management vietnam',
+      'vietnam buying office',
+      'vietnam supply chain management',
+      'outsourced procurement vietnam',
+      'vietnam import management',
+      'vietnam purchasing agent',
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────
+  // 10. PACKAGING & BRANDING
+  // ─────────────────────────────────────────────────────────
+  {
+    slug: 'packaging-branding',
+    name: 'Packaging & Branding',
+    tagline: 'Stand Out on the Shelf. Made in Vietnam.',
+    heroDescription:
+      'From structural design to retail-ready packaging, we develop custom packaging solutions for your Vietnamese food products. Stand-up pouches, tin cans, glass jars, kraft bags — any format, your brand, compliant with all destination market regulations.',
+    longDescription: `
+Packaging is where your product meets your customer. For food importers and brand owners, getting packaging right is as important as sourcing the right product — it determines shelf appeal, regulatory compliance, freshness preservation, and transportation efficiency. Ideal Deal Vietnam's packaging and branding service provides end-to-end packaging development, from structural design and material selection through printing and retail-ready production.
+
+**Packaging Formats Available**
+
+We work with certified packaging production partners across Vietnam to produce:
+
+- **Stand-up pouches (SUP)** — with or without zip lock, window, or kraft finish. Available in multiple sizes from 100g to 5kg. Ideal for coffee, nuts, spices, and dried goods.
+- **Vacuum-sealed bags** — for premium coffee and cashew nut packaging, extending shelf life to 12–24 months.
+- **Flat-bottom bags** — premium retail format for specialty coffee and high-value nuts.
+- **Tin cans** — for gift packaging of coffee, tea, and premium nuts. Available in round, rectangular, and custom shapes.
+- **Glass jars** — for premium spices, honey, and specialty food products.
+- **Kraft paper bags** — for organic and natural food brands seeking sustainable packaging credentials.
+- **Retort pouches** — for processed and ready-to-eat food products requiring extended shelf life without refrigeration.
+- **Bulk sacks (25kg / 50kg)** — for commodity buyers requiring large-format export packaging.
+
+**Label Design and Compliance**
+
+We work with professional graphic designers to develop brand-aligned labels that meet the regulatory requirements of your destination market. For GCC markets, we design bilingual English/Arabic labels compliant with GSO standards. For EU markets, we apply EU 1169/2011 (food information to consumers) requirements including allergen labeling, nutrition tables, and mandatory declarations. For US markets, we apply FDA CFR 21 labeling requirements.
+
+**Nutrition Panel Development**
+
+We coordinate with accredited laboratories to generate nutritional analysis data for your product, which forms the basis for accurate nutrition fact panels. We calculate per-serving and per-100g values and format the panel to meet the regulatory template of your destination market.
+
+**Barcode and Traceability**
+
+We assist with GS1 barcode application or use your existing GS1 prefix. All product codes are structured for seamless integration with supermarket inventory systems. QR codes for traceability or marketing can be incorporated into the label design.
+
+**Sustainability Credentials**
+
+For brands targeting environmentally conscious markets, we source recyclable, biodegradable, and compostable packaging materials. We can obtain relevant sustainability certifications including FSC (Forest Stewardship Council) for paper-based packaging.
+
+**Minimum Order Quantities**
+
+Packaging MOQs vary by format: flexible pouches from 5,000 units, tin cans from 1,000 units, kraft paper bags from 3,000 units. We can arrange pilot runs at lower quantities for market testing, with premium pricing for sub-MOQ volumes.
+    `.trim(),
+    icon: 'inventory_2',
+    heroImage: '/service/Packaging & Branding.png',
+    features: [
+      {
+        icon: 'design_services',
+        title: 'Label Design',
+        description:
+          'Professional graphic design for retail-ready labels: bilingual, regulatory-compliant, and brand-aligned for your target market.',
+      },
+      {
+        icon: 'category',
+        title: 'Multiple Format Options',
+        description:
+          'Stand up pouches, vacuum bags, tin cans, glass jars, kraft bags, flat-bottom bags — any packaging format your product requires.',
+      },
+      {
+        icon: 'rule',
+        title: 'Regulatory Compliance',
+        description:
+          'Labels designed to meet GCC/GSO, EU 1169/2011, FDA, and destination-specific food labeling requirements. Zero port rejections.',
+      },
+      {
+        icon: 'science',
+        title: 'Nutrition Panel Development',
+        description:
+          'Lab-tested nutritional analysis data formatted into compliant nutrition fact panels for any target market.',
+      },
+      {
+        icon: 'qr_code',
+        title: 'Barcode & QR Integration',
+        description:
+          'GS1 barcode application, supermarket-ready product codes, and QR traceability for modern retail compliance.',
+      },
+      {
+        icon: 'eco',
+        title: 'Sustainable Packaging',
+        description:
+          'Recyclable, biodegradable, and FSC-certified packaging options for brands with sustainability commitments.',
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Brief & Requirements',
+        description:
+          'We document your packaging requirements: product, format, quantity, destination market, regulatory requirements, and brand guidelines.',
+      },
+      {
+        step: 2,
+        title: 'Structural Design',
+        description:
+          'We develop structural packaging specifications and provide material samples for your approval — comparing alternatives on cost, weight, and barrier performance.',
+      },
+      {
+        step: 3,
+        title: 'Label Design',
+        description:
+          'Our design team develops label artwork to your brand guidelines, applying all required regulatory information for your destination market.',
+      },
+      {
+        step: 4,
+        title: 'Sample Production',
+        description:
+          'Physical packaging samples are produced with your product inside for shelf presentation review, regulatory check, and customer feedback.',
+      },
+      {
+        step: 5,
+        title: 'Production & Delivery',
+        description:
+          'Approved packaging is produced and delivered to the factory for filling and sealing, integrated with your production schedule.',
+      },
+    ],
+    targetIndustries: [
+      'Private Label Brand Owners',
+      'Specialty Food Retailers',
+      'Online Food Businesses',
+      'Hotel & Hospitality Gift Programs',
+      'Supermarket Own-Brand Teams',
+      'Organic & Natural Food Brands',
+    ],
+    certifications: [
+      'FSC-Certified Paper Packaging',
+      'Food-Grade Packaging Standards',
+      'BPA-Free Materials',
+      'EU Packaging Directive Compliant',
+      'GCC/GSO Labeling Standards',
+    ],
+    faqs: [
+      {
+        question: 'Can you design packaging if we have no existing brand guidelines?',
+        answer:
+          'Yes. We work with buyers at all stages of brand development — from established brands with detailed guidelines to first-time brand launches requiring a full identity. If you need a brand identity developed from scratch, we can connect you with our design partners.',
+      },
+      {
+        question: 'How long does packaging development take?',
+        answer:
+          'From brief to approved artwork, packaging development typically takes 3–4 weeks. Physical sample production adds another 2–3 weeks depending on the format. We build packaging timelines into the overall production schedule to avoid delays.',
+      },
+      {
+        question: 'Can you print labels in multiple languages on the same pack?',
+        answer:
+          'Yes. Multi-language labeling is standard for GCC markets (English and Arabic) and common for distributors serving multiple countries. We design label layouts that accommodate multiple language requirements while meeting each market\'s regulatory standards.',
+      },
+      {
+        question: 'What is the minimum order for packaging?',
+        answer:
+          'Minimums depend on the format: flexible pouches start at 5,000 units, tin cans at 1,000 units, and kraft paper bags at 3,000 units. For pilot orders below MOQ, we can arrange production at a premium price. Contact us to discuss your specific volume.',
+      },
+    ],
+    relatedServices: ['private-label', 'oem-manufacturing', 'export-support'],
+    seoTitle: 'Packaging & Branding Vietnam | Custom Food Packaging Design & Production',
+    seoDescription:
+      'Custom food packaging and branding from Vietnam: label design, regulatory compliance (GCC, EU, FDA), stand-up pouches, tin cans, kraft bags, and sustainable options.',
+    keywords: [
+      'food packaging vietnam',
+      'custom packaging vietnam',
+      'private label packaging vietnam',
+      'food label design vietnam',
+      'halal food packaging vietnam',
+      'stand up pouch vietnam manufacturer',
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────
+  // 11. MARKET RESEARCH
+  // ─────────────────────────────────────────────────────────
+  {
+    slug: 'market-research',
+    name: 'Market Research',
+    tagline: 'Data-Driven Entry into Vietnamese Food Markets.',
+    heroDescription:
+      'Before you source, before you invest, know your market. We provide actionable market intelligence on Vietnamese food export categories — pricing, competition, trade flows, regulatory requirements, and opportunity sizing.',
+    longDescription: `
+Entering or expanding in a new market without reliable intelligence is one of the most preventable causes of failed import programs. Buyers who understand current price benchmarks, competitive supply dynamics, regulatory entry requirements, and consumer demand trends make better decisions — selecting the right product, the right supplier, and the right market at the right time. Ideal Deal Vietnam's market research service provides the data and analysis you need to move confidently.
+
+**What Our Market Research Covers**
+
+Our research engagements are tailored to your specific question, product, and destination. Common research mandates include:
+
+**Commodity Price Intelligence**
+
+We provide current and historical price data for Vietnamese food export commodities: green coffee, roasted coffee, cashew nuts (by grade), rice (by variety and grade), frozen shrimp, and black pepper. Price data is sourced from commodity exchanges, direct industry contacts, and our own trading experience. We contextualize prices within global supply and demand dynamics and provide a 3–6 month price outlook.
+
+**Competitive Supply Analysis**
+
+We analyze Vietnam's competitive position in your target commodity against other major producing countries. For example: how does Vietnamese Robusta coffee compare to Brazilian or Indonesian supply in terms of price, quality, and availability? Who are Vietnam's key competitors for cashew exports in the Gulf market? This analysis helps buyers understand their supply chain risk and diversification options.
+
+**Regulatory Market Entry Research**
+
+Each destination market has unique requirements for food imports. We research and document the complete import regulatory requirements for your product and destination country: applicable HS codes, import duty rates, required certifications, labeling standards, quarantine conditions, and product registration requirements. This research eliminates regulatory surprises and enables precise landed cost calculation.
+
+**Trade Flow Analysis**
+
+We analyze Vietnam's export trade flows for your target product using official customs data from Vietnam General Statistics Office, ITC Trade Map, and UN Comtrade. We identify the volume, value, and key destination markets for Vietnam's exports, seasonal shipment patterns, and year-on-year growth trends. This data helps you understand market size and identify competitive threats.
+
+**Consumer Demand Research**
+
+For buyers launching new categories in their markets, we provide consumer demand analysis: import market size for your product category, key competitors and their market positioning, retail price points in the destination market, and growth trends. This research supports business case development and investment decisions.
+
+**Opportunity Assessment Report**
+
+Our standard deliverable is a structured Opportunity Assessment Report (15–30 pages) covering market sizing, supply analysis, regulatory landscape, competitive positioning, and recommended entry strategy. Reports are designed for use in internal business case submissions, board presentations, and investor briefings.
+    `.trim(),
+    icon: 'analytics',
+    heroImage: '/service/Market Research.png',
+    features: [
+      {
+        icon: 'price_change',
+        title: 'Commodity Price Intelligence',
+        description:
+          'Current and historical price data for Vietnamese food exports with 3–6 month price outlook and global supply context.',
+      },
+      {
+        icon: 'bar_chart',
+        title: 'Competitive Supply Analysis',
+        description:
+          "Vietnam's competitive position versus other producing countries — helping you understand supply risk and diversification options.",
+      },
+      {
+        icon: 'policy',
+        title: 'Regulatory Entry Research',
+        description:
+          'Complete import regulatory requirements: HS codes, duty rates, certifications, labeling, and registration for your destination market.',
+      },
+      {
+        icon: 'timeline',
+        title: 'Trade Flow Analysis',
+        description:
+          "Vietnam's export volume, value, and destination market trends using official customs and UN Comtrade data.",
+      },
+      {
+        icon: 'people',
+        title: 'Consumer Demand Research',
+        description:
+          'Market size, retail pricing, competitor positioning, and growth trends for your product category in the destination market.',
+      },
+      {
+        icon: 'description',
+        title: 'Opportunity Assessment Report',
+        description:
+          'A structured 15–30 page report covering all research dimensions — ready for board presentations and investment decisions.',
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Research Brief',
+        description:
+          'We agree the research mandate: product, destination market, key questions, and deliverable format. Scope and timeline are confirmed.',
+      },
+      {
+        step: 2,
+        title: 'Data Collection',
+        description:
+          'We gather data from commodity exchanges, trade databases (ITC Trade Map, UN Comtrade), regulatory authorities, and our industry network.',
+      },
+      {
+        step: 3,
+        title: 'Industry Consultation',
+        description:
+          'We conduct structured interviews with Vietnamese industry participants — farmers, processors, exporters, and trade associations — to enrich quantitative data with qualitative insight.',
+      },
+      {
+        step: 4,
+        title: 'Analysis & Synthesis',
+        description:
+          'Data is analyzed, contextualized, and synthesized into clear findings. Price benchmarks, regulatory requirements, and market opportunities are structured for decision-making.',
+      },
+      {
+        step: 5,
+        title: 'Report Delivery',
+        description:
+          'A structured Opportunity Assessment Report is delivered, followed by a one-hour briefing call to walk through findings and answer questions.',
+      },
+    ],
+    targetIndustries: [
+      'New Vietnam Market Entrants',
+      'Private Equity & Investment Funds',
+      'Food Industry Consultants',
+      'Government Trade Agencies',
+      'Retail Buying Teams',
+      'Commodity Traders Expanding Categories',
+    ],
+    certifications: [
+      'ITC Trade Map Data',
+      'UN Comtrade Data',
+      'Vietnam GSO Official Statistics',
+      'Primary Industry Interviews',
+    ],
+    faqs: [
+      {
+        question: 'How long does a market research engagement take?',
+        answer:
+          'Standard market research engagements take 3–4 weeks from brief to report delivery. For complex multi-product or multi-market mandates, 6–8 weeks is more appropriate. We can provide preliminary findings on a rolling basis for time-sensitive decisions.',
+      },
+      {
+        question: 'Is the research based on publicly available data only?',
+        answer:
+          'No. We combine publicly available trade data (ITC Trade Map, UN Comtrade, Vietnam GSO) with primary research: structured interviews with Vietnamese industry participants, our own trading market knowledge, and direct supplier pricing data. This combination provides depth and accuracy that publicly available data alone cannot achieve.',
+      },
+      {
+        question: 'Can you research a product category not currently in your trading portfolio?',
+        answer:
+          'Yes. Our research capabilities extend beyond our core trading categories. We have conducted research for clients on macadamia nuts, dried mango, bamboo products, and packaging materials. If it is produced or processed in Vietnam, we can research it.',
+      },
+      {
+        question: 'Do you provide ongoing market intelligence subscriptions?',
+        answer:
+          'Yes. For buyers who need regular market updates, we offer quarterly market intelligence briefings covering price trends, supply dynamics, and regulatory changes for your product categories. Contact us to discuss a subscription arrangement.',
+      },
+    ],
+    relatedServices: ['product-sourcing', 'supplier-identification', 'procurement-management'],
+    seoTitle: 'Vietnam Food Market Research | Trade Intelligence, Pricing & Regulatory Analysis',
+    seoDescription:
+      'Data-driven market research for Vietnam food imports: commodity pricing, trade flow analysis, regulatory entry requirements, and opportunity assessment reports.',
+    keywords: [
+      'vietnam food market research',
+      'vietnam export market intelligence',
+      'vietnam commodity price data',
+      'food import regulatory research vietnam',
+      'vietnam trade analysis',
+      'vietnam food opportunity assessment',
+    ],
+  },
+
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────

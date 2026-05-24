@@ -4,6 +4,7 @@ import { getBlogPostBySlug, getRelatedBlogPosts, blogCategories } from '../../da
 import SEOHead, { articleSchema, breadcrumbSchema, faqSchema, organizationSchema } from '../../components/SEOHead';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import RFQForm from '../../components/RFQForm';
+import Icon from '../../components/Icon';
 
 // ── Minimal markdown renderer ───────────────────────────────────────────────
 const renderMarkdown = (content: string): React.ReactNode[] => {
@@ -276,7 +277,7 @@ const BlogPost: React.FC = () => {
                       className="flex items-center justify-between text-sm text-slate-500 dark:text-slate-400 hover:text-primary transition-colors py-1"
                     >
                       <span>{cat.name}</span>
-                      <span className="material-symbols-outlined text-base" aria-hidden="true">chevron_right</span>
+                      <Icon name="chevron_right" size={16} aria-hidden />
                     </Link>
                   ))}
                 </div>
@@ -292,7 +293,7 @@ const BlogPost: React.FC = () => {
           to="/blog"
           className="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all"
         >
-          <span className="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+          <Icon name="arrow_back" aria-hidden />
           Back to All Articles
         </Link>
       </section>

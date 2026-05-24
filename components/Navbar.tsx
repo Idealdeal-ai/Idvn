@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { ChevronDown, Sun, Moon, Menu, X } from 'lucide-react';
 import { useLanguage, Language } from '../App';
 
 
@@ -68,13 +69,11 @@ const LanguageSelector: React.FC = () => {
           loading="lazy"
         />
         <span className="text-[11px] font-extrabold tracking-wider">{current.short}</span>
-        <span
-          className={`material-symbols-outlined text-lg leading-none opacity-80 transition-transform ${
-            open ? "rotate-180" : ""
-          }`}
-        >
-          expand_more
-        </span>
+        <ChevronDown
+          size={18}
+          className={`opacity-80 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+          aria-hidden
+        />
       </button>
 
       {/* Dropdown */}
@@ -171,6 +170,10 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
                   ? 'Việt Nam'
                   : language === 'zh'
                   ? '越南'
+                  : language === 'es'
+                  ? 'Vietnam'
+                  : language === 'fr'
+                  ? 'Vietnam'
                   : 'Vietnam'}
               </span>
             </div>
@@ -198,9 +201,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
                 className="p-2.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-primary hover:text-brandNavy transition-all"
                 aria-label={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
               >
-                <span className="material-symbols-outlined text-xl leading-none">
-                  {isDarkMode ? 'light_mode' : 'dark_mode'}
-                </span>
+                {isDarkMode ? <Sun size={20} aria-hidden /> : <Moon size={20} aria-hidden />}
               </button>
             </div>
           </div>
@@ -214,7 +215,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
               aria-label="Toggle navigation menu"
               aria-expanded={isMenuOpen}
             >
-              <span className="material-icons-outlined">{isMenuOpen ? 'close' : 'menu'}</span>
+              {isMenuOpen ? <X size={24} aria-hidden /> : <Menu size={24} aria-hidden />}
             </button>
           </div>
         </div>
@@ -241,7 +242,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
               className="flex items-center gap-2 text-sm font-semibold text-slate-600 dark:text-slate-300"
               aria-label={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
             >
-              <span className="material-icons-outlined">{isDarkMode ? 'light_mode' : 'dark_mode'}</span>
+              {isDarkMode ? <Sun size={20} aria-hidden /> : <Moon size={20} aria-hidden />}
               {isDarkMode ? 'Light Mode' : 'Dark Mode'}
             </button>
           </div>

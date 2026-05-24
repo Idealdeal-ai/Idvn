@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../App';
+import Icon from '../components/Icon';
 
 const NotFound: React.FC = () => {
   const { language } = useLanguage();
@@ -30,7 +31,7 @@ const NotFound: React.FC = () => {
           to="/"
           className="inline-flex items-center gap-2 bg-primary text-brandNavy font-bold px-8 py-4 rounded-lg hover:brightness-110 transition-all"
         >
-          <span className="material-icons-outlined">arrow_back</span>
+          <Icon name="arrow_back" size={20} aria-hidden />
           {msg.cta}
         </Link>
       </div>

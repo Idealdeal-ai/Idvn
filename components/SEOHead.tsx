@@ -1,8 +1,15 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { SUPPORTED_LANGS, SupportedLang } from '../i18n/config';
+import { stripLangPrefix, buildLocalePath } from '../i18n/localeRoutes';
 
 interface SchemaMarkup {
   [key: string]: unknown;
+}
+
+interface HreflangEntry {
+  lang: string;
+  href: string;
 }
 
 interface SEOHeadProps {
@@ -13,6 +20,10 @@ interface SEOHeadProps {
   ogImage?: string;
   schema?: SchemaMarkup | SchemaMarkup[];
   noindex?: boolean;
+  /** Pass explicit hreflang entries, or leave undefined to auto-generate from current path */
+  alternates?: HreflangEntry[];
+  /** Set to false to disable auto-generated hreflang (e.g. for non-product pages) */
+  autoHreflang?: boolean;
 }
 
 const BASE_URL = 'https://idealdealvn.com';
@@ -26,9 +37,24 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   ogImage = DEFAULT_OG_IMAGE,
   schema,
   noindex = false,
+  alternates,
+  autoHreflang = true,
 }) => {
   const location = useLocation();
-  const canonicalUrl = canonical ?? `${BASE_URL}${location.pathname}`;
+  const basePath = stripLangPrefix(location.pathname);
+  const canonicalUrl = canonical ?? `${BASE_URL}${basePath}`;
+
+  // Build hreflang entries: explicit alternates override auto-generation
+  const hreflangEntries: HreflangEntry[] = alternates ??
+    (autoHreflang
+      ? [
+          { lang: 'x-default', href: `${BASE_URL}${basePath}` },
+          ...(SUPPORTED_LANGS as readonly SupportedLang[]).map((lang) => ({
+            lang,
+            href: `${BASE_URL}${buildLocalePath(lang, basePath)}`,
+          })),
+        ]
+      : []);
 
   useEffect(() => {
     // ── Title ──────────────────────────────────────────────
@@ -64,6 +90,18 @@ const SEOHead: React.FC<SEOHeadProps> = ({
     // ── Canonical ──────────────────────────────────────────
     setLink('canonical', canonicalUrl);
 
+    // ── Hreflang ───────────────────────────────────────────
+    // Remove previously injected hreflang tags
+    document.querySelectorAll('link[data-hreflang]').forEach((el) => el.remove());
+    hreflangEntries.forEach(({ lang, href }) => {
+      const el = document.createElement('link');
+      el.setAttribute('rel', 'alternate');
+      el.setAttribute('hreflang', lang);
+      el.setAttribute('href', href);
+      el.setAttribute('data-hreflang', lang);
+      document.head.appendChild(el);
+    });
+
     // ── Open Graph ─────────────────────────────────────────
     setMeta('property', 'og:title', title);
     setMeta('property', 'og:description', description);
@@ -96,8 +134,9 @@ const SEOHead: React.FC<SEOHeadProps> = ({
     // Cleanup on unmount
     return () => {
       document.querySelectorAll('script[data-seo-schema]').forEach((el) => el.remove());
+      document.querySelectorAll('link[data-hreflang]').forEach((el) => el.remove());
     };
-  }, [title, description, keywords, canonicalUrl, ogImage, schema, noindex]);
+  }, [title, description, keywords, canonicalUrl, ogImage, schema, noindex, hreflangEntries]);
 
   return null;
 };

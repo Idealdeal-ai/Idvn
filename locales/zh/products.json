@@ -1,0 +1,5401 @@
+{
+  "ui": {
+    "home": "首页",
+    "products": "产品",
+    "request_bulk_quote": "请求批量报价",
+    "contact_expert": "联系专家",
+    "why_source_from": "为什么从越南采购{{name}}？",
+    "key_export_markets": "主要出口市场",
+    "certifications": "认证",
+    "export_info_title": "出口信息与贸易条款",
+    "min_order": "最小订单量",
+    "packaging": "包装选项",
+    "container": "集装箱容量",
+    "lead_time": "交货期",
+    "incoterms": "国际贸易术语",
+    "payment_terms": "付款条款",
+    "oem_label": "OEM / 贴牌生产：",
+    "products_section": "{{name}}产品",
+    "related_categories": "相关出口类别",
+    "request_category_quote": "请求{{name}}报价",
+    "view_details": "查看详情",
+    "get_quote": "获取报价",
+    "product_details": "产品详情",
+    "specifications": "规格参数",
+    "export_shipping": "出口与运输",
+    "export_markets": "出口市场",
+    "tech_specs": "技术规格",
+    "certs_docs": "认证与文件",
+    "related_products": "相关产品",
+    "product_count_one": "{{count}}个产品",
+    "product_count_other": "{{count}}个产品",
+    "rfq_heading": "请求{{name}}报价",
+    "rfq_sub": "告诉我们您的需求——我们将在24小时内回复定价和供货情况。",
+    "rfq_name": "全名",
+    "rfq_email": "电子邮件",
+    "rfq_company": "公司",
+    "rfq_qty": "所需数量",
+    "rfq_message": "附加信息",
+    "rfq_submit": "发送询价",
+    "rfq_success": "感谢您！我们将在24小时内与您联系。",
+    "whatsapp_cta": "通过WhatsApp批量报价",
+    "oem_available": "支持OEM / 贴牌生产",
+    "view_all": "查看所有产品",
+    "products_available": "{{count}}个产品可供出口",
+    "whatsapp_chat": "在WhatsApp上咨询",
+    "whatsapp_reply_time": "快速回复 · 通常1小时内",
+    "countries_count": "{{count}}+ 个国家",
+    "whatsapp_product_msg": "您好！我对 {{name}}（HS：{{hs}}）感兴趣。请发送价格和供货情况。",
+    "view_product_details": "查看 {{name}} 详情",
+    "rfq_title": "询价",
+    "rfq_country": "国家",
+    "rfq_success_title": "请求已发送！",
+    "rfq_success_body": "感谢您。我们的团队将在24小时内回复您的询价。",
+    "rfq_send_another": "发送另一个请求",
+    "rfq_sending": "发送中…",
+    "rfq_error": "出现了错误。请尝试下方的WhatsApp，或直接发送邮件至 sales@idealdealvn.com。",
+    "rfq_or": "或",
+    "rfq_product_label": "产品",
+    "markets": {
+      "algeria": "阿尔及利亚",
+      "australia": "澳大利亚",
+      "bangladesh": "孟加拉国",
+      "benin": "贝宁",
+      "brazil": "巴西",
+      "cambodia": "柬埔寨",
+      "cameroon": "喀麦隆",
+      "canada": "加拿大",
+      "china": "中国",
+      "eu-germany-france-uk": "欧盟（德国、法国、英国）",
+      "eu-germany-netherlands-spain-uk": "欧盟（德国、荷兰、西班牙、英国）",
+      "eu-italy-spain": "欧盟（意大利、西班牙）",
+      "eu-netherlands-germany-spain": "欧盟（荷兰、德国、西班牙）",
+      "eu-ethnic-retail": "欧盟（族裔零售）",
+      "egypt": "埃及",
+      "ethiopia": "埃塞俄比亚",
+      "france": "法国",
+      "germany": "德国",
+      "ghana": "加纳",
+      "india": "印度",
+      "indonesia": "印度尼西亚",
+      "iraq": "伊拉克",
+      "italy": "意大利",
+      "ivory-coast": "科特迪瓦",
+      "japan": "日本",
+      "kenya": "肯尼亚",
+      "kuwait": "科威特",
+      "malaysia": "马来西亚",
+      "malaysia-re-export": "马来西亚（转口）",
+      "mexico": "墨西哥",
+      "morocco": "摩洛哥",
+      "mozambique": "莫桑比克",
+      "myanmar": "缅甸",
+      "netherlands": "荷兰",
+      "nigeria": "尼日利亚",
+      "pakistan": "巴基斯坦",
+      "philippines": "菲律宾",
+      "poland": "波兰",
+      "qatar": "卡塔尔",
+      "russia": "俄罗斯",
+      "saudi-arabia": "沙特阿拉伯",
+      "senegal": "塞内加尔",
+      "singapore": "新加坡",
+      "south-africa": "南非",
+      "south-korea": "韩国",
+      "spain": "西班牙",
+      "sri-lanka": "斯里兰卡",
+      "taiwan": "台湾",
+      "thailand": "泰国",
+      "turkey": "土耳其",
+      "uae": "阿联酋",
+      "uk": "英国",
+      "usa": "美国",
+      "usa-vietnamese-diaspora": "美国（越南裔社区）",
+      "usa-ethnic-market": "美国（族裔市场）",
+      "west-africa": "西非",
+      "west-africa-ghana-nigeria": "西非（加纳、尼日利亚）"
+    }
+  },
+  "docs": {
+    "co": "原产地证书（C/O）",
+    "coa": "质量分析证书（CoA）",
+    "phyto": "植物检疫证书",
+    "health": "卫生证书",
+    "packing": "装箱单",
+    "invoice": "商业发票",
+    "bl": "提单（B/L）"
+  },
+  "incoterms": {
+    "fob": "FOB – 离岸价（船上交货）",
+    "cif": "CIF – 成本加保险费加运费",
+    "cfr": "CFR – 成本加运费",
+    "ddp": "DDP – 完税后交货"
+  },
+  "payment": {
+    "tt": "T/T – 电汇",
+    "lc": "L/C – 信用证",
+    "dp": "D/P – 付款交单"
+  },
+  "seo": {
+    "category_title": "{{name}}越南出口 | Ideal Deal Vietnam",
+    "category_desc": "从越南直采优质{{name}}。认证出口商，具竞争力的最低起订量，供应链稳定可靠。立即询价。",
+    "product_title": "{{name}} — 越南出口 | Ideal Deal Vietnam",
+    "product_desc": "出口级{{name}}，产自越南。{{desc}}向越南认证供应商批量询价。"
+  },
+  "specLabels": {
+    "Grade": "等级",
+    "Moisture": "水分",
+    "Defects": "缺陷",
+    "Processing": "加工方式",
+    "Crop Year": "作物年份",
+    "Origin": "产地",
+    "Altitude": "海拔",
+    "Caffeine": "咖啡因",
+    "Shelf Life": "保质期",
+    "HS Code": "HS编码",
+    "Cupping Score": "杯测评分",
+    "Variety": "品种",
+    "Type": "类型",
+    "Screen Size": "筛网尺寸",
+    "ICO Certificate": "ICO证书",
+    "Kernel Size": "果仁尺寸",
+    "Broken %": "破损率",
+    "Oil Content": "含油量",
+    "Fat Content": "脂肪含量",
+    "Aflatoxin": "黄曲霉毒素",
+    "Appearance": "外观",
+    "Color": "颜色",
+    "Aroma": "香气",
+    "Purity": "纯度",
+    "Protein": "蛋白质",
+    "Carbohydrate": "碳水化合物",
+    "Ash": "灰分",
+    "Foreign Matter": "异物",
+    "Chalky Grains": "粉质粒",
+    "Head Rice": "整粒率",
+    "Whiteness": "白度",
+    "Amylose": "直链淀粉",
+    "Milling": "碾磨度",
+    "Freezing Method": "冷冻方式",
+    "Count/Size": "规格/尺寸",
+    "Glazing": "镀冰衣",
+    "Net Weight": "净重",
+    "Gross Weight": "毛重",
+    "Block Frozen": "块冻",
+    "IQF": "单体速冻（IQF）",
+    "HACCP": "HACCP认证",
+    "BRC": "BRC认证",
+    "Essential Oil": "精油含量",
+    "Volatile Oil": "挥发油",
+    "Piperine": "胡椒碱",
+    "Density": "密度",
+    "Coumarin": "香豆素",
+    "Cinnamaldehyde": "肉桂醛",
+    "Tannin": "单宁",
+    "Caffeine Content": "咖啡因含量",
+    "Polyphenols": "多酚",
+    "Water Extract": "水浸出物",
+    "Dry Matter": "干物质",
+    "Brix": "糖度",
+    "pH": "酸碱度",
+    "Format": "规格",
+    "Fabric": "面料",
+    "GSM": "克重（GSM）",
+    "Lead Time": "交货周期",
+    "MOQ": "最低起订量",
+    "Material": "材质",
+    "Finish": "表面处理",
+    "Tolerance": "公差",
+    "Hardness": "硬度",
+    "Tensile Strength": "抗拉强度",
+    "Compressive Strength": "抗压强度",
+    "Setting Time": "凝固时间",
+    "Blaine": "比表面积",
+    "Wood Type": "木材种类",
+    "Certification": "认证",
+    "Joinery": "榫卯工艺",
+    "Surface": "表面",
+    "Basis Weight": "基重",
+    "Burst Strength": "耐破强度",
+    "Recycled Content": "再生含量",
+    "Viscosity": "粘度",
+    "pH Level": "pH值",
+    "Foam Level": "泡沫量",
+    "Fragrance": "香味",
+    "Active Content": "有效成分",
+    "Sheet Count": "片数",
+    "Dimensions": "尺寸",
+    "Thickness": "厚度",
+    "Layers": "层数",
+    "Absorption": "吸收性",
+    "Wet Strength": "湿强度",
+    "Capacity": "容量",
+    "Absorbency": "吸水性",
+    "Leakage Test": "防漏测试",
+    "Fill Weight": "填充重量",
+    "Pile Height": "绒毛高度",
+    "Wire Count": "钢丝数量",
+    "Handle": "手柄",
+    "Bristles": "刷毛",
+    "Thread Count": "纱线密度",
+    "Pile": "绒面",
+    "Drained Weight": "沥干重量",
+    "Brine": "盐水",
+    "Sterilization": "杀菌方式",
+    "Tin Size": "罐型尺寸",
+    "Noodle Type": "面条类型",
+    "Flavor": "口味",
+    "Cooking Time": "烹饪时间",
+    "Calories": "热量",
+    "Serving": "份量",
+    "Pack Size": "包装规格",
+    "Shape": "形状",
+    "Filling": "馅料",
+    "Coating": "涂层",
+    "Iodine": "碘",
+    "NaCl Content": "氯化钠含量",
+    "Grain Size": "颗粒大小",
+    "Protein Content": "蛋白质含量",
+    "Gluten": "面筋",
+    "Water Absorption": "吸水率",
+    "Falling Number": "降落值",
+    "Moisture Content": "水分含量",
+    "Sucrose": "蔗糖",
+    "Reducing Sugar": "还原糖",
+    "Polarization": "旋光度",
+    "ICUMSA": "ICUMSA色值",
+    "Free Fatty Acid": "游离脂肪酸",
+    "Peroxide Value": "过氧化值",
+    "Iodine Value": "碘值",
+    "Acid Value": "酸值",
+    "Smoke Point": "烟点",
+    "Saponification": "皂化值",
+    "Lauric Acid": "月桂酸",
+    "Melting Point": "熔点",
+    "Solid Fat Index": "固体脂肪指数",
+    "Trans Fat": "反式脂肪",
+    "28-day Strength": "28天强度",
+    "ALA (Omega-3)": "α-亚麻酸 (Omega-3)",
+    "Active Options": "活性选项",
+    "Admixture": "外加剂",
+    "Aflatoxin B1": "黄曲霉毒素B1",
+    "Aflatoxin Total": "总黄曲霉毒素",
+    "Alcohol": "酒精",
+    "Amylopectin": "支链淀粉",
+    "Anti-caking": "抗结块剂",
+    "Antibacterial Efficacy": "抗菌功效",
+    "Antibiotics": "抗生素",
+    "Ash Content": "灰分含量",
+    "BFE (Bacterial Filtration)": "细菌过滤效率 (BFE)",
+    "BPA": "BPA (双酚A)",
+    "BPA Status": "BPA状态",
+    "Bacterial Pick-up": "细菌吸附",
+    "Bag Fill": "袋装填充",
+    "Base": "基底",
+    "Base Ingredient": "基础成分",
+    "Base Tea": "基础茶",
+    "Bean Origin": "豆源产地",
+    "Blaine Fineness": "勃氏比表面积",
+    "Blossom Index": "开花指数",
+    "Branding": "品牌定制",
+    "Bristle Material": "刷毛材质",
+    "Brix (Sugar)": "白利度（糖度）",
+    "Broken": "碎粒",
+    "Broken Grain": "碎粒",
+    "Broken Grains": "碎米",
+    "Broken Kernels": "碎仁",
+    "Broom Width": "扫帚宽度",
+    "Bucket Capacity": "水桶容量",
+    "Bulk Density": "堆积密度",
+    "Bulk Lead Time": "批量交货期",
+    "Can Sizes": "罐头尺寸",
+    "Carton Size": "纸箱尺寸",
+    "Carton Weight": "纸箱重量",
+    "Certifications": "认证",
+    "Cocoa Content": "可可含量",
+    "Coffee Type": "咖啡类型",
+    "Color (Liquor)": "汤色",
+    "Color (Lovibond)": "色泽 (洛维朋)",
+    "Color Options": "颜色选项",
+    "Colorfastness": "色牢度",
+    "Colors": "颜色",
+    "Colour": "颜色",
+    "Colour (CU)": "颜色 (CU)",
+    "Compliance": "合规性",
+    "Compostability": "可堆肥性",
+    "Conductivity Ash": "电导灰分",
+    "Cooking Loss": "煮制损失",
+    "Core Temp": "中心温度",
+    "Core Temperature": "中心温度",
+    "Core Type": "芯材类型",
+    "Count Options": "计数选项",
+    "Count Size": "计数大小",
+    "Cream Fillings": "奶油夹心",
+    "Cube Weight": "方块重量",
+    "Curcumin Content": "姜黄素含量",
+    "Custom Print": "定制印刷",
+    "Cut Style": "切割样式",
+    "Damaged Grains": "损伤粒",
+    "Dermatologist Tested": "皮肤科测试",
+    "Dustpan Type": "簸箕类型",
+    "Erucic Acid": "芥酸",
+    "Extraneous Matter": "杂质",
+    "Extrusion": "挤压",
+    "FFA (EVOO)": "游离脂肪酸 (特级初榨橄榄油)",
+    "FFA (as lauric)": "游离脂肪酸 (按月桂酸)",
+    "FFA (as oleic)": "游离脂肪酸 (按油酸)",
+    "FFA (as palmitic)": "游离脂肪酸 (按棕榈酸)",
+    "Fabric Range": "面料范围",
+    "Fastening": "固定方式",
+    "Fat Content (powder)": "脂肪含量 (粉末)",
+    "Fe₂O₃": "三氧化二铁 Fe₂O₃",
+    "Fiber": "纤维",
+    "Fillet Size": "鱼片尺寸",
+    "Finish Options": "表面处理选项",
+    "Flavors": "口味",
+    "Flavors Available": "可选口味",
+    "Flavours": "口味",
+    "Fluid Resistance": "耐流体性",
+    "Food Contact": "食品接触",
+    "Foreign Matters": "异物",
+    "Form": "形式",
+    "Formaldehyde": "甲醛",
+    "Formats": "格式",
+    "Forms": "形式",
+    "Formula": "配方",
+    "Formulation Type": "配方类型",
+    "Fragrance Option": "香味选项",
+    "GMP Standard": "GMP标准",
+    "GSM Range": "克重范围",
+    "Gauge Options": "规格选项",
+    "Gelatin-free": "无明胶",
+    "Gluten Status": "麸质状态",
+    "Grades": "等级",
+    "Grain Length": "米粒长度",
+    "Granulation": "粒度",
+    "Grind Options": "研磨选项",
+    "Hardware": "五金件",
+    "Harvest": "采收",
+    "Heat Resistance": "耐热性",
+    "Heavy Metal": "重金属",
+    "Heavy Metals": "重金属",
+    "ICUMSA Color": "ICUMSA色值",
+    "Initial Setting": "初凝时间",
+    "Inspection": "检验",
+    "Iodine (KIO₃)": "碘 (KIO₃)",
+    "Labelling": "标签",
+    "Lauric Acid (C12)": "月桂酸 (C12)",
+    "Lead Time (Tooling)": "交货期 (模具)",
+    "Lead Time (bulk)": "交货期 (批量)",
+    "Lead Time (production)": "交货期 (生产)",
+    "Lead Time (samples)": "交货期 (样品)",
+    "Light Berries": "轻浆果",
+    "Liquor Color": "汤色",
+    "Loading Port": "装运港",
+    "Materials": "材料",
+    "Maturity": "成熟度",
+    "Max Part Size": "最大零件尺寸",
+    "Medium": "中等",
+    "Melting Point (CBS)": "熔点 (CBS)",
+    "Mesh Size": "网孔尺寸",
+    "Microfiber": "超细纤维",
+    "Microwave Safe": "微波炉安全",
+    "Moisture & Impurities": "水分与杂质",
+    "Moisture (Arabica)": "水分 (阿拉比卡)",
+    "Moisture (Robusta)": "水分 (罗布斯塔)",
+    "Moisture (finished)": "水分 (成品)",
+    "Moisture Loading": "含水率",
+    "Moisture Retention": "保水率",
+    "Molasses Content": "糖蜜含量",
+    "Mop Head": "拖把头",
+    "NaCl Purity": "氯化钠纯度",
+    "Net Weight (A10)": "净重 (A10)",
+    "Net Weight per Sachet": "每袋净重",
+    "Noodle Weight": "面饼重量",
+    "Oleic Acid (C18:1)": "油酸 (C18:1)",
+    "Organic Option": "有机选项",
+    "Origins": "产地",
+    "PFAS Status": "PFAS状态",
+    "Pack Count": "包装数量",
+    "Pack Format": "包装规格",
+    "Pack Options": "包装选项",
+    "Pack Weight": "包装重量",
+    "Packaging": "包装",
+    "Packing": "装箱",
+    "Packing Medium": "汤汁",
+    "Pad Size": "垫片尺寸",
+    "Parabens": "对羟基苯甲酸酯",
+    "Pesticide Residues": "农药残留",
+    "Piece Size": "件尺寸",
+    "Preservative": "防腐剂",
+    "Press Capacity": "冲压能力",
+    "Print & Embroidery": "印花与刺绣",
+    "Printing": "印刷",
+    "Process": "工艺",
+    "Processes": "工艺",
+    "Product Type": "产品类型",
+    "Product Types": "产品类型",
+    "Production Type": "生产类型",
+    "Products": "产品",
+    "QMS": "质量管理体系",
+    "Quality Inspection": "质量检验",
+    "Quality Standard": "质量标准",
+    "Quality System": "质量体系",
+    "Re-wet (3rd void)": "回渗（第三次）",
+    "Retail Pack Sizes": "零售包装尺寸",
+    "Ring Width": "圈宽",
+    "Roast Level": "烘焙程度",
+    "Roast Levels": "烘焙程度",
+    "Roasting": "烘焙",
+    "SAP Content": "高吸水性树脂含量",
+    "SO2 Residue": "二氧化硫残留",
+    "SO₃ Content": "三氧化硫含量",
+    "Salmonella": "沙门氏菌",
+    "Salt Content": "盐含量",
+    "Salt Level": "盐度",
+    "Sample Lead Time": "样品交货期",
+    "Sand Grade": "砂级别",
+    "Saponification Value": "皂化值",
+    "Scenting Cycles": "窨花次数",
+    "Scenting Passes": "窨制遍数",
+    "Seam Type": "接缝类型",
+    "Shipment": "运输",
+    "SiO₂ Content": "二氧化硅含量",
+    "Size Grades": "尺寸等级",
+    "Size Range": "尺寸范围",
+    "Sizes": "尺寸",
+    "Skin Test": "皮肤测试",
+    "Sodium (per 100g)": "钠 (每100克)",
+    "Solid Fat Index (20°C)": "固体脂肪指数 (20°C)",
+    "Species": "品种",
+    "Spinner": "脱水器",
+    "Stability": "稳定性",
+    "Stacking": "堆叠",
+    "Standard": "标准",
+    "Sterility": "无菌性",
+    "Storage": "储存",
+    "Stretch": "弹性",
+    "Style": "款式",
+    "Substrate": "基材",
+    "Sugar-free Option": "无糖选项",
+    "Sulfate-Free Option": "无硫酸盐选项",
+    "Surface Finish": "表面处理",
+    "Sustainability": "可持续性",
+    "Syrup Brix": "糖浆白利度",
+    "Talc Status": "滑石粉状态",
+    "Temperature": "温度",
+    "Testing": "测试",
+    "Thickness Range": "厚度范围",
+    "Top Sheet": "面层",
+    "Total Ash": "总灰分",
+    "Total Defects": "总缺陷",
+    "Total Plate Count": "总平板计数",
+    "Trans-anethole": "反式茴香脑",
+    "Trim Level": "修剪等级",
+    "Tube Size": "管尺寸",
+    "Types": "类型",
+    "Varieties": "品种",
+    "Washability": "可洗性",
+    "Weight / Fruit": "重量 / 个",
+    "Weight Capacity": "承重",
+    "Weight Range": "重量范围",
+    "Wet Gluten": "湿面筋",
+    "Wipe Size": "湿巾尺寸",
+    "pH (baby/sensitive)": "pH (婴儿/敏感肌)",
+    "pH Range": "pH范围"
+  },
+  "categories": {
+    "coffee": {
+      "name": "咖啡",
+      "tagline": "越南优质咖啡——供全球烘焙商选择",
+      "description": "越南是全球第二大咖啡出口国，年产量超过180万吨。我们出口来自多乐省的优质罗布斯塔咖啡（一级，筛网18+）及来自林同省高海拔农场的精品阿拉比卡咖啡。供应链可追溯至农业合作社层级，持有ICO认证及HACCP、ISO 22000与雨林联盟文件。",
+      "longDescription": "越南咖啡产业是全球供应链中的重要力量。中部高原地区——涵盖多乐、嘉莱、昆嵩和林同省——凭借肥沃的火山红土、充沛的降雨量及500至1600米的海拔优势，生产了该国绝大部分咖啡产量。\n\n罗布斯塔（Coffea canephora）约占产量的95%，因其高咖啡因含量（约2.7%）、浓郁口感和较低成本而备受青睐，是全球速溶咖啡产业的基础原料，也广泛用于意大利浓缩咖啡拼配。我们的一级罗布斯塔符合SCAA商业标准，杯测评分78-82分。\n\n林同省（大叻）的阿拉比卡产量显著增长，凉爽气候使其品质可媲美中美洲产区。杯测评分82-87分的精品阿拉比卡可供专业烘焙商进口。\n\n所有出口均符合越南政府第107/2018号法令关于咖啡出口标准的规定。可安排SGS、Intertek或必维国际检验机构进行装运前检验。每批货物均提供ICO出口证书、植物检疫证书和熏蒸记录。",
+      "oemDescription": null
+    },
+    "cashew-nuts": {
+      "name": "腰果",
+      "tagline": "越南——全球第一腰果仁出口国",
+      "description": "越南占据全球腰果仁市场份额的60%以上。我们出口W180、W210、W240、W320和W450等级的出口标准腰果仁，含水量<5%，色泽从象牙白到淡黄。可提供有机认证、公平贸易认证及原产地证明。",
+      "longDescription": "越南腰果产业已发展成为全球最大的腰果仁加工和出口国，在产量和加工质量两方面均超越印度和非洲竞争对手。\n\n我们的现代化加工设施按照FSSC 22000、BRC A级和HACCP标准运营，确保最高级别的食品安全。生产线包括蒸煮、去壳、分级、金属检测和光学分选，破损率<2%。\n\n腰果可提供原味（未经烘烤、未加盐）或按客户品牌要求提供盐焗、蜜汁烤、调味等多种规格。支持自有品牌定制包装，包括真空袋、拉链袋、罐装、礼盒及适合零售和餐饮的各种格式。\n\n主要客户包括美国、欧盟、中东和东亚的分销商和零售商。最小起订量从1个整柜到长期合同均可灵活协商。",
+      "oemDescription": "提供腰果OEM服务：烘焙、调味、自有品牌包装按需定制。"
+    },
+    "rice": {
+      "name": "大米",
+      "tagline": "湄公河三角洲大米——以品质养育世界",
+      "description": "越南是全球最重要的大米出口国之一。我们供应5%碎率长粒白米、茉莉香米、荣获世界最佳大米奖的ST25大米及蒸谷米。产品符合国际食品法典委员会（CODEX Alimentarius）标准，可提供有机认证。",
+      "longDescription": "湄公河三角洲——贡献越南约90%大米出口量——得益于湄公河肥沃冲积土、完善的灌溉系统及每年三季水稻种植的理想气候条件。\n\n出口大米产品目录包括：长粒白米（5%和25%碎率）、茉莉香米（5%碎率）、高端ST24和ST25大米、蒸谷米、加工食品和蒸馏用碎米，以及特色市场用糯米。\n\n所有产品符合国际食品法典委员会标准。提供完整的植物检疫证书、原产地证明和出口许可证。可应要求提供独立农药残留分析报告。",
+      "oemDescription": null
+    },
+    "frozen-seafood": {
+      "name": "冷冻海鲜",
+      "tagline": "越南HACCP认证冷冻海鲜——供应全球市场",
+      "description": "越南是全球最大的海鲜出口国之一。我们出口虾类（HOSO、HLSO、PD、PUD、PTO）、巴沙鱼片、鱿鱼、章鱼及混合海鲜。所有产品均符合HACCP标准，可提供BAP、ASC和GlobalGAP认证。",
+      "longDescription": "绵延3200多公里的海岸线、广阔的河网体系及热带气候赋予越南水产养殖和捕捞的独特优势。湄公河三角洲是全国虾类和巴沙鱼养殖的核心区域。\n\n我们的出口产品目录包括：对虾和南美白对虾（IQF单冻、带头整虾、去头去壳、去线虾、熟虾）；冷冻巴沙鱼和洞里萨鱼片（白色、淡黄色）；鱿鱼和墨鱼（整条、去内脏、切圈）；章鱼；IQF混合冷冻海鲜。\n\n所有加工厂均获EU、美国FDA及其他目标市场批准。HACCP、GMP和SSOP体系全面实施。定期由第三方实验室进行抗生素残留检测。",
+      "oemDescription": null
+    },
+    "spices": {
+      "name": "香料",
+      "tagline": "越南香料——全球顶级来源",
+      "description": "越南是全球最大的胡椒、肉桂和八角出口国之一。我们供应黑/白胡椒、肉桂、八角、姜黄、生姜及香料混合料。产品符合ASTA、ESA和ISO 7925标准。",
+      "longDescription": "越南香料遗产与数百年航海贸易史密不可分。如今，越南在多个香料品类中保持全球领先地位：\n\n胡椒：越南占全球胡椒产量的30-35%。可提供550g/L和570g/L黑胡椒、蒙托克白胡椒、盐水绿胡椒及冻干红胡椒。主产区：平福、多乐、嘉莱省。\n\n肉桂：来自安沛和老街省的越南肉桂（Cinnamomum loureiroi）精油含量高（2-4%），香气浓郁，提供管状、棒状、碎块和粉状规格。\n\n八角：谅山和高平省生产的八角含茴香脑80-90%，符合国际药品和食品标准。\n\n所有香料在出口前均经过农药残留、黄曲霉毒素和微生物检测。",
+      "oemDescription": "提供香料研磨、粉碎、混配及自有品牌包装服务。"
+    },
+    "green-tea": {
+      "name": "绿茶",
+      "tagline": "越南优质绿茶——从太原到全世界",
+      "description": "越南茶叶种植于太原、木州和保禄等凉爽高原地区。我们出口绿茶（散茶和袋泡茶）、乌龙茶、红茶（CTC和正统）及草本茶。可提供有机认证、ISO 3720和公平贸易认证。",
+      "longDescription": "越南茶产业拥有数千年历史，目前向超过74个国家出口，年出口量逾13万吨。知名茶产区包括：\n\n太原：以新庄绿茶著称，香气独特、天然甘甜、耐泡。\n\n木州（山罗省）：海拔1000米处出产的高端绿茶和乌龙茶，具有凉爽微气候优势。\n\n保禄（林同省）：乌龙茶和红茶的主产地，供应台湾和日本市场。\n\n出口产品目录：散装绿茶（OP、BOP、碎茶、末茶等级）、袋泡绿茶、乌龙茶（球形和条形）、CTC和正统红茶、花草茶（茉莉、菊花、朝鲜蓟）及特色草本茶。\n\n产品符合ISO 3720（红茶）、ISO 11287（绿茶）及EU法规396/2005农药残留标准。",
+      "oemDescription": "提供茶叶自有品牌包装服务：袋泡茶、铁罐、牛皮纸袋及高端礼盒等多种形式。"
+    },
+    "pineapple": {
+      "name": "菠萝",
+      "tagline": "越南甜蜜认证菠萝——鲜果与加工品",
+      "description": "越南是东南亚地区重要的菠萝生产国。我们供应鲜菠萝（皇后种和卡因种）、罐装菠萝（圆片、块状、菠萝汁）、IQF速冻菠萝及浓缩菠萝汁。符合GlobalGAP和HACCP标准。",
+      "longDescription": "越南菠萝种植集中于前江、龙安、坚江和宁平省——这些地区在土壤pH值、排水条件和光照方面均非常适宜，可实现高产量和天然甜度。\n\n皇后种（花菠萝）因其独特香气和平衡甜度，在鲜果和小批量加工市场广受青睐。卡因种因体型大、含水量高，更适合工业加工。\n\n出口产品目录：鲜菠萝出口（去冠叶或带冠）；罐装菠萝——清水或糖浆圆片、三角块、碎粒、菠萝汁；IQF速冻菠萝——圆片、块状、丁状；菠萝浓缩汁（NFC和还原汁）；干制菠萝——脱水和半干制。\n\n所有加工厂达到BRC或IFS标准，获FDA批准并持有HALAL认证。",
+      "oemDescription": null
+    },
+    "textile-apparel": {
+      "name": "纺织服装OEM",
+      "tagline": "越南OEM服装制造——您的品牌，我们的专业",
+      "description": "越南是全球顶级OEM服装制造中心之一。我们按照客户设计生产时装、家居服、运动服、制服及户外服装。持有WRAP、GOTS、OEKO-TEX Standard 100和SA8000认证。",
+      "longDescription": "越南纺织服装行业位居全球出口前三，年出口额超350亿美元。工厂主要集中于胡志明市、平阳、同奈、河内及周边省份。\n\n我们的OEM生产能力包括：从技术包进行样品开发；全剪裁缝纫包装（CMT和FOB）；多样化梭织和针织面料（棉、涤纶、人造丝、氨纶、技术面料）；刺绣、印花（数码直喷、丝网印、升华转印）；水洗处理（酶洗、石磨、酸洗）。\n\n产品类别：女装和男装时尚、牛仔系列、家居服和睡衣、运动服和功能性运动服装、外套（夹克、风衣、羽绒服）、企业制服、儿童和婴儿服装。\n\nMOQ灵活，试单从每款300件起。生产周期：样品确认后45-90天。",
+      "oemDescription": "一站式OEM服务：样品开发、面料采购、生产及自有品牌包装。"
+    },
+    "precision-components": {
+      "name": "精密零部件",
+      "tagline": "越南CNC加工零件与工业组件",
+      "description": "越南是高端制造业投资的首选目的地。我们加工并供应CNC零件（车削、铣削、磨削）、电子元件、装配件及模具。持有ISO 9001、IATF 16949和AS9100认证。",
+      "longDescription": "越南制造业正向更高价值链转型，三星、英特尔、LG、富士康及数百家国际一级和二级供应商已在各工业园区驻扎。\n\n我们的加工能力：CNC加工（3-5轴车削、铣削、钻孔、镗削）；高精度加工（公差±0.005mm）；多种材料（不锈钢、铝合金、铜、钛、工程塑料）；焊接（TIG、MIG、激光焊）；表面处理（阳极氧化、镀锌、喷砂、粉末喷涂）。\n\n产品类别：汽车和摩托车零部件；电子和通信配件；医疗设备零件；工业机械装配件；注塑模具和压铸模具。\n\n每批货物均通过CMM测量并附完整检测报告。",
+      "oemDescription": "按客户工程图纸提供机械和电子零部件OEM服务。"
+    },
+    "wooden-furniture": {
+      "name": "木质家具",
+      "tagline": "越南手工家具——FSC认证木材，符合全球标准",
+      "description": "越南是全球第五大木质家具出口国。我们使用FSC认证橡胶木、柚木、胡桃木及贴皮MDF生产卧室、客厅、餐厅及户外家具。持有FSC、CARB2认证及符合EU甲醛控制标准。",
+      "longDescription": "越南家具行业已从传统手工艺发展成为亚洲最大的家具制造中心之一。平阳、胡志明市、同奈和平定省的生产集群汇聚了从小型作坊到大型企业的数千家工厂。\n\n我们使用的木材材料：FSC认证橡胶木（合欢木）——供应充足、稳定，防潮性好；柚木人工林材——自然纹理美观，户外耐用；胡桃木——高端奢华市场首选；进口新西兰/斯堪的纳维亚松木；实木贴皮MDF和HDF。\n\n服务内容：按客户图纸定制设计；工厂甲醛检测（E1/CARB2）；表面处理：PU漆、硝基漆、天然油、蜡、白化处理；平板包装或整件包装。\n\n主要出口市场：美国、欧盟、日本、澳大利亚、中东。",
+      "oemDescription": "按客户设计和品牌提供家具OEM/ODM/OBM制造服务。"
+    },
+    "eco-packaging": {
+      "name": "环保包装",
+      "tagline": "越南可持续包装解决方案",
+      "description": "我们生产并出口多种可持续材料制成的环保包装：再生纸板箱、牛皮纸袋、竹制包装、甘蔗渣餐盒、PLA生物膜及环保印刷标签。持有EN 13432、FSC认证及符合OECD指南。",
+      "longDescription": "在EU一次性塑料法规、EPR政策和绿色消费趋势的压力下，全球包装市场正强烈转向可持续材料。越南定位为具有价格竞争力的绿色包装制造中心。\n\n环保包装产品目录：瓦楞和硬纸板箱（100%再生，FSC认证）；平底和方底牛皮纸袋；竹压缩包装（替代塑料的盒子、托盘、杯子）；甘蔗渣餐盒和盘子（符合EN 13432可堆肥认证）；PLA袋和薄膜（180天生物降解）；石头纸标签（无需用水生产）。\n\n印刷：UV胶印、柔印、数码印刷；水性油墨和大豆油墨。支持按客户品牌定制设计。\n\n适用于食品、化妆品、制药、电子和时尚行业。",
+      "oemDescription": "按客户要求设计和生产自有品牌包装。"
+    },
+    "raw-materials": {
+      "name": "原材料",
+      "tagline": "越南工业原材料——水泥、矿产及更多",
+      "description": "越南拥有丰富的矿产资源。我们出口普通硅酸盐水泥和熟料、石灰石、热电煤、钛矿、天然橡胶（SVR、TSR）及木片。可提供ASTM、EN及同等国际标准质量认证。",
+      "longDescription": "越南拥有多样化的矿产资源储量和丰富的工业农业原材料，可供出口。\n\n水泥和熟料：越南水泥年产能超过1亿吨，出口剩余量充裕。PCB40/PCB50熟料和成品普通硅酸盐水泥符合ASTM C150和EN 197标准。\n\n天然橡胶：越南是全球第三大天然橡胶生产国。来自东南部种植园的SVR CV60、SVR L、SVR 10和RSS3符合TCVN和国际绿皮书标准。\n\n钛矿及矿产：来自中部沿海的钛矿（钛铁矿、锆石、金红石）；石灰石和花岗岩块材；纯石英砂。\n\n木片：造纸和生物质发电原料；金合欢和桉树木片符合日本和韩国标准。\n\n煤炭：来自广宁省的优质无烟煤，供电厂和水泥厂使用。",
+      "oemDescription": null
+    },
+    "home-personal-care": {
+      "name": "家居个人护理",
+      "tagline": "OEM个人护理产品——越南自有品牌定制",
+      "description": "我们按照OEM/ODM服务生产和出口个人护理及家居护理产品：洗发水、沐浴露、护肤霜、牙膏、洗手液、地板清洁剂和织物柔顺剂。可提供GMP、ISO 22716认证及HALAL认证。",
+      "longDescription": "越南化妆品和个人护理制造业凭借具有竞争力的劳动力成本、丰富的天然原料（椰子油、精油、草本提取物）及现代化生产设施蓬勃发展。\n\nOEM/ODM能力：拥有经验丰富化学家团队的研发实验室；GMP和ISO 22716生产体系；产品稳定性分析（加速稳定性测试）；安全性测试（斑贴试验、挑战测试）；协助在出口市场进行产品注册。\n\n产品目录：发护（洗发水、护发素、发膜、发精华）；身体护理（沐浴露、浴盐、润肤乳、去角质）；面部护理（洁面乳、爽肤水、面霜、精华液、防晒霜SPF）；口腔卫生（活性炭牙膏、漱口水）；家居护理（地板清洁剂、洗涤剂、持久香氛柔顺剂）。\n\nMOQ灵活，市场测试订单从每SKU 1000件起。",
+      "oemDescription": "全面OEM/ODM服务：从配方开发、生产到自有品牌包装一站式解决。"
+    },
+    "hygiene-disposable": {
+      "name": "卫生一次性用品",
+      "tagline": "湿巾、纸巾及一次性用品——越南OEM供应商",
+      "description": "我们生产并出口湿巾（婴儿湿巾、卸妆湿巾、抗菌湿巾）、纸巾、餐巾纸、丁腈手套、布口罩及各类一次性卫生用品。符合FDA、CE和EN 14683标准。",
+      "longDescription": "新冠疫情后，全球对一次性卫生用品的需求大幅增加并维持高位。越南凭借强大的生产能力和国际质量标准，定位为可靠的OEM供应商。\n\n湿巾：水刺无纺布材质（粘胶纤维、涤纶、棉）；多种湿润配方（纯净水、芦荟、维生素E、抗菌成分）；包装形式——拉链袋、弹盖盒、独立包、可补充容器；产品类型：婴儿湿巾（低敏）、卸妆湿巾、抗菌湿巾、面部湿巾、健身湿巾、宠物湿巾。\n\n纸巾：餐巾纸（1、2、3层）；盒装面巾纸；多用途厨房纸；卫生纸。\n\n医用无纺布产品：丁腈手套（无粉、CE、FDA 510K）；EN 14683 Type II/IIR外科口罩；SMS防护服。\n\nOEM自有品牌：定制印刷、个性化包装设计。",
+      "oemDescription": "提供卫生用品OEM服务，支持定制包装和自有品牌。"
+    },
+    "baby-products": {
+      "name": "婴幼儿用品",
+      "tagline": "安全认证婴儿产品——越南OEM制造",
+      "description": "我们按照国际安全标准生产和出口婴幼儿用品：纸尿裤、婴儿湿巾、儿童洗发水、安全塑料玩具、奶瓶、奶嘴及育儿配件。持有EN 71、ASTM F963、REACH和FDA认证。",
+      "longDescription": "儿童安全是我们所有产品制造的绝对优先考量。所有原材料均经过REACH检测，不含BPA、邻苯二甲酸酯、甲醛及EU和美国禁用物质清单中的有害成分。\n\n婴幼儿产品目录：新生儿及幼儿纸尿裤（新生儿至XL码）；婴儿湿巾（低敏、无香、pH 5.5）；沐浴及护理产品（儿童洗发水、沐浴露、润肤霜、爽身粉）；塑料玩具（EN 71第1-3部分、ASTM F963）——含耐久性、锐利边缘、吞咽风险测试；奶瓶和硅胶奶嘴（FDA、EN 14350）；配件：婴儿背带、防溢奶枕、竹纤维婴儿毯。\n\n可按客户要求在SGS、必维、天祥集团或QIMA进行第三方检测，出货前提供检测报告。",
+      "oemDescription": "提供婴幼儿用品OEM服务，含完整安全认证和自有品牌包装。"
+    },
+    "cleaning-tools": {
+      "name": "清洁工具",
+      "tagline": "超细纤维拖把、刷子及清洁配件——来自越南",
+      "description": "我们生产并出口高品质清洁工具：超细纤维拖把（旋转拖把、平板拖把、蒸汽拖把）、扫帚、刷子、垃圾桶、清洁手套及清洁配件。产品符合GS、CE和ISO 9001标准。",
+      "longDescription": "越南清洁工具制造业服务于全球B2B（餐饮、医院、工厂）和B2C（家庭用户）市场。\n\n拖把产品系列：360°旋转拖把配脚踏式甩水桶——设计紧凑，80/20涤纶-聚酰胺超细纤维布；平板拖把可替换布垫——适合硬质地板、木地板、大理石；电动蒸汽拖把——无需化学品即可清洁和消毒；绳状拖把和大口拖把用于工业环境。\n\n清洁配件：平头扫帚套装（免手触垃圾铲）；硅胶马桶刷；刷架；超细纤维多功能抹布（300-400 GSM）；清洁手套（乳胶、丁腈、PVC）；厨房、浴室和办公室垃圾桶。\n\nOEM/ODM服务：按需定制设计；印制品牌标志；单件或礼品套装包装。最低起订量500套。",
+      "oemDescription": "按客户设计和品牌定制生产清洁工具OEM产品。"
+    },
+    "plastic-household": {
+      "name": "塑料家居用品",
+      "tagline": "越南耐用塑料家居产品",
+      "description": "我们生产并出口多样化塑料家居用品：食品储存容器、篮筐、盆、桶、水桶、瓶罐、挂钩及厨房用品，采用无BPA的PP、HDPE和ABS材料。符合FDA、LFGB和REACH标准。",
+      "longDescription": "越南塑料行业拥有强大的生产能力，行业内企业超过4000家。我们充分利用这一优势，以具有竞争力的成本提供高质量塑料家居用品。\n\n材料与标准：PP（聚丙烯）——耐热120°C，可微波；HDPE——机械强度高、耐化学品；ABS——坚固，表面光洁；LDPE——韧性好，适合袋子和薄膜；所有材料均不含BPA和邻苯二甲酸酯，符合FDA 21 CFR和LFGB标准。\n\n塑料家居产品目录：食品储存（冰箱抽屉、午餐盒、谷物收纳套装）；收纳篮和置物架（蔬菜篮、浴室置物架、抽屉分隔）；多用途桶和水桶（洗衣桶、带提手水桶）；园艺产品（花盆、育苗托盘、阳台菜园种植箱）；厨房工具（调味料盒、炸篮、制冰格）。\n\n生产OEM：按需开发新模具；印制品牌标志和标签；按出口标准包装。",
+      "oemDescription": "按客户要求开发新模具，生产塑料家居用品OEM产品。"
+    },
+    "canned-preserved-food": {
+      "name": "罐装保存食品",
+      "tagline": "越南出口级罐装海鲜、蔬菜与水果",
+      "description": "我们出口高品质罐装食品：金枪鱼罐头、沙丁鱼罐头、猪肉罐头、混合海鲜罐头、甜玉米、青豌豆、菠萝罐头及热带水果。符合CODEX Alimentarius、BRC、IFS和FSSC 22000标准。",
+      "longDescription": "越南食品罐头和加工工业凭借丰富多样的农渔业原材料和现代化加工设施蓬勃发展。\n\n罐装海鲜：金枪鱼（鲣鱼、黄鳍金枪鱼）——浸油、盐水、番茄酱、照烧酱等口味；沙丁鱼罐头（油浸和番茄酱）；虾罐头；螃蟹和鱿鱼罐头。\n\n罐装蔬菜和水果：甜玉米粒和棒玉米；青豌豆；各类蘑菇；菠萝（圆片、块状、汁）；荔枝；红毛丹；龙眼；混合热带水果。\n\n肉类和加工食品：猪肉和牛肉末罐头；肝酱；即食肉蔬混合罐头。\n\n所有工厂符合HACCP、FSSC 22000标准，获EU/FDA批准。通常保质期：3-5年。提供自有品牌（private label）服务。",
+      "oemDescription": "提供罐装和加工食品自有品牌包装服务。"
+    },
+    "packaged-food-snacks": {
+      "name": "包装食品与零食",
+      "tagline": "越南方便面、零食及包装食品",
+      "description": "我们出口多样化包装食品：方便面、河粉即食包、大米饼、饼干、椰子糖、芝麻糖、3合1速溶咖啡、鱼露、辣椒酱及越南风味调料。符合FSSC 22000、HACCP和HALAL标准。",
+      "longDescription": "越南包装食品凭借独特风味、极具竞争力的价格和稳定的品质，在国际市场上日益受到青睐。\n\n即食面条和粉类：方便面（小麦面）和即食米粉（河粉）——多种口味：牛肉、鸡肉、虾、猪肉、素食；高端即食牛肉河粉和鸡肉河粉；顺化牛肉米线和高楼面等特色即食产品。\n\n越南糕点和糖果：膨化米饼（咸味和甜味）；槟知椰子糖；芝麻糖和花生糖；绿豆饼和榴莲酥饼；黄油饼干和威化饼。\n\n调料和蘸汁：高端鱼露（30-60度氮含量）；越南风格是拉差辣椒酱；黑色海鲜酱；高端酱油；虾酱和发酵鱼酱。\n\n速溶咖啡：3合1、2合1、黑速溶、椰子咖啡、越南冰奶咖啡。\n\n全系列产品均可提供HALAL认证。",
+      "oemDescription": "提供包装食品和零食自有品牌包装服务。"
+    },
+    "food-staples": {
+      "name": "主食",
+      "tagline": "越南盐、糖、面粉及基本食品原料",
+      "description": "我们出口基本食品原料：精制盐（NaCl≥99%）、精炼白糖（RS1/ICUMSA 45）、原糖、多用途面粉、米粉、木薯淀粉和玉米淀粉。符合Codex Alimentarius和ISO 2171标准。",
+      "longDescription": "越南生产和加工多种基本食品原料，既满足国内消费也用于出口，质量稳定，具备大批量供应能力。\n\n盐：海盐和岩盐；精制盐NaCl≥99.5%；加碘盐；工业盐；食用盐和水产品加工盐。\n\n糖：精炼白糖RS1（ICUMSA 45）；原糖（ICUMSA 600-1200）；红糖；甘蔗糖蜜；冰糖。原料来自西宁、蓝山和波旁等大型制糖厂。\n\n面粉和淀粉：多用途和专用面粉（面包、糕点、面条）；粘米粉和糯米粉；木薯淀粉（原淀粉和改性淀粉）；玉米淀粉；红薯粉。\n\n所有产品符合Codex Alimentarius和FSSC 22000标准，可随货提供完整分析证书（CoA）。",
+      "oemDescription": null
+    },
+    "edible-oils-fats": {
+      "name": "食用油脂",
+      "tagline": "越南椰子油、烹饪油及食用脂肪",
+      "description": "我们出口初榨椰子油（VCO）、RBD精炼椰子油、精炼棕榈油、葵花籽油、大豆油和植物起酥油。符合CODEX STAN 210、EU食品法规及RSPO棕榈油可持续认证。",
+      "longDescription": "越南是该地区重要的椰子生产国，尤其是被誉为全国\"椰子之都\"的槟知省。植物油产业服务于食品、化妆品和工业市场。\n\n椰子油：冷压初榨椰子油（VCO）——纯天然、未精炼、天然椰香；RBD精炼椰子油（精炼、漂白、脱臭）——透明无味，适用于食品加工和化妆品；分馏椰子油（MCT油）；椰浆和椰奶。\n\n其他植物油：腰果壳液（CNSL，用于工业应用）；精炼米糠油；精炼大豆油；葵花籽油。\n\n植物脂肪和起酥油：RSPO认证精炼棕榈油；烘焙用起酥油；人造黄油；植物猪油。\n\n包装规格：200L铁桶、1000L IBC、散装柔性袋（24000L）及零售用PET/HDPE瓶装。",
+      "oemDescription": "提供按客户配方进行自有品牌包装和混合调配服务。"
+    }
+  },
+  "products": {
+    "robusta-coffee-beans": {
+      "name": "越南罗布斯塔咖啡豆",
+      "tagline": "来自中部高原的浓郁醇厚罗布斯塔咖啡",
+      "description": "越南得乐省顶级一级罗布斯塔咖啡豆——越南最优质的咖啡产区。咖啡因含量稳定偏高，口感醇厚，酸度低，是浓缩咖啡拼配和速溶咖啡生产的理想原料。",
+      "moq": "1个20英尺集装箱（约18吨）",
+      "containerCapacity": "20英尺集装箱装18–19吨 / 40英尺集装箱装25吨",
+      "packagingOptions": [
+        "60公斤黄麻袋",
+        "GrainPro内衬袋",
+        "真空密封袋",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南罗布斯塔咖啡豆出口 | 一级品质 | 越南理想交易",
+      "seoDescription": "购买出口用优质越南罗布斯塔咖啡豆。一级，18目以上，HACCP认证。最低起订量1个集装箱。供应商覆盖沙特阿拉伯、阿联酋、德国、意大利。",
+      "longDescription": "越南是全球最大的罗布斯塔咖啡生产国，得乐省代表着越南咖啡品质的巅峰。我们的一级罗布斯塔咖啡豆在海拔500至900米之间精心种植，火山红玄武岩土壤与充沛降雨共同创造出最佳的生长条件。\n\n每批次咖啡豆均经过严格的质量控制，筛号达到Screen 18+，水分含量控制在12.5%以下，黑豆和瑕疵豆比例不超过行业标准。我们的处理厂通过HACCP和ISO 22000认证，从采收到出货全程可追溯。\n\n我们提供日晒处理和湿处理两种方式，满足不同买家的口感需求。日晒豆呈现出更浓烈的果香和巧克力气息，湿处理豆则具有更清洁的醇厚口感，深受意式浓缩拼配商青睐。\n\n我们常规备有现货库存，可快速响应订单，通常在签订合同后14–21天内完成装箱发货。支持散货装或袋装，可根据买方要求定制包装规格。",
+      "specs": [
+        {
+          "value": "一级 / 18目以上"
+        },
+        {
+          "value": "≤ 12.5%"
+        },
+        {
+          "value": "≤ 10 per 300g sample"
+        },
+        {
+          "value": "日晒/水洗/蜜处理"
+        },
+        {
+          "value": "Oct–Jan 收获季"
+        },
+        {
+          "value": "得乐, Gia Lai, Kon Tum"
+        },
+        {
+          "value": "500–900 海拔"
+        },
+        {
+          "value": "~2.7%"
+        },
+        {
+          "value": "24 个月 (绿色 beans)"
+        },
+        {
+          "value": "0901.11.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "您的罗布斯塔咖啡SCAA杯测分数是多少？",
+          "answer": "我们的一级罗布斯塔咖啡通常在SCAA量表上得分78–82，适用于商用浓缩咖啡拼配。精选小批量产品可达到更高分数。"
+        },
+        {
+          "question": "你们是否提供自定义筛目尺寸？",
+          "answer": "是的，我们根据买方要求提供Screen 14、16、18和19目尺寸。一致性保持在90%以上。"
+        },
+        {
+          "question": "从下单到发货的交货周期是多久？",
+          "answer": "现货批次：7–14天。定制处理或大批量订单：根据处理方法需要3–6周。"
+        },
+        {
+          "question": "你们是否提供发货前样品？",
+          "answer": "是的，500克样品免费提供。首批样品的快递费由买方承担。"
+        },
+        {
+          "question": "你们能提供有机认证的罗布斯塔吗？",
+          "answer": "可以，我们与获得USDA有机和欧盟有机认证的农场合作。有机批次价格不同，需要在收获季前提前预订。"
+        }
+      ]
+    },
+    "arabica-coffee-beans": {
+      "name": "越南阿拉比卡咖啡豆",
+      "tagline": "来自大叻凉爽高地的精品级阿拉比卡咖啡",
+      "description": "来自林同省高地的单一产区阿拉比卡咖啡，种植海拔1400–1600米。明亮的酸度、花香气息和焦糖甜感，令其在精品烘焙商和高端拼配市场中脱颖而出。",
+      "moq": "1个20英尺集装箱（约16吨）或精品装1托板（500公斤）",
+      "containerCapacity": "20英尺集装箱装16吨 / 40英尺集装箱装22吨",
+      "packagingOptions": [
+        "带GrainPro内衬的60公斤黄麻袋",
+        "真空密封30公斤袋",
+        "定制零售包装"
+      ],
+      "seoTitle": "越南阿拉比卡咖啡豆出口 | 精品级 | 大叻产地",
+      "seoDescription": "大叻高地出口级阿拉比卡咖啡，精品级别，杯测评分82–87分。水洗、日晒、蜜处理均可。最低起订量1托板。供应商覆盖德国、美国、日本。",
+      "longDescription": "越南阿拉比卡咖啡的核心产区位于林同省凉爽多雾的高地，尤其集中在海拔1400–1600米的大叻市周边。这里独特的微气候——全年气温在15至25°C之间——使阿拉比卡咖啡果能够缓慢成熟，积累出丰富的糖分和复杂的风味物质。\n\n我们与当地小农和农业合作社建立了长期合作关系，实行可追溯的道德采购体系。咖啡果在最佳成熟度时人工采摘，根据买方偏好提供水洗、日晒或蜜处理加工方式，以呈现各具特色的风味曲线。\n\n杯测评分通常在82至87分之间，单一产地特征鲜明，适合精品零售、冷萃或手冲应用。我们还可提供微批次（500公斤起）的特定农场或特定品种批次，适合寻求独特产品的高端采购商。\n\n所有批次均附质量分析证书（CoA）和产地证明，部分批次可提供雨林联盟或4C等可持续认证。",
+      "specs": [
+        {
+          "value": "精品 / 商用 / 优质"
+        },
+        {
+          "value": "≤ 11.5%"
+        },
+        {
+          "value": "82–87 (specialty lots)"
+        },
+        {
+          "value": "水洗/日晒/蜜处理"
+        },
+        {
+          "value": "Lam Dong (大叻), Quang Tri"
+        },
+        {
+          "value": "1,400–1,600 海拔"
+        },
+        {
+          "value": "卡蒂姆, 波旁, 铁皮卡"
+        },
+        {
+          "value": "18 个月 (绿色 beans)"
+        },
+        {
+          "value": "0901.11.20"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "越南阿拉比卡与埃塞俄比亚或哥伦比亚产地相比如何？",
+          "answer": "越南阿拉比卡风味独特——具有明亮的酸度伴随草本和花香，不同于埃塞俄比亚阿拉比卡的浆果主导特性。通常在保持品质的同时具有有竞争力的价格优势。"
+        },
+        {
+          "question": "每个批次都有杯测报告吗？",
+          "answer": "是的，我们为精品批次提供Q评分师的完整杯测报告。商用级批次随附标准质量证书。"
+        },
+        {
+          "question": "你们能采购小于1吨的微批次吗？",
+          "answer": "可以，对于精品买家，我们可以安排从250公斤起的微批次订单。这些批次价格较高，需要在收获季提前预订。"
+        },
+        {
+          "question": "哪些认证支持进入欧盟市场？",
+          "answer": "我们持有部分农业合作社的欧盟有机认证，可提供欧盟反森林砍伐法规（EUDR）所要求的所有文件，包括地理位置坐标和供应链映射。"
+        }
+      ]
+    },
+    "green-coffee-beans-export": {
+      "name": "越南出口生咖啡豆",
+      "tagline": "稳定品质的散装出口生豆",
+      "description": "适合大批量采购的散装越南生咖啡豆，含罗布斯塔和阿拉比卡品种。适合再出口贸易商、大型烘焙厂及咖啡混合生产商。",
+      "moq": "1个20英尺集装箱",
+      "containerCapacity": "20英尺集装箱装18吨 / 40英尺集装箱装26吨",
+      "packagingOptions": [
+        "60公斤标准黄麻袋",
+        "GrainPro内衬袋",
+        "散货集装箱"
+      ],
+      "seoTitle": "越南出口生咖啡豆 | 散装 | 罗布斯塔/阿拉比卡",
+      "seoDescription": "越南出口用散装生咖啡豆，含罗布斯塔和阿拉比卡，提供各种加工方式。价格具有竞争力，可整柜发货。",
+      "longDescription": "我们的散装出口生咖啡豆专为需要稳定供应、竞争价格和灵活规格的大宗买家量身定制。我们同时供应罗布斯塔和阿拉比卡生豆，可满足各种拼配配方和最终用途需求。\n\n所有出口生豆均经过专业的干磨加工，确保水分含量、杂质和瑕疵豆符合ICO和越南TCVN标准。每批次均出具质量证书，保障货物品质与订单规格完全一致。\n\n我们在得乐省、林同省、嘉莱省、多农省和平福省设有采购网络，可按咖啡产季稳定供货。我们能根据市场需求，灵活提供日晒、湿处理、半湿处理等不同加工方式的批次。\n\n欢迎大宗买家、再出口贸易商和国际烘焙厂商咨询洽谈，我们可提供样品、质量规格书及有竞争力的到岸价（CIF/FOB）报价。",
+      "specs": [
+        {
+          "value": "罗布斯塔 / 阿拉比卡 / 定制 Blend"
+        },
+        {
+          "value": "≤ 12.5%"
+        },
+        {
+          "value": "≤ 11.5%"
+        },
+        {
+          "value": "日晒/水洗/蜜处理"
+        },
+        {
+          "value": "14–19 (按要求)"
+        },
+        {
+          "value": "12–18 个月 (GrainPro lined)"
+        },
+        {
+          "value": "包含"
+        },
+        {
+          "value": "0901.11.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "绿咖啡出口装运随附哪些文件？",
+          "answer": "标准文件：提单、ICO出口证书、商业发票、装箱单、植物检疫证书、质量分析证书、水分证书。对于认证批次（有机、清真、公平贸易），可提供额外文件。"
+        },
+        {
+          "question": "你们能在装运前将罗布斯塔和阿拉比卡混合吗？",
+          "answer": "可以，我们可以按任意比例预先混合罗布斯塔和阿拉比卡并装入标准黄麻袋。这对希望使用固定混合比例但又不想投资混合设备的烘焙商很有用。"
+        }
+      ]
+    },
+    "vietnamese-drip-filter-coffee": {
+      "name": "越南滴漏咖啡（研磨豆）",
+      "tagline": "越南传统风味，专为滴漏冲泡设计",
+      "description": "越南传统风格研磨咖啡，专为越南滴漏咖啡壶（phin）设计。浓郁醇厚，可与炼乳搭配享用，也可直接冲泡黑咖啡，是东南亚及全球市场受欢迎的零售及餐饮用品。",
+      "moq": "500公斤（零售包装），或1吨（散装研磨）",
+      "containerCapacity": "20英尺集装箱约装10–12吨（视包装规格而定）",
+      "packagingOptions": [
+        "200克/500克零售袋",
+        "1公斤/5公斤散装袋",
+        "定制OEM品牌包装"
+      ],
+      "seoTitle": "越南滴漏咖啡出口 | 传统研磨 | OEM包装可定制",
+      "seoDescription": "出口越南传统滴漏咖啡（研磨豆），专为phin咖啡壶设计。提供OEM品牌定制，各种零售规格可选，最低起订量500公斤。",
+      "longDescription": "越南滴漏咖啡（Cà Phê Phin）是越南最具代表性的咖啡文化符号之一，其独特的慢滴冲泡方式赋予了咖啡浓郁厚重的口感，与炼乳搭配更是相得益彰，构成经典的越南咖啡体验。\n\n我们的产品采用来自得乐省的优质罗布斯塔豆，按照传统配方精心烘焙和研磨，确保每一杯都能还原正宗的越南咖啡风味。研磨粗细度专为标准phin滴漏壶优化，确保最佳萃取效果。\n\n我们提供完整的OEM定制服务：包括品牌包装设计、规格定制（粉碎度、拼配比例）以及各种零售包装形式（铝箔袋、罐装、盒装等）。最小起订量灵活，适合各类出口商和品牌商。\n\n产品通过食品安全认证（HACCP/ISO 22000），符合欧盟、中东及东南亚市场的进口标准，附全套出口单据。",
+      "specs": [
+        {
+          "value": "罗布斯塔 dominant (80–100%)"
+        },
+        {
+          "value": "中等-dark to 深色"
+        },
+        {
+          "value": "Coarse (phin) / 中等 / Fine / 整豆"
+        },
+        {
+          "value": "≤ 5%"
+        },
+        {
+          "value": "Valve bag / Tin / Drip pack sachet"
+        },
+        {
+          "value": "18 个月 (nitrogen valve bag)"
+        },
+        {
+          "value": "0901.21.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "我们可以选择自己的研磨度吗？",
+          "answer": "可以，我们提供从粗研磨（适用于法式压壶/越南滤杯）到细研磨（适用于浓缩咖啡）的多种选项。研磨规格可在订单中指定。"
+        },
+        {
+          "question": "你们能为我们的零售品牌做私人标签吗？",
+          "answer": "当然可以。这是我们的核心业务之一。我们提供包装设计协助、定制配方开发，以及最低500公斤的全私人标签生产。"
+        }
+      ]
+    },
+    "instant-coffee-3in1-export": {
+      "name": "越南三合一速溶咖啡",
+      "tagline": "即冲即饮，香醇便捷的三合一咖啡",
+      "description": "越南经典三合一速溶咖啡（咖啡+奶精+糖），一包即成，香浓醇滑。适合便利店、超市及餐饮渠道，提供OEM定制服务。",
+      "moq": "1吨（约40,000袋，每袋25克）",
+      "containerCapacity": "20英尺集装箱约装12–14吨",
+      "packagingOptions": [
+        "25克独立小袋（盒装）",
+        "定制OEM品牌包装",
+        "散装5公斤袋（餐饮用）"
+      ],
+      "seoTitle": "越南三合一速溶咖啡出口 | OEM定制 | 散装供应",
+      "seoDescription": "越南出口三合一速溶咖啡，提供OEM品牌定制，25克独立包装，MOQ 1吨。适合超市、便利店及餐饮渠道，供货覆盖全球市场。",
+      "longDescription": "我们的三合一速溶咖啡融合了越南优质罗布斯塔咖啡精华、植脂末和精制糖，经科学配比，冲泡方便、口感醇厚，是越南最受欢迎的即饮咖啡产品之一。\n\n产品提供灵活的OEM定制方案，包括配方调整（甜度、奶香比例）、包装设计（袋装、盒装、礼盒装）以及专属品牌标识印制，满足不同市场和客户群体的需求。\n\n所有产品均在通过HACCP、ISO 22000和FSSC 22000认证的工厂生产，严格执行食品安全标准，并提供完整的产品检测报告和出口单据，符合东南亚、中东、欧洲及美洲市场的进口要求。\n\n最小起订量1吨（约40,000袋），可接受海运散货柜及整柜订单，备货周期通常为下单后21–30天，支持快速打样。",
+      "specs": [
+        {
+          "value": "3-in-1 / 2-in-1 / Black instant"
+        },
+        {
+          "value": "16–20g (customisable)"
+        },
+        {
+          "value": "Spray-dried 罗布斯塔 / Freeze-dried 阿拉比卡 (premium)"
+        },
+        {
+          "value": "≈ 60–80mg per sachet"
+        },
+        {
+          "value": "18–24 个月"
+        },
+        {
+          "value": "50,000 sachets (private label)"
+        },
+        {
+          "value": "2101.11.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "速溶咖啡的保质期是多久？",
+          "answer": "在密封包装中保质期为24个月。开封后，建议在3个月内使用以保持最佳风味。"
+        },
+        {
+          "question": "你们可以更改包装上的语言吗？",
+          "answer": "可以，我们提供英语、阿拉伯语、俄语、法语、西班牙语和买方要求的其他语言的多语言包装。"
+        }
+      ]
+    },
+    "cashew-nuts-w320": {
+      "name": "腰果仁 W320",
+      "tagline": "全球最畅销规格，品质稳定可靠",
+      "description": "W320腰果仁是全球贸易量最大的腰果规格，每磅约含320粒，颗粒均匀，色泽白亮，是零售包装、烘焙食品及航空餐饮的理想选择。",
+      "moq": "1个20英尺集装箱（约14吨）",
+      "containerCapacity": "14–15吨/20英尺集装箱 / 25吨/40英尺集装箱",
+      "packagingOptions": [
+        "11.34公斤（25磅）真空锡罐",
+        "25公斤真空袋",
+        "定制零售包装"
+      ],
+      "seoTitle": "W320腰果仁出口 | 越南一级品质 | 理想交易",
+      "seoDescription": "购买越南出口W320腰果仁，颗粒均匀，色泽白亮，通过ISO 22000认证。最低起订量1个集装箱，供货覆盖欧洲、中东、美国、澳大利亚。",
+      "longDescription": "越南是全球最大的腰果仁加工和出口国，我们的W320腰果仁正是这一高品质产业的杰出代表。W320规格意味着每磅约含320粒完整腰果仁，是全球市场需求量最大的主流规格。\n\n我们的腰果仁原料采购自宾福省、平阳省等越南主要腰果产区，经过严格的去壳、去皮、分级和质量筛选工序。产品色泽为白色至浅黄色（W/SW级），颗粒完整率超过95%，水分含量低于5%，符合越南TCVN及AFCA国际质量标准。\n\n所有产品在通过HACCP和ISO 22000认证的工厂内生产，支持过敏原检测、黄曲霉毒素检测和农药残留检测，可出具完整的质量分析证书（CoA）和植物检疫证书，满足各目标市场的进口要求。\n\n标准包装为11.34公斤（25磅）锡罐真空装，亦可提供25公斤真空袋装或根据客户需求定制零售包装。",
+      "specs": [
+        {
+          "value": "W320 (320 kernels/lb)"
+        },
+        {
+          "value": "≤ 5%"
+        },
+        {
+          "value": "≤ 15 pieces per 500g"
+        },
+        {
+          "value": "≤ 2%"
+        },
+        {
+          "value": "Nil"
+        },
+        {
+          "value": "≤ 8 ppb (EU st及ard)"
+        },
+        {
+          "value": "Binh Phuoc, Dong Nai, Ba Ria"
+        },
+        {
+          "value": "White / Ivory (LW)"
+        },
+        {
+          "value": "12 个月 vacuum / 24 个月 tin"
+        },
+        {
+          "value": "0801.32.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "W320腰果的标准包装是什么？",
+          "answer": "标准包装为真空充氮11.34公斤马口铁罐，外箱2罐装。也可提供50磅纸箱、25公斤纸箱或定制零售包装。"
+        },
+        {
+          "question": "你们如何测试黄曲霉毒素？",
+          "answer": "每个批次在装运前由经认证的第三方实验室（如SGS、Intertek或Bureau Veritas）进行测试。我们将总黄曲霉毒素水平维持在欧盟标准4 ppb和美国FDA标准20 ppb以下。"
+        },
+        {
+          "question": "你们能直接安排FCL（整柜）发往沙特阿拉伯或阿联酋吗？",
+          "answer": "可以，我们经常通过FCL发往吉达、利雅得、迪拜、阿布扎比和达曼。我们处理所有出口文件，包括清真证书、原产地证书和阿拉伯化学要求。"
+        },
+        {
+          "question": "黄曲霉毒素检测协议是什么？",
+          "answer": "每个批次在装运前由越南的认可SGS、Intertek或Bureau Veritas实验室进行检测。我们维持总黄曲霉毒素低于4 ppb（欧盟标准）和20 ppb（美国FDA标准）。"
+        },
+        {
+          "question": "你们提供私人标签包装吗？",
+          "answer": "可以，我们提供定制标签设计、袋装印刷和品牌马口铁罐制造，每个SKU MOQ为500公斤。"
+        }
+      ]
+    },
+    "cashew-nuts-w240": {
+      "name": "腰果仁 W240",
+      "tagline": "大颗粒，品质卓越，高端市场首选",
+      "description": "W240腰果仁颗粒较大（每磅约240粒），外观完整，品相优越，尤其受高端零售、礼盒包装和优质烘焙食品市场青睐。",
+      "moq": "1个20英尺集装箱（约14吨）",
+      "containerCapacity": "14–15吨/20英尺集装箱 / 25吨/40英尺集装箱",
+      "packagingOptions": [
+        "11.34公斤（25磅）真空锡罐",
+        "25公斤真空袋",
+        "高端零售礼盒定制"
+      ],
+      "seoTitle": "W240腰果仁出口 | 大颗粒优质腰果 | 越南理想交易",
+      "seoDescription": "越南出口W240腰果仁，大颗粒，外观完整，适合高端零售及礼盒市场。通过HACCP认证，MOQ 1个集装箱。",
+      "longDescription": "W240腰果仁以其较大的颗粒规格（每磅约240粒）在全球高端腰果市场占有重要地位。颗粒越大，意味着更长的生长周期和更精细的采收加工工艺，因此W240通常比W320售价更高，深受高端零售商和礼品市场的青睐。\n\n我们的W240腰果仁原料来自越南优质产区，经过人工精选和机器双重分级，确保颗粒大小均匀、颜色一致、无破损、无虫害。产品通过HACCP和ISO 22000认证，可提供黄曲霉毒素、农残及过敏原等全项检测报告。\n\n产品适用场景广泛：高端零售礼盒、航空餐饮、五星级酒店餐厅、烘焙原料等。我们提供灵活的定制包装方案，从100克零售小袋到25公斤散装袋均可满足。\n\n备有充足现货库存，通常在接受订单后14–21天内可完成备货装箱，全年稳定供货。",
+      "specs": [
+        {
+          "value": "W240 (240 kernels/lb)"
+        },
+        {
+          "value": "≤ 5%"
+        },
+        {
+          "value": "≤ 12 pieces per 500g"
+        },
+        {
+          "value": "≤ 1.5%"
+        },
+        {
+          "value": "Ivory White (IW) / White (W)"
+        },
+        {
+          "value": "≤ 8 ppb"
+        },
+        {
+          "value": "Binh Phuoc, 越南"
+        },
+        {
+          "value": "12 个月 (vacuum) / 24 个月 (tin)"
+        },
+        {
+          "value": "0801.32.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "W240与W320有什么区别？",
+          "answer": "W240颗粒更大（每磅215–240粒）且每公斤价格更高。W240需求最大的是高端零售品牌、礼品装和酒店行业。"
+        },
+        {
+          "question": "你们是否提供烤盐W240？",
+          "answer": "可以，我们用海盐、海盐黑胡椒、芥末和定制风味烘烤W240。最低起订量1吨，按风味分类。"
+        },
+        {
+          "question": "你们能在一个集装箱中提供混合等级（W240 + W320）吗？",
+          "answer": "可以，分装集装箱可供希望比较或混合等级的买家。每个等级最低数量1吨。"
+        }
+      ]
+    },
+    "cashew-nuts-w180": {
+      "name": "腰果仁 W180",
+      "tagline": "特大颗粒，顶级品质，珍稀之选",
+      "description": "W180腰果仁是市场上最大的全颗腰果规格之一（每磅约180粒），被誉为腰果中的「巨无霸」，适合高档礼品、特色零食及精品餐饮市场。",
+      "moq": "5吨（视货源情况而定）",
+      "containerCapacity": "14–15吨/20英尺集装箱",
+      "packagingOptions": [
+        "11.34公斤（25磅）真空锡罐",
+        "精品礼盒定制包装"
+      ],
+      "seoTitle": "W180腰果仁出口 | 特大颗粒顶级品质 | 越南",
+      "seoDescription": "越南出口特大颗粒W180腰果仁，每磅仅约180粒，顶级品质，适合高档礼品及精品零售市场。",
+      "longDescription": "W180腰果仁代表着腰果分级中颗粒最大的等级之一，由于产量稀少、采收工艺要求更高，其市场价格通常显著高于W240和W320规格。每磅约180粒的大颗粒，使其在高端礼品和精品零食市场中独具吸引力。\n\nW180腰果仁的生产需要精挑细选的原料批次，经过多道人工分级工序，只有颗粒饱满、形状完整、色泽均匀的腰果仁才能达到W180标准。我们在越南腰果主产区宾福省建立了专属采购渠道，确保稳定获取顶级原料。\n\n产品适用于高档零售礼盒、五星级酒店自助餐、精品零食品牌以及高端西点食材供应。我们可根据客户需求提供定制礼盒包装、品牌印制及小批量试单服务。\n\n由于W180产量相对有限，建议提前联系我们确认库存情况，预留充足备货时间，以确保订单顺利履行。",
+      "specs": [
+        {
+          "value": "W180 (180 kernels/lb)"
+        },
+        {
+          "value": "≤ 5%"
+        },
+        {
+          "value": "≤ 1%"
+        },
+        {
+          "value": "Ivory White (IW)"
+        },
+        {
+          "value": "≤ 10 ppb"
+        },
+        {
+          "value": "Binh Phuoc, 越南"
+        },
+        {
+          "value": "24 个月 (nitrogen tin)"
+        },
+        {
+          "value": "0801.32.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "W180适合哪些用途？",
+          "answer": "W180是最大、最具视觉吸引力的腰果整粒等级——非常适合高端零售包装、企业礼品、餐厅装饰及婚宴礼物。"
+        },
+        {
+          "question": "W180有最低起订量限制吗？",
+          "answer": "由于供应有限，W180在收获季节供应。MOQ为500公斤，但有提前预订选项可保证大批量供应。"
+        }
+      ]
+    },
+    "broken-cashew-sp-grade": {
+      "name": "碎腰果仁（SP级）",
+      "tagline": "性价比优异的烘焙与加工原料",
+      "description": "SP级碎腰果仁是腰果加工过程中产生的碎粒，价格较全颗粒更为实惠，是烘焙食品、糖果、冰淇淋馅料及腰果酱生产的优质原料。",
+      "moq": "1个20英尺集装箱（约15吨）",
+      "containerCapacity": "15–16吨/20英尺集装箱",
+      "packagingOptions": [
+        "25公斤真空袋",
+        "50公斤纸箱（内衬袋）"
+      ],
+      "seoTitle": "SP级碎腰果仁出口 | 烘焙加工原料 | 越南",
+      "seoDescription": "越南出口SP级碎腰果仁，性价比高，适合烘焙、糖果及食品加工。通过HACCP认证，MOQ 1个集装箱。",
+      "longDescription": "SP级碎腰果仁是越南腰果加工产业中重要的副产品品类，其完整的腰果风味和丰富的营养价值，使其成为食品制造商和烘焙企业的优质原料选择，且价格比全颗粒腰果更为经济实惠。\n\n碎腰果仁在烘焙行业有广泛应用，包括曲奇饼干、蛋糕装饰、麦片棒、什锦坚果、腰果酱及冰淇淋碎料等。由于颗粒较小，无需二次切割，直接用于生产，可有效降低食品加工成本。\n\n我们的SP级碎腰果仁同样经过严格的质量控制，包括黄曲霉毒素检测（AFB1 ≤5ppb）、水分检测（≤5%）和农药残留检测，符合EU、美国FDA及东南亚市场标准。可出具完整检测报告，满足食品安全审计要求。\n\n散装25公斤真空袋装，性价比高，适合大批量采购。全年均有稳定供货，交货周期通常为14–21天。",
+      "specs": [
+        {
+          "value": "SP (Small Pieces) / SS (Small Splits)"
+        },
+        {
+          "value": "Less than 3/8 whole kernel"
+        },
+        {
+          "value": "≤ 5%"
+        },
+        {
+          "value": "≤ 20 pieces per 500g"
+        },
+        {
+          "value": "≤ 8 ppb (EU st及ard)"
+        },
+        {
+          "value": "White / Ivory"
+        },
+        {
+          "value": "Binh Phuoc, 越南"
+        },
+        {
+          "value": "12 个月 (vacuum)"
+        },
+        {
+          "value": "0801.32.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "碎腰果与整粒等级相比有什么用途？",
+          "answer": "碎腰果（SP、LP、SW、LW、BB）以约整粒W320价格的60–70%出售。理想用于：烘焙食品、糕点配料、坚果黄油、糖果填充和工业加工。"
+        },
+        {
+          "question": "碎腰果适合生产腰果黄油吗？",
+          "answer": "是的——碎等级非常适合腰果黄油、腰果酱和腰果奶油生产。碎腰果与整粒腰果具有相同的营养和风味特征。"
+        }
+      ]
+    },
+    "roasted-salted-cashews-export": {
+      "name": "出口烤盐腰果",
+      "tagline": "即食零食，香脆可口，全球热销",
+      "description": "越南风味烤盐腰果，精选W320/W240全颗腰果仁，慢火烘烤，薄盐调味，香脆诱人，是全球最受欢迎的坚果零食之一，适合零售、航空餐饮及礼品市场。",
+      "moq": "500公斤",
+      "containerCapacity": "20英尺集装箱约装8–10吨（视包装规格）",
+      "packagingOptions": [
+        "100克/200克/500克零售袋",
+        "1公斤/5公斤散装袋",
+        "定制OEM品牌包装",
+        "礼盒装"
+      ],
+      "seoTitle": "越南出口烤盐腰果 | OEM定制 | 零售包装",
+      "seoDescription": "越南出口烤盐腰果，精选W320/W240腰果仁，提供OEM品牌定制及多种零售规格，最低起订量500公斤。",
+      "longDescription": "我们的出口烤盐腰果以越南优质W320或W240腰果仁为原料，经过精心的烘焙工艺处理——先经低温慢烤，使腰果水分均匀散发，再撒上海盐调味，最终呈现出外酥里嫩、咸香适中的完美口感。\n\n产品提供完整的OEM定制服务，可根据客户市场需求调整调味配方（原味、轻盐、重盐、蜂蜜烤等）、烘烤程度以及包装规格，支持专属品牌包装设计和印刷。\n\n所有产品在通过HACCP和ISO 22000认证的食品工厂内生产，严格执行卫生标准，并采用充氮密封包装技术延长保质期（通常为12个月）。可提供营养成分表、过敏原声明和完整出口单据。\n\n适合超市零售、航空配餐、酒店餐饮、礼品套装及网络零售渠道，最低起订量灵活，欢迎品牌商、经销商和进口商合作洽谈。",
+      "specs": [
+        {
+          "value": "W240 / W320 (whole kernels)"
+        },
+        {
+          "value": "干法 roast / Oil roast"
+        },
+        {
+          "value": "Unsalted / 浅色 (0.5%) / 中等 (1.2-1.5%)"
+        },
+        {
+          "value": "≤ 3%"
+        },
+        {
+          "value": "9-12 个月 (nitrogen flush)"
+        },
+        {
+          "value": "2008.19.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们提供哪些口味？",
+          "answer": "原味烤盐、海盐黑胡椒、辣椒酸橙、芥末、蜂蜜烤、烟熏BBQ。可按500公斤每种口味起定制配方。"
+        },
+        {
+          "question": "你们能为我们的市场开发定制风味调味料吗？",
+          "answer": "是的。研发团队可以在4-6周内开发定制调味料。定制风味MOQ为每个SKU 1吨。"
+        }
+      ]
+    },
+    "coffee": {
+      "name": "越南咖啡",
+      "tagline": "世界第二大咖啡出口国的卓越品质",
+      "description": "越南是全球第二大咖啡出口国，以罗布斯塔咖啡闻名世界。我们提供罗布斯塔、阿拉比卡及加工咖啡产品，满足全球买家的多元需求。",
+      "moq": "视产品类型而定",
+      "containerCapacity": "视产品类型而定",
+      "packagingOptions": [
+        "标准出口包装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南咖啡出口 | 罗布斯塔与阿拉比卡 | 理想交易越南",
+      "seoDescription": "越南咖啡出口供应商，提供罗布斯塔生豆、阿拉比卡生豆及速溶咖啡系列产品，质量认证齐全，出口全球。",
+      "longDescription": "越南是全球举足轻重的咖啡生产和出口大国，其独特的热带高地气候孕育出品质卓越的咖啡豆，深受全球买家青睐。越南咖啡以罗布斯塔为主导，产量占全球罗布斯塔总产量的约40%，同时也出产高品质的阿拉比卡咖啡。\n\n我们的咖啡产品线涵盖生豆（罗布斯塔一级、阿拉比卡精品级）、研磨咖啡、三合一速溶咖啡以及越南特色滴漏咖啡，一站式满足不同市场和渠道的采购需求。\n\n越南咖啡的核心产区包括得乐省（Dak Lak）、林同省（Lam Dong）、嘉莱省（Gia Lai）和多农省（Dak Nong），各产区风土特征各异，赋予了咖啡豆独特的地域风味。我们深耕产地多年，与各主要产区建立了稳固的供应关系，确保货源稳定、品质一贯。\n\n所有咖啡产品均通过国际食品安全认证（HACCP、ISO 22000），可提供产地证书、质量分析证书、植物检疫证书等完整出口单据，符合欧盟、美国、中东及亚太市场的进口标准。"
+    },
+    "cashew-nuts": {
+      "name": "越南腰果",
+      "tagline": "全球腰果加工出口第一大国的优质产品",
+      "description": "越南是全球最大的腰果仁加工和出口国，出口量占全球总量的约60%。我们提供从W180到碎腰果的全系列规格，以及烤制腰果零食产品。",
+      "moq": "视产品规格而定",
+      "containerCapacity": "视产品规格而定",
+      "packagingOptions": [
+        "标准出口包装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南腰果出口 | 全系列规格 | 理想交易越南",
+      "seoDescription": "越南腰果出口供应商，提供W180、W240、W320等全系列规格，以及烤腰果零食，通过HACCP认证，全球发货。",
+      "longDescription": "越南是当之无愧的全球腰果加工和出口第一大国，约60%的全球腰果仁贸易量来自越南。凭借先进的加工工艺、丰富的原料来源和具有竞争力的成本结构，越南腰果在全球市场占据着无可替代的地位。\n\n我们的腰果产品线覆盖全系列规格：从顶级的W180特大颗粒，到市场主流的W240、W320，再到实惠的W450，以及SP级碎腰果仁，满足零售、食品加工和大宗贸易的各类需求。此外，我们还提供烤盐腰果、调味腰果等即食零食产品，适合零售和礼品渠道。\n\n越南腰果的主要原料产区包括宾福省（Binh Phuoc）、平阳省（Binh Duong）和同奈省（Dong Nai），同时大量进口西非原料腰果进行加工。无论哪种来源，我们都严格把控原料品质，确保加工后的腰果仁达到出口标准。\n\n所有产品均通过HACCP、ISO 22000认证，可提供黄曲霉毒素检测报告、农残检测报告及植物检疫证书，符合欧盟、美国FDA、沙特SASO等主要目标市场的进口要求。"
+    },
+    "jasmine-rice": {
+      "name": "越南茉莉香米",
+      "tagline": "芳香馥郁，荣膺世界最佳大米称号",
+      "description": "越南安江省出产的顶级茉莉香米，米粒修长、质地软糯、米香天然清幽，多次荣获国际大米评选大奖，是出口东南亚、欧洲及中东市场的明星产品。",
+      "moq": "1个20英尺集装箱（约25吨）",
+      "containerCapacity": "25吨/20英尺集装箱 / 50吨/40英尺集装箱",
+      "packagingOptions": [
+        "5公斤/10公斤/25公斤零售袋",
+        "50公斤编织袋（散装）",
+        "定制OEM品牌包装"
+      ],
+      "seoTitle": "越南茉莉香米出口 | 世界最佳大米 | 理想交易越南",
+      "seoDescription": "购买越南茉莉香米，来自安江省，天然米香，多次荣获世界最佳大米奖。MOQ 1个集装箱，出口全球。",
+      "longDescription": "越南茉莉香米（Jasmine Rice）以其天然的茉莉花香气和软糯适口的米饭质地而享誉全球，多次在世界大米评选中摘得桂冠，被国际米商和消费者誉为《世界最佳大米》。\n\n主产区位于越南九龙江三角洲的安江省，这里肥沃的冲积土壤、充沛的阳光和丰富的水资源，为茉莉香米的优质生长提供了得天独厚的自然条件。经验丰富的农户世代传承精耕细作的种植技艺，确保每一批大米都具有最佳的香气和口感。\n\n我们的茉莉香米经过现代化碾磨加工，去除稻壳和糠层后进行精细抛光，成品米粒洁白如玉、匀整圆润，碎米率控制在5%以内。产品通过越南农业部质量认证和出口检验，附植物检疫证书。\n\n提供5公斤、10公斤、25公斤和50公斤等多种包装规格，可按客户要求定制OEM品牌包装，适合超市零售、批发渠道及餐饮供应。",
+      "specs": [
+        {
+          "value": "ST25 Jasmine"
+        },
+        {
+          "value": "5% / 2% / 0% (select grade)"
+        },
+        {
+          "value": "≤ 14%"
+        },
+        {
+          "value": "Well milled, silky polish"
+        },
+        {
+          "value": "≤ 2%"
+        },
+        {
+          "value": "Nil"
+        },
+        {
+          "value": "6.2–6.8 mm avg"
+        },
+        {
+          "value": "天然 jasmine / p及an"
+        },
+        {
+          "value": "湄公河三角洲, Soc Trang"
+        },
+        {
+          "value": "18 个月 sealed"
+        },
+        {
+          "value": "1006.30.20"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "茉莉香米和ST25有什么区别？",
+          "answer": "茉莉香米是泛指芳香的长粒大米。ST25是越南改良品种，在2019年和2023年荣获\"世界最佳大米\"——更耐用、芳香更强、米粒更长。"
+        },
+        {
+          "question": "你们能为零售品牌做私人标签吗？",
+          "answer": "可以，我们用买方品牌为茉莉香米和ST25做私人标签1公斤、2公斤、5公斤、10公斤和25公斤袋装。袋装上印有越南原产地标志。"
+        },
+        {
+          "question": "你们处理植物检疫和熏蒸吗？",
+          "answer": "是的，熏蒸和植物检疫证书签发包含在所有出口报价中。我们与持牌熏蒸服务和越南植物检疫局合作。"
+        }
+      ]
+    },
+    "long-grain-white-rice-25-broken": {
+      "name": "长粒白米（25%碎米）",
+      "tagline": "性价比突出的散装大宗出口白米",
+      "description": "标准25%碎米率的长粒白米，价格实惠，是面向非洲、中东和亚洲市场的主力出口品种，广泛用于批发、大宗贸易及食品加工。",
+      "moq": "1个20英尺集装箱（约25吨）",
+      "containerCapacity": "25吨/20英尺集装箱 / 50吨/40英尺集装箱",
+      "packagingOptions": [
+        "50公斤编织袋",
+        "25公斤编织袋",
+        "散货集装箱（按需）"
+      ],
+      "seoTitle": "越南长粒白米25%碎米出口 | 大宗贸易 | 理想交易越南",
+      "seoDescription": "越南出口长粒白米，25%碎米率，价格竞争，适合非洲、中东及亚洲大宗贸易市场，MOQ 1个集装箱。",
+      "longDescription": "25%碎米长粒白米是全球大米贸易中数量最大的品类之一，以其实惠的价格和稳定的供应量，成为众多发展中国家和大宗贸易商的首选采购品种。\n\n我们的长粒白米来自越南九龙江三角洲和湄公河流域的主要大米产区，经过机械碾磨和抛光处理，米粒洁白，无明显异味。25%碎米率是国际大米贸易中的标准规格，符合FAO及多个进口国的进口标准。\n\n产品适用于批发市场零售、学校和军队餐饮供应、食品加工（米粉、米饼等原料）以及人道主义援助项目采购。我们具有承接大宗订单的供应能力，支持连续多柜计划装运。\n\n标准包装为50公斤编织袋，也可提供25公斤装或按客户需求散货装箱。全年均有稳定出货能力，平均交货周期为签约后14–21天。",
+      "specs": [
+        {
+          "value": "Long Grain White Rice"
+        },
+        {
+          "value": "25% max"
+        },
+        {
+          "value": "≤ 14%"
+        },
+        {
+          "value": "Well milled"
+        },
+        {
+          "value": "≤ 8%"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "≤ 2.5%"
+        },
+        {
+          "value": "湄公河三角洲, 越南"
+        },
+        {
+          "value": "18 个月 sealed"
+        },
+        {
+          "value": "1006.30.90"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "5%碎米和25%碎米有什么区别？",
+          "answer": "5%碎米：整粒以上的优质级，用于零售消费。25%碎米：碎米含量较高的经济级，用于政府采购、医院和大批量机构用途。"
+        },
+        {
+          "question": "你们能完成政府投标和大批量发货吗？",
+          "answer": "可以，我们是菲律宾NFA、印尼Bulog、孟加拉DGF和西非政府采购计划的常规合作伙伴。我们提供SGS和Bureau Veritas预装运检验。"
+        }
+      ]
+    },
+    "glutinous-sticky-rice": {
+      "name": "越南糯米",
+      "tagline": "软糯香甜，传统美食首选原料",
+      "description": "越南特产糯米，质地软糯粘性强，是传统糯米饭（xôi）、粽子、汤圆及各类东南亚传统糕点的核心原料，深受亚洲及全球市场消费者喜爱。",
+      "moq": "1个20英尺集装箱（约25吨）",
+      "containerCapacity": "25吨/20英尺集装箱 / 50吨/40英尺集装箱",
+      "packagingOptions": [
+        "5公斤/10公斤/25公斤零售袋",
+        "50公斤编织袋"
+      ],
+      "seoTitle": "越南糯米出口 | 高粘性 | 食品加工专用",
+      "seoDescription": "越南出口优质糯米，高粘性，适合传统糕点及食品加工，MOQ 1个集装箱，出口亚洲及全球市场。",
+      "longDescription": "越南糯米（Glutinous Rice）以其极高的粘性和软糯口感在亚洲饮食文化中占有不可或缺的地位，是制作越南传统美食如糯米饭（xôi）、粽子（bánh chưng/bánh tét）、汤圆及各类年节糕点的核心原料。\n\n我们供应的糯米来自越南北部山区（如和平省、山萝省）的传统糯米产区，这里昼夜温差大的自然环境有助于糯米积累更高的淀粉粘度，使产品具有超高的粘性和浓郁的糯香。\n\n产品经过精细碾磨和分级处理，米粒饱满洁白，粘性均匀，含水量控制在14%以内，符合出口卫生标准。适用于食品加工企业（米粉、酒酿、粽子工厂等）以及海外亚裔社区和亚洲餐厅渠道。\n\n提供多种包装规格，并可根据目标市场定制包装语言和品牌标识。",
+      "specs": [
+        {
+          "value": "White Glutinous / Black Glutinous"
+        },
+        {
+          "value": "≥ 95%"
+        },
+        {
+          "value": "≤ 13.5%"
+        },
+        {
+          "value": "≤ 10%"
+        },
+        {
+          "value": "100% (natural characteristic)"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "Son La, Dien Bien / 湄公河三角洲"
+        },
+        {
+          "value": "12–18 个月 sealed"
+        },
+        {
+          "value": "1006.20.20"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "糯米与普通大米有什么区别？",
+          "answer": "糯米具有较高的支链淀粉含量（约99%），煮熟时会变粘。它用于亚洲传统菜肴，如年糕（中国），mochi（日本），粽子（越南），以及kao niao（泰国老挝）。"
+        },
+        {
+          "question": "糯米能用于米酒生产吗？",
+          "answer": "可以——高支链淀粉含量使糯米成为传统亚洲米酒发酵的理想选择，包括日本酒（日本）、马格利酒（韩国）、米酒（越南）和绍兴酒（中国）。"
+        }
+      ]
+    },
+    "brown-rice-export": {
+      "name": "越南出口糙米",
+      "tagline": "全谷物营养，健康饮食的优选",
+      "description": "保留麸皮和胚芽的天然糙米，富含膳食纤维、维生素B族和矿物质，迎合全球健康饮食趋势，适合有机食品市场、健康食品店及高端餐饮渠道。",
+      "moq": "1个20英尺集装箱（约25吨）",
+      "containerCapacity": "25吨/20英尺集装箱",
+      "packagingOptions": [
+        "1公斤/2公斤/5公斤零售袋",
+        "25公斤袋（散装）",
+        "有机认证包装（可提供）"
+      ],
+      "seoTitle": "越南出口糙米 | 全谷物健康食品 | 有机认证可提供",
+      "seoDescription": "越南出口优质糙米，富含膳食纤维，可提供有机认证，适合健康食品及有机食品市场，MOQ 1个集装箱。",
+      "longDescription": "随着全球健康饮食意识的持续提升，糙米市场需求逐年增长。越南糙米保留了大米的麸皮层和胚芽，富含膳食纤维、B族维生素（B1、B3、B6）、镁、磷等营养素，GI值低于精白米，是糖尿病患者和注重健康饮食人群的理想主食选择。\n\n我们的出口糙米来自越南九龙江三角洲，采用温和的碾磨工艺，仅去除外壳，完整保留麸皮和胚芽。产品口感略硬、嚼感丰富，具有天然坚果香气，可直接蒸煮食用或与其他谷物搭配烹调。\n\n可提供有机认证批次（需提前确认），适合欧洲、日本和北美等有机食品市场的采购需求。产品通过食品安全检测，农药残留和重金属含量符合出口目标国标准，可出具完整检测报告。\n\n包装支持多语言标签定制和OEM品牌服务，适合健康食品品牌商和有机食品专卖渠道。",
+      "specs": [
+        {
+          "value": "Long Grain Brown Rice / ST25 Brown"
+        },
+        {
+          "value": "≤ 14%"
+        },
+        {
+          "value": "≤ 5%"
+        },
+        {
+          "value": "Husk removed only — bran intact"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "湄公河三角洲 (Long An, An Giang)"
+        },
+        {
+          "value": "可提供 (USDA / EU Organic)"
+        },
+        {
+          "value": "12 个月 (vacuum packed)"
+        },
+        {
+          "value": "1006.20.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "糙米和白米相比保质期是多久？",
+          "answer": "糙米保留麸皮层（含油），与白米的24个月相比保质期较短（10–12个月）。我们推荐真空包装或氮气冲洗包装以延长保质期。"
+        },
+        {
+          "question": "你们能供应有机认证的糙米吗？",
+          "answer": "可以。我们与湄公河三角洲的欧盟有机和美国USDA有机认证的农业合作社合作。有机批次需要提前预订，根据当前认证农场库存。"
+        }
+      ]
+    },
+    "parboiled-rice-export": {
+      "name": "越南蒸谷米（半熟米）",
+      "tagline": "营养锁住，粒粒分明，长时耐储",
+      "description": "经过蒸汽预处理的半熟米，营养素被锁入米粒内部，烹饪后粒粒分明、耐煮不烂，在非洲、中东和南亚市场尤为受欢迎，是粒型米食用地区的优选品种。",
+      "moq": "1个20英尺集装箱（约25吨）",
+      "containerCapacity": "25吨/20英尺集装箱 / 50吨/40英尺集装箱",
+      "packagingOptions": [
+        "25公斤/50公斤编织袋",
+        "5公斤/10公斤零售袋"
+      ],
+      "seoTitle": "越南蒸谷米出口 | 粒粒分明 | 非洲中东首选",
+      "seoDescription": "越南出口蒸谷米（半熟米），粒型完整，营养丰富，适合非洲、中东大宗贸易，MOQ 1个集装箱。",
+      "longDescription": "蒸谷米（Parboiled Rice）是通过对稻谷进行浸泡、蒸汽处理和干燥的特殊工艺生产的大米产品。这一工艺使稻米麸皮中的营养素渗入米粒内部，使成品米的营养价值高于普通精白米，同时赋予了大米独特的金黄色泽和耐储性。\n\n蒸谷米的最大特点是烹饪后粒粒分明、不粘不糊，即使长时间保温也不易软烂，因此在非洲（尼日利亚、科特迪瓦、加纳）、中东及南亚等以粒型米为主食的地区备受欢迎，是这些市场的主流进口品种之一。\n\n我们的蒸谷米采用越南优质长粒稻谷为原料，经过现代化的蒸谷处理线生产，米粒规格均匀，色泽一致，碎米率低。可提供标准蒸谷米和精制蒸谷米（去黄处理）两种规格，满足不同市场的偏好。\n\n标准包装为50公斤编织袋，支持定制印刷，全年稳定出货。",
+      "specs": [
+        {
+          "value": "Long-grain parboiled 大米"
+        },
+        {
+          "value": "5% max"
+        },
+        {
+          "value": "≤ 14%"
+        },
+        {
+          "value": "≤ 2%"
+        },
+        {
+          "value": "≤ 0.05%"
+        },
+        {
+          "value": "24 个月"
+        },
+        {
+          "value": "1006.30.20"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "什么是蒸谷米，为什么受欢迎？",
+          "answer": "蒸谷米是部分预煮的稻谷，在脱壳前经过蒸汽处理，使营养物质从麸皮转移到米粒中。结果是更有营养、不粘的米粒，深受非洲和中东消费者喜爱。"
+        },
+        {
+          "question": "你们能为西非零售提供私人标签袋装吗？",
+          "answer": "可以。定制印刷50公斤袋装从1个集装箱（22吨）起可用。艺术品批准：5-7个工作日。我们处理印刷、灌装和缝合。"
+        }
+      ]
+    },
+    "rice": {
+      "name": "越南大米",
+      "tagline": "全球第二大大米出口国的优质产品",
+      "description": "越南是全球第二大大米出口国，拥有肥沃的九龙江三角洲产区。我们提供茉莉香米、长粒白米、糙米、蒸谷米等全系列品种，满足全球不同市场需求。",
+      "moq": "视品种而定",
+      "containerCapacity": "视品种而定",
+      "packagingOptions": [
+        "标准出口包装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南大米出口 | 全系列品种 | 理想交易越南",
+      "seoDescription": "越南大米出口供应商，提供茉莉香米、长粒白米、糙米、蒸谷米等全系列品种，质量认证齐全，出口全球。",
+      "longDescription": "越南是仅次于印度的全球第二大大米出口国，每年出口量超过600万吨，出口至150多个国家和地区。得益于九龙江三角洲和湄公河流域的肥沃土地和充沛水资源，越南大米产区具有得天独厚的自然优势，每年可收获两至三季。\n\n我们的大米产品线涵盖多个主流品种：芳香的茉莉香米（五珠香米）、标准长粒白米（5%/15%/25%碎米率）、全谷物糙米、营养蒸谷米以及传统糯米，可满足全球不同市场和消费群体的多样化需求。\n\n越南大米以价格竞争力强、供应稳定、质量可靠著称，是非洲（西非、东非）、东南亚（菲律宾、马来西亚）、中东（伊朗、伊拉克）以及中国市场的重要进口来源。越南农业和农村发展部对出口大米实施严格的质量监管，确保出口产品符合国际标准。\n\n我们在越南九龙江三角洲建立了完善的供应链体系，可承接整柜及大宗连续订单，提供具有竞争力的FOB胡志明港及CIF目的港报价。"
+    },
+    "frozen-white-shrimp": {
+      "name": "越南冷冻白虾",
+      "tagline": "鲜活急冻，锁住海鲜原味",
+      "description": "越南南部养殖的优质白对虾（凡纳滨对虾），活捞后快速急冻处理，肉质鲜嫩弹牙，是全球最受欢迎的冷冻虾产品，广泛用于餐厅、超市及食品加工。",
+      "moq": "1个20英尺冷冻集装箱（约20吨）",
+      "containerCapacity": "20吨/20英尺冷冻集装箱 / 25吨/40英尺冷冻集装箱",
+      "packagingOptions": [
+        "1公斤/2公斤真空装（零售）",
+        "5公斤/10公斤散冻块（餐饮）",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南冷冻白虾出口 | 凡纳滨对虾 | HACCP认证",
+      "seoDescription": "越南出口冷冻白虾（凡纳滨对虾），HACCP及ASC认证，多种规格可选，出口至欧美、日韩及中东市场。",
+      "longDescription": "越南是全球最重要的对虾养殖和出口国之一，冷冻白虾（凡纳滨对虾，Litopenaeus vannamei）是越南水产品出口的核心产品。我们的白虾来自越南南部金瓯省（Ca Mau）、薄寮省（Bac Lieu）、坚江省（Kien Giang）等优质养殖区，这些地区拥有天然洁净的水源和严格的养殖管理体系。\n\n捕捞后的活虾在加工厂内快速清洗、去头或带头处理，然后进行IQF（单体速冻）或块冻处理，全程冷链温度维持在-18°C以下，最大限度保留虾肉的鲜嫩口感和天然甜味。\n\n规格齐全：从U/15超大虾到61/70规格的小虾均有供应，可提供带壳、去壳、去虾线、蝴蝶形开背等多种加工形态，满足餐厅、零售和食品加工的不同需求。产品通过HACCP、ISO 22000、EU认证及ASC可持续认证，可出口至欧盟、美国、日本、中国、中东等主要市场。\n\n全年均有稳定供货能力，建议提前4–6周下单确认，以保障冷冻集装箱调度和装运计划。",
+      "specs": [
+        {
+          "value": "Litopenaeus vannamei (White Shrimp)"
+        },
+        {
+          "value": "HOSO / HLSO / PD / PTO / PDTO"
+        },
+        {
+          "value": "8/12 to 100/200 pcs/lb"
+        },
+        {
+          "value": "10–15% (IQF method)"
+        },
+        {
+          "value": "≤ -18°C"
+        },
+        {
+          "value": "1 kg / 1.8 kg / 2 kg block"
+        },
+        {
+          "value": "阴性 (SGS/Eurofins certified)"
+        },
+        {
+          "value": "Ca Mau, Soc Trang, Ben Tre (湄公河三角洲)"
+        },
+        {
+          "value": "24 个月 at -18°C"
+        },
+        {
+          "value": "0306.17.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们使用什么冷冻方法？",
+          "answer": "我们提供IQF（单冻）和BQF（块冻）。IQF用于零售和小份服务，BQF用于工业用途。两者均使用机械冷冻至-18°C或更低。"
+        },
+        {
+          "question": "你们是否符合美国FDA和欧盟卫生检验要求？",
+          "answer": "是的，我们的加工厂在美国FDA注册，并由越南NAFIQAD（卫生检验主管部门）批准向欧盟出口。每批次都附带卫生证书。"
+        },
+        {
+          "question": "你们能安排冷藏集装箱发往中东吗？",
+          "answer": "可以，我们经常将冷藏集装箱发往吉达、迪拜、科威特、卡塔尔和其他海湾合作委员会港口。运输期间温度维持在-18°C或更低。"
+        },
+        {
+          "question": "你们是否提供清真认证的海鲜以供中东市场？",
+          "answer": "是的，我们网络中的所有加工厂都持有最新的清真认证。清真证书包含在所有出口装运中。"
+        }
+      ]
+    },
+    "frozen-pangasius-fillet": {
+      "name": "越南冷冻巴沙鱼片",
+      "tagline": "肉质洁白，少刺无腥，物美价廉",
+      "description": "越南九龙江三角洲养殖的巴沙鱼（Pangasius），手工去骨切片后急冻，鱼肉洁白细嫩、几乎无刺、味道清淡，是全球市场量最大的冷冻鱼类产品之一。",
+      "moq": "1个冷冻集装箱（约20吨）",
+      "containerCapacity": "20–22吨/20英尺冷冻集装箱",
+      "packagingOptions": [
+        "170g–220g/片标准切（餐饮）",
+        "10公斤散冻块",
+        "定制零售包装"
+      ],
+      "seoTitle": "越南冷冻巴沙鱼片出口 | 少刺洁白 | HACCP认证",
+      "seoDescription": "越南出口冷冻巴沙鱼片，肉质洁白细嫩，少刺少腥，多种规格，HACCP认证，出口欧美及全球市场。",
+      "longDescription": "越南是全球最大的巴沙鱼（Pangasius / Basa Fish）养殖和出口国，主要产区位于九龙江三角洲的安江省（An Giang）和同塔省（Dong Thap），这里得天独厚的水域条件为巴沙鱼的快速生长提供了理想环境。\n\n巴沙鱼片因其肉质洁白、口感细腻、鱼腥味轻微、骨刺极少而深受全球消费者和餐饮运营商青睐。经过专业的去骨、修剪和切割工序，冷冻鱼片可直接用于烹饪（煎、炸、烤、蒸），操作便捷，损耗极低。\n\n我们提供多种规格和成型选择：标准矩形切片（常规餐饮规格100–220g）、条形切、碎鱼肉等，可根据客户要求定制出肉率（以净肉重/毛重比率计算，通常为60–68%）。产品通过欧盟、美国FDA、日本和中国市场认证，可出具完整的微生物检测和兽药残留检测报告。\n\n巴沙鱼片是替代鳕鱼、罗非鱼和其他高价值白鱼的经济实惠选择，在欧洲（西班牙、荷兰、英国）、美国、俄罗斯和中东市场拥有庞大且稳定的需求。",
+      "specs": [
+        {
+          "value": "Pangasianodon hypophthalmus (Tra/Basa)"
+        },
+        {
+          "value": "IQF boneless, skinless fillet"
+        },
+        {
+          "value": "Well-Trimmed (WT) / Semi-Trimmed (ST)"
+        },
+        {
+          "value": "60–90g / 90–120g / 120–170g / 170–220g"
+        },
+        {
+          "value": "5–20% (按要求)"
+        },
+        {
+          "value": "≤ -18°C"
+        },
+        {
+          "value": "Per buyer specification"
+        },
+        {
+          "value": "An Giang, Dong Thap (湄公河三角洲)"
+        },
+        {
+          "value": "24 个月 at -18°C"
+        },
+        {
+          "value": "0304.62.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "巴沙鱼是淡水还是海水？",
+          "answer": "巴沙鱼（巴沙）是在湄公河三角洲的网箱和池塘中养殖的淡水鲶鱼。它以肉质温和、易处理和成本低廉而闻名。"
+        },
+        {
+          "question": "你们是否提供未经化学品处理的鱼片？",
+          "answer": "可以，按要求我们提供无三聚磷酸盐（STPP-free）和无CO处理选项，符合越南欧盟、美国和日本市场。"
+        }
+      ]
+    },
+    "frozen-squid-rings": {
+      "name": "越南冷冻鱿鱼圈",
+      "tagline": "脆嫩鲜美，餐饮爆款即用产品",
+      "description": "越南近海捕捞的新鲜鱿鱼，切圈急冻处理，肉质弹脆、鲜味浓郁，是炸鱿鱼圈、海鲜拼盘的热销原料，广受快餐、海鲜餐厅及超市冷冻食品区欢迎。",
+      "moq": "5吨",
+      "containerCapacity": "20吨/20英尺冷冻集装箱",
+      "packagingOptions": [
+        "1公斤/500g零售袋",
+        "10公斤散装袋（餐饮）",
+        "定制包装"
+      ],
+      "seoTitle": "越南冷冻鱿鱼圈出口 | 餐饮批发 | 多种规格",
+      "seoDescription": "越南出口冷冻鱿鱼圈，近海捕捞，急冻锁鲜，多种规格，适合快餐及海鲜餐厅，HACCP认证。",
+      "longDescription": "越南拥有绵长的海岸线和丰富的近海渔业资源，所产鱿鱼品质优异、肉质厚实，是制作冷冻鱿鱼圈的上乘原料。我们的鱿鱼圈采用新鲜捕捞的火枪鱿（Todarodes pacificus）或太平洋鱿鱼，经过清洗、去皮、剔内脏后切成均匀圆圈，再进行IQF速冻处理。\n\n产品规格通常为25–45mm外径（S/M/L），可按客户需求定制切圈厚度和尺寸。既有裸冻鱿鱼圈（用于餐厅二次加工），也可提供上浆预制品（Battered & Breaded Squid Rings），可直接投入油锅烹炸，极大提升餐厅运营效率。\n\n所有产品均在持有HACCP认证的冷链加工厂内生产，可提供微生物检测、重金属检测和过敏原声明，符合欧盟、美国和中东进口标准。\n\n冷冻鱿鱼圈是全球快餐、海鲜餐厅、酒吧小食和外卖渠道的高需求产品，尤其在欧洲南部（西班牙、意大利、葡萄牙）和中东地区市场广受欢迎。",
+      "specs": [
+        {
+          "value": "Uroteuthis chinensis / Illex argentinus"
+        },
+        {
+          "value": "Rings / Tubes / Tentacles / 整粒 cleaned"
+        },
+        {
+          "value": "8–10 mm (st及ard) / custom"
+        },
+        {
+          "value": "U/10 to 10/20 (oz per piece)"
+        },
+        {
+          "value": "10–20%"
+        },
+        {
+          "value": "≤ -18°C"
+        },
+        {
+          "value": "Creamy 白色 (skin removed)"
+        },
+        {
+          "value": "South China Sea / Gulf of Tonkin"
+        },
+        {
+          "value": "24 个月 at -18°C"
+        },
+        {
+          "value": "0307.43.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "鱿鱼圈是哪种类型？",
+          "answer": "我们主要使用越南海岸捕获的太平洋鱿鱼（Todarodes pacificus）和Loligo鱿鱼。鱿鱼圈切割厚度均匀，适合油炸、烧烤或炒菜。"
+        },
+        {
+          "question": "你们能供应裹粉鱿鱼圈吗？",
+          "answer": "可以，我们有可以供应预先裹粉（天妇罗或面包屑包裹）的鱿鱼圈的加工合作伙伴。MOQ每个SKU 1吨。"
+        }
+      ]
+    },
+    "frozen-blue-swimming-crab": {
+      "name": "越南冷冻梭子蟹",
+      "tagline": "肉质饱满，海鲜精品，高端餐饮首选",
+      "description": "越南近海捕捞的新鲜梭子蟹（三疣梭子蟹），整只急冻或加工成蟹肉、蟹肉条等形态，肉质鲜甜饱满，适合高档海鲜餐厅、食品加工及礼品市场。",
+      "moq": "5吨",
+      "containerCapacity": "20吨/冷冻集装箱",
+      "packagingOptions": [
+        "整只冷冻（1–2只/袋）",
+        "蟹肉罐装/蟹肉条",
+        "定制礼品包装"
+      ],
+      "seoTitle": "越南冷冻梭子蟹出口 | 高端海鲜 | HACCP认证",
+      "seoDescription": "越南出口冷冻梭子蟹及蟹肉产品，近海捕捞，急冻锁鲜，适合高端海鲜餐厅及礼品市场，HACCP认证。",
+      "longDescription": "越南沿海水域盛产三疣梭子蟹（Blue Swimming Crab），尤其是中部海域（从岘港至头顿）和南部九龙江三角洲的近岸区域，为梭子蟹提供了丰富的天然栖息地和食物来源，使其蟹肉饱满、鲜甜浓郁。\n\n我们提供多种梭子蟹产品形态：整只活冻（按规格分级，通常100–300g/只）、整只清洗速冻、蒸煮后去壳蟹肉（白蟹肉、爪肉、蟹黄混合肉）以及蟹膏罐头等。蟹肉产品经过手工剥壳和精细挑拣，最大程度确保无壳碎残留。\n\n产品通过HACCP和ISO 22000认证，蟹肉产品可提供微生物检测（沙门氏菌、李斯特菌）和贝毒素检测报告。符合欧盟、美国FDA、日本和新加坡市场进口标准。\n\n梭子蟹产品适合高档海鲜餐厅、日式料理餐厅、奢华自助餐以及礼品套装市场。我们提供灵活的包装定制服务，从散装批发到精品礼盒均可满足。",
+      "specs": [
+        {
+          "value": "Portunus pelagicus (Blue swimming crab)"
+        },
+        {
+          "value": "整粒 IQF / Half-shell / Claw clusters / Crab meat"
+        },
+        {
+          "value": "100-150g, 150-200g, 200-300g, 300g+"
+        },
+        {
+          "value": "IQF at -40°C"
+        },
+        {
+          "value": "-18°C 或以下"
+        },
+        {
+          "value": "24 个月 frozen"
+        },
+        {
+          "value": "0306.24.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "蓝梭子蟹是野生捕捞还是养殖？",
+          "answer": "100%野生捕捞，来自越南南部海岸（金瓯、坚江）。捕捞后立即用冰冷藏，并在24小时内在岸边设施加工。"
+        },
+        {
+          "question": "你们的设施是否持有欧盟卫生证书？",
+          "answer": "是的。在越南MARD欧盟出口批准设施名单上。完整的欧盟文件包括EUR.1（如适用）、卫生证书和原产地证书，每批都包括在内。"
+        }
+      ]
+    },
+    "frozen-seafood": {
+      "name": "越南冷冻水产品",
+      "tagline": "绵延海岸线孕育的丰富海鲜宝库",
+      "description": "越南拥有3260公里海岸线和丰富的近海渔业资源，是全球重要的水产品出口国。我们提供虾类、鱼片、鱿鱼、蟹类等全系列冷冻海鲜产品，覆盖全球主要市场。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "标准冷冻出口包装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南冷冻水产品出口 | 全系列海鲜 | HACCP认证",
+      "seoDescription": "越南冷冻水产品出口供应商，提供白虾、巴沙鱼片、鱿鱼、蟹类等全系列产品，HACCP认证，出口全球。",
+      "longDescription": "越南是世界上最重要的水产品生产和出口国之一，凭借3260公里的海岸线、众多天然渔场和先进的水产养殖技术，年出口水产品超过80亿美元，是越南最大的出口创汇产业之一。\n\n越南水产品以其高品质、多品种和具有竞争力的价格著称，主要出口产品包括：白对虾（凡纳滨对虾）、黑虎虾（斑节对虾）、巴沙鱼片（Pangasius）、罗非鱼、梭子蟹、鱿鱼、章鱼及各类贝类。\n\n我们的水产品加工厂均持有HACCP、ISO 22000认证，并通过EU、美国FDA、日本厚生省等主要目标市场的认证资质，产品质量达到国际出口标准。全程冷链管理确保产品从工厂到目的港保持最佳品质。\n\n越南水产品出口遵循越南农业和农村发展部（MARD）及越南国家农林渔业质量监督局（NAFIQAD）的严格监管，保障出口产品的安全性和可追溯性。"
+    },
+    "black-pepper-bulk": {
+      "name": "越南黑胡椒（散装）",
+      "tagline": "越南黑胡椒，全球调味品市场的王者",
+      "description": "越南巴地头顿省（Bà Rịa–Vũng Tàu）出产的优质散装黑胡椒，辛辣浓郁，香气持久，是全球香料市场最受欢迎的调味品之一，越南出口量约占全球总量的34%。",
+      "moq": "1吨",
+      "containerCapacity": "20–22吨/20英尺集装箱",
+      "packagingOptions": [
+        "25公斤/50公斤编织袋",
+        "散货集装箱",
+        "定制零售包装"
+      ],
+      "seoTitle": "越南散装黑胡椒出口 | 500g/l以上 | 理想交易越南",
+      "seoDescription": "购买越南出口散装黑胡椒，ASTA标准，容重500g/l以上，适合食品加工及调料行业，MOQ 1吨。",
+      "longDescription": "越南是全球最大的胡椒生产和出口国，每年出口黑胡椒约20–25万吨，占全球市场供应量的约34%。我们的黑胡椒主要来自巴地头顿省（Bà Rịa–Vũng Tàu）、平福省（Bình Phước）和嘉莱省（Gia Lai）等核心产区，这些地区的土壤和气候条件使胡椒具有特别浓郁的辛香气味。\n\n我们提供500g/l容重及以上规格的优质黑胡椒，产品经过严格清洁、去杂、分级，符合ASTA（美国香料贸易协会）标准和ESA（欧洲香料协会）标准，满足国际食品级调料进口要求。\n\n可提供的产品形态包括：整粒黑胡椒（Whole Black Pepper）、粗磨黑胡椒（Cracked）、细磨胡椒粉（Ground），适合食品加工厂、香料批发商和调味品品牌商采购。\n\n产品附植物检疫证书和质量分析证书（CoA），可提供农残检测报告（符合EU MRL标准）。全年均有现货供应，通常14天内可安排装运。",
+      "specs": [
+        {
+          "value": "FAQ / ASTA 500 GL / 550 GL / 570 GL"
+        },
+        {
+          "value": "500 – 600 g/L"
+        },
+        {
+          "value": "≤ 13%"
+        },
+        {
+          "value": "≥ 4.5%"
+        },
+        {
+          "value": "≤ 1%"
+        },
+        {
+          "value": "≤ 10%"
+        },
+        {
+          "value": "Absent (s茶m sterilized 可应要求)"
+        },
+        {
+          "value": "Phu Quoc, Gia Lai, 得乐"
+        },
+        {
+          "value": "24 个月 sealed"
+        },
+        {
+          "value": "0904.11.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的黑胡椒胡椒碱含量是多少？",
+          "answer": "我们的标准批次胡椒碱含量为4.5–5.5%。优质平度胡椒可达到5–6%。我们提供每批次的实验室分析证书。"
+        },
+        {
+          "question": "MOQ和典型集装箱配置是什么？",
+          "answer": "MOQ为1 x 20英尺集装箱（约15 MT）。我们也可以将多种规格混合装入单一集装箱：黑胡椒、白胡椒、整粒、研磨和有机变种。"
+        },
+        {
+          "question": "是否提供蒸汽杀菌？",
+          "answer": "可以，提供蒸汽杀菌以实现低SPC计数。推荐用于欧盟和美国市场，以及任何对微生物计数有严格要求的食品工业用途。"
+        }
+      ]
+    },
+    "star-anise-whole-export": {
+      "name": "越南整粒八角茴香",
+      "tagline": "天然精油含量高，香气馥郁持久",
+      "description": "越南谅山省出产的优质整粒八角茴香，花形完整饱满，天然反式茴脑（Anethole）含量高，香气浓郁持久，广泛用于中式烹饪、卤料、香料提取和传统中药。",
+      "moq": "500公斤",
+      "containerCapacity": "16–18吨/20英尺集装箱",
+      "packagingOptions": [
+        "25公斤/50公斤纸箱（内衬PE袋）",
+        "定制零售包装"
+      ],
+      "seoTitle": "越南整粒八角茴香出口 | 高精油含量 | 谅山产地",
+      "seoDescription": "越南谅山省出口整粒八角茴香，花形完整，精油含量高，适合食品调料、香料提取及中药市场，MOQ 500公斤。",
+      "longDescription": "越南谅山省（Lạng Sơn）地处中越边境山区，独特的亚热带山地气候和富含腐殖质的山地土壤，使这里出产的八角茴香精油含量远高于其他产区，花形完整，香气浓郁而持久。越南是全球第二大八角茴香产国，仅次于中国。\n\n我们提供的整粒八角茴香经过手工采摘、日晒干燥和精细分级处理，确保花形完整率（八角完整的比例）超过85%，水分含量低于13%，异物混入率低于0.5%，达到出口质量标准。\n\n八角茴香在食品行业广泛应用于卤料、五香粉、烤肉调料、汤底等产品；在香料工业中用于提取茴脑（Anethole）原料，是生产香水、漱口水、口香糖等产品的重要植物提取物来源；在传统中医中作为暖胃止咳的常用药材。\n\n可提供ISO标准精油含量检测报告（GC/MS分析），符合欧盟香料和食品添加剂法规（Regulation EC 1334/2008）。全年均有供货，谅山主产季通常在每年9–11月。",
+      "specs": [
+        {
+          "value": "整粒 / 碎粒 / Seeds"
+        },
+        {
+          "value": "≥ 14% (whole stars)"
+        },
+        {
+          "value": "≥ 80%"
+        },
+        {
+          "value": "≤ 12%"
+        },
+        {
+          "value": "≤ 1%"
+        },
+        {
+          "value": "Lang Son Province, 越南"
+        },
+        {
+          "value": "Oct–Dec (main) / May–Jun (secondary)"
+        },
+        {
+          "value": "24 个月 sealed"
+        },
+        {
+          "value": "0909.60.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "整粒八角的精油含量是多少？",
+          "answer": "越南整粒八角的反式茴香脑含量为8–10%，是制造业的优质原料。我们对每批次进行GC-MS测试。"
+        },
+        {
+          "question": "你们也供应八角精油吗？",
+          "answer": "可以，我们可以从Lang Son省安排供应蒸汽蒸馏的八角精油（trans-anethole ≥80%），通过MOQ 200公斤起。"
+        }
+      ]
+    },
+    "vietnamese-cinnamon-cassia": {
+      "name": "越南肉桂（桂皮）",
+      "tagline": "高精油含量，世界最优质肉桂之一",
+      "description": "越南安沛省（Yên Bái）出产的越南肉桂（桂皮），挥发油含量高达2–4%（高于斯里兰卡锡兰肉桂和印度尼西亚肉桂），香气浓烈，甜辣兼备，是世界顶级肉桂品种之一。",
+      "moq": "500公斤",
+      "containerCapacity": "12–15吨/20英尺集装箱",
+      "packagingOptions": [
+        "25公斤/50公斤编织袋",
+        "定制零售包装（卷桂皮）",
+        "肉桂粉分装"
+      ],
+      "seoTitle": "越南肉桂出口 | 高精油含量 | 安沛省产地",
+      "seoDescription": "越南出口优质肉桂（桂皮），安沛省产地，精油含量2–4%，适合烘焙、香料及精油提取行业，MOQ 500公斤。",
+      "longDescription": "越南肉桂（Vietnamese Cinnamon / Cassia）学名为肉桂（Cinnamomum loureiroi），主产于越南北部安沛省的Văn Chấn和Lục Yên地区，这里海拔800–1000米的山地气候赋予了越南肉桂独特的香气特征——浓烈、甜辣、回味悠长。\n\n越南肉桂的精油含量通常达到2–4%（以肉桂醛Cinnamaldehyde为主要成分），显著高于斯里兰卡锡兰肉桂（~0.5–2%）和印度尼西亚科林托肉桂（~1–3%），因此在全球烘焙、饮料和香料市场享有极高声誉。\n\n我们提供多种产品形态：整根桂皮（直径5–20mm，长度5–45cm不等）、桂皮碎、肉桂粉等，可按客户需求定制规格。越南肉桂特别适用于苹果派、肉桂卷、印度奶茶（Chai）、红酒热饮（Mulled Wine）以及各类东方风味调料。\n\n可提供精油成分分析报告（GC/MS）、农药残留检测报告和植物检疫证书，符合欧盟、美国和中东食品香料进口标准。",
+      "specs": [
+        {
+          "value": "Cinnamomum loureiroi (越南ese Cassia)"
+        },
+        {
+          "value": "3.5% / 4.0% / 4.5% (grade)"
+        },
+        {
+          "value": "Split Quills / 碎粒 / C&S / Powder"
+        },
+        {
+          "value": "≤ 13%"
+        },
+        {
+          "value": "≤ 1%"
+        },
+        {
+          "value": "≥ 55% (in oil)"
+        },
+        {
+          "value": "Yên Bái, Lào Cai Province"
+        },
+        {
+          "value": "24 个月 (sealed, dry)"
+        },
+        {
+          "value": "0906.11.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "越南桂皮与锡兰肉桂有什么区别？",
+          "answer": "越南桂皮（Cinnamomum loureiroi）有更强、更浓郁的风味，挥发油含量较高（3–6% vs 锡兰的1–2.5%）。它更适合烘焙、烹饪和工业用途。"
+        },
+        {
+          "question": "你们能提供低香豆素肉桂吗？",
+          "answer": "可以，按要求我们可提供香豆素含量低于5,000毫克/公斤（欧盟标准）和针对德国和法国市场的更低水平的批次。"
+        }
+      ]
+    },
+    "turmeric-powder-export": {
+      "name": "越南姜黄粉",
+      "tagline": "天然姜黄素含量高，色泽鲜艳纯正",
+      "description": "越南出产的优质姜黄粉，姜黄素（Curcumin）含量高达3–5%，色泽金黄鲜艳，是食品着色、咖喱调料、功能性食品和营养保健品的优质原料。",
+      "moq": "500公斤",
+      "containerCapacity": "18–20吨/20英尺集装箱",
+      "packagingOptions": [
+        "25公斤编织袋",
+        "1公斤/5公斤零售袋",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南姜黄粉出口 | 高姜黄素含量 | 食品级",
+      "seoDescription": "越南出口食品级姜黄粉，姜黄素含量3–5%，色价高，适合食品加工、咖喱调料及保健品行业，MOQ 500公斤。",
+      "longDescription": "姜黄（Curcuma longa）是越南中部省份（广南、广义等省）广泛种植的药食两用植物，越南出产的姜黄以其极高的姜黄素含量（通常3–5%，远超印度姜黄的2–3%）和亮丽的金黄色泽而在国际市场上备受推崇。\n\n我们的姜黄粉由新鲜收获的姜黄根茎经过清洗、蒸煮、干燥和研磨工序制成，色价（Color Value）通常在300–500 ASTA之间，确保产品在食品和化妆品应用中具有优异的着色效果。\n\n姜黄粉在食品工业中广泛用于咖喱粉、芥末酱、奶酪着色、泡菜调料等产品；在功能性食品和营养保健品领域，姜黄素因其抗氧化、抗炎特性而成为热门功能性原料；在化妆品行业也有天然染色应用。\n\n产品可提供姜黄素含量检测（HPLC法）、重金属检测（铅、汞、砷、镉）和农残检测报告，符合欧盟、美国和中东标准。提供有机认证批次（需提前确认货源）。",
+      "specs": [
+        {
+          "value": "3-5% (natural) / 95% (extract 可提供)"
+        },
+        {
+          "value": "≤ 10%"
+        },
+        {
+          "value": "200-325 mesh"
+        },
+        {
+          "value": "450-500 colour units"
+        },
+        {
+          "value": "≤ 100,000 CFU/g"
+        },
+        {
+          "value": "24 个月 sealed"
+        },
+        {
+          "value": "0910.30.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的姜黄粉中姜黄素含量是多少？",
+          "answer": "标准批次姜黄素含量为3–5%。优质批次（高姜黄素）可达5–7%。我们对每批次提供HPLC测试报告。"
+        },
+        {
+          "question": "你们供应95%姜黄素提取物用于补充剂吗？",
+          "answer": "是的。标准化姜黄提取物含95%姜黄素，提供HPLC测试、重金属分析和微生物认证。MOQ 25公斤袋装。"
+        }
+      ]
+    },
+    "spices": {
+      "name": "越南香料",
+      "tagline": "热带土地孕育的天然香料宝藏",
+      "description": "越南独特的热带气候孕育出品质卓越的天然香料，包括黑胡椒、八角茴香、肉桂、姜黄等。越南是全球最重要的香料生产和出口国之一。",
+      "moq": "视品种而定",
+      "containerCapacity": "视品种而定",
+      "packagingOptions": [
+        "标准出口包装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南香料出口 | 黑胡椒、八角、肉桂 | 理想交易越南",
+      "seoDescription": "越南香料出口供应商，提供黑胡椒、八角茴香、肉桂、姜黄粉等全系列产品，质量认证齐全，出口全球。",
+      "longDescription": "越南地处热带和亚热带地区，多样化的地形地貌——从沿海平原到高山丘陵——为多种香料植物的生长创造了得天独厚的自然条件。越南是全球最重要的香料生产国之一，尤其在胡椒（全球第一出口国）和八角茴香（全球第二产国）方面占据举足轻重的地位。\n\n我们的香料产品线包括：黑胡椒（整粒/白胡椒/胡椒粉）、八角茴香（整粒/碎粒/精油）、越南肉桂（桂皮/桂粉）、姜黄粉、干辣椒等，覆盖全球香料市场的主流需求。\n\n越南香料以其高精油含量和浓郁天然香气著称，深受国际食品加工商、香料贸易商和精品调料品牌青睐。我们在各主产区（谅山、安沛、巴地头顿、广义等省）建立了完善的采购网络，确保货源质量的稳定性和可追溯性。\n\n所有香料产品均附植物检疫证书，可提供精油含量分析、农残检测和重金属检测报告，符合欧盟、美国和中东进口标准。"
+    },
+    "thai-nguyen-green-tea": {
+      "name": "太原绿茶",
+      "tagline": "越南茶叶之都出产的顶级绿茶",
+      "description": "来自越南太原省（Thái Nguyên）的正宗优质绿茶，这里被誉为越南的茶叶之都。茶叶采摘自海拔400–600米的丘陵茶园，清香馥郁，回甘持久，是越南最具代表性的绿茶品种之一。",
+      "moq": "500公斤",
+      "containerCapacity": "10–12吨/20英尺集装箱",
+      "packagingOptions": [
+        "100克/200克/500克零售袋",
+        "1公斤/5公斤散装袋",
+        "礼盒装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "太原绿茶出口 | 越南顶级绿茶 | 理想交易越南",
+      "seoDescription": "购买越南太原省出口优质绿茶，清香甘醇，通过ISO认证，提供OEM定制，MOQ 500公斤，出口全球市场。",
+      "longDescription": "太原省（Thái Nguyên）是越南北部著名的产茶圣地，被誉为越南的「茶叶之都」。这里海拔400–600米的红土丘陵地带，独特的微气候条件（充沛降雨、昼夜温差大）孕育出香气清幽、滋味甘醇的顶级绿茶。\n\n太原绿茶采用传统手工炒制工艺，茶叶在铁锅中经过高温翻炒、揉捻和烘干，最大程度保留茶叶的天然芳香物质和茶多酚成分。冲泡后汤色嫩绿明亮，清香持久，入口清爽，回甘绵长，是越南本地人最喜爱的日常饮用绿茶。\n\n我们与太原省的多个知名茶叶合作社和生产商建立了长期合作关系，可稳定提供特级、一级、二级等不同等级的太原绿茶，满足不同市场和价位需求。产品通过食品安全认证，可出具农药残留检测报告，符合欧盟和日本等主要进口国的标准。\n\n提供散装、零售袋装及精品礼盒装多种包装形式，支持OEM品牌定制服务，适合茶叶品牌商、进口商和连锁茶饮企业采购。",
+      "specs": [
+        {
+          "value": "Bud / OP / 碎粒 / Fannings"
+        },
+        {
+          "value": "≤ 6%"
+        },
+        {
+          "value": "≤ 7%"
+        },
+        {
+          "value": "≥ 25%"
+        },
+        {
+          "value": "Clear jade-绿色"
+        },
+        {
+          "value": "新鲜, grassy, floral"
+        },
+        {
+          "value": "EU MRL compliant"
+        },
+        {
+          "value": "Thái Nguyên Province, 越南"
+        },
+        {
+          "value": "Spring / Summer / Autumn"
+        },
+        {
+          "value": "24 个月 (sealed)"
+        },
+        {
+          "value": "0902.10.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "什么使太原绿茶独特？",
+          "answer": "太原（越南北部）的微气候、传统手工采摘和炭火烘焙工艺产生具有强烈鲜味、淡黄绿色泽和持久回甘的特色绿茶。被许多人认为是越南最好的绿茶。"
+        },
+        {
+          "question": "你们能为欧盟市场供应太原认证绿茶吗？",
+          "answer": "是的。我们与按照严格的欧盟合规农药协议运作的农业合作社合作。所有出口批次都在英国UKAS认可的实验室进行欧盟MRL（最大残留限量）测试。"
+        },
+        {
+          "question": "茶包切割（TBC）或Fannings等级是否可用于茶包制造商？",
+          "answer": "可以，我们供应CTC（碾碎、撕裂、卷曲）和Fannings等级，专门为茶包生产加工以确保一致的萃取。"
+        },
+        {
+          "question": "定制品牌零售订单的交货期是多久？",
+          "answer": "散装绿茶配通用包装：7–14天。定制印刷罐或品牌袋装：从订单确认起21–35天。"
+        }
+      ]
+    },
+    "jasmine-green-tea": {
+      "name": "越南茉莉花绿茶",
+      "tagline": "茶香与花香的完美融合，柔和芬芳",
+      "description": "选用越南优质绿茶与新鲜茉莉花经传统窨制工艺制成，茶香与花香相互融合，芳香馥郁而不失清雅，是广受亚洲及全球消费者喜爱的花茶品种。",
+      "moq": "500公斤",
+      "containerCapacity": "10–12吨/20英尺集装箱",
+      "packagingOptions": [
+        "100克/200克/500克零售袋",
+        "茶包装（袋泡茶）",
+        "礼盒装",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南茉莉花绿茶出口 | 传统窨制 | OEM定制",
+      "seoDescription": "越南出口茉莉花绿茶，传统窨制工艺，茶香花香融合，提供袋泡茶及散茶，OEM定制，MOQ 500公斤。",
+      "longDescription": "越南茉莉花绿茶以越南北部优质绿茶为基底，按照传统窨花工艺，将新鲜采摘的茉莉花与绿茶充分混合，经过多次窨制和烘干，使茶叶充分吸收茉莉花的天然香气，呈现出茶香与花香完美融合的独特风味。\n\n经过3–7次窨制的高端茉莉花茶香气层次丰富，花香浓郁而茶味清醇，汤色淡黄透亮，深受中国、东南亚、中东及欧洲消费者喜爱。茉莉花茶不仅是一款日常饮品，更因其天然芳香和放松身心的功效而深受女性消费者青睐。\n\n我们提供散叶茉莉花茶和袋泡茶两种形式，散叶茶适合传统茶叶消费市场，袋泡茶则更适合便利消费和现代零售渠道。全系列产品均支持OEM品牌定制，从包装设计到产品规格均可按客户需求量身打造。\n\n产品经过食品安全认证，可提供农残检测报告和重金属检测报告，符合国际进口标准。",
+      "specs": [
+        {
+          "value": "Jasmine-scented 绿色 茶"
+        },
+        {
+          "value": "3–5 times (grade dependent)"
+        },
+        {
+          "value": "≤ 7%"
+        },
+        {
+          "value": "Intensely floral, jasmine-sweet"
+        },
+        {
+          "value": "Pale gold / light 绿色"
+        },
+        {
+          "value": "A级: ≥ 85% floral absorption"
+        },
+        {
+          "value": "Thái Nguyên / Lâm Đồng, 越南"
+        },
+        {
+          "value": "18 个月 (sealed, cool storage)"
+        },
+        {
+          "value": "0902.10.90"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "茉莉花茶是用真正的茉莉花熏制吗？",
+          "answer": "是的，我们的茉莉花茶通过传统的层叠工艺与新鲜的越南茉莉花熏制4–7次。这产生丰富的花香，无需添加香精。"
+        },
+        {
+          "question": "越南茉莉茶适合制作茶包吗？",
+          "answer": "是的。我们提供专门为茶包机加工和分级的fannings等级茉莉茶，确保每个茶包的香气一致。"
+        },
+        {
+          "question": "你们为零售茉莉茶提供私人标签包装吗？",
+          "answer": "是的。我们从500公斤MOQ起制造私人标签茶产品，包括定制罐子印刷、铝箔密封袋和带标签茶包。"
+        }
+      ]
+    },
+    "lotus-tea-export": {
+      "name": "越南莲花茶",
+      "tagline": "越南皇室贡品，清幽高雅的珍稀花茶",
+      "description": "越南传统工艺莲花茶，将优质绿茶置入新鲜莲花苞中窨制一夜，让茶叶充分吸收莲花的天然幽香，工艺繁复、产量稀少，是越南最具代表性的高端特色茶品之一。",
+      "moq": "100公斤（产量有限）",
+      "containerCapacity": "按需定制小批量",
+      "packagingOptions": [
+        "100克/200克精品礼盒",
+        "定制高端礼品套装"
+      ],
+      "seoTitle": "越南莲花茶出口 | 越南皇室贡品 | 精品礼盒",
+      "seoDescription": "越南出口传统莲花茶，手工窨制，产量珍稀，适合高端礼品及精品茶叶市场，MOQ 100公斤。",
+      "longDescription": "越南莲花茶（Trà Sen）是越南最具文化底蕴和艺术价值的茶品之一，相传起源于越南封建王朝宫廷，曾是皇室专供的珍稀贡品。其制作工艺极为讲究：在清晨莲花未开放之前，将少量优质绿茶嫩芽放入每朵含苞欲放的莲花中，用绳线轻轻扎住花瓣，让茶叶在花苞中与莲花共同度过一整夜，吸收莲花散发的幽幽清香。次日清晨，将茶叶取出，放在阳光下或低温下轻柔烘干，完成窨制。\n\n这一工艺的特别之处在于：制作约1公斤高品质莲花茶，需要消耗约1000–1300朵新鲜莲花，且整个过程完全依赖手工完成，无法实现机械化，因此产量极为有限，价格在高端花茶中名列前茅。\n\n越南莲花茶冲泡后汤色清澈金黄，茶香清幽淡雅，莲花的清香在茶汤中若有若无，回味悠长，极为雅致。是馈赠亲友、商业礼品和高端旅游纪念品的绝佳选择。\n\n由于工艺特殊、产量有限，建议提前联系我们确认货源，我们可提供精品礼盒定制和品牌包装服务，适合高端茶叶品牌商和礼品采购商。",
+      "specs": [
+        {
+          "value": "Thai Nguyen 绿色 茶 (single bud)"
+        },
+        {
+          "value": "3x (st及ard) / 5-7x (premium)"
+        },
+        {
+          "value": "≤ 7%"
+        },
+        {
+          "value": "天然 lotus — no artificial 香味"
+        },
+        {
+          "value": "18 个月 vacuum sealed"
+        },
+        {
+          "value": "50 kg"
+        },
+        {
+          "value": "0902.10.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "莲花茶是用什么制作的？",
+          "answer": "我们采用两种方法：(1) 传统方法 - 绿茶在新鲜莲花花瓣中过夜熏制（顺化皇室方法）；(2) 现代方法 - 干莲花花蕊或花瓣与绿茶混合。"
+        },
+        {
+          "question": "为什么莲花茶比茉莉茶贵？",
+          "answer": "优质5周期莲花茶大约需要1,400朵新鲜莲花花来生产1公斤成品茶。这种集中的劳动力和原材料投入推高了成本，但创造了一个独特的、特定地区的特色产品。"
+        }
+      ]
+    },
+    "green-tea": {
+      "name": "越南绿茶",
+      "tagline": "天然茶多酚，清醇甘香的健康饮品",
+      "description": "越南优质绿茶，产自太原、莫州、富寿等主要产茶区，包括太原绿茶、茉莉花茶、莲花茶等特色品种，是亚洲和全球绿茶市场的重要供应来源。",
+      "moq": "视品种而定",
+      "containerCapacity": "视品种而定",
+      "packagingOptions": [
+        "散叶包装",
+        "袋泡茶",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南绿茶出口 | 太原绿茶、茉莉花茶 | 理想交易越南",
+      "seoDescription": "越南绿茶出口供应商，提供太原绿茶、茉莉花茶、莲花茶等特色品种，食品级认证，OEM定制，出口全球。",
+      "longDescription": "越南拥有悠久的茶叶种植历史，全国茶园面积约13万公顷，主要分布在北部山区（太原省、莫州省、富寿省、山萝省）和中部高原（林同省大叻）。越南年产绿茶约18–20万吨，是全球第五大茶叶生产国和出口国。\n\n越南绿茶的特点是香气清幽、茶多酚含量高、苦涩度适中，经精心炒制或蒸青处理，保留了茶叶的天然活性成分和清新风味。主要产品包括：太原绿茶（越南最著名的产区绿茶）、茉莉花绿茶（传统窨制花茶）、莲花茶（越南皇室级特色茶）以及出口型绿茶（CTC或散叶，适合批量进口商）。\n\n越南绿茶在中国、中东（伊朗、巴基斯坦）、东南亚、俄罗斯及欧洲市场拥有庞大的需求，我们与越南主要产区的多家茶厂和合作社建立了稳定供应关系，可提供从精品小批量到整柜大宗的多样化采购选择。\n\n产品通过食品安全认证，可提供农残（符合EU MRL）和重金属检测报告，部分批次可提供有机认证。"
+    },
+    "fresh-export-pineapple": {
+      "name": "越南出口新鲜菠萝",
+      "tagline": "热带阳光孕育，甜蜜多汁的优质菠萝",
+      "description": "越南热带产区出产的优质出口鲜菠萝，果肉金黄甜蜜，汁水丰沛，纤维细腻，富含维生素C和菠萝蛋白酶，是东南亚最受欢迎的出口热带水果之一。",
+      "moq": "1个标准集装箱（约20吨）",
+      "containerCapacity": "20吨/20英尺集装箱",
+      "packagingOptions": [
+        "纸箱装（每箱8–12颗）",
+        "散装托盘（超市零售）",
+        "定制礼品包装"
+      ],
+      "seoTitle": "越南新鲜菠萝出口 | 热带优质水果 | 理想交易越南",
+      "seoDescription": "越南出口新鲜菠萝，果肉金黄甜蜜，适合超市零售及批发市场，提供GAP认证，MOQ 1个集装箱。",
+      "longDescription": "越南地处热带，充足的阳光和丰沛的降雨为菠萝的生长创造了理想条件。越南菠萝主要产区包括金瓯省（Ca Mau）、前江省（Tien Giang）、隆安省（Long An）以及中部高原的嘉莱省（Gia Lai），各产区出产的菠萝在品种和风味上各有特色。\n\n我们出口的主要菠萝品种为MD-2（金菠萝）和皇后菠萝（Queen Pineapple）：MD-2品种果型规整、糖度高（Brix值通常在12–15之间）、适合长途运输；皇后菠萝果型较小、香气浓郁、风味独特，在中东和欧洲高端市场受到追捧。\n\n所有出口菠萝均通过GAP（良好农业规范）认证，在采摘后24小时内完成预冷和包装处理，确保产品在运输过程中保持最佳的新鲜度和货架期（通常15–21天）。可提供植物检疫证书和产地证明，符合各目标市场进口要求。\n\n适合超市连锁采购、水果批发商和进口商。提供定制包装（纸箱印刷、产地标签）和Carrefour、Tesco等超市连锁的入场认证支持。",
+      "specs": [
+        {
+          "value": "Queen (Dứa Ta) / MD2 (Gold)"
+        },
+        {
+          "value": "14–18° Brix (Queen) / 13–16° (MD2)"
+        },
+        {
+          "value": "0.6–1.0 kg (Queen) / 1.2–2.0 kg (MD2)"
+        },
+        {
+          "value": "14–21 天 at 10–12°C"
+        },
+        {
+          "value": "≤ 5% surface blemish allowed"
+        },
+        {
+          "value": "¼ to ½ 黄色 at point of export"
+        },
+        {
+          "value": "6–14 水果s per carton (size dependent)"
+        },
+        {
+          "value": "8–12 kg net"
+        },
+        {
+          "value": "Long An, Tiền Giang, Kiên Giang"
+        },
+        {
+          "value": "0804.30.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "新鲜菠萝可以海运吗？",
+          "answer": "可以，采用控温冷链集装箱（10–12°C）。Queen品种可保鲜21–25天，MD2品种可保鲜25–30天。我们提供从胡志明市港和海防港的发货。"
+        },
+        {
+          "question": "菠萝能通过空运出口到更高价值的市场吗？",
+          "answer": "可以，对于优质或时间敏感的订单，我们安排从新山一或内排机场空运到中东和东亚的目的地。运输时间：1–3天。"
+        },
+        {
+          "question": "你们为超市连锁店提供定制纸箱标签吗？",
+          "answer": "是的，我们为关键客户买家提供私人标签纸箱印刷。要求包括条形码、营养信息和买方品牌。"
+        }
+      ]
+    },
+    "canned-pineapple-syrup": {
+      "name": "越南糖水菠萝罐头",
+      "tagline": "热带风味永久保鲜，方便美味随时享用",
+      "description": "越南出产的优质糖水菠萝罐头，选用成熟新鲜菠萝加工制成，片装或圈装，糖水清甜，果肉金黄软滑，是全球最畅销的水果罐头之一，适合超市零售、烘焙和餐饮渠道。",
+      "moq": "1个20英尺集装箱",
+      "containerCapacity": "约20吨/20英尺集装箱（视罐型）",
+      "packagingOptions": [
+        "565g/840g零售罐",
+        "A10大罐（餐饮用）",
+        "定制OEM品牌罐头"
+      ],
+      "seoTitle": "越南糖水菠萝罐头出口 | 片装/圈装 | OEM定制",
+      "seoDescription": "越南出口糖水菠萝罐头，片装或圈装，甜度适中，适合零售及餐饮渠道，OEM定制，MOQ 1个集装箱。",
+      "longDescription": "越南糖水菠萝罐头是越南食品加工行业出口量最大的产品之一，以其新鲜菠萝的天然风味和方便储存的优势，在全球水果罐头市场占有重要地位。\n\n我们使用越南南部和中部高原产区新鲜采摘、充分成熟的菠萝为原料，经过清洗、去皮、去芯、切片或切圈、热灌装、密封杀菌等标准食品加工流程制成。产品可提供轻糖浆（Brix 14–16°）和标准糖浆（Brix 18–20°）两种甜度规格，满足不同市场口味偏好。\n\n产品在通过HACCP、ISO 22000和FDA注册认证的食品工厂内生产，严格执行GMP规范，确保食品安全。可出口至欧盟、美国、中东、澳大利亚等全球主要市场，附完整食品安全文件和营养成分表。\n\n提供565g、840g零售罐和A10大罐（餐饮/工业用）等多种规格，支持OEM品牌定制（罐身印刷、标签粘贴），最小起订量1个集装箱（约6000–8000罐，视罐型），适合超市采购商、分销商和食品品牌商。",
+      "specs": [
+        {
+          "value": "≥ 60% of net weight (Codex st及ard)"
+        },
+        {
+          "value": "14–16° (light) / 18–22° (heavy)"
+        },
+        {
+          "value": "A10 / A2½ / 1 kg / 565g / 227g"
+        },
+        {
+          "value": "Slices / Chunks / Tidbits / Crushed / Rings"
+        },
+        {
+          "value": "3.5–4.0"
+        },
+        {
+          "value": "36 个月 (room temperature)"
+        },
+        {
+          "value": "3,000g / Drained: 1,800g min"
+        },
+        {
+          "value": "符合标准 (Sn ≤ 200 ppm)"
+        },
+        {
+          "value": "2008.20.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们提供哪些罐头规格？",
+          "answer": "A10（3公斤）、20oz（567克）、15oz（425克）罐头。可使用轻糖浆、重糖浆或天然菠萝汁。可应要求提供有机和无糖选项。"
+        },
+        {
+          "question": "你们为食品服务和烘焙买家提供A10罐头吗？",
+          "answer": "可以，A10（3公斤净重）是我们主要的食品服务/食品工业规格，也是我们最畅销的出口格式之一。每个20英尺集装箱可装载约1,600–1,800罐。"
+        },
+        {
+          "question": "沙特阿拉伯和海湾市场需要什么认证？",
+          "answer": "我们提供SASO合规文件、来自经认证机构的清真证书、原产地证书、卫生证书和发货前SGS检验报告。"
+        }
+      ]
+    },
+    "dried-pineapple-export": {
+      "name": "越南出口干菠萝片",
+      "tagline": "天然晒干，浓缩热带甜蜜风味",
+      "description": "越南优质菠萝经低温脱水干燥制成的干菠萝片，保留了菠萝的天然香甜风味和部分营养成分，是受欢迎的健康零食、烘焙配料和什锦果干原料。",
+      "moq": "500公斤",
+      "containerCapacity": "10–12吨/20英尺集装箱",
+      "packagingOptions": [
+        "100克/200克零售袋",
+        "5公斤/10公斤散装袋（食品加工）",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南出口干菠萝片 | 天然低温干燥 | 健康零食",
+      "seoDescription": "越南出口干菠萝片，低温脱水干燥，天然甜香，无人工添加剂，适合零食及烘焙市场，MOQ 500公斤。",
+      "longDescription": "干菠萝片是越南水果干燥加工行业的重要出口产品，以其浓缩的热带水果风味和较长的保质期（通常12–18个月）在全球健康零食市场广受欢迎。\n\n我们的干菠萝片选用越南产区成熟新鲜菠萝为原料，经过低温（60–70°C）热风干燥工艺脱水，最大程度保留菠萝的天然糖分、香气和部分维生素C，无须添加防腐剂和人工色素，呈现出金黄自然的色泽。\n\n产品提供原味（纯天然）和轻盐调味两种口味，原味干菠萝片甜度天然浓郁，适合直接食用；调味版适合作为鸡尾酒配料和烧烤佐食。可用作什锦果干（Trail Mix）配料、烘焙装饰（蛋糕、饼干）、茶饮配料以及健康食品礼盒组合。\n\n在通过HACCP认证的加工厂生产，可提供水活度、微生物和农残检测报告，支持出口至欧盟、美国和亚洲市场。",
+      "specs": [
+        {
+          "value": "Queen pineapple / MD2"
+        },
+        {
+          "value": "≤ 18%"
+        },
+        {
+          "value": "68-72°"
+        },
+        {
+          "value": "≤ 500 ppm (sulphu红色) / Nil (natural)"
+        },
+        {
+          "value": "Golden 黄色 (sulphu红色) / Amber (natural)"
+        },
+        {
+          "value": "18-24 个月 (sulphu红色) / 12-18 个月 (natural)"
+        },
+        {
+          "value": "0813.40.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "干菠萝是真空冻干还是热风干？",
+          "answer": "我们提供两者：真空冻干（保留90%营养，松脆质地）和热风干燥（更经济实惠，耐嚼质地）。两者均无添加糖选项可用。"
+        },
+        {
+          "question": "你们能供应有机认证干菠萝吗？",
+          "answer": "可以。USDA有机和欧盟有机认证可用，仅在不含硫的版本中（有机标准禁止亚硫酸盐）。MOQ：每种规格1吨。"
+        }
+      ]
+    },
+    "pineapple": {
+      "name": "越南菠萝",
+      "tagline": "热带水果明珠，鲜食罐头样样优",
+      "description": "越南是亚洲重要的菠萝生产国，提供新鲜菠萝、糖水罐头和干菠萝片等多种产品形态，满足超市零售、食品加工和健康零食市场的多元化需求。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "新鲜出口包装",
+        "罐头",
+        "干果包装"
+      ],
+      "seoTitle": "越南菠萝出口 | 鲜食、罐头、果干 | 理想交易越南",
+      "seoDescription": "越南菠萝出口，提供新鲜菠萝、糖水罐头和干菠萝片，多产品形态，适合全球各类市场渠道。",
+      "longDescription": "越南热带气候孕育出品质优异的菠萝，全国菠萝种植面积超过4万公顷，主要集中在南部九龙江三角洲的前江省（Tien Giang）、金瓯省（Ca Mau）和中部高原的嘉莱省（Gia Lai）。越南菠萝以其糖度高、纤维细、香气浓而著称，深受国内外消费者喜爱。\n\n我们的菠萝产品线覆盖从种植到加工的完整供应链：新鲜出口菠萝（MD-2/皇后品种）适合超市直采和水果批发市场；糖水菠萝罐头（片装/圈装）是烘焙、甜品和便利食品渠道的热销产品；干菠萝片则迎合了全球健康零食和果干市场的增长趋势。\n\n无论是大宗新鲜水果出口、食品加工厂原料供应，还是零售品牌OEM合作，我们均可提供专业的产品解决方案和灵活的采购安排。所有产品均符合GAP/HACCP等食品安全标准，附植物检疫证书。"
+    },
+    "garment-oem-manufacturing": {
+      "name": "服装OEM代工生产",
+      "tagline": "越南制造，全球时尚品牌的可靠生产伙伴",
+      "description": "越南专业服装OEM代工工厂，提供从面料采购、打样、生产到成品出货的一站式服务。具有完善的质量体系（GOTS、OEKO-TEX等认证），是国际时尚品牌和零售商的首选越南制造合作伙伴。",
+      "moq": "每款式300件起",
+      "containerCapacity": "视款式和面料而定",
+      "packagingOptions": [
+        "挂牌出厂（吊牌/条码/包装袋按客户要求）",
+        "折叠箱装",
+        "定制品牌包装"
+      ],
+      "seoTitle": "越南服装OEM代工 | GOTS认证 | 品牌定制",
+      "seoDescription": "越南服装OEM代工厂，提供全流程服务，支持小批量打样和大货生产，GOTS/OEKO-TEX认证，适合国际品牌。",
+      "longDescription": "越南是全球最重要的服装制造出口国之一，年出口额超过300亿美元，位居全球服装出口国前五名。凭借技术娴熟的工人、成熟的供应链配套和良好的生产质量管控，越南吸引了众多国际知名品牌（包括Nike、Gap、H&M等全球零售商的供应商）在此设立生产基地。\n\n我们的服装OEM代工服务涵盖全品类：男女休闲装、T恤、Polo衫、运动服、童装、泳装、内衣等，可处理棉、麻、涤纶、氨纶、混纺等多种面料。从客户提供的设计稿或实物样品开始，我们提供完整的打样、面辅料采购、裁剪、缝制、整烫、质检和装箱出货一站式服务。\n\n我们的工厂持有GOTS（全球有机纺织品标准）和OEKO-TEX标准100认证，可生产有机棉和可持续面料的服装产品。严格执行SA8000社会责任标准，确保工厂劳工合规，受到众多注重可持续发展的国际品牌青睐。\n\n最小起订量每款式300件，适合新兴品牌和设计师。大货生产交期通常为45–60天，急单可协商缩短。",
+      "specs": [
+        {
+          "value": "Full Package (CMT + Fabric)"
+        },
+        {
+          "value": "Cotton, Polyester, Nylon, Linen, Denim, Blends"
+        },
+        {
+          "value": "500–1,000 pcs per style"
+        },
+        {
+          "value": "15–21 天"
+        },
+        {
+          "value": "45–90 天"
+        },
+        {
+          "value": "XS–5XL / 定制 sizing"
+        },
+        {
+          "value": "Screen, DTG, Embroidery, Heat Transfer"
+        },
+        {
+          "value": "Inline + Final AQL 2.5"
+        },
+        {
+          "value": "WRAP, BSCI, OEKO-TEX, GOTS (select)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "服装OEM的最低起订量是多少？",
+          "answer": "标准款式：每款500件起。复杂技术服装：每款1,000件起。可应要求提供更小的样品订单。"
+        },
+        {
+          "question": "你们能处理紧急订单吗？",
+          "answer": "可以，对于库存面料的标准款式，我们可以提供15–25天的快速生产。需要额外的加急费用。"
+        },
+        {
+          "question": "你们的工厂是否符合国际劳工标准？",
+          "answer": "所有合作工厂都经过WRAP和/或BSCI审核，持有最新证书。审核报告可应要求提供，以满足买方的尽职调查要求。"
+        },
+        {
+          "question": "你们能处理需要欧盟安全合规CE标识的服装吗？",
+          "answer": "可以，对于需要欧盟纺织品标识合规、阻燃标准（EN 11611）或高能见度标准（EN ISO 20471）的类别，我们提供完整的CE文件和测试。"
+        }
+      ]
+    },
+    "sportswear-oem": {
+      "name": "运动服装OEM代工",
+      "tagline": "专业运动功能面料，精工品质定制",
+      "description": "越南专业运动服装OEM代工，擅长吸湿排汗、抗紫外线、快干弹力等功能性面料的服装生产，服务全球运动品牌、健身服装品牌和户外运动品牌，品质可靠，交期准时。",
+      "moq": "每款式300件起",
+      "containerCapacity": "视款式和订单量而定",
+      "packagingOptions": [
+        "品牌吊牌包装",
+        "零售袋装",
+        "运动套装礼盒（可选）"
+      ],
+      "seoTitle": "越南运动服装OEM代工 | 功能性面料 | 全球品牌服务",
+      "seoDescription": "越南运动服装OEM代工，专注功能性面料，吸湿排汗、防紫外线，服务全球运动品牌，MOQ 300件/款。",
+      "longDescription": "随着全球健身和运动休闲市场的持续爆发式增长，专业运动服装的需求量急剧攀升。越南凭借其在功能性面料处理和精密缝制工艺方面的技术积累，成为全球运动服装品牌的主要代工目的地之一。\n\n我们的运动服装代工专注于功能性运动服饰的生产，包括：健身服（瑜伽服、紧身裤、运动内衣）、跑步服、球衣、户外运动服、泳装等。常用面料包括涤纶/氨纶混纺（吸湿排汗）、UPF 50+防晒面料、DWR（持久防水整理）面料以及再生环保面料（如再生涤纶）。\n\n我们具备处理复杂工艺的技术能力，包括无缝缝制（Flat Seam）、升华印花（Sublimation Print）、硅胶印logo、激光打孔透气处理等，满足高性能运动服装的工艺要求。所有产品在出厂前均经过严格的拉伸测试、颜色牢度测试和洗涤测试。\n\n已为欧洲、北美和澳大利亚多个运动品牌提供稳定代工服务，具有良好的出口记录和品牌合规资质。",
+      "specs": [
+        {
+          "value": "Polyester / Nylon-Sp及ex / Recycled Poly"
+        },
+        {
+          "value": "90–200 GSM"
+        },
+        {
+          "value": "4-way stretch (where applicable)"
+        },
+        {
+          "value": "Sublimation / Screen / Digital (DTG)"
+        },
+        {
+          "value": "Flatlock / Overlock / Bonded"
+        },
+        {
+          "value": "300 pcs per style/color"
+        },
+        {
+          "value": "14–18 天"
+        },
+        {
+          "value": "45–75 天"
+        },
+        {
+          "value": "6211.42.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们对运动服装有哪些专业能力？",
+          "answer": "我们专门生产升华印花、激光切割、热熔接缝、四面弹力面料、速干和抗菌处理。专为锻炼、跑步、足球队服和瑜伽服装的活跃服装。"
+        },
+        {
+          "question": "你们能生产可回收/可持续的运动服装吗？",
+          "answer": "可以，我们与GRS认证的回收聚酯织物合作，可以提供完整生产周期的可持续性文件。"
+        }
+      ]
+    },
+    "polo-shirts-oem": {
+      "name": "Polo衫OEM定制",
+      "tagline": "经典剪裁，精工细作，商务休闲两相宜",
+      "description": "越南专业Polo衫OEM代工，提供纯棉、棉涤混纺及功能性Polo衫的全套定制服务，包括品牌刺绣、印花和多种版型选择，适合企业定制、零售品牌及制服订单。",
+      "moq": "每款式/颜色200件起",
+      "containerCapacity": "视订单量而定",
+      "packagingOptions": [
+        "折叠塑封袋装",
+        "挂装（吊架包装）",
+        "定制礼盒（企业礼品用）"
+      ],
+      "seoTitle": "越南Polo衫OEM定制 | 刺绣印花 | 企业制服专家",
+      "seoDescription": "越南Polo衫OEM代工，纯棉/棉涤/功能性面料可选，刺绣或印花logo，适合企业制服及品牌零售，MOQ 200件。",
+      "longDescription": "Polo衫是全球服装市场中历久弥新的经典单品，从商务休闲到体育运动，从企业制服到高尔夫球场，Polo衫都是兼顾优雅与实用的理想选择。我们的越南Polo衫代工厂拥有超过15年的Polo衫专项生产经验，积累了从打版、裁剪到精细收领等各环节的深厚工艺技术。\n\n我们的Polo衫产品线覆盖多种面料：180g–220g纯棉（柔软透气，适合日常休闲）、棉涤混纺（挺括耐洗，适合企业制服）、CoolDry功能性面料（吸湿排汗，适合运动及户外）以及有机棉（适合可持续品牌）。版型可选修身款（Slim Fit）、正装款（Classic Fit）和宽松款（Comfort Fit）。\n\n品牌定制服务包括：胸前刺绣logo（一至三色）、印花（丝网印花/热升华）、领口/袖口罗纹颜色定制以及全套CMT或Full Package（面料由我方采购）服务模式。企业客户可享受版打样优惠，批量订单享有竞争性报价。\n\n通常的生产周期：确认打样后大货交期为30–45天。支持快速打样（7–10天），方便客户在下大货前评估品质。",
+      "specs": [
+        {
+          "value": "100% Cotton Piqué / CVC / Performance Polyester"
+        },
+        {
+          "value": "180–240 GSM"
+        },
+        {
+          "value": "Embroidery, Screen Print, Heat Transfer, Sublimation"
+        },
+        {
+          "value": "300 pcs per color/style"
+        },
+        {
+          "value": "14–18 天"
+        },
+        {
+          "value": "35–60 天"
+        },
+        {
+          "value": "XS–5XL / 定制 sizing"
+        },
+        {
+          "value": "ISO 105-C06 Grade 4–5"
+        },
+        {
+          "value": "WRAP, BSCI, OEKO-TEX 标准 100"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们能定制polo衫上的徽标和颜色吗？",
+          "answer": "可以，我们提供刺绣、丝网印刷、热转印和升华标记。Pantone颜色匹配可用。设计文件应在订单确认时以矢量格式提供。"
+        },
+        {
+          "question": "可持续/回收polo衫的MOQ是多少？",
+          "answer": "GRS回收聚酯polo衫的MOQ起步于每种颜色500件。GOTS认证有机棉polo衫的MOQ：每种颜色1,000件。"
+        },
+        {
+          "question": "你们提供女款修身polo衫吗？",
+          "answer": "是的。女款修身polo衫在所有面料选项中可用，采用公主缝结构以获得更好的合身性。可应要求提供尺寸表。"
+        }
+      ]
+    },
+    "textile-apparel": {
+      "name": "越南纺织服装",
+      "tagline": "全球第二大服装出口国的精工制造",
+      "description": "越南是全球最重要的纺织服装出口国之一，年出口额超过300亿美元。我们提供休闲服、运动服、Polo衫等多品类OEM代工服务，服务全球知名品牌和零售商。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "标准出口包装",
+        "品牌定制包装"
+      ],
+      "seoTitle": "越南纺织服装出口 | OEM代工 | 理想交易越南",
+      "seoDescription": "越南纺织服装OEM代工，提供服装、运动服、Polo衫等多品类，GOTS认证，服务全球品牌，出口全球。",
+      "longDescription": "越南是仅次于中国和孟加拉国的全球第三大服装出口国，纺织服装业是越南最重要的出口产业之一，占越南商品出口总额的15%以上。越南纺织服装业拥有完善的产业链配套、大量熟练工人和持续改善的生产技术能力，吸引了全球众多知名品牌和零售商将越南列为重要的供应链伙伴。\n\n我们的服装代工业务涵盖多个产品类别：休闲服装（T恤、衬衫、裤子、连衣裙）、运动服装（瑜伽服、跑步服、球衣）、Polo衫、工作服/制服以及外套夹克等。可承接Full Package（FB）服务（包括面料采购）或CMT（Cut-Make-Trim，客户提供面料）模式，灵活满足不同客户需求。\n\n越南纺织服装出口的主要优势包括：相对较低的劳动力成本（相比中国）、多份自由贸易协定（CPTPP、EVFTA等）带来的关税优惠、成熟的港口和物流基础设施，以及越来越高的工厂质量认证水平（GOTS、OEKO-TEX、SA8000等）。\n\n欢迎服装品牌商、零售商和贸易商联系我们，获取样品报价和工厂参观安排。"
+    },
+    "cnc-machined-parts": {
+      "name": "CNC精密加工零件",
+      "tagline": "高精度数控加工，航空电子机械级品质",
+      "description": "越南专业CNC精密加工零件出口，提供车削、铣削、钻削等多种加工方式，材质涵盖铝合金、不锈钢、铜、钛合金等，公差精度可达±0.01mm，适合航空、汽车、电子、医疗等高端行业。",
+      "moq": "视零件复杂度而定（通常50–500件起）",
+      "containerCapacity": "视零件尺寸和重量而定",
+      "packagingOptions": [
+        "防锈防静电包装",
+        "真空密封",
+        "定制托盘/泡棉箱"
+      ],
+      "seoTitle": "越南CNC精密加工零件出口 | 公差±0.01mm | OEM代工",
+      "seoDescription": "越南出口CNC精密加工零件，高精度车铣钻，铝合金/不锈钢/铜，适合航空电子汽车行业，提供样品。",
+      "longDescription": "越南精密制造业近年来迅速发展，凭借技术工人素质提升、先进设备引进和与国际标准接轨的质量体系，越南已成为全球精密零件加工外包的重要目的地。三星、英特尔、LG等国际电子巨头在越南的大规模投资，带动了当地精密加工产业链的整体升级。\n\n我们的CNC加工服务覆盖多种工艺：精密车削（OD/ID车削、螺纹加工）、CNC铣削（3轴/4轴/5轴）、钻削和铰孔、平面磨削和外圆磨削，以及线切割（EDM）等特种加工。加工材质包括铝合金（6061、7075）、不锈钢（304、316L）、黄铜、铜、钛合金（Grade 5）、工程塑料（PEEK、Nylon）等。\n\n尺寸精度：标准公差IT8–IT9级，精密件可达±0.01mm以内；表面粗糙度：Ra 0.8–3.2 μm，抛光件可达Ra 0.4 μm以下。所有零件附尺寸检测报告（CMM或三坐标测量仪），出货前进行100%全检或按AQL抽检。\n\n适用于航空航天零件、汽车精密配件、电子连接器、医疗器械零件、液压阀体等高要求应用场景。提供快速打样（7–14天），大货交期根据订单量和复杂度协商确定。",
+      "specs": [
+        {
+          "value": "CNC Turning / Milling / Grinding / EDM"
+        },
+        {
+          "value": "±0.01 mm (st及ard) / ±0.005 mm (precision)"
+        },
+        {
+          "value": "Al, SS, Brass, Cu, PEEK, Delrin, Ti"
+        },
+        {
+          "value": "800 mm x 800 mm x 600 mm"
+        },
+        {
+          "value": "Ra 0.4–1.6 μm"
+        },
+        {
+          "value": "ISO 9001:2015"
+        },
+        {
+          "value": "CMM, Vision System, Roughness Tester"
+        },
+        {
+          "value": "7–14 天"
+        },
+        {
+          "value": "4–8 周"
+        },
+        {
+          "value": "8466.93.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们能加工哪些公差？",
+          "answer": "标准公差：±0.05毫米。精密公差：±0.01毫米。我们使用5轴CNC加工中心和坐标测量机（CMM）进行质量验证。"
+        },
+        {
+          "question": "你们的最大零件尺寸是多少？",
+          "answer": "最大铣削尺寸：1000毫米 x 600毫米 x 500毫米。最大车削直径：500毫米。对于较大的零件，可应要求进行评估。"
+        },
+        {
+          "question": "你们机加工零件的典型生产交货期是多长？",
+          "answer": "原型/样品交货期：7–14天。500–5,000件生产批次：4–8周。可应要求提供加急交货期，需要加急费用。"
+        }
+      ]
+    },
+    "precision-stamped-parts": {
+      "name": "精密冲压件",
+      "tagline": "高效率冲压成型，汽车电子首选零件",
+      "description": "越南专业精密冲压件制造，提供从模具开发到批量冲压成型的一站式服务，适用于汽车零部件、电子连接器、家电金属件等领域，材质涵盖冷轧钢板、不锈钢、铜合金等。",
+      "moq": "模具开发后通常1000件起批",
+      "containerCapacity": "视零件尺寸和重量而定",
+      "packagingOptions": [
+        "防锈纸包装",
+        "真空塑封",
+        "托盘散装（适合大批量）"
+      ],
+      "seoTitle": "越南精密冲压件出口 | 模具开发 | 汽车电子配件",
+      "seoDescription": "越南出口精密冲压件，提供模具开发及批量冲压，材质多样，适合汽车、电子行业，MOQ 1000件。",
+      "longDescription": "精密冲压件是现代制造业不可或缺的基础零件，广泛应用于汽车、电子、家电、医疗和通讯等行业。越南凭借日益成熟的模具制造能力和冲压加工技术，已成为区域重要的精密冲压件生产和出口中心。\n\n我们的冲压件服务涵盖：级进模（Progressive Die）连续冲压、单冲模（Single Die）冲压、深拉伸（Deep Drawing）、弯曲成型（Bending）以及冲裁（Blanking/Piercing）等多种工艺。模具设计和制造全部在我们的模具车间内完成，可实现从图纸到成品的快速交付。\n\n主要加工材质：SPCC冷轧钢板（0.3–3.0mm厚）、SUS304/316不锈钢、C2600黄铜带、铜合金带、铝板/铝带等。冲压精度达到0.02–0.05mm，适合连接器端子、汽车安全带扣件、弹片、散热片等精密需求。\n\n我们拥有完整的二次加工能力：表面处理（镀锌、镀镍、镀铬、电泳涂装）、焊接（点焊、激光焊）和组装，可提供从毛坯冲压到成品部件的全流程一站式服务，减少客户的供应商管理负担。",
+      "specs": [
+        {
+          "value": "Progressive Die / Compound Die / Fine Blanking"
+        },
+        {
+          "value": "20–400 tons"
+        },
+        {
+          "value": "Steel, SUS, Aluminum, Copper, Brass"
+        },
+        {
+          "value": "±0.05 mm (st及ard); ±0.02 mm (fine blanking)"
+        },
+        {
+          "value": "0.3–6.0 mm"
+        },
+        {
+          "value": "Zinc Plate / Nickel / Powder Coat / Passivation"
+        },
+        {
+          "value": "5,000 pcs per part number (tooling amortized)"
+        },
+        {
+          "value": "25–35 天"
+        },
+        {
+          "value": "ISO 9001 / IATF 16949"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们能处理多大的冲压能力？",
+          "answer": "我们的冲床范围从50吨到400吨，可以处理大多数标准电子和汽车零件冲压要求。对于较大的项目，我们与合作工厂网络合作。"
+        },
+        {
+          "question": "你们能为汽车资格认证提供PPAP文件吗？",
+          "answer": "可以。对于经过IATF 16949认证的设施，我们提供完整的PPAP 3级文件，包括尺寸结果、过程能力研究（Cpk/Ppk）、PFMEA、控制计划和测量系统分析。"
+        },
+        {
+          "question": "渐进模冲压可实现的典型公差是多少？",
+          "answer": "标准渐进模冲压根据材料厚度和零件复杂度实现±0.05–0.10毫米。精密渐进模可以实现更紧密的公差（±0.02–0.05毫米），具体取决于零件几何形状。"
+        }
+      ]
+    },
+    "precision-components": {
+      "name": "越南精密零部件",
+      "tagline": "高精度制造，全球工业供应链的可靠伙伴",
+      "description": "越南精密制造业迅速崛起，提供CNC机加工、精密冲压、精密铸造等多种加工工艺，服务航空、汽车、电子、医疗等高端行业客户，是国际企业越南制造战略的理想合作方。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "标准防护包装",
+        "定制工业包装"
+      ],
+      "seoTitle": "越南精密零部件出口 | CNC加工、冲压 | 理想交易越南",
+      "seoDescription": "越南精密零部件出口，提供CNC机加工、精密冲压等工艺，适合航空电子汽车行业，出口全球。",
+      "longDescription": "越南精密制造业近年来经历了跨越式发展，从最初以劳动密集型组装为主，逐步升级为具备高精度加工能力的现代制造中心。三星、英特尔、LG等国际电子企业的大规模投资，以及日本、韩国和欧洲中小制造企业的工厂转移，带动了越南本地精密零件加工配套产业链的快速成长。\n\n越南精密制造的竞争优势包括：相对较低的加工成本（相比中国和泰国）、技术人才的持续培育（越南拥有大量工程专业毕业生）、有利的投资政策和出口关税优惠（CPTPP、EVFTA等FTA协议），以及稳定的营商环境。\n\n我们提供的精密零件加工服务涵盖CNC机加工（车削/铣削/研磨）、精密冲压成型、精密铸造（压铸铝/锌合金）以及精密塑胶注塑等多种工艺，可承接样品开发、小批量试产到大规模量产的全流程供应。\n\n我们的质量管理体系通过ISO 9001认证，配备CMM三坐标测量仪等精密检测设备，确保出货零件尺寸精度和质量稳定性满足客户要求。"
+    },
+    "wooden-furniture-acacia": {
+      "name": "越南相思木实木家具",
+      "tagline": "天然相思木纹理，耐久防潮户外首选",
+      "description": "越南出口相思木（Acacia）实木家具，木质坚硬密实、纹理自然美观、耐潮防虫，是户外花园家具、餐厅桌椅和住宅家居的优质材料，深受欧美市场青睐。",
+      "moq": "1个20英尺集装箱",
+      "containerCapacity": "视家具品类而定",
+      "packagingOptions": [
+        "纸箱拆装运输（平板包装/KD）",
+        "成品固定包装（FOC）",
+        "定制OEM品牌包装"
+      ],
+      "seoTitle": "越南相思木实木家具出口 | 户外家具 | OEM定制",
+      "seoDescription": "越南出口相思木实木家具，坚硬耐用，适合户外花园及室内家居，OEM定制，MOQ 1个集装箱，出口欧美。",
+      "longDescription": "相思木（Acacia）是越南重要的人工种植商业木材之一，主要来源于越南中部（广南、广义省等）大规模人工林基地。相思木以其优异的天然特性著称：木质坚硬（Janka硬度约2300磅力），密度大（720–900 kg/m³），天然含油量高，具有良好的耐湿防腐性能，是制作户外家具和高端家居产品的理想材料。\n\n越南相思木家具以其精湛的工艺和有竞争力的价格在欧美市场赢得广泛认可。我们的合作工厂配备现代化的木材加工设备，具备从窑干处理（Kiln Drying，含水率控制在8–12%）、精密切割、榫卯加工到表面涂装的完整生产能力。\n\n产品品类涵盖：户外花园家具（桌椅、遮阳伞底座、长凳、秋千）、室内餐桌椅、储物架、床架及各类定制家具。表面处理可选天然油处理（硬蜡油）、醇酸清漆或水性环保漆。\n\n所有木材来源于FSC认证或合法来源可追溯的人工林，可出具FSC管制木材证明（FSC Controlled Wood），满足欧盟EUTR木材法规和美国Lacey法案的合规要求。",
+      "specs": [
+        {
+          "value": "FSC 金合欢木 / 柚木 / Mango Wood"
+        },
+        {
+          "value": "8–12% (kiln dried)"
+        },
+        {
+          "value": "柚木 oil / Danish oil / Lacquer"
+        },
+        {
+          "value": "SS316 marine-grade stainless"
+        },
+        {
+          "value": "EN 581 (outdoor stability)"
+        },
+        {
+          "value": "Final 220 grit"
+        },
+        {
+          "value": "21–30 天"
+        },
+        {
+          "value": "60–90 天"
+        },
+        {
+          "value": "20 sets per design"
+        },
+        {
+          "value": "9401.61.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "金合欢木与橡木相比如何？",
+          "answer": "金合欢木有类似的密度和耐用性，但价格更便宜30–40%。它有更温暖的金色色调，具有独特的纹理图案。同样优雅，更具成本效益。"
+        },
+        {
+          "question": "你们提供定制颜色染色匹配吗？",
+          "answer": "是的，我们为涂漆家具提供定制RAL或NCS颜色匹配，并可匹配油涂层家具的特定油涂层。需要从实物样品或PMS颜色规格中分析。"
+        },
+        {
+          "question": "你们对户外耐久性进行什么测试？",
+          "answer": "所有户外家具都经过EN 581结构和稳定性测试。我们还进行氙弧UV风化和盐雾测试以确保耐用性。"
+        }
+      ]
+    },
+    "solid-teak-indoor-furniture": {
+      "name": "越南柚木实木室内家具",
+      "tagline": "千年帝王木，臻品室内家居的不朽选择",
+      "description": "越南出口优质柚木（Teak）实木室内家具，柚木天然含有硅油，耐腐防裂，纹理流畅，色泽金黄，经过数十年仍能保持卓越品质，是高端室内家居的顶级材料。",
+      "moq": "1个20英尺集装箱",
+      "containerCapacity": "视家具品类而定",
+      "packagingOptions": [
+        "平板包装（KD）",
+        "成品固定包装",
+        "定制高端包装"
+      ],
+      "seoTitle": "越南柚木实木室内家具出口 | 高端家居 | FSC认证",
+      "seoDescription": "越南出口柚木实木家具，顶级室内家居材料，FSC认证，工艺精湛，出口欧美及中东高端市场。",
+      "longDescription": "柚木（Teak，学名Tectona grandis）素有「木材之王」的美称，以其卓越的天然耐久性、优美的纹理和温润的金棕色泽，数百年来一直是全球高端家具和建筑材料的代名词。越南出口的柚木家具在精湛工艺和优质材料的结合下，深受欧洲、中东和北美高端家居市场的追捧。\n\n柚木的独特之处在于其天然含有较高的硅油和橡胶成分，使木材具有出色的防水防潮性能，且天然阻燃，能够抵抗昆虫和真菌侵蚀。随着使用年限的增加，柚木家具的色泽会从金黄色逐渐演变为银灰色（户外）或更加深沉的红棕色（室内），岁月越久越显珍贵。\n\n我们的柚木家具主要采用来自有合法来源的缅甸柚木或越南本地种植柚木（需事先确认货源），由经验丰富的越南木工匠人精心制作。产品品类包括：餐桌椅套装、电视柜、书架、床头柜、衣橱及全套卧室家具。每件产品均经过精细的榫卯拼接，表面涂装使用环保水性漆或天然硬蜡油处理。\n\n提供半成品（白坯）和成品两种形态，支持OEM品牌代工和定制设计服务。",
+      "specs": [
+        {
+          "value": "Plantation 柚木 (A-grade clear)"
+        },
+        {
+          "value": "8–10% EMC (kiln dried)"
+        },
+        {
+          "value": "Mortise-及-tenon / dowel"
+        },
+        {
+          "value": "H及-s及ed 240 grit finish"
+        },
+        {
+          "value": "天然 oil / Danish oil / Lacquer / 定制 stain"
+        },
+        {
+          "value": "Soft-close Blum or equivalent"
+        },
+        {
+          "value": "30–45 天"
+        },
+        {
+          "value": "60–90 天"
+        },
+        {
+          "value": "10 pieces per SKU"
+        },
+        {
+          "value": "9403.60.90"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的柚木是FSC认证的吗？",
+          "answer": "是的，按要求我们专门采购FSC 100%或FSC Mix认证的柚木。我们与越南和缅甸（合法授权）的认证种植园合作。"
+        },
+        {
+          "question": "你们能为英国零售商提供FSC认证柚木家具吗？",
+          "answer": "可以，我们的主要柚木家具制造合作伙伴持有FSC监管链认证。我们可以提供全套FSC文件和供应链透明度报告。"
+        },
+        {
+          "question": "你们提供完整的卧室套装计划吗？",
+          "answer": "是的，我们提供协调的卧室套装（床架、2个床头柜、5抽屉胸柜、衣柜），目标价位为零售商。MOQ：每套40件。"
+        }
+      ]
+    },
+    "bamboo-furniture-export": {
+      "name": "越南竹制家具出口",
+      "tagline": "环保可持续，现代设计与天然材料的完美结合",
+      "description": "越南出口竹制家具，以其快速再生的环保优势和独特的天然美感，成为全球可持续设计和绿色家居市场的新宠。产品品类涵盖桌椅、储物架、灯饰支架等多种家居品类。",
+      "moq": "1个20英尺集装箱",
+      "containerCapacity": "视品类和包装方式而定",
+      "packagingOptions": [
+        "平板包装（KD拆装）",
+        "成品包装",
+        "绿色环保包装材料"
+      ],
+      "seoTitle": "越南竹制家具出口 | 环保可持续 | 现代设计",
+      "seoDescription": "越南出口竹制家具，环保可持续，设计现代，适合欧美绿色家居市场，MOQ 1个集装箱，FSC认证。",
+      "longDescription": "竹子是地球上生长最快的植物之一，通常3–5年即可收割，其可持续再生能力远超传统木材，因此竹材被誉为「绿色钢铁」和「可持续建材的未来」，在全球环保设计和可持续生活方式浪潮中备受推崇。\n\n越南拥有丰富的竹林资源，多个省份（河静省、广平省、清化省等）出产高品质楠竹和毛竹，为竹制家具生产提供了稳定的原料基础。我们的竹制家具工厂将传统越南竹编工艺与现代设计理念相融合，生产出兼具功能性和美观性的家居产品。\n\n竹材经过碳化热处理或精油浸泡处理，大幅提升了天然抗菌、防虫、防霉性能，使竹制家具的使用寿命达到15–20年以上。产品设计风格多样，从简约北欧风到热带波西米亚风均可实现，适合不同市场和消费群体。\n\n主要出口产品：餐桌椅套装、咖啡桌、书架、床架、衣架、浴室收纳架、厨房置物架等。所有产品支持FSC竹材认证，符合欧盟生态标签（EU Ecolabel）要求，适合注重可持续性的欧洲和北美零售渠道。",
+      "specs": [
+        {
+          "value": "Moso Bamboo (carbonized / natural / laminated)"
+        },
+        {
+          "value": "8–12% (kiln-dried)"
+        },
+        {
+          "value": "UV Lacquer (matte/satin/gloss) / 天然 Oil"
+        },
+        {
+          "value": "Mortise-及-tenon / Dowel / Screws (concealed)"
+        },
+        {
+          "value": "CARB Phase 2 符合标准 (≤0.05 ppm)"
+        },
+        {
+          "value": "50 sets (container mix 可提供)"
+        },
+        {
+          "value": "45–60 天"
+        },
+        {
+          "value": "Per item specification (chairs: 120 kg typical)"
+        },
+        {
+          "value": "FSC, CARB P2, EUTR 符合标准"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "竹家具对室外使用耐用吗？",
+          "answer": "我们的竹家具经过热处理和压力处理，可户外使用，但建议在大量降雨地区进行覆盖。预期户外使用寿命为5–8年。"
+        },
+        {
+          "question": "碳化和天然竹家具有什么区别？",
+          "answer": "天然竹保留其浅奶油色，重量较轻，而碳化竹经过热处理过程，呈现温暖的琥珀色调，提高了稳定性。两者都用于户外应用。"
+        },
+        {
+          "question": "你们为零售提供扁平包装家具吗？",
+          "answer": "是的。我们的大部分竹家具系列都可以以扁平包装格式提供零售分销，配有详细的英语和图形组装说明。"
+        }
+      ]
+    },
+    "wooden-furniture": {
+      "name": "越南木制家具",
+      "tagline": "精工细作，出口品质，全球家居市场的越南制造",
+      "description": "越南是全球第五大家具出口国，以相思木、柚木、竹木等优质材料和精湛工艺著称。我们提供室内外木制家具的OEM代工和成品出口服务，是欧美知名家具品牌的可靠生产伙伴。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "平板包装",
+        "成品包装",
+        "OEM品牌包装"
+      ],
+      "seoTitle": "越南木制家具出口 | 相思木柚木竹木 | 理想交易越南",
+      "seoDescription": "越南木制家具出口，相思木、柚木、竹材，室内外家具OEM代工，FSC认证，出口欧美及全球市场。",
+      "longDescription": "越南是全球第五大家具出口国，年出口额超过140亿美元，位居东南亚家具出口之首。越南家具业凭借高品质的天然木材资源、精湛的传统木工工艺和持续提升的现代制造能力，赢得了全球众多家具品牌和零售商的青睐。\n\n越南木制家具的核心竞争优势：一是原料优势，越南拥有丰富的人工林（相思木、橡胶木、杉木等）和可合法获取的天然木材资源；二是工艺优势，越南木工匠人拥有数百年的传统木作技艺积累，善于精细雕刻、榫卯结构和手工打磨；三是成本优势，相比中国、马来西亚等竞争对手，越南生产成本仍具有明显竞争力；四是贸易政策优势，越南与欧盟（EVFTA）、英国、日本、澳大利亚等主要市场签订了自贸协定，出口关税大幅降低。\n\n我们的木制家具出口服务覆盖从产品开发（样品制作、材料选定）、生产制造到质量检验和物流安排的全流程，可承接OEM代工（客户自有品牌）和成品出口（我方品牌或无品牌）两种合作模式。\n\n所有产品附FSC合法来源证明或FSC认证，符合欧盟EUTR木材法规和美国Lacey法案要求。"
+    },
+    "eco-packaging-kraft": {
+      "name": "越南牛皮纸环保包装",
+      "tagline": "天然可降解，绿色环保包装的优质之选",
+      "description": "越南出口牛皮纸环保包装，包括牛皮纸袋、纸盒、纸管、餐盒等多种形态，100%可降解可回收，无漂白无荧光剂，是食品包装、零售包装和电商物流的绿色优选方案。",
+      "moq": "5000件起（视产品形态）",
+      "containerCapacity": "视产品和规格而定",
+      "packagingOptions": [
+        "定制尺寸纸袋",
+        "牛皮纸盒（礼品/食品）",
+        "纸管",
+        "一次性纸质餐具套装"
+      ],
+      "seoTitle": "越南牛皮纸环保包装出口 | 可降解 | OEM定制",
+      "seoDescription": "越南出口牛皮纸环保包装，100%可降解，适合食品零售及电商物流，OEM定制，MOQ 5000件。",
+      "longDescription": "随着全球对塑料污染问题的高度关注，牛皮纸等天然可降解包装材料的需求正在急速增长。欧盟塑料包装禁令、中国限塑令以及各国零售商对可持续包装的承诺，共同推动了全球绿色包装市场的快速扩张。\n\n我们的越南牛皮纸环保包装产品采用FSC认证的可持续来源纸浆生产，不添加漂白剂和荧光增白剂，天然棕色质感既符合环保理念，也与当下流行的简约自然美学风格高度契合。产品通过食品级安全认证（FDA 21 CFR），适合直接接触食品。\n\n产品品类丰富：外卖食品袋（平底袋、方底袋）、手提购物袋、礼品盒、纸质餐盒（汉堡盒、薯条盒、三明治盒）、纸管（海报管、保护管）、纸托（蛋糕托、水果托）等，可根据客户需求定制印刷（CMYK水性环保油墨印刷或白墨印刷）。\n\n MOQ灵活，样品交期7–10天，大货交期通常21–30天，适合餐饮连锁、零售品牌、电商卖家和可持续包装分销商。",
+      "specs": [
+        {
+          "value": "牛皮纸 bags / Corrugated boxes / Compostable containers"
+        },
+        {
+          "value": "Virgin 牛皮纸 / Recycled OCC / PLA-coated 牛皮纸"
+        },
+        {
+          "value": "80–350 GSM"
+        },
+        {
+          "value": "Flexo (1–6 color) / Offset litho-laminate"
+        },
+        {
+          "value": "FSC CoC / EN 13432 (compostable) / SGS tested"
+        },
+        {
+          "value": "5,000 units (st及ard) / 10,000 (custom print)"
+        },
+        {
+          "value": "21–35 天 (bulk production)"
+        },
+        {
+          "value": "4819.10.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的牛皮纸可堆肥吗？",
+          "answer": "是的，我们标准的牛皮纸袋符合欧盟EN 13432可堆肥标准。我们也提供配有可生物降解PLA内衬的选项，适用于阻油应用。"
+        },
+        {
+          "question": "你们能在牛皮纸袋上印刷定制设计吗？",
+          "answer": "可以，最多6色柔版印刷可用。对于优质演示，我们提供定制订单的胶印（最多8色，铂金/金属油墨）。"
+        },
+        {
+          "question": "定制印刷包装的交货期是多长？",
+          "answer": "定制印刷包装：批准艺术品后批量生产21–35天。加急订单（15–20天）需要加急费用。"
+        }
+      ]
+    },
+    "biodegradable-food-containers": {
+      "name": "可生物降解食品容器",
+      "tagline": "取自自然，回归自然，零塑料未来的选择",
+      "description": "越南出口甘蔗浆（蔗渣）可生物降解食品容器，包括餐盒、餐盘、碗、杯盖等，耐热耐油防水，完全替代塑料和泡沫容器，符合国际堆肥认证标准（EN 13432 / ASTM D6400）。",
+      "moq": "5000件起",
+      "containerCapacity": "20英尺集装箱约装10–15万件（视规格）",
+      "packagingOptions": [
+        "原色本白（甘蔗浆天然色）",
+        "白色（经漂白处理）",
+        "定制印刷"
+      ],
+      "seoTitle": "越南可降解食品容器出口 | 甘蔗浆 | EN13432认证",
+      "seoDescription": "越南出口甘蔗浆可生物降解食品容器，耐热耐油，符合EN13432工业堆肥标准，替代塑料，MOQ 5000件。",
+      "longDescription": "甘蔗浆（Bagasse）可生物降解食品容器是目前全球增长最快的环保包装品类之一。甘蔗浆是甘蔗榨糖后的天然纤维废料，将其加工成型用于食品包装，不仅实现了农业废弃物的高价值利用，还完全替代了石油基塑料和聚苯乙烯泡沫，对环境影响极小。\n\n我们的甘蔗浆食品容器符合EN 13432（欧洲）和ASTM D6400（美国）工业堆肥认证标准，在工业堆肥条件下12周内可完全降解，不产生有害残留。产品耐热达120°C（微波炉可用）、耐油防渗漏，适合装盛热汤、油脂食品和液态食物，性能完全可与传统塑料餐盒相媲美。\n\n产品品类覆盖：外卖盖盒（单格/多格）、圆形碗/椭圆碗、圆形/方形餐盘、热饮杯盖、砂锅碗等，尺寸多样（从250ml到1500ml），可搭配纸质吸管和木质餐具组成全套环保餐具方案。\n\n欧盟、英国、美国、澳大利亚及中国多个主要城市已立法禁止或限制一次性塑料容器，本产品是餐饮外卖连锁、酒店餐饮和食品配送企业快速合规的理想选择。",
+      "specs": [
+        {
+          "value": "Sugarcane Bagasse / PLA / Molded Fiber"
+        },
+        {
+          "value": "EN 13432 / OK Compost Certified"
+        },
+        {
+          "value": "PFAS-Free (PFOA/PFAS not detected)"
+        },
+        {
+          "value": "Bagasse: up to 120°C; PLA cups: cold use only"
+        },
+        {
+          "value": "Bagasse containers: 是; PLA: 否"
+        },
+        {
+          "value": "10,000 pcs per SKU"
+        },
+        {
+          "value": "25–35 天"
+        },
+        {
+          "value": "可提供 (water-based / soy inks, 4-color)"
+        },
+        {
+          "value": "EU Regulation (EC) 否 10/2011 符合标准"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "可生物降解容器的耐热范围是多少？",
+          "answer": "甘蔗渣容器：-20°C至100°C（微波炉安全，热食安全）。PLA容器：最高55°C（冷/微温食物）。我们的甘蔗渣线可处理热汤和油性食物。"
+        },
+        {
+          "question": "这些产品是否不含PFAS？",
+          "answer": "是的。我们主动测试所有食品接触产品的PFAS/PFOA，并可提供经认可实验室的测试报告。这是欧盟和加州市场的合规要求。"
+        },
+        {
+          "question": "你们能用我们的品牌生产定制印刷的容器吗？",
+          "answer": "可以。可使用水性或大豆基食品安全油墨进行最多4色定制印刷。简单设计的MOQ：每种SKU 50,000件。"
+        }
+      ]
+    },
+    "eco-packaging": {
+      "name": "越南环保包装",
+      "tagline": "绿色可持续包装解决方案提供商",
+      "description": "越南环保包装出口，包括牛皮纸包装、可生物降解食品容器等多种产品，助力全球企业实现包装可持续化目标，满足日益严格的环保法规要求。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "牛皮纸包装系列",
+        "甘蔗浆生物降解容器",
+        "其他环保包装"
+      ],
+      "seoTitle": "越南环保包装出口 | 可降解包装 | 理想交易越南",
+      "seoDescription": "越南环保包装出口，牛皮纸袋、可降解食品容器等，符合EN13432国际堆肥标准，适合全球可持续市场。",
+      "longDescription": "全球包装行业正经历深刻的可持续化转型，严格的法规要求（EU包装和包装废物法规、中国限塑令、英国塑料包装税等）和消费者日益强烈的环保意识，共同推动着各行业加速向绿色包装解决方案迁移。\n\n越南凭借丰富的天然纤维资源（竹材、甘蔗浆、纸浆）、相对较低的制造成本和快速提升的加工技术能力，正在成为全球环保包装的重要生产和出口基地。我们提供多元化的绿色包装解决方案，帮助企业在满足法规合规要求的同时，提升品牌的绿色形象。\n\n主要产品线包括：牛皮纸环保包装（袋、盒、管、纸质餐具等）、甘蔗浆可生物降解食品容器（外卖盒、餐盘、碗）、竹纤维餐具套装、再生纸板包装等。所有产品均经过相关国际认证（FSC、EN 13432、ASTM D6400、FDA食品级等）。\n\n我们为各类企业提供全方位的绿色包装转型支持：从包装设计评估、材料选型建议到OEM定制生产和进口合规指导，一站式解决企业的环保包装需求。"
+    },
+    "portland-cement-export": {
+      "name": "越南普通硅酸盐水泥",
+      "tagline": "优质建材基础，稳固每一项工程",
+      "description": "越南出口优质普通硅酸盐水泥（Portland Cement），符合ASTM C150和EN 197标准，可应用于基础建设、住宅建筑、工业厂房等各类工程项目，是东南亚建材出口市场的可靠供应选择。",
+      "moq": "1个20英尺集装箱（约25吨）",
+      "containerCapacity": "25吨/20英尺集装箱 / 50吨/40英尺集装箱",
+      "packagingOptions": [
+        "50公斤编织袋（散装）",
+        "散货船大宗出口"
+      ],
+      "seoTitle": "越南普通硅酸盐水泥出口 | ASTM C150 | 建材供应",
+      "seoDescription": "越南出口普通硅酸盐水泥，符合ASTM C150和EN 197标准，适合基础建设工程，MOQ 1个集装箱。",
+      "longDescription": "越南是东南亚地区最大的水泥生产国之一，拥有丰富的石灰石资源和现代化的水泥生产设施，年产水泥超过1亿吨，在满足国内基础设施建设需求的同时，也是区域内重要的水泥出口国。\n\n我们出口的普通硅酸盐水泥（OPC Grade 42.5/52.5）符合ASTM C150 Type I/II国际标准和越南TCVN 2682标准，经权威第三方实验室检测，主要技术指标（初凝时间、终凝时间、3天/28天抗压强度、安定性等）均达到出口要求。\n\n越南水泥产品已大量出口至菲律宾、巴基斯坦、孟加拉国、斯里兰卡、澳大利亚及非洲各国，在这些市场建立了良好的质量口碑。越南水泥相对东南亚同类产品具有一定的价格竞争优势，是需要大宗建材进口的国家和项目的经济实惠选择。\n\n可提供散袋（50公斤编织袋）或散货（Bulk）两种形式出口，支持整柜和散货拼柜装运。出具原产地证书、质量检测报告和装船相关单据。",
+      "specs": [
+        {
+          "value": "OPC 42.5N / 42.5R / 52.5N"
+        },
+        {
+          "value": "EN 197-1 / ASTM C150 / TCVN 2682"
+        },
+        {
+          "value": "330–380 m²/kg"
+        },
+        {
+          "value": "≥ 42.5 MPa / ≥ 52.5 MPa"
+        },
+        {
+          "value": "≥ 60 minutes"
+        },
+        {
+          "value": "≤ 3.5%"
+        },
+        {
+          "value": "50 kg bags / 1T FIBC / Bulk"
+        },
+        {
+          "value": "1,000 MT"
+        },
+        {
+          "value": "Bulk vessel / Container"
+        },
+        {
+          "value": "2523.29.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们出口什么类型的水泥？",
+          "answer": "我们出口普通硅酸盐水泥CEM I 42.5N、52.5N和混合水泥CEM II A/B-M。可应要求提供白色水泥和油井水泥。"
+        },
+        {
+          "question": "你们从越南的哪些港口运输水泥？",
+          "answer": "主要出口港口包括海防、岘港、胡志明市、锦普和宜山。港口选择取决于水泥工厂的位置和买方的目的地。"
+        },
+        {
+          "question": "你们能在装运前安排SGS检验吗？",
+          "answer": "可以，所有出口批次都可以在装载前由SGS、Intertek或Bureau Veritas检查和认证。检验报告通常包括化学分析、物理性能测试和包装验证。"
+        }
+      ]
+    },
+    "silica-sand-export": {
+      "name": "越南出口硅砂",
+      "tagline": "高纯度工业级硅砂，玻璃铸造优质原料",
+      "description": "越南出口高纯度工业级硅砂（SiO2含量98–99.8%），适用于玻璃制造、铸造砂型、硅片生产、水处理过滤及建筑砂浆等多种工业用途，是东南亚市场重要的硅砂供应来源。",
+      "moq": "500吨",
+      "containerCapacity": "散货船大宗运输（按需）",
+      "packagingOptions": [
+        "散货装（Bulk）",
+        "1吨大袋（集装箱运输）",
+        "50公斤编织袋"
+      ],
+      "seoTitle": "越南出口高纯度硅砂 | SiO2 98%+ | 玻璃铸造用",
+      "seoDescription": "越南出口工业级硅砂，SiO2含量98–99.8%，适合玻璃制造、铸造砂型、水处理过滤，大宗出口。",
+      "longDescription": "越南拥有丰富的优质硅砂矿藏资源，主要分布在中部海岸线沿线（广平省、广治省、广南省、平顺省等）。越南硅砂以其高二氧化硅含量（SiO2 98–99.8%）、低杂质和稳定的颗粒分布著称，是国际市场受欢迎的工业硅砂来源。\n\n我们出口的工业级硅砂经过水洗精选、干燥和筛分处理，颗粒规格可按需定制（30/60目、40/70目、70/140目等），满足不同工业应用的颗粒粒度要求。主要用途包括：平板玻璃和瓶罐玻璃原料、精密铸造砂型、太阳能光伏硅片原料（高纯度硅砂）、水处理石英砂过滤料、油田压裂支撑剂以及建筑和景观用砂。\n\n我们具备处理大宗散货运输的能力，可安排散货船（Bulk Carrier）直接运输，大幅降低每吨运输成本，适合大型工厂和项目的持续采购需求。\n\n出具全成分检测报告（XRF分析）、粒度分析报告和原产地证明，满足工业采购合规要求。",
+      "specs": [
+        {
+          "value": "99.0–99.7% (grade dependent)"
+        },
+        {
+          "value": "≤0.020% (float glass) / ≤0.040% (container glass)"
+        },
+        {
+          "value": "AFS 40–70 / 定制 sizing 可提供"
+        },
+        {
+          "value": "≤0.3% (kiln-dried grades)"
+        },
+        {
+          "value": "1.45–1.55 t/m³"
+        },
+        {
+          "value": "500 MT (bulk) / 25 MT (bagged)"
+        },
+        {
+          "value": "Qui Nhon / Da Nang / Ho Chi Minh City"
+        },
+        {
+          "value": "SGS / Bureau Veritas / Intertek"
+        },
+        {
+          "value": "Bulk / 25 kg / 50 kg bags / 1,000 kg jumbo bag"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的二氧化硅含量是多少？",
+          "answer": "我们的高纯硅砂SiO₂含量超过99.5%。可用于玻璃制造、铸造、半导体和水过滤的等级。每批次提供XRF分析。"
+        },
+        {
+          "question": "你们提供独立的第三方质量检验吗？",
+          "answer": "是的。所有出口装运都包括来自SGS、Bureau Veritas或Intertek的SiO₂含量、粒度分布、Fe₂O₃水平和水分的分析证书。"
+        },
+        {
+          "question": "你们的典型交货期和装载港口是什么？",
+          "answer": "订单确认后标准交货期为袋装货物7–14天和散装船15–21天。装载港口：海防、广宁或胡志明市，取决于矿山位置。"
+        }
+      ]
+    },
+    "raw-materials": {
+      "name": "越南工业原材料",
+      "tagline": "基础建材与工业原料，支撑全球产业链",
+      "description": "越南出口多种工业原材料，包括普通硅酸盐水泥、工业级硅砂等，为全球建设项目和工业生产提供可靠的基础原料供应，具有价格竞争力和稳定供货能力。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "散货大宗运输",
+        "编织袋包装"
+      ],
+      "seoTitle": "越南工业原材料出口 | 水泥、硅砂 | 理想交易越南",
+      "seoDescription": "越南工业原材料出口，提供水泥、硅砂等建材与工业原料，大宗供应，价格具有竞争力。",
+      "longDescription": "越南自然资源丰富，工业基础持续扩展，是多种建筑和工业原材料的重要生产和出口国。凭借本地丰富的矿产资源（石灰石、硅砂、钢材等）和不断完善的加工制造能力，越南工业原材料出口在东南亚乃至全球建材市场占有一席之地。\n\n我们的工业原材料出口业务以建材类产品为核心：普通硅酸盐水泥（OPC 42.5/52.5，符合ASTM C150）和工业级硅砂（SiO2 98%+，玻璃、铸造和水处理用途）是主要出口品种，同时我们也持续拓展其他工业材料的出口业务，以满足不同采购客户的需求。\n\n越南工业原材料出口的主要目标市场包括：菲律宾、孟加拉国、斯里兰卡、尼日利亚、加纳、莫桑比克等基础设施建设需求旺盛的国家，以及玻璃制造和铸造行业集中的东南亚和南亚工业市场。\n\n我们可安排散货船整批大宗运输，有效降低单位运输成本，并提供全套出口合规文件（质检报告、原产地证书、装箱单等）。"
+    },
+    "liquid-hand-soap-bulk": {
+      "name": "散装液体洗手液",
+      "tagline": "温和净手，大宗OEM采购首选",
+      "description": "越南出口食品级原料配方散装液体洗手液，温和去污，含保湿成分，适合酒店、医院、学校和公共卫生场所批量采购，以及个人护理品牌的OEM代工生产。",
+      "moq": "1000公斤",
+      "containerCapacity": "20英尺集装箱约装18–20吨",
+      "packagingOptions": [
+        "200L/IBC桶散装",
+        "1L/500ml/250ml零售瓶",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南散装液体洗手液出口 | OEM代工 | 机构批量采购",
+      "seoDescription": "越南出口散装液体洗手液，温和配方，适合机构批量采购及OEM品牌定制，通过ISO 22716认证，MOQ 1吨。",
+      "longDescription": "液体洗手液是个人卫生护理的基础快消品，全球需求规模庞大且持续增长，尤其在新冠疫情后，全球消费者的手部卫生意识显著提升，液体洗手液成为家庭、商业和公共场所的必备用品。\n\n我们的散装液体洗手液在通过GMP和ISO 22716（化妆品GMP）认证的工厂内生产，配方温和不刺激，符合EU Cosmetics Regulation（EC 1223/2009）和美国FDA OTC Drug标准。主要成分包括月桂醇聚醚硫酸酯钠（SLES，发泡去污）、椰子油酰胺丙基甜菜碱（两性表面活性剂，温和保湿）及甘油（保湿润肤），pH值控制在5.5–7.0，适合各种肤质。\n\n我们提供多种配方变体：普通清洁款、抗菌款（含苯扎氯铵或氯己定）、保湿润肤款和儿童温和款，适合不同使用场景和目标市场的需求。\n\n散装产品以200升桶或IBC吨桶形式供应，适合灌装工厂和大型机构采购；零售成品可按客户品牌定制包装，支持专属标签设计、瓶型选择和香型定制。",
+      "specs": [
+        {
+          "value": "5.5–7.0 (formulation dependent)"
+        },
+        {
+          "value": "3,000–8,000 cPs"
+        },
+        {
+          "value": "Variable by formulation"
+        },
+        {
+          "value": "Parabens-不含 (DMDM Hydantoin / Phenoxyethanol)"
+        },
+        {
+          "value": "IFRA compliant (choice of 20+ options)"
+        },
+        {
+          "value": "250ml / 500ml / 1L pump / 5L / 20L drum"
+        },
+        {
+          "value": "24 个月 (sealed, 25°C)"
+        },
+        {
+          "value": "1,000 units (private label)"
+        },
+        {
+          "value": "3401.30.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们提供哪些香味？",
+          "answer": "薰衣草、海洋微风、白茶、芦荟、抗菌（不含香味）、儿童版（淡花香）。批量MOQ每种香味500公斤。"
+        },
+        {
+          "question": "你们能做私人标签吗？",
+          "answer": "可以，我们提供完整的OEM/ODM服务，包括配方定制、瓶子选择、标签设计和监管文件准备。"
+        },
+        {
+          "question": "你们能匹配特定的香味或配方吗？",
+          "answer": "可以，我们提供从提供的参考样品进行香味匹配。配方匹配（粘度、颜色、活性水平、表面活性剂组成）可在4–6周内实现。"
+        }
+      ]
+    },
+    "shampoo-conditioner-bulk": {
+      "name": "散装洗发水与护发素",
+      "tagline": "专业发护配方，OEM品牌代工的理想选择",
+      "description": "越南出口散装洗发水和护发素，多种配方可选（保湿、修护、去屑、草本等），适合个人护理品牌OEM代工、酒店用品采购和发廊专业用品供应，可提供全套私标服务。",
+      "moq": "1000公斤",
+      "containerCapacity": "20英尺集装箱约装18–20吨",
+      "packagingOptions": [
+        "200L/IBC桶散装",
+        "酒店分装小瓶（50ml/30ml）",
+        "零售瓶定制"
+      ],
+      "seoTitle": "越南散装洗发水护发素出口 | OEM私标 | 多配方可选",
+      "seoDescription": "越南出口散装洗发水和护发素，多种配方，适合OEM私标及酒店批量采购，ISO 22716认证，MOQ 1吨。",
+      "longDescription": "越南个人护理品OEM代工行业近年来快速发展，凭借相对较低的生产成本、符合国际标准的配方技术和灵活的小批量定制能力，吸引了众多国际护理品牌和东南亚本土品牌在越南建立代工基地。\n\n我们的洗发水和护发素产品线覆盖多种市场定位和功能诉求：普通日常护理系列（适合大众市场）、修护受损发质系列（含角蛋白、胶原蛋白成分）、深层保湿系列（适合干性发质）、天然草本系列（含生姜、越南草本提取物）、去屑止痒系列（含吡啶酮乙醇胺盐/锌吡啶硫酮）等，满足不同目标消费群体的需求。\n\n产品配方符合EU Cosmetics Regulation，可出具安全评估报告（Safety Assessment），支持产品在欧洲市场注册。在通过ISO 22716 GMP认证的工厂内生产，确保产品一致性和稳定性。\n\n我们提供完整的私标OEM服务：包括配方开发（可提供定制配方）、功效测试、稳定性测试、包装设计、标签合规审核到成品出货，全程一站式服务，帮助客户快速上市。",
+      "specs": [
+        {
+          "value": "ISO 22716 Cosmetics GMP"
+        },
+        {
+          "value": "Shampoo / Conditioner / Treatment Mask"
+        },
+        {
+          "value": "Keratin, Argan Oil, Biotin, Collagen, Ginger"
+        },
+        {
+          "value": "可提供 (SLS/SLES-不含)"
+        },
+        {
+          "value": "4.5–6.5 (hair care optimized)"
+        },
+        {
+          "value": "1,000 L per SKU (bulk); 2,000 units (filled)"
+        },
+        {
+          "value": "21–35 天 (st及ard); 45–60 天 (custom formula)"
+        },
+        {
+          "value": "24–36 个月 (preservative system dependent)"
+        },
+        {
+          "value": "EU Cosmetics Reg. 1223/2009 / ASEAN Cosmetics Directive"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的产品测试动物吗？",
+          "answer": "不，我们的产品在所有阶段都不进行动物测试。我们使用人体志愿者临床面板进行皮肤刺激和过敏测试。"
+        },
+        {
+          "question": "你们生产酒店便利洗发水和护发素吗？",
+          "answer": "是的。酒店便利产品生产是我们的主要业务之一。我们为国际酒店连锁店和精品酒店供应白色标签和私人标签的30毫升、40毫升和50毫升酒店瓶装规格。"
+        },
+        {
+          "question": "你们提供什么合规文件？",
+          "answer": "我们提供完整的化妆品合规文件，包括：分析证书（COA）、安全数据表（SDS）、INCI成分声明、欧盟化妆品产品安全报告（CPSR）和应要求提供的稳定性测试结果。"
+        }
+      ]
+    },
+    "home-personal-care": {
+      "name": "越南家居与个人护理品",
+      "tagline": "优质日化快消品，全球分销的越南制造",
+      "description": "越南出口家居和个人护理品，包括洗手液、洗发水、护发素等日化产品，提供散装批发和OEM私标定制两种合作模式，适合品牌商、分销商和零售渠道采购。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "散装供应",
+        "零售包装",
+        "OEM私标定制"
+      ],
+      "seoTitle": "越南家居个人护理品出口 | 洗手液洗发水 | OEM定制",
+      "seoDescription": "越南家居与个人护理品出口，提供洗手液、洗发水等散装及OEM私标服务，ISO 22716认证，出口全球。",
+      "longDescription": "越南日化和个人护理品制造业已形成完善的产业配套体系，在胡志明市周边的平阳省、同奈省和隆安省集聚了大量日化代工企业，具备为全球品牌提供高性价比OEM生产服务的能力。\n\n我们的家居与个人护理品出口业务覆盖日化快消品的核心品类：洗涤类（洗手液、洗洁精、衣物洗涤液、消毒液）、发护类（洗发水、护发素、发膜）以及皮肤护理基础类（沐浴露、润肤乳）。\n\n越南日化产品的核心竞争力在于：配方技术持续升级（可实现对标国际品牌的配方质量）、生产成本相比欧美大幅降低（适合中低价位市场定位）以及灵活的MOQ（适合新兴品牌小批量起步）。\n\n所有产品均在通过GMP/ISO 22716认证的工厂内生产，产品安全评估符合EU化妆品法规要求，并可出具全套出口合规文件。欢迎品牌商、进口商和连锁零售商联系我们，洽谈定制合作。"
+    },
+    "hygiene-disposable-wipes": {
+      "name": "一次性卫生湿巾",
+      "tagline": "随时清洁，方便携带，全球最受欢迎的卫生用品",
+      "description": "越南出口多用途一次性湿巾，包括婴儿湿巾、成人卫生湿巾、厨房清洁湿巾和抗菌消毒湿巾，采用无纺布基材和温和配方，适合零售、医疗和机构渠道。",
+      "moq": "5万片（视规格）",
+      "containerCapacity": "视包装规格而定",
+      "packagingOptions": [
+        "80片/100片铝箔袋（零售）",
+        "单片独立包装",
+        "IBC桶散装未包装湿巾（OEM用）"
+      ],
+      "seoTitle": "越南一次性卫生湿巾出口 | 婴儿湿巾 | 抗菌湿巾",
+      "seoDescription": "越南出口一次性湿巾，含婴儿湿巾、抗菌湿巾等多品类，无酒精/含酒精可选，OEM定制，MOQ 5万片。",
+      "longDescription": "一次性卫生湿巾是全球增长最快的卫生消费品之一，从婴幼儿护理到成人日常卫生、从家庭清洁到医疗消毒，湿巾的应用场景覆盖了生活的方方面面。新冠疫情进一步推动了全球抗菌消毒湿巾的需求爆发。\n\n我们的湿巾产品采用高质量无纺布（水刺无纺布，18–60g/m²）作为基材，通过机器浸润法均匀添加功能性浸泡液。婴儿湿巾采用不含酒精、不含防腐剂（或使用低刺激防腐体系）的温和配方，通过皮肤安全性测试；抗菌消毒湿巾含75%酒精或苯扎氯铵（BZK）有效成分，可99.9%灭杀常见细菌和病毒。\n\n产品形态灵活多样：铝箔袋装（40–120片/袋，适合零售）、单片独立袋（适合酒店、航空和医疗场所）、桶装抽取式（餐厅/汽车用）等。支持OEM品牌定制，可按客户需求调整基材规格、浸泡液配方、包装尺寸和印刷设计。\n\n在通过HACCP和ISO 13485（医疗类）认证的工厂内生产，可提供皮肤刺激性测试报告和微生物检测报告，符合欧盟和美国FDA标准。",
+      "specs": [
+        {
+          "value": "30–60 GSM spunlace non-woven"
+        },
+        {
+          "value": "Viscose/PET / Bamboo / Plant-based"
+        },
+        {
+          "value": "250–350% of dry fabric weight"
+        },
+        {
+          "value": "5.0–6.0"
+        },
+        {
+          "value": "EN 1040 / EN 14476 (medical grade)"
+        },
+        {
+          "value": "15x20 cm / 20x20 cm / custom"
+        },
+        {
+          "value": "Sachet / 25ct / 80ct canister / bulk roll"
+        },
+        {
+          "value": "36 个月 (sealed)"
+        },
+        {
+          "value": "3307.90.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "湿巾可冲洗吗？",
+          "answer": "可以，我们提供100%可冲洗版本（使用木浆基材）和标准非可冲洗版本（聚酯基材）。可冲洗版本符合EDANA/INDA可冲洗指南。"
+        },
+        {
+          "question": "你们提供可生物降解/可堆肥湿巾吗？",
+          "answer": "是的，可使用竹基和莱赛尔水刺基材以及可堆肥袋装。这些可获得欧盟标准EN 13432的可堆肥认证。"
+        },
+        {
+          "question": "你们能为私人标签复制现有湿巾产品吗？",
+          "answer": "可以。请提供您的参考产品和任何具体要求（香味、配方活性成分、织物GSM、湿巾尺寸）。我们的研发团队将开发匹配的配方和包装。"
+        }
+      ]
+    },
+    "disposable-face-masks-export": {
+      "name": "出口一次性口罩",
+      "tagline": "可靠防护，医用级品质，全球批量供应",
+      "description": "越南出口一次性三层防护口罩（医用外科口罩）和N95/KN95高效防护口罩，通过CE、FDA、ISO 13485等认证，适合医疗机构、工厂工人、学校和公共场所使用，提供OEM贴牌定制服务。",
+      "moq": "5万只（视规格）",
+      "containerCapacity": "20英尺集装箱约装200–300万只（视包装）",
+      "packagingOptions": [
+        "50只/盒（零售）",
+        "2000只/箱（散装批发）",
+        "定制OEM包装"
+      ],
+      "seoTitle": "越南出口一次性口罩 | CE/FDA认证 | 医用外科口罩",
+      "seoDescription": "越南出口一次性医用口罩和KN95口罩，CE/FDA/ISO13485认证，散装及OEM定制，MOQ 5万只。",
+      "longDescription": "越南凭借在新冠疫情期间迅速建立的口罩生产能力，已成为全球重要的一次性防护口罩出口国。越南口罩以其稳定的品质、具有竞争力的价格和灵活的OEM定制服务，赢得了全球医疗机构和企业采购商的认可。\n\n我们出口的一次性口罩分为两大类：医用外科口罩（三层，非织造布+熔喷布+无纺布，BFE≥95%）和高效防护口罩（N95/KN95/FFP2标准，过滤效率≥95%，带或不带呼气阀）。\n\n医用外科口罩通过CE（医疗器械II类）认证和FDA 510(k)注册，符合EN 14683和ASTM F2100标准，适合医疗、牙科和实验室场所使用；高效防护口罩通过CE FFP2或GB 19083认证，适合高风险暴露环境和特殊职业防护。\n\n产品生产在通过ISO 13485（医疗器械质量体系）认证的无尘洁净间内进行，严格执行出厂检验（过滤效率、差压、合成血液渗透等），每批次均附质量检验报告。\n\n支持OEM品牌定制（包装设计、颜色定制：白色/蓝色/黑色/彩色），适合医疗经销商、药店连锁、企业劳保用品采购和跨境电商卖家。",
+      "specs": [
+        {
+          "value": "Type IIR Surgical (EN 14683) / 否n-Medical"
+        },
+        {
+          "value": "≥98% (Type IIR) / ≥95% (Type I)"
+        },
+        {
+          "value": "≥120 mmHg (Type IIR)"
+        },
+        {
+          "value": "3-ply (Spunbond + Meltblown + Spunbond)"
+        },
+        {
+          "value": "CE (EU MDR), FDA 510(k) / Registe红色"
+        },
+        {
+          "value": "ISO 13485:2016"
+        },
+        {
+          "value": "50,000 pcs (stock colors); 100,000 pcs (custom print)"
+        },
+        {
+          "value": "50 pcs/box, 2,000 pcs/carton (st及ard)"
+        },
+        {
+          "value": "7–10 天 (stock); 15–21 天 (custom)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的口罩是医用级的吗？",
+          "answer": "可以，我们提供医用级（EN 14683 Type IIR，BFE > 99%）和非医用日常使用级。可应要求提供FDA 510(k)资料。"
+        },
+        {
+          "question": "你们能供应印有我们公司徽标的定制印刷口罩吗？",
+          "answer": "是的。可使用无毒、皮肤安全的油墨在口罩外层进行定制印刷。每种设计的MOQ：100,000件。"
+        },
+        {
+          "question": "你们大订单的生产能力和交货期是多少？",
+          "answer": "我们合作伙伴工厂的综合生产能力每天超过500万件口罩。对于最多200万件的标准订单，交货期为14–21天。"
+        }
+      ]
+    },
+    "hygiene-disposable": {
+      "name": "越南卫生一次性用品",
+      "tagline": "日常卫生防护，全球市场的越南制造",
+      "description": "越南出口卫生一次性用品，包括湿巾、一次性口罩等多种产品，适合医疗机构、酒店、零售连锁和机构渠道的批量采购，提供OEM私标定制服务。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "标准零售包装",
+        "散装批发包装",
+        "OEM定制包装"
+      ],
+      "seoTitle": "越南卫生一次性用品出口 | 湿巾口罩 | OEM定制",
+      "seoDescription": "越南出口卫生一次性用品，包括湿巾、口罩等，CE/FDA认证，OEM私标定制，适合全球医疗及消费市场。",
+      "longDescription": "越南是全球重要的卫生一次性用品生产和出口国，从一次性医用口罩（新冠疫情期间迅速扩产）到婴儿湿巾、成人护理湿巾等卫生消费品，越南均具备大规模量产和出口能力。\n\n我们的卫生一次性用品出口业务覆盖个人卫生防护（口罩、手套、防护面罩）、日常清洁护理（多用途湿巾、抗菌消毒湿巾）和医疗一次性用品（医用外科手术服、帽子、鞋套等）等多个品类，可满足医疗机构、酒店住宿、学校、餐饮连锁和企业采购的多样化需求。\n\n越南卫生用品出口的主要优势在于：完善的生产能力（主要集中在平阳省、同奈省等工业区）、较低的劳动力成本（相比中国和马来西亚）以及灵活的OEM合作模式（支持小批量定制）。\n\n所有产品均持有相应的国际认证（CE、FDA、ISO 13485等），符合欧盟、美国、中东和东南亚市场的进口合规要求。"
+    },
+    "baby-wipes": {
+      "name": "婴儿湿巾",
+      "tagline": "超温和配方，守护宝宝每一寸娇嫩肌肤",
+      "description": "越南出口专为婴儿设计的超温和湿巾，不含酒精、无香精、无荧光剂，采用高质量水刺无纺布和纯净水配方，通过皮肤过敏测试，适合新生儿及敏感肌肤婴幼儿使用。",
+      "moq": "5万片（视包装规格）",
+      "containerCapacity": "视包装规格而定",
+      "packagingOptions": [
+        "80片/100片/120片铝箔袋（翻盖款）",
+        "单片独立包装（外出携带）",
+        "定制OEM婴幼儿品牌包装"
+      ],
+      "seoTitle": "越南婴儿湿巾出口 | 超温和无酒精 | 皮肤测试通过",
+      "seoDescription": "越南出口婴儿湿巾，超温和配方，无酒精无香精，通过皮肤安全测试，OEM定制，MOQ 5万片。",
+      "longDescription": "婴儿湿巾是育儿必备的日常消耗品，全球年消费量超过500亿片，是快速增长的母婴用品细分市场。父母对婴儿皮肤护理产品的成分安全性要求极高，这使得配方温和、通过皮肤安全测试的高品质婴儿湿巾成为高价值出口品类。\n\n我们的婴儿湿巾采用40–60 g/m²高密度水刺无纺布，材质柔软细腻，具有优异的清洁力和湿强度。浸泡液配方以纯净水为主体（含量超过99%），添加低刺激保湿成分（如甘油、泛醇）和温和防腐体系（苯氧乙醇+乙基己基甘油），不含酒精、不含硫酸盐、不含香精、不含荧光增白剂，pH值5.5–7.0，与婴儿皮肤天然pH值相近。\n\n产品通过由欧洲独立皮肤科实验室进行的人体皮肤刺激性测试（RIPT），结果为：Hypoallergenic（低致敏性），可在包装上注明「皮肤科测试通过」（Dermatologically Tested）。产品在ISO 22716 GMP认证工厂内生产，可出具完整的安全数据和质量检测报告。\n\n支持全系列OEM品牌定制服务，适合母婴品牌商、跨境电商卖家和婴儿用品进口商。",
+      "specs": [
+        {
+          "value": "99.9% water-based, 香味-不含"
+        },
+        {
+          "value": "5.0–6.0 (skin-safe)"
+        },
+        {
+          "value": "40 GSM spunlace viscose/PET 80/20"
+        },
+        {
+          "value": "15×20 cm or custom"
+        },
+        {
+          "value": "FREE"
+        },
+        {
+          "value": "FREE"
+        },
+        {
+          "value": "是 — 200+ 小时 patch test"
+        },
+        {
+          "value": "10ct sachet / 56ct / 80ct canister / 480ct bulk"
+        },
+        {
+          "value": "36 个月"
+        },
+        {
+          "value": "3307.90.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的婴儿湿巾含酒精吗？",
+          "answer": "不含，我们的婴儿湿巾100%无酒精、无对羟基苯甲酸酯、无SLS和无氯。100%可生物降解的版本可用。已经过儿科学家测试。"
+        },
+        {
+          "question": "私人标签婴儿湿巾的MOQ是多少？",
+          "answer": "MOQ为每个SKU 10,000包。对于订购3个以上SKU的买家，可提供混合集装箱订单。设计和印刷服务可应要求提供。"
+        }
+      ]
+    },
+    "baby-diapers-oem": {
+      "name": "婴儿纸尿裤OEM代工",
+      "tagline": "专业纸尿裤OEM，品牌商的越南制造伙伴",
+      "description": "越南专业婴儿纸尿裤OEM代工，采用优质SAP超吸收聚合物和柔软无纺布面层，提供NB至XL全码段生产，支持品牌定制包装，适合母婴品牌商和零售连锁自有品牌建立。",
+      "moq": "每码段10万片起",
+      "containerCapacity": "视包装规格而定",
+      "packagingOptions": [
+        "零售袋装（12片/20片/50片）",
+        "定制OEM品牌包装",
+        "体验装（单片独立包装）"
+      ],
+      "seoTitle": "越南婴儿纸尿裤OEM代工 | 全码段 | 品牌定制",
+      "seoDescription": "越南婴儿纸尿裤OEM代工，NB至XL全码段，SAP超吸收，支持品牌定制，ISO认证，MOQ 10万片/码。",
+      "longDescription": "纸尿裤是全球年销售额超过600亿美元的快消品巨头市场，越南凭借持续提升的纸尿裤生产技术和相对较低的劳动力成本，吸引了多个国际和区域母婴品牌在越南建立代工合作。\n\n我们的纸尿裤OEM工厂配备全自动纸尿裤生产线，使用高品质原材料：SAP超吸收聚合物（Sodium Polyacrylate）核心吸收层、SMS复合无纺布面层、PE防漏侧立边以及魔术贴（粘扣）系统。成品纸尿裤一次吸收量通常达到350–500ml（视码段），具有优异的防侧漏性能和皮肤干爽感。\n\n产品码段覆盖NB（<5kg）、S（4–8kg）、M（6–11kg）、L（9–14kg）、XL（12kg以上），可按各码段设计适合的松紧腰围和魔术贴粘扣尺寸。\n\n我们提供全套OEM品牌定制服务：外观设计（腰贴印花、正面印花）、包装设计（袋型、开合方式）、品牌标识印刷，帮助客户以最短时间推出市场差异化的自有品牌产品。\n\n工厂持有ISO 9001和ISO 13485认证，可出具产品检测报告（吸收量、皮肤刺激性测试等），符合欧盟CE安全标准。",
+      "specs": [
+        {
+          "value": "SAP + Fluff pulp / Ultra-thin SAP"
+        },
+        {
+          "value": "22–35g per diaper (size dependent)"
+        },
+        {
+          "value": "≤ 0.5 g"
+        },
+        {
+          "value": "Soft non-woven (16–18 GSM)"
+        },
+        {
+          "value": "Hook-及-loop / Tape"
+        },
+        {
+          "value": "NB / S / M / L / XL / XXL"
+        },
+        {
+          "value": "30–80 pcs per pack (size dependent)"
+        },
+        {
+          "value": "50,000 packs per size"
+        },
+        {
+          "value": "9619.00.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的尿布有哪些尺寸可用？",
+          "answer": "标准尺寸：新生儿（NB）、S、M、L、XL、XXL。最适合每种尺寸的体重范围。我们提供尿布加裤型尿布。"
+        },
+        {
+          "question": "你们提供超薄\"干爽感\"尿布吗？",
+          "answer": "是的，我们的优质级使用超薄SAP核心技术（无绒毛浆），提供更薄、更轻量、更高吸收性的设计。需要更复杂的工艺，因此MOQ更高。"
+        }
+      ]
+    },
+    "baby-powder-export": {
+      "name": "出口婴儿爽身粉",
+      "tagline": "温和吸湿，清爽护肤，宝宝的贴身呵护",
+      "description": "越南出口婴儿爽身粉，滑石粉基底（或玉米淀粉基底可选），添加温和天然香料，细腻顺滑，能有效吸收汗液保持宝宝皮肤干爽，通过国际皮肤安全测试，适合全球母婴市场。",
+      "moq": "500公斤",
+      "containerCapacity": "20英尺集装箱约装15–18吨",
+      "packagingOptions": [
+        "100g/200g/500g塑料瓶",
+        "定制OEM品牌包装"
+      ],
+      "seoTitle": "越南出口婴儿爽身粉 | 温和配方 | OEM私标定制",
+      "seoDescription": "越南出口婴儿爽身粉，温和配方，皮肤安全测试通过，支持OEM品牌定制，MOQ 500公斤，出口全球。",
+      "longDescription": "婴儿爽身粉是婴儿日常皮肤护理的传统产品，帮助吸收多余汗液，保持皮肤干爽，预防痱子和尿布疹的发生。在东南亚、南亚和中东等高温潮湿地区，婴儿爽身粉是母婴消费品中的常年畅销品类。\n\n我们提供两种基础配方：传统滑石粉基底爽身粉（滑石粉含量70–80%，粒径≤75μm，无石棉污染检测通过）和玉米淀粉（Cornstarch）基底爽身粉（适合对滑石粉敏感或偏好天然成分的市场，如北美和欧洲）。两种配方均添加温和天然香料（薰衣草、甘菊等植物提取香精）和保湿成分（尿囊素、氧化锌），气味清新淡雅。\n\n产品经过皮肤刺激性测试（HRIPT），结果为低致敏性，可适用于新生儿娇嫩肌肤。在ISO 22716 GMP认证工厂内生产，配方符合EU化妆品法规（EC 1223/2009），可出具全套产品安全文件。\n\n提供多种容量规格（100g–500g）和包装形式（塑料瓶撒粉款、软管挤压款），支持全品牌OEM定制，适合母婴品牌商、超市自有品牌和母婴零售连锁。",
+      "specs": [
+        {
+          "value": "Cornstarch (Talc-Free) / Arrowroot (天然 variant)"
+        },
+        {
+          "value": "TALC-FREE — cornstarch base only"
+        },
+        {
+          "value": "Fragrance-不含 / Hypoallergenic mild 香味"
+        },
+        {
+          "value": "Dermatologist tested, hypoallergenic"
+        },
+        {
+          "value": "ISO 22716 Cosmetics GMP"
+        },
+        {
+          "value": "5,000 units per SKU"
+        },
+        {
+          "value": "21–30 天 (stock formula); 35–45 天 (custom)"
+        },
+        {
+          "value": "36 个月"
+        },
+        {
+          "value": "EU Cosmetics Reg. 1223/2009 / ASEAN / FDA compliant"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的婴儿粉含滑石粉吗？",
+          "answer": "我们的标准产品配方为100%无滑石粉，使用玉米淀粉作为基础。这符合最新的安全建议。可应要求提供传统滑石粉配方。"
+        },
+        {
+          "question": "你们能生产无香味婴儿粉以供敏感肌肤吗？",
+          "answer": "可以。无香味变体可用于我们所有的玉米淀粉基配方。这些特别适合具有湿疹病史或对香料敏感的婴儿。"
+        },
+        {
+          "question": "你们为欧盟进口商提供什么监管文件？",
+          "answer": "对于欧盟市场访问，我们提供：由合格的欧盟化妆品安全评估员准备的化妆品产品安全报告（CPSR）、产品信息文件（PIF）、CPNP通知支持和INCI成分声明。"
+        }
+      ]
+    },
+    "baby-products": {
+      "name": "越南婴儿用品",
+      "tagline": "从出生到成长，呵护宝宝的每一天",
+      "description": "越南出口多品类婴儿用品，包括婴儿湿巾、纸尿裤OEM和婴儿爽身粉等，采用温和安全配方和严格质量标准，适合全球母婴品牌商和零售商合作定制。",
+      "moq": "视产品而定",
+      "containerCapacity": "视产品而定",
+      "packagingOptions": [
+        "零售包装",
+        "OEM品牌定制包装"
+      ],
+      "seoTitle": "越南婴儿用品出口 | 湿巾纸尿裤爽身粉 | OEM定制",
+      "seoDescription": "越南婴儿用品出口，提供婴儿湿巾、纸尿裤OEM、爽身粉等，温和安全配方，全球母婴市场供应。",
+      "longDescription": "越南婴儿用品制造业是全球母婴产品供应链的重要一环，凭借成熟的生产能力、灵活的OEM服务和有竞争力的成本结构，越南已成为多个国际和区域母婴品牌的代工目的地。\n\n我们的婴儿用品出口业务覆盖宝宝护理的全场景需求：清洁护肤类（婴儿湿巾——每日必备的肌肤清洁利器）、吸湿舒爽类（婴儿纸尿裤OEM——全码段生产，支持品牌定制）以及护肤保湿类（婴儿爽身粉——温和吸湿，预防痱子）。\n\n越南婴儿用品的核心优势在于配方安全性（所有产品均通过皮肤安全性测试，符合EU/FDA婴幼儿产品标准）、生产稳定性（在GMP/ISO认证工厂内生产）以及OEM灵活性（支持小批量试单和大规模量产）。\n\n我们欢迎全球母婴品牌商、零售连锁自有品牌团队和婴儿用品进口商与我们洽谈合作，提供样品打样和产品定制方案咨询。"
+    },
+    "microfiber-mop-set": {
+      "name": "超细纤维拖把套装",
+      "tagline": "专业清洁解决方案，适用于商业与家用",
+      "description": "高品质超细纤维拖把套装，配有可更换拖头，专为高效地板清洁设计，广泛用于酒店、商业场所及家庭。",
+      "moq": "500套",
+      "containerCapacity": "约12,000套/20英尺集装箱",
+      "packagingOptions": [
+        "彩盒装（1套/盒）",
+        "中性包装",
+        "OEM贴牌包装"
+      ],
+      "seoTitle": "超细纤维拖把套装批发出口 — Ideal Deal越南",
+      "seoDescription": "越南超细纤维拖把套装批发商，提供OEM定制，起订量500套，适用于酒店及商业清洁。",
+      "longDescription": "超细纤维拖把套装代表了清洁技术的重大进步，相较于传统棉线拖把，清洁效率提升显著。越南制造的超细纤维拖把采用精密分裂工艺，每根纤维直径仅为人发的1/100，形成庞大的吸附表面积，可有效捕获并去除污垢、细菌及细小颗粒。\n\n我们的套装通常包含拖杆、拖架及多个可更换拖头，支持平拖设计，可轻松清洁家具底部及角落。可更换拖头设计大幅降低长期使用成本，符合酒店、餐厅、医院等专业清洁行业的使用需求。\n\n产品品控严格，每批次均经过吸水性、耐磨性及洗涤耐久性测试，确保出口标准一致。支持多种颜色、尺寸及OEM定制，满足客户品牌化需求。\n\n大宗采购可享阶梯优惠价格，欢迎洽谈OEM合作。",
+      "specs": [
+        {
+          "value": "80% 涤纶 / 20% polyamide split fiber"
+        },
+        {
+          "value": "300–450 GSM"
+        },
+        {
+          "value": "40×14 cm (flat) / 35 cm dia (spin)"
+        },
+        {
+          "value": "Aluminum alloy / SS / PP telescopic"
+        },
+        {
+          "value": "500+ washes at 60°C"
+        },
+        {
+          "value": ">99%"
+        },
+        {
+          "value": "2,000 sets"
+        },
+        {
+          "value": "21–35 天"
+        },
+        {
+          "value": "9603.90.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "拖把头可以机洗吗？",
+          "answer": "可以，我们的微纤维拖把头可以机洗多达500次而不会失去吸水性。建议使用低于60°C的温度，不要使用织物柔顺剂。"
+        },
+        {
+          "question": "你们在拖把垫上提供定制徽标刺绣吗？",
+          "answer": "是的，从5,000件起可在平板拖把垫上进行徽标刺绣。对于较小数量，可提供丝网印刷或热转印徽标。"
+        }
+      ]
+    },
+    "broom-dustpan-set": {
+      "name": "扫把簸箕套装",
+      "tagline": "高效清洁工具，适用于室内外多种场景",
+      "description": "坚固耐用的扫把簸箕套装，配有符合人体工程学设计的手柄，适用于硬地板、瓷砖及户外地面清洁。",
+      "moq": "1,000套",
+      "containerCapacity": "约20,000套/20英尺集装箱",
+      "packagingOptions": [
+        "彩盒装",
+        "收缩膜包装",
+        "OEM定制包装"
+      ],
+      "seoTitle": "扫把簸箕套装批发出口 — Ideal Deal越南",
+      "seoDescription": "越南扫把簸箕套装批发出口，起订量1,000套，适用于家用及商业清洁场所。",
+      "longDescription": "扫把簸箕套装是家庭及商业清洁的必备工具，越南制造的扫把采用优质合成鬃毛，刚柔兼备，既能扫除粗大垃圾，又能收集细小灰尘，适用于瓷砖、木地板、大理石等多种地面。\n\n符合人体工程学的弯曲手柄设计，减少弯腰幅度，降低使用疲劳。齿形簸箕边缘与扫把完美配合，确保垃圾全部收纳，不留残渣。部分型号采用锁扣设计，便于悬挂收纳，节省空间。\n\n产品材质经过耐热、耐摔及抗紫外线测试，确保室内外场景均可长期使用。我们提供多种颜色搭配及尺寸选择，满足零售商及采购商的多样需求。\n\n支持OEM定制logo及包装，欢迎联系获取报价。",
+      "specs": [
+        {
+          "value": "30 cm / 40 cm / 53 cm"
+        },
+        {
+          "value": "PP Monofilament 0.15–0.30 mm"
+        },
+        {
+          "value": "Wood / Aluminum / PP (110–150 cm)"
+        },
+        {
+          "value": "Short / Long-h及le / Lobby"
+        },
+        {
+          "value": "3,000 sets"
+        },
+        {
+          "value": "21–35 天"
+        },
+        {
+          "value": "9603.29.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "簸箕的边缘是橡胶吗？",
+          "answer": "是的，我们的簸箕配有柔软橡胶边缘，可灵活贴合地板并不留垃圾。我们的高级套装包含一个一体化设计的踩踏式簸箕。"
+        },
+        {
+          "question": "出口市场可用哪些手柄材料？",
+          "answer": "我们提供木质手柄（自然饰面或漆面）、铝中空管（轻量级、优质感觉）和钢芯塑料手柄（耐用、经济实惠）。可提供伸缩式和固定长度选项。"
+        }
+      ]
+    },
+    "microfiber-cleaning-cloths": {
+      "name": "超细纤维清洁布",
+      "tagline": "多用途清洁布，高效无痕，适用于各类表面",
+      "description": "专业级超细纤维清洁布，吸水性强，无痕清洁玻璃、不锈钢、厨电等表面，干湿两用。",
+      "moq": "5,000条",
+      "containerCapacity": "约200,000条/20英尺集装箱",
+      "packagingOptions": [
+        "散装袋装（10/20/50条）",
+        "零售盒装",
+        "OEM定制包装"
+      ],
+      "seoTitle": "超细纤维清洁布批发出口 — Ideal Deal越南",
+      "seoDescription": "越南超细纤维清洁布批发出口，起订量5,000条，高吸水、无痕清洁，适用于家用及商业场所。",
+      "longDescription": "超细纤维清洁布凭借其独特的纤维结构，已成为全球家庭及专业清洁的首选工具。每平方厘米数以万计的微细纤维形成巨大的接触面积，可有效吸附油脂、指纹及微尘，无需额外清洁剂即可实现无痕清洁效果。\n\n我们的超细纤维布采用80%聚酯纤维+20%聚酰胺纤维的黄金配比，兼顾吸水性与耐用性。不同厚度（300-600gsm）适用于不同场景：轻薄款适合玻璃及镜面清洁，厚款适合吸水及抛光。\n\n产品经过至少300次洗涤测试，确保纤维不脱落、不变形，洗涤后清洁性能稳定。提供多种尺寸（30×30cm至40×60cm）及颜色，方便按区域区分使用（厨房、卫生间、汽车等）。\n\n支持散装出口及OEM品牌定制，是超市、酒店采购及清洁用品分销商的理想选择。",
+      "specs": [
+        {
+          "value": "80% 涤纶 / 20% polyamide split"
+        },
+        {
+          "value": "200–600 GSM (grade dependent)"
+        },
+        {
+          "value": "30×30 to 60×80 cm"
+        },
+        {
+          "value": "300–500+ washes at 60°C"
+        },
+        {
+          "value": ">99% (ISO 16100 method)"
+        },
+        {
+          "value": "10+ st及ard + custom Pantone"
+        },
+        {
+          "value": "2,000 pieces"
+        },
+        {
+          "value": "14–28 天"
+        },
+        {
+          "value": "6307.10.90"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的微纤维布GSM是多少？",
+          "answer": "我们提供270GSM（标准）、300GSM（高级）和350GSM（重型）选项。较高的GSM意味着更厚的吸收性更强的布。"
+        },
+        {
+          "question": "你们能为欧洲零售供应OEKO-TEX认证织物布吗？",
+          "answer": "可以，我们所有的微纤维织物均经OEKO-TEX Standard 100认证，确保不含任何对人类健康有害的物质。证书与出口装运一起提供。"
+        }
+      ]
+    },
+    "spin-mop-with-bucket": {
+      "name": "旋转拖把连桶套装",
+      "tagline": "360度旋转甩干，高效清洁地板",
+      "description": "配备脚踏甩干桶的旋转拖把套装，360度旋转设计，清洁死角轻松，适用于各类硬地板。",
+      "moq": "300套",
+      "containerCapacity": "约3,500套/20英尺集装箱",
+      "packagingOptions": [
+        "彩盒散件装",
+        "整套组装装",
+        "OEM定制"
+      ],
+      "seoTitle": "旋转拖把连桶套装批发出口 — Ideal Deal越南",
+      "seoDescription": "越南旋转拖把连桶套装批发出口，起订量300套，360度旋转甩干，适用于家用及商业清洁。",
+      "longDescription": "旋转拖把连桶套装是现代家庭及商业清洁的革命性工具，彻底改变了传统拖地方式。脚踏甩干装置使双手全程无需接触脏水，卫生高效；360度旋转拖头可轻松清洁床底、沙发底及各类角落，传统拖把难以企及的区域也能轻松覆盖。\n\n拖头采用超细纤维或棉线材质，吸水性强，拖地后地面干燥速度快。可更换拖头设计延长套装使用寿命，降低使用成本。水桶通常配备双槽设计，分隔清水与污水，进一步提升清洁效率。\n\n产品结构经过严格压力测试，确保旋转机构长期使用不松动、不变形。出口版本符合欧美市场质量标准，已通过多国安全认证。\n\n支持多种颜色及OEM品牌定制，是跨境电商卖家及家居用品进口商的热门选品。",
+      "specs": [
+        {
+          "value": "Microfiber (160–350g) — machine washable 60°C"
+        },
+        {
+          "value": "Stainless steel, 140–160 cm adjustable"
+        },
+        {
+          "value": "10–15 L (product tier dependent)"
+        },
+        {
+          "value": "Foot-pedal centrifugal spinner, 360° rotation"
+        },
+        {
+          "value": "500 sets (st及ard); 1,000 sets (custom color)"
+        },
+        {
+          "value": "25–35 天"
+        },
+        {
+          "value": "~0.045 m³ per set (flat-pack)"
+        },
+        {
+          "value": "White/Grey, Blue/White, Red/White, 定制"
+        },
+        {
+          "value": "REACH / CA Prop 65 / EN 13697 (where applicable)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "脱水桶包括离心机吗？",
+          "answer": "是的，我们的标准旋转拖把套装包括一个带踩踏式离心机的脱水桶。一些型号提供电动离心机用于无障碍操作。"
+        },
+        {
+          "question": "我们能在桶和手柄上获得定制品牌吗？",
+          "answer": "是的。OEM品牌通过垫印刷、热转印或贴纸标签可在桶身、手柄套和零售包装盒上使用。MOQ：每种SKU 1,000套。"
+        },
+        {
+          "question": "你们的旋转拖把是否符合欧盟REACH和加州Prop 65？",
+          "answer": "是的。我们所有的旋转拖把套装都由SGS或Bureau Veritas测试REACH合规性（SVHC筛选）和加州Prop 65（铅、邻苯二甲酸盐和重金属）。"
+        }
+      ]
+    },
+    "cleaning-tools": {
+      "name": "清洁工具",
+      "tagline": "越南制造清洁工具，出口级品质，全系列供应",
+      "description": "越南出口级清洁工具系列，涵盖拖把、扫把、清洁布等多种产品，适用于家庭及商业清洁场所。",
+      "moq": "按产品类型而定",
+      "containerCapacity": "按产品组合而定",
+      "packagingOptions": [
+        "散装出口",
+        "零售包装",
+        "混合装柜"
+      ],
+      "seoTitle": "清洁工具批发出口越南 — Ideal Deal",
+      "seoDescription": "越南清洁工具批发出口，含拖把、扫把、超细纤维布等，支持OEM定制，欢迎咨询。",
+      "longDescription": "越南清洁工具制造业凭借成本优势与日益提升的制造技术，已成为全球清洁用品供应链的重要组成部分。Ideal Deal整合越南优质清洁工具制造商资源，为全球买家提供一站式采购服务。\n\n我们的清洁工具产品线涵盖超细纤维拖把套装、旋转拖把连桶、扫把簸箕套装、超细纤维清洁布、刷子、海绵等多个品类。所有产品均按出口标准生产，部分已通过CE、REACH等国际认证。\n\n越南工厂生产成本较中国低20-35%，同时保持相当的产品质量，是寻求供应链多元化的进口商的理想选择。工厂通常具备完善的OEM服务能力，可按客户要求定制logo、颜色及包装设计。\n\n我们提供样品确认、质检报告、装柜照片等完整出口服务，欢迎联系我们的采购团队获取详细报价。"
+    },
+    "plastic-household-containers": {
+      "name": "塑料家用容器",
+      "tagline": "食品级塑料容器，密封保鲜，多规格供选",
+      "description": "食品级PP/PE材质家用塑料容器，密封性强，适用于食物储存、厨房收纳及日常家居使用。",
+      "moq": "2,000件",
+      "containerCapacity": "约50,000件/20英尺集装箱（按尺寸）",
+      "packagingOptions": [
+        "散装出口",
+        "彩盒零售装",
+        "OEM定制"
+      ],
+      "seoTitle": "塑料家用容器批发出口越南 — Ideal Deal",
+      "seoDescription": "越南食品级塑料家用容器批发出口，起订量2,000件，多规格可选，支持OEM定制。",
+      "longDescription": "食品级塑料家用容器是现代家庭厨房不可或缺的储存工具，越南制造的塑料容器在原材料管控、生产工艺及出口标准上均达到国际水平。我们供应的容器均采用符合FDA/LFGB食品接触材料标准的PP或PE材质，无BPA，安全可靠。\n\n产品系列涵盖从100ml到10L的多种规格，适用于谷物、调料、剩饭剩菜、干货等各类食品储存。密封盖设计有效隔绝空气与湿气，延长食物保鲜期。部分型号支持微波加热及冰箱冷冻，使用场景更灵活。\n\n越南塑料制品制造商具备较强的模具开发能力，可依据客户设计开发专属产品。常规颜色及透明款均有库存，特殊颜色可按量定制。\n\n产品出口前须通过壁厚、密封性及跌落测试，确保运输过程中产品完好无损。欢迎联系我们获取样品及报价。",
+      "specs": [
+        {
+          "value": "PP / HDPE / ABS / PET (food grade)"
+        },
+        {
+          "value": "BPA-Free — all grades"
+        },
+        {
+          "value": "FDA 21 CFR / EU 10/2011 compliant"
+        },
+        {
+          "value": "PP: -20°C to +120°C / HDPE: -40°C to +80°C"
+        },
+        {
+          "value": "定制 Pantone matching 可提供"
+        },
+        {
+          "value": "5,000 units (stock molds) / 定制 mold from 10,000"
+        },
+        {
+          "value": "21–30 天 (stock molds)"
+        },
+        {
+          "value": "3924.10.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的容器是否食品安全？",
+          "answer": "可以，我们的所有食品级容器都使用FDA批准的食品安全聚丙烯（PP）或聚乙烯（PE）。可应要求提供BPA-free（不含双酚A）认证。"
+        },
+        {
+          "question": "你们能为我们的品牌生产定制尺寸和颜色吗？",
+          "answer": "可以，定制尺寸需要新的工具（模具）投资，根据复杂度通常为3,000–15,000美元。颜色定制通过批次着色进行，每个SKU MOQ 5,000件。"
+        }
+      ]
+    },
+    "plastic-storage-bins-export": {
+      "name": "出口塑料储物箱",
+      "tagline": "坚固耐用的塑料储物解决方案，适用于仓储与家居",
+      "description": "高强度塑料储物箱，可叠放设计，适用于仓库、超市、家庭收纳等多种场景，出口标准生产。",
+      "moq": "500件",
+      "containerCapacity": "约8,000件/20英尺集装箱（按尺寸）",
+      "packagingOptions": [
+        "散装出口",
+        "托盘包装",
+        "OEM定制"
+      ],
+      "seoTitle": "出口塑料储物箱批发越南 — Ideal Deal",
+      "seoDescription": "越南出口塑料储物箱批发，坚固可叠放，起订量500件，适用于仓储及家居收纳。",
+      "longDescription": "塑料储物箱是现代仓储物流、零售展示及家居收纳的重要工具，市场需求持续稳定。越南制造的储物箱采用高密度HDPE或PP材质，抗压强度高，多层叠放稳定性好，适合仓库批量存放及零售陈列使用。\n\n我们供应的储物箱系列规格从10L到120L不等，覆盖小件储物至大型工业用途。网格镂空设计款式透气防潮，适合蔬果存放；密封实体款适合防尘防虫储存。手持把手及叠放凸扣设计使搬运和堆垛更安全便捷。\n\n产品颜色标准款（灰、蓝、黄、红）均有库存，亦可定制颜色。支持logo模压或贴标，满足品牌化需求。出口版本符合ISO尺寸标准，与欧美标准托盘尺寸兼容。\n\n我们提供完整的出口文件支持，包括质检报告、装箱单及原产地证明，欢迎联系洽谈长期供应合作。",
+      "specs": [
+        {
+          "value": "PP / HDPE / ABS (product-dependent)"
+        },
+        {
+          "value": "BPA-Free (all products)"
+        },
+        {
+          "value": "FDA 21 CFR 177.1520 (food-safe PP grades)"
+        },
+        {
+          "value": "1L – 60L (st及ard range)"
+        },
+        {
+          "value": "1,000 pcs per SKU (from existing mold)"
+        },
+        {
+          "value": "20–30 天 (existing mold); 45–60 天 (new mold)"
+        },
+        {
+          "value": "REACH / CA Prop 65 / EU REACH Regulation"
+        },
+        {
+          "value": "Interlocking rim design (stackable to 4 high loaded)"
+        },
+        {
+          "value": "ISO 9001, SGS/Bureau Veritas tested"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "存储箱可以堆叠吗？",
+          "answer": "可以，我们大多数存储箱设计可以堆叠。承重能力因型号而异，但通常每个箱子可承重50–100公斤。"
+        },
+        {
+          "question": "你们能为我们的产品线开发新尺寸或定制模具吗？",
+          "answer": "是的。我们为新尺寸或独特设计提供定制模具开发。模具工具成本通常为8,000–30,000美元，具体取决于复杂度。生产MOQ：每种SKU 3,000件。"
+        },
+        {
+          "question": "你们提供REACH和加州Prop 65合规性测试吗？",
+          "answer": "是的。我们提供来自SGS、Bureau Veritas或Intertek的REACH SVHC（高度关注物质）和加州Prop 65（铅、镉、邻苯二甲酸盐）的第三方测试报告。"
+        }
+      ]
+    },
+    "plastic-household": {
+      "name": "塑料家居用品",
+      "tagline": "越南出口塑料家居用品，品类齐全，一站式采购",
+      "description": "越南出口塑料家居用品系列，涵盖容器、储物箱、厨房及浴室用品，食品级材质，出口标准生产。",
+      "moq": "按产品类型而定",
+      "containerCapacity": "按产品组合而定",
+      "packagingOptions": [
+        "散装出口",
+        "零售包装",
+        "混合装柜"
+      ],
+      "seoTitle": "塑料家居用品批发出口越南 — Ideal Deal",
+      "seoDescription": "越南塑料家居用品批发出口，含容器、储物箱等，食品级材质，支持OEM，欢迎咨询。",
+      "longDescription": "越南塑料家居用品制造业近年来快速发展，在原材料采购、生产设备及工艺技术上均取得显著进步。越南塑料制品工厂通常具备注塑、吹塑、滚塑等多种成型工艺能力，可生产从薄壁容器到厚壁储物箱的各类产品。\n\nIdeal Deal整合越南主要塑料制品制造商资源，提供包括食品储存容器、储物箱、洗碗盆、垃圾桶、衣架、洗衣篮、浴室置物架等全系列家居塑料用品的一站式采购服务。\n\n越南塑料家居用品的价格竞争力较强，在维持较高产品质量的同时，采购成本通常比中国低15-30%。工厂通常配备颜色管理体系，可提供稳定的批次色差控制。\n\n我们的采购团队熟悉越南主要塑料产业集群（胡志明市、河内、平阳等地），可帮助买家快速对接合适的供应商，提供工厂审核、样品跟进及质量管控全流程服务。"
+    },
+    "canned-tuna-chunks": {
+      "name": "金枪鱼块罐头",
+      "tagline": "越南出口金枪鱼罐头，优质蛋白，全球供应",
+      "description": "越南生产的优质金枪鱼块罐头，采用新鲜金枪鱼加工，盐水或油浸均可，符合国际食品安全标准。",
+      "moq": "1,000箱",
+      "containerCapacity": "约2,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "标准铁罐（185g/160g）",
+        "拉环易开盖",
+        "OEM贴标"
+      ],
+      "seoTitle": "金枪鱼块罐头批发出口越南 — Ideal Deal",
+      "seoDescription": "越南金枪鱼块罐头批发出口，盐水或油浸可选，起订量1,000箱，符合国际食安标准。",
+      "longDescription": "越南是全球重要的金枪鱼捕捞与加工国，拥有长达3,200公里的海岸线和丰富的渔业资源。越南金枪鱼罐头工厂普遍通过HACCP、BRC、IFS等国际食品安全体系认证，出口产品品质稳定可靠。\n\n我们供应的金枪鱼块罐头主要采用黄鳍金枪鱼（Yellowfin Tuna）和长鳍金枪鱼（Albacore Tuna），肉质紧实，块形完整，适合沙拉、三明治、意大利面等多种用途。盐水浸泡款热量低，健康轻食市场需求旺盛；植物油/橄榄油浸泡款口感丰润，适合欧洲市场偏好。\n\n产品规格以185g和160g易开盖铁罐为主，亦可定制其他规格。罐头密封后经高温杀菌，常温保质期可达3-5年，适合长距离运输和仓储。\n\n支持OEM贴标，可按客户要求设计包装。欢迎联系获取样品和出口报价。",
+      "specs": [
+        {
+          "value": "Skipjack (Katsuwonus pelamis) / Yellowfin"
+        },
+        {
+          "value": "Chunks / Flakes / Solid"
+        },
+        {
+          "value": "Sunflower oil / Spring water / Brine"
+        },
+        {
+          "value": "160g / 185g / 425g / 850g"
+        },
+        {
+          "value": "≥ 52% of net weight (EU Codex)"
+        },
+        {
+          "value": "≤ 1.5% (st及ard) / Low-salt 可提供"
+        },
+        {
+          "value": "48 个月 (ambient)"
+        },
+        {
+          "value": "F0 ≥ 5"
+        },
+        {
+          "value": "1604.14.11"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们使用什么类型的金枪鱼？",
+          "answer": "我们出口黄鳍金枪鱼（Yellowfin）和正鲣鱼（Skipjack）。可使用橄榄油、葵花油、植物油、盐水、湿包装或自然汁液。"
+        },
+        {
+          "question": "你们提供MSC认证的可持续金枪鱼吗？",
+          "answer": "可以，可提供来自MSC认证船只的精选批次。MSC CoC文件随每批装运提供。比标准非MSC批次MOQ更高，价格更高。"
+        },
+        {
+          "question": "你们能供应低钠/无添加盐罐装金枪鱼吗？",
+          "answer": "是的。低钠（≤0.5%盐）和无添加盐变体可在盐水或泉水介质中提供。理想用于健康意识强的零售品牌和欧盟营养标签。"
+        }
+      ]
+    },
+    "canned-sardines-export": {
+      "name": "沙丁鱼罐头出口",
+      "tagline": "越南沙丁鱼罐头，营养丰富，出口品质",
+      "description": "越南出口级沙丁鱼罐头，番茄汁、植物油或盐水浸泡可选，高蛋白低脂，符合欧盟及美国进口标准。",
+      "moq": "1,000箱",
+      "containerCapacity": "约2,200箱/20英尺集装箱",
+      "packagingOptions": [
+        "番茄汁浸泡款",
+        "植物油浸泡款",
+        "OEM定制包装"
+      ],
+      "seoTitle": "沙丁鱼罐头出口批发越南 — Ideal Deal",
+      "seoDescription": "越南沙丁鱼罐头批发出口，番茄汁或油浸可选，起订量1,000箱，符合欧盟及美国标准。",
+      "longDescription": "沙丁鱼是全球消费量最大的罐头鱼类之一，富含Omega-3脂肪酸、维生素D及钙质，营养价值极高。越南沙丁鱼罐头工厂主要集中在芽庄、头顿及胡志明市周边，具备从原料采购到成品出口的完整产业链。\n\n我们供应的沙丁鱼罐头采用新鲜或速冻沙丁鱼为原料，经过清洗、去头去内脏、预煮、调味、装罐、密封、高温灭菌等严格工序生产。番茄汁款色泽鲜艳，口味酸甜，深受非洲、中东及东南亚市场欢迎；植物油款口感醇厚，是欧洲传统消费偏好。\n\n产品规格通常为125g、155g或425g，可根据目标市场需求定制。出口包装符合目标国的标签法规要求，包括营养成分表、过敏原声明及产地标注。\n\n所有工厂均经过定期第三方审核，确保食品安全标准持续达标。欢迎联系我们的团队安排工厂参观或样品寄送。",
+      "specs": [
+        {
+          "value": "Sardinella lemuru / Sardinella gibbosa (wild-caught)"
+        },
+        {
+          "value": "Sunflower Oil / Tomato Sauce / Olive Oil / Brine / Chili"
+        },
+        {
+          "value": "125g / 155g / 400g net weight"
+        },
+        {
+          "value": "3–5 年s (commercially sterile)"
+        },
+        {
+          "value": "1.0–2.0% (variant dependent)"
+        },
+        {
+          "value": "1 x 20ft container (~2,400 cartons)"
+        },
+        {
+          "value": "21–30 天"
+        },
+        {
+          "value": "HACCP, BRC, Halal, ISO 22000"
+        },
+        {
+          "value": "OEM / Private Label / 买方规格"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "罐头沙丁鱼的尺寸选项是什么？",
+          "answer": "我们提供125g（个人份）、155g（标准）、425g（家庭）和3公斤A10罐头（食品服务）。鱼为整条、去骨/去皮（按要求）。"
+        },
+        {
+          "question": "你们能用我们的品牌生产私人标签罐装沙丁鱼吗？",
+          "answer": "可以。私人标签是我们最常见的供应安排。我们需要买方提供AI/PDF格式的艺术品。MOQ：每种SKU 20英尺集装箱负载。"
+        },
+        {
+          "question": "你们如何确保符合欧盟IUU渔业法规？",
+          "answer": "我们提供完整的IUU（非法、未报告、不受管制）渔业合规文件，包括：捕获证书、原产地证书、原料追溯到批准船只的供应商声明。"
+        }
+      ]
+    },
+    "canned-preserved-food": {
+      "name": "罐头及腌制食品",
+      "tagline": "越南出口罐头食品，品类齐全，品质稳定",
+      "description": "越南出口罐头及腌制食品系列，涵盖鱼类、肉类、蔬菜等品类，符合国际食品安全标准，适合全球市场。",
+      "moq": "按产品类型而定",
+      "containerCapacity": "按产品组合而定",
+      "packagingOptions": [
+        "铁罐包装",
+        "铝罐包装",
+        "OEM定制"
+      ],
+      "seoTitle": "罐头食品批发出口越南 — Ideal Deal",
+      "seoDescription": "越南罐头及腌制食品批发出口，品类齐全，食品安全达标，支持OEM，欢迎咨询。",
+      "longDescription": "越南罐头食品行业近年来持续扩张，在产品多样性和质量标准上均取得显著提升。除传统海鲜罐头外，越南工厂也在积极开发蔬菜罐头、肉类罐头及特色腌制品，满足国际买家的多元化采购需求。\n\n我们的罐头食品产品线涵盖金枪鱼罐头、沙丁鱼罐头、鲭鱼罐头、猪肉午餐肉、鸡肉罐头、什锦蔬菜罐头、竹笋罐头等多个品类。各品类均有稳定的生产工厂合作，可提供持续的货源保障。\n\n越南罐头食品出口主要目标市场包括欧盟、美国、澳大利亚、日本及中东地区。大多数合作工厂已获得目标市场所需的进口许可认证，简化了买家的合规流程。\n\n我们提供完整的采购支持服务，包括工厂筛选、样品协调、质检安排及出口文件准备，帮助买家高效完成采购流程。"
+    },
+    "vietnamese-instant-noodles": {
+      "name": "越南方便面",
+      "tagline": "越南经典风味方便面，出口全球",
+      "description": "越南风味方便面，采用小麦面饼配独特调料包，口味多样，适合亚洲食品零售及餐饮渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约3,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "单包装（75g）",
+        "多联包装（5包/袋）",
+        "OEM贴标"
+      ],
+      "seoTitle": "越南方便面批发出口 — Ideal Deal",
+      "seoDescription": "越南方便面批发出口，多种口味，起订量500箱，适合亚洲食品零售及餐饮渠道。",
+      "longDescription": "越南是全球方便面消费大国，人均消费量常年居全球前列，由此催生了强大的本土方便面生产能力。越南方便面以其独特的东南亚风味著称，常见口味包括牛肉（Pho风味）、鸡肉、虾味、猪骨汤及素食等，深受亚裔消费者及方便食品爱好者喜爱。\n\n越南主要方便面品牌（如Hao Hao、3 Miền等）已在东南亚、欧洲及北美的亚裔社区市场建立起较高的知名度。我们与越南多家方便面制造商建立了稳定的供应合作，可提供品牌产品出口及OEM代工两种模式。\n\n产品通常采用油炸面饼（方形或圆形），配有独立调料包、油包及脱水蔬菜包，食用方便快捷。包装材料符合出口国食品接触材料标准，热封性能稳定，适合长距离运输。\n\n欢迎联系我们了解具体产品规格、口味选项及出口报价。",
+      "specs": [
+        {
+          "value": "Fried / Air-dried / Rice noodle (Pho)"
+        },
+        {
+          "value": "65–100g per pack"
+        },
+        {
+          "value": "1,200–1,600 mg"
+        },
+        {
+          "value": "6 个月 (fried) / 12 个月 (air-dried)"
+        },
+        {
+          "value": "Beef / Chicken / Shrimp / Vegetarian / Spicy"
+        },
+        {
+          "value": "5,000 cases (30 packs/case)"
+        },
+        {
+          "value": "30–45 天"
+        },
+        {
+          "value": "1902.30.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "速食面有哪些口味？",
+          "answer": "牛肉、鸡肉、海鲜、咖喱、香辣酸辣汤（tom yum）、传统Vietnamese pho、什锦蔬菜、辣椒酱。可应要求开发定制口味。"
+        },
+        {
+          "question": "你们能制造素食或纯素速食面吗？",
+          "answer": "是的。我们的素食/纯素速食面配方不含肉、鱼或动物源添加剂，包括无动物源谷氨酸盐增强剂。可应要求提供素食/纯素认证。"
+        }
+      ]
+    },
+    "export-biscuits-crackers": {
+      "name": "出口饼干",
+      "tagline": "越南制造饼干，酥脆可口，适合全球零售",
+      "description": "越南出口级饼干，包括苏打饼、奶油夹心饼及各类口味饼干，符合国际食品标准，适合零售及商超渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约4,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "单包装（200g）",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "出口饼干批发越南 — Ideal Deal",
+      "seoDescription": "越南出口饼干批发，苏打饼及夹心饼干可选，起订量500箱，符合国际食品标准。",
+      "longDescription": "越南饼干烘焙食品产业近年来持续扩大出口规模，产品质量和口味研发均取得显著进步。越南制造的饼干以性价比高、口感稳定著称，在东南亚、中东及非洲市场颇受欢迎。\n\n我们供应的饼干产品线包括：苏打饼干（高纤维款、原味款）、奶油夹心饼干、芝士饼干、燕麦饼干、脆饼以及各类薄脆饼干。生产工厂均按照ISO 22000或HACCP体系运营，确保产品卫生安全。\n\n产品包装设计专业，信息标注完整，适合超市、便利店及线上零售渠道直接上架。我们提供多种规格选择（100g至500g），并可根据目标市场要求进行包装语言及成分表调整。\n\n支持OEM定制，包括配方调整（减糖、无麸质等）及包装设计，最小起订量视具体产品而定。欢迎联系获取样品及报价。",
+      "specs": [
+        {
+          "value": "S及wich / Cracker / Butter / Wafer Roll"
+        },
+        {
+          "value": "Vanilla / Chocolate / Strawberry / P及an"
+        },
+        {
+          "value": "6–12 个月 (nitrogen-flushed)"
+        },
+        {
+          "value": "25g single serve to 500g family pack"
+        },
+        {
+          "value": "1,000 export cartons per SKU"
+        },
+        {
+          "value": "30–45 天 after artwork approval"
+        },
+        {
+          "value": "1905.31.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "饼干的保质期是多久？",
+          "answer": "在密封包装中12–18个月。我们的高级包装具有铝箔/塑料阻隔层和氮气冲洗，可保鲜更长。"
+        },
+        {
+          "question": "你们的饼干持有清真认证吗？",
+          "answer": "是的。所有饼干生产线都经过清真认证，涵盖成分、加工助剂和包装材料。所有出口装运随附最新的清真证书。"
+        }
+      ]
+    },
+    "wafers-export": {
+      "name": "出口威化饼干",
+      "tagline": "轻薄酥脆威化，多种口味，适合全球市场",
+      "description": "越南出口威化饼干，香草、巧克力、花生及草莓等多种口味，酥脆夹心，适合零售及礼品渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约4,500箱/20英尺集装箱",
+      "packagingOptions": [
+        "单包装（150g/200g）",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "出口威化饼干批发越南 — Ideal Deal",
+      "seoDescription": "越南出口威化饼干批发，多种口味，起订量500箱，适合全球零售及礼品市场。",
+      "longDescription": "威化饼干以其轻盈酥脆的口感和多样化口味深受全球消费者喜爱，是快消食品领域的长销产品。越南威化饼干生产工厂引进先进的威化烘烤设备，可生产层次丰富、口味多样的威化产品，出口质量与国际知名品牌相当。\n\n我们供应的威化饼干主要口味包括香草、巧克力、花生酱、草莓、榛子等，全系列均采用植物奶油夹心，部分款式使用可可脂涂层。产品层次分明，每片威化均匀受热，酥脆度和口感一致性高。\n\n出口包装采用高阻隔复合膜，有效保持产品酥脆度并延长保质期（通常为9-12个月）。包装设计可定制，支持多语言标签，适合不同市场直接销售。\n\n威化饼干是礼盒装食品的热门选品，特别适合中东、东欧及东南亚节庆礼品市场。欢迎联系我们了解定制合作详情。",
+      "specs": [
+        {
+          "value": "Bars / Rolls / Mini Bites / Cocoa-coated"
+        },
+        {
+          "value": "3–5 cream layers"
+        },
+        {
+          "value": "Vanilla / Chocolate / Strawberry / Hazelnut / P及an"
+        },
+        {
+          "value": "20g – 45g bar; 3 kg catering tin"
+        },
+        {
+          "value": "9–12 个月"
+        },
+        {
+          "value": "500 cartons per flavour"
+        },
+        {
+          "value": "1905.32.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们提供哪些威化口味？",
+          "answer": "巧克力、香草、草莓、咖啡、椰子、榛子、奶油、抹茶。多种夹心层（双层、三层、五层）可用。"
+        }
+      ]
+    },
+    "candy-confectionery-export": {
+      "name": "出口糖果糕点",
+      "tagline": "越南制造糖果，多彩多味，适合全球市场",
+      "description": "越南出口糖果系列，包括硬糖、软糖、牛奶糖及特色糕点，多种口味和包装，适合零售及礼品渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约3,500箱/20英尺集装箱",
+      "packagingOptions": [
+        "散装袋装",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "出口糖果糕点批发越南 — Ideal Deal",
+      "seoDescription": "越南出口糖果糕点批发，硬糖软糖牛奶糖可选，起订量500箱，适合零售及礼品市场。",
+      "longDescription": "越南糖果糕点行业拥有悠久的制糖传统，结合现代化生产设备，形成了具有鲜明特色的产品系列。越南生产的糖果在口味上融合了本土热带水果风味（椰子、菠萝蜜、榴莲、芒果等）与国际流行口味，独具特色。\n\n我们供应的糖果产品线包括：椰蓉牛奶糖、硬质水果糖、棒棒糖、软糖、牛奶太妃糖以及越南特色糕点（如椰子糕、绿豆糕）。椰子糖是越南传统特产，以椰子汁和麦芽糖为原料手工熬制，是出口创汇和礼品市场的明星产品。\n\n产品包装设计可针对不同市场进行定制，散装出口和零售包装均可安排。产品通过食品安全检测，符合目标市场进口要求。\n\n糖果类产品特别适合节日礼品市场（春节、斋戒节、圣诞节等），我们可协助提前安排生产计划，确保节前备货及时。",
+      "specs": [
+        {
+          "value": "Hard c及y / Lollipop / Chewy / Jelly"
+        },
+        {
+          "value": "Tropical 水果 / Mint / Cola / Milk / Coffee"
+        },
+        {
+          "value": "可提供 (maltitol/sorbitol)"
+        },
+        {
+          "value": "是 (halal-compliant carrageenan base for jellies)"
+        },
+        {
+          "value": "12–18 个月 (hard c及y) / 6–9 个月 (soft)"
+        },
+        {
+          "value": "500 kg per flavour"
+        },
+        {
+          "value": "1704.90.91"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的糖果含明胶吗？",
+          "answer": "我们提供含明胶和不含明胶（Halal/素食）的版本。我们的清真认证产品使用牛源明胶或果胶/淀粉替代品。"
+        },
+        {
+          "question": "你们能为健康意识强的市场生产无糖糖果吗？",
+          "answer": "是的。我们使用麦芽糖醇、山梨糖醇或异麦芽糖作为糖替代品制造无糖硬糖和软糖。配方有完整的营养标签和合规文件。"
+        }
+      ]
+    },
+    "chocolate-products-export": {
+      "name": "出口巧克力产品",
+      "tagline": "越南可可巧克力，品质卓越，出口全球",
+      "description": "越南生产的巧克力产品，包括黑巧克力、牛奶巧克力及混合口味，采用越南优质可可豆原料，适合零售及礼品市场。",
+      "moq": "300箱",
+      "containerCapacity": "约3,000箱/20英尺集装箱（需冷链）",
+      "packagingOptions": [
+        "单块包装",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南出口巧克力产品批发 — Ideal Deal",
+      "seoDescription": "越南出口巧克力批发，采用本土可可豆，黑巧牛奶巧可选，起订量300箱，支持OEM定制。",
+      "longDescription": "越南是全球重要的可可豆产区，主要种植区集中在得乐、昆嵩及平福省。越南可可豆以其独特的发酵工艺和风土条件，产出的可可豆具有果香浓郁、酸度适中的特点，深受精品巧克力制造商青睐。\n\n近年来，越南本土巧克力品牌迅速崛起，将越南可可豆加工为高品质成品巧克力，实现了从原料出口向成品出口的产业升级。越南巧克力在国际精品食品展上屡获大奖，品牌认知度持续提升。\n\n我们供应的巧克力产品包括：70%以上可可含量的黑巧克力、经典牛奶巧克力、白巧克力、盐焦糖巧克力以及各类夹心巧克力。产品以品牌出口和OEM代工两种模式供应，可根据客户需求调整可可含量和口味配方。\n\n巧克力产品出口需注意温控要求，我们可协助安排冷链运输及适温包装，确保产品到达目的地时品质完好。",
+      "specs": [
+        {
+          "value": "深色 / Milk / White compound; Cocoa powder; CBS"
+        },
+        {
+          "value": "35–55% (dark); 20–30% (牛奶)"
+        },
+        {
+          "value": "10–12% or 20–22%"
+        },
+        {
+          "value": "30–34°C"
+        },
+        {
+          "value": "12–18 个月"
+        },
+        {
+          "value": "1 MT per product type"
+        },
+        {
+          "value": "1806.32.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的可可来自哪里？",
+          "answer": "我们使用越南本地可可（南部省份）和高级线的西非进口可可（科特迪瓦、加纳）。可可含量从30%（牛奶）到85%（黑）。"
+        }
+      ]
+    },
+    "packaged-tea-products": {
+      "name": "包装茶叶产品",
+      "tagline": "越南优质茶叶，精美包装，适合零售与礼品",
+      "description": "越南包装茶叶系列，包括绿茶、乌龙茶、花草茶及特色调味茶，精美包装，适合超市零售及礼品市场。",
+      "moq": "500箱",
+      "containerCapacity": "约5,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "茶袋装（20-25袋/盒）",
+        "散装茶罐",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南包装茶叶产品批发出口 — Ideal Deal",
+      "seoDescription": "越南包装茶叶批发出口，绿茶乌龙花草茶可选，起订量500箱，适合零售及礼品市场。",
+      "longDescription": "越南茶叶种植历史悠久，产茶区域涵盖太原、河江、林同（大叻）等高山产区，茶叶品质优良。越南茶叶以绿茶和乌龙茶为主，近年来也积极开发花草茶、冷泡茶及功能性茶饮等新品类，顺应全球健康饮品消费趋势。\n\n我们供应的包装茶叶产品线包括：传统绿茶（龙珠形、扁平形）、乌龙茶、莲花茶（越南特色）、姜黄茶、洋甘菊茶、柠檬草茶以及越南特色三角茶包等。产品包装精美，适合超市、精品食品店及线上零售直接上架，也可作为企业礼品定制选项。\n\n包装形式多样，从经济实用的茶袋盒装到高端礼盒装均可供应。茶叶保质期通常为18-24个月，包装采用铝箔或锡纸密封，有效保持茶叶香气。\n\n支持OEM定制，包括配方设计、包装设计及多语言标签，欢迎联系我们的采购团队了解详情。",
+      "specs": [
+        {
+          "value": "Green / Black / Oolong / Herbal / Cold brew"
+        },
+        {
+          "value": "String-tag bags / Pyramid / Loose leaf / Cold brew sachet"
+        },
+        {
+          "value": "1.5–3g per bag"
+        },
+        {
+          "value": "20, 25, 50, 100 bags per box"
+        },
+        {
+          "value": "24 个月 (sealed foil envelope)"
+        },
+        {
+          "value": "500 kg dry leaf equivalent"
+        },
+        {
+          "value": "0902.10.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们提供哪些茶包格式？",
+          "answer": "传统纸袋（带或不带标签）、金字塔尼龙网袋（高级）、铝箔密封袋（保鲜）。每包通常含20、25或50袋。"
+        }
+      ]
+    },
+    "packaged-coffee-products": {
+      "name": "包装咖啡产品",
+      "tagline": "越南精品咖啡，精美包装，适合零售与礼品",
+      "description": "越南包装咖啡产品系列，涵盖滴滤咖啡、速溶咖啡及三合一咖啡，采用越南优质咖啡豆，适合全球零售市场。",
+      "moq": "500箱",
+      "containerCapacity": "约4,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "挂耳包（10g/包）",
+        "速溶包（3合1）",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南包装咖啡产品批发出口 — Ideal Deal",
+      "seoDescription": "越南包装咖啡批发出口，滴滤咖啡速溶咖啡三合一可选，起订量500箱，支持OEM定制。",
+      "longDescription": "越南是全球第二大咖啡生产国，以罗布斯塔咖啡豆为主，近年来阿拉比卡豆产量也持续增加。越南包装咖啡产品凭借独特的风味（醇厚、焦糖感强）和合理的价格，在全球市场具有较强竞争力。\n\n我们供应的包装咖啡产品涵盖多种形式：越南传统滴滤咖啡（滴漏咖啡包）、挂耳咖啡包（适合无设备冲泡）、三合一速溶咖啡（咖啡+奶精+糖）、纯咖啡速溶粉以及冷萃咖啡浓缩液。各类产品均有独立包装和礼盒包装可选。\n\n越南咖啡的独特之处在于其传统冰咖啡（Cà phê sữa đá）喝法，在全球咖啡文化爱好者中具有很高的辨识度。我们可提供越南传统咖啡文化主题的包装设计方案，帮助买家在目标市场建立差异化定位。\n\n支持OEM全流程定制，包括拼配配方、烘焙度调整、包装设计及多语言标签，欢迎联系了解详情。",
+      "specs": [
+        {
+          "value": "3-in-1 instant / 研磨 / Drip filter / Cold brew"
+        },
+        {
+          "value": "越南ese 罗布斯塔 / 阿拉比卡 / Blend"
+        },
+        {
+          "value": "中等 / 中等-dark / 深色 (French)"
+        },
+        {
+          "value": "Valve bag / Stick pack / Drip pouch / Cold brew sachet"
+        },
+        {
+          "value": "12–24 个月 (sealed)"
+        },
+        {
+          "value": "500 kg per SKU"
+        },
+        {
+          "value": "2101.11.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们能否包装单一原产地咖啡？",
+          "answer": "可以，我们专门包装单一原产地越南咖啡（罗布斯塔来自得乐、阿拉比卡来自大叻）以及定制混合配方，按客户要求。"
+        }
+      ]
+    },
+    "snack-foods-export": {
+      "name": "出口休闲食品",
+      "tagline": "越南休闲零食，多种口味，适合全球市场",
+      "description": "越南出口休闲食品系列，包括薯片、膨化食品、坚果零食及海鲜零食，口味多样，适合零售及礼品渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约3,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "小包装（30-50g）",
+        "大包装（200-500g）",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南出口休闲食品批发 — Ideal Deal",
+      "seoDescription": "越南出口休闲食品批发，薯片膨化坚果海鲜零食可选，起订量500箱，支持OEM定制。",
+      "longDescription": "越南休闲食品市场近年来快速增长，本土生产能力显著提升，产品类型从传统米片、虾片扩展至多种国际流行休闲食品。越南休闲食品工厂通常具备从原料采购到成品包装的完整生产线，成本竞争力强。\n\n我们供应的休闲食品产品线包括：越南传统虾片（经典出口品类）、米饼（原味及各种调味）、薯片、玉米片、坚果混合装（腰果、花生等）、海鲜干货零食（鱿鱼丝、虾干等）以及多种调味豆类零食。\n\n越南休闲食品以天然原料和相对健康的加工方式为产品特色，在健康消费意识较强的市场具有差异化竞争优势。产品符合国际食品安全标准，已出口至欧美、日本、韩国及东南亚市场。\n\n包装设计专业，信息标注完整，支持OEM定制。欢迎联系我们了解具体产品目录和报价。",
+      "specs": [
+        {
+          "value": "Prawn crackers / Rice crackers / Corn puffs / Pork rinds / Nuts"
+        },
+        {
+          "value": "原味 / Cheese / Spicy / Seaweed / BBQ / 蜜处理-soy"
+        },
+        {
+          "value": "30g–200g retail; 1–3 kg club pack"
+        },
+        {
+          "value": "3–9 个月 (nitrogen-flushed)"
+        },
+        {
+          "value": "500 cartons per SKU"
+        },
+        {
+          "value": "30–45 天"
+        },
+        {
+          "value": "1905.90.40"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "零食的MOQ是多少？",
+          "answer": "标准产品：每种SKU 500公斤。混合集装箱（多种产品）：总20英尺集装箱负载。可应要求提供定制风味（每种风味1吨）。"
+        }
+      ]
+    },
+    "rice-crackers-export": {
+      "name": "出口米饼",
+      "tagline": "越南传统米饼，酥脆可口，出口全球",
+      "description": "越南出口米饼，采用优质大米制作，原味及多种调味可选，低热量健康零食，适合全球零售市场。",
+      "moq": "500箱",
+      "containerCapacity": "约4,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "小包装（50-100g）",
+        "大包装（200g）",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南出口米饼批发 — Ideal Deal",
+      "seoDescription": "越南出口米饼批发，原味及多种调味可选，起订量500箱，低热量健康零食，支持OEM定制。",
+      "longDescription": "米饼是以大米为原料经膨化或烘烤制成的传统亚洲零食，在东亚和东南亚地区有悠久的消费传统。越南米饼凭借其轻盈酥脆的口感和健康低脂的特点，在全球健康零食市场日益受到关注。\n\n我们供应的越南米饼产品包括：原味圆饼、海苔味米饼、芝士味米饼、辣味米饼、烧烤味米饼以及各种迷你米饼系列。产品采用越南优质大米为主要原料，部分添加黑芝麻、海苔、腰果碎等天然配料，丰富口感层次。\n\n与油炸薯片相比，烘烤型米饼脂肪含量更低，适合注重健康饮食的消费群体。无麸质特性也使其成为麸质过敏消费者的理想选择。\n\n产品包装设计精美，适合超市货架陈列及电商平台销售。支持OEM定制，包括口味开发、包装设计及多语言标签，欢迎联系我们的采购团队。",
+      "specs": [
+        {
+          "value": "Long-grain 白色 大米 (≥95% 大米 content)"
+        },
+        {
+          "value": "天然ly Gluten-Free (大米 base; dedicated facility)"
+        },
+        {
+          "value": "3–8% (baked); 12–18% (fried variants)"
+        },
+        {
+          "value": "原味, Seaweed, Sesame, Soy, BBQ, Chili, Cheese"
+        },
+        {
+          "value": "20g – 500g bags; bulk 1–2.5 kg catering"
+        },
+        {
+          "value": "500 cartons per SKU"
+        },
+        {
+          "value": "6–12 个月 (nitrogen-flushed, desiccant)"
+        },
+        {
+          "value": "HACCP, ISO 22000, Halal"
+        },
+        {
+          "value": "Multi-layer metalized film bag (nitrogen-flushed)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "米饼是不含麸质的吗？",
+          "answer": "是的，我们的米饼自然不含麸质，使用100%越南大米制成。我们在专用无麸质生产线生产，并提供按要求的麸质检测。"
+        },
+        {
+          "question": "你们能用我们的品牌生产私人标签米饼吗？",
+          "answer": "可以。私人标签是我们米饼供应的核心服务。我们需要买方提供AI/PDF格式的标签艺术品。MOQ：每种SKU 1吨。"
+        },
+        {
+          "question": "保质期是多久，使用什么包装来保持新鲜度？",
+          "answer": "标准保质期为烘焙变体6–9个月和油炸变体9–12个月，环境储存。我们使用阻氧多层包装与脱氧剂以延长货架寿命。"
+        }
+      ]
+    },
+    "packaged-food-snacks": {
+      "name": "包装食品及休闲零食",
+      "tagline": "越南出口包装食品，品类齐全，一站式采购",
+      "description": "越南出口包装食品及休闲零食系列，涵盖方便面、饼干、糖果、茶叶、咖啡及各类零食，品质稳定，适合全球市场。",
+      "moq": "按产品类型而定",
+      "containerCapacity": "按产品组合而定",
+      "packagingOptions": [
+        "散装出口",
+        "零售包装",
+        "混合装柜"
+      ],
+      "seoTitle": "越南包装食品零食批发出口 — Ideal Deal",
+      "seoDescription": "越南包装食品及休闲零食批发出口，品类齐全，支持OEM，一站式采购，欢迎咨询。",
+      "longDescription": "越南包装食品行业经过多年发展，已形成从原料加工到成品包装的完整产业链，产品涵盖饮料、零食、主食及特色食品等多个细分品类，出口规模持续扩大。\n\nIdeal Deal整合越南主要食品制造商资源，为全球买家提供越南包装食品的一站式采购解决方案。我们的产品组合包括方便面、饼干烘焙食品、糖果糕点、茶叶咖啡、米饼休闲零食、罐头食品等多个品类，均可按客户需求灵活组合装柜。\n\n越南包装食品具有明显的价格优势，同类产品的采购成本通常比中国低10-25%，同时在质量稳定性和食品安全方面持续提升。许多越南食品工厂已取得FSSC 22000、BRC或BSCI等国际认证，为出口业务提供可靠保障。\n\n我们提供完整的出口采购服务，包括工厂对接、样品寄送、质量管控和出口文件准备，帮助买家快速高效地完成采购流程。"
+    },
+    "refined-salt-export": {
+      "name": "精制盐出口",
+      "tagline": "越南优质精制盐，食品级及工业级均可供应",
+      "description": "越南出口精制食盐，氯化钠含量≥99.5%，适用于食品加工、水处理及工业用途。",
+      "moq": "20吨",
+      "containerCapacity": "约25吨/20英尺集装箱",
+      "packagingOptions": [
+        "25kg编织袋",
+        "50kg编织袋",
+        "1吨散装袋（太空袋）"
+      ],
+      "seoTitle": "精制盐出口批发越南 — Ideal Deal",
+      "seoDescription": "越南精制食盐批发出口，氯化钠纯度高，起订量20吨，适用于食品及工业用途。",
+      "longDescription": "越南海盐生产历史悠久，沿海省份（如庆和、宁顺、平顺等地）拥有大面积的盐田，是重要的天然盐产区。越南精制盐经过多道精制工艺处理，去除杂质和重金属，氯化钠含量通常达到99.5%以上，满足食品级使用要求。\n\n我们供应的精制盐主要用途包括：食品加工（腌制、烘焙、调味）、水处理（软化剂）、化工原料以及出口零售包装盐。食品级盐通常按照越南国家标准和Codex Alimentarius国际标准生产，可提供质检报告证明产品符合进口国要求。\n\n包装形式灵活，从25kg标准编织袋到1吨太空袋均可按需配置。常规加碘盐和不加碘盐均可供应，客户可根据目标市场法规要求选择。\n\n盐类产品出口程序相对简单，我们具有成熟的出口操作流程，可高效处理报关、装船及相关文件，欢迎联系了解详情。",
+      "specs": [
+        {
+          "value": "≥ 99.5% (food grade)"
+        },
+        {
+          "value": "25–65 mg/kg (custom per market req)"
+        },
+        {
+          "value": "≤ 0.5%"
+        },
+        {
+          "value": "Fine (0.1–0.5 mm) / Coarse (0.5–2.0 mm)"
+        },
+        {
+          "value": "E535 / E536 or 无 (pickling grade)"
+        },
+        {
+          "value": "Cd ≤ 0.1 ppm, Pb ≤ 0.5 ppm, As ≤ 0.1 ppm"
+        },
+        {
+          "value": "25 kg bag / 1 kg retail / Bulk"
+        },
+        {
+          "value": "2501.00.21"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "盐是含碘的吗？",
+          "answer": "可应要求提供。我们提供加碘（KIO₃ 30–50 ppm）和未加碘版本。其他添加剂如氟化物或叶酸也可应要求添加。"
+        },
+        {
+          "question": "你们能为腌制和盐水浸渍供应无抗结块剂盐吗？",
+          "answer": "可以。腌制和罐装盐特别不含抗结块剂（亚铁氰化物），这些会导致泡菜浑浊。这特别适用于发酵食品工业和家庭腌制零售品牌。"
+        }
+      ]
+    },
+    "wheat-flour-export": {
+      "name": "小麦面粉出口",
+      "tagline": "越南出口小麦面粉，高筋中筋低筋均可供应",
+      "description": "越南出口小麦面粉，多种蛋白质含量规格可选，适用于面包、面条、饼干及各类烘焙食品生产。",
+      "moq": "20吨",
+      "containerCapacity": "约24吨/20英尺集装箱",
+      "packagingOptions": [
+        "25kg纸袋",
+        "50kg编织袋",
+        "1吨散装袋"
+      ],
+      "seoTitle": "小麦面粉出口批发越南 — Ideal Deal",
+      "seoDescription": "越南小麦面粉批发出口，高筋中筋低筋可选，起订量20吨，适用于烘焙及面食生产。",
+      "longDescription": "越南本身不是小麦主产国，面粉加工业主要依赖进口小麦原料（主要来自澳大利亚、加拿大及美国）。然而，越南拥有较强的面粉加工能力，主要面粉品牌（如Meizan、Bakers'Choice等）在东南亚市场具有较高知名度，其产品品质稳定，已成功出口至周边国家和地区。\n\n我们供应的小麦面粉覆盖多种规格：低筋面粉（蛋白质8-10%，适用于蛋糕、饼干）、中筋通用面粉（蛋白质10-12%，适用于馒头、包子、面条）、高筋面包粉（蛋白质12-14%，适用于面包、披萨）以及特制强化面粉（添加维生素矿物质）。\n\n产品包装规格从家用小袋到工业大袋均可提供，包装材料防潮防虫，适合热带地区长途运输和仓储。出口面粉可提供蛋白质含量、水分、灰分及食品安全检测报告。\n\n欢迎联系我们了解具体规格要求和长期供应合作事宜。",
+      "specs": [
+        {
+          "value": "10.5–12.5% (grade dependent)"
+        },
+        {
+          "value": "≤ 14.5%"
+        },
+        {
+          "value": "≤ 0.55% (extra 白色)"
+        },
+        {
+          "value": "28–32%"
+        },
+        {
+          "value": "≥ 300 seconds"
+        },
+        {
+          "value": "1 kg retail / 25 kg PP bag / 50 kg PP bag"
+        },
+        {
+          "value": "1 x 20ft container (≈ 23 MT)"
+        },
+        {
+          "value": "1101.00.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们出口什么类型的小麦粉？",
+          "answer": "我们出口全功能粉、面包粉（高蛋白12%以上）、糕点粉（低蛋白8%）和自发粉。我们的小麦从澳大利亚、加拿大和俄罗斯采购。"
+        },
+        {
+          "question": "你们能用我们的私人标签供应1公斤零售装的面粉吗？",
+          "answer": "是的。我们用您的私人标签艺术品供应1公斤零售袋装的面粉。零售包装的最低订单：每种SKU 1吨。"
+        }
+      ]
+    },
+    "bread-flour-export": {
+      "name": "面包面粉出口",
+      "tagline": "高筋面包专用粉，烘焙品质有保障",
+      "description": "越南出口高筋面包专用粉，蛋白质含量高，筋力强，适用于欧式面包、吐司、法棍及各类发酵面团产品。",
+      "moq": "20吨",
+      "containerCapacity": "约24吨/20英尺集装箱",
+      "packagingOptions": [
+        "25kg纸袋",
+        "50kg编织袋",
+        "1吨散装袋"
+      ],
+      "seoTitle": "面包面粉出口批发越南 — Ideal Deal",
+      "seoDescription": "越南高筋面包专用粉批发出口，蛋白质含量高，起订量20吨，适用于欧式面包烘焙生产。",
+      "longDescription": "面包专用高筋粉是烘焙产业不可或缺的核心原料，其蛋白质含量和质量直接决定了面包的体积、组织和口感。越南面粉加工厂采用来自澳大利亚、加拿大等优质产区的硬质小麦，经过精密研磨和品质控制，生产出符合烘焙行业严格要求的高筋面包粉。\n\n我们供应的面包专用粉蛋白质含量通常在12-14%之间，湿面筋含量35%以上，吸水率高，发酵耐性好，适合生产吐司面包、法棍、欧式乡村面包、汉堡面包等各类发酵烘焙产品。产品品质稳定，批次差异小，适合工业化烘焙生产线使用。\n\n出口面包粉可提供粉质仪（Farinograph）、拉伸仪（Extensograph）等烘焙专业检测数据，帮助买家确认产品适用性。产品在标准仓储条件下保质期通常为6-9个月。\n\n欢迎商业烘焙企业、面包房连锁及食品加工商联系我们了解长期供应合作。",
+      "specs": [
+        {
+          "value": "12.0–13.5%"
+        },
+        {
+          "value": "32–38%"
+        },
+        {
+          "value": "62–68% (Farinograph)"
+        },
+        {
+          "value": "≥ 7 min (Farinograph)"
+        },
+        {
+          "value": "≤ 0.60%"
+        },
+        {
+          "value": "≥ 300 seconds"
+        },
+        {
+          "value": "1 x 20ft container (≈ 23 MT)"
+        },
+        {
+          "value": "1101.00.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们面包粉的蛋白质含量是多少？",
+          "answer": "我们的标准面包粉含蛋白质12–13.5%，适合大多数面包应用。高级法式面包粉含11.5–12%，比萨粉含11–12%。"
+        }
+      ]
+    },
+    "granulated-sugar-export": {
+      "name": "白砂糖出口",
+      "tagline": "越南优质白砂糖，精制纯净，适合食品工业",
+      "description": "越南出口白砂糖（精制），蔗糖含量≥99.7%，适用于食品饮料加工、烘焙及直接消费。",
+      "moq": "25吨",
+      "containerCapacity": "约25吨/20英尺集装箱",
+      "packagingOptions": [
+        "50kg编织袋",
+        "25kg纸袋",
+        "1吨太空袋"
+      ],
+      "seoTitle": "白砂糖出口批发越南 — Ideal Deal",
+      "seoDescription": "越南白砂糖批发出口，蔗糖含量高，起订量25吨，适用于食品饮料及烘焙工业。",
+      "longDescription": "越南是东南亚重要的蔗糖生产国，甘蔗种植主要集中在南部地区（同奈、长安、薄寮等省份）。越南制糖业经过多轮技术改造，白砂糖品质持续提升，出口竞争力不断增强。\n\n我们供应的越南精制白砂糖（ICUMSA 45标准），晶粒洁白均匀，蔗糖含量≥99.7%，水分≤0.04%，符合国际贸易通行的精糖质量标准。产品适用范围广泛，包括饮料、糕点、糖果、调味品、发酵食品等各类食品工业原料用途。\n\n出口规格可按客户要求调整，从细晶砂糖到粗晶砂糖均可供应。包装形式以50kg编织袋为主，也可提供25kg精装零售包装或1吨太空袋散装出口。\n\n糖类出口价格受国际糖价波动影响，我们提供灵活的定价机制和锁价合同选项，帮助买家管理采购成本风险。欢迎联系了解当前报价。",
+      "specs": [
+        {
+          "value": "ICUMSA 45 / 100 / 150"
+        },
+        {
+          "value": "≥ 99.80%"
+        },
+        {
+          "value": "≤ 45 RBU (premium 白色)"
+        },
+        {
+          "value": "≤ 0.04%"
+        },
+        {
+          "value": "≤ 0.04%"
+        },
+        {
+          "value": "Fine / 中等 / Coarse (specify)"
+        },
+        {
+          "value": "1 x 20ft container (≈ 24 MT)"
+        },
+        {
+          "value": "1701.99.90"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们提供哪些等级的精制糖？",
+          "answer": "ICUMSA 45（特白精炼）、ICUMSA 100–150（白）、ICUMSA 600–1200（VHP - 非常高极化）。批量袋装25公斤、50公斤或1吨FIBC大袋。"
+        }
+      ]
+    },
+    "sugar-cubes-export": {
+      "name": "方糖出口",
+      "tagline": "精制方糖，便于计量，适合咖啡茶饮市场",
+      "description": "越南出口精制方糖，形状均一，溶解速度稳定，适用于咖啡店、酒店及食品服务行业。",
+      "moq": "5吨",
+      "containerCapacity": "约20吨/20英尺集装箱",
+      "packagingOptions": [
+        "单块独立包装",
+        "盒装（每盒500g/1kg）",
+        "OEM定制包装"
+      ],
+      "seoTitle": "方糖出口批发越南 — Ideal Deal",
+      "seoDescription": "越南精制方糖批发出口，形状均一，起订量5吨，适用于咖啡店酒店及食品服务行业。",
+      "longDescription": "方糖以其便于计量、整洁卫生的特点，在咖啡馆、酒店、航空配餐及高档餐饮服务行业被广泛使用。越南方糖制造商采用精制白砂糖为原料，通过标准化压制工艺生产出尺寸统一、密度一致的方糖产品。\n\n我们供应的方糖产品主要规格为4g/块和5g/块，方形和长方形均可供应。产品溶解速度一致，不结块，适合高湿度环境下的储存和使用。包装形式多样，从单块铝箔独立包装到盒装、礼盒装均可按需定制。\n\n方糖产品特别适合酒店客房茶包配套、咖啡馆台面摆放及航空餐具套装，具有稳定的商业采购需求。我们可根据客户品牌需求定制包装设计，提供印有客户logo的个性化方糖产品。\n\n方糖产品通关简便，适合小批量海运或空运，欢迎咖啡连锁、酒店集采及食品分销商联系我们获取报价。",
+      "specs": [
+        {
+          "value": "White (ICUMSA 45) / Demerara 棕色"
+        },
+        {
+          "value": "4g or 5g per cube (specify)"
+        },
+        {
+          "value": "Square / Oblong rectangular"
+        },
+        {
+          "value": "40–60 N (Kahl press strength)"
+        },
+        {
+          "value": "24 个月 (dry storage)"
+        },
+        {
+          "value": "500 cartons"
+        },
+        {
+          "value": "1701.91.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "方糖每箱多少块？",
+          "answer": "标准方糖：每箱500g或1kg。每箱包含24或48盒。我们也按要求生产定制大小（咖啡店方糖、单服务装）。"
+        }
+      ]
+    },
+    "brown-sugar-export": {
+      "name": "红糖出口",
+      "tagline": "越南天然红糖，矿物质丰富，健康消费趋势选品",
+      "description": "越南出口红糖（粗糖/黑糖），矿物质保留丰富，适用于烘焙、饮品及健康食品市场。",
+      "moq": "5吨",
+      "containerCapacity": "约22吨/20英尺集装箱",
+      "packagingOptions": [
+        "25kg编织袋",
+        "1kg零售袋",
+        "OEM定制包装"
+      ],
+      "seoTitle": "红糖黑糖出口批发越南 — Ideal Deal",
+      "seoDescription": "越南红糖批发出口，天然矿物质丰富，起订量5吨，适用于烘焙饮品及健康食品市场。",
+      "longDescription": "红糖（又称粗糖、黑糖或赤砂糖）因保留了甘蔗汁中的天然糖蜜成分，含有较多的矿物质（钙、铁、钾、镁）和微量营养素，在健康消费趋势下越来越受到市场关注。越南传统红糖以手工熬制为特色，成品带有独特的焦糖风味和深琥珀色泽。\n\n我们供应的越南红糖产品分为工业级粗糖（适用于食品加工）和精品零售红糖（适用于消费者直接购买）两大类别。工业级粗糖颗粒较粗，蔗糖含量约95-97%，保留丰富的矿物质；精品零售级红糖经过研磨处理，细腻均匀，适合烘焙（布朗尼、姜饼等）和饮品调味（珍珠奶茶、黑糖咖啡等）使用。\n\n红糖市场需求受健康饮食趋势驱动持续增长，特别是在亚洲市场（中国、日本、韩国、台湾）需求旺盛。我们可根据目标市场偏好提供不同细度和颜色深浅的产品规格，欢迎联系了解详情。",
+      "specs": [
+        {
+          "value": "浅色 棕色 / 深色 棕色 / Demerara / Muscovado / VHP raw"
+        },
+        {
+          "value": "2–3% (light) to 6–8% (dark)"
+        },
+        {
+          "value": "800–2,000 RBU (grade dependent)"
+        },
+        {
+          "value": "≤ 3.5%"
+        },
+        {
+          "value": "≥ 96.5% (VHP)"
+        },
+        {
+          "value": "1 x 20ft container (≈ 23 MT)"
+        },
+        {
+          "value": "1701.91.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "红糖与白糖有什么区别？",
+          "answer": "红糖保留糖蜜，提供独特的焦糖风味和颜色。我们提供浅色（3.5%糖蜜）、深色（6.5%糖蜜）和黑糖（10%糖蜜）。"
+        }
+      ]
+    },
+    "pasta-export": {
+      "name": "意大利面出口",
+      "tagline": "越南制造意大利面，多种形状，适合全球市场",
+      "description": "越南出口意大利面（意面），采用优质杜伦小麦粉制作，多种形状可选，适合超市零售及餐饮渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约4,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "500g零售包装",
+        "1kg零售包装",
+        "5kg餐饮装",
+        "OEM定制"
+      ],
+      "seoTitle": "意大利面出口批发越南 — Ideal Deal",
+      "seoDescription": "越南意大利面批发出口，多种形状，起订量500箱，适合超市零售及餐饮渠道，支持OEM。",
+      "longDescription": "意大利面（意面/Pasta）是全球消费量最大的碳水化合物类食品之一，市场需求稳定且持续增长。越南意大利面生产工厂引进意大利先进面食加工设备，采用进口杜伦小麦粉（Durum Wheat Semolina）为主要原料，生产出符合国际品质标准的意面产品。\n\n我们供应的意大利面形状多样，包括：直意面（Spaghetti）、通心粉（Penne）、蝴蝶面（Farfalle）、螺旋面（Fusilli）、贝壳面（Conchiglie）以及宽面条（Fettuccine）等，满足不同消费偏好和烹饪场景需求。\n\n越南制造的意大利面在价格上相较于意大利进口品牌具有明显优势，同时在外观、煮制特性（烹煮后不易糊化）和口感上能够达到相当的水平。产品已出口至东南亚、澳大利亚及部分中东市场。\n\n支持OEM定制包装，可按客户品牌设计包装并贴附多语言标签，欢迎联系我们的采购团队获取详细信息。",
+      "specs": [
+        {
+          "value": "100% durum wheat semolina"
+        },
+        {
+          "value": "12.0–13.0%"
+        },
+        {
+          "value": "≤ 12.5%"
+        },
+        {
+          "value": "Bronze-die (premium) / Teflon-die (st及ard)"
+        },
+        {
+          "value": "8–12 minutes (shape dependent)"
+        },
+        {
+          "value": "≤ 8%"
+        },
+        {
+          "value": "1,000 cartons (500g retail)"
+        },
+        {
+          "value": "1902.19.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们使用什么类型的小麦制作意大利面？",
+          "answer": "我们的高级意大利面使用100%硬质小麦粗粒粉。我们的标准意大利面使用普通硬质小麦混合物，提供高品质且更具成本竞争力的价格。"
+        }
+      ]
+    },
+    "spaghetti-export": {
+      "name": "意大利细面条出口",
+      "tagline": "越南出口意大利细面条，筋道弹牙，出口标准",
+      "description": "越南出口意大利细面条（Spaghetti），采用杜伦小麦粉制作，筋力优秀，烹煮后不易断裂，适合全球零售。",
+      "moq": "500箱",
+      "containerCapacity": "约4,000箱/20英尺集装箱",
+      "packagingOptions": [
+        "500g零售包装",
+        "1kg零售包装",
+        "5kg餐饮装",
+        "OEM定制"
+      ],
+      "seoTitle": "意大利细面条出口批发越南 — Ideal Deal",
+      "seoDescription": "越南意大利细面条批发出口，杜伦小麦粉制作，起订量500箱，适合零售及餐饮渠道。",
+      "longDescription": "意大利细面条（Spaghetti）是全球最受欢迎的意面品类之一，以其细长的形状和多功能的搭配特性著称，适合与肉酱、奶油酱、番茄酱等各类酱汁搭配使用。越南意大利细面条工厂专注于这一核心品类的生产，在品质控制和成本管理上积累了丰富经验。\n\n我们供应的意大利细面条直径规格通常为1.7mm（标准粗细），采用100%杜伦小麦粗粒粉制作，蛋白质含量高，煮制后弹性好，具有令人满意的嚼劲（Al Dente特性）。产品颜色金黄均匀，表面光滑，适合高端超市和出口市场的品质要求。\n\n包装规格以500g和1kg零售装为主，包装材料采用可印刷BOPP膜，展示效果好。餐饮渠道的5kg散装产品也可按需提供。产品保质期通常为24个月，适合长途海运。\n\n欢迎超市采购商、食品分销商及OEM品牌商联系我们了解详细合作方案。",
+      "specs": [
+        {
+          "value": "否. 3 (1.4 mm) / 否. 5 (2.0 mm) / 否. 7 (2.5 mm)"
+        },
+        {
+          "value": "100% durum wheat semolina"
+        },
+        {
+          "value": "12.0–13.0%"
+        },
+        {
+          "value": "≤ 12.5%"
+        },
+        {
+          "value": "7–14 min (gauge dependent)"
+        },
+        {
+          "value": "24–36 个月"
+        },
+        {
+          "value": "1,000 cartons (500g)"
+        },
+        {
+          "value": "1902.11.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "面条有哪些直径选项？",
+          "answer": "我们生产1.6毫米（细面 - Spaghettini）、1.8毫米（标准 - Spaghetti）、2.0毫米（粗面 - Spaghettoni）。卷长25厘米或30厘米。"
+        }
+      ]
+    },
+    "rice-products-retail": {
+      "name": "零售米制品",
+      "tagline": "越南优质大米零售包装，直供超市货架",
+      "description": "越南大米零售包装产品，包括茉莉香米、糯米及特种米，精美包装适合超市货架陈列及礼品渠道。",
+      "moq": "500箱",
+      "containerCapacity": "约10,000袋/20英尺集装箱（5kg包装）",
+      "packagingOptions": [
+        "1kg真空包装",
+        "2kg/5kg编织袋",
+        "礼盒装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南零售米制品批发出口 — Ideal Deal",
+      "seoDescription": "越南大米零售包装批发出口，茉莉香米糯米可选，起订量500箱，适合超市及礼品市场。",
+      "longDescription": "越南大米的零售包装出口是近年来越南农产品出口的重要增长方向。相较于散装大米出口，零售包装产品具有更高的附加值，利润空间更大，同时有助于建立越南大米的品牌形象。\n\n我们供应的零售包装大米产品主要包括：越南茉莉香米（ST25品种——曾获国际最佳大米奖）、越南香糯米、普通越南白米以及特种有机米。每种大米均按照目标市场的标签要求包装，配以专业的产品说明和营养成分表。\n\n零售包装设计可定制，从经济型编织袋到高端真空精品包装均可供应。真空包装可有效保持大米的香气和新鲜度，特别适合出口至高端亚洲食品市场（如日本、韩国、澳大利亚、新加坡等地的亚裔超市）。\n\n我们提供完整的出口服务，包括熏蒸证明、原产地证书及植物检疫证书，确保大米顺利通过目标市场的进口检验。欢迎联系我们了解详细规格和报价。",
+      "specs": [
+        {
+          "value": "Jasmine / Parboiled / Glutinous / Quick-cook"
+        },
+        {
+          "value": "≤ 14%"
+        },
+        {
+          "value": "≤ 2% (premium) / ≤ 5% (st及ard)"
+        },
+        {
+          "value": "1 kg / 2 kg / 5 kg"
+        },
+        {
+          "value": "18–24 个月"
+        },
+        {
+          "value": "1,000 packs per SKU/variety"
+        },
+        {
+          "value": "1006.30.90"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们能为我们的品牌做零售零售包装吗？",
+          "answer": "可以，我们提供完整的私人标签服务。我们以1公斤、2公斤、5公斤、10公斤袋装包装大米，配有定制设计的真空袋或定制设计的编织袋。"
+        }
+      ]
+    },
+    "dried-lentils-export": {
+      "name": "干豌豆豆类出口",
+      "tagline": "越南出口干豆及豆类，高蛋白食品原料",
+      "description": "越南出口干豆类，包括绿豆、赤豆、花豆及豌豆，高蛋白低脂，适用于食品加工及消费者直接食用。",
+      "moq": "10吨",
+      "containerCapacity": "约22吨/20英尺集装箱",
+      "packagingOptions": [
+        "25kg编织袋",
+        "1kg/500g零售袋",
+        "OEM定制"
+      ],
+      "seoTitle": "干豆豆类出口批发越南 — Ideal Deal",
+      "seoDescription": "越南干豆类批发出口，绿豆赤豆花豆可选，起订量10吨，高蛋白食品原料。",
+      "longDescription": "豆类是全球重要的蛋白质和膳食纤维来源，越南是东南亚豆类的重要生产和出口国之一，绿豆（Mung Bean）的出口尤为突出。越南绿豆以颗粒饱满、色泽均匀、发芽率高著称，广泛用于豆芽生产、绿豆沙、糕点馅料及各类食品加工。\n\n我们供应的豆类产品主要包括：绿豆（去壳及带壳）、赤豆（红豆）、花豆、蚕豆及豌豆。各品类均经过人工或机械拣选，除去破碎粒、杂质及异色粒，确保出口品质整齐一致。\n\n豆类产品出口前可提供农残检测报告、水分及杂质含量检测报告，符合欧盟、美国、日本等主要进口国的农产品进口要求。包装可根据目标市场调整，从工业用大袋到消费者零售小袋均可提供。\n\n豆类产品是植物蛋白市场的热门原料，特别适合素食食品、有机食品及功能性食品领域的采购商。欢迎联系我们了解当前供货情况和报价。",
+      "specs": [
+        {
+          "value": "Red Split / Green 整粒 / Black (Beluga/Urad)"
+        },
+        {
+          "value": "Canada / Australia / India (buyer's choice)"
+        },
+        {
+          "value": "≤14%"
+        },
+        {
+          "value": "≤0.5%"
+        },
+        {
+          "value": "≤1.0%"
+        },
+        {
+          "value": "500g / 1 kg / 5 kg / 25 kg / 50 kg / bulk"
+        },
+        {
+          "value": "1 x 20ft container (~18–20 MT repackaged)"
+        },
+        {
+          "value": "14–21 天 from order confirmation"
+        },
+        {
+          "value": "HACCP, Halal, ISO 22000, Export Health Cert."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们出口什么品种的扁豆？",
+          "answer": "红色（去皮）、绿色、棕色和黑色（贝鲁加）扁豆。我们的扁豆来自越南本地农场和来自加拿大和澳大利亚的优质进口。"
+        },
+        {
+          "question": "你们能为中东市场供应清真认证的扁豆吗？",
+          "answer": "是的。所有扁豆重新包装都在我们的清真认证设施（由JAKIM或MUI认可机构认证）中进行。每批装运随附清真证书。"
+        },
+        {
+          "question": "提供哪些私人标签包装选项？",
+          "answer": "我们提供完整的私人标签服务，包括：零售立式袋（500g、1公斤、2公斤）的设计和印刷、棉布袋（25公斤、50公斤）、定制纸箱。MOQ：每种SKU 500公斤。"
+        }
+      ]
+    },
+    "food-staples": {
+      "name": "食品主食及日用食材",
+      "tagline": "越南出口食品主食，品类齐全，稳定供应",
+      "description": "越南出口食品主食系列，涵盖面粉、砂糖、食盐、意面、豆类及零售米制品，适合食品工业及超市渠道采购。",
+      "moq": "按产品类型而定",
+      "containerCapacity": "按产品组合而定",
+      "packagingOptions": [
+        "工业散装",
+        "零售包装",
+        "OEM定制"
+      ],
+      "seoTitle": "越南食品主食日用食材批发出口 — Ideal Deal",
+      "seoDescription": "越南食品主食批发出口，面粉砂糖食盐意面豆类可选，品类齐全，欢迎咨询。",
+      "longDescription": "食品主食原料是全球食品贸易中需求量最大、最稳定的品类之一。越南凭借其农业大国的资源优势和日益成熟的食品加工产业，能够稳定供应多种高品质食品主食原料。\n\nIdeal Deal整合越南主要食品主食原料的供应商资源，为全球买家提供一站式采购服务。我们的产品组合涵盖精制盐、白砂糖、红糖、方糖、各类小麦面粉（通用粉、面包粉）、意大利面、大米零售包装及各类干豆制品，可根据买家需求灵活搭配装柜。\n\n越南食品主食原料在价格方面具有一定竞争优势，特别是在精制盐、砂糖及大米类产品上。我们与越南各主要食品原料生产商建立了长期稳定的采购关系，能够保障货源的持续供应和品质一致性。\n\n我们提供完整的出口操作服务，包括质量检测、出口文件准备及国际运输安排，帮助买家顺利完成进口流程。欢迎联系我们了解各类产品的当前报价和供货周期。"
+    },
+    "refined-coconut-oil": {
+      "name": "精制椰子油",
+      "tagline": "越南精制椰子油，适合烹饪与食品加工",
+      "description": "越南出口精制椰子油，无色无味，烟点高，适用于高温烹饪、食品加工及个人护理原料。",
+      "moq": "5吨",
+      "containerCapacity": "约18吨/20英尺集装箱",
+      "packagingOptions": [
+        "25升桶装",
+        "200升大桶",
+        "1升/500ml零售瓶装",
+        "OEM定制"
+      ],
+      "seoTitle": "精制椰子油批发出口越南 — Ideal Deal",
+      "seoDescription": "越南精制椰子油批发出口，无色无味，起订量5吨，适用于烹饪食品加工及个人护理。",
+      "longDescription": "越南是东南亚重要的椰子种植国，椰子产区主要集中在湄公河三角洲地区（椰子省——本泰省为核心产区）。越南椰子油产业从初榨椰子油（Virgin Coconut Oil）到精制漂白脱臭椰子油（RBD Coconut Oil）均有完整的加工产业链。\n\n精制椰子油（RBD）经过精炼、漂白和脱臭处理，成品无色无味，中性风味使其适用范围更广。烟点约为232°C，远高于普通植物油，适合高温煎炸烹调。中链脂肪酸（MCT）含量高，在健康食品、运动营养及特殊医疗膳食领域有广泛应用。\n\n我们供应的精制椰子油符合国际食品法典（Codex Alimentarius）标准，可提供酸值、过氧化值、水分含量等质量检测报告。散装出口以200升铁桶或ISO槽罐为主，零售瓶装产品可OEM定制，适合健康食品零售渠道。\n\n越南椰子油在成本上较菲律宾产品有一定优势，欢迎联系我们获取最新报价。",
+      "specs": [
+        {
+          "value": "RBD / Virgin / Hydrogenated"
+        },
+        {
+          "value": "≤ 0.1% (RBD)"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "7–11 (Wijs)"
+        },
+        {
+          "value": "250–264 mg KOH/g"
+        },
+        {
+          "value": "45–55%"
+        },
+        {
+          "value": "≤ 3Y / 0.3R"
+        },
+        {
+          "value": "24–27°C"
+        },
+        {
+          "value": "24 个月 (sealed, cool & dark)"
+        },
+        {
+          "value": "1513.19.10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "椰子油是冷压还是精炼的？",
+          "answer": "我们提供两种类型：RBD（精炼、漂白、除臭）的工业用途和初榨椰子油（冷压）的食品和化妆品用途。"
+        },
+        {
+          "question": "你们的椰子油是否经过清真认证？",
+          "answer": "是的。来自我们生产设施的所有椰子油都持有来自IFANCA或MUI的最新清真认证。每批都包括清真证书。"
+        },
+        {
+          "question": "你们供应RSPO认证的可持续无棕榈椰子油吗？",
+          "answer": "椰子油本身就不含棕榈油——这是品牌从棕榈油重新定位的关键营销优势。我们也提供完整的供应链透明度和RSPO等效可持续性文件。"
+        }
+      ]
+    },
+    "vegetable-oil-export": {
+      "name": "植物油出口",
+      "tagline": "越南出口植物油，多品种可选，适合食品加工",
+      "description": "越南出口植物油，包括大豆油、葵花籽油及精炼混合植物油，适用于食品加工、烹饪及工业用途。",
+      "moq": "10吨",
+      "containerCapacity": "约18吨/20英尺集装箱",
+      "packagingOptions": [
+        "25升桶装",
+        "200升大桶",
+        "1升/2升零售瓶装",
+        "OEM定制"
+      ],
+      "seoTitle": "植物油出口批发越南 — Ideal Deal",
+      "seoDescription": "越南植物油批发出口，大豆油葵花籽油可选，起订量10吨，适用于食品加工及烹饪。",
+      "longDescription": "植物油是全球食品工业中用量最大的原料之一，越南植物油加工产业凭借进口原料加工和本土精炼能力，形成了较强的出口竞争力。越南主要植物油品牌（如Tuong An、Neptune等）在东南亚市场具有较高的知名度。\n\n我们供应的植物油产品线包括：精制大豆油（适合通用烹调和食品加工）、精制葵花籽油（富含维生素E，适合烘焙）、精制棕榈油（适合油炸及工业用途）以及精炼混合植物油（针对特定市场调配比例）。各品类均经过充分精制，色泽清亮，异味少，适合直接出口。\n\n产品品质符合Codex Alimentarius标准，可提供脂肪酸组成分析、酸值、过氧化值及重金属含量检测报告。零售瓶装产品可进行OEM定制，包括瓶型、标签设计及包装材料，满足目标市场的品牌化需求。\n\n欢迎食品加工企业、分销商及超市采购商联系我们了解报价及合作详情。",
+      "specs": [
+        {
+          "value": "Soybean / Sunflower / Palm olein / Canola / Blends"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "≤ 2 meq/kg"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "≤ 3Y / 0.3R (typical)"
+        },
+        {
+          "value": "220–240°C (RBD)"
+        },
+        {
+          "value": "18 MT (1 x 20ft)"
+        },
+        {
+          "value": "1507.90.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们出口什么类型的食用油？",
+          "answer": "棕榈油、葵花籽油、大豆油、菜籽油、玉米油、椰子油。可应要求提供混合（即烹饪油混合物）和有机版本。"
+        },
+        {
+          "question": "你们能供应非转基因认证的食用油吗？",
+          "answer": "可以。向日葵油和菜籽油可获得非转基因项目验证或IP（身份保留）文件。需要提前预订，因为非转基因批次需要分开生产运行。"
+        }
+      ]
+    },
+    "olive-oil-wholesale": {
+      "name": "橄榄油批发",
+      "tagline": "进口橄榄油越南转口，批发价格，全球供应",
+      "description": "通过越南转口的进口橄榄油批发，特级初榨及精制橄榄油均可供应，适合超市零售及食品服务渠道。",
+      "moq": "1,000瓶",
+      "containerCapacity": "约20,000瓶/20英尺集装箱（500ml）",
+      "packagingOptions": [
+        "500ml玻璃瓶",
+        "750ml玻璃瓶",
+        "5升大桶",
+        "OEM贴标"
+      ],
+      "seoTitle": "橄榄油批发越南转口 — Ideal Deal",
+      "seoDescription": "越南橄榄油批发，特级初榨及精制可选，起订量1,000瓶，适合超市零售及餐饮渠道。",
+      "longDescription": "橄榄油是地中海饮食文化的核心食材，近年来随着全球健康饮食意识提升，在亚洲市场需求持续增长。我们通过越南采购和分销渠道，为亚太地区买家提供具有竞争力价格的橄榄油批发服务。\n\n我们供应的橄榄油来源于西班牙、意大利、希腊等主要橄榄油产国，产品类型包括特级初榨橄榄油（Extra Virgin Olive Oil，酸度≤0.8%）、初榨橄榄油（Virgin Olive Oil）及精制混合橄榄油。各类产品均附有原产地证书和产品质量检测报告。\n\n零售包装以500ml和750ml玻璃瓶为主，礼盒装可按需定制。餐饮服务行业常用的5升大桶装也可供应。我们可提供OEM贴标服务，买家可以自有品牌进行销售。\n\n橄榄油进口到越南的关税较低，通过越南转口可有效优化采购成本。我们熟悉越南食品进出口的检验检疫流程，能够高效处理相关手续，欢迎联系了解详情。",
+      "specs": [
+        {
+          "value": "EVOO / Virgin / Pure / Extra 浅色"
+        },
+        {
+          "value": "≤ 0.8% (as oleic)"
+        },
+        {
+          "value": "≤ 20 meq/kg (EVOO)"
+        },
+        {
+          "value": "≥ 150 mg/kg (premium EVOO)"
+        },
+        {
+          "value": "55–83%"
+        },
+        {
+          "value": "Spain / Italy / Tunisia / Greece"
+        },
+        {
+          "value": "1,000 liters per grade"
+        },
+        {
+          "value": "1509.10.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "橄榄油是西班牙或意大利进口的吗？",
+          "answer": "可以，我们与意大利、西班牙和希腊的高级生产商合作，进口散装橄榄油（特级初榨、初榨、精炼），并在越南包装零售或重新出口。"
+        }
+      ]
+    },
+    "canola-oil-export": {
+      "name": "菜籽油出口",
+      "tagline": "精制菜籽油，健康多用途食用油",
+      "description": "越南出口精制菜籽油，脂肪酸比例均衡，芥酸含量低，适用于烹调、烘焙及食品加工。",
+      "moq": "10吨",
+      "containerCapacity": "约18吨/20英尺集装箱",
+      "packagingOptions": [
+        "25升桶装",
+        "200升大桶",
+        "1升/2升零售瓶装",
+        "OEM定制"
+      ],
+      "seoTitle": "菜籽油出口批发越南 — Ideal Deal",
+      "seoDescription": "越南精制菜籽油批发出口，低芥酸，起订量10吨，适用于烹调烘焙及食品加工。",
+      "longDescription": "菜籽油（Canola Oil）以其出色的脂肪酸组成著称——单不饱和脂肪酸含量高（约61%），饱和脂肪酸含量低（约7%），同时富含Omega-3脂肪酸（α-亚麻酸），被营养学界认为是最健康的食用油之一。现代品种的菜籽油（Canola）通过育种技术将芥酸含量降低至2%以下，满足国际食品安全标准。\n\n越南精制菜籽油采用进口低芥酸菜籽原料经过精炼处理，成品清亮透明，烟点约为204°C，适合日常烹调（炒、煎、烤）及工业食品生产（烘焙、油炸等）。产品不含转脂肪，符合现代健康消费需求。\n\n我们供应的菜籽油可提供脂肪酸组成报告（GC分析）、芥酸含量检测及食品安全相关检测报告，满足进口国的合规要求。零售包装支持OEM定制，可根据目标市场消费者偏好调整包装设计。\n\n欢迎联系我们获取当前报价及样品信息。",
+      "specs": [
+        {
+          "value": "RBD Canola Oil (low erucic acid)"
+        },
+        {
+          "value": "≤ 0.1%"
+        },
+        {
+          "value": "≤ 2%"
+        },
+        {
+          "value": "55–65%"
+        },
+        {
+          "value": "9–11%"
+        },
+        {
+          "value": "230–240°C"
+        },
+        {
+          "value": "18 MT (1 x 20ft)"
+        },
+        {
+          "value": "1514.99.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的菜籽油是非转基因的吗？",
+          "answer": "标准批次为转基因菜籽油。可应要求提供非转基因和有机版本（来自澳大利亚或欧盟的认证种植园）。"
+        }
+      ]
+    },
+    "margarine-export": {
+      "name": "人造黄油出口",
+      "tagline": "越南出口人造黄油，烘焙专用，品质稳定",
+      "description": "越南出口人造黄油（Margarine），多种规格可选，适用于烘焙、糕点制作及餐桌涂抹用途。",
+      "moq": "5吨",
+      "containerCapacity": "约20吨/20英尺集装箱",
+      "packagingOptions": [
+        "250g/500g零售装",
+        "1kg烘焙装",
+        "25kg工业桶装",
+        "OEM定制"
+      ],
+      "seoTitle": "人造黄油出口批发越南 — Ideal Deal",
+      "seoDescription": "越南人造黄油批发出口，烘焙专用，起订量5吨，多规格可选，支持OEM定制。",
+      "longDescription": "人造黄油（Margarine）作为天然黄油的经济型替代品，在食品加工和家庭烹饪中有广泛应用。越南人造黄油生产工厂技术成熟，产品已达到较高的质量水平，是出口市场的稳定供应商。\n\n我们供应的人造黄油产品分为两大类：家庭零售型和工业烘焙型。零售型人造黄油通常以盒装或棒装形式出售，乳化状态稳定，涂抹性好，口感接近天然黄油；工业烘焙型人造黄油可塑性强，适合起酥类产品（派皮、可颂等）和蛋糕奶油霜的制作，能够提供优秀的层次感和口感。\n\n现代越南人造黄油生产工艺已大幅降低反式脂肪酸含量，新一代产品的反式脂肪含量通常低于2%，部分产品已实现零反式脂肪，符合欧盟及主要进口市场的监管要求。\n\n产品可提供完整的营养成分分析报告及食品安全检测报告，支持OEM品牌定制。欢迎烘焙食品制造商、食品服务采购商及零售分销商联系我们了解详情。",
+      "specs": [
+        {
+          "value": "Block bakery / Table spread tub / Reduced-fat / Compound"
+        },
+        {
+          "value": "80% (margarine) / 60–70% (spread)"
+        },
+        {
+          "value": "0g per serving (interesterified base)"
+        },
+        {
+          "value": "36–42°C (bakery block)"
+        },
+        {
+          "value": "0.5–1.5% (salted) or salt-不含"
+        },
+        {
+          "value": "6–12 个月 (refrigerated)"
+        },
+        {
+          "value": "1 MT per product type"
+        },
+        {
+          "value": "1517.10.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的人造黄油是否含反式脂肪？",
+          "answer": "不含，我们的人造黄油使用酯交换工艺制成，反式脂肪为零（每份0g）。这符合欧盟、美国和澳大利亚的反式脂肪法规。"
+        }
+      ]
+    },
+    "vegetable-shortening-export": {
+      "name": "植物起酥油出口",
+      "tagline": "越南出口植物起酥油，烘焙专用，层次分明",
+      "description": "越南出口植物起酥油，固体脂肪含量高，可塑性强，适用于烘焙、糕点、油炸及食品工业加工。",
+      "moq": "5吨",
+      "containerCapacity": "约20吨/20英尺集装箱",
+      "packagingOptions": [
+        "1kg零售桶装",
+        "15kg/25kg工业桶装",
+        "200kg大桶",
+        "OEM定制"
+      ],
+      "seoTitle": "植物起酥油出口批发越南 — Ideal Deal",
+      "seoDescription": "越南植物起酥油批发出口，固体脂肪高，起订量5吨，适用于烘焙糕点及食品工业加工。",
+      "longDescription": "植物起酥油（Vegetable Shortening）是烘焙工业中不可或缺的功能性油脂原料，其独特的固态稳定性和可塑性为饼干、派皮、蛋糕及各类糕点提供理想的质地和层次感。越南植物起酥油生产工厂采用先进的氢化或酯交换工艺，生产出性能稳定的植物起酥油产品。\n\n我们供应的植物起酥油主要以氢化棕榈油为基础，经过精制后固体脂肪含量（SFC）曲线经过精心调控，确保产品在不同温度下具有适当的稠度和可塑性。工业烘焙用起酥油适合商业饼干生产线、面包房和糕点工厂使用；家庭烘焙用小包装产品也有供应。\n\n现代越南起酥油生产商积极开发低反式脂肪和零反式脂肪配方，以满足日益严格的全球食品法规要求。出口产品可提供脂肪酸组成分析、反式脂肪含量检测及熔点测试报告。\n\n支持OEM定制，欢迎食品制造商、商业烘焙企业及食品原料分销商联系我们了解详情。",
+      "specs": [
+        {
+          "value": "All-purpose / Frying / Hi-ratio emulsified / Pastry"
+        },
+        {
+          "value": "100% vegetable fat"
+        },
+        {
+          "value": "0g per serving"
+        },
+        {
+          "value": "36–48°C (type dependent)"
+        },
+        {
+          "value": "20–35 (highly stable)"
+        },
+        {
+          "value": "25–35%"
+        },
+        {
+          "value": "1 MT per type"
+        },
+        {
+          "value": "1516.20.00"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "什么使蔬菜起酥油适合烘焙？",
+          "answer": "我们的起酥油具有精心调整的固体脂肪指数（SFI），适合制作酥皮、馅饼和分层糕点。可应要求提供定制硬度配方。"
+        }
+      ]
+    },
+    "palm-oil-rbd-export": {
+      "name": "精制棕榈油出口",
+      "tagline": "越南出口精制棕榈油，用途广泛，性价比高",
+      "description": "越南出口精制漂白脱臭棕榈油（RBD Palm Oil），适用于食品加工、油炸、人造黄油及工业用途。",
+      "moq": "20吨",
+      "containerCapacity": "约18吨/20英尺集装箱",
+      "packagingOptions": [
+        "200升铁桶",
+        "25升桶装",
+        "ISO槽罐（散装）",
+        "OEM定制"
+      ],
+      "seoTitle": "精制棕榈油出口批发越南 — Ideal Deal",
+      "seoDescription": "越南精制棕榈油批发出口，RBD级，起订量20吨，适用于食品加工油炸及工业用途。",
+      "longDescription": "棕榈油是全球产量最大的植物油，以其出色的氧化稳定性、较高的烟点和较低的生产成本，在食品工业中被广泛应用。越南棕榈油精炼产业以进口毛棕榈油（CPO）为原料，通过精炼、漂白和脱臭工艺（RBD工艺）生产出高品质的食品级精制棕榈油。\n\n我们供应的RBD棕榈油（精炼棕榈油）产品规格包括标准RBD棕榈油（常温液态/固态）、棕榈液油（Palm Olein，精炼后液态部分）及棕榈硬脂（Palm Stearin，固态部分）。棕榈液油是最常用于食用油炸和普通烹调的规格，棕榈硬脂则主要用于人造黄油、起酥油和工业加工。\n\n产品质量符合Codex Alimentarius标准，可提供碘值、熔点、酸值、过氧化值等质量指标检测报告。出口手续完善，可提供植物检疫证书及MSDS安全数据表。\n\n棕榈油价格受国际市场波动影响较大，我们提供价格透明的报价机制，欢迎联系了解当前市场价格和供货条件。",
+      "specs": [
+        {
+          "value": "RBD Palm Oil / Palm Olein / Palm S茶rin"
+        },
+        {
+          "value": "≤0.10%"
+        },
+        {
+          "value": "≤0.10%"
+        },
+        {
+          "value": "50–55 (RBD oil); ≥56 (olein)"
+        },
+        {
+          "value": "Max 3.0 Red (5.25\" cell)"
+        },
+        {
+          "value": "≤2.0 meq O₂/kg"
+        },
+        {
+          "value": "20 MT (drums); 24 MT (flexitank)"
+        },
+        {
+          "value": "Flexitank / ISO Tank / 200L Drum / 20L Jerry Can"
+        },
+        {
+          "value": "RSPO Segregated (SG) or Mass Balance (MB) 可提供"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "你们的棕榈油是否经过RSPO认证？",
+          "answer": "可以，我们提供RSPO（可持续棕榈油圆桌会议）认证的批次，按要求。我们的标准批次来自负责任的种植园，可追溯到工厂级别。"
+        },
+        {
+          "question": "你们提供RSPO认证的可持续棕榈油吗？",
+          "answer": "是的。对于具有可持续性要求的买家，可提供RSPO分离（SG）认证的RBD棕榈油和棕榈olein。RSPO质量平衡（MB）和RSPO Mass Balance Credit认证也可用。"
+        },
+        {
+          "question": "每批装运随附什么质量文件？",
+          "answer": "每批装运包括：来自生产精炼厂的分析证书（COA）、SGS或Bureau Veritas预装运检验报告、原产地证书、健康证书和针对欧盟买家的可持续性文件（RSPO）。"
+        }
+      ]
+    },
+    "edible-oils-fats": {
+      "name": "食用油脂",
+      "tagline": "越南出口食用油脂，全系列供应，一站式采购",
+      "description": "越南出口食用油脂系列，涵盖椰子油、棕榈油、植物油、菜籽油、人造黄油及起酥油，适合食品工业采购。",
+      "moq": "按产品类型而定",
+      "containerCapacity": "按产品组合而定",
+      "packagingOptions": [
+        "工业散装",
+        "零售包装",
+        "混合装柜"
+      ],
+      "seoTitle": "越南食用油脂批发出口 — Ideal Deal",
+      "seoDescription": "越南食用油脂批发出口，椰子油棕榈油植物油菜籽油全系列，一站式采购，欢迎咨询。",
+      "longDescription": "食用油脂是全球食品工业最重要的大宗原料之一，越南凭借其地处东南亚油料作物产区的地理优势和日益成熟的精炼加工能力，在食用油脂出口领域具备较强的竞争力。\n\nIdeal Deal整合越南主要食用油脂制造商和贸易商资源，为全球买家提供全系列食用油脂的一站式采购服务。我们的产品组合涵盖：精制椰子油（RBD/Virgin）、精制棕榈油及棕榈液油、精制大豆油、精制葵花籽油、精制菜籽油、调和植物油、人造黄油及植物起酥油，基本覆盖食品工业主要用油需求。\n\n不同产品类别各有其价格优势：椰子油和棕榈油在越南有本土原料来源，成本优势明显；其他植物油经越南精炼厂加工后，依托越南的贸易便利化政策，可以较具竞争力的价格出口至亚太地区市场。\n\n我们提供完整的出口服务支持，包括产品质量认证、装柜监督、运输安排及出口文件准备，帮助买家简化采购流程，降低运营风险。欢迎联系我们的采购团队获取详细信息。"
+    }
+  }
+}

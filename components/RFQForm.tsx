@@ -1,5 +1,7 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { CheckCircle2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface RFQFormProps {
   productName?: string;
@@ -14,6 +16,7 @@ const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY ?? '';
 const WHATSAPP_NUMBER = '84828278808';
 
 const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', compact = false }) => {
+  const { t } = useTranslation('products');
   const formRef = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
   const [fields, setFields] = useState({
@@ -59,16 +62,18 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
   if (status === 'success') {
     return (
       <div className={`bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-2xl p-8 text-center ${className}`}>
-        <span className="material-symbols-outlined text-5xl text-green-500 mb-4 block">check_circle</span>
-        <h3 className="text-xl font-bold text-green-700 dark:text-green-400 mb-2">Request Sent!</h3>
+        <CheckCircle2 size={48} className="text-green-500 mb-4 mx-auto block" aria-hidden />
+        <h3 className="text-xl font-bold text-green-700 dark:text-green-400 mb-2">
+          {t('ui.rfq_success_title', { defaultValue: 'Request Sent!' })}
+        </h3>
         <p className="text-slate-600 dark:text-slate-300 mb-4">
-          Thank you. Our team will respond to your inquiry within 24 hours.
+          {t('ui.rfq_success_body', { defaultValue: 'Thank you. Our team will respond to your inquiry within 24 hours.' })}
         </p>
         <button
           onClick={() => setStatus('idle')}
           className="text-sm text-primary hover:underline"
         >
-          Send another request
+          {t('ui.rfq_send_another', { defaultValue: 'Send another request' })}
         </button>
       </div>
     );
@@ -77,17 +82,17 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
   return (
     <div className={`bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 ${compact ? 'p-6' : 'p-8'} ${className}`}>
       <h3 className={`font-bold text-brandNavy dark:text-white mb-1 ${compact ? 'text-lg' : 'text-2xl'}`}>
-        Request a Quote
+        {t('ui.rfq_title', { defaultValue: 'Request a Quote' })}
       </h3>
       <p className="text-slate-500 dark:text-slate-400 text-sm mb-6">
-        Tell us what you need — we'll respond within 24 hours.
+        {t('ui.rfq_sub', { defaultValue: "Tell us what you need — we'll respond within 24 hours." })}
       </p>
 
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
         <div className={compact ? '' : 'grid sm:grid-cols-2 gap-4'}>
           <div>
             <label htmlFor="rfq-name" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-              Full Name *
+              {t('ui.rfq_name')} *
             </label>
             <input
               id="rfq-name"
@@ -102,7 +107,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
           </div>
           <div>
             <label htmlFor="rfq-email" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-              Email Address *
+              {t('ui.rfq_email')} *
             </label>
             <input
               id="rfq-email"
@@ -120,7 +125,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
         <div className={compact ? '' : 'grid sm:grid-cols-2 gap-4'}>
           <div>
             <label htmlFor="rfq-company" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-              Company
+              {t('ui.rfq_company')}
             </label>
             <input
               id="rfq-company"
@@ -134,7 +139,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
           </div>
           <div>
             <label htmlFor="rfq-country" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-              Country *
+              {t('ui.rfq_country')} *
             </label>
             <input
               id="rfq-country"
@@ -152,7 +157,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
         <div className={compact ? '' : 'grid sm:grid-cols-2 gap-4'}>
           <div>
             <label htmlFor="rfq-product" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-              Product
+              {t('ui.rfq_product_label', { defaultValue: 'Product' })}
             </label>
             <input
               id="rfq-product"
@@ -166,7 +171,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
           </div>
           <div>
             <label htmlFor="rfq-quantity" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-              Quantity / Volume
+              {t('ui.rfq_qty')}
             </label>
             <input
               id="rfq-quantity"
@@ -182,7 +187,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
 
         <div>
           <label htmlFor="rfq-message" className="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
-            Additional Requirements
+            {t('ui.rfq_message')}
           </label>
           <textarea
             id="rfq-message"
@@ -197,11 +202,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
 
         {status === 'error' && (
           <p className="text-red-500 text-sm">
-            Something went wrong. Please try WhatsApp below or email us directly at{' '}
-            <a href="mailto:sales@idealdealvn.com" className="underline">
-              sales@idealdealvn.com
-            </a>
-            .
+            {t('ui.rfq_error', { defaultValue: 'Something went wrong. Please try WhatsApp below or email us directly at sales@idealdealvn.com.' })}
           </p>
         )}
 
@@ -210,13 +211,13 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
           disabled={status === 'sending'}
           className="w-full py-3 px-6 rounded-xl bg-primary text-white font-bold text-sm uppercase tracking-wide hover:bg-amber-500 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          {status === 'sending' ? 'Sending…' : 'Send Request for Quote'}
+          {status === 'sending' ? t('ui.rfq_sending', { defaultValue: 'Sending…' }) : t('ui.rfq_submit')}
         </button>
 
         {/* WhatsApp alternative */}
         <div className="flex items-center gap-2 text-slate-400 text-xs">
           <div className="flex-1 border-t border-slate-200 dark:border-slate-700" />
-          <span>or</span>
+          <span>{t('ui.rfq_or', { defaultValue: 'or' })}</span>
           <div className="flex-1 border-t border-slate-200 dark:border-slate-700" />
         </div>
         <a
@@ -237,7 +238,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
           <svg viewBox="0 0 32 32" className="w-5 h-5 fill-current" aria-hidden="true">
             <path d="M16.003 3C9.376 3 4 8.373 4 15.001c0 2.118.554 4.11 1.524 5.84L4 29l8.368-1.51A12.018 12.018 0 0 0 16.003 28C22.63 28 28 22.627 28 16s-5.37-13-11.997-13zm5.82 15.662c-.319-.159-1.887-.93-2.18-1.036-.292-.106-.505-.159-.717.16-.213.318-.824 1.036-.01 1.248.822.213 1.856-.187 2.074-.4.213-.213.319-.531.16-.849-.16-.319-.506-.822-.717-1.036-.213-.213-.453-.265-.663-.053-.213.213-.824.665-.93 1.035-.106.37.107.797.319 1.036.213.24.824.664 1.142.877.318.212.877.424 1.46.371.584-.053 1.035-.318 1.195-.637.16-.318.16-.796 0-1.114z" />
           </svg>
-          Chat on WhatsApp
+          {t('ui.whatsapp_cta')}
         </a>
       </form>
     </div>

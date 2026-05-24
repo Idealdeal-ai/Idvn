@@ -1,0 +1,1143 @@
+{
+  "ui": {
+    "service_badge": "Service",
+    "get_free_quote": "Obtenir un devis gratuit",
+    "talk_to_expert": "Parler à un expert",
+    "whats_included": "Ce qui est inclus",
+    "whats_included_sub": "Tout ce dont vous avez besoin pour sourcer, fabriquer et expédier depuis le Vietnam — géré par notre équipe.",
+    "about_service": "À propos de notre service {{name}}",
+    "industries_we_serve": "Secteurs que nous servons",
+    "certifications_standards": "Certifications et Normes",
+    "need_fast_answer": "Besoin d'une réponse rapide?",
+    "whatsapp_cta_sub": "Écrivez directement à notre équipe sur WhatsApp pour des réponses le jour même.",
+    "chat_on_whatsapp": "Discuter sur WhatsApp",
+    "how_it_works": "Comment ça marche",
+    "how_it_works_sub": "Un processus clair étape par étape du premier contact à la livraison.",
+    "faq_heading": "Questions fréquemment posées",
+    "related_services": "Services connexes",
+    "learn_more": "En savoir plus",
+    "get_started_heading": "Commencer avec {{name}}",
+    "get_started_sub": "Dites-nous vos exigences et nous vous enverrons une proposition détaillée dans les 24 heures."
+  },
+  "content": {
+    "private-label": {
+      "name": "Fabrication sous Marque Propre",
+      "tagline": "Votre Marque. La Qualité Vietnamienne.",
+      "heroDescription": "Lancez votre propre marque alimentaire avec des produits vietnamiens premium — emballés, étiquetés et certifiés selon vos spécifications exactes. Nous gérons tout, de la formulation au fret.",
+      "longDescription": "La fabrication sous marque propre est l'une des stratégies à la croissance la plus rapide pour les importateurs, distributeurs et détaillants souhaitant bâtir une image de marque sans investir dans des installations de production. Ideal Deal Vietnam comble le fossé entre la production alimentaire vietnamienne de classe mondiale et les exigences spécifiques de votre marque.\n\n**Pourquoi choisir la marque propre depuis le Vietnam ?**\n\nLe Vietnam figure parmi les cinq premiers exportateurs mondiaux de café, noix de cajou, poivre noir, riz et fruits de mer surgelés. Les coûts de main-d'œuvre compétitifs, l'infrastructure agro-industrielle sophistiquée et l'accès à des matières premières de haute qualité font du Vietnam un hub idéal pour la marque propre internationale.\n\nNos clients en marque propre comprennent des chaînes de supermarchés en Arabie Saoudite et aux Émirats Arabes Unis, des marques alimentaires spécialisées en Europe, et des détaillants d'aliments santé au Canada et en Australie. Chaque client repart avec le même engagement : votre marque en rayon, notre qualité derrière.\n\n**Catégories de produits disponibles en marque propre**\n\nNous proposons des services de marque propre sur l'ensemble de notre portefeuille : café torréfié et moulu, noix de cajou entières et brisées, riz jasmin et parfumé, crevettes et fruits de mer surgelés, et épices moulues ou entières incluant le poivre noir, le curcuma et la cannelle. Chaque produit peut être formulé, mélangé et emballé pour répondre aux exigences gustatives et réglementaires de votre marché cible.\n\n**Étiquetage & Emballage**\n\nNous travaillons avec des partenaires d'emballage certifiés pour produire des sachets, boîtes de conserve, boîtes, et emballages sous vide prêts pour la vente au détail. Les formats disponibles comprennent : sachets debout avec fermeture zip, sacs sous vide, boîtes en fer, bocaux en verre, sacs en papier kraft et sacs en vrac. Nous pouvons reproduire les couleurs Pantone de votre marque, apposer les codes-barres et les informations nutritionnelles dans n'importe quelle langue.\n\n**Conformité Réglementaire**\n\nLes produits en marque propre pour les marchés CCG exigent une certification Halal — nous travaillons avec des organismes de certification Halal reconnus par JAKIM et approuvés par l'ESMA. Les produits pour l'UE doivent être conformes au règlement UE 2073/2005, aux LMR de pesticides et à l'étiquetage des allergènes. Nous préparons tous les documents nécessaires : CoA, C/O, Certificat Phytosanitaire et Certificat Sanitaire.\n\n**Quantités Minimales de Commande**\n\nLes commandes en marque propre démarrent généralement à un conteneur de 20 pieds. Des commandes pilotes de 1 à 5 MT sont disponibles pour les nouveaux clients effectuant des tests de marché avant de monter en charge.\n\n**Délais de Production**\n\nLes commandes standard en marque propre (avec visuels approuvés et spécifications confirmées) sont expédiées sous 3 à 5 semaines. Les formulations complexes ou les emballages nécessitant de nouveaux outillages peuvent nécessiter 6 à 8 semaines. Nous fournissons un calendrier de production détaillé à la confirmation de la commande.",
+      "seoTitle": "Fabrication Marque Propre Vietnam | Café, Noix de Cajou, Riz & Épices",
+      "seoDescription": "Lancez votre marque avec la fabrication sous marque propre vietnamienne. Café, noix de cajou, riz, fruits de mer et épices — emballage personnalisé, certifié Halal, documentation d'export complète.",
+      "features": [
+        {
+          "icon": "inventory_2",
+          "title": "Emballage Personnalisé",
+          "description": "Sachets debout, sacs sous vide, boîtes de conserve, sacs kraft — tout format, aux couleurs de votre marque, dans n'importe quelle langue sur l'étiquette."
+        },
+        {
+          "icon": "science",
+          "title": "Formulation Produit",
+          "description": "Mélanges de café, mélanges d'épices, variétés de riz sur mesure — nous développons des recettes adaptées au profil gustatif de votre marché cible."
+        },
+        {
+          "icon": "verified",
+          "title": "Certifié Halal & Bio",
+          "description": "Produits certifiés Halal (JAKIM/ESMA), biologiques (UE/USDA) et conformes aux réglementations du pays importateur."
+        },
+        {
+          "icon": "local_shipping",
+          "title": "Documentation d'Export Complète",
+          "description": "C/O, CoA, Certificat Phytosanitaire, Certificat Sanitaire, Liste de Colisage — tous les documents préparés et vérifiés."
+        },
+        {
+          "icon": "scale",
+          "title": "CMQ Flexibles",
+          "description": "Commandes pilotes à partir de 1 MT pour les tests de marché, évoluant vers des conteneurs complets une fois votre marque établie."
+        },
+        {
+          "icon": "groups",
+          "title": "Chargé de Compte Dédié",
+          "description": "Un seul point de contact du développement produit jusqu'à la livraison finale — sans transfert de dossier, sans confusion."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Consultation & Brief",
+          "description": "Partagez votre vision de marque, votre marché cible, vos exigences produit et votre budget. Nous évaluons la faisabilité et suggérons les configurations produit optimales."
+        },
+        {
+          "step": 2,
+          "title": "Développement d'Échantillons",
+          "description": "Nous développons des échantillons de produits et des maquettes d'emballage pour votre examen. Généralement 2 à 3 séries d'échantillons jusqu'à l'approbation de la spécification finale."
+        },
+        {
+          "step": 3,
+          "title": "Tests de Laboratoire & Approbation",
+          "description": "Les échantillons approuvés subissent des tests de laboratoire par des tiers. Vous recevez un CoA complet confirmant que le produit répond à toutes les normes réglementaires et de qualité."
+        },
+        {
+          "step": 4,
+          "title": "Production & Contrôle Qualité",
+          "description": "Production complète avec contrôle qualité en ligne. Vous ou votre inspecteur désigné pouvez visiter l'usine à tout moment de la production."
+        },
+        {
+          "step": 5,
+          "title": "Documentation & Expédition",
+          "description": "Tous les documents d'export préparés. Fret réservé, conteneur chargé et connaissement émis. Suivi de l'expédition en temps réel fourni."
+        }
+      ],
+      "targetIndustries": [
+        "Supermarchés & Hypermarchés",
+        "Épiceries Spécialisées",
+        "Plateformes d'Épicerie en Ligne",
+        "Distributeurs en Gros",
+        "Groupes Hôteliers & Hospitalité",
+        "Marques d'Aliments Santé"
+      ],
+      "certifications": [
+        "Halal (JAKIM / ESMA)",
+        "ISO 22000:2018",
+        "HACCP",
+        "Biologique (UE / USDA)",
+        "Enregistrement FDA",
+        "FSSC 22000"
+      ],
+      "faqs": [
+        {
+          "question": "Quelle est la quantité minimale de commande pour la marque propre ?",
+          "answer": "Les commandes standard de marque propre démarrent à un conteneur de 20 pieds. Pour les nouveaux clients effectuant des tests de marché, des commandes pilotes de 1 à 5 MT sont disponibles. Contactez-nous pour discuter de vos besoins en volume."
+        },
+        {
+          "question": "Puis-je obtenir des échantillons avant de m'engager sur une commande complète ?",
+          "answer": "Oui. Nous fournissons jusqu'à 3 kg d'échantillons de produits gratuitement (frais de transport à la charge de l'acheteur). Le développement des échantillons prend 5 à 10 jours ouvrables selon le produit."
+        },
+        {
+          "question": "Fournissez-vous la certification Halal pour les marchés du CCG ?",
+          "answer": "Oui. Nous travaillons avec des organismes de certification Halal reconnus par JAKIM et approuvés par l'ESMA. Toutes nos usines maintiennent des certificats Halal valides, et nous pouvons fournir des certificats Halal spécifiques aux produits pour chaque expédition."
+        },
+        {
+          "question": "Combien de temps dure la production en marque propre ?",
+          "answer": "De l'approbation des visuels à l'expédition, les commandes standard prennent 3 à 5 semaines. Les formulations complexes ou les nouveaux outillages d'emballage peuvent prolonger le délai à 6-8 semaines. Nous fournissons un calendrier de production à la confirmation de la commande."
+        },
+        {
+          "question": "Pouvez-vous imprimer des étiquettes en arabe ?",
+          "answer": "Oui. Nous produisons des étiquettes en arabe, anglais, français, espagnol, chinois et vietnamien. Nous recommandons que votre consultant réglementaire local vérifie le texte de l'étiquette arabe avant l'impression."
+        }
+      ]
+    },
+    "oem-manufacturing": {
+      "name": "Fabrication OEM",
+      "tagline": "Augmentez la Production Sans Construire d'Usine.",
+      "heroDescription": "Confiez la fabrication alimentaire à grande échelle au Vietnam selon vos spécifications techniques. Nos usines partenaires exploitent des lignes de production certifiées ISO 22000 avec une traçabilité complète de la ferme au conteneur.",
+      "longDescription": "La production alimentaire OEM (Fabricant d'Équipement d'Origine) au Vietnam permet aux entreprises alimentaires internationales d'accéder à une capacité de production de classe mondiale sans l'investissement en capital d'une usine propre. Ideal Deal Vietnam agit en tant que partenaire de fabrication sur place, gérant la sélection des usines, la conformité technique, la planification de la production et le contrôle qualité en votre nom.\n\n**Le Vietnam comme Hub Mondial de Production OEM Alimentaire**\n\nL'industrie agroalimentaire vietnamienne a massivement investi dans les infrastructures modernes. Les usines opèrent désormais selon les normes HACCP, ISO 22000, BRC, SQF et FSSC 22000 — les mêmes certifications exigées par les chaînes de distribution européennes et nord-américaines.\n\n**Nos Capacités de Fabrication OEM**\n\nNous gérons la production OEM dans plusieurs catégories. En café : torréfaction, mouture, spray-drying de café instantané et remplissage de capsules. En noix de cajou : décorticage, épluchage, calibrage, torréfaction, salage et aromatisation. En fruits de mer : congélation IQF, traitement conforme HACCP. En riz : mouture, calibrage, polissage et précuisson. En épices : broyage, mélange, stérilisation et encapsulation.\n\n**Développement des Spécifications Techniques**\n\nSi vous avez un produit existant à reproduire au Vietnam, nous réalisons un audit technique détaillé de vos spécifications. Nous correspondons au sourcing des ingrédients, aux méthodes de traitement, à la granulométrie, à la teneur en humidité, à la couleur et au profil aromatique.\n\n**Audit & Sélection des Usines**\n\nNous maintenons un réseau vérifié d'usines partenaires dans les principales régions agricoles du Vietnam — Ho Chi Minh-Ville, Dak Lak, Binh Phuoc, Can Tho et Hué. Nous sélectionnons l'usine la plus appropriée pour votre catégorie et votre volume.\n\n**Volume et Évolutivité**\n\nLes contrats OEM démarrent généralement à 2-5 conteneurs par mois, pouvant atteindre plus de 20 conteneurs mensuels pour de grands programmes de distribution.\n\n**Traçabilité et Documentation**\n\nChaque lot de production OEM est entièrement traçable de la matière première au produit fini. Nous conservons les dossiers de lot, CoA, rapports d'inspection des matières entrantes, journaux de production et rapports d'inspection des produits finis.",
+      "seoTitle": "Fabrication OEM Alimentaire Vietnam | Production Sous-Traitance Café, Cajou, Fruits de Mer",
+      "seoDescription": "Fabrication OEM alimentaire au Vietnam pour les marques internationales. Usines certifiées ISO 22000, traçabilité complète, capacité évolutive de 2 à 20+ conteneurs/mois.",
+      "features": [
+        {
+          "icon": "precision_manufacturing",
+          "title": "De la Spec à la Production",
+          "description": "Soumettez vos spécifications techniques — nous les reproduisons exactement en utilisant des matières premières vietnamiennes et des lignes de production certifiées."
+        },
+        {
+          "icon": "network_check",
+          "title": "Réseau d'Usines Vérifiées",
+          "description": "Accédez à notre réseau d'usines certifiées ISO 22000, BRC et HACCP dans les principales régions agricoles du Vietnam."
+        },
+        {
+          "icon": "data_object",
+          "title": "Traçabilité Complète",
+          "description": "Du lot de matière première aux produits finis, chaque lot de production est documenté et traçable. Dossiers prêts pour audit à tout moment."
+        },
+        {
+          "icon": "trending_up",
+          "title": "Capacité Évolutive",
+          "description": "Démarrez avec 2-5 conteneurs/mois et évoluez jusqu'à 20+ à mesure que votre programme de distribution se développe."
+        },
+        {
+          "icon": "verified_user",
+          "title": "Tests par Tiers",
+          "description": "Chaque production testée par SGS, Eurofins ou Bureau Veritas avant expédition. CoA fourni avec chaque conteneur."
+        },
+        {
+          "icon": "support_agent",
+          "title": "Représentant CQ sur Site",
+          "description": "Notre équipe de contrôle qualité est basée à ou près de chaque usine partenaire pour un suivi en temps réel pendant les productions."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Examen des Spécifications",
+          "description": "Soumettez vos spécifications produit, votre prix cible et vos prévisions de volume. Nous évaluons la faisabilité et identifions la meilleure approche de production."
+        },
+        {
+          "step": 2,
+          "title": "Sélection & Audit de l'Usine",
+          "description": "Nous sélectionnons l'usine certifiée la plus adaptée de notre réseau et organisons un audit — en personne ou par appel vidéo."
+        },
+        {
+          "step": 3,
+          "title": "Production d'Essai",
+          "description": "Un essai de production à petite échelle produit des échantillons pour votre approbation. Des tests de laboratoire confirment que le produit correspond à vos spécifications."
+        },
+        {
+          "step": 4,
+          "title": "Production Commerciale",
+          "description": "Production à pleine échelle avec contrôles CQ en ligne. Inspection finale avant chargement. Mises à jour en temps réel de notre équipe sur site."
+        },
+        {
+          "step": 5,
+          "title": "Gestion Continue du Programme",
+          "description": "Planification mensuelle de la production, gestion des achats de matières premières et suivi qualité continu pour les programmes récurrents."
+        }
+      ],
+      "targetIndustries": [
+        "Marques Alimentaires & Boissons",
+        "Groupes Alimentaires Soutenus par Capital-Investissement",
+        "Programmes de Marques Propres de Supermarchés",
+        "Distributeurs en Restauration",
+        "Acheteurs d'Ingrédients Alimentaires Industriels",
+        "Sous-Traitants à la Recherche d'Approvisionnement"
+      ],
+      "certifications": [
+        "ISO 22000:2018",
+        "HACCP",
+        "BRC (British Retail Consortium)",
+        "SQF (Safe Quality Food)",
+        "FSSC 22000",
+        "Enregistrement FDA (États-Unis)"
+      ],
+      "faqs": [
+        {
+          "question": "Quelle est la différence entre OEM et marque propre ?",
+          "answer": "La marque propre consiste à apposer votre marque sur un produit standard ou légèrement personnalisé. L'OEM implique de reproduire votre spécification technique complète — votre formulation exacte, vos paramètres de processus et vos normes de qualité — en utilisant notre infrastructure de production."
+        },
+        {
+          "question": "Puis-je visiter l'usine avant de passer une commande ?",
+          "answer": "Oui, les visites d'usine sont encouragées et peuvent être organisées avec un préavis suffisant. Nous pouvons également organiser une visite virtuelle de l'usine avec un tour en direct par vidéo si vous ne pouvez pas vous déplacer au Vietnam."
+        },
+        {
+          "question": "Quelles certifications vos usines partenaires détiennent-elles ?",
+          "answer": "Nos usines partenaires principales sont certifiées ISO 22000, HACCP et détiennent les certifications spécifiques aux produits concernés (Halal, Bio, etc.). Plusieurs usines détiennent également des certificats BRC et FSSC 22000 pour les clients qui en ont besoin."
+        },
+        {
+          "question": "Quel est le volume mensuel minimum pour un contrat OEM ?",
+          "answer": "La plupart des programmes OEM démarrent à 2 conteneurs (environ 40 MT) par mois. Nous pouvons discuter de volumes d'essai plus réduits pendant la phase d'intégration."
+        },
+        {
+          "question": "Gérez-vous l'approvisionnement en matières premières pour la production OEM ?",
+          "answer": "Oui. Nous gérons tous les achats de matières premières, les inspections à la réception et la gestion des fournisseurs. Vous pouvez également fournir des ingrédients approuvés spécifiques si vos spécifications l'exigent."
+        }
+      ]
+    },
+    "export-support": {
+      "name": "Support Export & Documentation",
+      "tagline": "Du Bon de Commande au Port — Géré.",
+      "heroDescription": "Naviguer dans les réglementations d'export vietnamiennes, la documentation commerciale et les procédures douanières peut être complexe. Notre équipe de support export gère l'ensemble du processus pour que votre expédition arrive à temps, à chaque fois.",
+      "longDescription": "L'exportation de produits alimentaires depuis le Vietnam nécessite une coordination précise entre producteurs, transitaires, agents en douane, autorités de certification et douanes du pays importateur. Un seul document manquant peut entraîner des retards d'expédition ou un rejet pur et simple. Le service de support export d'Ideal Deal Vietnam élimine ces risques en gérant l'ensemble du processus d'export de votre bon de commande à la livraison finale.\n\n**Ce que nous gérons**\n\nNotre support export couvre chaque étape du processus documentaire et logistique. Avant la production, nous confirmons que les exigences d'importation de votre pays de destination sont respectées. Pendant la production, nous coordonnons les tests et certifications par des tiers. Avant l'expédition, nous préparons et vérifions tous les documents.\n\n**Documents que nous préparons**\n\n- **Facture Commerciale** — prix précis, codes SH et Incoterms\n- **Liste de Colisage** — décompte détaillé des cartons, poids et dimensions\n- **Connaissement (B/L)** — coordonné avec la compagnie maritime\n- **Certificat d'Origine (C/O)** — émis par la VCCI, confirmant l'origine vietnamienne pour les tarifs préférentiels sous VJEPA, RCEP, EVFTA\n- **Certificat Phytosanitaire** — pour les produits d'origine végétale (café, cajou, riz, épices)\n- **Certificat Sanitaire** — pour les produits animaux et fruits de mer, émis par NAFIQAD\n- **Certificat d'Analyse (CoA)** — résultats de laboratoire tiers\n- **Certificat Halal** — pour les expéditions vers le CCG\n- **Certificat de Fumigation** — pour les matériaux d'emballage en bois\n\n**Optimisation des Accords de Libre-Échange**\n\nLe Vietnam est signataire de 16 Accords de Libre-Échange, dont l'EVFTA (UE-Vietnam), le RCEP (Asie-Pacifique), le CPTPP et le VJEPA (Japon). Une documentation C/O correcte permet aux acheteurs de bénéficier de droits d'importation préférentiels pouvant réduire le coût de revient de 5 à 20% selon le produit.",
+      "seoTitle": "Documentation Export Alimentaire Vietnam | C/O, Halal, Phytosanitaire",
+      "seoDescription": "Support complet de documentation export pour les produits alimentaires vietnamiens : Certificat d'Origine, Phytosanitaire, Halal, CoA et optimisation tarifaire ALE pour CCG, UE et Afrique.",
+      "features": [
+        {
+          "icon": "article",
+          "title": "Suite Documentaire Complète",
+          "description": "Nous préparons et coordonnons tous les documents d'export : C/O, CoA, Phytosanitaire, Certificat Sanitaire, B/L, Halal et bien plus."
+        },
+        {
+          "icon": "handshake",
+          "title": "Optimisation ALE",
+          "description": "Nous émettons le C/O correct pour débloquer les tarifs préférentiels sous l'EVFTA, le RCEP, le CPTPP et autres ALE applicables."
+        },
+        {
+          "icon": "gavel",
+          "title": "Conformité Réglementaire",
+          "description": "Nous vérifions les exigences d'importation de votre pays de destination avant la production — aucune surprise au port."
+        },
+        {
+          "icon": "track_changes",
+          "title": "Suivi d'Expédition en Temps Réel",
+          "description": "Suivez votre conteneur de la sortie usine au port de destination avec des mises à jour hebdomadaires de notre équipe opérationnelle."
+        },
+        {
+          "icon": "language",
+          "title": "Expertise Multi-Marchés",
+          "description": "Expérience en documentation export pour le CCG, l'UE, le Royaume-Uni, l'Afrique, l'Australie et les marchés d'Asie du Sud-Est."
+        },
+        {
+          "icon": "verified",
+          "title": "Garantie Zéro Rejet",
+          "description": "Notre processus de vérification documentaire avant expédition élimine le risque de rejet d'expédition dû à des erreurs documentaires."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Audit des Exigences d'Importation",
+          "description": "Nous auditons les exigences du pays de destination : codes SH, taux de droits, conditions de quarantaine et règles d'étiquetage."
+        },
+        {
+          "step": 2,
+          "title": "Planification de la Documentation",
+          "description": "Nous préparons une liste de documents spécifique à votre produit et destination, avec des délais pour chaque certificat."
+        },
+        {
+          "step": 3,
+          "title": "Coordination Production & Tests",
+          "description": "Nous coordonnons les tests de laboratoire tiers pendant la production pour que le CoA soit prêt avant l'expédition."
+        },
+        {
+          "step": 4,
+          "title": "Préparation des Documents",
+          "description": "Tous les documents sont préparés, vérifiés pour leur exactitude et soumis aux autorités compétentes pour émission officielle."
+        },
+        {
+          "step": 5,
+          "title": "Dédouanement & Remise",
+          "description": "Nous gérons le dédouanement export vietnamien et coordonnons la remise du fret au transitaire pour le chargement."
+        }
+      ],
+      "targetIndustries": [
+        "Premiers Importateurs depuis le Vietnam",
+        "Importateurs Expérimentés Élargissant leurs Catégories",
+        "Équipes d'Import de Supermarchés",
+        "Négociants en Matières Premières",
+        "Distributeurs Alimentaires",
+        "Importateurs Alimentaires E-Commerce"
+      ],
+      "certifications": [
+        "Certificat d'Origine VCCI",
+        "Phytosanitaire MARD",
+        "Certificat Sanitaire NAFIQAD",
+        "Halal JAKIM / ESMA",
+        "Certificat Biologique (UE/USDA)"
+      ],
+      "faqs": [
+        {
+          "question": "Qu'est-ce qu'un Certificat d'Origine et pourquoi en ai-je besoin ?",
+          "answer": "Un Certificat d'Origine (C/O) est un document officiel confirmant que les marchandises ont été produites au Vietnam. Il est requis par la plupart des pays importateurs et essentiel pour bénéficier des droits d'importation préférentiels sous les ALE comme l'EVFTA ou le RCEP."
+        },
+        {
+          "question": "Pouvez-vous m'aider à comprendre les droits d'importation pour mon pays de destination ?",
+          "answer": "Oui. Nous fournissons une analyse des taux de droits pour votre produit spécifique (par code SH) et votre pays de destination, incluant les taux préférentiels ALE applicables si le Vietnam a un accord commercial avec ce pays."
+        },
+        {
+          "question": "Qu'est-ce que le Certificat Phytosanitaire et quand est-il requis ?",
+          "answer": "Un Certificat Phytosanitaire est émis par le Ministère vietnamien de l'Agriculture (MARD) et confirme que les produits d'origine végétale (café, noix de cajou, riz, épices) satisfont aux exigences phytosanitaires d'importation du pays de destination. Il est requis pour pratiquement toutes les exportations de produits végétaux."
+        },
+        {
+          "question": "Combien de temps prend le processus de documentation export ?",
+          "answer": "La plupart des documents sont préparés et émis dans les 3 à 5 jours ouvrables suivant la fin de la production. Le certificat Halal et le CoA tiers peuvent nécessiter 3 à 5 jours supplémentaires. Nous planifions la préparation des documents en parallèle de la production pour éviter les retards."
+        },
+        {
+          "question": "Gérez-vous le dédouanement dans mon pays ?",
+          "answer": "Nous gérons le dédouanement export au Vietnam. Pour le dédouanement import à destination, nous pouvons recommander des agents en douane de confiance en Arabie Saoudite, aux EAU, en Égypte, aux Pays-Bas et au Royaume-Uni."
+        }
+      ]
+    },
+    "logistics": {
+      "name": "Fret & Logistique",
+      "tagline": "Du Vietnam à votre Entrepôt — à Temps, à Chaque Fois.",
+      "heroDescription": "Nous coordonnons le fret maritime en conteneur complet et LCL depuis les ports vietnamiens vers les principales destinations au Moyen-Orient, en Afrique, en Europe et en Asie du Sud-Est, avec des options porte-à-porte disponibles.",
+      "longDescription": "Acheminer des marchandises alimentaires du Vietnam vers les marchés mondiaux nécessite plus que la simple réservation d'un conteneur. Les produits sensibles à la température nécessitent des conteneurs réfrigérés. Les marchandises de grande valeur nécessitent une assurance maritime. L'équipe logistique d'Ideal Deal Vietnam possède l'expérience, les relations avec les armateurs et la connaissance des destinations pour garantir que votre fret arrive en parfait état et dans les délais.\n\n**Fret Maritime — FCL et LCL**\n\nNous réservons des expéditions FCL (Conteneur Complet) et LCL (Groupage) depuis les trois principaux ports d'export du Vietnam : Hai Phong (Nord), Da Nang (Centre) et Cat Lai / Cai Mep (Sud). Pour la plupart des exportations de denrées alimentaires, Cat Lai et Cai Mep traitent les plus grands volumes vers le Moyen-Orient et l'Europe.\n\n**Tailles de Conteneurs FCL** : 20 pieds sec (environ 22-26 MT de café, cajou ou épices), 40 pieds sec (45-52 MT), 20 pieds réfrigéré (pour fruits de mer surgelés), 40 pieds réfrigéré.\n\n**Délais de Transit**\n\nVers le Moyen-Orient (Djeddah, Dubaï, Oman, Qatar) : environ 18-25 jours. Vers l'Afrique du Nord (Alexandrie, Casablanca) : 22-28 jours. Vers l'Afrique de l'Ouest (Lagos, Dakar) : 25-35 jours. Vers l'Europe (Rotterdam, Hambourg, Felixstowe) : 25-32 jours.\n\n**Incoterms que nous prenons en charge**\n\nNous gérons les expéditions sous tous les Incoterms principaux : FOB Ho Chi Minh-Ville / Hai Phong, CIF, CFR et DDP. Pour les acheteurs souhaitant la simplicité, le DDP (Rendu Droits Acquittés) supprime toute responsabilité logistique de l'acheteur.\n\n**Gestion de la Chaîne du Froid**\n\nPour les exports de fruits de mer surgelés, nous gérons la chaîne du froid complète : pré-refroidissement du stockage en usine, préconditionnement des conteneurs réfrigérés, surveillance de la température pendant le chargement et vérification des scellés.",
+      "seoTitle": "Logistique Export Alimentaire Vietnam | Fret Maritime vers Moyen-Orient, Afrique & Europe",
+      "seoDescription": "Logistique export alimentaire Vietnam : fret maritime FCL/LCL, conteneurs réfrigérés, assurance maritime et livraison DDP vers l'Arabie Saoudite, les EAU, l'Égypte, l'Europe et l'Afrique.",
+      "features": [
+        {
+          "icon": "anchor",
+          "title": "Fret Maritime FCL & LCL",
+          "description": "Conteneurs complets et groupage depuis les ports de Hai Phong, Da Nang et Cat Lai/Cai Mep vers toutes les principales destinations mondiales."
+        },
+        {
+          "icon": "ac_unit",
+          "title": "Gestion des Conteneurs Réfrigérés",
+          "description": "Gestion complète de la chaîne du froid pour les exports de fruits de mer surgelés — surveillance de la température de l'usine au port de destination."
+        },
+        {
+          "icon": "policy",
+          "title": "Assurance Maritime",
+          "description": "Assurance maritime tous risques (Institute Cargo Clauses A) disponible pour chaque expédition, avec certificat d'assurance dans vos documents."
+        },
+        {
+          "icon": "public",
+          "title": "Couverture des Destinations Mondiales",
+          "description": "Départs réguliers vers le CCG, l'Afrique du Nord, l'Afrique de l'Ouest, l'Europe et l'Asie du Sud-Est. Tarifs compétitifs multi-armateurs."
+        },
+        {
+          "icon": "route",
+          "title": "DDP Porte-à-Porte",
+          "description": "Choisissez le DDP et nous gérons tout — fret, douane à destination et livraison terrestre jusqu'à votre entrepôt."
+        },
+        {
+          "icon": "notifications_active",
+          "title": "Mises à Jour en Temps Réel",
+          "description": "Notifications de départ, mises à jour d'ETA et suivi de conteneur via WhatsApp et e-mail pour chaque expédition."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Demande de Cotation Fret",
+          "description": "Partagez votre produit, poids et destination. Nous obtenons des cotations compétitives auprès de plusieurs armateurs et vous présentons les meilleures options."
+        },
+        {
+          "step": 2,
+          "title": "Confirmation de Réservation",
+          "description": "Une fois l'armateur et la date de départ confirmés, nous émettons la confirmation de réservation et organisons le ramassage du conteneur à l'usine."
+        },
+        {
+          "step": 3,
+          "title": "Chargement & Plombage",
+          "description": "Le conteneur est chargé, pesé, plombé et photographié. Pour les réfrigérés, la température est réglée et enregistrée avant le départ."
+        },
+        {
+          "step": 4,
+          "title": "Émission des Documents",
+          "description": "Le Connaissement, la Liste de Colisage, la Facture Commerciale et tous les certificats sont finalisés et envoyés avant le départ du navire."
+        },
+        {
+          "step": 5,
+          "title": "Suivi du Voyage & Arrivée",
+          "description": "Nous suivons votre conteneur tout au long du voyage et vous informons des mises à jour d'ETA. La documentation d'arrivée est coordonnée avec votre agent en douane."
+        }
+      ],
+      "targetIndustries": [
+        "Importateurs & Distributeurs Alimentaires",
+        "Négociants en Matières Premières",
+        "Équipes d'Achat de Supermarchés",
+        "Fabricants Alimentaires Industriels",
+        "Entreprises Alimentaires E-Commerce",
+        "Sociétés d'Approvisionnement Hôtelier"
+      ],
+      "certifications": [
+        "Transitaire Agréé",
+        "Agent de Fret IATA",
+        "Processus Conformes C-TPAT"
+      ],
+      "faqs": [
+        {
+          "question": "Quels sont les principaux ports d'export vietnamiens ?",
+          "answer": "Les trois principaux ports d'export sont Hai Phong (servant le Nord du Vietnam, près de Hanoi), Da Nang (Vietnam central) et Cat Lai / Cai Mep (servant le Sud du Vietnam, près de Ho Chi Minh-Ville). La plupart des exports alimentaires partent de Cat Lai ou Cai Mep."
+        },
+        {
+          "question": "Quel est le délai de transit vers l'Arabie Saoudite (Djeddah) ?",
+          "answer": "Le délai de transit depuis le port de Cat Lai (Ho Chi Minh-Ville) jusqu'au Port Islamique de Djeddah est d'environ 18 à 22 jours selon la compagnie maritime et le routage. Certains services via Singapour peuvent être légèrement plus rapides."
+        },
+        {
+          "question": "Gérez-vous les conteneurs réfrigérés pour les fruits de mer surgelés ?",
+          "answer": "Oui. Nous gérons la chaîne du froid complète pour les exports de fruits de mer surgelés, y compris le préconditionnement des conteneurs réfrigérés, la surveillance de la température et la documentation des relevés de température."
+        },
+        {
+          "question": "Quels Incoterms proposez-vous ?",
+          "answer": "Nous gérons le FOB, CFR, CIF et DDP. Pour les acheteurs souhaitant une simplicité totale, nous recommandons le DDP — nous gérons tout le fret, les assurances et les frais de douane à destination."
+        },
+        {
+          "question": "Pouvez-vous gérer les expéditions LCL (Groupage) ?",
+          "answer": "Oui. Les services de groupage LCL sont disponibles pour les commandes plus petites. Notez que le LCL est généralement plus cher par tonne que le FCL et présente des délais de transit légèrement plus longs en raison de la consolidation et déconsolidation."
+        }
+      ]
+    },
+    "quality-control": {
+      "name": "Contrôle Qualité & Inspection",
+      "tagline": "Vérifié par des Tiers. À Chaque Expédition.",
+      "heroDescription": "Contrôle qualité indépendant à chaque étape de la chaîne d'approvisionnement — de la réception des matières premières à l'inspection avant expédition. Nous travaillons avec SGS, Bureau Veritas et Eurofins pour vérifier chaque conteneur avant chargement.",
+      "longDescription": "Dans le commerce alimentaire international, le contrôle qualité n'est pas optionnel — c'est le fondement de la confiance entre fournisseur et acheteur. Une seule expédition rejetée peut coûter plus que le produit lui-même en fret, stockage portuaire, frais d'élimination et atteinte à la réputation. Le service de contrôle qualité d'Ideal Deal Vietnam fournit une inspection multi-étapes indépendante pour garantir que chaque expédition répond à vos spécifications avant de quitter le Vietnam.\n\n**Notre Philosophie de Contrôle Qualité**\n\nNous croyons que le contrôle qualité doit être indépendant de la pression commerciale. Notre équipe CQ rend compte au client, pas à l'équipe de production. Nos partenaires laboratoires — SGS, Bureau Veritas et Eurofins — sont des organismes de test accrédités mondialement reconnus dont les certificats sont acceptés dans tous les principaux pays importateurs.\n\n**Inspection des Matières Premières**\n\nPour le café : humidité des cerises, humidité du café vert, densité, nombre de défauts, taille de tamis et profil de dégustation. Pour les noix de cajou : taux de rendement en amande (KOR), humidité, aflatoxines et dommages à la coque. Pour le riz : humidité, pourcentage de brisures et taux d'impuretés. Pour les fruits de mer : température à la réception, pourcentage de glaçage et état microbiologique.\n\n**Tests de Laboratoire Disponibles**\n\n- Microbiologique : Flore totale, E. coli, Salmonelle, Listeria, Staphylocoque doré\n- Mycotoxines : Aflatoxines B1/B2/G1/G2, Ochratoxine A\n- Résidus de pesticides : criblage multi-résidus (plus de 500 substances)\n- Métaux lourds : Plomb, Cadmium, Arsenic, Mercure\n- Humidité, Activité de l'eau, pH, Brix\n- Analyse nutritionnelle\n- Tests allergènes",
+      "seoTitle": "Contrôle Qualité Alimentaire & Inspection Vietnam | SGS, Bureau Veritas, Eurofins",
+      "seoDescription": "Contrôle qualité alimentaire indépendant et inspection avant expédition au Vietnam. Tests SGS, Bureau Veritas, Eurofins pour paramètres microbiologiques, pesticides, mycotoxines et métaux lourds.",
+      "features": [
+        {
+          "icon": "science",
+          "title": "Tests de Laboratoire Indépendants",
+          "description": "Tests SGS, Bureau Veritas et Eurofins pour les paramètres microbiologiques, chimiques, mycotoxines et pesticides."
+        },
+        {
+          "icon": "search",
+          "title": "Inspection Avant Expédition",
+          "description": "PSI complet couvrant le décompte des cartons, le poids net, l'intégrité de l'emballage, l'étiquetage et l'échantillonnage avant chargement."
+        },
+        {
+          "icon": "receipt_long",
+          "title": "Certificat d'Analyse",
+          "description": "CoA officiel émis par un laboratoire accrédité, accepté par les autorités douanières dans le CCG, l'UE, les États-Unis et l'Afrique."
+        },
+        {
+          "icon": "timeline",
+          "title": "Contrôle Qualité Multi-Étapes",
+          "description": "Contrôles qualité à la réception des matières premières, aux points critiques de contrôle en production et sur les produits finis avant expédition."
+        },
+        {
+          "icon": "bug_report",
+          "title": "Criblage Mycotoxines & Pesticides",
+          "description": "Criblage complet des aflatoxines, ochratoxines et plus de 500 résidus de pesticides — essentiel pour la conformité UE et CCG."
+        },
+        {
+          "icon": "assignment_turned_in",
+          "title": "Rapport PSI en 48 Heures",
+          "description": "Rapport d'inspection avant expédition avec photos, certificats de poids et résultats de tests de laboratoire dans les 48 heures."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Élaboration du Plan CQ",
+          "description": "Nous examinons vos spécifications et les exigences du marché de destination pour développer un plan CQ personnalisé avec des points critiques de contrôle définis."
+        },
+        {
+          "step": 2,
+          "title": "Inspection des Matières Premières",
+          "description": "Les matières premières entrantes sont inspectées selon les spécifications. Les matières non conformes sont rejetées avant d'entrer en production."
+        },
+        {
+          "step": 3,
+          "title": "Contrôles en Cours de Production",
+          "description": "Nos représentants CQ effectuent des contrôles aux étapes critiques de production. Tout écart est signalé et corrigé immédiatement."
+        },
+        {
+          "step": 4,
+          "title": "Inspection Avant Expédition",
+          "description": "Inspection finale des produits finis : vérification des cartons, contrôle du poids, intégrité de l'emballage et échantillonnage en laboratoire."
+        },
+        {
+          "step": 5,
+          "title": "Émission des Certificats & Rapports",
+          "description": "Rapport PSI complet et CoA du laboratoire accrédité fournis dans les 48 heures. L'expédition n'est libérée qu'après validation de tous les contrôles qualité."
+        }
+      ],
+      "targetIndustries": [
+        "Acheteurs Grande Distribution & Détail",
+        "Responsables Sécurité Alimentaire",
+        "Équipes de Conformité Import",
+        "Négociants en Matières Premières",
+        "Propriétaires de Marques & Clients Marque Propre",
+        "Auditeurs de l'Industrie Alimentaire"
+      ],
+      "certifications": [
+        "Inspection SGS",
+        "Tests Bureau Veritas",
+        "Laboratoire Eurofins",
+        "Laboratoires Accrédités ISO 17025",
+        "Reconnus ILAC MRA"
+      ],
+      "faqs": [
+        {
+          "question": "Quels laboratoires utilisez-vous pour les tests ?",
+          "answer": "Nous utilisons SGS, Bureau Veritas et Eurofins — trois des organismes de test et d'inspection accrédités les plus reconnus au monde. Tous trois exploitent des laboratoires accrédités ISO 17025 au Vietnam et émettent des certificats acceptés mondialement."
+        },
+        {
+          "question": "Qu'est-ce qu'une Inspection Avant Expédition (PSI) ?",
+          "answer": "Une PSI est une inspection indépendante des produits finis avant leur chargement dans un conteneur. Elle vérifie que la quantité, la qualité, l'emballage et l'étiquetage correspondent à votre bon de commande. Nous fournissons un rapport PSI complet avec photographies dans les 48 heures."
+        },
+        {
+          "question": "Puis-je désigner mon propre organisme d'inspection ?",
+          "answer": "Oui. Si vous avez un organisme d'inspection préféré, nous coordonnerons l'accès et fournirons tous les documents nécessaires pour leur inspection. Nous avons l'habitude de travailler avec toutes les grandes sociétés d'inspection internationales."
+        },
+        {
+          "question": "Quels tests sont requis pour les importations alimentaires dans le CCG (Arabie Saoudite / EAU) ?",
+          "answer": "Les importations CCG exigent généralement des tests microbiologiques (Salmonelle, E. coli, flore totale), les aflatoxines, les résidus de pesticides et les métaux lourds. La certification Halal est également requise pour les viandes et recommandée pour tous les produits alimentaires. Nous préparons une liste de contrôle CQ spécifique pour votre produit et destination CCG."
+        },
+        {
+          "question": "Comment gérez-vous un produit qui échoue à un contrôle qualité ?",
+          "answer": "Si un produit échoue à un contrôle CQ, la production est arrêtée et la cause racine est analysée. Le lot défaillant est soit retravaillé (si autorisé par la spécification) soit rejeté. L'expédition ne reprend que lorsque tous les paramètres de qualité sont confirmés conformes."
+        }
+      ]
+    },
+    "product-sourcing": {
+      "name": "Sourcing de Produits",
+      "tagline": "Sourcez Tout depuis le Vietnam — Nous Gérons le Reste.",
+      "heroDescription": "De l'identification de la bonne catégorie de produit à la négociation avec des fournisseurs vérifiés, nous gérons l'intégralité de votre parcours de sourcing au Vietnam. Café, cajou, riz, fruits de mer, épices — notre équipe vous livre des prix compétitifs, une qualité vérifiée et un approvisionnement fiable.",
+      "longDescription": "Le sourcing de produits depuis le Vietnam est l'une des stratégies les plus rentables pour les importateurs alimentaires, distributeurs et acheteurs grande distribution du monde entier. Le Vietnam est parmi les premiers exportateurs mondiaux de café (2ème rang mondial), noix de cajou (1er rang mondial), poivre noir (1er rang mondial) et un exportateur majeur de riz, fruits de mer surgelés et épices tropicales.\n\n**Pourquoi Sourcer depuis le Vietnam ?**\n\nL'industrie d'export alimentaire vietnamienne a considérablement mûri au cours des deux dernières décennies. Le pays combine des coûts de main-d'œuvre bas, une infrastructure agro-industrielle de classe mondiale et une proximité avec les principales régions de culture des matières premières. Les fournisseurs vietnamiens détiennent désormais des certifications internationales incluant ISO 22000, HACCP, BRC, Halal (JAKIM/ESMA), biologique (UE/USDA) et enregistrement FDA.\n\n**Notre Méthodologie de Sourcing**\n\nNous commençons chaque engagement par une analyse complète du marché : identifier les grades disponibles, les fourchettes de prix et les délais dans notre réseau de fournisseurs. Nous faisons ensuite correspondre votre spécification — format d'emballage, grade de qualité, exigences de certification et prix cible — aux fournisseurs les plus adaptés.\n\n**Catégories de Produits que nous Sourceons**\n\nNos catégories principales incluent : café torréfié et vert (Arabica et Robusta), noix de cajou transformées (W180–W450, splits, morceaux), riz jasmin et parfumé, fruits de mer surgelés et séchés (crevettes, pangasius, calamar) et épices moulues et entières (poivre noir, curcuma, cannelle, anis étoilé).\n\n**Benchmarking et Négociation des Prix**\n\nNous fournissons un benchmarking transparent des prix basé sur les données actuelles des bourses de matières premières et les cotations directes des fournisseurs. Notre équipe négocie directement avec les propriétaires d'usines — pas des intermédiaires — pour obtenir les prix les plus compétitifs.",
+      "seoTitle": "Sourcing de Produits depuis le Vietnam | Café, Cajou, Riz, Fruits de Mer & Épices",
+      "seoDescription": "Service professionnel de sourcing depuis le Vietnam. Nous identifions, négocions et vérifions les fournisseurs pour le café, les noix de cajou, le riz, les fruits de mer, les épices et plus encore.",
+      "features": [
+        {
+          "icon": "travel_explore",
+          "title": "Analyse Marché & Benchmarking",
+          "description": "Nous analysons le marché vietnamien pour votre catégorie de produit et fournissons un benchmark de prix compétitif avant tout engagement avec un fournisseur."
+        },
+        {
+          "icon": "handshake",
+          "title": "Négociation Fournisseurs",
+          "description": "Négociation de prix directement au niveau de l'usine — nous allons à la source, pas aux intermédiaires, pour vous obtenir le meilleur prix possible."
+        },
+        {
+          "icon": "science",
+          "title": "Coordination des Échantillons",
+          "description": "Nous gérons les demandes d'échantillons, la production, l'emballage et l'expédition express vers votre site — généralement sous 5 à 10 jours ouvrables."
+        },
+        {
+          "icon": "contract",
+          "title": "Rédaction des Contrats",
+          "description": "Accords d'approvisionnement avec clauses de performance, normes qualité, calendriers de livraison et conditions de paiement conçus pour protéger vos intérêts."
+        },
+        {
+          "icon": "verified",
+          "title": "Vérification Avant Expédition",
+          "description": "Chaque commande inclut une inspection avant expédition et une vérification documentaire avant d'autoriser la libération du paiement ou le chargement du conteneur."
+        },
+        {
+          "icon": "support_agent",
+          "title": "Responsable Sourcing Dédié",
+          "description": "Un seul point de contact qui connaît votre activité, vos exigences produit et vos normes qualité — pour chaque commande."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Brief des Exigences",
+          "description": "Partagez vos spécifications produit, votre prix cible, les certifications requises et le volume. Nous évaluons la disponibilité et la faisabilité dans les 24 heures."
+        },
+        {
+          "step": 2,
+          "title": "Présélection des Fournisseurs",
+          "description": "Nous identifions 3 à 5 fournisseurs qualifiés de notre réseau vérifié, avec une comparaison des prix, certifications, capacités et délais."
+        },
+        {
+          "step": 3,
+          "title": "Évaluation des Échantillons",
+          "description": "Les échantillons des fournisseurs présélectionnés vous sont envoyés pour évaluation sensorielle et technique. Nous fournissons les résultats de laboratoire avec les échantillons."
+        },
+        {
+          "step": 4,
+          "title": "Négociation & Contrat",
+          "description": "Nous négocions les prix finaux, Incoterms, conditions de paiement et normes qualité. Un accord d'approvisionnement formel est rédigé et signé."
+        },
+        {
+          "step": 5,
+          "title": "Production & Expédition",
+          "description": "La production est surveillée par notre équipe CQ. Une inspection avant expédition est conduite. Les documents sont vérifiés avant le départ du conteneur."
+        }
+      ],
+      "targetIndustries": [
+        "Importateurs & Distributeurs Alimentaires",
+        "Équipes d'Achat de Supermarchés",
+        "Négociants en Matières Premières",
+        "Épiceries Spécialisées",
+        "Sociétés d'Approvisionnement Hôtelier & Hospitalité",
+        "Entreprises Alimentaires E-Commerce"
+      ],
+      "certifications": [
+        "ISO 22000:2018",
+        "HACCP",
+        "Halal (JAKIM / ESMA)",
+        "Biologique (UE / USDA)",
+        "Enregistrement FDA"
+      ],
+      "faqs": [
+        {
+          "question": "Facturez-vous des frais de sourcing ?",
+          "answer": "Non. Notre service de sourcing est proposé sans frais supplémentaires lorsque vous sourcez via Ideal Deal Vietnam. Notre chiffre d'affaires provient de la marge commerciale sur les produits que nous fournissons — nous sommes alignés sur votre objectif de trouver la meilleure qualité au prix le plus compétitif."
+        },
+        {
+          "question": "Combien de temps faut-il pour recevoir des échantillons ?",
+          "answer": "Pour la plupart des produits, les échantillons sont disponibles dans les 5 à 10 jours ouvrables à partir de votre demande confirmée. L'expédition express DHL ou FedEx est utilisée pour minimiser le délai de transit. Le coût de production des échantillons est généralement à notre charge ; le fret est à la charge de l'acheteur."
+        },
+        {
+          "question": "Pouvez-vous sourcer des produits non listés sur votre site web ?",
+          "answer": "Oui. Si un produit est cultivé ou transformé au Vietnam, nous pouvons le sourcer. Nous avons étendu notre sourcing au-delà de nos catégories principales à des articles tels que les fruits secs, les tisanes, les noix de macadamia et les produits en bambou. Contactez-nous pour discuter de votre besoin spécifique."
+        },
+        {
+          "question": "Comment vous assurez-vous que le fournisseur recommandé est légitime ?",
+          "answer": "Chaque fournisseur de notre réseau a subi un processus de vérification : contrôle d'enregistrement commercial, visite d'usine (ou audit vidéo), vérification des certifications et vérification des références auprès des clients existants. Nous ne présentons pas de nouveaux fournisseurs aux acheteurs sans avoir complété ce processus."
+        }
+      ]
+    },
+    "supplier-identification": {
+      "name": "Identification des Fournisseurs",
+      "tagline": "Trouvez le Bon Fournisseur — du Premier Coup.",
+      "heroDescription": "Nous identifions, vérifions et classons les fournisseurs alimentaires vietnamiens correspondant à vos exigences exactes. Évitez les erreurs coûteuses liées à des allégations d'usines non vérifiées — notre processus rigoureux de due diligence vous donne confiance avant de placer le moindre dollar.",
+      "longDescription": "Trouver des fournisseurs fiables sur un marché étranger est l'une des décisions les plus critiques dans le commerce international. Un mauvais choix — une usine avec de fausses certifications, une capacité surévaluée ou des problèmes qualité non divulgués — peut entraîner des commandes perdues, des pertes financières et des atteintes à la réputation. Le service d'identification des fournisseurs d'Ideal Deal Vietnam utilise un cadre éprouvé de due diligence multi-étapes pour vous connecter uniquement avec des partenaires vérifiés et capables.\n\n**Les Risques Cachés des Fournisseurs Non Vérifiés**\n\nLe paysage d'export alimentaire vietnamien comprend des milliers de fabricants et sociétés commerciales, allant d'usines certifiées de classe mondiale à de petites opérations aux capacités surévaluées. Les certificats peuvent être expirés, falsifiés ou émis dans des conditions qui n'existent plus. La capacité de production peut être exagérée. La qualité du produit peut varier considérablement entre l'échantillon et l'expédition commerciale.\n\n**Notre Cadre de Due Diligence**\n\nNotre processus couvre cinq dimensions : Vérification Juridique & Financière, Audit de Certification & Conformité, Évaluation de la Capacité de Production, Évaluation du Système Qualité et Vérification des Références Commerciales.\n\n**Vérification Juridique & Financière**\n\nNous vérifions l'enregistrement commercial vietnamien, l'identification fiscale et les licences d'export. Nous vérifions l'absence de violations réglementaires, rappels qualité ou historique de rétention portuaire. Nous confirmons que le nom de l'entité sur les devis correspond au nom légal enregistré pour prévenir la fraude.\n\n**Évaluation du Système Qualité**\n\nNous examinons le système de management qualité du fournisseur : procédures d'inspection des matières premières entrantes, points de contrôle qualité en cours de production, protocoles d'inspection des produits finis, gestion des non-conformités et enregistrements des actions correctives.",
+      "seoTitle": "Identification & Vérification de Fournisseurs Vietnam | Due Diligence Fabricants Alimentaires",
+      "seoDescription": "Trouvez et vérifiez des fournisseurs alimentaires fiables au Vietnam. Notre due diligence en 5 étapes couvre les vérifications juridiques, audits de certification, évaluation des capacités et revue du système qualité.",
+      "features": [
+        {
+          "icon": "gavel",
+          "title": "Vérification Juridique",
+          "description": "Enregistrement commercial, licences d'export et vérifications de l'historique réglementaire — confirmant la conformité légale du fournisseur."
+        },
+        {
+          "icon": "verified_user",
+          "title": "Audit des Certifications",
+          "description": "Inspection physique de tous les certificats (ISO, Halal, Bio, HACCP) avec vérification de validité et de portée directement auprès des organismes émetteurs."
+        },
+        {
+          "icon": "factory",
+          "title": "Évaluation de la Capacité",
+          "description": "Visite d'usine sur site ou par vidéo pour confirmer la capacité de production réelle, l'état des équipements et de la main-d'œuvre par rapport aux déclarations du fournisseur."
+        },
+        {
+          "icon": "checklist",
+          "title": "Revue du Système Qualité",
+          "description": "Évaluation des procédures CQ du fournisseur aux stades matières premières, en cours de production et produits finis — évaluant la mise en œuvre réelle."
+        },
+        {
+          "icon": "star_rate",
+          "title": "Validation des Références",
+          "description": "Vérifications directes des références auprès des clients existants du fournisseur pour valider la fiabilité des livraisons et la cohérence qualité dans la pratique."
+        },
+        {
+          "icon": "summarize",
+          "title": "Rapport Fournisseur",
+          "description": "Un rapport de profil fournisseur détaillé avec évaluations, analyse des risques et une recommandation claire sur l'opportunité de procéder."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Définition des Exigences",
+          "description": "Nous documentons vos spécifications produit, volume, exigences de certification et conditions commerciales pour définir le profil fournisseur idéal."
+        },
+        {
+          "step": 2,
+          "title": "Identification des Candidats",
+          "description": "Nous identifions 5 à 10 fournisseurs candidats de notre réseau et du marché vietnamien au sens large correspondant à vos exigences."
+        },
+        {
+          "step": 3,
+          "title": "Due Diligence",
+          "description": "Nous appliquons notre cadre de due diligence en cinq dimensions à chaque candidat, éliminant ceux qui échouent aux contrôles juridiques, de certification ou de capacité."
+        },
+        {
+          "step": 4,
+          "title": "Présélection & Rapport",
+          "description": "Nous livrons une présélection de 2 à 3 fournisseurs vérifiés avec des rapports de profil détaillés couvrant les points forts, les risques et notre recommandation."
+        },
+        {
+          "step": 5,
+          "title": "Introduction & Intégration",
+          "description": "Nous facilitons les introductions, coordonnons les visites d'usines (physiques ou virtuelles) et soutenons la négociation commerciale et l'exécution des contrats."
+        }
+      ],
+      "targetIndustries": [
+        "Premiers Importateurs depuis le Vietnam",
+        "Équipes d'Achat Grande Distribution",
+        "Négociants en Matières Premières",
+        "Marques Marque Propre",
+        "Investisseurs de l'Industrie Alimentaire",
+        "Responsables de Conformité Import"
+      ],
+      "certifications": [
+        "ISO 22000:2018 Vérifié",
+        "Certificat Halal Vérifié",
+        "Certificat Bio Vérifié",
+        "HACCP Vérifié",
+        "Enregistrement FDA Vérifié"
+      ],
+      "faqs": [
+        {
+          "question": "Combien de temps prend l'identification des fournisseurs ?",
+          "answer": "Un engagement standard d'identification de fournisseurs prend 10 à 15 jours ouvrables de la définition des exigences au rapport de présélection final. Les recherches complexes dans des niches spécifiques peuvent prendre jusqu'à 20 jours ouvrables."
+        },
+        {
+          "question": "Que se passe-t-il si aucun fournisseur adapté n'est trouvé ?",
+          "answer": "Si nous ne pouvons pas identifier un fournisseur répondant à vos exigences minimales après une recherche approfondie, nous vous en informerons honnêtement et discuterons d'approches alternatives — y compris la reformulation du produit, des spécifications ajustées ou le sourcing dans des catégories adjacentes."
+        },
+        {
+          "question": "Puis-je visiter les usines présélectionnées ?",
+          "answer": "Oui, et nous le recommandons vivement. Nous pouvons organiser des visites d'usines au Vietnam, incluant la logistique, le support en traduction et un programme de visite structuré. Nous pouvons également organiser une visite d'usine en direct par vidéo si vous ne pouvez pas vous déplacer."
+        },
+        {
+          "question": "Proposez-vous un suivi continu des fournisseurs ?",
+          "answer": "Oui. Après l'identification et l'intégration initiales, nous proposons un service de surveillance continue des fournisseurs comprenant des audits CQ périodiques, le suivi des renouvellements de certificats et des revues de performance pour garantir la santé de votre relation fournisseur."
+        }
+      ]
+    },
+    "factory-audits": {
+      "name": "Audits d'Usines",
+      "tagline": "Sachez Exactement à Qui Vous Achetez.",
+      "heroDescription": "Audits d'usines indépendants conduits par des professionnels qualifiés en sécurité alimentaire. Nous évaluons les capacités de production, les systèmes qualité, les normes d'hygiène, la conformité sociale et le statut des certifications pour vous donner une image complète avant de vous engager avec un fournisseur.",
+      "longDescription": "Un audit d'usine est l'un des outils les plus précieux disponibles pour les acheteurs alimentaires internationaux. Il transforme un fournisseur inconnu en partenaire documenté, évalué et compris. Ideal Deal Vietnam conduit des audits d'usines systématiques dans les régions de transformation alimentaire du Vietnam, délivrant des rapports clairs et exploitables qui soutiennent vos décisions de sourcing.\n\n**Types d'Audits d'Usines que nous Conduisons**\n\nNous proposons quatre types d'audits calibrés pour différents besoins d'acheteurs :\n\n**1. Audit de Capacité** — Évalue si l'usine peut produire votre produit selon vos spécifications et volume. Recommandé avant de passer une première commande.\n\n**2. Audit du Système de Management Qualité (SMQ)** — Évalue le cadre de management qualité de l'usine selon ISO 22000, HACCP ou votre norme qualité propriétaire.\n\n**3. Audit de Conformité Sociale** — Évalue les conditions de travail, les pratiques de travail et la gestion environnementale selon le Code de Base ETI, SA8000 ou votre code de conduite.\n\n**4. Audit de Vérification des Certifications** — Confirme que les certificats actuels (Halal, Bio, ISO, FSSC, BRC) sont valides, dans leur portée et réellement mis en œuvre.\n\n**Notre Équipe d'Audit**\n\nNos auditeurs sont des scientifiques alimentaires et responsables qualité qualifiés avec plus de 10 ans d'expérience dans la transformation alimentaire vietnamienne. Tous les audits sont conduits en vietnamien (avec rapport complet en français), éliminant les barrières de communication.\n\n**Rapport d'Audit**\n\nChaque audit produit un rapport écrit structuré couvrant : portée et méthodologie de l'audit, aperçu des installations, constatations détaillées par section, classification des non-conformités (critique, majeure, mineure), photographies et preuves à l'appui, et note globale avec recommandation. Les rapports sont délivrés dans les 5 jours ouvrables suivant l'audit.",
+      "seoTitle": "Services d'Audit d'Usines Vietnam | Conformité Fabrication Alimentaire & Audit SMQ",
+      "seoDescription": "Audits d'usines indépendants au Vietnam pour les acheteurs alimentaires : audits de capacité, SMQ, conformité sociale et vérification des certifications avec livraison du rapport en 5 jours.",
+      "features": [
+        {
+          "icon": "checklist_rtl",
+          "title": "Audit de Capacité",
+          "description": "Évalue les lignes de production, les équipements, la main-d'œuvre et la capacité selon vos exigences produit spécifiques avant la première commande."
+        },
+        {
+          "icon": "shield",
+          "title": "Audit SMQ",
+          "description": "Revue du système de management qualité selon ISO 22000, HACCP ou votre norme propriétaire — procédures, enregistrements et mise en œuvre réelle."
+        },
+        {
+          "icon": "people",
+          "title": "Audit de Conformité Sociale",
+          "description": "Évalue les pratiques de travail, les conditions de travail et la gestion environnementale selon le Code de Base ETI, SA8000 ou le code de conduite de l'acheteur."
+        },
+        {
+          "icon": "verified",
+          "title": "Vérification des Certifications",
+          "description": "Confirme que toutes les certifications (Halal, Bio, ISO, BRC) sont valides, dans leur portée et réellement mises en œuvre — vérifiées directement auprès des organismes émetteurs."
+        },
+        {
+          "icon": "photo_camera",
+          "title": "Rapports Illustrés par Photos",
+          "description": "Chaque non-conformité est photographiée et documentée. Rapports délivrés dans les 5 jours ouvrables avec notations claires et recommandations."
+        },
+        {
+          "icon": "notifications",
+          "title": "Option d'Audit Surprise",
+          "description": "Audits inopinés pour les programmes fournisseurs continus — offrant la vue la plus précise des opérations quotidiennes et de la conformité."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Accord sur la Portée de l'Audit",
+          "description": "Nous définissons le type d'audit, la norme de liste de contrôle, la portée et les domaines spécifiques en fonction de votre produit et de vos exigences de conformité."
+        },
+        {
+          "step": 2,
+          "title": "Planification",
+          "description": "Nous coordonnons la planification de l'audit avec l'usine (ou conduisons une visite inopinée si demandé). Le délai typique est de 5 à 10 jours ouvrables."
+        },
+        {
+          "step": 3,
+          "title": "Audit sur Site",
+          "description": "Notre auditeur qualifié conduit un audit structuré d'une journée complète couvrant tous les domaines définis, avec revue documentaire et inspection du hall de production."
+        },
+        {
+          "step": 4,
+          "title": "Réunion de Clôture",
+          "description": "L'auditeur conduit une réunion de clôture avec la direction de l'usine pour présenter les constatations préliminaires et s'accorder sur la classification des non-conformités."
+        },
+        {
+          "step": 5,
+          "title": "Livraison du Rapport",
+          "description": "Un rapport d'audit écrit complet avec constatations, non-conformités, photos et note globale est livré dans les 5 jours ouvrables."
+        }
+      ],
+      "targetIndustries": [
+        "Chaînes de Distribution & Supermarchés",
+        "Propriétaires de Marques Alimentaires",
+        "Équipes de Conformité Import",
+        "Responsables RSE & Développement Durable",
+        "Investisseurs en Capital-Investissement Alimentaire",
+        "Organismes de Réglementation Alimentaire Gouvernementaux"
+      ],
+      "certifications": [
+        "Norme d'Audit ISO 22000",
+        "Norme d'Audit HACCP",
+        "Code de Base ETI",
+        "Conformité Sociale SA8000",
+        "Critères d'Audit BRC"
+      ],
+      "faqs": [
+        {
+          "question": "Combien de temps dure un audit d'usine ?",
+          "answer": "La plupart des audits d'usines sont conduits en une journée complète (8 à 10 heures sur site). Les installations plus grandes ou plus complexes peuvent nécessiter un audit de deux jours. Le rapport écrit est livré dans les 5 jours ouvrables suivant l'audit."
+        },
+        {
+          "question": "L'usine peut-elle refuser l'audit ?",
+          "answer": "Les usines peuvent refuser une demande d'audit. Cependant, dans notre expérience, les usines légitimes n'ayant rien à cacher accueillent favorablement les audits comme une opportunité de démontrer leurs capacités. Un refus d'audit est en soi un signal d'alarme significatif."
+        },
+        {
+          "question": "Conduisez-vous des audits pour des usines non alimentaires ?",
+          "answer": "Notre expertise principale est dans les installations de transformation alimentaire. Nous ne conduisons pas actuellement d'audits pour des environnements de fabrication non alimentaires. Pour les secteurs adjacents à l'alimentation tels que les fournisseurs de matériaux d'emballage, contactez-nous pour discuter de la portée."
+        },
+        {
+          "question": "Le rapport d'audit peut-il être utilisé pour des soumissions de conformité client ?",
+          "answer": "Nos rapports d'audit sont structurés pour s'aligner sur les principales exigences d'audit de distribution et d'industrie. Cependant, si votre client exige un schéma d'audit spécifique (par exemple SMETA, audit BRC), veuillez confirmer la norme exacte requise avant l'engagement pour assurer une pleine conformité."
+        }
+      ]
+    },
+    "procurement-management": {
+      "name": "Gestion des Achats",
+      "tagline": "Votre Bureau d'Achat Vietnam — Sans les Frais Généraux.",
+      "heroDescription": "Nous agissons en tant qu'équipe achats intégrée au Vietnam — gérant les bons de commande, les relations fournisseurs, la supervision qualité et la coordination logistique pour vos programmes d'achat continus. Réduisez vos coûts, risques et complexité opérationnelle en un seul engagement.",
+      "longDescription": "Pour les importateurs achetant régulièrement depuis le Vietnam, gérer le processus d'achat à distance est l'un des défis opérationnels les plus exigeants dans le commerce international. L'émission de bons de commande, le suivi des fournisseurs, le monitoring de production, le contrôle qualité, la collecte des documents et la coordination du fret nécessitent une attention constante — à travers les fuseaux horaires, les langues et les différences culturelles. Le service de gestion des achats d'Ideal Deal Vietnam résout cela en mettant une équipe expérimentée et sur place à votre disposition.\n\n**Ce que couvre la Gestion des Achats**\n\nNotre service est conçu pour les acheteurs qui ont besoin d'une exécution continue et fiable de leur programme de sourcing au Vietnam. Nous couvrons le cycle d'achat complet de l'émission du bon de commande à la livraison porte-à-porte.\n\n**Gestion des Bons de Commande**\n\nNous émettons, suivons et gérons les bons de commande avec vos fournisseurs en votre nom. Chaque BC est surveillé par rapport aux dates de livraison convenues, avec des mises à jour hebdomadaires fournies à votre équipe. Nous signalons les risques tôt — retards de production, pénuries de matières premières, écarts qualité — et gérons les escalades avant qu'elles ne deviennent des problèmes d'expédition.\n\n**Gestion des Relations Fournisseurs**\n\nDes relations fournisseurs solides se construisent au fil du temps grâce à une communication cohérente, un traitement équitable et un respect mutuel. Notre équipe maintient ces relations en votre nom, garantissant que votre programme reçoit une attention prioritaire de la direction de l'usine — particulièrement pendant les saisons de production de pointe.\n\n**Coordination des Paiements et Finances**\n\nNous soutenons diverses structures de paiement incluant Lettre de Crédit (L/C), Virement Bancaire (TT) et Documents contre Paiement (D/P). Nous vous conseillons sur les conditions de paiement appropriées à votre relation fournisseur et à votre tolérance au risque.",
+      "seoTitle": "Gestion des Achats Vietnam | Bureau d'Achat Vietnam & Gestion de la Chaîne d'Approvisionnement",
+      "seoDescription": "Gestion externalisée des achats au Vietnam : suivi BC, gestion fournisseurs, monitoring de production, intégration CQ et reporting mensuel pour les programmes d'import réguliers.",
+      "features": [
+        {
+          "icon": "receipt_long",
+          "title": "Suivi & Gestion des BC",
+          "description": "Nous émettons, suivons et gérons tous les bons de commande — surveillant les dates de livraison, signalant les risques et escaladant les problèmes avant qu'ils ne causent des retards."
+        },
+        {
+          "icon": "groups",
+          "title": "Gestion des Relations Fournisseurs",
+          "description": "Notre équipe maintient vos relations fournisseurs sur le terrain — garantissant que votre programme obtient une attention prioritaire pendant les saisons de pointe."
+        },
+        {
+          "icon": "videocam",
+          "title": "Monitoring de Production",
+          "description": "Visites régulières d'usines et mises à jour photo/vidéo pendant les productions — vous voyez exactement ce qui se passe sans vous déplacer au Vietnam."
+        },
+        {
+          "icon": "verified",
+          "title": "CQ Intégré",
+          "description": "L'inspection avant expédition et les tests de laboratoire sont intégrés à chaque expédition. Vous recevez un rapport CQ complet avant d'autoriser le paiement."
+        },
+        {
+          "icon": "account_balance",
+          "title": "Coordination des Paiements",
+          "description": "Support pour les structures de paiement L/C, TT et D/P — nous coordonnons avec les banques et fournisseurs pour des transactions documentaires fluides."
+        },
+        {
+          "icon": "analytics",
+          "title": "Reporting Mensuel",
+          "description": "Visibilité complète sur votre chaîne d'approvisionnement Vietnam via des rapports de statut mensuels : commandes, expéditions, documents et prochaines exigences."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Intégration du Programme",
+          "description": "Nous documentons vos relations fournisseurs, spécifications produit, normes qualité et conditions commerciales pour configurer votre programme d'achat."
+        },
+        {
+          "step": 2,
+          "title": "Émission des BC",
+          "description": "Les bons de commande sont passés à vos fournisseurs selon vos directives, avec des calendriers de production confirmés et des engagements de date de livraison documentés."
+        },
+        {
+          "step": 3,
+          "title": "Supervision de la Production",
+          "description": "L'avancement en usine est surveillé tout au long du cycle de production. Les problèmes sont signalés et résolus avant d'impacter les calendriers de livraison."
+        },
+        {
+          "step": 4,
+          "title": "CQ & Documentation",
+          "description": "L'inspection avant expédition est conduite. Tous les documents d'export sont collectés, vérifiés et expédiés avant la libération du paiement."
+        },
+        {
+          "step": 5,
+          "title": "Expédition & Reporting",
+          "description": "La réservation du conteneur est confirmée, le fret est chargé et les documents d'expédition sont transmis. Le rapport de statut mensuel du programme est livré à votre équipe."
+        }
+      ],
+      "targetIndustries": [
+        "Sociétés d'Import Sans Personnel Vietnam",
+        "Chaînes de Distribution avec Programmes d'Import Direct",
+        "Sociétés de Négoce de Matières Premières",
+        "Propriétaires de Marques Alimentaires",
+        "Détaillants Marque Propre",
+        "Distributeurs en Restauration"
+      ],
+      "certifications": [
+        "ISO 22000:2018",
+        "HACCP",
+        "Halal (JAKIM / ESMA)",
+        "Biologique (UE / USDA)",
+        "Enregistrement FDA"
+      ],
+      "faqs": [
+        {
+          "question": "La gestion des achats convient-elle aux petits acheteurs ?",
+          "answer": "Notre service de gestion des achats est le plus rentable pour les acheteurs passant des commandes régulières — généralement deux expéditions ou plus par mois. Pour les acheteurs occasionnels, nos services de sourcing de produits et de support export offrent une couverture équivalente sur une base transaction par transaction."
+        },
+        {
+          "question": "Pouvez-vous gérer les achats pour plusieurs catégories de produits simultanément ?",
+          "answer": "Oui. Beaucoup de nos clients en gestion des achats sourcent plusieurs catégories — par exemple, café, noix de cajou et épices — dans un seul engagement. Nous gérons toutes les catégories dans le cadre d'un programme unifié avec un reporting mensuel consolidé."
+        },
+        {
+          "question": "Que se passe-t-il si un fournisseur manque une date limite de production ?",
+          "answer": "Nous escaladons immédiatement auprès de la direction de l'usine et évaluons les options : expédition partielle, fret aérien pour les portions urgentes ou reprogrammation. Nous communiquons de manière transparente avec vous tout au long et présentons les options disponibles avec les implications de coût et de délai."
+        },
+        {
+          "question": "Devons-nous avoir des relations fournisseurs existantes, ou pouvez-vous en établir de nouvelles ?",
+          "answer": "Les deux approches fonctionnent. Nous pouvons gérer vos fournisseurs vietnamiens existants ou en identifier et intégrer de nouveaux dans le cadre de l'engagement de gestion des achats. De nombreux clients commencent en transférant les relations existantes à notre gestion."
+        }
+      ]
+    },
+    "packaging-branding": {
+      "name": "Emballage & Image de Marque",
+      "tagline": "Démarquez-vous en Rayon. Fabriqué au Vietnam.",
+      "heroDescription": "De la conception structurelle aux emballages prêts pour la vente au détail, nous développons des solutions d'emballage personnalisées pour vos produits alimentaires vietnamiens. Sachets debout, boîtes de conserve, bocaux en verre, sacs kraft — tout format, votre marque, conformes à toutes les réglementations du marché de destination.",
+      "longDescription": "L'emballage est là où votre produit rencontre votre client. Pour les importateurs alimentaires et propriétaires de marques, bien gérer l'emballage est aussi important que sourcer le bon produit — il détermine l'attrait en rayon, la conformité réglementaire, la conservation de la fraîcheur et l'efficacité du transport. Le service d'emballage et de marque d'Ideal Deal Vietnam fournit un développement d'emballage de bout en bout.\n\n**Formats d'Emballage Disponibles**\n\nNous travaillons avec des partenaires de production d'emballage certifiés à travers le Vietnam pour produire :\n\n- **Sachets debout (SUP)** — avec ou sans fermeture zip, fenêtre ou finition kraft. Disponibles en plusieurs tailles de 100g à 5kg. Idéal pour le café, les noix, les épices et les produits séchés.\n- **Sacs sous vide** — pour l'emballage premium de café et noix de cajou, prolongeant la durée de conservation à 12-24 mois.\n- **Sacs à fond plat** — format retail premium pour le café de spécialité et les noix de haute valeur.\n- **Boîtes de conserve** — pour l'emballage cadeau de café, thé et noix premium. Disponibles en formes rondes, rectangulaires et personnalisées.\n- **Bocaux en verre** — pour les épices premium, le miel et les produits alimentaires de spécialité.\n- **Sacs en papier kraft** — pour les marques alimentaires biologiques et naturelles recherchant des emballages durables.\n- **Sachets rétortables** — pour les produits transformés et prêts-à-manger nécessitant une longue durée de conservation sans réfrigération.\n- **Sacs en vrac (25kg / 50kg)** — pour les acheteurs de matières premières nécessitant un emballage d'export en grand format.\n\n**Conception d'Étiquettes et Conformité**\n\nNous travaillons avec des graphistes professionnels pour développer des étiquettes alignées sur la marque répondant aux exigences réglementaires de votre marché de destination. Pour les marchés CCG, nous concevons des étiquettes bilingues anglais/arabe conformes aux normes GSO. Pour les marchés UE, nous appliquons les exigences EU 1169/2011. Pour les marchés US, nous appliquons les exigences d'étiquetage FDA CFR 21.",
+      "seoTitle": "Emballage & Image de Marque Vietnam | Conception et Production d'Emballage Alimentaire Personnalisé",
+      "seoDescription": "Emballage alimentaire personnalisé et image de marque depuis le Vietnam : conception d'étiquettes, conformité réglementaire (CCG, UE, FDA), sachets debout, boîtes de conserve, sacs kraft et options durables.",
+      "features": [
+        {
+          "icon": "design_services",
+          "title": "Conception d'Étiquettes",
+          "description": "Design graphique professionnel pour des étiquettes prêtes pour le retail : bilingues, conformes aux réglementations et alignées sur la marque pour votre marché cible."
+        },
+        {
+          "icon": "category",
+          "title": "Multiples Options de Format",
+          "description": "Sachets debout, sacs sous vide, boîtes de conserve, bocaux en verre, sacs kraft, sacs à fond plat — tout format d'emballage requis par votre produit."
+        },
+        {
+          "icon": "rule",
+          "title": "Conformité Réglementaire",
+          "description": "Étiquettes conçues pour respecter les normes CCG/GSO, EU 1169/2011, FDA et les exigences d'étiquetage alimentaire spécifiques à la destination. Zéro rejet portuaire."
+        },
+        {
+          "icon": "science",
+          "title": "Développement du Tableau Nutritionnel",
+          "description": "Données d'analyse nutritionnelle testées en laboratoire formatées en tableaux de valeurs nutritionnelles conformes pour tout marché cible."
+        },
+        {
+          "icon": "qr_code",
+          "title": "Intégration Code-Barres & QR",
+          "description": "Application de code-barres GS1, codes produit prêts pour les supermarchés et QR de traçabilité pour la conformité retail moderne."
+        },
+        {
+          "icon": "eco",
+          "title": "Emballage Durable",
+          "description": "Options d'emballage recyclables, biodégradables et certifiées FSC pour les marques ayant des engagements de développement durable."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Brief & Exigences",
+          "description": "Nous documentons vos exigences d'emballage : produit, format, quantité, marché de destination, exigences réglementaires et directives de marque."
+        },
+        {
+          "step": 2,
+          "title": "Conception Structurelle",
+          "description": "Nous développons les spécifications d'emballage structurelles et fournissons des échantillons de matériaux pour votre approbation — comparant les alternatives sur le coût, le poids et les performances barrière."
+        },
+        {
+          "step": 3,
+          "title": "Conception des Étiquettes",
+          "description": "Notre équipe de design développe les visuels d'étiquettes selon vos directives de marque, en appliquant toutes les informations réglementaires requises pour votre marché de destination."
+        },
+        {
+          "step": 4,
+          "title": "Production d'Échantillons",
+          "description": "Des échantillons d'emballage physiques sont produits avec votre produit à l'intérieur pour la revue de présentation en rayon, le contrôle réglementaire et les retours clients."
+        },
+        {
+          "step": 5,
+          "title": "Production & Livraison",
+          "description": "L'emballage approuvé est produit et livré à l'usine pour le remplissage et le scellage, intégré à votre calendrier de production."
+        }
+      ],
+      "targetIndustries": [
+        "Propriétaires de Marques Marque Propre",
+        "Épiceries Spécialisées",
+        "Entreprises Alimentaires en Ligne",
+        "Programmes de Cadeaux Hôteliers & Hospitalité",
+        "Équipes Marques Propres de Supermarchés",
+        "Marques Alimentaires Bio & Naturelles"
+      ],
+      "certifications": [
+        "Emballage Papier Certifié FSC",
+        "Normes d'Emballage Alimentaire",
+        "Matériaux Sans BPA",
+        "Conforme à la Directive Européenne sur les Emballages",
+        "Normes d'Étiquetage CCG/GSO"
+      ],
+      "faqs": [
+        {
+          "question": "Pouvez-vous concevoir un emballage si nous n'avons pas de directives de marque existantes ?",
+          "answer": "Oui. Nous travaillons avec des acheteurs à tous les stades du développement de marque — des marques établies avec des directives détaillées aux premières lancements de marque nécessitant une identité complète. Si vous avez besoin d'une identité de marque développée de zéro, nous pouvons vous mettre en relation avec nos partenaires design."
+        },
+        {
+          "question": "Combien de temps prend le développement de l'emballage ?",
+          "answer": "Du brief aux visuels approuvés, le développement de l'emballage prend généralement 3 à 4 semaines. La production d'échantillons physiques ajoute encore 2 à 3 semaines selon le format. Nous intégrons les délais d'emballage dans le calendrier de production global pour éviter les retards."
+        },
+        {
+          "question": "Pouvez-vous imprimer des étiquettes en plusieurs langues sur le même emballage ?",
+          "answer": "Oui. L'étiquetage multilingue est standard pour les marchés CCG (anglais et arabe) et courant pour les distributeurs servant plusieurs pays. Nous concevons des dispositions d'étiquettes qui accommodent plusieurs exigences linguistiques tout en respectant les normes réglementaires de chaque marché."
+        },
+        {
+          "question": "Quelle est la commande minimale pour l'emballage ?",
+          "answer": "Les minimums dépendent du format : les sachets flexibles démarrent à 5 000 unités, les boîtes de conserve à 1 000 unités et les sacs en papier kraft à 3 000 unités. Pour les commandes pilotes inférieures au CMQ, nous pouvons organiser une production à un prix premium. Contactez-nous pour discuter de votre volume spécifique."
+        }
+      ]
+    },
+    "market-research": {
+      "name": "Étude de Marché",
+      "tagline": "Entrée Basée sur les Données dans les Marchés Alimentaires Vietnamiens.",
+      "heroDescription": "Avant de sourcer, avant d'investir, connaissez votre marché. Nous fournissons des renseignements de marché exploitables sur les catégories d'export alimentaire vietnamiennes — prix, concurrence, flux commerciaux, exigences réglementaires et dimensionnement des opportunités.",
+      "longDescription": "Entrer ou s'étendre sur un nouveau marché sans renseignements fiables est l'une des causes les plus évitables d'échec des programmes d'import. Les acheteurs qui comprennent les benchmarks de prix actuels, la dynamique concurrentielle de l'offre, les exigences d'entrée réglementaires et les tendances de la demande des consommateurs prennent de meilleures décisions. Le service d'étude de marché d'Ideal Deal Vietnam fournit les données et analyses dont vous avez besoin pour avancer avec confiance.\n\n**Ce que couvre notre Étude de Marché**\n\nNos engagements de recherche sont adaptés à votre question spécifique, produit et destination. Les mandats de recherche courants incluent :\n\n**Intelligence sur les Prix des Matières Premières**\n\nNous fournissons des données de prix actuelles et historiques pour les matières premières d'export alimentaire vietnamiennes : café vert, café torréfié, noix de cajou (par grade), riz (par variété et grade), crevettes surgelées et poivre noir. Les données de prix sont contextualisées dans la dynamique mondiale de l'offre et de la demande avec des prévisions de prix à 3-6 mois.\n\n**Analyse de l'Offre Concurrentielle**\n\nNous analysons la position concurrentielle du Vietnam dans votre matière première cible par rapport aux autres principaux pays producteurs. Par exemple : comment le Robusta vietnamien se compare-t-il à l'offre brésilienne ou indonésienne en termes de prix, qualité et disponibilité ?\n\n**Analyse des Flux Commerciaux**\n\nNous analysons les flux commerciaux d'export du Vietnam pour votre produit cible en utilisant les données douanières officielles du Bureau Général des Statistiques du Vietnam, d'ITC Trade Map et d'UN Comtrade. Nous identifions le volume, la valeur et les principaux marchés de destination des exports du Vietnam.",
+      "seoTitle": "Étude de Marché Alimentaire Vietnam | Intelligence Commerciale, Prix & Analyse Réglementaire",
+      "seoDescription": "Étude de marché basée sur les données pour les imports alimentaires vietnamiens : prix des matières premières, analyse des flux commerciaux, exigences réglementaires d'entrée et rapports d'évaluation des opportunités.",
+      "features": [
+        {
+          "icon": "price_change",
+          "title": "Intelligence sur les Prix des Matières Premières",
+          "description": "Données de prix actuelles et historiques pour les exports alimentaires vietnamiens avec prévisions de prix à 3-6 mois et contexte d'approvisionnement mondial."
+        },
+        {
+          "icon": "bar_chart",
+          "title": "Analyse de l'Offre Concurrentielle",
+          "description": "Position concurrentielle du Vietnam par rapport aux autres pays producteurs — vous aidant à comprendre le risque d'approvisionnement et les options de diversification."
+        },
+        {
+          "icon": "policy",
+          "title": "Recherche d'Entrée Réglementaire",
+          "description": "Exigences réglementaires d'importation complètes : codes SH, taux de droits, certifications, étiquetage et enregistrement pour votre marché de destination."
+        },
+        {
+          "icon": "timeline",
+          "title": "Analyse des Flux Commerciaux",
+          "description": "Volume, valeur et tendances des marchés de destination des exports du Vietnam en utilisant les données douanières officielles et UN Comtrade."
+        },
+        {
+          "icon": "people",
+          "title": "Recherche sur la Demande des Consommateurs",
+          "description": "Taille du marché, prix retail, positionnement concurrentiel et tendances de croissance pour votre catégorie de produit sur le marché de destination."
+        },
+        {
+          "icon": "description",
+          "title": "Rapport d'Évaluation des Opportunités",
+          "description": "Un rapport structuré de 15 à 30 pages couvrant toutes les dimensions de recherche — prêt pour les présentations aux conseils d'administration et les décisions d'investissement."
+        }
+      ],
+      "process": [
+        {
+          "step": 1,
+          "title": "Brief de Recherche",
+          "description": "Nous convenons du mandat de recherche : produit, marché de destination, questions clés et format du livrable. La portée et le calendrier sont confirmés."
+        },
+        {
+          "step": 2,
+          "title": "Collecte des Données",
+          "description": "Nous collectons des données auprès des bourses de matières premières, des bases de données commerciales (ITC Trade Map, UN Comtrade), des autorités réglementaires et de notre réseau industriel."
+        },
+        {
+          "step": 3,
+          "title": "Consultation Industrielle",
+          "description": "Nous menons des entretiens structurés avec des acteurs de l'industrie vietnamienne — agriculteurs, transformateurs, exportateurs et associations commerciales — pour enrichir les données quantitatives d'informations qualitatives."
+        },
+        {
+          "step": 4,
+          "title": "Analyse & Synthèse",
+          "description": "Les données sont analysées, contextualisées et synthétisées en conclusions claires. Les benchmarks de prix, exigences réglementaires et opportunités de marché sont structurés pour la prise de décision."
+        },
+        {
+          "step": 5,
+          "title": "Livraison du Rapport",
+          "description": "Un Rapport d'Évaluation des Opportunités structuré est livré, suivi d'un appel de briefing d'une heure pour présenter les conclusions et répondre aux questions."
+        }
+      ],
+      "targetIndustries": [
+        "Nouveaux Entrants sur le Marché Vietnam",
+        "Fonds de Capital-Investissement & d'Investissement",
+        "Consultants de l'Industrie Alimentaire",
+        "Agences Gouvernementales de Commerce",
+        "Équipes d'Achat Grande Distribution",
+        "Négociants en Matières Premières Élargissant leurs Catégories"
+      ],
+      "certifications": [
+        "Données ITC Trade Map",
+        "Données UN Comtrade",
+        "Statistiques Officielles GSO Vietnam",
+        "Entretiens Primaires avec l'Industrie"
+      ],
+      "faqs": [
+        {
+          "question": "Combien de temps dure un engagement d'étude de marché ?",
+          "answer": "Les engagements d'étude de marché standard prennent 3 à 4 semaines du brief à la livraison du rapport. Pour les mandats complexes multi-produits ou multi-marchés, 6 à 8 semaines est plus approprié. Nous pouvons fournir des résultats préliminaires sur une base continue pour les décisions urgentes."
+        },
+        {
+          "question": "La recherche est-elle basée uniquement sur des données publiquement disponibles ?",
+          "answer": "Non. Nous combinons les données commerciales publiquement disponibles (ITC Trade Map, UN Comtrade, GSO Vietnam) avec la recherche primaire : entretiens structurés avec des acteurs de l'industrie vietnamienne, notre propre connaissance du marché de trading et les données de prix directs des fournisseurs. Cette combinaison fournit une profondeur et une précision que les données publiques seules ne peuvent pas atteindre."
+        },
+        {
+          "question": "Pouvez-vous rechercher une catégorie de produit qui ne figure pas actuellement dans votre portefeuille de trading ?",
+          "answer": "Oui. Nos capacités de recherche s'étendent au-delà de nos catégories de trading principales. Nous avons conduit des recherches pour des clients sur les noix de macadamia, la mangue séchée, les produits en bambou et les matériaux d'emballage. Si c'est produit ou transformé au Vietnam, nous pouvons le rechercher."
+        },
+        {
+          "question": "Proposez-vous des abonnements de veille marché continue ?",
+          "answer": "Oui. Pour les acheteurs ayant besoin de mises à jour marché régulières, nous proposons des briefings trimestriels de veille marché couvrant les tendances de prix, la dynamique de l'offre et les changements réglementaires pour vos catégories de produits. Contactez-nous pour discuter d'un arrangement d'abonnement."
+        }
+      ]
+    }
+  }
+}

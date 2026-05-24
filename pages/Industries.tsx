@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import SEOHead, { breadcrumbSchema, organizationSchema } from '../components/SEOHead';
 import Breadcrumbs from '../components/Breadcrumbs';
+import Icon from '../components/Icon';
 
 const WHATSAPP_NUMBER = '84828278808';
 
@@ -231,9 +232,7 @@ const Industries: React.FC = () => {
                           className="flex items-center justify-between text-sm font-medium text-brandNavy dark:text-white hover:text-primary transition-colors group py-1.5 border-b border-slate-100 dark:border-slate-800 last:border-0"
                         >
                           <span>{product.name}</span>
-                          <span className="material-symbols-outlined text-base text-slate-300 group-hover:text-primary transition-colors" aria-hidden="true">
-                            arrow_forward
-                          </span>
+                          <Icon name="arrow_forward" size={16} className="text-slate-300 group-hover:text-primary transition-colors" aria-hidden />
                         </Link>
                       ))}
                     </div>
@@ -242,7 +241,7 @@ const Industries: React.FC = () => {
                       className="inline-flex items-center gap-1 text-primary font-bold text-sm mt-5 hover:gap-2 transition-all"
                     >
                       Browse all products
-                      <span className="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span>
+                      <Icon name="arrow_forward" size={16} aria-hidden />
                     </Link>
                   </div>
                 </div>
@@ -311,7 +310,7 @@ const Industries: React.FC = () => {
                 className="group flex items-start gap-4 p-5 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-primary transition-all"
               >
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <span className="material-symbols-outlined text-xl text-primary" aria-hidden="true">{svc.icon}</span>
+                  <Icon name={svc.icon} className="text-primary" aria-hidden />
                 </div>
                 <div>
                   <div className="font-bold text-brandNavy dark:text-white group-hover:text-primary transition-colors mb-0.5">
@@ -341,7 +340,7 @@ const Industries: React.FC = () => {
               rel="noopener noreferrer"
               className="bg-primary text-white font-bold px-8 py-3 rounded-xl hover:bg-amber-500 transition-colors inline-flex items-center gap-2"
             >
-              <span className="material-symbols-outlined text-lg" aria-hidden="true">chat</span>
+              <Icon name="chat" size={18} aria-hidden />
               WhatsApp Us Now
             </a>
             <Link

@@ -1,4 +1,6 @@
 import "./index.css";
+// Initialize i18next before React renders — keeps translations synchronous (no FOUC)
+import './i18n/config';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

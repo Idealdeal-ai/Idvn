@@ -1,28 +1,74 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { useLanguage } from '../App';
+import SEOHead, { organizationSchema, breadcrumbSchema } from '../components/SEOHead';
 
-const Section: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
+// ── Section wrapper ────────────────────────────────────────────────────────────
+const Section: React.FC<{ title: string; children: React.ReactNode; isRTL?: boolean }> = ({
+  title,
+  children,
+  isRTL = false,
+}) => (
   <section className="mb-10">
-    <h2 className="text-xl font-bold text-brandNavy dark:text-white mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
+    <h2
+      className={`text-xl font-bold text-brandNavy dark:text-white mb-4 pb-2 border-b border-slate-200 dark:border-slate-800 ${
+        isRTL ? 'text-right' : ''
+      }`}
+    >
       {title}
     </h2>
-    <div className="space-y-3 text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+    <div
+      className={`space-y-3 text-slate-600 dark:text-slate-400 leading-relaxed text-sm ${
+        isRTL ? 'text-right' : ''
+      }`}
+    >
       {children}
     </div>
   </section>
 );
 
+// ── Component ──────────────────────────────────────────────────────────────────
 const TermsOfService: React.FC = () => {
+  const { t } = useTranslation('legal');
+  const { language } = useLanguage();
+  const isRTL = language === 'ar';
+
   return (
-    <div className="pt-20">
+    <div className="pt-20" dir={isRTL ? 'rtl' : 'ltr'}>
+      <SEOHead
+        title={t('terms.seo_title')}
+        description={t('terms.seo_description')}
+        keywords={['terms of service', 'terms and conditions', 'Ideal Deal Vietnam', 'legal']}
+        schema={[
+          organizationSchema(),
+          breadcrumbSchema([
+            { name: 'Home', url: '/' },
+            { name: t('terms.title'), url: '/terms-of-service' },
+          ]),
+        ]}
+      />
+
       {/* Hero */}
       <section className="bg-brandNavy py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-primary text-[11px] font-bold tracking-[0.25em] uppercase mb-3">Legal</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white font-display uppercase tracking-tight mb-4">
-            Terms of Service
+          <p
+            className={`text-primary text-[11px] font-bold tracking-[0.25em] uppercase mb-3 ${
+              isRTL ? 'text-right' : ''
+            }`}
+          >
+            {t('common.legal_label')}
+          </p>
+          <h1
+            className={`text-4xl md:text-5xl font-extrabold text-white font-display uppercase tracking-tight mb-4 ${
+              isRTL ? 'text-right' : ''
+            }`}
+          >
+            {t('terms.title')}
           </h1>
-          <p className="text-slate-400 text-sm">Last updated: 30 April 2026</p>
+          <p className={`text-slate-400 text-sm ${isRTL ? 'text-right' : ''}`}>
+            {t('common.last_updated')}
+          </p>
         </div>
       </section>
 
@@ -30,89 +76,135 @@ const TermsOfService: React.FC = () => {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 p-8 md:p-12">
 
-          <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-10">
-            Please read these Terms of Service carefully before using the website operated by <strong className="text-brandNavy dark:text-white">CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM</strong> (trading as Ideal Deal Vietnam). By accessing or using our website, you agree to be bound by these terms.
+          <p className={`text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-10 ${isRTL ? 'text-right' : ''}`}>
+            {t('terms.intro_before')}
+            <strong className="text-brandNavy dark:text-white">{t('common.company_name')}</strong>
+            {t('terms.intro_after')}
           </p>
 
-          <Section title="1. Acceptance of Terms">
-            <p>By accessing <strong className="text-slate-700 dark:text-slate-300">idealdealvn.com</strong> (the "Website"), you confirm that you are at least 18 years of age, have the legal capacity to enter into a binding agreement, and accept these Terms of Service in full. If you do not agree with any part of these terms, you must not use our Website.</p>
+          {/* Section 1 — Acceptance */}
+          <Section title={t('terms.s1_title')} isRTL={isRTL}>
+            <p>
+              {t('terms.s1_before')}
+              <strong className="text-slate-700 dark:text-slate-300">{t('terms.s1_website')}</strong>
+              {t('terms.s1_after')}
+            </p>
           </Section>
 
-          <Section title="2. About Our Services">
-            <p>Ideal Deal Vietnam provides import and export trade facilitation services, including product sourcing, supplier identification, quality assurance coordination, and logistics support for international buyers seeking Vietnamese-manufactured or grown goods.</p>
-            <p>The information on this Website is provided for general informational purposes only and does not constitute a formal business offer, contract, or guarantee of availability.</p>
+          {/* Section 2 — About Our Services */}
+          <Section title={t('terms.s2_title')} isRTL={isRTL}>
+            <p>{t('terms.s2_p1')}</p>
+            <p>{t('terms.s2_p2')}</p>
           </Section>
 
-          <Section title="3. Use of the Website">
-            <p>You agree to use this Website only for lawful purposes and in a manner that does not infringe the rights of others. You must not:</p>
-            <ul className="list-disc list-inside space-y-1 pl-2">
-              <li>Use the Website to transmit any unsolicited or unauthorised advertising.</li>
-              <li>Attempt to gain unauthorised access to any part of our systems or networks.</li>
-              <li>Scrape, copy, or reproduce content from the Website without our prior written consent.</li>
-              <li>Use the Website in any way that could damage, disable, or impair its operation.</li>
-              <li>Impersonate any person or entity, or misrepresent your affiliation with any entity.</li>
+          {/* Section 3 — Use of the Website */}
+          <Section title={t('terms.s3_title')} isRTL={isRTL}>
+            <p>{t('terms.s3_intro')}</p>
+            <ul className={`list-disc list-inside space-y-1 ${isRTL ? 'pr-2' : 'pl-2'}`}>
+              <li>{t('terms.s3_li1')}</li>
+              <li>{t('terms.s3_li2')}</li>
+              <li>{t('terms.s3_li3')}</li>
+              <li>{t('terms.s3_li4')}</li>
+              <li>{t('terms.s3_li5')}</li>
             </ul>
           </Section>
 
-          <Section title="4. Intellectual Property">
-            <p>All content on this Website — including text, graphics, logos, images, product descriptions, and software — is the property of CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM or its content suppliers and is protected by applicable intellectual property laws.</p>
-            <p>You may view and print pages from the Website for personal, non-commercial use only. Any other use requires our express written permission.</p>
+          {/* Section 4 — Intellectual Property */}
+          <Section title={t('terms.s4_title')} isRTL={isRTL}>
+            <p>
+              {t('terms.s4_p1_before')}
+              <strong className="text-brandNavy dark:text-white">{t('common.company_name')}</strong>
+              {t('terms.s4_p1_after')}
+            </p>
+            <p>{t('terms.s4_p2')}</p>
           </Section>
 
-          <Section title="5. Inquiries and Communications">
-            <p>Submitting an inquiry through our contact forms does not create a binding contract or commercial agreement. All business arrangements are subject to a separate written agreement negotiated between the parties.</p>
-            <p>We will endeavour to respond to all legitimate inquiries within <strong className="text-slate-700 dark:text-slate-300">2–3 business days</strong>. Response times may vary during public holidays observed in Vietnam.</p>
+          {/* Section 5 — Inquiries */}
+          <Section title={t('terms.s5_title')} isRTL={isRTL}>
+            <p>{t('terms.s5_p1')}</p>
+            <p>
+              {t('terms.s5_p2_before')}
+              <strong className="text-slate-700 dark:text-slate-300">{t('terms.s5_p2_duration')}</strong>
+              {t('terms.s5_p2_after')}
+            </p>
           </Section>
 
-          <Section title="6. AI-Powered Features">
-            <p>Our Website may include an AI assistant ("Ideal") powered by Google Gemini via a secure server-side proxy. Responses generated by the AI are informational only and do not constitute business, legal, or financial advice. AI-generated content may contain inaccuracies and should not be solely relied upon for commercial decision-making.</p>
+          {/* Section 6 — Third-Party Links */}
+          <Section title={t('terms.s6_title')} isRTL={isRTL}>
+            <p>{t('terms.s6_text')}</p>
           </Section>
 
-          <Section title="7. Third-Party Links">
-            <p>Our Website may contain links to third-party websites. These links are provided for your convenience only. We have no control over the content of those sites and accept no responsibility for them or for any loss or damage that may arise from your use of them.</p>
+          {/* Section 7 — Disclaimer of Warranties */}
+          <Section title={t('terms.s7_title')} isRTL={isRTL}>
+            <p>
+              {t('terms.s7_p1_before')}
+              <strong className="text-slate-700 dark:text-slate-300">{t('terms.s7_p1_quoted')}</strong>
+              {t('terms.s7_p1_after')}
+            </p>
+            <p>{t('terms.s7_p2')}</p>
           </Section>
 
-          <Section title="8. Disclaimer of Warranties">
-            <p>This Website is provided on an <strong className="text-slate-700 dark:text-slate-300">"as is" and "as available"</strong> basis. We make no representations or warranties of any kind, express or implied, regarding the completeness, accuracy, reliability, or availability of the Website or its content.</p>
-            <p>We do not warrant that the Website will be uninterrupted, error-free, or free of viruses or other harmful components.</p>
-          </Section>
-
-          <Section title="9. Limitation of Liability">
-            <p>To the maximum extent permitted by applicable law, Ideal Deal Vietnam shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill, arising from:</p>
-            <ul className="list-disc list-inside space-y-1 pl-2">
-              <li>Your use of, or inability to use, the Website.</li>
-              <li>Any errors or omissions in the Website's content.</li>
-              <li>Unauthorised access to or alteration of your data.</li>
-              <li>Any third-party conduct on or through the Website.</li>
+          {/* Section 8 — Limitation of Liability */}
+          <Section title={t('terms.s8_title')} isRTL={isRTL}>
+            <p>{t('terms.s8_intro')}</p>
+            <ul className={`list-disc list-inside space-y-1 ${isRTL ? 'pr-2' : 'pl-2'}`}>
+              <li>{t('terms.s8_li1')}</li>
+              <li>{t('terms.s8_li2')}</li>
+              <li>{t('terms.s8_li3')}</li>
+              <li>{t('terms.s8_li4')}</li>
             </ul>
           </Section>
 
-          <Section title="10. Indemnification">
-            <p>You agree to indemnify and hold harmless Ideal Deal Vietnam and its officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising out of or related to your use of the Website or violation of these Terms.</p>
+          {/* Section 9 — Indemnification */}
+          <Section title={t('terms.s9_title')} isRTL={isRTL}>
+            <p>{t('terms.s9_text')}</p>
           </Section>
 
-          <Section title="11. Governing Law">
-            <p>These Terms of Service shall be governed by and construed in accordance with the laws of the <strong className="text-slate-700 dark:text-slate-300">Socialist Republic of Vietnam</strong>. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the competent courts of Hanoi, Vietnam.</p>
+          {/* Section 10 — Governing Law */}
+          <Section title={t('terms.s10_title')} isRTL={isRTL}>
+            <p>
+              {t('terms.s10_before')}
+              <strong className="text-slate-700 dark:text-slate-300">{t('terms.s10_country')}</strong>
+              {t('terms.s10_after')}
+            </p>
           </Section>
 
-          <Section title="12. Changes to These Terms">
-            <p>We reserve the right to modify these Terms of Service at any time. Changes will be posted on this page with an updated date. Your continued use of the Website after any changes constitutes acceptance of the new terms.</p>
+          {/* Section 11 — Changes */}
+          <Section title={t('terms.s11_title')} isRTL={isRTL}>
+            <p>{t('terms.s11_text')}</p>
           </Section>
 
-          <Section title="13. Contact">
-            <p>Questions about these Terms should be directed to:</p>
-            <div className="bg-slate-50 dark:bg-slate-800 rounded-xl p-5 mt-3 space-y-1">
-              <p className="font-semibold text-brandNavy dark:text-white">CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM</p>
-              <p>103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội, Việt Nam</p>
-              <p>Email: <a href="mailto:info@idealdealvn.com" className="text-primary hover:underline">info@idealdealvn.com</a></p>
-              <p>Phone: +84 828 278 808</p>
+          {/* Section 12 — Contact */}
+          <Section title={t('terms.s12_title')} isRTL={isRTL}>
+            <p>{t('terms.s12_intro')}</p>
+            <div className={`bg-slate-50 dark:bg-slate-800 rounded-xl p-5 mt-3 space-y-1 ${isRTL ? 'text-right' : ''}`}>
+              <p className="font-semibold text-brandNavy dark:text-white">{t('common.company_name')}</p>
+              <p>{t('common.company_address')}</p>
+              <p>
+                Email:{' '}
+                <a href={`mailto:${t('common.company_email')}`} className="text-primary hover:underline">
+                  {t('common.company_email')}
+                </a>
+              </p>
+              <p dir="ltr" style={{ unicodeBidi: 'embed' }}>{t('common.company_phone')}</p>
             </div>
           </Section>
 
-          <div className="mt-10 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-wrap gap-4 text-sm">
-            <Link to="/privacy-policy" className="text-primary hover:underline font-semibold">Privacy Policy →</Link>
-            <Link to="/cookie-policy" className="text-primary hover:underline font-semibold">Cookie Policy →</Link>
-            <Link to="/contact" className="text-primary hover:underline font-semibold">Contact Us →</Link>
+          {/* Footer links */}
+          <div
+            className={`mt-10 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-wrap gap-4 text-sm ${
+              isRTL ? 'flex-row-reverse' : ''
+            }`}
+          >
+            <Link to="/privacy-policy" className="text-primary hover:underline font-semibold">
+              {t('common.link_privacy')} →
+            </Link>
+            <Link to="/cookie-policy" className="text-primary hover:underline font-semibold">
+              {t('common.link_cookies')} →
+            </Link>
+            <Link to="/contact" className="text-primary hover:underline font-semibold">
+              {t('common.link_contact')} →
+            </Link>
           </div>
         </div>
       </main>

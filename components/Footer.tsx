@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ScrollText, Building2, Phone, Mail } from 'lucide-react';
 import { useLanguage } from '../App';
 
 const Footer: React.FC = () => {
@@ -13,10 +14,10 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="bg-white p-1 rounded shadow-sm">
-                <img 
-                  alt="Ideal Deal Vietnam Logo" 
-                  className="h-12 w-auto object-contain" 
-                  src="/ideal-deal-vn-logo.png" 
+                <img
+                  alt="Ideal Deal Vietnam Logo"
+                  className="h-12 w-auto object-contain"
+                  src="/ideal-deal-vn-logo.png"
                 />
               </div>
               <span className="font-display font-bold text-brandNavy dark:text-white text-xl uppercase">
@@ -24,63 +25,62 @@ const Footer: React.FC = () => {
               </span>
             </div>
 
-            <p className="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
+            <p className="text-slate-500 dark:text-slate-400 max-w-sm mb-6 text-left">
               {t('footer_desc')}
             </p>
 
            {/* ✅ Company Official Info (Added - No removals) */}
-<div className="mt-2 space-y-2 text-[12px] leading-relaxed text-slate-500 dark:text-slate-400">
-  <div className="font-semibold text-brandNavy dark:text-white">
+<div className="mt-2 text-[12px] leading-relaxed text-slate-500 dark:text-slate-400 flex flex-col items-start text-left">
+  <div className="font-semibold text-brandNavy dark:text-white mb-2">
     CÔNG TY TNHH GIAO DỊCH THƯƠNG MẠI VIỆT NAM
   </div>
 
-  {/* Tax code (line 1) */}
-  <div className="flex items-start gap-2">
-    <span className="material-symbols-outlined text-base leading-none mt-[2px]">
-      receipt_long
-    </span>
-    <span>Tax code: 0111274380</span>
-  </div>
+  {/* All contact rows — single group, rows share a left edge */}
+  <div dir="ltr" className="flex flex-col items-start gap-2">
+    {/* Tax code */}
+    <div className="flex flex-row items-center gap-2">
+      <ScrollText size={16} className="flex-shrink-0" aria-hidden />
+      <span>Tax code: 0111274380</span>
+    </div>
 
-  {/* Address (line 2 تحت التاكس) */}
-  <div className="flex items-start gap-2">
-    <span className="material-symbols-outlined text-base leading-none mt-[2px]">
-      apartment
-    </span>
-    <span>103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội, Việt Nam</span>
-  </div>
+    {/* Address */}
+    <div className="flex flex-row items-center gap-2">
+      <Building2 size={16} className="flex-shrink-0" aria-hidden />
+      <span>103 Đ. Âu Cơ, Tứ Liên, Tây Hồ, Hà Nội, Việt Nam</span>
+    </div>
 
-  {/* Phone + Emails */}
-  <div className="flex flex-col gap-2">
+    {/* Phone */}
     <a
       href="tel:+84828278808"
-      className="inline-flex items-center gap-2 hover:text-primary transition-colors"
+      className="flex flex-row items-center gap-2 hover:text-primary transition-colors"
       aria-label="Call phone number"
     >
-      <span className="material-symbols-outlined text-base leading-none">call</span>
-      <span>+84 828 278 808</span>
+      <Phone size={16} className="flex-shrink-0" aria-hidden />
+      <span dir="ltr" style={{ unicodeBidi: 'embed' }}>+84 828 278 808</span>
     </a>
 
+    {/* Email — info */}
     <a
       href="mailto:info@idealdealvn.com"
-      className="inline-flex items-center gap-2 hover:text-primary transition-colors"
+      className="flex flex-row items-center gap-2 hover:text-primary transition-colors"
       aria-label="Email info@idealdealvn.com"
     >
-      <span className="material-symbols-outlined text-base leading-none">mail</span>
+      <Mail size={16} className="flex-shrink-0" aria-hidden />
       <span>info@idealdealvn.com</span>
     </a>
 
+    {/* Email — sales */}
     <a
       href="mailto:sales@idealdealvn.com"
-      className="inline-flex items-center gap-2 hover:text-primary transition-colors"
+      className="flex flex-row items-center gap-2 hover:text-primary transition-colors"
       aria-label="Email sales@idealdealvn.com"
     >
-      <span className="material-symbols-outlined text-base leading-none">mail</span>
+      <Mail size={16} className="flex-shrink-0" aria-hidden />
       <span>sales@idealdealvn.com</span>
     </a>
   </div>
 </div>
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-4 mt-6 justify-start">
               <a href="#" className="w-10 h-10 rounded-full bg-slate-100 dark:bg-white/5 flex items-center justify-center text-brandNavy dark:text-white hover:bg-primary transition-colors">
                 <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
               </a>
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
 
           <div>
             <h5 className="font-bold text-brandNavy dark:text-white mb-6 uppercase tracking-wider text-sm">
-              {language === 'ar' ? 'التنقل' : 'Navigation'}
+              {t('footer_nav')}
             </h5>
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
               <li><Link to="/" className="hover:text-primary transition-colors">{t('home')}</Link></li>
@@ -105,19 +105,19 @@ const Footer: React.FC = () => {
 
           <div>
             <h5 className="font-bold text-brandNavy dark:text-white mb-6 uppercase tracking-wider text-sm">
-              {language === 'ar' ? 'قانوني' : 'Legal'}
+              {t('footer_legal')}
             </h5>
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
-              <li><Link to="/privacy-policy" className="hover:text-primary transition-colors">{language === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy'}</Link></li>
-              <li><Link to="/terms-of-service" className="hover:text-primary transition-colors">{language === 'ar' ? 'شروط الخدمة' : 'Terms of Service'}</Link></li>
-              <li><Link to="/cookie-policy" className="hover:text-primary transition-colors">{language === 'ar' ? 'سياسة الكوكيز' : 'Cookie Policy'}</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary transition-colors">{t('privacy_policy')}</Link></li>
+              <li><Link to="/terms-of-service" className="hover:text-primary transition-colors">{t('terms_of_service')}</Link></li>
+              <li><Link to="/cookie-policy" className="hover:text-primary transition-colors">{t('cookie_policy')}</Link></li>
             </ul>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500 dark:text-slate-400">
+        <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-start items-start gap-4 text-sm text-slate-500 dark:text-slate-400 text-left">
           <p>{t('copyright')}</p>
-          <p className="mt-4 md:mt-0 italic font-medium">{t('built_on_trust')}</p>
+          <p className="italic font-medium">{t('built_on_trust')}</p>
         </div>
       </div>
     </footer>

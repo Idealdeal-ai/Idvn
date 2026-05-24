@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   getCategoryBySlug,
   getProductBySlug,
@@ -14,8 +15,12 @@ import SEOHead, {
 import Breadcrumbs from '../../components/Breadcrumbs';
 import FAQAccordion from '../../components/FAQAccordion';
 import RFQForm from '../../components/RFQForm';
+import Icon from '../../components/Icon';
 
 const WHATSAPP_NUMBER = '84828278808';
+
+// ── Convert a market name to a locale key slug ────────────────────────────────
+const marketKey = (m: string) => m.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 // ── Markdown-lite renderer (bold + line breaks only) ──────────────────────────
 const renderContent = (text: string) => {
@@ -47,7 +52,8 @@ const renderContent = (text: string) => {
 };
 
 const ProductPage: React.FC = () => {
-  const { category, slug } = useParams<{ category: string; slug: string }>();
+  const { category, slug } = useParams<{ category: string; slug: string; lang?: string }>();
+  const { t } = useTranslation('products');
   const cat = getCategoryBySlug(category ?? '');
   const product = getProductBySlug(category ?? '', slug ?? '');
   const [activeTab, setActiveTab] = useState<'description' | 'specs' | 'shipping'>('description');
@@ -56,31 +62,50 @@ const ProductPage: React.FC = () => {
 
   const related = getRelatedProducts(product);
 
+  // ── Translated strings ────────────────────────────────────────────────────
+  const catName        = t(`categories.${cat.slug}.name`,             { defaultValue: cat.name });
+  const productName    = t(`products.${product.slug}.name`,           { defaultValue: product.name });
+  const productTagline = t(`products.${product.slug}.tagline`,        { defaultValue: product.tagline });
+  const productDesc    = t(`products.${product.slug}.description`,    { defaultValue: product.description });
+  const productSeoDesc = t(`products.${product.slug}.seoDescription`, { defaultValue: product.seoDescription });
+
+  const productMoq      = t(`products.${product.slug}.moq`,              { defaultValue: product.moq });
+  const productCapacity = t(`products.${product.slug}.containerCapacity`, { defaultValue: product.containerCapacity });
+  const productLongDesc = t(`products.${product.slug}.longDescription`,   { defaultValue: product.longDescription });
+  const translatedFaqs  = product.faqs.map((faq, i) => ({
+    question: t(`products.${product.slug}.faqs.${i}.question`, { defaultValue: faq.question }),
+    answer:   t(`products.${product.slug}.faqs.${i}.answer`,   { defaultValue: faq.answer }),
+  }));
+
+  const waMessage = t('ui.whatsapp_product_msg', {
+    defaultValue: `Hello! I am interested in ${productName} (HS: ${product.hsCode}). Please send me pricing and availability.`,
+    name: productName,
+    hs: product.hsCode,
+  });
+
   const schema = [
     organizationSchema(),
     productSchema({
-      name: product.name,
-      description: product.description,
+      name: productName,
+      description: productDesc,
       image: product.heroImage,
-      category: product.category,
+      category: catName,
       url: `/products/${product.categorySlug}/${product.slug}`,
     }),
     breadcrumbSchema([
-      { name: 'Home', url: '/' },
-      { name: 'Products', url: '/products' },
-      { name: cat.name, url: `/products/${cat.slug}` },
-      { name: product.name, url: `/products/${cat.slug}/${product.slug}` },
+      { name: t('ui.home'),     url: '/' },
+      { name: t('ui.products'), url: '/products' },
+      { name: catName,          url: `/products/${cat.slug}` },
+      { name: productName,      url: `/products/${cat.slug}/${product.slug}` },
     ]),
     ...(product.faqs.length > 0 ? [faqSchema(product.faqs)] : []),
   ];
 
-  const waMessage = `Hello! I am interested in ${product.name} (HS: ${product.hsCode}). Please send me pricing and availability.`;
-
   return (
     <>
       <SEOHead
-        title={product.seoTitle}
-        description={product.seoDescription}
+        title={t('seo.product_title', { name: productName })}
+        description={t('seo.product_desc', { name: productName, desc: productSeoDesc })}
         keywords={product.keywords}
         schema={schema}
       />
@@ -96,27 +121,27 @@ const ProductPage: React.FC = () => {
           <Breadcrumbs
             className="mb-6 text-white/60"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Products', href: '/products' },
-              { label: cat.name, href: `/products/${cat.slug}` },
-              { label: product.name },
+              { label: t('ui.home'),     href: '/' },
+              { label: t('ui.products'), href: '/products' },
+              { label: catName,          href: `/products/${cat.slug}` },
+              { label: productName },
             ]}
           />
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-primary/20 border border-primary/40 text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
-                  {product.category}
+                  {catName}
                 </span>
                 <span className="bg-white/10 text-white/70 text-xs font-mono px-3 py-1 rounded-full">
                   HS {product.hsCode}
                 </span>
               </div>
               <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
-                {product.name}
+                {productName}
               </h1>
-              <p className="text-xl text-white/80 mb-6 italic">{product.tagline}</p>
-              <p className="text-white/70 leading-relaxed mb-8">{product.description}</p>
+              <p className="text-xl text-white/80 mb-6 italic">{productTagline}</p>
+              <p className="text-white/70 leading-relaxed mb-8">{productDesc}</p>
 
               {/* Certifications */}
               <div className="flex flex-wrap gap-2 mb-8">
@@ -125,7 +150,7 @@ const ProductPage: React.FC = () => {
                     key={cert}
                     className="flex items-center gap-1.5 bg-white/10 text-white text-xs font-medium px-3 py-1.5 rounded-full"
                   >
-                    <span className="material-symbols-outlined text-green-400 text-sm" aria-hidden="true">verified</span>
+                    <Icon name="verified" size={14} className="text-green-400" aria-hidden />
                     {cert}
                   </span>
                 ))}
@@ -138,15 +163,15 @@ const ProductPage: React.FC = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-xl hover:bg-amber-500 transition-colors"
                 >
-                  <span className="material-symbols-outlined text-lg" aria-hidden="true">send</span>
-                  Get a Quote
+                  <Icon name="send" size={18} aria-hidden />
+                  {t('ui.get_quote')}
                 </a>
                 <Link
                   to="/contact"
                   className="inline-flex items-center gap-2 border border-white/30 text-white font-medium px-6 py-3 rounded-xl hover:bg-white/10 transition-colors"
                 >
-                  <span className="material-symbols-outlined text-lg" aria-hidden="true">mail</span>
-                  Email Us
+                  <Icon name="mail" size={18} aria-hidden />
+                  {t('ui.contact_expert')}
                 </Link>
               </div>
             </div>
@@ -156,14 +181,14 @@ const ProductPage: React.FC = () => {
               {product.heroImage && (
                 <img
                   src={product.heroImage}
-                  alt={product.name}
+                  alt={productName}
                   className="w-full h-full object-cover"
                 />
               )}
               {/* MOQ badge */}
               <div className="absolute bottom-4 left-4 bg-white/95 text-brandNavy rounded-xl px-4 py-2 text-sm">
-                <span className="text-slate-500 text-xs block">Minimum Order</span>
-                <span className="font-bold">{product.moq}</span>
+                <span className="text-slate-500 text-xs block">{t('ui.min_order')}</span>
+                <span className="font-bold">{productMoq}</span>
               </div>
             </div>
           </div>
@@ -175,20 +200,20 @@ const ProductPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">MOQ</div>
-              <div className="font-bold">{product.moq}</div>
+              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">{t('ui.min_order')}</div>
+              <div className="font-bold">{productMoq}</div>
             </div>
             <div>
-              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">Container</div>
-              <div className="font-bold">{product.containerCapacity}</div>
+              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">{t('ui.container')}</div>
+              <div className="font-bold">{productCapacity}</div>
             </div>
             <div>
-              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">Packaging</div>
-              <div className="font-bold">{product.packagingOptions[0]}</div>
+              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">{t('ui.packaging')}</div>
+              <div className="font-bold">{t(`products.${product.slug}.packagingOptions.0`, { defaultValue: product.packagingOptions[0] })}</div>
             </div>
             <div>
-              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">Markets</div>
-              <div className="font-bold">{product.exportMarkets.length}+ Countries</div>
+              <div className="text-xs uppercase tracking-widest opacity-70 mb-1">{t('ui.export_markets')}</div>
+              <div className="font-bold">{t('ui.countries_count', { count: product.exportMarkets.length })}</div>
             </div>
           </div>
         </div>
@@ -212,7 +237,7 @@ const ProductPage: React.FC = () => {
                         : 'border-transparent text-slate-500 dark:text-slate-400 hover:text-brandNavy dark:hover:text-white'
                     }`}
                   >
-                    {tab === 'description' ? 'Product Details' : tab === 'specs' ? 'Specifications' : 'Export & Shipping'}
+                    {tab === 'description' ? t('ui.product_details') : tab === 'specs' ? t('ui.specifications') : t('ui.export_shipping')}
                   </button>
                 ))}
               </div>
@@ -220,11 +245,11 @@ const ProductPage: React.FC = () => {
               {/* Description tab */}
               {activeTab === 'description' && (
                 <div className="prose-custom">
-                  {renderContent(product.longDescription)}
+                  {renderContent(productLongDesc)}
 
                   {/* Export markets */}
                   <h3 className="text-lg font-bold text-brandNavy dark:text-white mt-8 mb-3">
-                    Export Markets
+                    {t('ui.export_markets')}
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {product.exportMarkets.map((m) => (
@@ -232,7 +257,7 @@ const ProductPage: React.FC = () => {
                         key={m}
                         className="bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 text-xs font-medium px-3 py-1.5 rounded-full"
                       >
-                        {m}
+                        {t(`ui.markets.${marketKey(m)}`, { defaultValue: m })}
                       </span>
                     ))}
                   </div>
@@ -243,7 +268,7 @@ const ProductPage: React.FC = () => {
               {activeTab === 'specs' && (
                 <div>
                   <h2 className="text-xl font-bold text-brandNavy dark:text-white mb-6">
-                    Technical Specifications
+                    {t('ui.tech_specs')}
                   </h2>
                   <div className="border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
                     <table className="w-full text-sm">
@@ -258,14 +283,14 @@ const ProductPage: React.FC = () => {
                             }`}
                           >
                             <td className="px-5 py-3 font-semibold text-brandNavy dark:text-white w-2/5">
-                              {spec.label}
+                              {t(`specLabels.${spec.label}`, { defaultValue: spec.label })}
                             </td>
                             <td className="px-5 py-3 text-slate-600 dark:text-slate-300">
-                              {spec.value}
+                              {t(`products.${product.slug}.specs.${i}.value`, { defaultValue: spec.value })}
                             </td>
                             {spec.notes && (
                               <td className="px-5 py-3 text-slate-400 text-xs italic">
-                                {spec.notes}
+                                {t(`products.${product.slug}.specs.${i}.notes`, { defaultValue: spec.notes })}
                               </td>
                             )}
                           </tr>
@@ -276,13 +301,13 @@ const ProductPage: React.FC = () => {
 
                   {/* Packaging options */}
                   <h3 className="text-lg font-bold text-brandNavy dark:text-white mt-8 mb-3">
-                    Packaging Options
+                    {t('ui.packaging')}
                   </h3>
                   <ul className="space-y-2">
-                    {product.packagingOptions.map((opt) => (
-                      <li key={opt} className="flex items-center gap-2 text-slate-600 dark:text-slate-300 text-sm">
-                        <span className="material-symbols-outlined text-primary text-base" aria-hidden="true">check_circle</span>
-                        {opt}
+                    {product.packagingOptions.map((opt, pi) => (
+                      <li key={pi} className="flex items-center gap-2 text-slate-600 dark:text-slate-300 text-sm">
+                        <Icon name="check_circle" size={16} className="text-primary" aria-hidden />
+                        {t(`products.${product.slug}.packagingOptions.${pi}`, { defaultValue: opt })}
                       </li>
                     ))}
                   </ul>
@@ -295,37 +320,37 @@ const ProductPage: React.FC = () => {
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div className="bg-slate-50 dark:bg-slate-800 rounded-xl p-5 border border-slate-200 dark:border-slate-700">
                       <div className="flex items-center gap-2 mb-3">
-                        <span className="material-symbols-outlined text-primary" aria-hidden="true">inventory_2</span>
-                        <span className="font-bold text-brandNavy dark:text-white">Container Load</span>
+                        <Icon name="inventory_2" className="text-primary" aria-hidden />
+                        <span className="font-bold text-brandNavy dark:text-white">{t('ui.container')}</span>
                       </div>
-                      <p className="text-slate-600 dark:text-slate-300 text-sm">{product.containerCapacity}</p>
+                      <p className="text-slate-600 dark:text-slate-300 text-sm">{productCapacity}</p>
                     </div>
                     <div className="bg-slate-50 dark:bg-slate-800 rounded-xl p-5 border border-slate-200 dark:border-slate-700">
                       <div className="flex items-center gap-2 mb-3">
-                        <span className="material-symbols-outlined text-primary" aria-hidden="true">scale</span>
-                        <span className="font-bold text-brandNavy dark:text-white">Min. Order</span>
+                        <Icon name="scale" className="text-primary" aria-hidden />
+                        <span className="font-bold text-brandNavy dark:text-white">{t('ui.min_order')}</span>
                       </div>
-                      <p className="text-slate-600 dark:text-slate-300 text-sm">{product.moq}</p>
+                      <p className="text-slate-600 dark:text-slate-300 text-sm">{productMoq}</p>
                     </div>
                   </div>
 
                   <div>
-                    <h3 className="font-bold text-brandNavy dark:text-white mb-3">Incoterms Available</h3>
+                    <h3 className="font-bold text-brandNavy dark:text-white mb-3">{t('ui.incoterms')}</h3>
                     <div className="flex flex-wrap gap-2">
-                      {['FOB Ho Chi Minh City', 'CIF Destination Port', 'CFR Destination Port', 'DDP Destination'].map((t) => (
-                        <span key={t} className="bg-primary/10 text-primary border border-primary/30 text-xs font-bold px-3 py-1.5 rounded-full">
-                          {t}
+                      {[t('incoterms.fob'), t('incoterms.cif'), t('incoterms.cfr'), t('incoterms.ddp')].map((term) => (
+                        <span key={term} className="bg-primary/10 text-primary border border-primary/30 text-xs font-bold px-3 py-1.5 rounded-full">
+                          {term}
                         </span>
                       ))}
                     </div>
                   </div>
 
                   <div>
-                    <h3 className="font-bold text-brandNavy dark:text-white mb-3">Certifications & Documents</h3>
+                    <h3 className="font-bold text-brandNavy dark:text-white mb-3">{t('ui.certs_docs')}</h3>
                     <ul className="space-y-2">
-                      {['Certificate of Origin (C/O)', 'Certificate of Analysis (CoA)', 'Phytosanitary Certificate', 'Health Certificate', 'Packing List', 'Commercial Invoice', 'Bill of Lading (B/L)'].map((doc) => (
+                      {[t('docs.co'), t('docs.coa'), t('docs.phyto'), t('docs.health'), t('docs.packing'), t('docs.invoice'), t('docs.bl')].map((doc) => (
                         <li key={doc} className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300">
-                          <span className="material-symbols-outlined text-green-500 text-base" aria-hidden="true">task_alt</span>
+                          <Icon name="task_alt" size={16} className="text-green-500" aria-hidden />
                           {doc}
                         </li>
                       ))}
@@ -333,11 +358,11 @@ const ProductPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <h3 className="font-bold text-brandNavy dark:text-white mb-3">Export Markets</h3>
+                    <h3 className="font-bold text-brandNavy dark:text-white mb-3">{t('ui.export_markets')}</h3>
                     <div className="flex flex-wrap gap-2">
                       {product.exportMarkets.map((m) => (
                         <span key={m} className="bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 text-xs font-medium px-3 py-1.5 rounded-full">
-                          {m}
+                          {t(`ui.markets.${marketKey(m)}`, { defaultValue: m })}
                         </span>
                       ))}
                     </div>
@@ -349,16 +374,16 @@ const ProductPage: React.FC = () => {
               {product.faqs.length > 0 && (
                 <div className="mt-16">
                   <h2 className="text-2xl font-display font-bold text-brandNavy dark:text-white mb-6">
-                    Frequently Asked Questions
+                    {t('ui.rfq_heading', { name: productName })}
                   </h2>
-                  <FAQAccordion faqs={product.faqs} />
+                  <FAQAccordion faqs={translatedFaqs} />
                 </div>
               )}
             </div>
 
             {/* Right: sticky RFQ sidebar */}
             <div className="lg:sticky lg:top-24 h-fit">
-              <RFQForm productName={product.name} compact />
+              <RFQForm productName={productName} compact />
 
               {/* WhatsApp CTA card */}
               <a
@@ -373,8 +398,8 @@ const ProductPage: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-bold text-green-800 dark:text-green-400 text-sm">Chat on WhatsApp</div>
-                  <div className="text-green-600 dark:text-green-500 text-xs">Fast reply · Usually within 1 hour</div>
+                  <div className="font-bold text-green-800 dark:text-green-400 text-sm">{t('ui.whatsapp_chat')}</div>
+                  <div className="text-green-600 dark:text-green-500 text-xs">{t('ui.whatsapp_reply_time')}</div>
                 </div>
               </a>
             </div>
@@ -387,7 +412,7 @@ const ProductPage: React.FC = () => {
         <section className="py-16 bg-slate-50 dark:bg-slate-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-display font-bold text-brandNavy dark:text-white mb-8">
-              Related Products
+              {t('ui.related_products')}
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {related.map((rp) => (
@@ -400,7 +425,7 @@ const ProductPage: React.FC = () => {
                     {rp.heroImage && (
                       <img
                         src={rp.heroImage}
-                        alt={rp.name}
+                        alt={t(`products.${rp.slug}.name`, { defaultValue: rp.name })}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />
@@ -408,9 +433,11 @@ const ProductPage: React.FC = () => {
                   </div>
                   <div className="p-4">
                     <h3 className="font-bold text-brandNavy dark:text-white group-hover:text-primary transition-colors mb-1">
-                      {rp.name}
+                      {t(`products.${rp.slug}.name`, { defaultValue: rp.name })}
                     </h3>
-                    <p className="text-slate-500 text-xs">{rp.tagline}</p>
+                    <p className="text-slate-500 dark:text-slate-400 text-xs">
+                      {t(`products.${rp.slug}.tagline`, { defaultValue: rp.tagline })}
+                    </p>
                   </div>
                 </Link>
               ))}

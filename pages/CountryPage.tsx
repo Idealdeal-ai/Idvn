@@ -5,6 +5,7 @@ import SEOHead, { breadcrumbSchema, faqSchema, organizationSchema } from '../com
 import Breadcrumbs from '../components/Breadcrumbs';
 import FAQAccordion from '../components/FAQAccordion';
 import RFQForm from '../components/RFQForm';
+import Icon from '../components/Icon';
 
 const WHATSAPP_NUMBER = '84828278808';
 
@@ -72,7 +73,7 @@ const CountryPage: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-xl hover:bg-amber-500 transition-colors"
             >
-              <span className="material-symbols-outlined text-lg" aria-hidden="true">send</span>
+              <Icon name="send" size={18} aria-hidden />
               Start Exporting to {data.name}
             </a>
             <Link
@@ -136,21 +137,21 @@ const CountryPage: React.FC = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <span className="material-symbols-outlined text-primary mt-0.5" aria-hidden="true">schedule</span>
+                  <Icon name="schedule" className="text-primary mt-0.5" aria-hidden />
                   <div>
                     <div className="text-sm font-bold text-brandNavy dark:text-white">Transit Time</div>
                     <div className="text-slate-500 dark:text-slate-400 text-sm">{data.shippingInfo.transitDays} days from Vietnam</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="material-symbols-outlined text-primary mt-0.5" aria-hidden="true">anchor</span>
+                  <Icon name="anchor" className="text-primary mt-0.5" aria-hidden />
                   <div>
                     <div className="text-sm font-bold text-brandNavy dark:text-white">Main Ports</div>
                     <div className="text-slate-500 dark:text-slate-400 text-sm">{data.shippingInfo.mainPorts.join(' · ')}</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="material-symbols-outlined text-primary mt-0.5" aria-hidden="true">receipt</span>
+                  <Icon name="receipt" className="text-primary mt-0.5" aria-hidden />
                   <div>
                     <div className="text-sm font-bold text-brandNavy dark:text-white">Incoterms</div>
                     <div className="flex flex-wrap gap-1 mt-1">
@@ -163,7 +164,7 @@ const CountryPage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="material-symbols-outlined text-primary mt-0.5" aria-hidden="true">payments</span>
+                  <Icon name="payments" className="text-primary mt-0.5" aria-hidden />
                   <div>
                     <div className="text-sm font-bold text-brandNavy dark:text-white">Payment Methods</div>
                     <div className="text-slate-500 dark:text-slate-400 text-sm">{data.shippingInfo.paymentMethods.join(' · ')}</div>
@@ -177,7 +178,7 @@ const CountryPage: React.FC = () => {
                 <ul className="space-y-1.5">
                   {data.certifications.map((cert) => (
                     <li key={cert} className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300">
-                      <span className="material-symbols-outlined text-green-500 text-base" aria-hidden="true">verified</span>
+                      <Icon name="verified" size={16} className="text-green-500" aria-hidden />
                       {cert}
                     </li>
                   ))}
