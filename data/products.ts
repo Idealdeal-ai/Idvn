@@ -907,7 +907,7 @@ We supply black pepper to three primary market segments:
 3. Essential Oil / Oleoresin Production: High piperine lots for extraction industry
 
 Export specifications include ASTA, ESA, and custom buyer specifications. Steam sterilization is available for markets requiring SPC (Standard Plate Count) compliance, particularly EU and USA.`,
-    heroImage: '/spices/idealdeal-Vietnamese Black Pepper (500 GL+).jpg',
+    heroImage: '/spices/idealdeal-Vietnamese-Black-Pepper-500-GL+.jpg',
     specs: [
       { label: 'Grade', value: 'FAQ / ASTA 500 GL / 550 GL / 570 GL' },
       { label: 'Bulk Density', value: '500 – 600 g/L' },
