@@ -1,32 +1,34 @@
 
 
-import React, { useState, useEffect, createContext, useContext } from 'react';
+import React, { useState, useEffect, createContext, useContext, lazy, Suspense } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import i18n from './i18n/config';
+import { setI18nLanguage } from './i18n/config';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import Products from './pages/Products';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsOfService from './pages/TermsOfService';
-import CookiePolicy from './pages/CookiePolicy';
 import WhatsAppButton from './components/WhatsAppButton';
+
+// ── Page components are code-split via React.lazy so each route ships its own chunk ──
+const Home            = lazy(() => import('./pages/Home'));
+const Products        = lazy(() => import('./pages/Products'));
+const About           = lazy(() => import('./pages/About'));
+const Services        = lazy(() => import('./pages/Services'));
+const Contact         = lazy(() => import('./pages/Contact'));
+const NotFound        = lazy(() => import('./pages/NotFound'));
+const PrivacyPolicy   = lazy(() => import('./pages/PrivacyPolicy'));
+const TermsOfService  = lazy(() => import('./pages/TermsOfService'));
+const CookiePolicy    = lazy(() => import('./pages/CookiePolicy'));
 // Product sub-pages
-import CategoryPage from './pages/products/CategoryPage';
-import ProductPage from './pages/products/ProductPage';
+const CategoryPage    = lazy(() => import('./pages/products/CategoryPage'));
+const ProductPage     = lazy(() => import('./pages/products/ProductPage'));
 // Country landing pages
-import CountryPage from './pages/CountryPage';
+const CountryPage     = lazy(() => import('./pages/CountryPage'));
 // Blog
-import Blog from './pages/blog/Blog';
-import BlogPost from './pages/blog/BlogPost';
+const Blog            = lazy(() => import('./pages/blog/Blog'));
+const BlogPost        = lazy(() => import('./pages/blog/BlogPost'));
 // Services sub-pages
-import ServicePage from './pages/services/ServicePage';
+const ServicePage     = lazy(() => import('./pages/services/ServicePage'));
 // Industries
-import Industries from './pages/Industries';
+const Industries      = lazy(() => import('./pages/Industries'));
 
 export type Language = 'en' | 'ar' | 'vi' | 'zh' | 'es' | 'fr';
 
@@ -227,13 +229,13 @@ const translations: Record<Language, Record<string, string>> = {
     redefining_trade: 'Redefini le Commerce Mondial',
     about_hero_desc: 'Ideal Deal Vietnam : Votre pont entre la qualité vietnamienne supérieure et le marché international.',
     about_excellence: 'Bâti sur la Confiance, Animé par l\'Excellence',
-    about_p3: 'Nous sommes une équipe spécialisée dans l\'import-export entre l\'Asie de l\'Est, le Moyen-Orient et l\'Afrique du Nord. Des années d\'expérience concrète sur les marchés vietnamien et arabe nous ont réunis pour fonder Ideal Deal — une entreprise enracinée au Vietnam et en Arabie Saoudite, avec des agents en Égypte au service de l\'Europe, du Moyen-Orient et de l\'Afrique du Nord.',
+    about_p3: 'Nous sommes une équipe spécialisée dans l\'import export entre l\'Asie de l\'Est, le Moyen-Orient et l\'Afrique du Nord. Des années d\'expérience concrète sur les marchés vietnamien et arabe nous ont réunis pour fonder Ideal Deal — une entreprise enracinée au Vietnam et en Arabie Saoudite, avec des agents en Égypte au service de l\'Europe, du Moyen Orient et de l\'Afrique du Nord.',
     about_p4: 'Dans le cadre de notre expansion, nous sommes actuellement en cours d\'établissement d\'une entité dans la Zone Franche du Qatar afin de simplifier davantage les opérations commerciales de nos clients à travers le monde. Nous avons été bâtis sur la confiance, et c\'est la confiance qui nous distingue.',
     our_foundation: 'Notre Fondation',
     mission: 'Notre Mission',
     mission_desc: 'Donner du pouvoir aux producteurs vietnamiens en offrant une passerelle fluide vers les marchés mondiaux, garantissant que chaque transaction repose sur une base de succès mutuel et de transparence.',
     vision: 'Our Vision',
-    vision_desc: 'Devenir le principal facilitateur de commerce B2B en Asie du Sud-Est, reconnu mondialement pour établir la norme en matière d\'intégrité de la chaîne d\'approvisionnement et d\'efficacité opérationnelle.',
+    vision_desc: 'Devenir le principal facilitateur de commerce B2B en Asie du Sud Est, reconnu mondialement pour établir la norme en matière d\'intégrité de la chaîne d\'approvisionnement et d\'efficacité opérationnelle.',
     values: 'Nos Valeurs',
     value1: 'Transparence à chaque étape',
     value2: 'Efficacité sans compromis',
@@ -438,7 +440,7 @@ const translations: Record<Language, Record<string, string>> = {
     total_transparency: "شفافية مطلقة",
     total_transparency_desc: "تتبع في الوقت الفعلي وتواصل واضح وصادق في كل مرحلة من مراحل الصفقة.",
     risk_mitigation: "تخفيف المخاطر",
-    risk_mitigation_desc: "نحن نتعامل مع الجوانب القانونية والامتثال للمعايير حتى تمكن من التركيز على نمو عملك.",
+    risk_mitigation_desc: "نحن نتعامل مع الجوانب القانونية والامتثال للمعايير حتى تتمكن من التركيز على نمو عملك.",
     discuss_next_deal: "لنناقش صفقتك العالمية القادمة",
     discuss_next_deal_desc: "سواء كنت تبحث عن موردين موثوقين، أو تعاون تجاري، أو معلومات عن المنتج، فإن فريقنا مستعد للمساعدة باحترافية وكفاءة.",
     subject: "الموضوع",
@@ -698,7 +700,7 @@ const translations: Record<Language, Record<string, string>> = {
     redefining_trade: '重新定义全球贸易',
     about_hero_desc: 'Ideal Deal Vietnam：您在越南优质品质与国际市场之间的桥梁。',
     about_excellence: '建立在信任之上，由卓越驱动',
-    about_p3: '我们是一支专注于东亚、中东与北非地区进出口业务的专业团队。多年来在越南与阿拉伯市场的实战经验让我们走到一起，共同创立了 Ideal Deal——一家根植于越南与沙特阿拉伯、并在埃及设有代理服务欧洲、中东和北非的公司。',
+    about_p3: '我们是一支专注于东亚、中东与北非地区进出口业务的专业团队。多年来在越南与阿拉伯市场的实战经验让我们走到 起，共同创立了 Ideal Deal 家根植于越南与沙特阿拉伯、并在埃及设有代理服务欧洲、中东和北非的公司。',
     about_p4: '作为我们扩张计划的一部分，公司目前正在卡塔尔自由区设立分支机构，以进一步优化全球客户的贸易运营流程。我们建立在信任之上，而信任正是我们与众不同之处。',
     our_foundation: '我们的基础',
     mission: '我们的使命',
@@ -1011,9 +1013,10 @@ const App: React.FC = () => {
     const html = document.documentElement;
     html.setAttribute('lang', language);
     html.setAttribute('dir', language === 'ar' ? 'rtl' : 'ltr');
-    // Keep react-i18next in sync so ServicePage and other i18n consumers
-    // update when the user switches language via the App language context.
-    i18n.changeLanguage(language);
+    // Lazy-load the locale's JSON resources (no-op for English which is bundled)
+    // before switching i18next's active language so ServicePage and other
+    // react-i18next consumers re-render with the correct translations.
+    setI18nLanguage(language);
   }, [language]);
 
   const toggleTheme = () => setIsDarkMode(prev => !prev);
@@ -1027,38 +1030,46 @@ const App: React.FC = () => {
       <div className={`min-h-screen flex flex-col font-sans selection:bg-primary/30 ${language === 'ar' ? 'font-sans' : ''}`}>
         <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <main className="flex-grow">
-          <Routes>
-            {/* ── Core pages ───────────────────────────── */}
-            <Route path="/" element={<Home />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/industries" element={<Industries />} />
+          <Suspense
+            fallback={
+              <div className="min-h-[60vh] flex items-center justify-center">
+                <div className="w-10 h-10 border-4 border-primary/20 border-t-primary rounded-full animate-spin" />
+              </div>
+            }
+          >
+            <Routes>
+              {/* ── Core pages ───────────────────────────── */}
+              <Route path="/" element={<Home />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/industries" element={<Industries />} />
 
-            {/* ── Product sub-pages ────────────────────── */}
-            <Route path="/products/:category" element={<CategoryPage />} />
-            <Route path="/products/:category/:slug" element={<ProductPage />} />
+              {/* ── Product sub-pages ────────────────────── */}
+              <Route path="/products/:category" element={<CategoryPage />} />
+              <Route path="/products/:category/:slug" element={<ProductPage />} />
 
-            {/* ── Country landing pages ─────────────────── */}
-            <Route path="/export-to-:country" element={<CountryPage />} />
+              {/* ── Country landing pages ─────────────────── */}
+              <Route path="/export-to-:country" element={<CountryPage />} />
 
-            {/* ── Blog ─────────────────────────────────── */}
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
+              {/* ── Blog ─────────────────────────────────── */}
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:slug" element={<BlogPost />} />
 
-            {/* ── Service sub-pages ─────────────────────── */}
-            <Route path="/services/:slug" element={<ServicePage />} />
+              {/* ── Service sub-pages ─────────────────────── */}
+              <Route path="/services/:slug" element={<ServicePage />} />
 
-            {/* ── Legal ────────────────────────────────── */}
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/terms-of-service" element={<TermsOfService />} />
-            <Route path="/cookie-policy" element={<CookiePolicy />} />
+              {/* ── Legal ────────────────────────────────── */}
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-of-service" element={<TermsOfService />} />
+              <Route path="/cookie-policy" element={<CookiePolicy />} />
 
-            {/* ── 404 ──────────────────────────────────── */}
-            {/* 404 */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+              {/* ── 404 ──────────────────────────────────── */}
+              {/* 404 */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Suspense>
         </main>
         <Footer />
         <WhatsAppButton />

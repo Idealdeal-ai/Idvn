@@ -219,7 +219,7 @@ const Services: React.FC = () => {
                 className="group bg-white dark:bg-slate-900 rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-slate-100 dark:border-slate-800 flex flex-col h-full"
               >
                 <div className="relative h-64 overflow-hidden">
-                  <img 
+                  <img loading="lazy" 
                     alt={service.title} 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                     src={service.img}

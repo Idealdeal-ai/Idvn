@@ -58,7 +58,7 @@ const ProductCarousel: React.FC<{ images: string[]; title: string; onInteraction
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {images.map((img, idx) => (
-          <img
+          <img loading="lazy"
             key={idx}
             src={img}
             alt={`${title} view ${idx + 1}`}
@@ -168,7 +168,7 @@ const ConsumerGoodsCard: React.FC<ConsumerGoodsCardProps> = ({
       onClick={onInteraction}
       className="relative rounded-2xl overflow-hidden flex flex-col justify-end group block h-[520px] shadow-md hover:shadow-[0_28px_64px_rgba(0,0,0,0.35)] hover:-translate-y-2 transition-all duration-500 ease-out"
     >
-      <img
+      <img loading="lazy"
         src={image}
         alt={title}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
@@ -239,11 +239,7 @@ const Products: React.FC = () => {
       infoValue: t('products_page.agri_coffee_cert_value'),
       categorySlug: 'coffee',
       images: [
-        '/products/optimized/idealdeal-coffee-beans-1.jpg',
-        '/products/optimized/idealdeal-coffee-beans-2.jpg',
-        '/products/optimized/idealdeal-coffee-beans-3.jpg',
         '/products/optimized/idealdeal-coffee-beans-4.jpg',
-        '/products/optimized/idealdeal-coffee-beans-5.jpg',
       ],
     },
     {
@@ -256,11 +252,7 @@ const Products: React.FC = () => {
       infoValue: t('products_page.agri_cashew_pkg_value'),
       categorySlug: 'cashew-nuts',
       images: [
-        '/products/optimized/idealdeal-cashew-1.jpg',
         '/products/optimized/idealdeal-cashew-2.jpg',
-        '/products/optimized/idealdeal-cashew-3.jpg',
-        '/products/optimized/idealdeal-cashew-4.png',
-        '/products/optimized/idealdeal-cashew-5.png',
       ],
     },
     {
@@ -273,10 +265,8 @@ const Products: React.FC = () => {
       infoValue: t('products_page.agri_pepper_origin_value'),
       categorySlug: 'spices',
       images: [
-        '/products/idealdeal-black-white-pepper.jpg',
-        '/products/optimized/idealdeal-blackpepper-2.jpg',
-        '/products/optimized/idealdeal-blackpepper-3.jpg',
-        '/products/optimized/idealdeal-whitepepper-4.png',
+        '/products/idealdeal-spices.jpg',
+        
       ],
     },
     {
@@ -290,12 +280,6 @@ const Products: React.FC = () => {
       categorySlug: 'rice',
       images: [
         '/products/idealdeal-vietnam-rice-1.jpg',
-        '/products/idealdeal-vietnam-rice-2.jpg',
-        '/products/idealdeal-vietnam-rice-3.jpg',
-        '/products/idealdeal-vietnam-rice-4.jpg',
-        '/products/idealdeal-vietnam-rice-5.jpg',
-        '/products/idealdeal-vietnam-rice-6.jpg',
-        '/products/idealdeal-vietnam-rice-7.jpg',
       ],
     },
     {
@@ -309,11 +293,6 @@ const Products: React.FC = () => {
       categorySlug: 'green-tea',
       images: [
         '/products/idealdeal-green-tea-1.jpg',
-        '/products/idealdeal-green-tea-2.jpg',
-        '/products/idealdeal-green-tea-3.jpg',
-        '/products/idealdeal-green-tea-4.jpg',
-        '/products/idealdeal-green-tea-5.jpg',
-        '/products/idealdeal-green-tea-6.jpg',
       ],
     },
     {
@@ -327,9 +306,6 @@ const Products: React.FC = () => {
       categorySlug: 'pineapple',
       images: [
         '/products/idealdeal-pineapple-1.jpg',
-        '/products/idealdeal-pineapple-2.jpg',
-        '/products/idealdeal-pineapple-3.jpg',
-        '/products/idealdeal-pineapple-4.jpg',
       ],
     },
     {
@@ -533,7 +509,7 @@ const Products: React.FC = () => {
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <section className="relative h-[60vh] flex items-center justify-center bg-[#2D4A53]">
-        <img
+        <img loading="lazy"
           alt="World Map Overlay"
           className="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay"
           src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
@@ -555,7 +531,7 @@ const Products: React.FC = () => {
 
         {/* Floating Tab Bar */}
         <div className="absolute -bottom-10 left-0 w-full px-4 z-[60]">
-          <div className="max-w-4xl mx-auto bg-white dark:bg-slate-900 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-full p-2 flex justify-center gap-2 border border-slate-100 dark:border-slate-800">
+          <div className="max-w-4xl mx-auto bg-white dark:bg-slate-900 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-full p-2 flex md:justify-center gap-2 border border-slate-100 dark:border-slate-800 overflow-x-auto [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {tabs.map((tab) => (
               <button
                 key={tab.key}
@@ -609,7 +585,7 @@ const Products: React.FC = () => {
                 to="/products/textile-apparel"
                 className="relative group rounded-2xl overflow-hidden shadow-sm h-[600px] flex flex-col justify-end cursor-pointer"
               >
-                <img
+                <img loading="lazy"
                   alt={t('products_page.mfg_textile_title')}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                   src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=2070&auto=format&fit=crop"

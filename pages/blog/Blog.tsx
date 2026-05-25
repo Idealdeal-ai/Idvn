@@ -109,7 +109,7 @@ const Blog: React.FC = () => {
                   <div className="grid md:grid-cols-2">
                     <div className="aspect-[4/3] md:aspect-auto bg-slate-200 dark:bg-slate-700 overflow-hidden">
                       {filtered[0].coverImage && (
-                        <img
+                        <img loading="lazy"
                           src={filtered[0].coverImage}
                           alt={filtered[0].title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"

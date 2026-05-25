@@ -52,17 +52,17 @@ export interface ProductCategory {
 
 const coffeeProducts: Product[] = [
   {
-    slug: 'robusta-coffee-beans',
+    slug: 'robusta coffee beans',
     name: 'Vietnamese Robusta Coffee Beans',
     category: 'Coffee',
     categorySlug: 'coffee',
-    tagline: 'Bold, Full-Bodied Robusta from the Central Highlands',
-    description: "Premium Grade 1 Robusta coffee beans from Dak Lak — Vietnam's premier coffee-growing region. Consistently high caffeine content, earthy body, and low acidity ideal for espresso blends and instant coffee manufacturing.",
+    tagline: 'Bold, Full Bodied Robusta from the Central Highlands',
+    description: "Premium Grade 1 Robusta coffee beans from Dak Lak Vietnam's premier coffee growing region. Consistently high caffeine content, earthy body, and low acidity ideal for espresso blends and instant coffee manufacturing.",
     longDescription: `Vietnam is the world's largest producer of Robusta coffee, and Dak Lak province represents the pinnacle of Vietnamese coffee quality. Our Grade 1 Robusta beans are carefully cultivated at elevations between 500–900 metres above sea level, where volcanic red basalt soils and ideal rainfall create optimal growing conditions.
 
-Robusta coffee beans contain approximately 2.7% caffeine — nearly double that of Arabica — making them the preferred choice for espresso blends where a rich crema and powerful kick are required. The beans' natural resistance to disease and pests means fewer chemical interventions, resulting in a cleaner cup profile.
+Robusta coffee beans contain approximately 2.7% caffeine nearly double that of Arabica making them the preferred choice for espresso blends where a rich crema and powerful kick are required. The beans' natural resistance to disease and pests means fewer chemical interventions, resulting in a cleaner cup profile.
 
-Our processing facility uses both dry (natural) and wet (washed) processing methods. Dry-processed Robusta develops complex fruity notes and a heavier body, while washed Robusta is cleaner and brighter, making it ideal for blending with Arabica. Moisture content is carefully controlled to 12.5% maximum to ensure shelf stability during long shipping routes to the Middle East, Africa, and Europe.
+Our processing facility uses both dry (natural) and wet (washed) processing methods. Dry processed Robusta develops complex fruity notes and a heavier body, while washed Robusta is cleaner and brighter, making it ideal for blending with Arabica. Moisture content is carefully controlled to 12.5% maximum to ensure shelf stability during long shipping routes to the Middle East, Africa, and Europe.
 
 We supply to roasters, coffee manufacturers, and private label brands globally. Custom moisture levels, screen sizes, and processing methods are available upon request. All lots are traceable to the farm cooperative level.`,
     heroImage: '/coffee/vietnames rubesta.jpg',
@@ -90,24 +90,24 @@ We supply to roasters, coffee manufacturers, and private label brands globally. 
       { question: 'Do you provide pre-shipment samples?', answer: 'Yes, 500g samples are available free of charge. Courier costs are borne by the buyer for the first sample.' },
       { question: 'Can you provide organic certified Robusta?', answer: 'Yes, we work with USDA Organic and EU Organic certified farms. Organic lots have different pricing and require advance booking during harvest season.' },
     ],
-    relatedSlugs: ['arabica-coffee-beans', 'black-pepper-bulk'],
+    relatedSlugs: ['arabica coffee beans', 'black pepper bulk'],
     seoTitle: 'Vietnamese Robusta Coffee Beans Export | Grade 1 | Ideal Deal Vietnam',
     seoDescription: 'Buy premium Vietnamese Robusta coffee beans for export. Grade 1, Screen 18+, HACCP certified. MOQ 1 container. Supplier to Saudi Arabia, UAE, Germany, Italy.',
     keywords: ['robusta coffee beans Vietnam', 'Vietnamese coffee export', 'buy robusta coffee bulk', 'coffee beans supplier Vietnam', 'Dak Lak robusta coffee'],
     hsCode: '0901.11.10',
   },
   {
-    slug: 'arabica-coffee-beans',
+    slug: 'arabica coffee beans',
     name: 'Vietnamese Arabica Coffee Beans',
     category: 'Coffee',
     categorySlug: 'coffee',
-    tagline: "Specialty-Grade Arabica from Da Lat's Cool Highlands",
-    description: 'Single-origin Arabica coffee from the Lam Dong highlands, grown at 1,400–1,600 MASL. Bright acidity, floral aroma, and caramel sweetness make this a standout for specialty roasters and premium blends.',
-    longDescription: `Vietnam's Arabica production is centered in the cool, misty highlands of Lam Dong province, particularly around the city of Da Lat at elevations of 1,400–1,600 metres above sea level. The unique micro-climate — with temperatures ranging 15–25°C year-round — allows Arabica cherries to develop slowly, concentrating sugars and creating a complex cup profile that has surprised specialty coffee buyers worldwide.
+    tagline: "Specialty Grade Arabica from Da Lat's Cool Highlands",
+    description: 'Single origin Arabica coffee from the Lam Dong highlands, grown at 1,400–1,600 MASL. Bright acidity, floral aroma, and caramel sweetness make this a standout for specialty roasters and premium blends.',
+    longDescription: `Vietnam's Arabica production is centered in the cool, misty highlands of Lam Dong province, particularly around the city of Da Lat at elevations of 1,400–1,600 metres above sea level. The unique micro-climate with temperatures ranging 15–25°C year-round — allows Arabica cherries to develop slowly, concentrating sugars and creating a complex cup profile that has surprised specialty coffee buyers worldwide.
 
 Our Arabica offerings span washed, natural, and honey processing methods, each revealing different facets of the origin's character. Washed Arabica from our partner farms shows clean brightness, bergamot and citrus notes, and a honey-like finish. Natural-processed Arabica develops deeper fruit complexity with strawberry and dark chocolate undertones.
 
-As a specialty-focused supplier, we work directly with small-holder farming cooperatives to implement Best Agricultural Practices (BAP) and maintain traceability at the farm-group level. Cupping scores range from 82–87+ for our specialty micro-lots, with commercial grades available at 78–82.
+As a specialty focused supplier, we work directly with small-holder farming cooperatives to implement Best Agricultural Practices (BAP) and maintain traceability at the farm-group level. Cupping scores range from 82–87+ for our specialty micro-lots, with commercial grades available at 78–82.
 
 For private label roasters, we offer custom roasting profiles in collaboration with our Da Lat roasting partners, as well as green bean export for in-country roasting.`,
     heroImage: '/coffee/arabica green coffee beans.jpg',
@@ -188,16 +188,16 @@ All green bean shipments include ICO export certificate, phytosanitary certifica
     name: 'Vietnamese Drip Filter Coffee (Ground & Whole Bean)',
     category: 'Coffee',
     categorySlug: 'coffee',
-    tagline: 'Authentic Vietnamese-Style Ground Coffee — Ready for Private Label',
+    tagline: 'Authentic Vietnamese-Style Ground Coffee Ready for Private Label',
     description: 'Roasted and ground Vietnamese coffee for the traditional phin drip filter brewing method. Classic Robusta-dominant blends with optional butter/chicory addition. Ready for private label retail: we supply roasted ground coffee in custom bags, tins, or drip packs. Minimum 500 kg.',
-    longDescription: `Vietnamese coffee culture is centered around the slow-drip phin filter — a small stainless steel or aluminum filter placed over a cup, through which hot water percolates slowly to produce a strong, concentrated coffee. The cultural and culinary significance of this brewing method has created strong demand for authentic Vietnamese-roasted coffee in diaspora communities and Asian food markets worldwide.
+    longDescription: `Vietnamese coffee culture is centered around the slow-drip phin filter a small stainless steel or aluminum filter placed over a cup, through which hot water percolates slowly to produce a strong, concentrated coffee. The cultural and culinary significance of this brewing method has created strong demand for authentic Vietnamese-roasted coffee in diaspora communities and Asian food markets worldwide.
 
 Traditional Vietnamese coffee blends are typically Robusta-dominant (often 80–100% Robusta) and may include small additions of butter (during roasting) or chicory for additional body and complexity. The result is a bold, intensely flavoured coffee that holds up beautifully when served hot over ice with sweetened condensed milk — the classic Vietnamese cà phê sữa đá.
 
 **Product Formats Available:**
 - **Ground Coffee**: Medium-coarse grind for phin filter brewing; fine grind for espresso/Moka pot
 - **Whole Bean**: For buyers with their own grinding equipment
-- **Drip Packs (Hang Ear Filter)**: Pre-portioned single-serve drip bags — extremely popular for gifting and e-commerce
+- **Drip Packs (Hang Ear Filter)**: Pre-portioned single serve drip bags extremely popular for gifting and e-commerce
 - **Instant Soluble Coffee**: 3-in-1 sachets (coffee, sugar, creamer) for retail and food service
 
 All products are roasted in Vietnam at ISO 22000-certified facilities. Private label packaging available from 500 kg with custom printing. Perfect for Asian grocery distributors, specialty coffee shops, and online food retailers.`,
@@ -227,30 +227,30 @@ All products are roasted in Vietnam at ISO 22000-certified facilities. Private l
     hsCode: '0901.21.10',
   },
   {
-    slug: 'instant-coffee-3in1-export',
-    name: 'Vietnamese 3-in-1 Instant Coffee Sachets',
+    slug: 'instant coffee 3in1 export',
+    name: 'Vietnamese 3 in 1 Instant Coffee Sachets',
     category: 'Coffee',
     categorySlug: 'coffee',
-    tagline: 'Classic Vietnamese Instant Coffee — Private Label Ready for Global Retail',
-    description: 'Ready-to-drink 3-in-1 instant coffee sachets combining Vietnamese Robusta instant coffee, creamer, and sugar. Iconic smooth-sweet profile loved across Asia and the Middle East. Available in custom formulations and full private label packaging from 50,000 sachets.',
-    longDescription: `Vietnamese 3-in-1 instant coffee is one of Southeast Asia's most recognisable beverage formats — a convenient sachet combining spray-dried or freeze-dried Robusta coffee, non-dairy creamer, and granulated sugar for a rich, sweet cup in seconds. Vietnam is among the world's top producers of instant coffee and has developed domestic brands with immense regional recognition.
+    tagline: 'Classic Vietnamese Instant Coffee Private Label Ready for Global Retail',
+    description: 'Ready to drink 3 in 1 instant coffee sachets combining Vietnamese Robusta instant coffee, creamer, and sugar. Iconic smooth sweet profile loved across Asia and the Middle East. Available in custom formulations and full private label packaging from 50,000 sachets.',
+    longDescription: `Vietnamese 3 in 1 instant coffee is one of Southeast Asia's most recognisable beverage formats a convenient sachet combining spray dried or freeze dried Robusta coffee, non dairy creamer, and granulated sugar for a rich, sweet cup in seconds. Vietnam is among the world's top producers of instant coffee and has developed domestic brands with immense regional recognition.
 
 **Product Formats:**
-- **Classic 3-in-1**: Coffee, creamer, sugar in a single sachet (typically 16–20g). The format dominant across Vietnamese households and exported widely to ASEAN, GCC, and diaspora markets
-- **2-in-1 (Unsweetened)**: Coffee and creamer only — for calorie-conscious consumers or buyers who prefer to control sweetness
-- **Black instant coffee**: Pure soluble Robusta granules — for foodservice, hotel amenity sets, or mixing applications
-- **Specialty instant**: Freeze-dried Arabica sachets for premium tier retail
+- **Classic 3 in 1**: Coffee, creamer, sugar in a single sachet (typically 16–20g). The format dominant across Vietnamese households and exported widely to ASEAN, GCC, and diaspora markets
+- **2 in 1 (Unsweetened)**: Coffee and creamer only for calorie conscious consumers or buyers who prefer to control sweetness
+- **Black instant coffee**: Pure soluble Robusta granules for foodservice, hotel amenity sets, or mixing applications
+- **Specialty instant**: Freeze dried Arabica sachets for premium tier retail
 
 **Manufacturing:**
-Produced in ISO 22000 and HACCP certified facilities. Spray-drying or agglomeration process depending on formulation. Non-dairy creamer derived from palm kernel or coconut cream. Sugar sourced from Vietnamese refined sugar mills. Full nutritional analysis and allergen declarations provided with each production batch.
+Produced in ISO 22000 and HACCP certified facilities. Spray drying or agglomeration process depending on formulation. Non dairy creamer derived from palm kernel or coconut cream. Sugar sourced from Vietnamese refined sugar mills. Full nutritional analysis and allergen declarations provided with each production batch.
 
 **Private Label:**
-Custom printing on single-box sachets, display boxes, or bulk cartons. Custom formulations possible for caffeine level, sweetness, creamer type, and flavour additions (ginger, coconut, taro). MOQ 50,000 sachets for custom print.`,
+Custom printing on single box sachets, display boxes, or bulk cartons. Custom formulations possible for caffeine level, sweetness, creamer type, and flavour additions (ginger, coconut, taro). MOQ 50,000 sachets for custom print.`,
     heroImage: '/coffee/3-in-1 Instant Coffee Sachets.jpg',
     specs: [
-      { label: 'Format', value: '3-in-1 / 2-in-1 / Black instant' },
+      { label: 'Format', value: '3 in 1 / 2 in 1 / Black instant' },
       { label: 'Net Weight per Sachet', value: '16–20g (customisable)' },
-      { label: 'Coffee Type', value: 'Spray-dried Robusta / Freeze-dried Arabica (premium)' },
+      { label: 'Coffee Type', value: 'Spray dried Robusta / Freeze dried Arabica (premium)' },
       { label: 'Caffeine', value: '≈ 60–80mg per sachet' },
       { label: 'Shelf Life', value: '18–24 months' },
       { label: 'MOQ', value: '50,000 sachets (private label)' },
@@ -260,15 +260,15 @@ Custom printing on single-box sachets, display boxes, or bulk cartons. Custom fo
     exportMarkets: ['Saudi Arabia', 'UAE', 'Egypt', 'Philippines', 'Malaysia', 'USA', 'Australia', 'UK'],
     moq: '50,000 sachets (private label) / 1 carton (stock)',
     containerCapacity: '20ft: approx. 8–10 MT (sachets)',
-    packagingOptions: ['Individual foil sachet', '10-sachet display box', '50-sachet carton', 'Bulk 500-sachet carton', 'Custom OEM packaging'],
+    packagingOptions: ['Individual foil sachet', '10 sachet display box', '50 sachet carton', 'Bulk 500 sachet carton', 'Custom OEM packaging'],
     faqs: [
-      { question: 'Can you make a low-sugar or sugar-free 3-in-1 formula?', answer: 'Yes. We can substitute sucralose or stevia for cane sugar. Low-sugar and sugar-free variants require a minimum reformulation run of 100,000 sachets and are subject to a one-time R&D fee.' },
-      { question: 'What is the difference between spray-dried and freeze-dried instant coffee?', answer: 'Spray-dried instant coffee is produced by atomising brewed coffee into a hot air chamber, evaporating water rapidly. It is the more affordable format. Freeze-dried instant coffee is brewed coffee frozen at very low temperatures and then vacuum-dried, preserving more volatile aromatics. Freeze-dried produces a superior cup closer to filter coffee and commands a price premium of 30–50% over spray-dried.' },
+      { question: 'Can you make a low sugar or sugar free 3 in 1 formula?', answer: 'Yes. We can substitute sucralose or stevia for cane sugar. Low sugar and sugar free variants require a minimum reformulation run of 100,000 sachets and are subject to a one time R&D fee.' },
+      { question: 'What is the difference between spray dried and freeze dried instant coffee?', answer: 'Spray dried instant coffee is produced by atomising brewed coffee into a hot air chamber, evaporating water rapidly. It is the more affordable format. Freeze dried instant coffee is brewed coffee frozen at very low temperatures and then vacuum dried, preserving more volatile aromatics. Freeze dried produces a superior cup closer to filter coffee and commands a price premium of 30–50% over spray dried.' },
     ],
-    relatedSlugs: ['robusta-coffee-beans', 'vietnamese-drip-filter-coffee'],
-    seoTitle: 'Vietnamese 3-in-1 Instant Coffee Export | Private Label Sachets | Wholesale Supplier',
-    seoDescription: 'Export Vietnamese 3-in-1 instant coffee sachets. Halal, ISO 22000 certified. Custom private label from 50,000 sachets. Supplier to GCC, Asia, USA, Australia.',
-    keywords: ['Vietnamese instant coffee export', '3-in-1 instant coffee sachets', 'instant coffee private label Vietnam', 'coffee sachet manufacturer Vietnam', 'wholesale instant coffee Vietnam'],
+    relatedSlugs: ['robusta coffee beans', 'vietnamese drip filter coffee'],
+    seoTitle: 'Vietnamese 3 in 1 Instant Coffee Export | Private Label Sachets | Wholesale Supplier',
+    seoDescription: 'Export Vietnamese 3 in 1 instant coffee sachets. Halal, ISO 22000 certified. Custom private label from 50,000 sachets. Supplier to GCC, Asia, USA, Australia.',
+    keywords: ['Vietnamese instant coffee export', '3 in 1 instant coffee sachets', 'instant coffee private label Vietnam', 'coffee sachet manufacturer Vietnam', 'wholesale instant coffee Vietnam'],
     hsCode: '2101.11.00',
   },
 
@@ -276,19 +276,19 @@ Custom printing on single-box sachets, display boxes, or bulk cartons. Custom fo
 
 const cashewProducts: Product[] = [
   {
-    slug: 'cashew-nuts-w320',
+    slug: 'cashew nuts w320',
     name: 'Cashew Nuts W320',
     category: 'Cashew Nuts',
-    categorySlug: 'cashew-nuts',
-    tagline: "World-Standard W320 — Vietnam's Most Exported Cashew Grade",
+    categorySlug: 'cashew nuts',
+    tagline: "World Standard W320 — Vietnam's Most Exported Cashew Grade",
     description: "W320 whole white cashews — 320 kernels per pound — are the global benchmark for cashew quality. Vietnam is the world's #1 cashew exporter, and our W320 grade meets the strictest international import standards for the GCC, EU, and North American markets.",
-    longDescription: `Vietnam produces approximately 90% of the world's processed cashew kernels, and the W320 grade — 320 whole white kernels per pound — is the international standard against which all cashews are measured. Ideal Deal Vietnam sources directly from processing facilities in Binh Phuoc, Dong Nai, and Ba Ria–Vung Tau provinces, where modern shelling, grading, and packing technology produces kernels that consistently meet or exceed USDA and EU import standards.
+    longDescription: `Vietnam produces approximately 90% of the world's processed cashew kernels, and the W320 grade 320 whole white kernels per pound is the international standard against which all cashews are measured. Ideal Deal Vietnam sources directly from processing facilities in Binh Phuoc, Dong Nai, and Ba Ria–Vung Tau provinces, where modern shelling, grading, and packing technology produces kernels that consistently meet or exceed USDA and EU import standards.
 
-W320 cashews have a natural, creamy-ivory color, uniform size, and a characteristically sweet, buttery flavor profile with low tannin content. They are whole kernels with no splits or broken pieces, making them ideal for retail snack packs, confectionery, chocolate dipping, and foodservice applications across the Middle East, Europe, and Asia.
+W320 cashews have a natural, creamy ivory color, uniform size, and a characteristically sweet, buttery flavor profile with low tannin content. They are whole kernels with no splits or broken pieces, making them ideal for retail snack packs, confectionery, chocolate dipping, and foodservice applications across the Middle East, Europe, and Asia.
 
-Our processing plants operate under ISO 22000, HACCP, BRC, and FSSC 22000 certifications. All lots are tested for aflatoxins (B1, B2, G1, G2), heavy metals, pesticide residues, and moisture before release. We offer both conventional and organic-certified grades.
+Our processing plants operate under ISO 22000, HACCP, BRC, and FSSC 22000 certifications. All lots are tested for aflatoxins (B1, B2, G1, G2), heavy metals, pesticide residues, and moisture before release. We offer both conventional and organic certified grades.
 
-Packaging options include vacuum-sealed tins, nitrogen-flushed aluminum pouches, and bulk PP bags. Custom private label packaging is available for retail and wholesale brands.`,
+Packaging options include vacuum sealed tins, nitrogen flushed aluminum pouches, and bulk PP bags. Custom private label packaging is available for retail and wholesale brands.`,
     heroImage: '/cashew/Cashew Nuts W320.jpg',
     specs: [
       { label: 'Grade', value: 'W320 (320 kernels/lb)' },
@@ -306,34 +306,34 @@ Packaging options include vacuum-sealed tins, nitrogen-flushed aluminum pouches,
     exportMarkets: ['Saudi Arabia', 'UAE', 'Qatar', 'Kuwait', 'Germany', 'Netherlands', 'USA', 'India', 'China'],
     moq: '1 x 20ft container (≈ 10 MT)',
     containerCapacity: '10–12 MT per 20ft / 22–24 MT per 40ft',
-    packagingOptions: ['25 kg vacuum PP bag', '11.34 kg vacuum tin', '5 kg vacuum bag', 'Custom retail OEM', 'Nitrogen-flushed pouch'],
+    packagingOptions: ['25 kg vacuum PP bag', '11.34 kg vacuum tin', '5 kg vacuum bag', 'Custom retail OEM', 'Nitrogen flushed pouch'],
     faqs: [
-      { question: 'What is the difference between W320 and W240?', answer: 'W320 means 320 kernels per pound — medium-sized nuts. W240 means 240 kernels per pound — larger nuts. W320 is the most widely traded grade globally due to its price-quality balance.' },
-      { question: 'Do you supply Halal-certified cashews for the GCC market?', answer: 'Yes, all our cashew processing facilities hold current Halal certification from accredited Islamic certification bodies, with certificates available for review.' },
+      { question: 'What is the difference between W320 and W240?', answer: 'W320 means 320 kernels per pound medium sized nuts. W240 means 240 kernels per pound — larger nuts. W320 is the most widely traded grade globally due to its price-quality balance.' },
+      { question: 'Do you supply Halal certified cashews for the GCC market?', answer: 'Yes, all our cashew processing facilities hold current Halal certification from accredited Islamic certification bodies, with certificates available for review.' },
       { question: 'Can you arrange full container loads (FCL) directly to Saudi Arabia or UAE?', answer: 'Yes, we regularly ship FCL to Jeddah, Riyadh, Dubai, Abu Dhabi, and Dammam. We handle all export documentation including phytosanitary certificates, COO, and health certificates.' },
       { question: 'What is the aflatoxin testing protocol?', answer: 'Every lot is tested at accredited SGS, Intertek, or Bureau Veritas laboratories in Vietnam before shipment. Test reports are provided with each shipment.' },
       { question: 'Do you offer private label packaging?', answer: 'Yes, we offer custom label design, pouch printing, and branded tin manufacturing for MOQs of 500 kg and above.' },
     ],
-    relatedSlugs: ['cashew-nuts-w240', 'cashew-nuts-w180'],
+    relatedSlugs: ['cashew nuts w240', 'cashew nuts w180'],
     seoTitle: 'Cashew Nuts W320 Vietnam Export | Wholesale B2B Supplier | Halal Certified',
     seoDescription: 'Premium W320 cashew nuts from Vietnam. ISO 22000, HACCP, Halal certified. Export to Saudi Arabia, UAE, EU. MOQ 1 container. Best price from direct manufacturer.',
     keywords: ['cashew nuts w320 Vietnam', 'buy w320 cashews wholesale', 'Vietnam cashew exporter', 'cashew nuts supplier Saudi Arabia', 'w320 cashew price'],
     hsCode: '0801.32.00',
   },
   {
-    slug: 'cashew-nuts-w240',
+    slug: 'cashew nuts w240',
     name: 'Cashew Nuts W240',
     category: 'Cashew Nuts',
-    categorySlug: 'cashew-nuts',
-    tagline: 'Large, Premium W240 Cashews — The Choice for Luxury Retail',
-    description: 'W240 extra-large whole cashews — 240 kernels per pound. Premium grade favored for high-end retail, gourmet gifting, and hotel foodservice across the Middle East and Europe where kernel size signals quality.',
-    longDescription: `W240 cashews represent the premium tier of the global cashew market. With just 240 kernels per pound, each nut is visibly larger than standard W320, commanding a price premium in upscale retail, hotel dining, and luxury gifting markets. Vietnam's Binh Phuoc province produces the majority of large-grade cashews due to its ideal soil composition and the cultivation of high-yielding hybrid varieties.
+    categorySlug: 'cashew nuts',
+    tagline: 'Large, Premium W240 Cashews  The Choice for Luxury Retail',
+    description: 'W240 extra large whole cashews   240 kernels per pound. Premium grade favored for high end retail, gourmet gifting, and hotel foodservice across the Middle East and Europe where kernel size signals quality.',
+    longDescription: `W240 cashews represent the premium tier of the global cashew market. With just 240 kernels per pound, each nut is visibly larger than standard W320, commanding a price premium in upscale retail, hotel dining, and luxury gifting markets. Vietnam's Binh Phuoc province produces the majority of large grade cashews due to its ideal soil composition and the cultivation of high yielding hybrid varieties.
 
-Our W240 cashews are sourced exclusively from audited processing facilities that dedicate separate production lines to large-grade nuts to prevent cross-contamination with smaller grades. Optical sorting machines ensure size uniformity, while color graders separate ivory-white (IW) and lightly whiter (LW) lots.
+Our W240 cashews are sourced exclusively from audited processing facilities that dedicate separate production lines to large grade nuts to prevent cross contamination with smaller grades. Optical sorting machines ensure size uniformity, while color graders separate ivory white (IW) and lightly whiter (LW) lots.
 
-In the Middle East market — particularly Saudi Arabia, UAE, and Kuwait — larger cashew kernels are associated with higher quality and command significant retail price premiums. Our W240 grade is a preferred choice for luxury food retailers, private label brands, and hotel chains throughout the GCC region.
+In the Middle East market particularly Saudi Arabia, UAE, and Kuwait larger cashew kernels are associated with higher quality and command significant retail price premiums. Our W240 grade is a preferred choice for luxury food retailers, private label brands, and hotel chains throughout the GCC region.
 
-We offer W240 in vacuum-sealed retail packs of 250g, 500g, and 1 kg for branded retail programs, as well as bulk 25 kg bags for food manufacturers and blending facilities.`,
+We offer W240 in vacuum sealed retail packs of 250g, 500g, and 1 kg for branded retail programs, as well as bulk 25 kg bags for food manufacturers and blending facilities.`,
     heroImage: '/cashew/Cashew Nuts W240.jpg',
     specs: [
       { label: 'Grade', value: 'W240 (240 kernels/lb)' },
@@ -353,27 +353,27 @@ We offer W240 in vacuum-sealed retail packs of 250g, 500g, and 1 kg for branded 
     packagingOptions: ['25 kg vacuum PP bag', '11.34 kg vacuum tin', '250g / 500g / 1 kg retail pack', 'Custom OEM retail'],
     faqs: [
       { question: 'Why is W240 more expensive than W320?', answer: 'W240 nuts are larger (fewer per pound) and rarer. It requires more raw cashew fruit to produce the same weight of W240 kernels compared to W320, driving up the cost.' },
-      { question: 'Is W240 suitable for chocolate-covered cashew products?', answer: "Absolutely — the larger size of W240 makes it ideal for chocolate enrobing as it provides a more satisfying size-to-chocolate ratio and better visual appeal in premium gift boxes." },
+      { question: 'Is W240 suitable for chocolate covered cashew products?', answer: "Absolutely the larger size of W240 makes it ideal for chocolate enrobing as it provides a more satisfying size to chocolate ratio and better visual appeal in premium gift boxes." },
       { question: 'Can you supply mixed grades (W240 + W320) in one container?', answer: 'Yes, split containers are available for buyers wishing to compare or blend grades. Minimum per grade within a container is 5 MT.' },
     ],
-    relatedSlugs: ['cashew-nuts-w320', 'cashew-nuts-w180'],
+    relatedSlugs: ['cashew nuts w320', 'cashew nuts w180'],
     seoTitle: 'W240 Cashew Nuts Export Vietnam | Large Grade Premium Cashews B2B',
     seoDescription: 'Premium W240 large cashew nuts from Vietnam. Halal, ISO 22000, BRC A certified. Export to Saudi Arabia, UAE, Europe. MOQ 5 MT. Competitive wholesale price.',
     keywords: ['w240 cashew nuts Vietnam', 'large cashew nuts export', 'premium cashew supplier', 'w240 cashews wholesale price', 'cashew nuts UAE supplier'],
     hsCode: '0801.32.00',
   },
   {
-    slug: 'cashew-nuts-w180',
+    slug: 'cashew nuts w180',
     name: 'Cashew Nuts W180',
     category: 'Cashew Nuts',
-    categorySlug: 'cashew-nuts',
-    tagline: 'Jumbo W180 Cashews — Finest Large Whole Kernels for Premium Markets',
-    description: 'W180 jumbo cashew kernels — 180 kernels per pound. The pinnacle of whole cashew grades, reserved for ultra-premium retail, gourmet gifting, and high-end foodservice. Exceptional size, uniform ivory color.',
-    longDescription: `W180 cashew kernels are the crown jewel of the cashew industry. At just 180 kernels per pound, these are the largest commercially available whole cashew grade and command the highest market price. Their exceptional size, uniform ivory-white color, and distinct sweet flavor make them the preferred choice for premium gift box brands, luxury hotel minibar programs, and high-end confectionery.
+    categorySlug: 'cashew nuts',
+    tagline: 'Jumbo W180 Cashews  Finest Large Whole Kernels for Premium Markets',
+    description: 'W180 jumbo cashew kernels  180 kernels per pound. The pinnacle of whole cashew grades, reserved for ultra premium retail, gourmet gifting, and high end foodservice. Exceptional size, uniform ivory color.',
+    longDescription: `W180 cashew kernels are the crown jewel of the cashew industry. At just 180 kernels per pound, these are the largest commercially available whole cashew grade and command the highest market price. Their exceptional size, uniform ivory white color, and distinct sweet flavor make them the preferred choice for premium gift box brands, luxury hotel minibar programs, and high end confectionery.
 
-Producing W180 grade cashews requires careful selection of raw cashew nuts with the ideal size profile, followed by precision shelling and optical sorting to achieve grade compliance. The yield of W180 from raw nuts is lower than smaller grades, making it a limited-availability product that should be contracted in advance of harvest seasons.
+Producing W180 grade cashews requires careful selection of raw cashew nuts with the ideal size profile, followed by precision shelling and optical sorting to achieve grade compliance. The yield of W180 from raw nuts is lower than smaller grades, making it a limited availability product that should be contracted in advance of harvest seasons.
 
-Our W180 cashews are available from facilities with BRC Grade A, ISO 22000, HACCP, and full Halal certification. Each lot is subjected to third-party laboratory analysis for aflatoxins, pesticide residues, heavy metals, and microbiological safety before shipment.`,
+Our W180 cashews are available from facilities with BRC Grade A, ISO 22000, HACCP, and full Halal certification. Each lot is subjected to third party laboratory analysis for aflatoxins, pesticide residues, heavy metals, and microbiological safety before shipment.`,
     heroImage: '/cashew/Cashew Nuts W180.jpg',
     specs: [
       { label: 'Grade', value: 'W180 (180 kernels/lb)' },
@@ -394,32 +394,32 @@ Our W180 cashews are available from facilities with BRC Grade A, ISO 22000, HACC
       { question: 'How far in advance should I book W180 to guarantee supply?', answer: 'W180 is limited supply. We recommend booking 8–12 weeks before your required shipment date, especially for Q3/Q4 peak demand in the gifting season.' },
       { question: 'Can W180 be supplied in branded gift tins?', answer: 'Yes, we offer custom tin printing and design services. MOQ for custom branded tins is 500 units.' },
     ],
-    relatedSlugs: ['cashew-nuts-w240', 'cashew-nuts-w320'],
+    relatedSlugs: ['cashew nuts w240', 'cashew nuts w320'],
     seoTitle: 'W180 Jumbo Cashew Nuts Export Vietnam | Premium Grade | Direct Supplier',
     seoDescription: 'W180 jumbo cashew nuts from Vietnam. Largest whole kernel grade. Halal, BRC A, ISO 22000 certified. Export to Saudi Arabia, UAE, Germany. MOQ 3 MT.',
     keywords: ['w180 cashew nuts Vietnam', 'jumbo cashew export', 'premium cashew nuts supplier', 'w180 cashews wholesale'],
     hsCode: '0801.32.00',
   },
   {
-    slug: 'broken-cashew-sp-grade',
+    slug: 'broken cashew sp-grade',
     name: 'Broken Cashew Kernels (SP Grade)',
     category: 'Cashew Nuts',
-    categorySlug: 'cashew-nuts',
+    categorySlug: 'cashew nuts',
     tagline: 'SP Grade Broken Cashew — Best Value for Food Manufacturing & Confectionery',
     description: 'SP (Small Pieces) grade broken cashew kernels — pieces smaller than 3/8 of a whole kernel. Identical flavor and nutritional profile to whole grades at significantly lower price. Ideal for bakeries, confectionery, ice cream, granola, nut butter, and food manufacturers who do not require whole kernel presentation.',
-    longDescription: `SP (Small Pieces) broken cashew kernels are a natural byproduct of the whole kernel grading process — the same high-quality Vietnamese cashew, but in smaller pieces that form during shelling and do not meet the size threshold for whole grades (W180, W240, W320, W450).
+    longDescription: `SP (Small Pieces) broken cashew kernels are a natural byproduct of the whole kernel grading process — the same high quality Vietnamese cashew, but in smaller pieces that form during shelling and do not meet the size threshold for whole grades (W180, W240, W320, W450).
 
-SP grade cashews are nutritionally and flavor-identical to whole grades — the breaking happens mechanically during processing and does not reflect any quality difference in the underlying nut. This makes SP grade the smart buying choice for applications where nut presentation is not required:
+SP grade cashews are nutritionally and flavor identical to whole grades — the breaking happens mechanically during processing and does not reflect any quality difference in the underlying nut. This makes SP grade the smart buying choice for applications where nut presentation is not required:
 
 **Primary Uses:**
 - **Bakery**: Cashew cookies, cakes, muffins, and pastries
-- **Confectionery**: Chocolate-covered cashew pieces, pralines, and candy bars
+- **Confectionery**: Chocolate covered cashew pieces, pralines, and candy bars
 - **Ice Cream & Dairy**: Cashew inclusions in ice cream, yogurt, and dairy products
 - **Granola & Cereal**: Premium granola mixes, muesli, trail mix
 - **Nut Butter**: Cashew butter and cashew paste for spreads and sauces
 - **Savory Applications**: Stir-fry, curry, and rice dishes in food service
 
-**Price Advantage**: SP grade typically trades at 30–50% discount to equivalent W320 whole kernels, making it the preferred grade for food manufacturers with high-volume nut usage.
+**Price Advantage**: SP grade typically trades at 30–50% discount to equivalent W320 whole kernels, making it the preferred grade for food manufacturers with high volume nut usage.
 
 Same quality certifications as whole grades: ISO 22000, HACCP, BRC Grade A, Halal, Kosher. Same third-party testing for aflatoxins, pesticides, and heavy metals.`,
     heroImage: '/cashew/Broken Cashew Kernels (SP Grade).jpg',
@@ -443,26 +443,26 @@ Same quality certifications as whole grades: ISO 22000, HACCP, BRC Grade A, Hala
       { question: 'What is the difference between SP and SS grades?', answer: "SP (Small Pieces) are fragments less than 3/8 of a whole kernel — the smallest commercial broken grade. SS (Small Splits) are slightly larger halves or splits. Both offer the same value-for-money for food manufacturing." },
       { question: 'Are broken cashews suitable for cashew butter production?', answer: 'Yes — broken grades are ideal for cashew butter, cashew paste, and cashew cream production. The breaking is purely mechanical; flavor, oil content, and nutrition are identical to whole kernels. Most cashew butter manufacturers specifically source broken grades for cost efficiency.' },
     ],
-    relatedSlugs: ['cashew-nuts-w320', 'cashew-nuts-w240'],
+    relatedSlugs: ['cashew nuts w320', 'cashew nuts w240'],
     seoTitle: 'Broken Cashew SP Grade Vietnam | Food Manufacturing | Wholesale Price',
     seoDescription: 'SP grade broken cashew kernels from Vietnam. Same quality as whole grades at 30-50% lower price. HACCP, BRC A, Halal. MOQ 3 MT. Ideal for bakery, confectionery, ice cream.',
     keywords: ['broken cashew kernels Vietnam', 'SP grade cashew export', 'cashew pieces wholesale Vietnam', 'broken cashew food manufacturing', 'Vietnam cashew SP grade'],
     hsCode: '0801.32.00',
   },
   {
-    slug: 'roasted-salted-cashews-export',
+    slug: 'roasted salted cashews export',
     name: 'Roasted & Salted Cashew Nuts',
     category: 'Cashew Nuts',
-    categorySlug: 'cashew-nuts',
-    tagline: 'Ready-to-Eat Roasted Cashews — Private Label Snack Packs from Vietnam',
-    description: 'Dry-roasted or oil-roasted W240/W320 cashew nuts with sea salt. Ready-to-eat retail snack and food service format. Vacuum or nitrogen-flush sealed. BRC, ISO 22000, Halal certified. Private label retail bags from 500 kg.',
-    longDescription: `Roasted cashews represent the largest value-added cashew product category, transforming raw white cashew kernels into a ready-to-eat snack that commands a significant retail premium over raw kernels.
+    categorySlug: 'cashew nuts',
+    tagline: 'Ready to Eat Roasted Cashews — Private Label Snack Packs from Vietnam',
+    description: 'Dry roasted or oil roasted W240/W320 cashew nuts with sea salt. Ready to eat retail snack and food service format. Vacuum or nitrogen flush sealed. BRC, ISO 22000, Halal certified. Private label retail bags from 500 kg.',
+    longDescription: `Roasted cashews represent the largest value added cashew product category, transforming raw white cashew kernels into a ready to eat snack that commands a significant retail premium over raw kernels.
 
-Roasting Methods: Dry roasting (oven-roasted without added oil, clean label, light golden colour) or oil roasting (sunflower or coconut oil, richer flavour, preferred for Middle Eastern snack markets).
+Roasting Methods: Dry roasting (oven roasted without added oil, clean label, light golden colour) or oil roasting (sunflower or coconut oil, richer flavour, preferred for Middle Eastern snack markets).
 
 Seasoning Options: Plain unsalted, lightly salted (0.5%), sea salt (1.2-1.5%), honey roasted, chilli lime, smoked paprika. Custom flavour development available (MOQ 1 MT).
 
-Private Label: Retail-ready bags (75g-500g) with custom branding, nitrogen-flushed or vacuum sealed. Resealable zip-lock available.`,
+Private Label: Retail ready bags (75g-500g) with custom branding, nitrogen flushed or vacuum sealed. Resealable zip lock available.`,
     heroImage: '/cashew/Roasted & Salted Cashews (W320  W240).jpg',
     specs: [
       { label: 'Grade', value: 'W240 / W320 (whole kernels)' },
@@ -476,12 +476,12 @@ Private Label: Retail-ready bags (75g-500g) with custom branding, nitrogen-flush
     exportMarkets: ['Saudi Arabia', 'UAE', 'Germany', 'Netherlands', 'USA', 'Australia', 'UK', 'France'],
     moq: '500 kg (retail private label) / 1 MT (bulk)',
     containerCapacity: '8-10 MT per 20ft (retail packed)',
-    packagingOptions: ['75g-500g retail stand-up pouch', '1 kg food service bag', '10 kg bulk bag', 'Nitrogen-flush sealed', 'Custom OEM retail packaging'],
+    packagingOptions: ['75g-500g retail stand up pouch', '1 kg food service bag', '10 kg bulk bag', 'Nitrogen flush sealed', 'Custom OEM retail packaging'],
     faqs: [
-      { question: 'What is the shelf life of roasted cashews?', answer: 'Dry-roasted cashews in nitrogen-flushed sealed packaging have a shelf life of 9-12 months at ≤ 20°C away from direct sunlight. Once opened, consume within 4-6 weeks.' },
+      { question: 'What is the shelf life of roasted cashews?', answer: 'Dry roasted cashews in nitrogen flushed sealed packaging have a shelf life of 9-12 months at ≤ 20°C away from direct sunlight. Once opened, consume within 4-6 weeks.' },
       { question: 'Can you develop custom flavour seasonings for our market?', answer: 'Yes. R&D team can develop custom seasonings in 4-6 weeks. MOQ for custom flavour is 1 MT per SKU.' },
     ],
-    relatedSlugs: ['cashew-nuts-w320', 'cashew-nuts-w240'],
+    relatedSlugs: ['cashew nuts w320', 'cashew nuts w240'],
     seoTitle: 'Roasted Cashews Export Vietnam | Private Label Snack Packs Wholesale Supplier',
     seoDescription: 'Roasted salted cashews from Vietnam. W240/W320. Dry and oil roast. Halal, BRC, ISO 22000. Retail bags 75g-500g. Private label from 500kg. Export to GCC, EU, USA.',
     keywords: ['roasted cashews exporter Vietnam', 'salted cashew nuts wholesale', 'cashew snack private label Vietnam', 'roasted cashews bulk supplier'],
@@ -491,17 +491,17 @@ Private Label: Retail-ready bags (75g-500g) with custom branding, nitrogen-flush
 
 const riceProducts: Product[] = [
   {
-    slug: 'jasmine-rice',
+    slug: 'jasmine rice',
     name: 'Vietnamese Jasmine Rice (ST25)',
     category: 'Rice',
     categorySlug: 'rice',
-    tagline: "World's Best Rice — ST25 Jasmine from the Mekong Delta",
-    description: `Vietnam's award-winning ST25 Jasmine rice — voted "World's Best Rice" at the World Rice Conference. Long grain, naturally fragrant, soft and slightly sticky texture. Premium export grade for retail and foodservice buyers.`,
-    longDescription: `ST25, developed by Vietnamese scientist Ho Quang Cua and named "World's Best Rice" at the 2019 World Rice Conference in the Philippines, has transformed Vietnam's rice export reputation. This premium jasmine variety is cultivated in the Mekong Delta's rich alluvial soils, particularly in Soc Trang province, where the unique combination of freshwater, tidal salinity, and mineral-rich sediment creates ideal growing conditions.
+    tagline: "World's Best Rice  ST25 Jasmine from the Mekong Delta",
+    description: `Vietnam's award winning ST25 Jasmine rice  voted "World's Best Rice" at the World Rice Conference. Long grain, naturally fragrant, soft and slightly sticky texture. Premium export grade for retail and foodservice buyers.`,
+    longDescription: `ST25, developed by Vietnamese scientist Ho Quang Cua and named "World's Best Rice" at the 2019 World Rice Conference in the Philippines, has transformed Vietnam's rice export reputation. This premium jasmine variety is cultivated in the Mekong Delta's rich alluvial soils, particularly in Soc Trang province, where the unique combination of freshwater, tidal salinity, and mineral rich sediment creates ideal growing conditions.
 
-ST25 Jasmine rice is distinguished by its natural floral fragrance — released during cooking — its long, slender grain shape, and its soft, slightly sticky texture when cooked. Unlike Thai Jasmine (Hom Mali), Vietnamese ST25 has a subtly different aromatic profile with undertones of pandan leaf, which has proven particularly popular in Middle Eastern and Asian markets.
+ST25 Jasmine rice is distinguished by its natural floral fragrance  released during cooking its long, slender grain shape, and its soft, slightly sticky texture when cooked. Unlike Thai Jasmine (Hom Mali), Vietnamese ST25 has a subtly different aromatic profile with undertones of pandan leaf, which has proven particularly popular in Middle Eastern and Asian markets.
 
-Our export-grade ST25 is milled to 5% broken specification (5% broken rice content), ensuring consistently long, whole grains. Higher specification grades (2% and 0% broken) are available for premium retail brands. We also offer the option of aged ST25 (6–12 months), which further reduces moisture and produces a firmer grain texture preferred in some markets.
+Our export grade ST25 is milled to 5% broken specification (5% broken rice content), ensuring consistently long, whole grains. Higher specification grades (2% and 0% broken) are available for premium retail brands. We also offer the option of aged ST25 (6–12 months), which further reduces moisture and produces a firmer grain texture preferred in some markets.
 
 All rice is processed in modern mills certified to ISO 22000 and HACCP. Fumigation with approved phytosanitary treatments is included in the export price, along with phytosanitary certificates from Vietnam's Plant Protection Department.`,
     heroImage: '/rice/Vietnamese Jasmine Rice (ST25).jpg',
@@ -525,27 +525,27 @@ All rice is processed in modern mills certified to ISO 22000 and HACCP. Fumigati
     packagingOptions: ['50 kg PP bag', '25 kg PP bag', '10 kg PP bag', '5 kg vacuum bag', '1 kg retail bag', 'Custom OEM printing'],
     faqs: [
       { question: 'What makes ST25 different from Thai Jasmine rice?', answer: "ST25 has a similar floral aroma to Thai Hom Mali but with a distinct pandan note. It tends to be slightly softer when cooked and is generally priced more competitively. Many buyers blend ST25 with domestic varieties for cost optimization." },
-      { question: 'Can you supply custom-printed PP bags for retail?', answer: 'Yes, we offer full-color print PP bag manufacturing from 1 kg to 50 kg sizes. MOQ for custom printing is 5,000 bags.' },
+      { question: 'Can you supply custom printed PP bags for retail?', answer: 'Yes, we offer full-color print PP bag manufacturing from 1 kg to 50 kg sizes. MOQ for custom printing is 5,000 bags.' },
       { question: 'Do you handle phytosanitary inspection and fumigation?', answer: 'Yes, fumigation and phytosanitary certificate issuance are included in all export quotations. We work with Vietnam\'s Plant Protection Department (PPD) for all certificates.' },
     ],
-    relatedSlugs: ['cashew-nuts-w320', 'frozen-white-shrimp'],
+    relatedSlugs: ['cashew nuts w320', 'frozen white shrimp'],
     seoTitle: 'Vietnamese ST25 Jasmine Rice Export | World\'s Best Rice | B2B Supplier',
     seoDescription: "Export ST25 Jasmine rice from Vietnam's Mekong Delta. World's Best Rice 2019. Fragrant, long grain, 5% broken. MOQ 1 container. Supplier to Saudi Arabia, UAE, Africa.",
     keywords: ['ST25 jasmine rice Vietnam', 'Vietnamese jasmine rice export', 'buy jasmine rice wholesale', 'Vietnam rice supplier', 'fragrant rice export'],
     hsCode: '1006.30.20',
   },
   {
-    slug: 'long-grain-white-rice-25-broken',
+    slug: 'long grain white rice 25 broken',
     name: 'Long Grain White Rice (25% Broken)',
     category: 'Rice',
     categorySlug: 'rice',
-    tagline: 'Cost-Effective 25% Broken White Rice — High-Volume Export Grade',
-    description: 'Vietnam long grain white rice 25% broken — the most affordable export grade. Popular in West Africa, the Middle East, and South Asia for household consumption and food aid programs. Consistently milled, clean, and well-dried.',
-    longDescription: `Vietnam's 25% broken white rice is the workhorse of global rice trade — offering excellent nutritional value at the most accessible price point. Primarily traded to West African countries (Ivory Coast, Senegal, Benin, Cameroon), South Asia, and the Middle East for government food programs and household consumption.
+    tagline: 'Cost Effective 25% Broken White Rice  High Volume Export Grade',
+    description: 'Vietnam long grain white rice 25% broken  the most affordable export grade. Popular in West Africa, the Middle East, and South Asia for household consumption and food aid programs. Consistently milled, clean, and well dried.',
+    longDescription: `Vietnam's 25% broken white rice is the workhorse of global rice trade  offering excellent nutritional value at the most accessible price point. Primarily traded to West African countries (Ivory Coast, Senegal, Benin, Cameroon), South Asia, and the Middle East for government food programs and household consumption.
 
 The 25% designation refers to the proportion of broken kernel pieces (shorter than 3/4 of the full grain length) allowed within the lot. This grade is produced during the milling of premium whole-grain rice and represents an economically efficient use of the full rice crop.
 
-Despite the lower price, our 25% broken rice is carefully cleaned, de-stoned, and dried to ≤14% moisture content — critical for safe long-distance shipping. Fumigation with approved agents (phosphine) and phytosanitary certification from Vietnam's Plant Protection Department are included with all export shipments.
+Despite the lower price, our 25% broken rice is carefully cleaned, de-stoned, and dried to ≤14% moisture content  critical for safe long distance shipping. Fumigation with approved agents (phosphine) and phytosanitary certification from Vietnam's Plant Protection Department are included with all export shipments.
 
 Packaging in new 50 kg PP woven bags with polypropylene inner liner is standard. Custom printed bags with buyer's brand or government food program logos are available for container quantities.`,
     heroImage: '/rice/Long Grain White Rice (25%25 Broken).jpg',
@@ -568,24 +568,24 @@ Packaging in new 50 kg PP woven bags with polypropylene inner liner is standard.
     packagingOptions: ['50 kg PP woven bag', '25 kg PP bag', 'Custom printed bag (MOQ 5,000 bags)'],
     faqs: [
       { question: 'What is the difference between 5% broken and 25% broken rice?', answer: '5% broken contains at most 5% broken kernel pieces — predominantly whole, long grains. 25% broken allows up to a quarter broken pieces, which affects texture slightly but not nutrition. Price is correspondingly lower.' },
-      { question: 'Is 25% broken rice suitable for retail packaging?', answer: 'Yes — 25% broken rice is widely sold in retail 5 kg, 10 kg, and 25 kg bags across West Africa and parts of Asia. We can supply custom-printed retail bags with your brand from 5,000-bag MOQ.' },
+      { question: 'Is 25% broken rice suitable for retail packaging?', answer: 'Yes — 25% broken rice is widely sold in retail 5 kg, 10 kg, and 25 kg bags across West Africa and parts of Asia. We can supply custom printed retail bags with your brand from 5,000 bag MOQ.' },
     ],
-    relatedSlugs: ['jasmine-rice', 'glutinous-sticky-rice'],
+    relatedSlugs: ['jasmine rice', 'glutinous sticky rice'],
     seoTitle: 'Vietnam 25% Broken White Rice Export | Wholesale Supplier B2B',
     seoDescription: 'Buy Vietnam long grain white rice 25% broken. ISO 22000, HACCP certified. MOQ 1 container. Export to West Africa, Middle East, Asia. Competitive FOB price.',
     keywords: ['25% broken rice Vietnam', 'long grain white rice export', 'Vietnam rice 25 broken', 'cheap rice bulk Vietnam', 'white rice Africa supplier'],
     hsCode: '1006.30.90',
   },
   {
-    slug: 'glutinous-sticky-rice',
+    slug: 'glutinous sticky rice',
     name: 'Vietnamese Glutinous (Sticky) Rice',
     category: 'Rice',
     categorySlug: 'rice',
     tagline: 'Premium Glutinous Rice for Asian Cuisine, Confectionery & Brewing',
-    description: 'High-quality Vietnamese glutinous (waxy) rice — opaque white, short-to-medium grain, high amylopectin content. Prized for Asian desserts, rice wine production, mochi, and ceremonial foods. Exported to ASEAN, East Asia, and specialty ethnic markets globally.',
-    longDescription: `Glutinous rice (Oryza sativa var. glutinosa), also called sticky rice or waxy rice, is an essential ingredient across Southeast and East Asian cuisines. Unlike regular white rice, glutinous varieties contain predominantly amylopectin starch (with negligible amylose), which creates the characteristic sticky, cohesive texture when cooked — without any added gluten.
+    description: 'High quality Vietnamese glutinous (waxy) rice  opaque white, short to medium grain, high amylopectin content. Prized for Asian desserts, rice wine production, mochi, and ceremonial foods. Exported to ASEAN, East Asia, and specialty ethnic markets globally.',
+    longDescription: `Glutinous rice (Oryza sativa var. glutinosa), also called sticky rice or waxy rice, is an essential ingredient across Southeast and East Asian cuisines. Unlike regular white rice, glutinous varieties contain predominantly amylopectin starch (with negligible amylose), which creates the characteristic sticky, cohesive texture when cooked without any added gluten.
 
-Vietnam is a significant producer of glutinous rice, with notable cultivation in the northern upland provinces (Son La, Dien Bien, Hoa Binh) and Mekong Delta lowlands. Northern upland glutinous rice — grown by ethnic minority communities at altitude — commands a premium for its superior aroma and firmer, more distinct sticky texture.
+Vietnam is a significant producer of glutinous rice, with notable cultivation in the northern upland provinces (Son La, Dien Bien, Hoa Binh) and Mekong Delta lowlands. Northern upland glutinous rice  grown by ethnic minority communities at altitude commands a premium for its superior aroma and firmer, more distinct sticky texture.
 
 **Primary End Uses:**
 - **Asian desserts**: Sticky rice cakes (bánh chưng, xôi), mochi, tang yuan, glutinous rice balls
@@ -593,7 +593,7 @@ Vietnam is a significant producer of glutinous rice, with notable cultivation in
 - **Baby food**: Easily digestible, gentle on sensitive stomachs
 - **Ceremonial foods**: Essential for Vietnamese, Thai, Lao, and Chinese festival foods
 
-Available in long-grain (Thai-style), short-grain, and black glutinous (purple waxy) varieties. Custom moisture, cleaning, and polishing specifications available.`,
+Available in long grain (Thai style), short grain, and black glutinous (purple waxy) varieties. Custom moisture, cleaning, and polishing specifications available.`,
     heroImage: '/rice/Vietnamese Glutinous (Sticky) Rice.jpg',
     specs: [
       { label: 'Type', value: 'White Glutinous / Black Glutinous' },
@@ -613,73 +613,73 @@ Available in long-grain (Thai-style), short-grain, and black glutinous (purple w
     packagingOptions: ['50 kg PP bag', '25 kg PP bag', '5 kg vacuum retail', '1 kg retail bag', 'Custom OEM print'],
     faqs: [
       { question: 'What is the difference between white and black glutinous rice?', answer: 'White glutinous rice is the standard variety with opaque white appearance. Black (purple) glutinous rice gets its colour from anthocyanins in the outer bran layer — it has a nuttier flavour and is rich in antioxidants, commanding a price premium in specialty and health food markets.' },
-      { question: 'Can glutinous rice be used in rice wine production?', answer: "Yes — the high amylopectin content makes glutinous rice ideal for traditional Asian rice wine fermentation. Its starch structure is highly accessible to the enzymes in starter cultures (bánh men, koji), enabling efficient saccharification and fermentation." },
+      { question: 'Can glutinous rice be used in rice wine production?', answer: "Yes the high amylopectin content makes glutinous rice ideal for traditional Asian rice wine fermentation. Its starch structure is highly accessible to the enzymes in starter cultures (bánh men, koji), enabling efficient saccharification and fermentation." },
     ],
-    relatedSlugs: ['jasmine-rice', 'long-grain-white-rice-25-broken'],
+    relatedSlugs: ['jasmine rice', 'long grain white rice 25 broken'],
     seoTitle: 'Vietnamese Glutinous Sticky Rice Export | Wholesale B2B Supplier',
     seoDescription: 'Premium Vietnamese glutinous sticky rice for export. White and black varieties. ISO 22000, HACCP. MOQ 1 container. Export to Asia, EU ethnic markets, USA.',
     keywords: ['glutinous rice Vietnam export', 'sticky rice supplier Vietnam', 'waxy rice export', 'Vietnamese sticky rice wholesale', 'black glutinous rice Vietnam'],
     hsCode: '1006.20.20',
   },
   {
-    slug: 'brown-rice-export',
+    slug: 'brown rice export',
     name: 'Vietnamese Brown Rice (Whole Grain)',
     category: 'Rice',
     categorySlug: 'rice',
-    tagline: 'Nutrient-Rich Brown Rice from Vietnam — Health Food & Organic Markets',
-    description: 'Whole grain brown rice from the Mekong Delta — rice with only the inedible outer husk removed, retaining the nutritious bran and germ layers. High fiber, naturally gluten-free, suitable for health food retail, organic distribution, and specialty foodservice.',
-    longDescription: `Brown rice is produced by removing only the outer inedible husk from paddy rice, leaving the nutritious bran and germ layers intact. This minimal processing retains significantly higher levels of fiber, B vitamins (B1, B3, B6), magnesium, phosphorus, and antioxidants compared to white rice — making it the preferred choice for health-conscious consumers globally.
+    tagline: 'Nutrient Rich Brown Rice from Vietnam  Health Food & Organic Markets',
+    description: 'Whole grain brown rice from the Mekong Delta  rice with only the inedible outer husk removed, retaining the nutritious bran and germ layers. High fiber, naturally gluten free, suitable for health food retail, organic distribution, and specialty foodservice.',
+    longDescription: `Brown rice is produced by removing only the outer inedible husk from paddy rice, leaving the nutritious bran and germ layers intact. This minimal processing retains significantly higher levels of fiber, B vitamins (B1, B3, B6), magnesium, phosphorus, and antioxidants compared to white rice making it the preferred choice for health conscious consumers globally.
 
-Vietnam's Mekong Delta produces excellent quality brown rice, particularly from Jasmine (ST25 brown), Long An, and An Giang provinces. The warm climate and mineral-rich alluvial soils of the delta produce rice with a characteristic nutty flavor and firm, chewy texture that distinguishes it from other origins.
+Vietnam's Mekong Delta produces excellent quality brown rice, particularly from Jasmine (ST25 brown), Long An, and An Giang provinces. The warm climate and mineral rich alluvial soils of the delta produce rice with a characteristic nutty flavor and firm, chewy texture that distinguishes it from other origins.
 
 **Product Variants Available:**
-- **ST25 Brown Rice**: Premium brown version of Vietnam's award-winning jasmine variety — retains floral fragrance with added nutritional profile
-- **Long Grain Brown Rice**: Standard long-grain brown rice for everyday health food use
+- **ST25 Brown Rice**: Premium brown version of Vietnam's award winning jasmine variety  retains floral fragrance with added nutritional profile
+- **Long Grain Brown Rice**: Standard long grain brown rice for everyday health food use
 - **Organic Brown Rice**: From USDA Organic / EU Organic certified farms in the Mekong Delta
 
-Brown rice requires careful moisture management and packaging to prevent rancidity of the bran oils during storage and shipping. Vacuum packaging is strongly recommended for retail-grade product. All export lots are tested for moisture (≤14%) and aflatoxins.`,
+Brown rice requires careful moisture management and packaging to prevent rancidity of the bran oils during storage and shipping. Vacuum packaging is strongly recommended for retail grade product. All export lots are tested for moisture (≤14%) and aflatoxins.`,
     heroImage: '/rice/Vietnamese Brown Rice (Whole Grain).jpg',
     specs: [
       { label: 'Type', value: 'Long Grain Brown Rice / ST25 Brown' },
       { label: 'Moisture', value: '≤ 14%' },
       { label: 'Broken', value: '≤ 5%' },
-      { label: 'Milling', value: 'Husk removed only — bran intact' },
+      { label: 'Milling', value: 'Husk removed only bran intact' },
       { label: 'Foreign Matter', value: '≤ 0.1%' },
       { label: 'Origin', value: 'Mekong Delta (Long An, An Giang)' },
       { label: 'Organic Option', value: 'Available (USDA / EU Organic)' },
       { label: 'Shelf Life', value: '12 months (vacuum packed)' },
       { label: 'HS Code', value: '1006.20.10' },
     ],
-    certifications: ['ISO 22000', 'HACCP', 'Organic (USDA/EU — select lots)', 'Phytosanitary Certificate', 'Halal (on request)'],
+    certifications: ['ISO 22000', 'HACCP', 'Organic (USDA/EU  select lots)', 'Phytosanitary Certificate', 'Halal (on request)'],
     exportMarkets: ['Australia', 'Germany', 'USA', 'UK', 'Japan', 'South Korea', 'UAE', 'Canada'],
     moq: '5 MT (specialty) / 1 container (commercial)',
     containerCapacity: '20 MT per 20ft / 24 MT per 40ft',
     packagingOptions: ['50 kg PP bag', '5 kg vacuum bag', '1 kg retail vacuum', '2 kg retail', 'Custom OEM'],
     faqs: [
-      { question: 'Does brown rice ship well over long distances?', answer: 'Brown rice is more perishable than white rice due to the oil-rich bran layer. For export, vacuum packaging is strongly recommended to prevent oxidation and rancidity. Properly vacuum-packed brown rice maintains quality for 12 months at ambient temperature.' },
-      { question: 'Can you supply organic certified brown rice?', answer: 'Yes. We work with EU Organic and USDA Organic certified farming cooperatives in the Mekong Delta. Organic lots are available from 5 MT with full organic chain-of-custody documentation.' },
+      { question: 'Does brown rice ship well over long distances?', answer: 'Brown rice is more perishable than white rice due to the oil rich bran layer. For export, vacuum packaging is strongly recommended to prevent oxidation and rancidity. Properly vacuum packed brown rice maintains quality for 12 months at ambient temperature.' },
+      { question: 'Can you supply organic certified brown rice?', answer: 'Yes. We work with EU Organic and USDA Organic certified farming cooperatives in the Mekong Delta. Organic lots are available from 5 MT with full organic chain of custody documentation.' },
     ],
-    relatedSlugs: ['jasmine-rice', 'glutinous-sticky-rice'],
+    relatedSlugs: ['jasmine rice', 'glutinous sticky rice'],
     seoTitle: 'Vietnamese Brown Rice Export | Whole Grain | Organic Option | B2B Supplier',
     seoDescription: 'Premium whole grain brown rice from Vietnam. Long grain and ST25 varieties. Organic option available. HACCP, ISO 22000. MOQ 5 MT. Export to EU, USA, Australia.',
     keywords: ['brown rice Vietnam export', 'whole grain rice supplier', 'organic brown rice Vietnam', 'Vietnamese brown rice wholesale', 'health food rice export'],
     hsCode: '1006.20.10',
   },
   {
-    slug: 'parboiled-rice-export',
+    slug: 'parboiled rice export',
     name: 'Parboiled Rice (5% Broken)',
     category: 'Rice',
     categorySlug: 'rice',
-    tagline: 'Parboiled Long-Grain Rice — Non-Sticky, Nutrient-Rich Vietnam Export',
-    description: 'Parboiled (converted) long-grain white rice steamed under pressure before milling to drive nutrients into the grain. Non-sticky, firm texture. 5% broken. Moisture ≤ 14%. Ideal for African, Middle Eastern, and South Asian markets. HACCP, Halal certified. MOQ 1 x 20ft.',
-    longDescription: `Parboiled rice is produced by soaking, pressure-steaming, and drying paddy rice before milling. This hydrothermal process drives water-soluble B vitamins into the endosperm, making parboiled rice significantly more nutritious than regular white rice while retaining white appearance.
+    tagline: 'Parboiled Long Grain Rice — Non Sticky, Nutrient Rich Vietnam Export',
+    description: 'Parboiled (converted) long grain white rice steamed under pressure before milling to drive nutrients into the grain. Non sticky, firm texture. 5% broken. Moisture ≤ 14%. Ideal for African, Middle Eastern, and South Asian markets. HACCP, Halal certified. MOQ 1 x 20ft.',
+    longDescription: `Parboiled rice is produced by soaking, pressure steaming, and drying paddy rice before milling. This hydrothermal process drives water soluble B vitamins into the endosperm, making parboiled rice significantly more nutritious than regular white rice while retaining white appearance.
 
-Key benefits: Superior nutrition (retains 80-90% of B vitamins), non-sticky firm grain for pilaf and biryani, better pest resistance for longer storage, higher milling yield.
+Key benefits: Superior nutrition (retains 80-90% of B vitamins), non sticky firm grain for pilaf and biryani, better pest resistance for longer storage, higher milling yield.
 
 Market: Dominant variety across West Africa (Nigeria, Senegal, Ivory Coast), traditionally preferred for Indian biryani, and increasingly popular in the GCC.`,
     heroImage: '/rice/Parboiled Rice (5%25 Broken, Long Grain).jpg',
     specs: [
-      { label: 'Type', value: 'Long-grain parboiled rice' },
+      { label: 'Type', value: 'Long grain parboiled rice' },
       { label: 'Broken Grain', value: '5% max' },
       { label: 'Moisture', value: '≤ 14%' },
       { label: 'Chalky Grains', value: '≤ 2%' },
@@ -693,12 +693,12 @@ Market: Dominant variety across West Africa (Nigeria, Senegal, Ivory Coast), tra
     containerCapacity: '22-24 MT per 20ft / 28-30 MT per 40ft',
     packagingOptions: ['50 kg PP woven bag', '25 kg PP woven bag', '10 kg retail bag', '5 kg retail poly bag', 'Custom OEM private label bag'],
     faqs: [
-      { question: 'What is the visual difference between parboiled and regular white rice?', answer: 'Parboiled rice has a slightly golden-amber appearance due to caramelisation during steaming. After cooking, grains are more distinct and less sticky than regular white rice.' },
+      { question: 'What is the visual difference between parboiled and regular white rice?', answer: 'Parboiled rice has a slightly golden amber appearance due to caramelisation during steaming. After cooking, grains are more distinct and less sticky than regular white rice.' },
       { question: 'Can you supply with private label bags for West African retail?', answer: 'Yes. Custom printed 50 kg bags are available from 1 container (22 MT). Artwork approval: 5-7 working days; first production run: 14-21 days.' },
     ],
-    relatedSlugs: ['long-grain-white-rice-25-broken', 'jasmine-rice'],
+    relatedSlugs: ['long grain white rice 25 broken', 'jasmine rice'],
     seoTitle: 'Parboiled Rice Export Vietnam | Converted Rice 5% Broken Wholesale Supplier',
-    seoDescription: 'Parboiled long-grain rice from Vietnam. 5% broken. Halal, HACCP. 50kg bags, retail packs. MOQ 1 container. Export to Nigeria, Ghana, GCC, India.',
+    seoDescription: 'Parboiled long grain rice from Vietnam. 5% broken. Halal, HACCP. 50kg bags, retail packs. MOQ 1 container. Export to Nigeria, Ghana, GCC, India.',
     keywords: ['parboiled rice Vietnam export', 'converted rice wholesale supplier', 'parboiled rice Africa export', 'rice exporter Vietnam parboiled'],
     hsCode: '1006.30.20',
   },
@@ -706,26 +706,26 @@ Market: Dominant variety across West Africa (Nigeria, Senegal, Ivory Coast), tra
 
 const seafoodProducts: Product[] = [
   {
-    slug: 'frozen-white-shrimp',
+    slug: 'frozen white shrimp',
     name: 'Frozen Vannamei (White) Shrimp',
     category: 'Frozen Seafood',
-    categorySlug: 'frozen-seafood',
-    tagline: 'Premium IQF Vannamei Shrimp — Vietnam\'s Top Export Seafood',
-    description: 'Individual Quick Frozen (IQF) Vannamei white shrimp from VASEP-certified aquaculture farms in the Mekong Delta. Available HOSO, HLSO, PD, PTO, and PDTO. The gold standard for international seafood buyers.',
-    longDescription: `Vietnam is consistently among the top 3 global exporters of frozen shrimp, with vannamei (Litopenaeus vannamei) representing the largest volume. The Mekong Delta — with its complex network of brackish water canals, rivers, and tidal zones — provides ideal conditions for intensive shrimp aquaculture.
+    categorySlug: 'frozen seafood',
+    tagline: 'Premium IQF Vannamei Shrimp Vietnam\'s Top Export Seafood',
+    description: 'Individual Quick Frozen (IQF) Vannamei white shrimp from VASEP certified aquaculture farms in the Mekong Delta. Available HOSO, HLSO, PD, PTO, and PDTO. The gold standard for international seafood buyers.',
+    longDescription: `Vietnam is consistently among the top 3 global exporters of frozen shrimp, with vannamei (Litopenaeus vannamei) representing the largest volume. The Mekong Delta with its complex network of brackish water canals, rivers, and tidal zones provides ideal conditions for intensive shrimp aquaculture.
 
-Our vannamei shrimp supply chain spans from certified farms practicing Responsible Aquaculture Protocol (RAP) through to EU-registered, HACCP-certified cold chain processing plants. All shrimp are harvested to order, immediately transferred to processing facilities in refrigerated trucks, and processed within 4 hours of harvest to preserve peak freshness and texture.
+Our vannamei shrimp supply chain spans from certified farms practicing Responsible Aquaculture Protocol (RAP) through to EU-registered, HACCP certified cold chain processing plants. All shrimp are harvested to order, immediately transferred to processing facilities in refrigerated trucks, and processed within 4 hours of harvest to preserve peak freshness and texture.
 
 We offer a comprehensive range of specifications:
-- HOSO (Head On, Shell On) — most economical, ideal for markets preferring whole presentation
-- HLSO (Headless, Shell On) — popular in Europe and North America
-- PD (Peeled, Deveined) — ready for cooking, popular in food service
-- PTO (Peeled, Tail On) — presentation grade for restaurants and retail shrimp rings
-- PDTO (Peeled, Deveined, Tail On) — premium presentation with maximum convenience
+- HOSO (Head On, Shell On)  most economical, ideal for markets preferring whole presentation
+- HLSO (Headless, Shell On) popular in Europe and North America
+- PD (Peeled, Deveined) ready for cooking, popular in food service
+- PTO (Peeled, Tail On) presentation grade for restaurants and retail shrimp rings
+- PDTO (Peeled, Deveined, Tail On) premium presentation with maximum convenience
 
 Count sizes range from 8/12 to 100/200 (pieces per pound), with the most popular export sizes being 21/25, 26/30, 31/40, and 41/50.
 
-All processing facilities hold current EU registration, FDA registration (for USA), and HACCP certification. Third-party testing covers antibiotics (nitrofurans, chloramphenicol, oxytetracycline), heavy metals, and microbiological parameters before each shipment.`,
+All processing facilities hold current EU registration, FDA registration (for USA), and HACCP certification. Third party testing covers antibiotics (nitrofurans, chloramphenicol, oxytetracycline), heavy metals, and microbiological parameters before each shipment.`,
     heroImage: '/fish/Frozen Vannamel (White) Shrimp.jpg',
     specs: [
       { label: 'Species', value: 'Litopenaeus vannamei (White Shrimp)' },
@@ -745,27 +745,27 @@ All processing facilities hold current EU registration, FDA registration (for US
     containerCapacity: '10–12 MT per 20ft reefer / 22–24 MT per 40ft reefer',
     packagingOptions: ['1 kg IQF bag x 10 per carton', '1.8 kg block x 6 per carton', '2 kg block x 6 per carton', 'Custom OEM retail packs'],
     faqs: [
-      { question: 'How do you ensure shrimp is antibiotic-free?', answer: 'Farms undergo regular pond water testing during the grow-out cycle. All harvest lots are sampled and tested at accredited labs (Eurofins, SGS) for a panel of 15+ antibiotic residues before processing begins.' },
-      { question: 'What is IQF and why is it preferred?', answer: "IQF (Individual Quick Freezing) freezes each shrimp individually at -35°C in a tunnel freezer, preserving cell structure and preventing clumping. This produces superior texture and appearance compared to block-frozen shrimp." },
+      { question: 'How do you ensure shrimp is antibiotic free?', answer: 'Farms undergo regular pond water testing during the grow out cycle. All harvest lots are sampled and tested at accredited labs (Eurofins, SGS) for a panel of 15+ antibiotic residues before processing begins.' },
+      { question: 'What is IQF and why is it preferred?', answer: "IQF (Individual Quick Freezing) freezes each shrimp individually at -35°C in a tunnel freezer, preserving cell structure and preventing clumping. This produces superior texture and appearance compared to block frozen shrimp." },
       { question: 'Can you arrange reefer container shipping to the Middle East?', answer: 'Yes, we regularly ship reefer containers to Jeddah, Dubai, Kuwait, Qatar, and other GCC ports. Transit times are approximately 18–22 days from Ho Chi Minh City.' },
       { question: 'Do you offer seafood with Halal certification for Middle East markets?', answer: "Yes, all processing plants in our network hold current Halal certification. Halal certificates are issued per shipment and are included in the document set." },
     ],
-    relatedSlugs: ['jasmine-rice', 'cashew-nuts-w320'],
+    relatedSlugs: ['jasmine rice', 'cashew nuts w320'],
     seoTitle: 'Frozen Vannamei Shrimp Vietnam Export | IQF Shrimp Supplier | HACCP EU Certified',
     seoDescription: 'Buy frozen IQF vannamei shrimp from Vietnam. EU registered, HACCP, ASC, Halal certified. HOSO, HLSO, PD, PTO forms. MOQ 1 reefer container. Export to Saudi Arabia, UAE, EU.',
     keywords: ['frozen vannamei shrimp Vietnam', 'IQF shrimp export', 'Vietnam shrimp supplier', 'frozen shrimp wholesale', 'halal shrimp Vietnam'],
     hsCode: '0306.17.00',
   },
   {
-    slug: 'frozen-pangasius-fillet',
+    slug: 'frozen pangasius fillet',
     name: 'Frozen Pangasius (Basa) Fillet',
     category: 'Frozen Seafood',
-    categorySlug: 'frozen-seafood',
-    tagline: "IQF Pangasius Fillets — Vietnam's Best-Value White Fish for Global Markets",
-    description: "IQF frozen Pangasius (Basa / Tra) fish fillets from Vietnam's Mekong Delta. White, mild, boneless, skinless fillets at competitive price. EU registered, HACCP, ASC certified. Available in various trim levels (well-trimmed, semi-trimmed) and sizes 60–220g per fillet.",
+    categorySlug: 'frozen seafood',
+    tagline: "IQF Pangasius Fillets Vietnam's Best Value White Fish for Global Markets",
+    description: "IQF frozen Pangasius (Basa / Tra) fish fillets from Vietnam's Mekong Delta. White, mild, boneless, skinless fillets at competitive price. EU registered, HACCP, ASC certified. Available in various trim levels (well trimmed, semi trimmed) and sizes 60–220g per fillet.",
     longDescription: `Pangasius (Pangasianodon hypophthalmus), known commercially as basa or tra fish, is one of Vietnam's most successful aquaculture export species. The Mekong Delta's vast freshwater river systems provide ideal conditions for intensive pangasius farming, with production costs that make Vietnamese pangasius one of the world's most competitively priced white fish fillets.
 
-Pangasius fillets are white, mild-flavoured, boneless, and skinless — making them highly versatile for retail (frozen fish portion packs), food service (fish and chips, battered fish, breaded products), and processing applications (surimi, fish paste, ready meals). The neutral flavour profile allows pangasius to pair easily with a wide range of marinades, sauces, and coatings.
+Pangasius fillets are white, mild flavoured, boneless, and skinless making them highly versatile for retail (frozen fish portion packs), food service (fish and chips, battered fish, breaded products), and processing applications (surimi, fish paste, ready meals). The neutral flavour profile allows pangasius to pair easily with a wide range of marinades, sauces, and coatings.
 
 **Processing Standards**: All processing facilities in our supply chain hold EU registration (competent authority approved), FDA registration (USA), and current HACCP + ISO 22000 certification. ASC (Aquaculture Stewardship Council) certification is available from selected farms and plants.
 
@@ -776,7 +776,7 @@ Pangasius fillets are white, mild-flavoured, boneless, and skinless — making t
     specs: [
       { label: 'Species', value: 'Pangasianodon hypophthalmus (Tra/Basa)' },
       { label: 'Form', value: 'IQF boneless, skinless fillet' },
-      { label: 'Trim Level', value: 'Well-Trimmed (WT) / Semi-Trimmed (ST)' },
+      { label: 'Trim Level', value: 'Well Trimmed (WT) / Semi Trimmed (ST)' },
       { label: 'Fillet Size', value: '60–90g / 90–120g / 120–170g / 170–220g' },
       { label: 'Glazing', value: '5–20% (as specified)' },
       { label: 'Core Temp', value: '≤ -18°C' },
@@ -792,28 +792,28 @@ Pangasius fillets are white, mild-flavoured, boneless, and skinless — making t
     packagingOptions: ['IQF fillets in master carton (10 kg)', '1 kg retail IQF bag (10/carton)', 'Custom retail branded packs', 'Bulk 10 kg blocks'],
     faqs: [
       { question: 'Is pangasius the same as basa fish?', answer: "The terms basa and tra (pangasius) are sometimes used interchangeably but technically differ: basa (Pangasius bocourti) is a separate premium species with slightly firmer, whiter flesh. The most commonly exported species is Pangasianodon hypophthalmus (tra). We can supply either species — please specify when requesting a quote." },
-      { question: 'What does "well-trimmed" vs "semi-trimmed" mean?', answer: "Well-Trimmed (WT) fillets have the belly fat, red meat (hemoglobin-rich dark flesh), and all traces of fat removed — producing the whitest possible fillet for premium markets. Semi-Trimmed (ST) retains some belly and red meat portions, reducing processing cost while still delivering an acceptable colour for mass market applications." },
+      { question: 'What does "well trimmed" vs "semi trimmed" mean?', answer: "Well Trimmed (WT) fillets have the belly fat, red meat (hemoglobin-rich dark flesh), and all traces of fat removed — producing the whitest possible fillet for premium markets. Semi-Trimmed (ST) retains some belly and red meat portions, reducing processing cost while still delivering an acceptable colour for mass market applications." },
     ],
-    relatedSlugs: ['frozen-white-shrimp', 'frozen-squid-rings'],
+    relatedSlugs: ['frozen white shrimp', 'frozen squid rings'],
     seoTitle: 'Frozen Pangasius Basa Fillet Vietnam | IQF White Fish Export Supplier',
-    seoDescription: 'Buy frozen IQF pangasius/basa fillets from Vietnam. EU registered, HACCP, ASC certified. Well-trimmed and semi-trimmed. MOQ 1 reefer container. Export to EU, USA, Middle East.',
+    seoDescription: 'Buy frozen IQF pangasius/basa fillets from Vietnam. EU registered, HACCP, ASC certified. Well trimmed and semi trimmed. MOQ 1 reefer container. Export to EU, USA, Middle East.',
     keywords: ['frozen pangasius fillet Vietnam', 'basa fish fillet export', 'IQF pangasius supplier', 'Vietnam white fish export', 'frozen fish fillet wholesale Vietnam'],
     hsCode: '0304.62.00',
   },
   {
-    slug: 'frozen-squid-rings',
+    slug: 'frozen squid rings',
     name: 'Frozen Squid Rings & Tubes',
     category: 'Frozen Seafood',
-    categorySlug: 'frozen-seafood',
+    categorySlug: 'frozen seafood',
     tagline: 'IQF Frozen Squid Rings & Tubes — Consistent Calamari for Food Service & Retail',
     description: "IQF frozen squid tubes and rings from Vietnam's coastal waters. Illex and Uroteuthis species. White, tender, and clean. Available as whole cleaned tubes, sliced rings (calamari rings), or tentacles. HACCP, EU registered. Widely used for battered calamari, tapas, and seafood mixes.",
-    longDescription: `Vietnam has extensive access to squid fishing grounds in the South China Sea, Gulf of Tonkin, and offshore deep-water areas. Vietnamese squid processing plants handle multiple species including Uroteuthis chinensis (Chinese squid), Illex argentinus (Argentine squid processed in Vietnam), and various local inshore species.
+    longDescription: `Vietnam has extensive access to squid fishing grounds in the South China Sea, Gulf of Tonkin, and offshore deep water areas. Vietnamese squid processing plants handle multiple species including Uroteuthis chinensis (Chinese squid), Illex argentinus (Argentine squid processed in Vietnam), and various local inshore species.
 
 Frozen squid is one of the most versatile seafood products in the food service industry globally, used for:
 - **Calamari rings**: The staple of Mediterranean cuisine, widely popular in European and Middle Eastern restaurants
 - **Seafood mix**: Component in frozen seafood cocktail mixes
 - **Battered/breaded products**: Food service ring portions for pub menus, hotel catering
-- **Asian cuisine**: Stir-fry, grilled, and soup applications
+- **Asian cuisine**: Stir fry, grilled, and soup applications
 
 **Processing Forms Available:**
 - **Whole cleaned tube (IQF)**: Skin removed, mantle cleaned — for further slicing/processing
@@ -844,28 +844,28 @@ All squid is IQF frozen at source at -35°C. Glazing from 10–20% protects agai
       { question: 'What is the difference between calamari and squid?', answer: 'Calamari is the culinary name (Italian origin) for squid, particularly when prepared as rings and tentacles. Commercially, all squid rings prepared in this style may be marketed as calamari regardless of exact species.' },
       { question: 'Can you supply battered calamari rings?', answer: 'Yes, we have processing partners who can supply pre-battered (tempura or breadcrumb coated) calamari rings as a value-added product. MOQ is higher and lead times are 4–6 weeks.' },
     ],
-    relatedSlugs: ['frozen-white-shrimp', 'frozen-pangasius-fillet'],
+    relatedSlugs: ['frozen white shrimp', 'frozen pangasius fillet'],
     seoTitle: 'Frozen Squid Rings Tubes Vietnam | Calamari IQF Export Supplier',
     seoDescription: 'Buy frozen IQF squid rings and tubes from Vietnam. EU registered, HACCP, Halal certified. 8-10mm rings, whole tubes, tentacles. MOQ 1 reefer container.',
     keywords: ['frozen squid rings Vietnam', 'calamari rings export Vietnam', 'IQF squid supplier', 'frozen squid tubes wholesale', 'calamari Vietnam exporter'],
     hsCode: '0307.43.00',
   },
   {
-    slug: 'frozen-blue-swimming-crab',
+    slug: 'frozen blue swimming crab',
     name: 'Frozen Blue Swimming Crab',
     category: 'Frozen Seafood',
-    categorySlug: 'frozen-seafood',
-    tagline: 'Wild-Caught Blue Swimming Crab — Whole, Clusters & Portions from Vietnam',
-    description: 'IQF frozen blue swimming crab (Portunus pelagicus) from Vietnam coastal waters. Available as whole crab, half-shell, claw clusters, and crab meat portions. BQF at -40°C. ISO 22000, HACCP, EU health certificate. MOQ 1 x 20ft container.',
+    categorySlug: 'frozen seafood',
+    tagline: 'Wild Caught Blue Swimming Crab Whole, Clusters & Portions from Vietnam',
+    description: 'IQF frozen blue swimming crab (Portunus pelagicus) from Vietnam coastal waters. Available as whole crab, half shell, claw clusters, and crab meat portions. BQF at -40°C. ISO 22000, HACCP, EU health certificate. MOQ 1 x 20ft container.',
     longDescription: `The blue swimming crab (Portunus pelagicus) is Vietnam's most commercially important crab species — harvested from Mekong Delta, Kien Giang, and Ca Mau coastal waters.
 
-Product Forms: Whole crab IQF (100-300g+ sizes), half-shell (split and cleaned), claw clusters (for GCC/USA foodservice), pasteurised crab meat (lump, claw, special grades in 454g cans/pouches).
+Product Forms: Whole crab IQF (100-300g+ sizes), half shell (split and cleaned), claw clusters (for GCC/USA foodservice), pasteurised crab meat (lump, claw, special grades in 454g cans/pouches).
 
 Quality: All crabs graded by size and condition. IQF at -40°C within 2 hours of harvest. Storage at -18°C. BQF available for whole crab.`,
     heroImage: '/fish/Frozen Blue Swimming Crab (Whole & Portions).jpg',
     specs: [
       { label: 'Species', value: 'Portunus pelagicus (Blue swimming crab)' },
-      { label: 'Forms', value: 'Whole IQF / Half-shell / Claw clusters / Crab meat' },
+      { label: 'Forms', value: 'Whole IQF / Half shell / Claw clusters / Crab meat' },
       { label: 'Size Grades', value: '100-150g, 150-200g, 200-300g, 300g+' },
       { label: 'Processing', value: 'IQF at -40°C' },
       { label: 'Storage', value: '-18°C or below' },
@@ -878,12 +878,12 @@ Quality: All crabs graded by size and condition. IQF at -40°C within 2 hours of
     containerCapacity: '18-22 MT per 20ft',
     packagingOptions: ['1 kg retail vacuum bag', '2 kg foodservice vacuum bag', '10 kg bulk carton', '454g crab meat tub', 'Custom OEM retail packaging'],
     faqs: [
-      { question: 'How do you ensure crabs are alive at time of freezing?', answer: 'Crabs are maintained in aerated saltwater tanks within 2 hours of catch. Our facility conducts live/dead inspection before blast freezing, rejecting any non-vital crabs.' },
+      { question: 'How do you ensure crabs are alive at time of freezing?', answer: 'Crabs are maintained in aerated saltwater tanks within 2 hours of catch. Our facility conducts live/dead inspection before blast freezing, rejecting any non vital crabs.' },
       { question: 'Does your facility hold EU health certificates?', answer: 'Yes. Listed on Vietnam MARD EU export approved facility list. Full EU documentation including EUR.1 certificate provided for EVFTA market access.' },
     ],
-    relatedSlugs: ['frozen-white-shrimp', 'frozen-pangasius-fillet'],
+    relatedSlugs: ['frozen white shrimp', 'frozen pangasius fillet'],
     seoTitle: 'Frozen Blue Swimming Crab Export Vietnam | Whole Claw Clusters Wholesale',
-    seoDescription: 'Frozen blue swimming crab from Vietnam. IQF whole, half-shell, claw clusters. EU cert, HACCP. MOQ 1 container. Export to GCC, USA, Japan, EU.',
+    seoDescription: 'Frozen blue swimming crab from Vietnam. IQF whole, half shell, claw clusters. EU cert, HACCP. MOQ 1 container. Export to GCC, USA, Japan, EU.',
     keywords: ['frozen blue swimming crab Vietnam', 'blue crab exporter Vietnam', 'IQF crab supplier', 'frozen crab claws wholesale'],
     hsCode: '0306.24.00',
   },
@@ -891,23 +891,23 @@ Quality: All crabs graded by size and condition. IQF at -40°C within 2 hours of
 
 const spiceProducts: Product[] = [
   {
-    slug: 'black-pepper-bulk',
+    slug: 'black pepper bulk',
     name: 'Vietnamese Black Pepper (500 GL+)',
     category: 'Spices',
     categorySlug: 'spices',
-    tagline: 'The "King of Spices" — Phu Quoc & Gia Lai Origin Black Pepper',
+    tagline: 'The "King of Spices"  Phu Quoc & Gia Lai Origin Black Pepper',
     description: 'Premium Vietnamese black pepper with 500+ gramme/litre bulk density. Pungent, spicy, and aromatic. Vietnam is the world\'s #1 pepper exporter. ASTA quality, suitable for retail, grinding, and industrial processing.',
-    longDescription: `Vietnam has held the position of world's largest black pepper exporter for over two decades, accounting for approximately 35% of global production. The primary growing regions — Phu Quoc island (Kien Giang province), Gia Lai, Dak Lak, and Binh Phuoc — each impart slightly different aromatic characteristics to the pepper, with Phu Quoc pepper renowned for its intense pungency and complex aromatic profile.
+    longDescription: `Vietnam has held the position of world's largest black pepper exporter for over two decades, accounting for approximately 35% of global production. The primary growing regions Phu Quoc island (Kien Giang province), Gia Lai, Dak Lak, and Binh Phuoc each impart slightly different aromatic characteristics to the pepper, with Phu Quoc pepper renowned for its intense pungency and complex aromatic profile.
 
-Black pepper (Piper nigrum) berries are harvested when roughly 70% ripe (green-yellow stage), then sun-dried for 3–4 days to produce the characteristic dark, wrinkled black peppercorn. The drying process concentrates piperine — the active compound responsible for black pepper's heat — while developing the complex aromatic compounds that distinguish premium Vietnamese pepper.
+Black pepper (Piper nigrum) berries are harvested when roughly 70% ripe (green yellow stage), then sun dried for 3–4 days to produce the characteristic dark, wrinkled black peppercorn. The drying process concentrates piperine the active compound responsible for black pepper's heat while developing the complex aromatic compounds that distinguish premium Vietnamese pepper.
 
 We supply black pepper to three primary market segments:
 1. Retail/Food Service: 500 GL+ whole peppercorns in consumer and professional packaging
 2. Grinding Facilities: 550 GL+ and 570 GL+ for pepper mills and spice manufacturing
-3. Essential Oil / Oleoresin Production: High-piperine lots for extraction industry
+3. Essential Oil / Oleoresin Production: High piperine lots for extraction industry
 
 Export specifications include ASTA, ESA, and custom buyer specifications. Steam sterilization is available for markets requiring SPC (Standard Plate Count) compliance, particularly EU and USA.`,
-    heroImage: '/spices/Vietnamese Black Pepper (500 GL+).jpg',
+    heroImage: '/spices/idealdeal-Vietnamese Black Pepper (500 GL+).jpg',
     specs: [
       { label: 'Grade', value: 'FAQ / ASTA 500 GL / 550 GL / 570 GL' },
       { label: 'Bulk Density', value: '500 – 600 g/L' },
@@ -930,29 +930,29 @@ Export specifications include ASTA, ESA, and custom buyer specifications. Steam 
       { question: 'Do you offer white pepper from Vietnam?', answer: 'Yes, we supply white pepper (soaked and hulled) in 500 GL and 550 GL grades from Phu Quoc, which is renowned for the finest white pepper globally.' },
       { question: 'Is steam sterilization available?', answer: 'Yes, steam sterilization to achieve low SPC counts is available. This is recommended for EU and USA markets with strict microbiological requirements.' },
     ],
-    relatedSlugs: ['robusta-coffee-beans', 'cashew-nuts-w320'],
+    relatedSlugs: ['robusta coffee beans', 'cashew nuts w320'],
     seoTitle: 'Vietnamese Black Pepper Export | 500 GL+ ASTA Quality | Wholesale Supplier',
     seoDescription: "Buy Vietnamese black pepper 500 GL+ ASTA quality. World #1 pepper origin. HACCP, ISO 22000. Export to Germany, USA, Saudi Arabia, UAE. MOQ 5 MT.",
     keywords: ['black pepper Vietnam export', 'Vietnamese pepper supplier', 'buy black pepper bulk', 'Phu Quoc pepper wholesale', 'pepper exporter Vietnam'],
     hsCode: '0904.11.00',
   },
   {
-    slug: 'star-anise-whole-export',
+    slug: 'star anise whole export',
     name: 'Vietnamese Star Anise (Whole)',
     category: 'Spices',
     categorySlug: 'spices',
-    tagline: "Premium Whole Star Anise from Lang Son — The World's Finest Origin",
-    description: "Whole dried star anise (Illicium verum) from Lang Son province, Vietnam — the world's top origin for star anise. Plump, complete 8-point stars with intense licorice aroma and high essential oil content. Exported to China, EU, USA, and Middle East for culinary, pharmaceutical, and essential oil extraction.",
+    tagline: "Premium Whole Star Anise from Lang Son The World's Finest Origin",
+    description: "Whole dried star anise (Illicium verum) from Lang Son province, Vietnam the world's top origin for star anise. Plump, complete 8-point stars with intense licorice aroma and high essential oil content. Exported to China, EU, USA, and Middle East for culinary, pharmaceutical, and essential oil extraction.",
     longDescription: `Vietnam's Lang Son province, bordering China's Guangxi region, produces the world's finest star anise (Illicium verum). The region's mountainous terrain, red laterite soils, and subtropical climate create ideal conditions for the star anise tree, which produces its prized fruits from October through December (main harvest) and May through June (secondary harvest).
 
-Star anise is globally significant not just as a culinary spice — it is the primary natural source of shikimic acid, the precursor compound used to manufacture oseltamivir (Tamiflu), the antiviral medication. This pharmaceutical demand, combined with steady food industry use, creates strong sustained demand for Vietnamese star anise.
+Star anise is globally significant not just as a culinary spice it is the primary natural source of shikimic acid, the precursor compound used to manufacture oseltamivir (Tamiflu), the antiviral medication. This pharmaceutical demand, combined with steady food industry use, creates strong sustained demand for Vietnamese star anise.
 
 **Culinary Applications**: Essential in Chinese five-spice powder, Vietnamese phở broth, Indonesian rendang, and Indian biryani. Widely used in European liqueur production (pastis, absinthe, sambuca).
 
 **Industrial Applications**: Essential oil extraction (trans-anethole content 80–90%), pharmaceutical shikimic acid extraction, fragrance industry.
 
 **Quality Parameters**: Premium whole stars are characterized by complete 8-point form, uniform reddish-brown color, and high essential oil content (≥14% on dry basis). Broken pieces and seeds are graded separately at lower price points.`,
-    heroImage: '/spices/Vietnamese Star Anise (Whole).jpg',
+    heroImage: '/spices/idealdeal-Vietnamese Star Anise.jpg',
     specs: [
       { label: 'Form', value: 'Whole / Broken / Seeds' },
       { label: 'Essential Oil', value: '≥ 14% (whole stars)' },
@@ -971,34 +971,34 @@ Star anise is globally significant not just as a culinary spice — it is the pr
     packagingOptions: ['25 kg PP bag', '10 kg carton', '1 kg retail bag', 'Custom OEM packaging'],
     faqs: [
       { question: 'What is the difference between whole stars and broken star anise?', answer: 'Whole star anise consists of complete 8-point stars with seeds intact — these command the highest price for culinary and retail use where visual presentation matters. Broken stars and seeds are graded separately at lower prices — suitable for essential oil extraction, tea blending, and industrial spice use.' },
-      { question: 'Do you supply star anise essential oil as well?', answer: 'Yes, we can arrange supply of steam-distilled star anise essential oil (trans-anethole ≥80%) from Lang Son processors. MOQ is 50 kg. Please contact us for current pricing.' },
+      { question: 'Do you supply star anise essential oil as well?', answer: 'Yes, we can arrange supply of steam distilled star anise essential oil (trans-anethole ≥80%) from Lang Son processors. MOQ is 50 kg. Please contact us for current pricing.' },
     ],
-    relatedSlugs: ['black-pepper-bulk', 'vietnamese-cinnamon-cassia'],
+    relatedSlugs: ['black pepper bulk', 'vietnamese cinnamon cassia'],
     seoTitle: 'Vietnamese Star Anise Export | Whole Dried Lang Son Origin | B2B Supplier',
     seoDescription: 'Buy whole dried star anise from Lang Son, Vietnam. High essential oil ≥14%. ISO 22000, HACCP, Halal. MOQ 1 MT. Export to China, USA, Germany, UAE.',
     keywords: ['star anise Vietnam export', 'whole star anise supplier', 'Lang Son star anise', 'Vietnamese spices export', 'star anise wholesale Vietnam'],
     hsCode: '0909.60.00',
   },
   {
-    slug: 'vietnamese-cinnamon-cassia',
-    name: 'Vietnamese Cinnamon (Cassia) — Quế Yên Bái',
+    slug: 'vietnamese cinnamon cassia',
+    name: 'Vietnamese Cinnamon (Cassia) Quế Yên Bái',
     category: 'Spices',
     categorySlug: 'spices',
-    tagline: 'Highest-Oil Vietnamese Cassia Cinnamon — Split Quills, Broken & Powder',
-    description: 'Vietnamese cinnamon (Cinnamomum loureiroi / cassia) from Yên Bái province — the strongest and most aromatic cinnamon origin in the world. Essential oil content up to 4–5%. Available as whole split quills, broken cassia, cut & sifted, and powder. Ideal for the food industry, bakeries, and spice manufacturers.',
-    longDescription: `Vietnamese cinnamon (Cinnamomum loureiroi, sometimes classified as Cinnamomum cassia var. loureiroi) is considered by many spice industry professionals to be the world's most aromatic and powerful cinnamon. Grown primarily in the mountainous Yên Bái province of northern Vietnam, Vietnamese cassia contains 4–5% essential oil — approximately double the oil content of Indonesian Cassia or Sri Lankan Ceylon cinnamon — and has a characteristically intense, sweet-spicy flavor.
+    tagline: 'Highest Oil Vietnamese Cassia Cinnamon  Split Quills, Broken & Powder',
+    description: 'Vietnamese cinnamon (Cinnamomum loureiroi / cassia) from Yên Bái province the strongest and most aromatic cinnamon origin in the world. Essential oil content up to 4–5%. Available as whole split quills, broken cassia, cut & sifted, and powder. Ideal for the food industry, bakeries, and spice manufacturers.',
+    longDescription: `Vietnamese cinnamon (Cinnamomum loureiroi, sometimes classified as Cinnamomum cassia var. loureiroi) is considered by many spice industry professionals to be the world's most aromatic and powerful cinnamon. Grown primarily in the mountainous Yên Bái province of northern Vietnam, Vietnamese cassia contains 4–5% essential oil — approximately double the oil content of Indonesian Cassia or Sri Lankan Ceylon cinnamon  and has a characteristically intense, sweet spicy flavor.
 
-The major commercial form is the "split quill" — bark that has been harvested from 15–20-year-old trees, dried in the sun, and formed into curved, open quills with a rough outer bark surface retained. Split quills are traded by oil percentage (3.5%+, 4%+, 4.5%+) and cassia oil content, with higher oil lots commanding premium prices.
+The major commercial form is the "split quill" bark that has been harvested from 15–20 year old trees, dried in the sun, and formed into curved, open quills with a rough outer bark surface retained. Split quills are traded by oil percentage (3.5%+, 4%+, 4.5%+) and cassia oil content, with higher oil lots commanding premium prices.
 
 **Product Forms Available:**
-- **Split Quills**: 3.5%, 4.0%, 4.5% oil — standard export form
+- **Split Quills**: 3.5%, 4.0%, 4.5% oil standard export form
 - **Broken Cassia**: Pieces and chips, suitable for extraction and spice blends
 - **Cut & Sifted (C&S)**: Granular form for tea blending and industrial use
 - **Powder (40–80 mesh)**: For baking, food manufacturing, and spice blends
-- **Essential Oil**: Steam-distilled cassia oil, cinnamaldehyde ≥55%
+- **Essential Oil**: Steam distilled cassia oil, cinnamaldehyde ≥55%
 
 Vietnamese cinnamon is the dominant form used in North American markets (where "cinnamon" almost always refers to cassia) and is widely used across Middle Eastern, European, and Asian food industries.`,
-    heroImage: '/spices/Vietnamese Cinnamon (Cassia).jpg',
+    heroImage: '/spices/idealdeal-Vietnamese Cinnamon.jpg',
     specs: [
       { label: 'Species', value: 'Cinnamomum loureiroi (Vietnamese Cassia)' },
       { label: 'Essential Oil', value: '3.5% / 4.0% / 4.5% (grade)' },
@@ -1019,25 +1019,25 @@ Vietnamese cinnamon is the dominant form used in North American markets (where "
       { question: 'How does Vietnamese cinnamon compare to Ceylon cinnamon?', answer: "Vietnamese cassia is much stronger and more intensely flavoured due to higher essential oil content (4–5% vs 0.5–1% for Ceylon/True cinnamon). Ceylon cinnamon is milder, sweeter, and considered the gourmet option. For industrial use, baking, and price-sensitive applications, Vietnamese cassia is almost universally preferred." },
       { question: 'Is there a coumarin concern with Vietnamese cinnamon?', answer: "Cassia cinnamon (including Vietnamese) contains natural coumarin which has EU-regulated limits in certain food products. For standard food applications, Vietnamese cinnamon is GRAS (Generally Recognized As Safe) by the FDA. EU buyers should check Regulation EC 1334/2008 limits for specific food categories." },
     ],
-    relatedSlugs: ['black-pepper-bulk', 'star-anise-whole-export'],
+    relatedSlugs: ['black pepper bulk', 'star anise whole export'],
     seoTitle: 'Vietnamese Cinnamon Cassia Export | Yên Bái Origin | Split Quills Powder',
     seoDescription: 'Premium Vietnamese cassia cinnamon from Yên Bái. 3.5–4.5% essential oil. Split quills, broken, powder. HACCP, Halal. MOQ 1 MT. Export to USA, EU, UAE.',
     keywords: ['Vietnamese cinnamon export', 'cassia cinnamon Vietnam', 'Yen Bai cinnamon supplier', 'cinnamon quills Vietnam', 'cassia spice wholesale Vietnam'],
     hsCode: '0906.11.00',
   },
   {
-    slug: 'turmeric-powder-export',
+    slug: 'turmeric powder export',
     name: 'Vietnamese Turmeric Powder',
     category: 'Spices',
     categorySlug: 'spices',
-    tagline: 'High-Curcumin Turmeric Powder from Vietnam Central Highlands',
-    description: 'Premium dried and milled turmeric powder from Curcuma longa grown in Gia Lai and Dak Lak provinces. High curcumin content 3-5%. Vibrant deep yellow, earthy-warm aroma. Food-grade and nutraceutical-grade. HACCP certified. MOQ 500 kg.',
-    longDescription: `Vietnamese turmeric from the Central Highlands has curcumin content consistently 3-5%, comparable to premium Indian varieties. Available in food-grade (200-325 mesh) and nutraceutical-grade (standardised 95% curcuminoids extract).
+    tagline: 'High Curcumin Turmeric Powder from Vietnam Central Highlands',
+    description: 'Premium dried and milled turmeric powder from Curcuma longa grown in Gia Lai and Dak Lak provinces. High curcumin content 3-5%. Vibrant deep yellow, earthy warm aroma. Food grade and nutraceutical-grade. HACCP certified. MOQ 500 kg.',
+    longDescription: `Vietnamese turmeric from the Central Highlands has curcumin content consistently 3-5%, comparable to premium Indian varieties. Available in food grade (200-325 mesh) and nutraceutical grade (standardised 95% curcuminoids extract).
 
-Processing: Fresh rhizomes boiled, sun-dried 10-15 days, dry-milled and micronised. Steam sterilisation available for low-microbial nutraceutical grade.
+Processing: Fresh rhizomes boiled, sun dried 10-15 days, dry milled and micronised. Steam sterilisation available for low microbial nutraceutical grade.
 
 Applications: Curry powder blends, food colouring, supplement manufacturing, cosmetics, golden milk powder, and natural dye applications.`,
-    heroImage: '/spices/Turmeric Powder (Ground Curcuma longa).jpg',
+    heroImage: '/spices/idealdeal-Turmeric Powder (Ground Curcuma longa).jpg',
     specs: [
       { label: 'Curcumin Content', value: '3-5% (natural) / 95% (extract available)' },
       { label: 'Moisture', value: '≤ 10%' },
@@ -1056,7 +1056,7 @@ Applications: Curry powder blends, food colouring, supplement manufacturing, cos
       { question: 'What makes Vietnamese turmeric different from Indian varieties?', answer: 'Vietnamese turmeric averages 3-5% curcumin, comparable to premium Indian Erode/Salem varieties. It has a more earthy, less pungent aroma — preferred for cosmetic and food colouring applications.' },
       { question: 'Do you supply 95% curcumin extract for supplements?', answer: 'Yes. Standardised turmeric extract with 95% curcuminoids available with HPLC testing, heavy metal analysis, and full CoA provided per lot.' },
     ],
-    relatedSlugs: ['black-pepper-bulk', 'star-anise-whole-export'],
+    relatedSlugs: ['black pepper bulk', 'star anise whole export'],
     seoTitle: 'Vietnamese Turmeric Powder Export | High Curcumin Organic Turmeric Wholesale',
     seoDescription: 'Turmeric powder from Vietnam. High curcumin 3-5%. Halal, HACCP, organic. MOQ 500kg. Export to USA, EU, GCC, India.',
     keywords: ['turmeric powder Vietnam export', 'high curcumin turmeric supplier', 'Vietnamese turmeric wholesale', 'organic turmeric powder bulk'],
@@ -1067,28 +1067,28 @@ Applications: Curry powder blends, food colouring, supplement manufacturing, cos
 // ─── Green Tea Products ───────────────────────────────────────────────────────
 const greenTeaProducts: Product[] = [
   {
-    slug: 'thai-nguyen-green-tea',
+    slug: 'thai nguyen green tea',
     name: 'Thái Nguyên Green Tea (Loose Leaf)',
     category: 'Green Tea',
-    categorySlug: 'green-tea',
+    categorySlug: 'green tea',
     tagline: "Vietnam's Most Celebrated Green Tea — Direct from Thái Nguyên",
-    description: 'Thái Nguyên loose-leaf green tea is Vietnam\'s most prized tea origin, grown on mineral-rich hillsides at 100–200 metres elevation. Distinguished by its emerald-green leaves, fresh grassy aroma, and a smooth, slightly sweet aftertaste — perfectly suited for Middle Eastern, European, and Asian markets.',
+    description: 'Thái Nguyên loose leaf green tea is Vietnam\'s most prized tea origin, grown on mineral rich hillsides at 100–200 metres elevation. Distinguished by its emerald green leaves, fresh grassy aroma, and a smooth, slightly sweet aftertaste — perfectly suited for Middle Eastern, European, and Asian markets.',
     longDescription: `Thái Nguyên province, located 80 km north of Hanoi, is Vietnam's tea capital and home to some of the most celebrated green tea gardens in Southeast Asia. The region's humid subtropical climate, rich laterite soils, and traditional cultivating techniques have produced tea of extraordinary character for over three centuries.
 
-The Thái Nguyên green tea bush (Camellia sinensis var. sinensis) produces tender young leaves with elevated levels of polyphenols, catechins, and L-theanine — the compound responsible for the tea's characteristic umami-like smoothness. Unlike mass-produced teas, Thái Nguyên green tea is hand-picked during three main harvest seasons: spring (March–April), summer (June–July), and autumn (September–October), with spring harvest being the most prized.
+The Thái Nguyên green tea bush (Camellia sinensis var. sinensis) produces tender young leaves with elevated levels of polyphenols, catechins, and L-theanine — the compound responsible for the tea's characteristic umami like smoothness. Unlike mass produced teas, Thái Nguyên green tea is hand picked during three main harvest seasons: spring (March–April), summer (June–July), and autumn (September–October), with spring harvest being the most prized.
 
-Processing involves rapid withering, high-temperature fixation (sao/de-enzyming), rolling to release essential oils, and gentle drying to achieve 4–6% moisture content. The result is a vivid green leaf that brews a clear, jade-green liquor with fresh, vegetal notes, mild astringency, and a lingering sweet finish.
+Processing involves rapid withering, high temperature fixation (sao/de-enzyming), rolling to release essential oils, and gentle drying to achieve 4–6% moisture content. The result is a vivid green leaf that brews a clear, jade green liquor with fresh, vegetal notes, mild astringency, and a lingering sweet finish.
 
-Our Thái Nguyên green tea is available in multiple grades — from premium Single Bud (Bạch Hào) to OP (Orange Pekoe), Broken, and Fannings — serving the diverse needs of loose-leaf retail brands, tea bag manufacturers, health supplement producers, and foodservice operators worldwide.
+Our Thái Nguyên green tea is available in multiple grades — from premium Single Bud (Bạch Hào) to OP (Orange Pekoe), Broken, and Fannings — serving the diverse needs of loose leaf retail brands, tea bag manufacturers, health supplement producers, and foodservice operators worldwide.
 
-Export-ready packaging includes bulk aluminum foil bags, nitrogen-flushed retail canisters, and biodegradable paper pouches. All lots are tested for pesticide residues, heavy metals, and microbiological parameters prior to shipment, with full traceability to named gardens within Thái Nguyên province.`,
+Export ready packaging includes bulk aluminum foil bags, nitrogen flushed retail canisters, and biodegradable paper pouches. All lots are tested for pesticide residues, heavy metals, and microbiological parameters prior to shipment, with full traceability to named gardens within Thái Nguyên province.`,
     heroImage: '/tea/Thải Nguyên Green Tea (Loose Leaf).jpg',
     specs: [
       { label: 'Grade', value: 'Bud / OP / Broken / Fannings' },
       { label: 'Moisture', value: '≤ 6%' },
       { label: 'Total Ash', value: '≤ 7%' },
       { label: 'Polyphenols', value: '≥ 25%' },
-      { label: 'Color (Liquor)', value: 'Clear jade-green' },
+      { label: 'Color (Liquor)', value: 'Clear jade green' },
       { label: 'Aroma', value: 'Fresh, grassy, floral' },
       { label: 'Pesticide Residues', value: 'EU MRL compliant' },
       { label: 'Origin', value: 'Thái Nguyên Province, Vietnam' },
@@ -1100,43 +1100,43 @@ Export-ready packaging includes bulk aluminum foil bags, nitrogen-flushed retail
     exportMarkets: ['Saudi Arabia', 'UAE', 'Morocco', 'Russia', 'Germany', 'USA', 'Pakistan', 'Egypt'],
     moq: '1 MT',
     containerCapacity: '14–16 MT per 20ft',
-    packagingOptions: ['25 kg aluminum foil bag', '5 kg retail canister', '1 kg nitrogen-flushed pouch', 'Custom OEM packaging', 'Tea bag cut (CTC / Fannings)'],
+    packagingOptions: ['25 kg aluminum foil bag', '5 kg retail canister', '1 kg nitrogen flushed pouch', 'Custom OEM packaging', 'Tea bag cut (CTC / Fannings)'],
     faqs: [
-      { question: 'What distinguishes Thái Nguyên green tea from Chinese green teas?', answer: 'Thái Nguyên tea has a bolder, more robust flavor compared to delicate Chinese green teas like Dragon Well (Longjing). It has higher polyphenol content, a stronger brew, and is significantly more affordable, making it ideal for daily-consumption retail brands and HoReCa buyers.' },
+      { question: 'What distinguishes Thái Nguyên green tea from Chinese green teas?', answer: 'Thái Nguyên tea has a bolder, more robust flavor compared to delicate Chinese green teas like Dragon Well (Longjing). It has higher polyphenol content, a stronger brew, and is significantly more affordable, making it ideal for daily consumption retail brands and HoReCa buyers.' },
       { question: 'Can you supply Thái Nguyên green tea certified for the EU market?', answer: 'Yes. We work with farming cooperatives operating under strict EU-compliant pesticide protocols. All export lots are tested at accredited laboratories (Eurofins, SGS) against full EU MRL panels before shipment.' },
-      { question: 'Is tea bag cut (TBC) or Fannings grade available for tea bag manufacturers?', answer: 'Yes, we supply CTC (Crush, Tear, Curl) and Fannings grades specifically processed for tea bag production. These are available in 25 kg bulk bags or direct-fill drum packaging for automated packing lines.' },
-      { question: 'What is the lead time for a custom-branded retail order?', answer: 'For bulk green tea with generic packaging: 7–14 days. For custom-printed canisters or branded pouches: 3–5 weeks, depending on printing complexity and MOQ.' },
+      { question: 'Is tea bag cut (TBC) or Fannings grade available for tea bag manufacturers?', answer: 'Yes, we supply CTC (Crush, Tear, Curl) and Fannings grades specifically processed for tea bag production. These are available in 25 kg bulk bags or direct fill drum packaging for automated packing lines.' },
+      { question: 'What is the lead time for a custom branded retail order?', answer: 'For bulk green tea with generic packaging: 7–14 days. For custom printed canisters or branded pouches: 3–5 weeks, depending on printing complexity and MOQ.' },
     ],
-    relatedSlugs: ['jasmine-rice', 'robusta-coffee-beans'],
+    relatedSlugs: ['jasmine rice', 'robusta coffee beans'],
     seoTitle: 'Thái Nguyên Green Tea Export Vietnam | Wholesale Loose Leaf Supplier',
-    seoDescription: 'Export-grade Thái Nguyên green tea from Vietnam. Loose leaf OP, Bud, Fannings grades. ISO 22000, EU compliant. MOQ 1 MT. Supplier to Middle East, EU, Asia.',
+    seoDescription: 'Export grade Thái Nguyên green tea from Vietnam. Loose leaf OP, Bud, Fannings grades. ISO 22000, EU compliant. MOQ 1 MT. Supplier to Middle East, EU, Asia.',
     keywords: ['Thai Nguyen green tea export', 'Vietnamese green tea wholesale', 'loose leaf green tea Vietnam', 'green tea supplier Vietnam', 'buy green tea bulk'],
     hsCode: '0902.10.10',
   },
   {
-    slug: 'jasmine-green-tea',
+    slug: 'jasmine green tea',
     name: 'Vietnamese Jasmine Green Tea',
     category: 'Green Tea',
-    categorySlug: 'green-tea',
-    tagline: 'Floral Jasmine-Scented Green Tea — Premium Retail & HoReCa Grade',
-    description: 'Vietnamese jasmine green tea — traditional green tea leaves triple-scented with fresh jasmine blossoms. A best-selling category globally, our jasmine green tea delivers an intensely floral aroma, smooth liquor, and lasting sweetness that performs equally well in loose-leaf retail, tea bags, and HoReCa applications.',
-    longDescription: `Jasmine green tea is one of the world's most consumed scented teas, and Vietnam has become a major producer of high-quality jasmine-scented tea for export to the Middle East, North Africa, Europe, and Southeast Asia. Our jasmine green tea is produced by layering freshly harvested jasmine blossoms (Jasminum sambac) with dried green tea leaves and allowing the tea to absorb the natural floral volatiles overnight — a traditional process repeated 3–5 times for premium grades.
+    categorySlug: 'green tea',
+    tagline: 'Floral Jasmine Scented Green Tea Premium Retail & HoReCa Grade',
+    description: 'Vietnamese jasmine green tea traditional green tea leaves triple scented with fresh jasmine blossoms. A best selling category globally, our jasmine green tea delivers an intensely floral aroma, smooth liquor, and lasting sweetness that performs equally well in loose leaf retail, tea bags, and HoReCa applications.',
+    longDescription: `Jasmine green tea is one of the world's most consumed scented teas, and Vietnam has become a major producer of high quality jasmine scented tea for export to the Middle East, North Africa, Europe, and Southeast Asia. Our jasmine green tea is produced by layering freshly harvested jasmine blossoms (Jasminum sambac) with dried green tea leaves and allowing the tea to absorb the natural floral volatiles overnight a traditional process repeated 3–5 times for premium grades.
 
-The base green tea used for jasmine scenting is sourced primarily from Thái Nguyên, Mộc Châu, and Lâm Đồng provinces, offering consistent quality and flavor profiles across seasons. After scenting, the jasmine petals are removed and the tea is re-dried to achieve optimal moisture content of 5–7%, ensuring shelf stability during long-distance shipping.
+The base green tea used for jasmine scenting is sourced primarily from Thái Nguyên, Mộc Châu, and Lâm Đồng provinces, offering consistent quality and flavor profiles across seasons. After scenting, the jasmine petals are removed and the tea is re-dried to achieve optimal moisture content of 5–7%, ensuring shelf stability during long distance shipping.
 
 Our jasmine green tea is available in multiple product formats:
-- Loose-leaf premium grade (whole leaf, high blossom index)
+- Loose leaf premium grade (whole leaf, high blossom index)
 - Tea bag cut (fannings/CTC) for pyramid and flat tea bag production
-- Scented jasmine pearl (hand-rolled balls)
+- Scented jasmine pearl (hand rolled balls)
 - Private label retail packs (100g, 200g, 500g)
 
-The GCC market — particularly Saudi Arabia, UAE, Qatar, and Kuwait — represents one of the largest per-capita consumers of jasmine tea globally, where it is served as a hospitality tea in hotels, restaurants, and homes. Our grades are specifically calibrated for the floral intensity and visual appeal preferred in these markets.`,
+The GCC market particularly Saudi Arabia, UAE, Qatar, and Kuwait represents one of the largest per-capita consumers of jasmine tea globally, where it is served as a hospitality tea in hotels, restaurants, and homes. Our grades are specifically calibrated for the floral intensity and visual appeal preferred in these markets.`,
     heroImage: '/tea/Vietnamese Jasmine Green Tea.jpg',
     specs: [
-      { label: 'Type', value: 'Jasmine-scented green tea' },
+      { label: 'Type', value: 'Jasmine scented green tea' },
       { label: 'Scenting Passes', value: '3–5 times (grade dependent)' },
       { label: 'Moisture', value: '≤ 7%' },
-      { label: 'Aroma', value: 'Intensely floral, jasmine-sweet' },
+      { label: 'Aroma', value: 'Intensely floral, jasmine sweet' },
       { label: 'Liquor Color', value: 'Pale gold / light green' },
       { label: 'Blossom Index', value: 'Grade A: ≥ 85% floral absorption' },
       { label: 'Origin', value: 'Thái Nguyên / Lâm Đồng, Vietnam' },
@@ -1151,32 +1151,32 @@ The GCC market — particularly Saudi Arabia, UAE, Qatar, and Kuwait — represe
     faqs: [
       { question: 'How many times is the tea scented with jasmine?', answer: 'Our standard export grade is scented 3 times. Premium and luxury grades receive 5 scenting passes, which dramatically increases the floral intensity and aroma longevity in the cup.' },
       { question: 'Is Vietnamese jasmine tea suitable for making tea bags?', answer: "Yes. We provide fannings-grade jasmine tea specifically processed and graded for tea bag machinery, including CTC-cut for flat bags and a slightly larger cut for pyramid silk bags." },
-      { question: 'Do you offer private label packaging for retail jasmine tea?', answer: 'Yes. We manufacture private label tea products from 500 kg MOQ, including custom canister printing, pouch design, and retail box production. We can handle design-to-shelf within 4–6 weeks.' },
+      { question: 'Do you offer private label packaging for retail jasmine tea?', answer: 'Yes. We manufacture private label tea products from 500 kg MOQ, including custom canister printing, pouch design, and retail box production. We can handle design to shelf within 4–6 weeks.' },
     ],
-    relatedSlugs: ['thai-nguyen-green-tea', 'robusta-coffee-beans'],
+    relatedSlugs: ['thai nguyen green tea', 'robusta coffee beans'],
     seoTitle: 'Vietnamese Jasmine Green Tea Export | Wholesale Supplier | Halal Certified',
-    seoDescription: 'Premium jasmine green tea from Vietnam — 3–5x scented. Halal, ISO 22000. Loose leaf, tea bag cut, retail pack. MOQ 500 kg. Supplier to Saudi Arabia, UAE, Morocco.',
+    seoDescription: 'Premium jasmine green tea from Vietnam 3–5x scented. Halal, ISO 22000. Loose leaf, tea bag cut, retail pack. MOQ 500 kg. Supplier to Saudi Arabia, UAE, Morocco.',
     keywords: ['jasmine green tea Vietnam', 'jasmine tea export', 'Vietnamese jasmine tea supplier', 'jasmine tea wholesale', 'scented green tea Vietnam'],
     hsCode: '0902.10.90',
   },
   {
-    slug: 'lotus-tea-export',
+    slug: 'lotus tea export',
     name: 'Vietnamese Lotus Tea (Tra Sen)',
     category: 'Green Tea',
-    categorySlug: 'green-tea',
-    tagline: "Vietnam's Most Celebrated Artisanal Tea — Hand-Scented with Fresh Lotus",
-    description: "Traditional Vietnamese lotus tea made by scenting premium Thai Nguyen green tea inside fresh lotus blossoms. Tea absorbs the natural lotus fragrance over 24 hours. Hand-crafted using centuries-old methods. No artificial fragrance. Premium retail gift packaging available. MOQ 50 kg.",
-    longDescription: `Tra sen (lotus tea) is Vietnam's most celebrated tea — the tea leaves are packed inside freshly picked lotus flowers and left for 24 hours to absorb the natural floral fragrance. The process is repeated 5-7 times for premium grade.
+    categorySlug: 'green tea',
+    tagline: "Vietnam's Most Celebrated Artisanal Tea Hand Scented with Fresh Lotus",
+    description: "Traditional Vietnamese lotus tea made by scenting premium Thai Nguyen green tea inside fresh lotus blossoms. Tea absorbs the natural lotus fragrance over 24 hours. Hand crafted using centuries old methods. No artificial fragrance. Premium retail gift packaging available. MOQ 50 kg.",
+    longDescription: `Tra sen (lotus tea) is Vietnam's most celebrated tea the tea leaves are packed inside freshly picked lotus flowers and left for 24 hours to absorb the natural floral fragrance. The process is repeated 5-7 times for premium grade.
 
-Quality Tiers: Premium (5-cycle scenting, strongest natural lotus fragrance, limited seasonal production), Standard (3-cycle, excellent quality), Lotus-flower blend (dried lotus petals blended with green tea).
+Quality Tiers: Premium (5-cycle scenting, strongest natural lotus fragrance, limited seasonal production), Standard (3-cycle, excellent quality), Lotus flower blend (dried lotus petals blended with green tea).
 
-Gift Packaging: Hand-crafted lacquerware boxes, bamboo canisters, and ceramic tea caddies available for premium retail and gifting programs.`,
+Gift Packaging: Hand crafted lacquerware boxes, bamboo canisters, and ceramic tea caddies available for premium retail and gifting programs.`,
     heroImage: '/tea/Lotus Green Tea (Tra Sen).jpg',
     specs: [
       { label: 'Base Tea', value: 'Thai Nguyen green tea (single bud)' },
       { label: 'Scenting Cycles', value: '3x (standard) / 5-7x (premium)' },
       { label: 'Moisture', value: '≤ 7%' },
-      { label: 'Aroma', value: 'Natural lotus — no artificial fragrance' },
+      { label: 'Aroma', value: 'Natural lotus no artificial fragrance' },
       { label: 'Shelf Life', value: '18 months vacuum sealed' },
       { label: 'MOQ', value: '50 kg' },
       { label: 'HS Code', value: '0902.10.00' },
@@ -1187,12 +1187,12 @@ Gift Packaging: Hand-crafted lacquerware boxes, bamboo canisters, and ceramic te
     containerCapacity: 'Air freight typically used for premium product',
     packagingOptions: ['100g premium tin canister', '50g bamboo canister', '25g ceramic tea caddy', '200g bulk foil bag', 'Custom lacquerware gift box'],
     faqs: [
-      { question: 'Is the lotus fragrance natural or artificially added?', answer: 'Exclusively natural — tea is packed inside living lotus flowers and absorbs floral volatile compounds naturally. No artificial lotus flavouring or essential oils are added at any stage.' },
-      { question: 'Why is lotus tea expensive compared to jasmine tea?', answer: 'Premium 5-cycle lotus tea requires approximately 1,400 fresh lotus blooms per kilogram of finished tea — all picked by hand at dawn. The process cannot be industrialised.' },
+      { question: 'Is the lotus fragrance natural or artificially added?', answer: 'Exclusively natural tea is packed inside living lotus flowers and absorbs floral volatile compounds naturally. No artificial lotus flavouring or essential oils are added at any stage.' },
+      { question: 'Why is lotus tea expensive compared to jasmine tea?', answer: 'Premium 5-cycle lotus tea requires approximately 1,400 fresh lotus blooms per kilogram of finished tea all picked by hand at dawn. The process cannot be industrialised.' },
     ],
-    relatedSlugs: ['thai-nguyen-green-tea', 'jasmine-green-tea'],
-    seoTitle: 'Vietnamese Lotus Tea Export | Tra Sen Premium Lotus-Scented Green Tea Wholesale',
-    seoDescription: 'Authentic Vietnamese lotus tea (tra sen) for export. Hand-crafted, natural lotus scented. Premium gift packaging. MOQ 50kg. Export to USA, EU, Japan.',
+    relatedSlugs: ['thai nguyen green tea', 'jasmine green tea'],
+    seoTitle: 'Vietnamese Lotus Tea Export | Tra Sen Premium Lotus Scented Green Tea Wholesale',
+    seoDescription: 'Authentic Vietnamese lotus tea (tra sen) for export. Hand crafted, natural lotus scented. Premium gift packaging. MOQ 50kg. Export to USA, EU, Japan.',
     keywords: ['Vietnamese lotus tea export', 'tra sen lotus tea wholesale', 'lotus scented green tea Vietnam', 'premium Vietnamese tea supplier'],
     hsCode: '0902.10.00',
   },
@@ -1201,19 +1201,19 @@ Gift Packaging: Hand-crafted lacquerware boxes, bamboo canisters, and ceramic te
 // ─── Pineapple Products ───────────────────────────────────────────────────────
 const pineappleProducts: Product[] = [
   {
-    slug: 'fresh-export-pineapple',
+    slug: 'fresh export pineapple',
     name: 'Fresh Vietnamese Pineapple (Queen/MD2)',
     category: 'Fresh Pineapple',
     categorySlug: 'pineapple',
-    tagline: 'Sweet, Golden Pineapples from Vietnam — Export-Ready for the World',
+    tagline: 'Sweet, Golden Pineapples from Vietnam Export Ready for the World',
     description: "Vietnam's Queen and MD2 pineapples offer exceptional sweetness, firm golden flesh, and vibrant aroma. Carefully selected from Long An, Tiền Giang, and Kiên Giang farms, our pineapples meet strict phytosanitary standards for export to the Middle East, Asia, and Europe.",
-    longDescription: `Vietnam is one of Southeast Asia's leading pineapple producers, with the Mekong Delta provinces of Long An, Tiền Giang, and Kiên Giang providing ideal growing conditions — fertile alluvial soils, year-round sunshine, and consistent rainfall that produce pineapples of exceptional sweetness and quality.
+    longDescription: `Vietnam is one of Southeast Asia's leading pineapple producers, with the Mekong Delta provinces of Long An, Tiền Giang, and Kiên Giang providing ideal growing conditions fertile alluvial soils, year round sunshine, and consistent rainfall that produce pineapples of exceptional sweetness and quality.
 
-The Queen variety (Dứa Ta), the traditional Vietnamese pineapple, is known for its compact size, intensely sweet flavor (Brix 14–18°), deep yellow flesh, and strong aroma. Queen pineapples are harvested at precise maturity to ensure optimal sugar content and shelf life during transit. The MD2 (Gold) variety, popular in European and Gulf markets, offers a larger fruit size, uniform cylindrical shape, and lower acidity — making it the preferred choice for supermarket retail display.
+The Queen variety (Dứa Ta), the traditional Vietnamese pineapple, is known for its compact size, intensely sweet flavor (Brix 14–18°), deep yellow flesh, and strong aroma. Queen pineapples are harvested at precise maturity to ensure optimal sugar content and shelf life during transit. The MD2 (Gold) variety, popular in European and Gulf markets, offers a larger fruit size, uniform cylindrical shape, and lower acidity  making it the preferred choice for supermarket retail display.
 
 Our export pineapples are:
 - Harvested to order from partner farms under Good Agricultural Practices (GAP) protocols
-- Treated with approved post-harvest fungicides (thiabendazole where permitted)
+- Treated with approved post harvest fungicides (thiabendazole where permitted)
 - Pre-cooled and graded by size (weight/diameter) for uniformity
 - Packed in ventilated cartons with foam netting for shock protection
 - Inspected and certificated by Vietnam's Plant Protection Department (PPD)
@@ -1239,25 +1239,25 @@ We supply to wholesale importers, supermarket chains, and food distributors acro
     packagingOptions: ['Ventilated carton 8 kg net', 'Ventilated carton 12 kg net', 'Individual foam net sleeve', 'Custom label printing'],
     faqs: [
       { question: 'What is the shipping transit time from Vietnam to the Middle East?', answer: 'Transit time from Ho Chi Minh City or Hai Phong port to GCC ports (Jeddah, Dubai, Dammam) is approximately 16–22 days by sea. We recommend reefer containers maintained at 10–12°C for optimal freshness.' },
-      { question: 'Can pineapples be exported by air for higher value markets?', answer: 'Yes, for premium or time-sensitive orders, we arrange air freight from Tan Son Nhat or Noi Bai airports. Air export quantities are typically 500 kg–2 MT per shipment.' },
+      { question: 'Can pineapples be exported by air for higher value markets?', answer: 'Yes, for premium or time sensitive orders, we arrange air freight from Tan Son Nhat or Noi Bai airports. Air export quantities are typically 500 kg–2 MT per shipment.' },
       { question: 'Do you offer custom carton labels for supermarket chains?', answer: 'Yes, we accommodate private label carton printing for key account buyers. Requirements include barcode, PLU, retailer logo, and origin declaration. Minimum print run is 1,000 cartons.' },
     ],
-    relatedSlugs: ['jasmine-rice', 'thai-nguyen-green-tea'],
+    relatedSlugs: ['jasmine rice', 'thai nguyen green tea'],
     seoTitle: 'Fresh Vietnamese Pineapple Export | Queen & MD2 | Wholesale Supplier',
     seoDescription: 'Export fresh pineapples from Vietnam. Queen and MD2 varieties. GlobalGAP, phytosanitary certified. MOQ 1 reefer container. Supplier to UAE, Saudi Arabia, EU, Asia.',
     keywords: ['fresh pineapple Vietnam export', 'Vietnamese pineapple supplier', 'buy pineapple wholesale Vietnam', 'MD2 pineapple Vietnam', 'pineapple exporter Vietnam'],
     hsCode: '0804.30.00',
   },
   {
-    slug: 'canned-pineapple-syrup',
+    slug: 'canned pineapple syrup',
     name: 'Canned Pineapple in Syrup',
     category: 'Processed Pineapple',
     categorySlug: 'pineapple',
-    tagline: 'HACCP-Certified Canned Pineapple — Ready for Global Retail & Foodservice',
-    description: 'Vietnamese canned pineapple in light syrup — slices, chunks, tidbit, and crushed formats. Processed from freshly harvested Queen pineapples with consistent Brix, natural color, and firm texture. Ideal for retail, foodservice, bakery, and confectionery applications globally.',
+    tagline: 'HACCP Certified Canned Pineapple Ready for Global Retail & Foodservice',
+    description: 'Vietnamese canned pineapple in light syrup slices, chunks, tidbit, and crushed formats. Processed from freshly harvested Queen pineapples with consistent Brix, natural color, and firm texture. Ideal for retail, foodservice, bakery, and confectionery applications globally.',
     longDescription: `Canned pineapple is a globally consumed product with strong demand in the Middle East, Africa, Europe, and North America — particularly for use in bakery, confectionery, HoReCa, and grocery retail. Vietnam has developed a robust canning industry in the Mekong Delta, leveraging fresh pineapple abundance and modern retort processing facilities.
 
-Our canned pineapple is processed within 24 hours of harvest at HACCP-certified facilities equipped with automated slicing, blanching, syrup filling, seaming, and retort sterilization lines. This farm-to-can efficiency preserves the natural flavor, color, and nutritional profile of the fresh fruit.
+Our canned pineapple is processed within 24 hours of harvest at HACCP certified facilities equipped with automated slicing, blanching, syrup filling, seaming, and retort sterilization lines. This farm to can efficiency preserves the natural flavor, color, and nutritional profile of the fresh fruit.
 
 Available cut styles: Slices (30A can), Chunks, Tidbits, Crushed (for bakery/confectionery), Rings.
 
@@ -1282,28 +1282,28 @@ Standard can sizes: A10 (3 kg net), A2½ (825g net), 1 kg, 565g, 227g. All can s
     containerCapacity: '24 MT (A10) / 20 MT (A2½) per 20ft',
     packagingOptions: ['A10 can (24 x 3 kg per carton)', 'A2½ can (24 x 825g per carton)', 'Custom label OEM', 'Retailer own brand'],
     faqs: [
-      { question: 'What is the minimum order for custom private label canned pineapple?', answer: 'Private label canned pineapple (customer-supplied labels or printed cans) is available from 1 x 20ft container. For printed can (not paper label) production, MOQ is 2 containers per design.' },
-      { question: 'Do you offer A10 cans for foodservice and bakery buyers?', answer: "Yes, A10 (3 kg net) is our primary foodservice/food industry size and our best-selling export format. It's compatible with standard commercial can openers and widely used by bakeries, hotels, and catering operations." },
+      { question: 'What is the minimum order for custom private label canned pineapple?', answer: 'Private label canned pineapple (customer supplied labels or printed cans) is available from 1 x 20ft container. For printed can (not paper label) production, MOQ is 2 containers per design.' },
+      { question: 'Do you offer A10 cans for foodservice and bakery buyers?', answer: "Yes, A10 (3 kg net) is our primary foodservice/food industry size and our best selling export format. It's compatible with standard commercial can openers and widely used by bakeries, hotels, and catering operations." },
       { question: 'What certifications are required for Saudi Arabia and Gulf markets?', answer: 'We provide SASO compliance documentation, Halal certificate from an accredited body, COO, health certificate, and packing list as standard for GCC markets.' },
     ],
-    relatedSlugs: ['frozen-white-shrimp', 'jasmine-rice'],
+    relatedSlugs: ['frozen white shrimp', 'jasmine rice'],
     seoTitle: 'Canned Pineapple Vietnam Export | Light & Heavy Syrup | Halal B2B Supplier',
     seoDescription: 'Buy canned pineapple in syrup from Vietnam. A10/A2½ sizes. Slices, chunks, tidbits, crushed. HACCP, Halal, BRC certified. MOQ 1 container. Export to Saudi Arabia, EU, Africa.',
     keywords: ['canned pineapple Vietnam', 'canned pineapple syrup export', 'Vietnamese canned fruit supplier', 'canned pineapple wholesale', 'pineapple can manufacturer Vietnam'],
     hsCode: '2008.20.00',
   },
   {
-    slug: 'dried-pineapple-export',
+    slug: 'dried pineapple export',
     name: 'Dried Pineapple Slices & Chunks',
     category: 'Pineapple',
     categorySlug: 'pineapple',
-    tagline: 'Sun-Sweet Dried Pineapple — Natural & Sulphur-Free Vietnam Export',
-    description: 'Premium dried pineapple slices and chunks from Vietnamese Queen variety pineapples. Available sulphur-treated (golden, long shelf life) and sulphur-free (natural, clean label). Moisture ≤ 18%, Brix 68-72°. HACCP certified. Suitable for snack, trail mix, baking, confectionery. MOQ 1 MT.',
-    longDescription: `Dried pineapple is produced from Vietnamese Queen or MD2 pineapples that are peeled, cored, sliced, and dehydrated to 14-18% moisture. Vietnam's consistent tropical climate and year-round harvest enable continuous production for snack manufacturers, confectionery producers, and trail mix blenders worldwide.
+    tagline: 'Sun Sweet Dried Pineapple Natural & Sulphur Free Vietnam Export',
+    description: 'Premium dried pineapple slices and chunks from Vietnamese Queen variety pineapples. Available sulphur treated (golden, long shelf life) and sulphur free (natural, clean label). Moisture ≤ 18%, Brix 68-72°. HACCP certified. Suitable for snack, trail mix, baking, confectionery. MOQ 1 MT.',
+    longDescription: `Dried pineapple is produced from Vietnamese Queen or MD2 pineapples that are peeled, cored, sliced, and dehydrated to 14-18% moisture. Vietnam's consistent tropical climate and year round harvest enable continuous production for snack manufacturers, confectionery producers, and trail mix blenders worldwide.
 
-Variants: Sulphured (SO2, bright golden colour, shelf life 18-24 months, standard commodity) or sulphur-free (natural amber, clean label, organic available, 12-18 months). Sugar-added for confectionery or sugar-free natural options.
+Variants: Sulphured (SO2, bright golden colour, shelf life 18-24 months, standard commodity) or sulphur free (natural amber, clean label, organic available, 12-18 months). Sugar added for confectionery or sugar free natural options.
 
-Drying methods: Hot air drying, solar tunnel drying, or freeze-drying (premium — preserves colour and flavour, light crunchy texture).`,
+Drying methods: Hot air drying, solar tunnel drying, or freeze drying (premium preserves colour and flavour, light crunchy texture).`,
     heroImage: '/pinple/Dried Pineapple Slices & Chunks.jpg',
     specs: [
       { label: 'Variety', value: 'Queen pineapple / MD2' },
@@ -1320,13 +1320,13 @@ Drying methods: Hot air drying, solar tunnel drying, or freeze-drying (premium �
     containerCapacity: '18-20 MT per 20ft',
     packagingOptions: ['10 kg carton box', '5 kg inner bag in carton', '1 kg retail pouch', '200g retail snack bag', 'Custom OEM packaging'],
     faqs: [
-      { question: 'What is the difference between sulphured and sulphur-free dried pineapple?', answer: 'Sulphured retains bright golden colour, shelf life 18-24 months, SO2 must be declared on EU labels. Sulphur-free is natural amber colour, 12-18 month shelf life, appeals to clean-label and organic consumers.' },
-      { question: 'Can you supply certified organic dried pineapple?', answer: 'Yes. USDA Organic and EU Organic certified available in sulphur-free only (organic standards prohibit SO2). Requires advance booking during harvest (Feb-May). 30-50% premium over conventional.' },
+      { question: 'What is the difference between sulphured and sulphur free dried pineapple?', answer: 'Sulphured retains bright golden colour, shelf life 18-24 months, SO2 must be declared on EU labels. Sulphur free is natural amber colour, 12-18 month shelf life, appeals to clean label and organic consumers.' },
+      { question: 'Can you supply certified organic dried pineapple?', answer: 'Yes. USDA Organic and EU Organic certified available in sulphur free only (organic standards prohibit SO2). Requires advance booking during harvest (Feb-May). 30-50% premium over conventional.' },
     ],
-    relatedSlugs: ['fresh-export-pineapple', 'canned-pineapple-syrup'],
-    seoTitle: 'Dried Pineapple Export Vietnam | Natural Sulphur-Free Pineapple Slices Wholesale',
-    seoDescription: 'Dried pineapple slices and chunks from Vietnam. Natural sulphur-free and sulphured. HACCP, ISO 22000, Halal. MOQ 1 MT. Export to Germany, USA, Australia, GCC.',
-    keywords: ['dried pineapple exporter Vietnam', 'natural dried pineapple wholesale', 'sulphur-free dried pineapple', 'pineapple slices bulk supplier'],
+    relatedSlugs: ['fresh export pineapple', 'canned pineapple syrup'],
+    seoTitle: 'Dried Pineapple Export Vietnam | Natural Sulphur Free Pineapple Slices Wholesale',
+    seoDescription: 'Dried pineapple slices and chunks from Vietnam. Natural sulphur free and sulphured. HACCP, ISO 22000, Halal. MOQ 1 MT. Export to Germany, USA, Australia, GCC.',
+    keywords: ['dried pineapple exporter Vietnam', 'natural dried pineapple wholesale', 'sulphur free dried pineapple', 'pineapple slices bulk supplier'],
     hsCode: '0813.40.00',
   },
 ];
@@ -1334,15 +1334,15 @@ Drying methods: Hot air drying, solar tunnel drying, or freeze-drying (premium �
 // ─── Textile & Apparel OEM Products ───────────────────────────────────────────
 const textileProducts: Product[] = [
   {
-    slug: 'garment-oem-manufacturing',
+    slug: 'garment oem-manufacturing',
     name: 'Garment OEM Manufacturing (Full Package)',
     category: 'Textile & Apparel',
-    categorySlug: 'textile-apparel',
-    tagline: 'Full-Package OEM Garment Production — Fashion, Workwear & Basics',
-    description: "Vietnam is the world's 3rd largest apparel exporter. Our full-package OEM service covers design adoption, fabric sourcing, pattern making, cutting, sewing, finishing, and quality inspection for fashion brands, retailers, and wholesale buyers globally.",
+    categorySlug: 'textile apparel',
+    tagline: 'Full Package OEM Garment Production Fashion, Workwear & Basics',
+    description: "Vietnam is the world's 3rd largest apparel exporter. Our full package OEM service covers design adoption, fabric sourcing, pattern making, cutting, sewing, finishing, and quality inspection for fashion brands, retailers, and wholesale buyers globally.",
     longDescription: `Vietnam's textile and garment industry generates over USD 40 billion in annual exports, making it the country's largest manufacturing sector and one of the world's most capable apparel production hubs. With a workforce of over 2.7 million skilled garment workers, Vietnam offers a unique combination of production capacity, craftsmanship, and competitive cost structure.
 
-Ideal Deal Vietnam partners with audited, WRAP and BSCI-certified factories across Ho Chi Minh City, Binh Duong, Dong Nai, and the Mekong Delta — facilities that have supplied major international brands across fast fashion, mid-market retail, workwear, and sportswear categories.
+Ideal Deal Vietnam partners with audited, WRAP and BSCI certified factories across Ho Chi Minh City, Binh Duong, Dong Nai, and the Mekong Delta facilities that have supplied major international brands across fast fashion, mid-market retail, workwear, and sportswear categories.
 
 Our OEM garment manufacturing capabilities include:
 - **Woven garments**: Shirts, blouses, trousers, jackets, dresses, denim
@@ -1351,7 +1351,7 @@ Our OEM garment manufacturing capabilities include:
 - **Workwear & uniforms**: Safety vests, coveralls, hospitality uniforms
 - **Babywear & children's**: Onesies, children's sets, school uniforms
 
-Full-package service includes: Fabric sourcing (local or imported), pattern grading, marker making, cutting (automated or manual), sewing, embroidery/printing, finishing, ironing, hang-tag/label attachment, inspection, and export packing.
+Full-package service includes: Fabric sourcing (local or imported), pattern grading, marker making, cutting (automated or manual), sewing, embroidery/printing, finishing, ironing, hang tag/label attachment, inspection, and export packing.
 
 Lead times: Sampling 15–21 days. Bulk production 45–90 days (volume dependent). All factories comply with international labor and environmental standards.`,
     heroImage: '/clothes/Garment OEM Manufacturing — Full Package.png',
@@ -1379,7 +1379,7 @@ Lead times: Sampling 15–21 days. Bulk production 45–90 days (volume dependen
     ],
     relatedSlugs: ['cnc-machined-parts', 'eco-packaging-kraft'],
     seoTitle: 'Vietnam Garment OEM Manufacturing | Apparel Supplier | WRAP BSCI Certified',
-    seoDescription: 'OEM garment manufacturing from Vietnam. Full-package service — fabric to finished goods. WRAP, BSCI, OEKO-TEX certified. MOQ 500 pcs. Export to USA, EU, Australia.',
+    seoDescription: 'OEM garment manufacturing from Vietnam. Full package service — fabric to finished goods. WRAP, BSCI, OEKO-TEX certified. MOQ 500 pcs. Export to USA, EU, Australia.',
     keywords: ['garment OEM Vietnam', 'apparel manufacturer Vietnam', 'clothing supplier Vietnam', 'OEM clothing production', 'Vietnam garment factory'],
     hsCode: '6109.10.00',
   },
@@ -1387,19 +1387,19 @@ Lead times: Sampling 15–21 days. Bulk production 45–90 days (volume dependen
     slug: 'sportswear-oem',
     name: 'Sportswear & Activewear OEM',
     category: 'Textile & Apparel',
-    categorySlug: 'textile-apparel',
-    tagline: 'Technical Sportswear Manufacturing — Performance Fabric Expertise',
-    description: 'Vietnam-manufactured sportswear and activewear using performance fabrics — moisture-wicking polyester, compression nylon, and recycled GRS materials. Ideal for sports brands, gym wear retailers, and corporate wellness programs. Sublimation, screen print, and embroidery available.',
+    categorySlug: 'textile apparel',
+    tagline: 'Technical Sportswear Manufacturing Performance Fabric Expertise',
+    description: 'Vietnam manufactured sportswear and activewear using performance fabrics moisture wicking polyester, compression nylon, and recycled GRS materials. Ideal for sports brands, gym wear retailers, and corporate wellness programs. Sublimation, screen print, and embroidery available.',
     longDescription: `Vietnam has rapidly developed significant capabilities in technical sportswear and activewear manufacturing, with specialized factories serving global brands in yoga wear, gym apparel, cycling gear, team sports kits, and outdoor performance clothing.
 
-Our sportswear OEM partners utilize advanced technical fabrics from leading suppliers — including moisture-wicking and quick-dry polyester (90–110 GSM), 4-way stretch nylon-spandex blends for compression wear (80/20 to 87/13 nylon/spandex ratios), recycled polyester for sustainable activewear, and UV-protective fabrics for outdoor applications.
+Our sportswear OEM partners utilize advanced technical fabrics from leading suppliers including moisture wicking and quick dry polyester (90–110 GSM), 4-way stretch nylon spandex blends for compression wear (80/20 to 87/13 nylon/spandex ratios), recycled polyester for sustainable activewear, and UV-protective fabrics for outdoor applications.
 
-Manufacturing capabilities include flatlock and overlock seam construction for comfort against skin, bonded and taped seams for seamless performance, sublimation printing for full-color all-over print designs, silicone gripper application, zipper and drawstring insertion, and reflective tape for safety apparel.
+Manufacturing capabilities include flatlock and overlock seam construction for comfort against skin, bonded and taped seams for seamless performance, sublimation printing for full color all over print designs, silicone gripper application, zipper and drawstring insertion, and reflective tape for safety apparel.
 
-Quality benchmarks applied include fabric pilling resistance testing (ISO 12945), colorfastness to washing and perspiration (ISO 105-C06, ISO 105-E04), dimensional stability, and burst strength for compression wear. All garments are pre-shipment inspected per AQL 2.5 or buyer-specified level.`,
+Quality benchmarks applied include fabric pilling resistance testing (ISO 12945), colorfastness to washing and perspiration (ISO 105-C06, ISO 105-E04), dimensional stability, and burst strength for compression wear. All garments are pre-shipment inspected per AQL 2.5 or buyer specified level.`,
     heroImage: '/clothes/Sportswear & Activewear OEM.png',
     specs: [
-      { label: 'Fabric', value: 'Polyester / Nylon-Spandex / Recycled Poly' },
+      { label: 'Fabric', value: 'Polyester / Nylon Spandex / Recycled Poly' },
       { label: 'GSM Range', value: '90–200 GSM' },
       { label: 'Stretch', value: '4-way stretch (where applicable)' },
       { label: 'Printing', value: 'Sublimation / Screen / Digital (DTG)' },
@@ -1415,33 +1415,33 @@ Quality benchmarks applied include fabric pilling resistance testing (ISO 12945)
     containerCapacity: 'Per order volume',
     packagingOptions: ['Individual poly bag', 'Retail hanger pack', 'Custom branded packaging', 'Bulk export carton'],
     faqs: [
-      { question: 'Do you offer all-over sublimation printing for sportswear?', answer: "Yes, sublimation printing is available for 100% polyester garments, enabling full-color all-over print designs including team kits, custom branding, and pattern designs. There's no color limitation with sublimation and no feel to the print." },
+      { question: 'Do you offer all over sublimation printing for sportswear?', answer: "Yes, sublimation printing is available for 100% polyester garments, enabling full color all over print designs including team kits, custom branding, and pattern designs. There's no color limitation with sublimation and no feel to the print." },
       { question: 'Can you produce recycled/sustainable sportswear?', answer: 'Yes, we work with GRS-certified recycled polyester fabric and can provide sustainability documentation including recycled content certificates for your ESG reporting.' },
     ],
-    relatedSlugs: ['garment-oem-manufacturing', 'eco-packaging-kraft'],
+    relatedSlugs: ['garment oem-manufacturing', 'eco-packaging kraft'],
     seoTitle: 'Vietnam Sportswear OEM Manufacturer | Activewear Supplier | Sublimation Print',
-    seoDescription: 'OEM sportswear and activewear from Vietnam. Polyester, nylon-spandex, recycled fabrics. Sublimation printing. OEKO-TEX, GRS. MOQ 300 pcs. Export globally.',
+    seoDescription: 'OEM sportswear and activewear from Vietnam. Polyester, nylon spandex, recycled fabrics. Sublimation printing. OEKO-TEX, GRS. MOQ 300 pcs. Export globally.',
     keywords: ['sportswear manufacturer Vietnam', 'activewear OEM Vietnam', 'gym wear supplier Vietnam', 'sublimation sportswear Vietnam', 'performance wear Vietnam'],
     hsCode: '6211.42.00',
   },
   {
-    slug: 'polo-shirts-oem',
+    slug: 'polo shirts oem',
     name: 'Polo Shirts OEM Manufacturing',
     category: 'Textile & Apparel',
-    categorySlug: 'textile-apparel',
-    tagline: 'Custom Polo Shirt Production — Corporate, Retail & Sportswear Brands',
-    description: 'Vietnam OEM polo shirt manufacturing for corporate brands, retailers, and sportswear labels. 100% cotton piqué, cotton-polyester blends, and performance fabric options. Custom embroidery, screen print, and heat transfer branding. MOQ 300 pcs per color.',
-    longDescription: `Polo shirts are one of the highest-volume garment categories exported from Vietnam, with domestic factories supplying major global retail chains, corporate uniform programs, golf brands, and sports apparel companies across 80+ countries.
+    categorySlug: 'textile apparel',
+    tagline: 'Custom Polo Shirt Production Corporate, Retail & Sportswear Brands',
+    description: 'Vietnam OEM polo shirt manufacturing for corporate brands, retailers, and sportswear labels. 100% cotton piqué, cotton polyester blends, and performance fabric options. Custom embroidery, screen print, and heat transfer branding. MOQ 300 pcs per color.',
+    longDescription: `Polo shirts are one of the highest volume garment categories exported from Vietnam, with domestic factories supplying major global retail chains, corporate uniform programs, golf brands, and sports apparel companies across 80+ countries.
 
-Ideal Deal Vietnam sources from WRAP and BSCI-certified polo shirt factories in Ho Chi Minh City and Binh Duong, offering full-package CMT (Cut, Make, Trim) with fabric sourcing, or CM-only service if buyers supply their own fabric. Key manufacturing capabilities include:
+Ideal Deal Vietnam sources from WRAP and BSCI certified polo shirt factories in Ho Chi Minh City and Binh Duong, offering full package CMT (Cut, Make, Trim) with fabric sourcing, or CM-only service if buyers supply their own fabric. Key manufacturing capabilities include:
 
-- **Fabric options**: 100% combed cotton piqué (180–240 GSM), cotton-polyester blend (CVC 60/40, TC 65/35), moisture-wicking performance polyester piqué, recycled polyester (GRS certified)
-- **Collar constructions**: Classic 3-button polo collar, rib collar, self-fabric collar, stand collar
-- **Branding methods**: Left-chest embroidery (up to 10,000 stitches), screen print, heat transfer, sublimation (polyester), woven label, printed label
+- **Fabric options**: 100% combed cotton piqué (180–240 GSM), cotton polyester blend (CVC 60/40, TC 65/35), moisture wicking performance polyester piqué, recycled polyester (GRS certified)
+- **Collar constructions**: Classic 3 button polo collar, rib collar, self fabric collar, stand collar
+- **Branding methods**: Left chest embroidery (up to 10,000 stitches), screen print, heat transfer, sublimation (polyester), woven label, printed label
 - **Fit options**: Regular fit, slim fit, relaxed fit, women's fitted, unisex
 - **Sizes**: XS–5XL, custom sizing for corporate programs
 
-All polo shirts are pre-shrunk and tested for colorfastness (ISO 105-C06), dimensional stability after washing, and fabric pilling resistance (Martindale test). Packing: individual poly bag, folded or on hanger, retail-ready or bulk carton.`,
+All polo shirts are pre-shrunk and tested for colorfastness (ISO 105-C06), dimensional stability after washing, and fabric pilling resistance (Martindale test). Packing: individual poly bag, folded or on hanger, retail ready or bulk carton.`,
     heroImage: '/clothes/Polo Shirts OEM Manufacturing.png',
     specs: [
       { label: 'Fabric', value: '100% Cotton Piqué / CVC / Performance Polyester' },
@@ -1460,11 +1460,11 @@ All polo shirts are pre-shrunk and tested for colorfastness (ISO 105-C06), dimen
     containerCapacity: 'Per order volume',
     packagingOptions: ['Individual poly bag (folded)', 'Hanger pack', 'Custom branded hang tag', 'Retail box', 'Bulk export carton'],
     faqs: [
-      { question: 'Can you produce polo shirts with custom embroidered logos?', answer: 'Yes. Left-chest embroidery is our most popular branding method for corporate and retail polo shirts. We digitize your artwork at no charge for orders above 500 pieces. Embroidery up to 10,000 stitches is standard; larger designs available.' },
-      { question: 'What is the MOQ for sustainable / recycled polo shirts?', answer: 'MOQ for GRS recycled polyester polo shirts starts at 500 pieces per color. GOTS-certified organic cotton piqué polo shirts require a minimum of 600 pieces due to fabric minimums. Standard CVC and cotton piqué MOQ is 300 pieces.' },
+      { question: 'Can you produce polo shirts with custom embroidered logos?', answer: 'Yes. Left chest embroidery is our most popular branding method for corporate and retail polo shirts. We digitize your artwork at no charge for orders above 500 pieces. Embroidery up to 10,000 stitches is standard; larger designs available.' },
+      { question: 'What is the MOQ for sustainable / recycled polo shirts?', answer: 'MOQ for GRS recycled polyester polo shirts starts at 500 pieces per color. GOTS certified organic cotton piqué polo shirts require a minimum of 600 pieces due to fabric minimums. Standard CVC and cotton piqué MOQ is 300 pieces.' },
       { question: "Do you offer women's fitted polo shirts?", answer: "Yes. Women's fitted polo shirts are available in all fabric options with princess seam construction for a tailored fit. Corporate polo programs with both men's and women's styles can be produced simultaneously with shared colorways." },
     ],
-    relatedSlugs: ['garment-oem-manufacturing', 'sportswear-oem'],
+    relatedSlugs: ['garment oem manufacturing', 'sportswear oem'],
     seoTitle: 'Vietnam Polo Shirt OEM Manufacturer | Custom Polo Shirts Supplier | WRAP BSCI',
     seoDescription: 'OEM polo shirt manufacturing from Vietnam. Cotton, CVC, performance piqué. Custom embroidery and print. WRAP, BSCI, OEKO-TEX certified. MOQ 300 pcs. Export worldwide.',
     keywords: ['polo shirt manufacturer Vietnam', 'polo shirt OEM Vietnam', 'custom polo shirts supplier', 'corporate polo shirts Vietnam', 'polo shirt factory Vietnam'],
@@ -1475,25 +1475,25 @@ All polo shirts are pre-shrunk and tested for colorfastness (ISO 105-C06), dimen
 // ─── Precision Components Products ───────────────────────────────────────────
 const precisionProducts: Product[] = [
   {
-    slug: 'cnc-machined-parts',
+    slug: 'cnc-machined parts',
     name: 'CNC Machined Precision Components',
     category: 'Precision Manufacturing',
-    categorySlug: 'precision-components',
-    tagline: 'ISO 9001 CNC Machining — Tight-Tolerance Parts for Global OEM Supply Chains',
+    categorySlug: 'precision components',
+    tagline: 'ISO 9001 CNC Machining — Tight Tolerance Parts for Global OEM Supply Chains',
     description: "Vietnam's precision machining sector supplies automotive, electronics, and industrial OEMs globally. Our partner facilities offer CNC turning, milling, and grinding to tolerances of ±0.01 mm in aluminum, stainless steel, brass, and engineering plastics.",
-    longDescription: `Vietnam's precision manufacturing sector has grown significantly over the past decade, driven by FDI inflows from Samsung, Intel, LG, and Foxconn, which have built world-class component manufacturing capabilities that now serve both captive and third-party OEM buyers.
+    longDescription: `Vietnam's precision manufacturing sector has grown significantly over the past decade, driven by FDI inflows from Samsung, Intel, LG, and Foxconn, which have built world class component manufacturing capabilities that now serve both captive and third party OEM buyers.
 
 Our precision CNC machining partners operate modern facilities equipped with 3-axis, 4-axis, and 5-axis CNC machining centers from Mazak, Fanuc, and Haas, with CMM (Coordinate Measuring Machine) quality verification for every production lot. Material expertise includes:
 
 - **Aluminum alloys** (6061-T6, 7075-T6): Lightweight structural components, heat sinks, enclosures
 - **Stainless steel** (304, 316L): Food-grade, marine, and medical components
 - **Brass** (C360): Fittings, valves, connectors
-- **Engineering plastics** (Delrin, PEEK, Nylon): Lightweight, corrosion-resistant parts
-- **Copper and titanium**: Specialist high-conductivity or medical applications
+- **Engineering plastics** (Delrin, PEEK, Nylon): Lightweight, corrosion resistant parts
+- **Copper and titanium**: Specialist high conductivity or medical applications
 
 Surface finishing services include anodizing, powder coating, electroplating (nickel, chrome, zinc), bead blasting, and precision polishing. Tolerances achievable: ±0.01 mm dimensional, Ra 0.4–1.6 μm surface finish.
 
-All production follows ISO 9001:2015 quality management systems with full material traceability (mill certificates), first-article inspection (FAI), and production part approval process (PPAP) capability for automotive supply chain requirements.`,
+All production follows ISO 9001:2015 quality management systems with full material traceability (mill certificates), first article inspection (FAI), and production part approval process (PPAP) capability for automotive supply chain requirements.`,
     heroImage: '/Precision Components/CNC Machined Precision Components.jpg',
     specs: [
       { label: 'Processes', value: 'CNC Turning / Milling / Grinding / EDM' },
@@ -1511,37 +1511,37 @@ All production follows ISO 9001:2015 quality management systems with full materi
     exportMarkets: ['Japan', 'South Korea', 'Germany', 'USA', 'Singapore', 'Taiwan', 'Australia'],
     moq: '50 pcs (prototype) / 500 pcs (production)',
     containerCapacity: 'Per order volume',
-    packagingOptions: ['Individual foam packaging', 'VCI anti-corrosion bags', 'Custom foam-lined cases', 'Bulk carton with dividers'],
+    packagingOptions: ['Individual foam packaging', 'VCI anti corrosion bags', 'Custom foam lined cases', 'Bulk carton with dividers'],
     faqs: [
       { question: 'Can you produce first article inspection (FAI) reports?', answer: 'Yes, we provide full First Article Inspection (FAI) reports to AS9102 / PPAP format including dimensional report, material certification, surface finish report, and functional test results where applicable.' },
       { question: 'Do you accept DXF, STEP, and IGES files for quoting?', answer: 'Yes. Please send 3D CAD files (STEP/IGES preferred) along with 2D drawings (PDF or DXF) including GD&T callouts. We provide DFM (Design for Manufacturability) feedback with every quotation.' },
       { question: 'What is your typical production lead time for machined components?', answer: 'Prototype/sample lead time: 7–14 days. Production batches of 500–5,000 pcs: 4–8 weeks. Express lead times are available at premium pricing.' },
     ],
-    relatedSlugs: ['garment-oem-manufacturing', 'wooden-furniture-acacia'],
+    relatedSlugs: ['garment oem manufacturing', 'wooden furniture acacia'],
     seoTitle: 'CNC Precision Components Vietnam | OEM Machined Parts Supplier | ISO 9001',
     seoDescription: 'Precision CNC machined components from Vietnam. Al, SS, brass, plastics. ±0.01mm tolerance. ISO 9001, IATF 16949. MOQ 50 pcs. Export to Japan, EU, USA, Korea.',
     keywords: ['CNC machining Vietnam', 'precision components supplier Vietnam', 'machined parts Vietnam', 'OEM manufacturing Vietnam', 'CNC parts manufacturer'],
     hsCode: '8466.93.00',
   },
   {
-    slug: 'precision-stamped-parts',
+    slug: 'precision stamped parts',
     name: 'Precision Metal Stamped Parts',
     category: 'Precision Manufacturing',
-    categorySlug: 'precision-components',
-    tagline: 'High-Volume Metal Stamping — Automotive, Electronics & Industrial OEM Parts',
-    description: 'Vietnam-manufactured precision metal stamped parts for automotive, electronics, and industrial OEMs. Progressive die and compound die stamping in steel, stainless steel, aluminum, and copper. Tolerances to ±0.05 mm. ISO 9001 and IATF 16949 facilities available.',
-    longDescription: `Metal stamping is one of Vietnam's fastest-growing precision manufacturing sectors, with significant investment from Japanese, Korean, and Taiwanese tier-1 automotive and electronics suppliers establishing high-volume stamping operations across industrial parks in Hanoi, Binh Duong, and Dong Nai.
+    categorySlug: 'precision components',
+    tagline: 'High Volume Metal Stamping — Automotive, Electronics & Industrial OEM Parts',
+    description: 'Vietnam manufactured precision metal stamped parts for automotive, electronics, and industrial OEMs. Progressive die and compound die stamping in steel, stainless steel, aluminum, and copper. Tolerances to ±0.05 mm. ISO 9001 and IATF 16949 facilities available.',
+    longDescription: `Metal stamping is one of Vietnam's fastest growing precision manufacturing sectors, with significant investment from Japanese, Korean, and Taiwanese tier-1 automotive and electronics suppliers establishing high volume stamping operations across industrial parks in Hanoi, Binh Duong, and Dong Nai.
 
-Ideal Deal Vietnam sources precision stamped parts from ISO 9001 and IATF 16949-certified facilities equipped with progressive die presses from 20 to 400 tons, transfer die presses for complex multi-stage parts, and fine blanking presses for high-precision profiles requiring tight tolerances and smooth edges.
+Ideal Deal Vietnam sources precision stamped parts from ISO 9001 and IATF 16949-certified facilities equipped with progressive die presses from 20 to 400 tons, transfer die presses for complex multi-stage parts, and fine blanking presses for high precision profiles requiring tight tolerances and smooth edges.
 
 Material capabilities include:
-- **Cold-rolled steel** (SPCC, SPCD): Brackets, clips, housings, terminals
+- **Cold rolled steel** (SPCC, SPCD): Brackets, clips, housings, terminals
 - **Stainless steel** (SUS304, SUS316L): Food equipment, medical, marine components  
 - **Aluminum** (1050, 1060, 5052, 6061): Lightweight automotive and electronics parts
 - **Copper / brass** (C1100, C2680): Electrical contacts, terminals, connectors
-- **High-strength steel** (HSS, AHSS): Automotive structural and safety components
+- **High strength steel** (HSS, AHSS): Automotive structural and safety components
 
-Post-stamping services available in-house: deburring (tumbling, vibratory), zinc electroplating, nickel plating, powder coating, passivation (stainless), heat treatment, spot welding, and riveting. Full PPAP Level 3 documentation available for automotive supply chain qualification.`,
+Post stamping services available in house: deburring (tumbling, vibratory), zinc electroplating, nickel plating, powder coating, passivation (stainless), heat treatment, spot welding, and riveting. Full PPAP Level 3 documentation available for automotive supply chain qualification.`,
     heroImage: '/Precision Components/Precision Metal Stamped Parts.jpg',
     specs: [
       { label: 'Process', value: 'Progressive Die / Compound Die / Fine Blanking' },
@@ -1556,15 +1556,15 @@ Post-stamping services available in-house: deburring (tumbling, vibratory), zinc
     ],
     certifications: ['ISO 9001:2015', 'IATF 16949 (select facilities)', 'RoHS Compliant', 'REACH Compliant'],
     exportMarkets: ['Japan', 'South Korea', 'Germany', 'USA', 'Taiwan', 'Australia', 'Thailand'],
-    moq: '5,000 pcs per part (post-tooling)',
+    moq: '5,000 pcs per part (post tooling)',
     containerCapacity: 'Per order volume',
-    packagingOptions: ['Bulk tray pack', 'VCI poly bag (anti-corrosion)', 'Reel/tape for auto insertion', 'Custom tote box', 'Export pallet'],
+    packagingOptions: ['Bulk tray pack', 'VCI poly bag (anti corrosion)', 'Reel/tape for auto insertion', 'Custom tote box', 'Export pallet'],
     faqs: [
-      { question: 'Do you provide tooling/die fabrication for new parts?', answer: 'Yes. We provide progressive die and compound die design and fabrication for new part qualification. Tooling lead time is typically 25–35 days. Tooling costs are amortized over production volumes or charged as a one-time tooling fee depending on order commitment.' },
+      { question: 'Do you provide tooling/die fabrication for new parts?', answer: 'Yes. We provide progressive die and compound die design and fabrication for new part qualification. Tooling lead time is typically 25–35 days. Tooling costs are amortized over production volumes or charged as a one time tooling fee depending on order commitment.' },
       { question: 'Can you supply PPAP documentation for automotive qualification?', answer: 'Yes. For IATF 16949-certified facilities, we provide full PPAP Level 3 documentation including dimensional reports, material certifications, MSA studies, process capability (Cpk), and control plans. FAI (First Article Inspection) reports are standard for all new part numbers.' },
       { question: 'What is the typical tolerance achievable with progressive die stamping?', answer: 'Standard progressive die stamping achieves ±0.05–0.10 mm depending on material thickness and part complexity. Fine blanking achieves ±0.02–0.03 mm with smooth shear edges. All tolerances are verified by CMM at first article and by go/no-go gauges in production.' },
     ],
-    relatedSlugs: ['cnc-machined-parts', 'garment-oem-manufacturing'],
+    relatedSlugs: ['cnc-machined parts', 'garment oem manufacturing'],
     seoTitle: 'Vietnam Precision Metal Stamping | Stamped Parts Supplier | ISO IATF 16949',
     seoDescription: 'Precision metal stamped parts from Vietnam. Progressive die, compound die, fine blanking. Steel, aluminum, copper. ISO 9001, IATF 16949. MOQ 5,000 pcs. Automotive & electronics OEM.',
     keywords: ['precision stamping Vietnam', 'metal stamped parts Vietnam', 'progressive die stamping Vietnam', 'automotive stamping parts Vietnam', 'metal stamping manufacturer Vietnam'],
@@ -1669,7 +1669,7 @@ FSC Chain-of-Custody certification available. EUTR and UKTR compliant supply cha
     packagingOptions: ['PE foam + corrugated carton', 'Disassembled flat-pack (KD)', 'Custom branded packaging', 'White glove assembly kit'],
     faqs: [
       { question: 'What is the lead time for a custom furniture design?', answer: 'For new custom designs: 2–4 weeks for sample development drawings, 4–6 weeks for sample production, 2–3 rounds of revision, then bulk production 60–90 days. Total from design approval to delivery: approximately 5–6 months for the first order.' },
-      { question: 'Can you supply FSC certified teak furniture for UK retailers?', answer: 'Yes, our primary teak furniture manufacturing partners hold FSC Chain-of-Custody certification. We can supply FSC project certificates for each order, meeting the requirements of UK retailers and the UK Timber Regulations (UKTR).' },
+      { question: 'Can you supply FSC certified teak furniture for UK retailers?', answer: 'Yes, our primary teak furniture manufacturing partners hold FSC Chain of Custody certification. We can supply FSC project certificates for each order, meeting the requirements of UK retailers and the UK Timber Regulations (UKTR).' },
       { question: 'Do you offer a complete bedroom set program?', answer: 'Yes, we offer coordinated bedroom sets (bed frame, 2× bedside tables, chest of 5 drawers, wardrobe) in matching teak finish. Custom dimensions for non-standard mattress sizes (European, US, Middle East) are available.' },
     ],
     relatedSlugs: ['wooden-furniture-acacia', 'cnc-machined-parts'],
@@ -1684,17 +1684,17 @@ FSC Chain-of-Custody certification available. EUTR and UKTR compliant supply cha
     category: 'Wooden Furniture',
     categorySlug: 'wooden-furniture',
     tagline: 'Sustainable Bamboo Furniture — Indoor, Outdoor & Garden Collections',
-    description: 'Export-grade bamboo furniture from Vietnam — dining sets, shelving, garden furniture, and storage solutions. Carbonized or natural bamboo, mortise-and-tenon joinery, and lacquer finish. FSC-certified bamboo, CARB P2 compliant. Ideal for eco-conscious retail and hospitality buyers.',
-    longDescription: `Vietnam is among the world's largest exporters of bamboo furniture, with industrial-scale bamboo processing concentrated in provinces including Thanh Hoa, Nghe An, and Quang Binh — regions with abundant Moso and Dendrocalamus bamboo plantations.
+    description: 'Export-grade bamboo furniture from Vietnam — dining sets, shelving, garden furniture, and storage solutions. Carbonized or natural bamboo, mortise and tenon joinery, and lacquer finish. FSC-certified bamboo, CARB P2 compliant. Ideal for eco-conscious retail and hospitality buyers.',
+    longDescription: `Vietnam is among the world's largest exporters of bamboo furniture, with industrial scale bamboo processing concentrated in provinces including Thanh Hoa, Nghe An, and Quang Binh — regions with abundant Moso and Dendrocalamus bamboo plantations.
 
 Bamboo furniture exports from Vietnam have grown steadily due to increasing global demand for sustainable home furnishings, with European and North American markets particularly receptive to FSC-certified bamboo as an alternative to hardwood and tropical timber.
 
 Ideal Deal Vietnam partners with export-licensed bamboo furniture factories offering:
 
 **Bamboo processing methods:**
-- **Natural bamboo**: Preserved at original color (light cream), kiln-dried to 8–12% moisture content
+- **Natural bamboo**: Preserved at original color (light cream), kiln dried to 8–12% moisture content
 - **Carbonized bamboo**: Heat-treated to achieve deep brown coloration, enhanced hardness and insect resistance
-- **Laminated bamboo board**: High-density engineered bamboo panels for flat-pack and flatboard furniture
+- **Laminated bamboo board**: High-density engineered bamboo panels for flat pack and flatboard furniture
 
 **Product categories available:**
 - Indoor: Dining chairs, dining tables, bar stools, bookshelves, bedside tables, shoe racks, storage cabinets
@@ -1747,7 +1747,7 @@ Vietnam's Binh Duong, Ho Chi Minh City, and Long An provinces host modern paper 
 
 **Kraft Paper Bags**: Multi-ply SOS (Self-Opening Style) paper bags for food, grocery, retail. Available in 1-ply to 5-ply construction, with or without PE liner for moisture protection. Printing: 1–6 color flexo or digital.
 
-**Corrugated Boxes**: Single-wall (B/E flute) and double-wall (BC flute) RSC, FOL, and custom die-cut styles. ECT ratings from 23 ECT to 44 ECT. Offset litho-laminated for high-quality print finishes.
+**Corrugated Boxes**: Single wall (B/E flute) and double wall (BC flute) RSC, FOL, and custom die-cut styles. ECT ratings from 23 ECT to 44 ECT. Offset litho-laminated for high-quality print finishes.
 
 **Compostable Food Containers**: PLA-coated kraft paper bowls, plates, and cups conforming to EN 13432 industrial composting standard. Alternatives to plastic for foodservice and takeaway applications.
 
@@ -1765,28 +1765,28 @@ All paper packaging manufactured from FSC-certified or recycled content can be s
       { label: 'Lead Time', value: '21–35 days (bulk production)' },
       { label: 'HS Code', value: '4819.10.00' },
     ],
-    certifications: ['FSC Chain-of-Custody', 'EN 13432 (compostable)', 'ISPM 15', 'ISO 9001', 'SGS food safety tested'],
+    certifications: ['FSC Chain of Custody', 'EN 13432 (compostable)', 'ISPM 15', 'ISO 9001', 'SGS food safety tested'],
     exportMarkets: ['Australia', 'Germany', 'UK', 'USA', 'Singapore', 'UAE', 'Japan', 'South Korea'],
     moq: '5,000 units',
-    containerCapacity: 'Per order (flat-packed)',
+    containerCapacity: 'Per order (flat packed)',
     packagingOptions: ['Custom print Kraft SOS bags', 'Corrugated RSC boxes', 'Compostable PLA kraft containers', 'Honeycomb wrap rolls'],
     faqs: [
       { question: 'Are your compostable containers certified EN 13432?', answer: "Yes, our PLA-coated kraft bowls, plates, and cups are tested and certified to EN 13432 standard for industrial composting. Certificates are from TÜV Austria." },
       { question: 'Can you print custom designs on kraft paper bags?', answer: "Yes, flexographic printing up to 6 colors is available. For premium presentation, we offer offset litho-lamination for photo-quality print on corrugated boxes. Artwork files should be supplied as AI/EPS at 300 DPI." },
-      { question: 'What is the lead time for custom-printed packaging?', answer: "Custom printed packaging: 21–35 days for bulk production after artwork approval. Rush orders (15–20 days) are possible at a 15–20% surcharge for existing die sizes." },
+      { question: 'What is the lead time for custom printed packaging?', answer: "Custom printed packaging: 21–35 days for bulk production after artwork approval. Rush orders (15–20 days) are possible at a 15–20% surcharge for existing die sizes." },
     ],
-    relatedSlugs: ['garment-oem-manufacturing', 'wooden-furniture-acacia'],
+    relatedSlugs: ['garment oem-manufacturing', 'wooden furniture acacia'],
     seoTitle: 'Eco Packaging Manufacturer Vietnam | Kraft Paper Bags | Compostable Supplier',
     seoDescription: 'Biodegradable and recycled packaging from Vietnam. Kraft paper bags, corrugated boxes, compostable food containers. FSC, EN 13432 certified. MOQ 5,000 units.',
     keywords: ['eco packaging Vietnam', 'kraft paper bags manufacturer', 'biodegradable packaging Vietnam', 'compostable packaging supplier', 'sustainable packaging Vietnam'],
     hsCode: '4819.10.00',
   },
   {
-    slug: 'biodegradable-food-containers',
+    slug: 'biodegradable food containers',
     name: 'Biodegradable Food Containers (Bagasse & PLA)',
     category: 'Eco Packaging',
     categorySlug: 'eco-packaging',
-    tagline: 'Compostable Food Service Packaging — Bagasse, PLA & Plant-Fiber Based',
+    tagline: 'Compostable Food Service Packaging Bagasse, PLA & Plant-Fiber Based',
     description: 'Vietnam-manufactured biodegradable food containers from sugarcane bagasse, PLA (polylactic acid), and molded plant fiber. Clamshells, bowls, plates, cups, and takeaway boxes. EN 13432 compostable certified. Ideal for food service, QSR chains, catering, and retail eco packaging.',
     longDescription: `Vietnam has rapidly emerged as a leading manufacturer of compostable and biodegradable food service packaging, leveraging abundant sugarcane bagasse (a byproduct of sugar production) and proximity to PLA resin suppliers in the region.
 
@@ -1985,7 +1985,7 @@ Liquid hand soap represents one of the most accessible categories for private la
 **Packaging Options:** 250 ml, 500 ml, 1,000 ml pump or flip-top bottles (PET/HDPE), 5L and 20L HDPE jerrycans for HoReCa/institutional buyers, 200L drums for further processing.
 
 All formulations are ASEAN Cosmetics Directive (ACD) compliant and can be registered for markets including Vietnam, ASEAN, UAE (CPNP), and GCC upon buyer request. Full MSDS and product dossier are provided.`,
-    heroImage: '/Home & Personal Care/Liquid Hand Soap (Private Label).jpg',
+    heroImage: '/Home & Personal Care/idealdeal-Liquid Hand Soap (Private Label).png',
     specs: [
       { label: 'pH', value: '5.5–7.0 (formulation dependent)' },
       { label: 'Viscosity', value: '3,000–8,000 cPs' },
@@ -2040,7 +2040,7 @@ Ideal Deal Vietnam works with ISO 22716 (Cosmetics GMP) certified hair care manu
 **Fragrance**: Choose from standard library (30+ options) or custom fragrance blending. Allergen declaration per EU Cosmetics Regulation 1223/2009 provided.
 
 Packaging: bottles (HDPE, PET, PP), pumps, flip caps, sachets, tubes. Custom label printing (digital or offset) and shrink-sleeve labelling available.`,
-    heroImage: '/Home & Personal Care/Shampoo Conditioner Body Wash Label.jpg',
+    heroImage: '/Home & Personal Care/idealdeal-Shampoo Conditioner Body Wash Label.png',
     specs: [
       { label: 'GMP Standard', value: 'ISO 22716 Cosmetics GMP' },
       { label: 'Formulation Type', value: 'Shampoo / Conditioner / Treatment Mask' },
@@ -2120,19 +2120,19 @@ All products comply with ASEAN Cosmetics Directive and EU Cosmetics Regulation 1
       { question: 'Do you offer biodegradable/compostable wipes?', answer: 'Yes, bamboo-based and lyocell spunlace substrates with compostable sachets are available. These can be certified to EN 13432 (industrial compostable) and meet the EU Single-Use Plastics Directive requirements for wipes from 2027.' },
       { question: 'Can you replicate an existing wipe product for private label?', answer: 'Yes. Please provide your reference product and any specific requirements (fragrance, formula actives, substrate feel, moisture level). We will produce matching samples for approval before bulk production.' },
     ],
-    relatedSlugs: ['baby-wipes', 'liquid-hand-soap-bulk'],
+    relatedSlugs: ['baby wipes', 'liquid hand soap bulk'],
     seoTitle: 'Non-Woven Wet Wipes OEM Vietnam | Private Label Baby & Antibacterial Wipes',
     seoDescription: 'Private label wet wipes manufacturer Vietnam. Baby, antibacterial, medical, beauty grades. ISO 22716, EN 14476. MOQ 5,000 units. Export to Saudi Arabia, EU, Asia.',
     keywords: ['wet wipes manufacturer Vietnam', 'private label wipes supplier', 'OEM wet wipes Vietnam', 'antibacterial wipes Vietnam', 'baby wipes manufacturer'],
     hsCode: '3307.90.00',
   },
   {
-    slug: 'disposable-face-masks-export',
+    slug: 'disposable face masks export',
     name: 'Disposable 3-Ply Face Masks (Medical & Non-Medical)',
     category: 'Hygiene & Disposable',
-    categorySlug: 'hygiene-disposable',
-    tagline: 'Vietnam-Made Disposable Face Masks — CE, FDA, ISO 13485 Certified',
-    description: 'High-volume disposable 3-ply face masks from certified Vietnamese manufacturers. Medical-grade surgical masks (EN 14683 Type IIR) and non-medical procedural masks available. CE marked, FDA-registered, ISO 13485 facilities. Available in white, colors, and custom print. MOQ 50,000 pcs.',
+    categorySlug: 'hygiene disposable',
+    tagline: 'Vietnam Made Disposable Face Masks — CE, FDA, ISO 13485 Certified',
+    description: 'High volume disposable 3-ply face masks from certified Vietnamese manufacturers. Medical-grade surgical masks (EN 14683 Type IIR) and non-medical procedural masks available. CE marked, FDA-registered, ISO 13485 facilities. Available in white, colors, and custom print. MOQ 50,000 pcs.',
     longDescription: `Vietnam became one of the world's largest producers of disposable face masks during the COVID-19 pandemic, with dozens of ISO 13485-certified facilities established across the country. These factories continue to supply hospitals, governments, NGOs, pharmacies, and industrial customers globally.
 
 Ideal Deal Vietnam sources from audited, CE-marked and FDA-registered facilities producing both Type I/II/IIR medical surgical masks and non-medical (ASTM F2100 Level 1/2) procedural and industrial masks.
@@ -2177,7 +2177,7 @@ Custom color, logo printing on mask body available for promotional and corporate
       { question: 'Can you supply custom-printed masks with our company logo?', answer: 'Yes. Custom printing on the outer layer of the mask is available using non-toxic, skin-safe inks. Minimum order for custom print is 100,000 pieces. One-color, two-color, and full-color print options are available. Pre-production sample provided within 7 days of artwork approval.' },
       { question: 'What is your production capacity and lead time for large orders?', answer: 'Our combined partner factory capacity exceeds 5 million masks per day. For standard orders up to 2 million pieces, lead time is 7–10 days from payment. For custom-print or unique specification orders of 1–10 million pieces, lead time is 15–21 days. Priority allocation is available for institutional buyers with standing purchase orders.' },
     ],
-    relatedSlugs: ['hand-sanitizer-gel', 'shampoo-conditioner-bulk'],
+    relatedSlugs: ['hand-sanitizer-gel', 'shampoo conditioner-bulk'],
     seoTitle: 'Vietnam Disposable Face Masks Supplier | CE FDA EN 14683 Type IIR Surgical Masks',
     seoDescription: 'Disposable 3-ply face masks from Vietnam. Type IIR surgical, non-medical grades. CE marked, FDA registered, ISO 13485. MOQ 50,000 pcs. Custom print available. Export worldwide.',
     keywords: ['face mask manufacturer Vietnam', 'surgical mask supplier Vietnam', 'disposable mask Vietnam', 'CE FDA face mask Vietnam', '3-ply mask exporter Vietnam'],
@@ -2188,29 +2188,29 @@ Custom color, logo printing on mask body available for promotional and corporate
 // ─── Baby Products ────────────────────────────────────────────────────────────
 const babyProducts: Product[] = [
   {
-    slug: 'baby-wipes',
-    name: 'Baby Wipes (Ultra Soft, Fragrance-Free)',
+    slug: 'baby wipes',
+    name: 'Baby Wipes (Ultra Soft, Fragrance Free)',
     category: 'Baby Products',
-    categorySlug: 'baby-products',
-    tagline: 'Gentle, Safe Baby Wipes — Private Label Manufacturer Vietnam',
-    description: 'Ultra-soft, fragrance-free baby wipes made with 99.9% water-based formula. 40 GSM spunlace substrate, pH 5.5, dermatologist-tested, free from parabens, alcohol, and harsh preservatives. Private label for brand owners from 10,000 packs. ASEAN and EU compliant.',
-    longDescription: `Baby wipes are a high-trust product category where quality, safety, and ingredient transparency directly influence brand loyalty. Our baby wipe manufacturing partners in Vietnam operate under GMP ISO 22716 certification, with dedicated hygienic production lines and batch testing for every lot.
+    categorySlug: 'baby products',
+    tagline: 'Gentle, Safe Baby Wipes  Private Label Manufacturer Vietnam',
+    description: 'Ultra soft, fragrance free baby wipes made with 99.9% water based formula. 40 GSM spunlace substrate, pH 5.5, dermatologist-tested, free from parabens, alcohol, and harsh preservatives. Private label for brand owners from 10,000 packs. ASEAN and EU compliant.',
+    longDescription: `Baby wipes are a high trust product category where quality, safety, and ingredient transparency directly influence brand loyalty. Our baby wipe manufacturing partners in Vietnam operate under GMP ISO 22716 certification, with dedicated hygienic production lines and batch testing for every lot.
 
-Our baby wipe formulation is built on a minimal, ultra-gentle philosophy:
+Our baby wipe formulation is built on a minimal, ultra gentle philosophy:
 - **Base formula**: 99.9% water (purified, demineralized)
-- **Preservative system**: DMDM Hydantoin-free — uses sustainable preservation (Sodium Benzoate + Potassium Sorbate at 0.1% each)
-- **Humectant**: Glycerin 0.5% — moisture-locking without tackiness
+- **Preservative system**: DMDM Hydantoin free  uses sustainable preservation (Sodium Benzoate + Potassium Sorbate at 0.1% each)
+- **Humectant**: Glycerin 0.5%  moisture locking without tackiness
 - **Skin conditioner**: Aloe Vera extract (Aloe barbadensis leaf juice)
 - **Fragrance**: Fragrance-free (standard) / Natural chamomile (optional)
 
-**Substrate**: 40 GSM spunlace viscose/PET (80/20) — the same fabric quality used by global premium baby brands. Ultra-soft texture, high wet strength, and excellent absorbency.
+**Substrate**: 40 GSM spunlace viscose/PET (80/20)  the same fabric quality used by global premium baby brands. Ultra-soft texture, high wet strength, and excellent absorbency.
 
 **Safety testing**: Dermatologist tested, patch tested for 200+ hours, non-irritating. Free from: parabens, phenoxyethanol, alcohol, chlorine, dyes.
 
 Available formats: 80-wipe flip-top canister (our most popular retail format), 10-ct travel sachet, 56-ct value pack, 480-ct jumbo institutional refill.
 
 OEM/private label services include formula development, bottle/canister design, label printing, and export packing. ASEAN, EU, and Saudi Arabia market registration assistance is available.`,
-    heroImage: '/products/babyC.png',
+    heroImage: '/Baby Products/idealdeal-Baby Wipes (Ultra Soft, Fragrance-Free).jpg',
     specs: [
       { label: 'Formula', value: '99.9% water-based, fragrance-free' },
       { label: 'pH', value: '5.0–6.0 (skin-safe)' },
@@ -2260,7 +2260,7 @@ Our OEM diaper manufacturing capability covers:
 **Key Compliance**: EN 71 Part 1 (mechanical safety) for all plastic components, REACH SVHC compliance, Oeko-Tex tested for skin-contact materials, Dermatologist tested.
 
 Private label includes custom brand name, character artwork, language-specific packaging, and size-specific patterning.`,
-    heroImage: '/products/babyC.png',
+    heroImage: '/Baby Products/idealdeal-Baby Diapers Nappies (OEM).jpg',
     specs: [
       { label: 'Core Type', value: 'SAP + Fluff pulp / Ultra-thin SAP' },
       { label: 'SAP Content', value: '22–35g per diaper (size dependent)' },
@@ -2272,43 +2272,43 @@ Private label includes custom brand name, character artwork, language-specific p
       { label: 'MOQ', value: '50,000 packs per size' },
       { label: 'HS Code', value: '9619.00.10' },
     ],
-    certifications: ['EN 71 compliant', 'REACH SVHC compliant', 'Oeko-Tex Standard 100', 'Dermatologist Tested', 'ISO 9001'],
+    certifications: ['EN 71 compliant', 'REACH SVHC compliant', 'Oeko Tex Standard 100', 'Dermatologist Tested', 'ISO 9001'],
     exportMarkets: ['Saudi Arabia', 'UAE', 'Egypt', 'Nigeria', 'Germany', 'Malaysia', 'Philippines', 'Ethiopia'],
     moq: '50,000 packs per size',
-    containerCapacity: '20ft: 40,000–60,000 packs (size-dependent)',
+    containerCapacity: '20ft: 40,000–60,000 packs (size dependent)',
     packagingOptions: ['Individual resealable retail pack', 'Bulk carton (6–12 packs)', 'Custom OEM packaging', 'Travel mini pack'],
     faqs: [
       { question: 'What is the minimum order quantity for private label diapers?', answer: 'MOQ is 50,000 packs per size (per SKU). Many buyers order 3–5 sizes simultaneously to maximize container efficiency and meet minimum printing requirements. A total order of 200,000+ packs across sizes is a common first order.' },
-      { question: 'Do you offer ultra-thin "dry-feel" diapers?', answer: 'Yes, our premium tier uses ultra-thin SAP core technology (no fluff pulp) delivering a thinner, lighter diaper with equivalent or superior absorbency — this is the preferred format for premium retail positioning.' },
+      { question: 'Do you offer ultra thin "dry feel" diapers?', answer: 'Yes, our premium tier uses ultra thin SAP core technology (no fluff pulp) delivering a thinner, lighter diaper with equivalent or superior absorbency — this is the preferred format for premium retail positioning.' },
     ],
-    relatedSlugs: ['baby-wipes', 'hygiene-disposable-wipes'],
+    relatedSlugs: ['baby wipes', 'hygiene disposable wipes'],
     seoTitle: 'OEM Baby Diapers Manufacturer Vietnam | Private Label Nappies Supplier',
-    seoDescription: 'OEM baby diapers from Vietnam. SAP core, 3D leak guard, NB–XXL sizes. EN 71, Oeko-Tex, dermatologist tested. MOQ 50,000 packs. Export to Saudi Arabia, Africa, EU.',
+    seoDescription: 'OEM baby diapers from Vietnam. SAP core, 3D leak guard, NB–XXL sizes. EN 71, Oeko Tex, dermatologist tested. MOQ 50,000 packs. Export to Saudi Arabia, Africa, EU.',
     keywords: ['baby diapers manufacturer Vietnam', 'OEM nappies Vietnam', 'private label diapers supplier', 'baby diapers wholesale Vietnam', 'diaper supplier GCC'],
     hsCode: '9619.00.10',
   },
   {
-    slug: 'baby-powder-export',
-    name: 'Baby Powder (Talc-Free & Cornstarch)',
+    slug: 'baby powder export',
+    name: 'Baby Powder (Talc Free & Cornstarch)',
     category: 'Baby Products',
-    categorySlug: 'baby-products',
-    tagline: 'Safe Baby Powder Manufacturing — Talc-Free, Cornstarch & Natural Formula OEM',
-    description: 'OEM and private label baby powder manufacturing from Vietnam. Talc-free cornstarch base and natural formula options. Dermatologist-tested, hypoallergenic, fragrance-free and light-fragrance variants. ISO 22716 GMP certified. Suitable for EU, US, ASEAN markets. MOQ 5,000 units.',
-    longDescription: `Baby powder remains a significant personal care category globally, with increasing demand for talc-free formulations following health authority advisories in major markets. Vietnam's ISO 22716-certified cosmetic manufacturers have pivoted to cornstarch-based and plant-derived baby powder formulations that meet current regulatory and retailer requirements.
+    categorySlug: 'baby products',
+    tagline: 'Safe Baby Powder Manufacturing  Talc Free, Cornstarch & Natural Formula OEM',
+    description: 'OEM and private label baby powder manufacturing from Vietnam. Talc free cornstarch base and natural formula options. Dermatologist tested, hypoallergenic, fragrance-free and light-fragrance variants. ISO 22716 GMP certified. Suitable for EU, US, ASEAN markets. MOQ 5,000 units.',
+    longDescription: `Baby powder remains a significant personal care category globally, with increasing demand for talc free formulations following health authority advisories in major markets. Vietnam's ISO 22716-certified cosmetic manufacturers have pivoted to cornstarch-based and plant-derived baby powder formulations that meet current regulatory and retailer requirements.
 
-Ideal Deal Vietnam supplies OEM and private label talc-free baby powder from GMP-certified factories with comprehensive regulatory support for target export markets.
+Ideal Deal Vietnam supplies OEM and private label talc free baby powder from GMP-certified factories with comprehensive regulatory support for target export markets.
 
 **Formulation options:**
 
-**Cornstarch Base (Talc-Free):**
+**Cornstarch Base (Talc Free):**
 - Primary absorbent: Non-GMO corn starch (80–95%)
 - Anti-caking: Silica, magnesium carbonate
-- Fragrance: Fragrance-free (for sensitive skin) or mild baby fragrance
+- Fragrance: Fragrance free (for sensitive skin) or mild baby fragrance
 - Skin conditioners: Zinc oxide (diaper rash protection), aloe vera extract, calendula extract
 
-**Natural & Organic-Leaning Variant:**
+**Natural & Organic Leaning Variant:**
 - Arrowroot powder base
-- Certified natural fragrance or fragrance-free
+- Certified natural fragrance or fragrance free
 - Free from: Talc, parabens, phthalates, synthetic dyes, artificial fragrance (optional)
 
 **Packaging formats:**
@@ -2320,7 +2320,7 @@ Ideal Deal Vietnam supplies OEM and private label talc-free baby powder from GMP
 All formulations undergo dermatological testing, stability testing (ICH conditions), and microbiological testing. EU Cosmetics Regulation 1223/2009 CPSR (Cosmetic Product Safety Report) available. No asbestos contamination declaration for talc-free products provided as standard.
 
 Custom fragrance, color (light tinting), and branding on packaging available.`,
-    heroImage: '/products/idealdeal-baby-3.jpg',
+    heroImage: '/Baby Products/idealdeal-Baby Powder (Talc-Free & Cornstarch).jpg',
     specs: [
       { label: 'Base', value: 'Cornstarch (Talc-Free) / Arrowroot (Natural variant)' },
       { label: 'Talc Status', value: 'TALC-FREE — cornstarch base only' },
@@ -2372,7 +2372,7 @@ Vietnam's cleaning tools manufacturing advantage lies in its proximity to raw ma
 **Microfiber Quality**: 80/20 polyester/polyamide split microfiber (optimum cleaning efficiency), 300–450 GSM. Washable 500+ times at 60°C. Bacterial pick-up rate >99% (ISO 16100-4 method comparable).
 
 **Private label**: Custom color, handle color, logo embroidery on pad, and branded retail packaging available from 2,000 sets.`,
-    heroImage: '/Cleaning Tools/Microfiber Mop & Cleaning System.jpg',
+    heroImage: '/Cleaning Tools/idealdeal-Microfiber Mop & Cleaning System.png',
     specs: [
       { label: 'Microfiber', value: '80% polyester / 20% polyamide split fiber' },
       { label: 'GSM', value: '300–450 GSM' },
@@ -2418,7 +2418,7 @@ Vietnam's cleaning tools manufacturing advantage lies in its proximity to raw ma
 **Material Details**: Bristles use PP (polypropylene) monofilament — stiffness customizable from 0.15 mm (soft, fine dust) to 0.30 mm (stiff, outdoor debris). Handles: solid beech/pine wood (European feel), aluminum tube (lightweight), or PP (economy). All hardware is chromium-free zinc alloy or PP for rust resistance.
 
 Custom colors (Pantone matching), logo printing on handle or head, and branded retail packaging (PDQ display box, polybag + header) are all available.`,
-    heroImage: '/Cleaning Tools/Broom & Dustpan Set (OEM Wholesale).jpg',
+    heroImage: '/Cleaning Tools/idealdeal-Broom & Dustpan Set (OEM Wholesale).png',
     specs: [
       { label: 'Broom Width', value: '30 cm / 40 cm / 53 cm' },
       { label: 'Bristle Material', value: 'PP Monofilament 0.15–0.30 mm' },
@@ -2468,7 +2468,7 @@ Custom colors (Pantone matching), logo printing on handle or head, and branded r
 **Color Coding**: Multiple colors available for HACCP-compliant color-coded cleaning systems (red = bathroom, blue = general surfaces, green = food prep areas, yellow = disposal areas). Custom Pantone color matching available.
 
 Washable 300–500+ times at 60°C without significant performance loss.`,
-    heroImage: '/Cleaning Tools/Microfiber Cleaning Cloths & Towels (Bulk).jpg',
+    heroImage: '/Cleaning Tools/idealdeal-Microfiber Cleaning Cloths & Towels (Bulk).png',
     specs: [
       { label: 'Fiber', value: '80% polyester / 20% polyamide split' },
       { label: 'GSM', value: '200–600 GSM (grade dependent)' },
@@ -2529,7 +2529,7 @@ Ideal Deal Vietnam supplies spin mop with bucket sets across three product tiers
 Mop heads are machine-washable (60°C) and replaceable. Refill heads sold separately. OEM branding on bucket and handle available. Flat-pack retail boxing with window for display.
 
 Custom colorways (bucket, handle) available for retail private label buyers with MOQ 1,000 sets per color.`,
-    heroImage: '/Cleaning Tools/Spin Mop with Bucket (360° Self-Wringing).jpg',
+    heroImage: '/Cleaning Tools/idealdeal-Spin Mop with Bucket (360° Self-Wringing).png',
     specs: [
       { label: 'Mop Head', value: 'Microfiber (160–350g) — machine washable 60°C' },
       { label: 'Handle', value: 'Stainless steel, 140–160 cm adjustable' },
@@ -2587,7 +2587,7 @@ const plasticHouseholdProducts: Product[] = [
 All products BPA-free. Food contact items tested and certified to EU 10/2011 (plastics regulation) and FDA 21 CFR. REACH SVHC compliant. Colorfastness tested.
 
 Custom colors, sizes, and logo molding (including embossed brand name) are available for OEM buyers from tooling investment.`,
-    heroImage: '/Plastic Household Items/Plastic Storage Containers & Kitchenware.jpg',
+    heroImage: '/Plastic Household Items/idealdeal-Plastic Storage Containers & Kitchenware.png',
     specs: [
       { label: 'Materials', value: 'PP / HDPE / ABS / PET (food grade)' },
       { label: 'BPA', value: 'BPA-Free — all grades' },
@@ -2650,7 +2650,7 @@ Ideal Deal Vietnam supplies a comprehensive range of plastic storage bins and or
 - REACH SVHC compliant
 
 Custom colors, sizes, and branding (embossed logo, label insert, printed label) available. Retail packaging: color box, shrink wrap, poly bag header card.`,
-    heroImage: '/Plastic Household Items/Plastic Storage Bins & Organizers (Export Range).jpg',
+    heroImage: '/Plastic Household Items/idealdeal-Plastic Storage Bins & Organizers (Export Range).png',
     specs: [
       { label: 'Material', value: 'PP / HDPE / ABS (product-dependent)' },
       { label: 'BPA Status', value: 'BPA-Free (all products)' },
@@ -3212,7 +3212,7 @@ const foodStaplesProducts: Product[] = [
 All food grade salt is produced under HACCP and ISO 22000 management systems. Microbiological testing (total plate count, E. coli, Salmonella) and chemical analysis (NaCl purity, iodine content, heavy metals) are conducted per batch.
 
 Packaging: 25 kg PP woven bags (most popular for export), 1 kg retail bags (private label), 500g cylinder containers (retail), and bulk loose loading for industrial buyers.`,
-    heroImage: '/Food Staples/efined lodized Salt (Food Grade).jpg',
+    heroImage: '/Food Staples/idealdeal-efined lodized Salt (Food Grade).png',
     specs: [
       { label: 'NaCl Purity', value: '≥ 99.5% (food grade)' },
       { label: 'Iodine (KIO₃)', value: '25–65 mg/kg (custom per market req)' },
@@ -3475,7 +3475,7 @@ Moisture content controlled to ≤ 3.5% for brown sugars to prevent caking durin
 - **Teflon-die**: Smooth surface, faster production, lower cost. Standard commercial grade
 
 **Drying Process:** Slow drying at 40–80°C over 8–20 hours preserves protein network integrity and produces pasta that maintains al dente texture during cooking without becoming mushy. Fast-dried pasta (high temperature / short time) is more fragile and has softer post-cooking texture.`,
-    heroImage: '/Food Staples/Pasta (Durum Wheat Semolina).jpg',
+    heroImage: '/Food Staples/idealdeal-Pasta (Durum Wheat Semolina).png',
     specs: [
       { label: 'Base Ingredient', value: '100% durum wheat semolina' },
       { label: 'Protein', value: '12.0–13.0%' },
@@ -3520,7 +3520,7 @@ Moisture content controlled to ≤ 3.5% for brown sugars to prevent caking durin
 - **Post-cooking texture**: Firm, al dente, not mushy after correct cooking time. Measured objectively as Texture Profile Analysis (TPA) hardness ≥ 5.0 N
 
 **Packaging:** 400g, 500g, and 1 kg retail packs in clear or opaque window polyethylene bags or cardboard cartons. Private label printing available. Neck-banded bundles for catering.`,
-    heroImage: '/Food Staples/Spaghetti.jpg',
+    heroImage: '/Food Staples/idealdeal-Spaghetti.png',
     specs: [
       { label: 'Gauge Options', value: 'No. 3 (1.4 mm) / No. 5 (2.0 mm) / No. 7 (2.5 mm)' },
       { label: 'Base', value: '100% durum wheat semolina' },
@@ -3561,7 +3561,7 @@ Moisture content controlled to ≤ 3.5% for brown sugars to prevent caking durin
 - **Quick-cook (instant) rice**: Pre-cooked and re-dried rice that rehydrates in 5 minutes. Sold in boil-in-bag format for convenience retail
 
 **Packaging:** 1 kg and 2 kg vacuum-sealed poly bags with resealable zipper (retail), 5 kg and 10 kg woven PP bags with inner poly liner (catering/food service). Full private label including nutritional panel, barcode, QR traceability code available.`,
-    heroImage: '/Food Staples/Rice Products (Retail Packs).jpg',
+    heroImage: '/Food Staples/idealdeal-Rice Products (Retail Packs)idealdeal-Rice Products (Retail Packs).png',
     specs: [
       { label: 'Varieties', value: 'Jasmine / Parboiled / Glutinous / Quick-cook' },
       { label: 'Moisture', value: '≤ 14%' },
@@ -3626,7 +3626,7 @@ This supply model is particularly suited for buyers in Southeast Asia, the Middl
 - Export health certificate from Vietnam Food Safety Authority
 
 **Application segments served:** Food retail, food service wholesale, humanitarian food aid programs, meal kit assembly, restaurant supply chains.`,
-    heroImage: '/Food Staples/Dried Lentils Red Green Black Repackaged Export.jpg',
+    heroImage: '/Food Staples/idealdeal-Dried Lentils Red Green Black Repackaged Export.png',
     specs: [
       { label: 'Varieties', value: 'Red Split / Green Whole / Black (Beluga/Urad)' },
       { label: 'Origin', value: "Canada / Australia / India (buyer's choice)" },
@@ -3959,7 +3959,7 @@ RBD Palm Oil (Refined, Bleached and Deodorized) is the world's most consumed veg
 - **Mass Balance (MB):** Blended sustainable volumes — cost-effective sustainability claim
 
 **Packaging:** Flexitank (24 MT per 20ft container), ISO tank, 200L steel drums, 20L Jerry cans.`,
-    heroImage: '/oil/RBD Palm Oil (Refined, Bleached & Deodorized).jpg',
+    heroImage: '/oil/idealdeal- red Palm Oil (Refined, Bleached & Deodorized).png',
     specs: [
       { label: 'Product Type', value: 'RBD Palm Oil / Palm Olein / Palm Stearin' },
       { label: 'FFA (as palmitic)', value: '≤0.10%' },
@@ -4009,7 +4009,7 @@ export const productCategories: ProductCategory[] = [
   {
     slug: 'cashew-nuts',
     name: 'Cashew Nuts',
-    tagline: "Vietnam — The World's Largest Cashew Processor",
+    tagline: "Vietnam The World's Largest Cashew Processor",
     description: 'Vietnam processes ~65% of the world\'s cashew supply. We export W180, W240, W320, and specialty grades to retailers, food manufacturers, and importers in the GCC, EU, and Asia with full Halal and BRC certification.',
     longDescription: "Vietnam's dominance in cashew processing is unmatched globally. With state-of-the-art shelling, grading, and packing facilities in Binh Phuoc and Dong Nai, Ideal Deal Vietnam delivers consistent quality cashew kernels across all commercial grades — from the most-traded W320 to the prestigious jumbo W180.",
     heroImage: '/images/categories/cashew-hero.jpg',

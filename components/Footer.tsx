@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="bg-white p-1 rounded shadow-sm">
-                <img
+                <img loading="lazy"
                   alt="Ideal Deal Vietnam Logo"
                   className="h-12 w-auto object-contain"
                   src="/ideal-deal-vn-logo.png"

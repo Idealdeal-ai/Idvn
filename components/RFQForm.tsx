@@ -101,7 +101,7 @@ const RFQForm: React.FC<RFQFormProps> = ({ productName = '', className = '', com
               required
               value={fields.name}
               onChange={handleChange}
-              placeholder="Ahmed Al-Rashidi"
+              placeholder="Ahmed Al-Tamimi"
               className="w-full px-4 py-2.5 rounded-lg border border-slate-200 dark:border-slate-600 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>

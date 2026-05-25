@@ -32,7 +32,7 @@ const FAQItem: React.FC<{ question: string; answer: string }> = ({ question, ans
 const TeamMember: React.FC<{ name: string; role: string; image: string }> = ({ name, role, image }) => (
   <div className="group flex flex-col items-center">
     <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden mb-6 shadow-sm group-hover:shadow-2xl transition-all duration-500">
-      <img 
+      <img loading="lazy" 
         src={image} 
         alt={name} 
         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -71,7 +71,7 @@ const About: React.FC = () => {
         schema={organizationSchema()}
       />
       <header className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-        <img 
+        <img loading="lazy" 
           alt="Logistics Background" 
           className="absolute inset-0 w-full h-full object-cover" 
           src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop"
@@ -95,7 +95,7 @@ const About: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/20 rounded-full blur-3xl"></div>
-              <img 
+              <img loading="lazy" 
                 alt="Team Collaboration" 
                 className="rounded-2xl shadow-2xl relative z-10 border border-slate-200 dark:border-slate-800" 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"

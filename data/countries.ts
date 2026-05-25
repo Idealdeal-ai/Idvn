@@ -244,7 +244,7 @@ export const countries: CountryData[] = [
       { question: 'Can shipments transit through Oman to other GCC countries?', answer: 'Yes, Salalah Free Zone is a major regional hub. Some buyers use Oman for onward distribution to neighboring Gulf states.' },
     ],
     seoTitle: 'Export Vietnam to Oman | Cashew Nuts Seafood Coffee Supplier | GCC',
-    seoDescription: 'Export from Vietnam to Oman — cashew nuts, frozen shrimp, coffee, black pepper. Halal certified. MOQ 1 container. CFR Muscat / Salalah pricing.',
+    seoDescription: 'Export from Vietnam to Oman cashew nuts, frozen shrimp, coffee, black pepper. Halal certified. MOQ 1 container. CFR Muscat / Salalah pricing.',
     keywords: ['export Vietnam to Oman', 'cashew nuts Oman supplier', 'Vietnam food export Oman', 'seafood supplier Oman'],
   },
   {
@@ -258,10 +258,10 @@ export const countries: CountryData[] = [
     population: '2.9 million',
     gdpPerCapita: '$55,000+',
     importVolume: 'Vietnam→Qatar trade growing at 15% CAGR',
-    tagline: "Premium Vietnamese Food Exports to Qatar — The World's Wealthiest Market",
+    tagline: "Premium Vietnamese Food Exports to Qatar The World's Wealthiest Market",
     heroDescription: "Qatar's exceptionally high GDP per capita, world-class hospitality sector, and rapidly expanding food retail landscape make it one of the highest-value destination markets for premium Vietnamese exports. Qatar imports over 90% of its food supply, creating significant demand for reliable international food suppliers.",
     whyVietnam: [
-      'Qatar imports nearly 100% of its food — Vietnam is a preferred origin for quality food staples.',
+      'Qatar imports nearly 100% of its food Vietnam is a preferred origin for quality food staples.',
       "The FIFA World Cup legacy has expanded Qatar's hotel and restaurant sector, driving premium seafood demand.",
       'Short transit time of 16–18 days via direct services to Hamad Port.',
       "Halal-certified products align with Qatar's mandatory import requirements.",

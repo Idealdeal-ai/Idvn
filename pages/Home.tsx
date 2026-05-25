@@ -110,7 +110,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="relative">
-              <img 
+              <img loading="lazy" 
                 alt="Cargo Ship Aerial View" 
                 className="rounded-2xl shadow-xl w-full h-[480px] object-cover" 
                 src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?q=80&w=2070&auto=format&fit=crop"
@@ -243,7 +243,7 @@ const Home: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
                 {/* Top Left: Shipping Containers */}
-                <img 
+                <img loading="lazy" 
                   alt="Shipping Containers" 
                   className="rounded-xl h-64 w-full object-cover shadow-2xl" 
                   src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070&auto=format&fit=crop"
@@ -259,13 +259,13 @@ const Home: React.FC = () => {
               </div>
               <div className="space-y-4">
                 {/* Top Right: Laptop / Analytics */}
-                <img 
+                <img loading="lazy" 
                   alt="Trade Analytics" 
                   className="rounded-xl h-48 w-full object-cover shadow-2xl" 
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
                 />
                 {/* Bottom Right: Brainstorming Meeting (sticky notes) */}
-                <img 
+                <img loading="lazy" 
                   alt="Business Brainstorming" 
                   className="rounded-xl h-64 w-full object-cover shadow-2xl border border-white/5" 
                   src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop"
@@ -356,7 +356,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="relative rounded-3xl overflow-hidden shadow-2xl min-h-[500px]">
-              <img 
+              <img loading="lazy" 
                 alt="Sea Background" 
                 className="absolute inset-0 w-full h-full object-cover" 
                 src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop"
@@ -382,7 +382,7 @@ const Home: React.FC = () => {
                       <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <Icon name="call" className="text-primary" aria-hidden />
                       </div>
-                      <p className="text-[11px] text-slate-600 dark:text-slate-300" dir="ltr" style={{ unicodeBidi: 'embed' }}>+84 (0) 8282 78 808</p>
+                      <p className="text-[11px] text-slate-600 dark:text-slate-300" dir="ltr" style={{ unicodeBidi: 'embed' }}>+84 8282 78 808</p>
                     </div>
                   </div>
                 </div>
