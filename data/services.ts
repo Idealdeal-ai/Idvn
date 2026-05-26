@@ -50,11 +50,11 @@ export const servicesData: ServiceData[] = [
     heroDescription:
       'We identify, verify, and rank Vietnamese food suppliers that match your exact requirements. Avoid costly mistakes from unverified factory claims our rigorous due diligence process gives you confidence before you place a single dollar.',
     longDescription: `
-Finding reliable suppliers in a foreign market is one of the highest-stakes decisions in international trade. A wrong choice a factory with false certifications, overstated capacity, or undisclosed quality issues — can result in lost orders, financial losses, and reputational damage. Ideal Deal Vietnam's supplier identification service uses a proven multi-stage due diligence framework to connect you only with verified, capable partners.
+Finding reliable suppliers in a foreign market is one of the highest-stakes decisions in international trade. A wrong choice a factory with false certifications, overstated capacity, or undisclosed quality issues can result in lost orders, financial losses, and reputational damage. Ideal Deal Vietnam's supplier identification service uses a proven multi-stage due diligence framework to connect you only with verified, capable partners.
 
 **The Hidden Risks of Unverified Suppliers**
 
-Vietnam's food export landscape includes thousands of manufacturers and trading companies, ranging from world-class certified factories to small operations with inflated capabilities. Online directories and trade platforms list hundreds of "certified" suppliers — but verification of these claims requires on-the-ground access that most overseas buyers simply do not have. Certificates can be expired, forged, or issued under conditions that no longer exist. Production capacity can be exaggerated. Product quality can vary dramatically between the sample and the commercial shipment.
+Vietnam's food export landscape includes thousands of manufacturers and trading companies, ranging from world class certified factories to small operations with inflated capabilities. Online directories and trade platforms list hundreds of "certified" suppliers but verification of these claims requires on the ground access that most overseas buyers simply do not have. Certificates can be expired, forged, or issued under conditions that no longer exist. Production capacity can be exaggerated. Product quality can vary dramatically between the sample and the commercial shipment.
 
 **Our Due Diligence Framework**
 
@@ -62,7 +62,7 @@ Our supplier identification process covers five dimensions: Legal & Financial Ve
 
 **Legal & Financial Verification**
 
-We verify the supplier's Vietnamese business registration, tax identification, and export licensing. We check for any regulatory violations, quality recalls, or port detention history. We confirm that the entity name on quotations matches the legal registered name to prevent bait-and-switch fraud.
+We verify the supplier's Vietnamese business registration, tax identification, and export licensing. We check for any regulatory violations, quality recalls, or port detention history. We confirm that the entity name on quotations matches the legal registered name to prevent bait and switch fraud.
 
 **Certification & Compliance Audit**
 
@@ -78,7 +78,7 @@ We review the supplier's quality management system: incoming raw material inspec
 
 **Commercial Reference Check**
 
-Where available, we conduct reference checks with existing customers of the supplier, focusing on on-time delivery performance, quality consistency, and responsiveness to problems. This real-world validation is the most reliable predictor of future performance.
+Where available, we conduct reference checks with existing customers of the supplier, focusing on on time delivery performance, quality consistency, and responsiveness to problems. This real world validation is the most reliable predictor of future performance.
     `.trim(),
     icon: 'domain_verification',
     heroImage: '/Idealdeal-supplier-identification.jpeg',
@@ -87,7 +87,7 @@ Where available, we conduct reference checks with existing customers of the supp
         icon: 'gavel',
         title: 'Legal Verification',
         description:
-          'Business registration, export licensing, and regulatory history checks — confirming the supplier is legally compliant and registered.',
+          'Business registration, export licensing, and regulatory history checks confirming the supplier is legally compliant and registered.',
       },
       {
         icon: 'verified_user',
@@ -218,7 +218,7 @@ Product sourcing from Vietnam is one of the most cost-effective strategies for f
 
 **Why Source from Vietnam?**
 
-Vietnam's food export industry has matured significantly over the past two decades. The country combines low labor costs, world-class agri-processing infrastructure, and proximity to major raw material growing regions. Vietnamese suppliers now hold international certifications including ISO 22000, HACCP, BRC, Halal (JAKIM/ESMA), organic (EU/USDA), and FDA registration. For buyers, this means access to globally competitive product quality at prices significantly below comparable sources in Brazil, Indonesia, or India.
+Vietnam's food export industry has matured significantly over the past two decades. The country combines low labor costs, world class agri-processing infrastructure, and proximity to major raw material growing regions. Vietnamese suppliers now hold international certifications including ISO 22000, HACCP, BRC, Halal (JAKIM/ESMA), organic (EU/USDA), and FDA registration. For buyers, this means access to globally competitive product quality at prices significantly below comparable sources in Brazil, Indonesia, or India.
 
 **Our Sourcing Methodology**
 
@@ -372,13 +372,13 @@ Sourcing from a new country always carries risks supplier reliability, product q
     heroDescription:
       'Launch your own food brand with premium Vietnamese products packaged, labeled, and certified to your exact specifications. We handle everything from formulation to freight.',
     longDescription: `
-Private label manufacturing is one of the fastest-growing strategies for importers, distributors, and retailers who want to build brand equity without investing in production facilities. Ideal Deal Vietnam bridges the gap between world-class Vietnamese food production and your brand's specific requirements.
+Private label manufacturing is one of the fastest growing strategies for importers, distributors, and retailers who want to build brand equity without investing in production facilities. Ideal Deal Vietnam bridges the gap between world class Vietnamese food production and your brand's specific requirements.
 
 **Why Choose Private Label from Vietnam?**
 
-Vietnam is among the world's top five exporters of coffee, cashew nuts, black pepper, rice, and frozen seafood. The country's competitive labor costs, sophisticated agri-processing infrastructure, and access to high-quality raw materials make it an ideal private label hub for international buyers.
+Vietnam is among the world's top five exporters of coffee, cashew nuts, black pepper, rice, and frozen seafood. The country's competitive labor costs, sophisticated agri-processing infrastructure, and access to high quality raw materials make it an ideal private label hub for international buyers.
 
-Our private label clients include supermarket chains in Saudi Arabia and the UAE, specialty food brands in Europe, and health-food retailers in Canada and Australia. Every client starts with the same commitment: your brand on the shelf, our quality behind it.
+Our private label clients include supermarket chains in Saudi Arabia and the UAE, specialty food brands in Europe, and health food retailers in Canada and Australia. Every client starts with the same commitment: your brand on the shelf, our quality behind it.
 
 **Product Categories Available for Private Label**
 
@@ -402,7 +402,7 @@ Standard private label orders (with approved artwork and confirmed specification
 
 **Quality Assurance**
 
-Every private label batch undergoes third-party laboratory testing at SGS, Eurofins, or Bureau Veritas before shipment. We provide the full CoA with your shipment documents. Clients may also send their own inspectors or appoint a third-party inspection agency at any stage of production.
+Every private label batch undergoes third party laboratory testing at SGS, Eurofins, or Bureau Veritas before shipment. We provide the full CoA with your shipment documents. Clients may also send their own inspectors or appoint a third party inspection agency at any stage of production.
     `.trim(),
     icon: 'label',
     heroImage: '/service/Private Label Manufacturing.png',
@@ -461,7 +461,7 @@ Every private label batch undergoes third-party laboratory testing at SGS, Eurof
         step: 3,
         title: 'Lab Testing & Approval',
         description:
-          'Approved samples undergo third-party laboratory testing. You receive a full CoA confirming the product meets all regulatory and quality standards.',
+          'Approved samples undergo third party laboratory testing. You receive a full CoA confirming the product meets all regulatory and quality standards.',
       },
       {
         step: 4,
@@ -541,9 +541,9 @@ Every private label batch undergoes third-party laboratory testing at SGS, Eurof
     name: 'OEM Manufacturing',
     tagline: 'Scale Production Without Building a Factory.',
     heroDescription:
-      'Commission large-scale food manufacturing in Vietnam under your technical specification. Our partner factories operate ISO 22000-certified production lines with full traceability from farm to container.',
+      'Commission large scale food manufacturing in Vietnam under your technical specification. Our partner factories operate ISO 22000 Certified production lines with full traceability from farm to container.',
     longDescription: `
-OEM (Original Equipment Manufacturer) food production in Vietnam allows international food companies to access world-class production capacity without the capital investment of building their own facility. Ideal Deal Vietnam acts as your on-the-ground manufacturing partner, managing factory selection, technical compliance, production scheduling, and quality assurance on your behalf.
+OEM (Original Equipment Manufacturer) food production in Vietnam allows international food companies to access world class production capacity without the capital investment of building their own facility. Ideal Deal Vietnam acts as your on the ground manufacturing partner, managing factory selection, technical compliance, production scheduling, and quality assurance on your behalf.
 
 **Vietnam as a Global OEM Food Hub**
 
@@ -551,7 +551,7 @@ Vietnam's food processing industry has invested heavily in modern infrastructure
 
 **Our OEM Manufacturing Capabilities**
 
-We manage OEM production for clients across multiple product categories. In coffee, we operate roasting, grinding, instant coffee spray-drying, and capsule-filling lines. In cashew nuts, we process raw nuts through shelling, peeling, grading, roasting, salting, and flavoring lines. In seafood, we manage IQF freezing, HACCP-compliant processing, and ready-to-cook preparations. In rice, we handle milling, grading, polishing, and parboiling. In spices, we offer grinding, blending, sterilization (steam pasteurization and ETO), and encapsulation.
+We manage OEM production for clients across multiple product categories. In coffee, we operate roasting, grinding, instant coffee spray drying, and capsule-filling lines. In cashew nuts, we process raw nuts through shelling, peeling, grading, roasting, salting, and flavoring lines. In seafood, we manage IQF freezing, HACCP-compliant processing, and ready to cook preparations. In rice, we handle milling, grading, polishing, and parboiling. In spices, we offer grinding, blending, sterilization (steam pasteurization and ETO), and encapsulation.
 
 **Technical Specification Development**
 
@@ -576,19 +576,19 @@ Every OEM production batch is fully traceable from raw material lot to finished 
         icon: 'precision_manufacturing',
         title: 'Spec-to-Production',
         description:
-          'Submit your technical specification — we reproduce it exactly using Vietnamese raw materials and certified production lines.',
+          'Submit your technical specification  we reproduce it exactly using Vietnamese raw materials and certified production lines.',
       },
       {
         icon: 'network_check',
         title: 'Vetted Factory Network',
         description:
-          "Access our network of ISO 22000, BRC, and HACCP-certified factories across Vietnam's key agricultural regions.",
+          "Access our network of ISO 22000, BRC, and HACCP Certified factories across Vietnam's key agricultural regions.",
       },
       {
         icon: 'data_object',
         title: 'Full Traceability',
         description:
-          'From raw material lot to finished goods, every production batch is documented and traceable. Audit-ready records at all times.',
+          'From raw material lot to finished goods, every production batch is documented and traceable. Audit ready records at all times.',
       },
       {
         icon: 'trending_up',
@@ -598,13 +598,13 @@ Every OEM production batch is fully traceable from raw material lot to finished 
       },
       {
         icon: 'verified_user',
-        title: 'Third-Party Testing',
+        title: 'Third Party Testing',
         description:
           'Every production run tested by SGS, Eurofins, or Bureau Veritas before shipment. CoA provided with every container.',
       },
       {
         icon: 'support_agent',
-        title: 'On-Site QC Representative',
+        title: 'On Site QC Representative',
         description:
           'Our QC team is based at or near each partner factory for real-time monitoring during production runs.',
       },
@@ -687,7 +687,7 @@ Every OEM production batch is fully traceable from raw material lot to finished 
     relatedServices: ['private-label', 'quality-control', 'logistics'],
     seoTitle: 'OEM Food Manufacturing Vietnam | Contract Production Coffee, Cashew, Seafood',
     seoDescription:
-      'OEM food manufacturing in Vietnam for international brands. ISO 22000-certified factories, full traceability, scalable capacity from 2 to 20+ containers/month.',
+      'OEM food manufacturing in Vietnam for international brands. ISO 22000 Certified factories, full traceability, scalable capacity from 2 to 20+ containers/month.',
     keywords: [
       'oem food manufacturing vietnam',
       'contract food production vietnam',
@@ -712,7 +712,7 @@ Exporting food products from Vietnam requires precise coordination between produ
 
 **What We Handle**
 
-Our export support covers every step of the documentary and logistical process. Before production, we confirm that your destination country's import requirements are met — including quarantine conditions, pesticide MRL limits, microbiological standards, and labeling regulations. During production, we coordinate third-party testing and certification. Before shipment, we prepare and verify all documents. At origin, we manage customs clearance and cargo handover.
+Our export support covers every step of the documentary and logistical process. Before production, we confirm that your destination country's import requirements are met — including quarantine conditions, pesticide MRL limits, microbiological standards, and labeling regulations. During production, we coordinate third party testing and certification. Before shipment, we prepare and verify all documents. At origin, we manage customs clearance and cargo handover.
 
 **Documentation We Prepare**
 
@@ -724,7 +724,7 @@ For every shipment, we prepare and coordinate the following documents:
 - **Certificate of Origin (C/O)** — issued by VCCI or relevant authority, confirming Vietnamese origin for preferential tariff under VJEPA, RCEP, EVFTA, or other applicable FTAs
 - **Phytosanitary Certificate** — for plant-based products (coffee, cashew, rice, spices), issued by MARD-approved inspection offices
 - **Health Certificate** — for animal and seafood products, issued by NAFIQAD
-- **Certificate of Analysis (CoA)** — third-party lab results confirming product specification compliance
+- **Certificate of Analysis (CoA)** — third party lab results confirming product specification compliance
 - **Halal Certificate** — for GCC and Muslim-majority market shipments
 - **Fumigation Certificate** — for wooden packing materials
 - **Weight Certificate** — for bulk commodities
@@ -794,7 +794,7 @@ For clients new to importing from Vietnam, we provide a detailed importer guide 
         step: 3,
         title: 'Production & Testing Coordination',
         description:
-          'We coordinate third-party lab testing during production to ensure the CoA is ready before shipment.',
+          'We coordinate third party lab testing during production to ensure the CoA is ready before shipment.',
       },
       {
         step: 4,
@@ -843,7 +843,7 @@ For clients new to importing from Vietnam, we provide a detailed importer guide 
       {
         question: 'How long does the export documentation process take?',
         answer:
-          'Most documents are prepared and issued within 3–5 business days after production is complete. The Halal certificate and third-party CoA may require an additional 3–5 days. We schedule document preparation in parallel with production to avoid delays.',
+          'Most documents are prepared and issued within 3–5 business days after production is complete. The Halal certificate and third party CoA may require an additional 3–5 days. We schedule document preparation in parallel with production to avoid delays.',
       },
       {
         question: 'Do you handle customs clearance in my country?',
@@ -1035,7 +1035,7 @@ We provide container booking confirmation, vessel departure notification, bill o
   {
     slug: 'quality-control',
     name: 'Quality Control & Inspection',
-    tagline: 'Third-Party Verified. Every Shipment.',
+    tagline: 'Third Party Verified. Every Shipment.',
     heroDescription:
       'Independent quality control at every stage of the supply chain — from raw material intake to pre-shipment inspection. We partner with SGS, Bureau Veritas, and Eurofins to verify every container before loading.',
     longDescription: `
@@ -1373,7 +1373,7 @@ For high-trust supplier relationships, we offer unannounced audit programs where
     heroDescription:
       'We act as your embedded procurement team in Vietnam — managing purchase orders, supplier relationships, quality oversight, and logistics coordination for ongoing buying programs. Reduce your cost, risk, and operational complexity in one engagement.',
     longDescription: `
-For importers buying regularly from Vietnam, managing the procurement process remotely is one of the most operationally demanding challenges in international trade. Purchase order issuance, supplier follow-up, production monitoring, quality control, document collection, and freight coordination require constant attention — across time zones, languages, and cultural differences. Ideal Deal Vietnam's procurement management service solves this by placing an experienced, on-the-ground team at your disposal.
+For importers buying regularly from Vietnam, managing the procurement process remotely is one of the most operationally demanding challenges in international trade. Purchase order issuance, supplier follow-up, production monitoring, quality control, document collection, and freight coordination require constant attention — across time zones, languages, and cultural differences. Ideal Deal Vietnam's procurement management service solves this by placing an experienced, on the ground team at your disposal.
 
 **What Procurement Management Covers**
 

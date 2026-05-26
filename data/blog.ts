@@ -113,7 +113,7 @@ Key contract terms to establish:
 - Testing protocol and lab selection
 
 ### Step 4: Quality Control
-Consider third-party pre-shipment inspection through SGS, Intertek, or Bureau Veritas to verify grade and specifications before payment.
+Consider third party pre-shipment inspection through SGS, Intertek, or Bureau Veritas to verify grade and specifications before payment.
 
 ### Step 5: Documentation
 Ensure you receive: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin, Phytosanitary Certificate, HACCP Certificate, Halal Certificate (if required), and laboratory test reports.
@@ -121,7 +121,7 @@ Ensure you receive: Commercial Invoice, Packing List, Bill of Lading, Certificat
 ## Common Mistakes Cashew Importers Make
 
 1. **Ignoring moisture**: Cashews above 5% moisture are at risk of mold during shipping. Always specify maximum moisture.
-2. **Skipping pre-shipment inspection**: For first orders, invest in third-party inspection.
+2. **Skipping pre-shipment inspection**: For first orders, invest in third party inspection.
 3. **Not specifying aflatoxin limits**: EU limits (B1 ≤ 8 ppb) are stricter than US limits. State your market's limits clearly.
 4. **Confusing net weight and gross weight**: Cashews are priced on net kernel weight, not gross (including packaging).
 
@@ -240,7 +240,7 @@ Transit times: 18–22 days to Europe; 18–22 days to Middle East; 28–35 days
     readTime: 10,
     coverImage: '/images/blog/black-pepper-guide.jpg',
     seoTitle: "Vietnamese Black Pepper Export Guide 2026 | ASTA 500GL 550GL | World #1 Origin",
-    seoDescription: "Complete guide to buying black pepper from Vietnam — grades, pricing, EU microbiological compliance, Phu Quoc vs mainland origins. 2026 FOB price benchmarks.",
+    seoDescription: "Complete guide to buying black pepper from Vietnam grades, pricing, EU microbiological compliance, Phu Quoc vs mainland origins. 2026 FOB price benchmarks.",
     keywords: ['vietnamese black pepper export', 'black pepper 500GL Vietnam', 'buy pepper from Vietnam', 'Phu Quoc pepper supplier'],
     relatedSlugs: ['vietnam-cashew-nuts-export-guide', 'halal-food-export-vietnam'],
   },
@@ -356,7 +356,7 @@ The seller delivers goods to the named port and loads them onto the vessel nomin
 ### CFR — Cost and Freight
 **"CFR Jeddah"** or **"CFR Hamburg"**
 
-The seller is responsible for the cost of freight to the destination port. Risk transfers to the buyer when goods are loaded on the vessel in Vietnam — the same point as FOB.
+The seller is responsible for the cost of freight to the destination port. Risk transfers to the buyer when goods are loaded on the vessel in Vietnam the same point as FOB.
 
 **Buyer's responsibilities under CFR:**
 - Marine insurance (highly recommended — seller's responsibility ends when goods board the ship)

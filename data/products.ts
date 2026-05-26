@@ -141,7 +141,7 @@ For private label roasters, we offer custom roasting profiles in collaboration w
   },
   {
     slug: 'green-coffee-beans-export',
-    name: 'Green Coffee Beans (Unroasted) — Mixed Robusta/Arabica',
+    name: 'Green Coffee Beans (Unroasted) Mixed Robusta/Arabica',
     category: 'Coffee',
     categorySlug: 'coffee',
     tagline: 'Bulk Green Coffee Beans for Roasters — Robusta & Arabica Direct from Origin',
@@ -200,7 +200,7 @@ Traditional Vietnamese coffee blends are typically Robusta-dominant (often 80–
 - **Drip Packs (Hang Ear Filter)**: Pre-portioned single serve drip bags extremely popular for gifting and e-commerce
 - **Instant Soluble Coffee**: 3-in-1 sachets (coffee, sugar, creamer) for retail and food service
 
-All products are roasted in Vietnam at ISO 22000-certified facilities. Private label packaging available from 500 kg with custom printing. Perfect for Asian grocery distributors, specialty coffee shops, and online food retailers.`,
+All products are roasted in Vietnam at ISO 22000 certified facilities. Private label packaging available from 500 kg with custom printing. Perfect for Asian grocery distributors, specialty coffee shops, and online food retailers.`,
     heroImage: '/coffee/Drip Filter Coffee.jpg',
     specs: [
       { label: 'Coffee Type', value: 'Robusta dominant (80–100%)' },
@@ -280,8 +280,8 @@ const cashewProducts: Product[] = [
     name: 'Cashew Nuts W320',
     category: 'Cashew Nuts',
     categorySlug: 'cashew nuts',
-    tagline: "World Standard W320 — Vietnam's Most Exported Cashew Grade",
-    description: "W320 whole white cashews — 320 kernels per pound — are the global benchmark for cashew quality. Vietnam is the world's #1 cashew exporter, and our W320 grade meets the strictest international import standards for the GCC, EU, and North American markets.",
+    tagline: "World Standard W320 Vietnam's Most Exported Cashew Grade",
+    description: "W320 whole white cashews 320 kernels per pound are the global benchmark for cashew quality. Vietnam is the world's #1 cashew exporter, and our W320 grade meets the strictest international import standards for the GCC, EU, and North American markets.",
     longDescription: `Vietnam produces approximately 90% of the world's processed cashew kernels, and the W320 grade 320 whole white kernels per pound is the international standard against which all cashews are measured. Ideal Deal Vietnam sources directly from processing facilities in Binh Phuoc, Dong Nai, and Ba Ria–Vung Tau provinces, where modern shelling, grading, and packing technology produces kernels that consistently meet or exceed USDA and EU import standards.
 
 W320 cashews have a natural, creamy ivory color, uniform size, and a characteristically sweet, buttery flavor profile with low tannin content. They are whole kernels with no splits or broken pieces, making them ideal for retail snack packs, confectionery, chocolate dipping, and foodservice applications across the Middle East, Europe, and Asia.
@@ -421,7 +421,7 @@ SP grade cashews are nutritionally and flavor identical to whole grades — the 
 
 **Price Advantage**: SP grade typically trades at 30–50% discount to equivalent W320 whole kernels, making it the preferred grade for food manufacturers with high volume nut usage.
 
-Same quality certifications as whole grades: ISO 22000, HACCP, BRC Grade A, Halal, Kosher. Same third-party testing for aflatoxins, pesticides, and heavy metals.`,
+Same quality certifications as whole grades: ISO 22000, HACCP, BRC Grade A, Halal, Kosher. Same third party testing for aflatoxins, pesticides, and heavy metals.`,
     heroImage: '/cashew/Broken Cashew Kernels (SP Grade).jpg',
     specs: [
       { label: 'Grade', value: 'SP (Small Pieces) / SS (Small Splits)' },
@@ -1379,7 +1379,7 @@ Lead times: Sampling 15–21 days. Bulk production 45–90 days (volume dependen
     ],
     relatedSlugs: ['cnc-machined-parts', 'eco-packaging-kraft'],
     seoTitle: 'Vietnam Garment OEM Manufacturing | Apparel Supplier | WRAP BSCI Certified',
-    seoDescription: 'OEM garment manufacturing from Vietnam. Full package service — fabric to finished goods. WRAP, BSCI, OEKO-TEX certified. MOQ 500 pcs. Export to USA, EU, Australia.',
+    seoDescription: 'OEM garment manufacturing from Vietnam. Full package service fabric to finished goods. WRAP, BSCI, OEKO-TEX certified. MOQ 500 pcs. Export to USA, EU, Australia.',
     keywords: ['garment OEM Vietnam', 'apparel manufacturer Vietnam', 'clothing supplier Vietnam', 'OEM clothing production', 'Vietnam garment factory'],
     hsCode: '6109.10.00',
   },
@@ -1581,7 +1581,7 @@ const furnitureProducts: Product[] = [
     categorySlug: 'wooden-furniture',
     tagline: 'Sustainably Sourced Acacia Garden Furniture — B2B OEM Manufacturer',
     description: "Vietnam is the world's 5th largest furniture exporter. Our acacia outdoor furniture — dining sets, loungers, benches — is crafted in FSC-certified facilities, sanded to 220-grit finish, and tested for UV and moisture resistance. Ideal for garden retailers, hospitality, and furniture importers.",
-    longDescription: `Vietnam's furniture export industry generates over USD 15 billion annually, with outdoor and garden furniture being one of the fastest-growing segments driven by demand from Europe, North America, and the Middle East hospitality sector.
+    longDescription: `Vietnam's furniture export industry generates over USD 15 billion annually, with outdoor and garden furniture being one of the fastest growing segments driven by demand from Europe, North America, and the Middle East hospitality sector.
 
 Acacia wood (Acacia mangium and Acacia auriculiformis) has emerged as the premier choice for outdoor furniture export due to its exceptional durability — natural oils in the wood provide inherent moisture and insect resistance — sustainable plantation-sourced supply chain, beautiful grain pattern, and competitive pricing versus traditional teak.
 
@@ -1683,8 +1683,8 @@ FSC Chain-of-Custody certification available. EUTR and UKTR compliant supply cha
     name: 'Bamboo Furniture (Export Grade)',
     category: 'Wooden Furniture',
     categorySlug: 'wooden-furniture',
-    tagline: 'Sustainable Bamboo Furniture — Indoor, Outdoor & Garden Collections',
-    description: 'Export-grade bamboo furniture from Vietnam — dining sets, shelving, garden furniture, and storage solutions. Carbonized or natural bamboo, mortise and tenon joinery, and lacquer finish. FSC-certified bamboo, CARB P2 compliant. Ideal for eco-conscious retail and hospitality buyers.',
+    tagline: 'Sustainable Bamboo Furniture Indoor, Outdoor & Garden Collections',
+    description: 'Export-grade bamboo furniture from Vietnam dining sets, shelving, garden furniture, and storage solutions. Carbonized or natural bamboo, mortise and tenon joinery, and lacquer finish. FSC-certified bamboo, CARB P2 compliant. Ideal for eco-conscious retail and hospitality buyers.',
     longDescription: `Vietnam is among the world's largest exporters of bamboo furniture, with industrial scale bamboo processing concentrated in provinces including Thanh Hoa, Nghe An, and Quang Binh — regions with abundant Moso and Dendrocalamus bamboo plantations.
 
 Bamboo furniture exports from Vietnam have grown steadily due to increasing global demand for sustainable home furnishings, with European and North American markets particularly receptive to FSC-certified bamboo as an alternative to hardwood and tropical timber.
@@ -1747,7 +1747,7 @@ Vietnam's Binh Duong, Ho Chi Minh City, and Long An provinces host modern paper 
 
 **Kraft Paper Bags**: Multi-ply SOS (Self-Opening Style) paper bags for food, grocery, retail. Available in 1-ply to 5-ply construction, with or without PE liner for moisture protection. Printing: 1–6 color flexo or digital.
 
-**Corrugated Boxes**: Single wall (B/E flute) and double wall (BC flute) RSC, FOL, and custom die-cut styles. ECT ratings from 23 ECT to 44 ECT. Offset litho-laminated for high-quality print finishes.
+**Corrugated Boxes**: Single wall (B/E flute) and double wall (BC flute) RSC, FOL, and custom die-cut styles. ECT ratings from 23 ECT to 44 ECT. Offset litho-laminated for high quality print finishes.
 
 **Compostable Food Containers**: PLA-coated kraft paper bowls, plates, and cups conforming to EN 13432 industrial composting standard. Alternatives to plastic for foodservice and takeaway applications.
 
@@ -1829,7 +1829,7 @@ All containers are grease-resistant, microwave-safe (bagasse), and suitable for 
     packagingOptions: ['Bulk carton (sleeve-packed)', 'Individual poly sleeve (retail)', 'Custom branded sleeve', 'Private label packaging', 'Mixed-SKU container'],
     faqs: [
       { question: 'Are your bagasse containers certified compostable?', answer: 'Yes. All bagasse containers carry EN 13432 certification (European compostability standard) and OK Compost certification from TÜV Austria. For the US market, BPI-certified products are also available. These certifications confirm the products fully biodegrade in industrial composting facilities within 12 weeks.' },
-      { question: 'Are these products PFAS-free?', answer: 'Yes. We proactively test all food contact products for PFAS/PFOA and can provide test reports from accredited third-party laboratories. Our bagasse and molded fiber products achieve grease resistance through natural fiber compression without any chemical PFAS treatment.' },
+      { question: 'Are these products PFAS-free?', answer: 'Yes. We proactively test all food contact products for PFAS/PFOA and can provide test reports from accredited third party laboratories. Our bagasse and molded fiber products achieve grease resistance through natural fiber compression without any chemical PFAS treatment.' },
       { question: 'Can you produce custom-printed containers with our branding?', answer: 'Yes. Custom printing is available using water-based or soy-based food-safe inks in up to 4 colors. Minimum order for custom print is 20,000 pcs per SKU. Artwork setup takes 5–7 days; pre-production sample approval before full production run.' },
     ],
     relatedSlugs: ['eco-packaging-kraft', 'canned-sardines-export'],
@@ -1847,9 +1847,9 @@ const rawMaterialsProducts: Product[] = [
     name: 'Portland Cement (OPC 42.5 / 52.5)',
     category: 'Construction Materials',
     categorySlug: 'raw-materials',
-    tagline: 'High-Quality Portland Cement from Vietnam — Bulk Export for Construction Projects',
+    tagline: 'High Quality Portland Cement from Vietnam Bulk Export for Construction Projects',
     description: "Vietnam exports over 30 million tonnes of cement and clinker annually. Our OPC 42.5N/R and 52.5N clinker/cement is produced by major Vietnamese plants with consistent quality, conforming to ASTM C150, EN 197-1, and TCVN 2682 standards for export to Africa, the Middle East, and Southeast Asia.",
-    longDescription: `Vietnam has become one of Asia's leading cement exporters, with domestic production capacity exceeding 100 million tonnes per year — significantly outstripping domestic demand. The surplus capacity has created a competitive export market, with Vietnamese manufacturers offering high-quality OPC (Ordinary Portland Cement) and clinker at attractive FOB prices from ports including Hai Phong, Da Nang, Ho Chi Minh City, and the dedicated cement export terminals at Nghi Son, Cam Pha, and Thang Long.
+    longDescription: `Vietnam has become one of Asia's leading cement exporters, with domestic production capacity exceeding 100 million tonnes per year — significantly outstripping domestic demand. The surplus capacity has created a competitive export market, with Vietnamese manufacturers offering high quality OPC (Ordinary Portland Cement) and clinker at attractive FOB prices from ports including Hai Phong, Da Nang, Ho Chi Minh City, and the dedicated cement export terminals at Nghi Son, Cam Pha, and Thang Long.
 
 **Product Grades Available:**
 - **OPC 42.5N**: Standard general-purpose cement for structural concrete, mortar, and plasterwork
@@ -1951,7 +1951,7 @@ Sampling and COA (Certificate of Analysis) from SGS, Bureau Veritas, or Intertek
     packagingOptions: ['Bulk (vessel/barge)', '25 kg woven PP bag', '50 kg woven PP bag', '1,000 kg FIBC jumbo bag', 'Custom bag with printing'],
     faqs: [
       { question: 'What SiO₂ purity levels can you supply for flat glass manufacturing?', answer: 'For float glass and automotive glass manufacturing, we supply SiO₂ ≥99.5% with Fe₂O₃ ≤0.020% and TiO₂ ≤0.020%. These specifications meet the raw material requirements for most float glass tank operations. A detailed COA from SGS or Bureau Veritas accompanies each shipment.' },
-      { question: 'Do you offer independent third-party quality inspection?', answer: 'Yes. All export shipments include a Certificate of Analysis from SGS, Bureau Veritas, or Intertek covering chemical composition (XRF analysis), grain size distribution (sieve analysis), moisture content, bulk density, and clay content. Inspection at loading port is standard.' },
+      { question: 'Do you offer independent third party quality inspection?', answer: 'Yes. All export shipments include a Certificate of Analysis from SGS, Bureau Veritas, or Intertek covering chemical composition (XRF analysis), grain size distribution (sieve analysis), moisture content, bulk density, and clay content. Inspection at loading port is standard.' },
       { question: 'What are your typical lead times and loading ports?', answer: 'Standard lead time after order confirmation is 7–14 days for bagged cargo and 15–21 days for bulk vessel scheduling. Primary loading ports are Qui Nhon (Binh Dinh), Da Nang, and Ho Chi Minh City (Cat Lai). CIF, CFR, and FOB terms available.' },
     ],
     relatedSlugs: ['granite-tiles-polished', 'eco-packaging-kraft'],
@@ -2079,7 +2079,7 @@ const hygieneProducts: Product[] = [
     categorySlug: 'hygiene-disposable',
     tagline: 'OEM Wet Wipes — Hospital, Baby, Antibacterial & Beauty Grades',
     description: 'Vietnam-manufactured non-woven wet wipes in hospital, antibacterial, baby, and beauty categories. Spunlace non-woven base (viscose/polyester), gentle pH-balanced formulas, and ISO 13485/EN 455 compliance for medical wipes. Private label from 5,000 units.',
-    longDescription: `Non-woven wet wipes represent one of the fastest-growing hygiene product categories globally, with applications spanning baby care, adult hygiene, medical/clinical use, beauty/cosmetics, and household cleaning. Vietnam has developed a competitive wet wipes manufacturing sector supported by non-woven fabric mills in Binh Duong and Ho Chi Minh City.
+    longDescription: `Non-woven wet wipes represent one of the fastest growing hygiene product categories globally, with applications spanning baby care, adult hygiene, medical/clinical use, beauty/cosmetics, and household cleaning. Vietnam has developed a competitive wet wipes manufacturing sector supported by non-woven fabric mills in Binh Duong and Ho Chi Minh City.
 
 Our manufacturing partners produce wet wipes across multiple categories and substrate types:
 
@@ -2338,7 +2338,7 @@ Custom fragrance, color (light tinting), and branding on packaging available.`,
     containerCapacity: '20ft: ~60,000 units (200g shaker bottles)',
     packagingOptions: ['Shaker bottle (100g / 200g / 400g)', 'Pump dispenser (150g)', 'Premium tin (100g / 200g)', 'Refill pouch (500g)', 'Custom private label packaging'],
     faqs: [
-      { question: 'Is your baby powder talc-free?', answer: 'Yes. All our baby powder formulations are 100% talc-free, using cornstarch or arrowroot as the primary absorbent. We provide a talc-free declaration and can supply third-party lab test reports confirming no talc or asbestos content in the finished product.' },
+      { question: 'Is your baby powder talc-free?', answer: 'Yes. All our baby powder formulations are 100% talc-free, using cornstarch or arrowroot as the primary absorbent. We provide a talc-free declaration and can supply third party lab test reports confirming no talc or asbestos content in the finished product.' },
       { question: 'Can you produce fragrance-free baby powder for sensitive skin?', answer: 'Yes. Fragrance-free variants are available for all our cornstarch base formulations. These are particularly suitable for newborns and babies with eczema or sensitive skin. The fragrance-free range is the most popular for EU and Australian markets where parents seek minimal-ingredient baby products.' },
       { question: 'What regulatory documentation do you provide for EU importers?', answer: 'For EU market access, we provide: Cosmetic Product Safety Report (CPSR) prepared by a qualified EU cosmetic safety assessor, INCI ingredient list, Certificate of Analysis (COA), EU Responsible Person nomination support, Stability and microbiological test reports, and Declaration of Conformity with EU Cosmetics Regulation 1223/2009.' },
     ],
@@ -2670,7 +2670,7 @@ Custom colors, sizes, and branding (embossed logo, label insert, printed label) 
     faqs: [
       { question: 'Are your plastic storage bins BPA-free and food-safe?', answer: 'Yes. All our plastic storage products are BPA-free. For products designated for food contact (refrigerator bins, pantry containers, food storage boxes), we use PP resin compliant with FDA 21 CFR 177.1520 and EU Regulation 10/2011. Food-contact compliant certificates and migration test reports are available.' },
       { question: 'Can you develop new sizes or custom molds for our product line?', answer: 'Yes. We offer custom mold development for new sizes or unique designs. Mold tooling cost typically ranges from USD 3,000–15,000 depending on product complexity and cavity number. Mold lead time is 25–40 days. Tooling is owned by the buyer after payment and stored at our factory for production runs.' },
-      { question: 'Do you offer testing for REACH and California Prop 65 compliance?', answer: 'Yes. We provide third-party test reports from SGS, Bureau Veritas, or Intertek for REACH SVHC (substance of very high concern) screening and California Proposition 65 listed substances. Reports are available per product SKU and updated annually or when raw material sources change.' },
+      { question: 'Do you offer testing for REACH and California Prop 65 compliance?', answer: 'Yes. We provide third party test reports from SGS, Bureau Veritas, or Intertek for REACH SVHC (substance of very high concern) screening and California Proposition 65 listed substances. Reports are available per product SKU and updated annually or when raw material sources change.' },
     ],
     relatedSlugs: ['spin-mop-with-bucket', 'eco-packaging-kraft'],
     seoTitle: 'Vietnam Plastic Storage Bins Manufacturer | OEM Storage Containers | BPA-Free',
@@ -2687,7 +2687,7 @@ const cannedFoodProducts: Product[] = [
     name: 'Canned Tuna in Oil / Water (Chunks & Flakes)',
     category: 'Canned Food',
     categorySlug: 'canned-preserved-food',
-    tagline: 'HACCP-Certified Canned Tuna — EU Registered, Halal, B2B Export',
+    tagline: 'HACCP Certified Canned Tuna — EU Registered, Halal, B2B Export',
     description: 'Vietnam-processed canned tuna in sunflower oil, brine, or spring water. Skipjack and yellowfin. Chunks and flakes format. EU registered, HACCP, BRC, Halal certified. Available A1/A½/160g/185g/185g formats. Ready for retail, private label, and foodservice buyers globally.',
     longDescription: `Vietnam is one of the top 5 global tuna canning nations, with processing plants concentrated in the south-central coast (Khanh Hoa, Binh Dinh, and Da Nang provinces) operating close to tuna fishing grounds in the Pacific and Indian Oceans.
 
@@ -2741,7 +2741,7 @@ All cans from EU-authorized establishments. Full export documentation: EUR.1 pre
     description: 'Export-grade canned sardines from Vietnamese coastal canneries. Wild-caught, Sardinella species. Available in sunflower oil, olive oil, tomato sauce, brine, and spicy tomato variants. 125g, 155g, 400g can sizes. HACCP, BRC, Halal, Kosher certified. MOQ 1 x 20ft container.',
     longDescription: `Vietnam's south-central coast, particularly the provinces of Binh Thuan, Khanh Hoa, and Ba Ria-Vung Tau, hosts significant sardine and small pelagic fish populations supporting one of Southeast Asia's most productive coastal fisheries. Canned sardine production from Vietnam has grown to supply supermarket chains, food service distributors, and private label buyers across Africa, the Middle East, and Southeast Asia.
 
-Ideal Deal Vietnam sources from HACCP-certified and BRC-audited canneries producing fully processed, commercially sterile canned sardines under rigorous quality and food safety management systems.
+Ideal Deal Vietnam sources from HACCP Certified and BRC-audited canneries producing fully processed, commercially sterile canned sardines under rigorous quality and food safety management systems.
 
 **Species and sourcing:**
 - Primary species: Sardinella lemuru (Bali sardine / oil sardine) and Sardinella gibbosa
@@ -2801,7 +2801,7 @@ const packagedFoodProducts: Product[] = [
     categorySlug: 'packaged-food-snacks',
     tagline: 'Vietnam-Manufactured Instant Noodles — Private Label for Global Retail',
     description: 'Vietnam is one of the world\'s largest instant noodle markets and manufacturers. Our OEM instant noodles — fried (palm oil) or air-dried formats — are available in Vietnamese pho, beef, chicken, shrimp, and vegetarian flavors. HACCP, Halal, ISO 22000. Private label from 5,000 cases.',
-    longDescription: `Vietnam ranks among the world's top 5 per-capita instant noodle consuming and producing nations. The country's instant noodle manufacturing infrastructure — anchored by brands like Acecook, Masan, and Vina Acecook — has developed world-class OEM capacity serving both domestic and international private label buyers.
+    longDescription: `Vietnam ranks among the world's top 5 per-capita instant noodle consuming and producing nations. The country's instant noodle manufacturing infrastructure — anchored by brands like Acecook, Masan, and Vina Acecook — has developed world class OEM capacity serving both domestic and international private label buyers.
 
 **Noodle Types:**
 - **Fried instant noodles** (most common): Pre-fried in palm oil, dehydrated, with seasoning sachet and oil sachet
@@ -2891,7 +2891,7 @@ All products comply with EU Regulation 1169/2011 ingredient labelling. Full nutr
     categorySlug: 'packaged-food-snacks',
     tagline: 'Cream-Filled Wafers — Bulk Export for Snack Distributors Worldwide',
     description: "Light, crispy multi-layer cream wafers in vanilla, chocolate, strawberry, and hazelnut flavours. Manufactured in Vietnam to EU food safety standards. Available in retail bars (20–45g), multipack flow-wrap bags, and 3 kg bulk catering tins. Halal certified. MOQ 500 cartons.",
-    longDescription: `Wafer products represent one of the fastest-growing snack categories in emerging markets, combining affordable price points with impulse-purchase format sizes. Vietnam's confectionery manufacturers have invested in modern wafer baking lines capable of producing layered wafer sheets with precision cream injection for consistent texture and flavour delivery.
+    longDescription: `Wafer products represent one of the fastest growing snack categories in emerging markets, combining affordable price points with impulse-purchase format sizes. Vietnam's confectionery manufacturers have invested in modern wafer baking lines capable of producing layered wafer sheets with precision cream injection for consistent texture and flavour delivery.
 
 **Wafer Product Range:**
 - **Standard cream wafer bars (20–45g)**: 3–5 cream layers between crispy wafer sheets. Flavours: Vanilla, Chocolate, Strawberry, Hazelnut, Pandan (Asian market variant)
@@ -2920,7 +2920,7 @@ All products comply with EU Regulation 1169/2011 ingredient labelling. Full nutr
     ],
     relatedSlugs: ['export-biscuits-crackers', 'candy-confectionery-export'],
     seoTitle: 'Wafers Export Supplier Vietnam | Cream Wafers Wholesale B2B',
-    seoDescription: 'Cream wafers from Vietnam — vanilla, chocolate, hazelnut. Halal, ISO 22000. Individual bars, multipacks, catering tins. MOQ 500 cartons. Export to GCC, Africa, EU.',
+    seoDescription: 'Cream wafers from Vietnam vanilla, chocolate, hazelnut. Halal, ISO 22000. Individual bars, multipacks, catering tins. MOQ 500 cartons. Export to GCC, Africa, EU.',
     keywords: ['wafers exporter Vietnam', 'cream wafers wholesale', 'wafer manufacturer Vietnam', 'wafer bars export', 'snack wafers supplier Vietnam'],
     hsCode: '1905.32.00',
   },
@@ -3043,7 +3043,7 @@ All products comply with EU Regulation 1169/2011 ingredient labelling. Full nutr
     ],
     relatedSlugs: ['thai-nguyen-green-tea', 'packaged-coffee-products'],
     seoTitle: 'Packaged Tea Products Export Vietnam | Private Label Tea Bags Loose Leaf Supplier',
-    seoDescription: 'Retail packaged tea from Vietnam — tea bags, pyramid, loose leaf, herbal blends. Halal, organic available. Private label MOQ 500 kg. Export to GCC, EU, USA.',
+    seoDescription: 'Retail packaged tea from Vietnam tea bags, pyramid, loose leaf, herbal blends. Halal, organic available. Private label MOQ 500 kg. Export to GCC, EU, USA.',
     keywords: ['tea bags supplier Vietnam', 'private label tea Vietnam', 'green tea bags export', 'herbal tea exporter Vietnam', 'retail tea manufacturer Vietnam'],
     hsCode: '0902.10.00',
   },
@@ -3084,7 +3084,7 @@ All products available for private label with custom blend development, roast pr
     ],
     relatedSlugs: ['robusta-coffee-beans', 'vietnamese-drip-filter-coffee'],
     seoTitle: 'Packaged Coffee Export Vietnam | 3-in-1 Instant Coffee Ground Coffee Private Label',
-    seoDescription: 'Packaged coffee from Vietnam — 3-in-1 instant sticks, ground coffee, drip filter packs, cold brew. Halal, HACCP. Private label MOQ 500 kg. Export to GCC, EU, Asia.',
+    seoDescription: 'Packaged coffee from Vietnam 3 in 1 instant sticks, ground coffee, drip filter packs, cold brew. Halal, HACCP. Private label MOQ 500 kg. Export to GCC, EU, Asia.',
     keywords: ['instant coffee Vietnam export', 'ground coffee supplier Vietnam', 'private label coffee Vietnam', '3-in-1 coffee manufacturer Vietnam', 'Vietnamese coffee retail export'],
     hsCode: '2101.11.00',
   },
@@ -3125,24 +3125,24 @@ All products available for private label with custom blend development, roast pr
     ],
     relatedSlugs: ['export-biscuits-crackers', 'wafers-export'],
     seoTitle: 'Snack Foods Export Supplier Vietnam | Prawn Crackers Rice Crackers Puffs Wholesale',
-    seoDescription: 'Snack foods from Vietnam — prawn crackers, rice crackers, corn puffs, seasoned nuts. Halal, HACCP. Retail and bulk. MOQ 500 cartons. Export to GCC, EU, Africa.',
+    seoDescription: 'Snack foods from Vietnam prawn crackers, rice crackers, corn puffs, seasoned nuts. Halal, HACCP. Retail and bulk. MOQ 500 cartons. Export to GCC, EU, Africa.',
     keywords: ['snack foods exporter Vietnam', 'prawn crackers supplier Vietnam', 'rice crackers export Vietnam', 'extruded snacks manufacturer Vietnam', 'snack foods wholesale Vietnam'],
     hsCode: '1905.90.40',
   },
   {
     slug: 'rice-crackers-export',
-    name: 'Rice Crackers (Banh Gao) — Export Range',
+    name: 'Rice Crackers (Banh Gao)  Export Range',
     category: 'Packaged Food',
-    categorySlug: 'packaged-food-snacks',
-    tagline: 'Vietnamese Rice Crackers — Light, Crispy, Gluten-Free Snack for Global Markets',
-    description: 'Export-grade Vietnamese rice crackers (Bánh Gạo) — light, crispy, naturally gluten-free snacks. Original, seaweed, sesame, soy sauce, and spicy variants. Individually wrapped or share-bag format. HACCP, ISO 22000, Halal certified. MOQ 500 cartons. Ideal for Asian grocery, health food retail, and snack import.',
-    longDescription: `Rice crackers (Bánh Gạo) are one of Vietnam's most export-ready snack categories, with a centuries-old production tradition now modernized into HACCP-certified manufacturing facilities supplying international supermarkets, Asian grocery chains, health food retailers, and ethnic specialty food importers across 50+ countries.
+    categorySlug: 'packaged food-snacks',
+    tagline: 'Vietnamese Rice Crackers  Light, Crispy, Gluten-Free Snack for Global Markets',
+    description: 'Export-grade Vietnamese rice crackers (Bánh Gạo)  light, crispy, naturally gluten-free snacks. Original, seaweed, sesame, soy sauce, and spicy variants. Individually wrapped or share-bag format. HACCP, ISO 22000, Halal certified. MOQ 500 cartons. Ideal for Asian grocery, health food retail, and snack import.',
+    longDescription: `Rice crackers (Bánh Gạo) are one of Vietnam's most export ready snack categories, with a centuries old production tradition now modernized into HACCP Certified manufacturing facilities supplying international supermarkets, Asian grocery chains, health food retailers, and ethnic specialty food importers across 50+ countries.
 
-Vietnamese rice crackers are made from high-quality long-grain white rice (milled, soaked, ground, and formed into round discs), then baked or fried at high temperature to achieve a light, airy, crispy texture with very low fat content compared to wheat-based snacks.
+Vietnamese rice crackers are made from high quality long-grain white rice (milled, soaked, ground, and formed into round discs), then baked or fried at high temperature to achieve a light, airy, crispy texture with very low fat content compared to wheat based snacks.
 
 **Flavor variants available:**
 - **Original (lightly salted)**: Pure rice flavor, clean label
-- **Seaweed (Nori)**: Coated with Japanese-style roasted seaweed seasoning — most popular export flavor
+- **Seaweed (Nori)**: Coated with Japanese style roasted seaweed seasoning  most popular export flavor
 - **Sesame**: White or black sesame seed coating, nutty flavor
 - **Soy sauce**: Umami-rich Japanese-style glaze
 - **BBQ / smoky**: Western market preferred variant
@@ -3180,7 +3180,7 @@ Vietnamese rice crackers are made from high-quality long-grain white rice (mille
     containerCapacity: '20ft: ~800–1,200 cartons (package-size dependent)',
     packagingOptions: ['Mini bag (20–40g, individual)', 'Retail standup pouch (80–150g)', 'Share bag (250–500g)', 'Bulk catering sack (1–2.5 kg)', 'Gift assortment box', 'Private label custom packaging'],
     faqs: [
-      { question: 'Are your rice crackers certified gluten-free for EU and Australian markets?', answer: 'Rice crackers are naturally gluten-free by ingredient composition. For retail positioning requiring gluten-free certification (CODEX Alimentarius ≤20 ppm), we can supply from a dedicated gluten-free production facility with annual third-party verification testing. The certification covers all rice-base variants excluding any barley malt or wheat-derived seasoning coatings.' },
+      { question: 'Are your rice crackers certified gluten-free for EU and Australian markets?', answer: 'Rice crackers are naturally gluten-free by ingredient composition. For retail positioning requiring gluten-free certification (CODEX Alimentarius ≤20 ppm), we can supply from a dedicated gluten-free production facility with annual third party verification testing. The certification covers all rice-base variants excluding any barley malt or wheat-derived seasoning coatings.' },
       { question: 'Can you produce private label rice crackers with our brand?', answer: 'Yes. Private label is a core service for our rice cracker supply. We require buyer-supplied label artwork in PDF/AI format. Inner pouch printing and outer carton printing are both available. MOQ for private label is 500 cartons per SKU. Pre-production samples with your label are produced for approval before full production run.' },
       { question: 'What is the shelf life and what packaging is used to maintain freshness?', answer: 'Standard shelf life is 6–9 months for baked variants and 9–12 months for fried variants at ambient storage conditions. Freshness is maintained through: multi-layer metalized OPP/PE film bags, nitrogen gas flushing of each bag to displace oxygen, food-grade desiccant sachets for high-humidity destination markets, and heat-sealed airtight seams.' },
     ],
@@ -3200,7 +3200,7 @@ const foodStaplesProducts: Product[] = [
     category: 'Food Staples',
     categorySlug: 'food-staples',
     tagline: 'Food-Grade Refined Salt — Bulk Export for Food Processing & Consumer Markets',
-    description: "Vietnam's coastal salt fields in Khanh Hoa and Ninh Thuan produce high-quality solar-evaporated sea salt refined to international food grade standards. Available as table salt (iodized), pickling salt, and food processing salt in bulk and consumer packaging.",
+    description: "Vietnam's coastal salt fields in Khanh Hoa and Ninh Thuan produce high quality solar-evaporated sea salt refined to international food grade standards. Available as table salt (iodized), pickling salt, and food processing salt in bulk and consumer packaging.",
     longDescription: `Vietnam's long coastline and ideal climate support extensive solar salt production, particularly in the south-central provinces of Khanh Hoa, Ninh Thuan, and Bình Thuận. After evaporation and initial crystallization in salt fields, sea salt is refined — washed, re-crystallized, and kiln-dried — at modern facilities to achieve the purity and consistency required for food grade, feed grade, and industrial applications.
 
 **Food Grade Salt Products:**
@@ -3376,7 +3376,7 @@ Comprehensive Certificate of Analysis (COA) provided per shipment including pola
     categorySlug: 'food-staples',
     tagline: 'White & Brown Sugar Cubes — Retail & Hotel/Catering Export Supply',
     description: "Refined white and demerara brown sugar cubes for hotel amenity programs, tea room service, restaurant catering, and retail distribution. Standard 4g cubes, oblong and rectangular formats. Individually wrapped and box-packed options. Halal, HACCP. MOQ 500 cartons.",
-    longDescription: `Sugar cubes are a premium-format food staple product with high demand in hotel and catering supply chains, tea room service, and retail markets seeking portion-controlled convenience. Our sugar cubes are produced from high-quality ICUMSA 45 (white) and raw cane (demerara/brown) sugar compressed to precise weight and hardness standards.
+    longDescription: `Sugar cubes are a premium-format food staple product with high demand in hotel and catering supply chains, tea room service, and retail markets seeking portion-controlled convenience. Our sugar cubes are produced from high quality ICUMSA 45 (white) and raw cane (demerara/brown) sugar compressed to precise weight and hardness standards.
 
 **Product Range:**
 - **White sugar cubes**: Compressed refined white sugar (ICUMSA 45). Standard 4g cube, 5g cube. Regular and oblong rectangular shapes
@@ -3515,7 +3515,7 @@ Moisture content controlled to ≤ 3.5% for brown sugars to prevent caking durin
 - **Spaghettoni (No. 7)**: 2.2–2.5 mm diameter. Thick, robust. For hearty meat sauces and slow-cooked ragù. Cooking time 11–14 min
 
 **Production Quality Markers:**
-- **Translucency**: High-quality durum spaghetti is slightly translucent when held to light — indicating proper semolina hydration and extrusion
+- **Translucency**: High quality durum spaghetti is slightly translucent when held to light — indicating proper semolina hydration and extrusion
 - **Break resistance**: Should snap cleanly with a crisp sound, not crumble
 - **Post-cooking texture**: Firm, al dente, not mushy after correct cooking time. Measured objectively as Texture Profile Analysis (TPA) hardness ≥ 5.0 N
 
@@ -3590,9 +3590,9 @@ Moisture content controlled to ≤ 3.5% for brown sugars to prevent caking durin
     name: 'Dried Lentils (Red, Green & Black — Repackaged Export)',
     category: 'Food Staples',
     categorySlug: 'food-staples',
-    tagline: 'Dried Lentils Repackaged & Exported from Vietnam — Halal, HACCP, Custom Label',
+    tagline: 'Dried Lentils Repackaged & Exported from Vietnam Halal, HACCP, Custom Label',
     description: 'Dried lentils (red split, green whole, black beluga) sourced, cleaned, graded, and repackaged in Vietnam for export. Retail bags (500g, 1 kg), catering packs (5 kg, 25 kg), and bulk sacks. Halal certified. HACCP and ISO 22000 repackaging facility. Private label available. MOQ 1 x 20ft container.',
-    longDescription: `Vietnam operates as a significant regional repackaging and re-export hub for dried pulses including lentils, chickpeas, and dried beans — sourcing from primary production origins (India, Canada, Australia, Turkey) and processing through HACCP-certified facilities in Ho Chi Minh City for value-added repackaging, grading, and re-export to regional markets.
+    longDescription: `Vietnam operates as a significant regional repackaging and re-export hub for dried pulses including lentils, chickpeas, and dried beans — sourcing from primary production origins (India, Canada, Australia, Turkey) and processing through HACCP Certified facilities in Ho Chi Minh City for value-added repackaging, grading, and re-export to regional markets.
 
 This supply model is particularly suited for buyers in Southeast Asia, the Middle East, and Africa who prefer a regional supplier offering shorter lead times, smaller lot flexibility, Halal certification from ASEAN-recognized bodies, and Vietnamese food authority export health certificates.
 
@@ -3663,14 +3663,14 @@ const edibleOilsProducts: Product[] = [
     name: 'Refined Coconut Oil (RBD)',
     category: 'Edible Oils',
     categorySlug: 'edible-oils-fats',
-    tagline: 'RBD Coconut Oil from Vietnam — Food, Cosmetic & Industrial Grade',
-    description: "Vietnam's Mekong Delta and coastal provinces produce high-quality coconut oil from Cocos nucifera. Our RBD (Refined, Bleached, Deodorized) coconut oil meets international food standards with FFA ≤ 0.1%, moisture ≤ 0.1%, and iodine value 7–11. Available in bulk tankers, IBC, drums, and consumer packing.",
-    longDescription: `Vietnam's Bến Tre province — known as the "Land of Coconuts" — is home to over 60,000 hectares of coconut palm cultivation, producing the raw material for one of the country's most versatile agro-industrial exports: coconut oil.
+    tagline: 'RBD Coconut Oil from Vietnam Food, Cosmetic & Industrial Grade',
+    description: "Vietnam's Mekong Delta and coastal provinces produce high quality coconut oil from Cocos nucifera. Our RBD (Refined, Bleached, Deodorized) coconut oil meets international food standards with FFA ≤ 0.1%, moisture ≤ 0.1%, and iodine value 7–11. Available in bulk tankers, IBC, drums, and consumer packing.",
+    longDescription: `Vietnam's Bến Tre province known as the "Land of Coconuts" is home to over 60,000 hectares of coconut palm cultivation, producing the raw material for one of the country's most versatile agro-industrial exports: coconut oil.
 
 **Processing:** Copra (dried coconut kernel) or fresh coconut cream is processed into Crude Coconut Oil (CCO), which is then refined through the RBD (Refined, Bleached, Deodorized) process:
 - **Refining**: Removes Free Fatty Acids (FFA) via alkali neutralization or physical refining
 - **Bleaching**: Activated earth removes color pigments and residual impurities
-- **Deodorization**: High-temperature steam stripping removes volatile compounds for neutral odor and taste
+- **Deodorization**: High temperature steam stripping removes volatile compounds for neutral odor and taste
 
 **Quality Grades:**
 - **RBD Coconut Oil (Food Grade)**: FFA ≤ 0.1%, Moisture ≤ 0.1%, Iodine Value 7–11, Color Lovibond ≤ 3 Yellow / ≤ 0.3 Red. Used in food manufacturing, baking, frying, confectionery.
@@ -3828,7 +3828,7 @@ RBD canola oil undergoes degumming, neutralization, bleaching, and deodorization
     containerCapacity: '18–22 MT per 20ft',
     packagingOptions: ['1 L retail PET bottle', '2 L retail PET bottle', '5 L retail jug', '20 L jerrycan', '1,000 L IBC', 'Bulk flexitank'],
     faqs: [
-      { question: 'Is Non-GMO canola oil available and how is it verified?', answer: 'Yes. Non-GMO canola oil is available through Identity Preserved (IP) supply chains where rapeseed varieties are documented as non-GMO from farm through crushing facility. Third-party PCR (polymerase chain reaction) DNA testing is conducted on the oil to verify non-GMO status. IP non-GMO canola carries a 15–25% price premium over conventional RBD canola oil.' },
+      { question: 'Is Non-GMO canola oil available and how is it verified?', answer: 'Yes. Non-GMO canola oil is available through Identity Preserved (IP) supply chains where rapeseed varieties are documented as non-GMO from farm through crushing facility. Third party PCR (polymerase chain reaction) DNA testing is conducted on the oil to verify non-GMO status. IP non-GMO canola carries a 15–25% price premium over conventional RBD canola oil.' },
     ],
     relatedSlugs: ['vegetable-oil-export', 'olive-oil-wholesale'],
     seoTitle: 'Canola Oil Export Supplier | RBD Canola Oil Wholesale Non-GMO Available',
@@ -4017,7 +4017,7 @@ export const productCategories: ProductCategory[] = [
     certifications: ['ISO 22000', 'HACCP', 'BRC Grade A', 'Halal', 'Kosher', 'FSSC 22000'],
     exportMarkets: ['Saudi Arabia', 'UAE', 'Qatar', 'Kuwait', 'Germany', 'Netherlands', 'USA', 'India'],
     seoTitle: 'Cashew Nuts Vietnam Export | W180 W240 W320 | Halal Certified Supplier',
-    seoDescription: 'Buy cashew nuts from Vietnam — W180, W240, W320 grades. ISO 22000, HACCP, Halal certified. Export to Saudi Arabia, UAE, EU. Direct manufacturer price.',
+    seoDescription: 'Buy cashew nuts from Vietnam  W180, W240, W320 grades. ISO 22000, HACCP, Halal certified. Export to Saudi Arabia, UAE, EU. Direct manufacturer price.',
     keywords: ['cashew nuts Vietnam', 'cashew exporter Vietnam', 'buy cashews wholesale', 'halal cashew nuts', 'cashew nuts supplier GCC'],
     oemDescription: "Custom grading, roasting, and private label packaging available. Vacuum or modified-atmosphere pouches. MOQ 1 MT.",
     relatedCategorySlugs: ['coffee', 'spices', 'edible-oils-fats', 'food-staples'],
@@ -4042,7 +4042,7 @@ export const productCategories: ProductCategory[] = [
   {
     slug: 'frozen-seafood',
     name: 'Frozen Seafood',
-    tagline: "Vietnam's World-Class Seafood — Cold Chain Excellence",
+    tagline: "Vietnam's World Class Seafood — Cold Chain Excellence",
     description: "Vietnam is a top 5 global seafood exporter. We supply IQF vannamei shrimp, pangasius fillet, and squid from EU-registered, ASC-certified processing plants in the Mekong Delta.",
     longDescription: "Vietnam's seafood industry is a cornerstone of its export economy, with VASEP-certified processing plants operating to the strictest international food safety standards. Ideal Deal Vietnam connects international seafood buyers with EU-registered, FDA-listed processing facilities for a consistent cold chain supply of shrimp, pangasius, squid, and value-added products.",
     heroImage: '/images/categories/seafood-hero.jpg',
@@ -4149,7 +4149,7 @@ export const productCategories: ProductCategory[] = [
     name: 'Wooden Furniture',
     tagline: "Handcrafted Vietnamese Furniture — FSC Wood, Global Standards",
     description: "Vietnam is the world's 5th largest furniture exporter with USD 14 billion in annual exports. We manufacture FSC-certified solid acacia, teak, and rubber wood furniture for retail chains, interior designers, and wholesale importers.",
-    longDescription: "Vietnam's furniture manufacturing industry is concentrated in Binh Duong, Dong Nai, and Ho Chi Minh City — home to over 3,000 furniture factories ranging from craft workshops to large-scale export operations. Vietnamese furniture is prized globally for skilled craftsmanship, competitive pricing, and the use of sustainable fast-growing hardwoods like acacia. Ideal Deal Vietnam sources furniture from FSC-certified manufacturers with CARB Phase 2 compliance for formaldehyde emissions.",
+    longDescription: "Vietnam's furniture manufacturing industry is concentrated in Binh Duong, Dong Nai, and Ho Chi Minh City — home to over 3,000 furniture factories ranging from craft workshops to large scale export operations. Vietnamese furniture is prized globally for skilled craftsmanship, competitive pricing, and the use of sustainable fast-growing hardwoods like acacia. Ideal Deal Vietnam sources furniture from FSC-certified manufacturers with CARB Phase 2 compliance for formaldehyde emissions.",
     heroImage: '/products/furniture.png',
     icon: '🪑',
     certifications: ['FSC Certified', 'CARB Phase 2', 'ISO 9001', 'BSCI', 'Lacey Act Compliant', 'EUTR Compliant'],
@@ -4351,7 +4351,7 @@ export const productCategories: ProductCategory[] = [
     certifications: ['HACCP', 'ISO 22000', 'Halal', 'RSPO (select)', 'Kosher (select)', 'FDA Registration'],
     exportMarkets: ['Saudi Arabia', 'UAE', 'India', 'China', 'Germany', 'USA', 'Philippines', 'Australia'],
     seoTitle: 'Edible Oils Vietnam Export | Coconut Oil Palm Oil | Halal HACCP Supplier',
-    seoDescription: 'Edible oils and fats from Vietnam — refined coconut oil, palm olein, soybean oil. HACCP, Halal certified. Bulk tanker, IBC, retail. Export to GCC, EU, Asia.',
+    seoDescription: 'Edible oils and fats from Vietnam refined coconut oil, palm olein, soybean oil. HACCP, Halal certified. Bulk tanker, IBC, retail. Export to GCC, EU, Asia.',
     keywords: ['edible oil Vietnam export', 'coconut oil Vietnam supplier', 'palm olein Vietnam', 'cooking oil exporter Vietnam', 'refined coconut oil Vietnam wholesale'],
     relatedCategorySlugs: ['food-staples', 'canned-preserved-food', 'packaged-food-snacks', 'raw-materials'],
     products: edibleOilsProducts,

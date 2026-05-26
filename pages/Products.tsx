@@ -312,7 +312,7 @@ const Products: React.FC = () => {
       category: t('products_page.agri_iqf_export_badge'),
       title: tp('categories.frozen-seafood.name', { defaultValue: 'Frozen Seafood' }),
       desc: tp('categories.frozen-seafood.tagline', {
-        defaultValue: "Vietnam's HACCP-Certified Frozen Seafood for Global Markets",
+        defaultValue: "Vietnam's HACCP Certified Frozen Seafood for Global Markets",
       }),
       infoLabel: t('products_page.agri_certifications_label'),
       infoValue: t('products_page.agri_seafood_cert_value'),

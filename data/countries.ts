@@ -259,7 +259,7 @@ export const countries: CountryData[] = [
     gdpPerCapita: '$55,000+',
     importVolume: 'Vietnam→Qatar trade growing at 15% CAGR',
     tagline: "Premium Vietnamese Food Exports to Qatar The World's Wealthiest Market",
-    heroDescription: "Qatar's exceptionally high GDP per capita, world-class hospitality sector, and rapidly expanding food retail landscape make it one of the highest-value destination markets for premium Vietnamese exports. Qatar imports over 90% of its food supply, creating significant demand for reliable international food suppliers.",
+    heroDescription: "Qatar's exceptionally high GDP per capita, world class hospitality sector, and rapidly expanding food retail landscape make it one of the highest-value destination markets for premium Vietnamese exports. Qatar imports over 90% of its food supply, creating significant demand for reliable international food suppliers.",
     whyVietnam: [
       'Qatar imports nearly 100% of its food Vietnam is a preferred origin for quality food staples.',
       "The FIFA World Cup legacy has expanded Qatar's hotel and restaurant sector, driving premium seafood demand.",

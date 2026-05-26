@@ -129,7 +129,7 @@ const TermsOfService: React.FC = () => {
             </p>
           </Section>
 
-          {/* Section 6 — Third-Party Links */}
+          {/* Section 6 — Third Party Links */}
           <Section title={t('terms.s6_title')} isRTL={isRTL}>
             <p>{t('terms.s6_text')}</p>
           </Section>
