@@ -52,7 +52,7 @@ export interface ProductCategory {
 
 const coffeeProducts: Product[] = [
   {
-    slug: 'robusta coffee beans',
+    slug: 'robusta-coffee-beans',
     name: 'Vietnamese Robusta Coffee Beans',
     category: 'Coffee',
     categorySlug: 'coffee',
@@ -97,7 +97,7 @@ We supply to roasters, coffee manufacturers, and private label brands globally. 
     hsCode: '0901.11.10',
   },
   {
-    slug: 'arabica coffee beans',
+    slug: 'arabica-coffee-beans',
     name: 'Vietnamese Arabica Coffee Beans',
     category: 'Coffee',
     categorySlug: 'coffee',
@@ -227,7 +227,7 @@ All products are roasted in Vietnam at ISO 22000 certified facilities. Private l
     hsCode: '0901.21.10',
   },
   {
-    slug: 'instant coffee 3in1 export',
+    slug: 'instant-coffee-3in1-export',
     name: 'Vietnamese 3 in 1 Instant Coffee Sachets',
     category: 'Coffee',
     categorySlug: 'coffee',
@@ -276,7 +276,7 @@ Custom printing on single box sachets, display boxes, or bulk cartons. Custom fo
 
 const cashewProducts: Product[] = [
   {
-    slug: 'cashew nuts w320',
+    slug: 'cashew-nuts-w320',
     name: 'Cashew Nuts W320',
     category: 'Cashew Nuts',
     categorySlug: 'cashew nuts',
@@ -321,7 +321,7 @@ Packaging options include vacuum sealed tins, nitrogen flushed aluminum pouches,
     hsCode: '0801.32.00',
   },
   {
-    slug: 'cashew nuts w240',
+    slug: 'cashew-nuts-w240',
     name: 'Cashew Nuts W240',
     category: 'Cashew Nuts',
     categorySlug: 'cashew nuts',
@@ -363,7 +363,7 @@ We offer W240 in vacuum sealed retail packs of 250g, 500g, and 1 kg for branded 
     hsCode: '0801.32.00',
   },
   {
-    slug: 'cashew nuts w180',
+    slug: 'cashew-nuts-w180',
     name: 'Cashew Nuts W180',
     category: 'Cashew Nuts',
     categorySlug: 'cashew nuts',
@@ -401,7 +401,7 @@ Our W180 cashews are available from facilities with BRC Grade A, ISO 22000, HACC
     hsCode: '0801.32.00',
   },
   {
-    slug: 'broken cashew sp-grade',
+    slug: 'broken-cashew-sp-grade',
     name: 'Broken Cashew Kernels (SP Grade)',
     category: 'Cashew Nuts',
     categorySlug: 'cashew nuts',
@@ -450,7 +450,7 @@ Same quality certifications as whole grades: ISO 22000, HACCP, BRC Grade A, Hala
     hsCode: '0801.32.00',
   },
   {
-    slug: 'roasted salted cashews export',
+    slug: 'roasted-salted-cashews-export',
     name: 'Roasted & Salted Cashew Nuts',
     category: 'Cashew Nuts',
     categorySlug: 'cashew nuts',
@@ -491,7 +491,7 @@ Private Label: Retail ready bags (75g-500g) with custom branding, nitrogen flush
 
 const riceProducts: Product[] = [
   {
-    slug: 'jasmine rice',
+    slug: 'jasmine-rice',
     name: 'Vietnamese Jasmine Rice (ST25)',
     category: 'Rice',
     categorySlug: 'rice',
@@ -535,7 +535,7 @@ All rice is processed in modern mills certified to ISO 22000 and HACCP. Fumigati
     hsCode: '1006.30.20',
   },
   {
-    slug: 'long grain white rice 25 broken',
+    slug: 'long-grain-white-rice-25-broken',
     name: 'Long Grain White Rice (25% Broken)',
     category: 'Rice',
     categorySlug: 'rice',
@@ -577,7 +577,7 @@ Packaging in new 50 kg PP woven bags with polypropylene inner liner is standard.
     hsCode: '1006.30.90',
   },
   {
-    slug: 'glutinous sticky rice',
+    slug: 'glutinous-sticky-rice',
     name: 'Vietnamese Glutinous (Sticky) Rice',
     category: 'Rice',
     categorySlug: 'rice',
@@ -622,7 +622,7 @@ Available in long grain (Thai style), short grain, and black glutinous (purple w
     hsCode: '1006.20.20',
   },
   {
-    slug: 'brown rice export',
+    slug: 'brown-rice-export',
     name: 'Vietnamese Brown Rice (Whole Grain)',
     category: 'Rice',
     categorySlug: 'rice',
@@ -666,7 +666,7 @@ Brown rice requires careful moisture management and packaging to prevent rancidi
     hsCode: '1006.20.10',
   },
   {
-    slug: 'parboiled rice export',
+    slug: 'parboiled-rice-export',
     name: 'Parboiled Rice (5% Broken)',
     category: 'Rice',
     categorySlug: 'rice',
@@ -706,7 +706,7 @@ Market: Dominant variety across West Africa (Nigeria, Senegal, Ivory Coast), tra
 
 const seafoodProducts: Product[] = [
   {
-    slug: 'frozen white shrimp',
+    slug: 'frozen-white-shrimp',
     name: 'Frozen Vannamei (White) Shrimp',
     category: 'Frozen Seafood',
     categorySlug: 'frozen seafood',
@@ -757,7 +757,7 @@ All processing facilities hold current EU registration, FDA registration (for US
     hsCode: '0306.17.00',
   },
   {
-    slug: 'frozen pangasius fillet',
+    slug: 'frozen-pangasius-fillet',
     name: 'Frozen Pangasius (Basa) Fillet',
     category: 'Frozen Seafood',
     categorySlug: 'frozen seafood',
@@ -801,7 +801,7 @@ Pangasius fillets are white, mild flavoured, boneless, and skinless making them 
     hsCode: '0304.62.00',
   },
   {
-    slug: 'frozen squid rings',
+    slug: 'frozen-squid-rings',
     name: 'Frozen Squid Rings & Tubes',
     category: 'Frozen Seafood',
     categorySlug: 'frozen seafood',
@@ -851,7 +851,7 @@ All squid is IQF frozen at source at -35°C. Glazing from 10–20% protects agai
     hsCode: '0307.43.00',
   },
   {
-    slug: 'frozen blue swimming crab',
+    slug: 'frozen-blue-swimming-crab',
     name: 'Frozen Blue Swimming Crab',
     category: 'Frozen Seafood',
     categorySlug: 'frozen seafood',
@@ -891,7 +891,7 @@ Quality: All crabs graded by size and condition. IQF at -40°C within 2 hours of
 
 const spiceProducts: Product[] = [
   {
-    slug: 'black pepper bulk',
+    slug: 'black-pepper-bulk',
     name: 'Vietnamese Black Pepper (500 GL+)',
     category: 'Spices',
     categorySlug: 'spices',
@@ -937,7 +937,7 @@ Export specifications include ASTA, ESA, and custom buyer specifications. Steam 
     hsCode: '0904.11.00',
   },
   {
-    slug: 'star anise whole export',
+    slug: 'star-anise-whole-export',
     name: 'Vietnamese Star Anise (Whole)',
     category: 'Spices',
     categorySlug: 'spices',
@@ -980,7 +980,7 @@ Star anise is globally significant not just as a culinary spice it is the primar
     hsCode: '0909.60.00',
   },
   {
-    slug: 'vietnamese cinnamon cassia',
+    slug: 'vietnamese-cinnamon-cassia',
     name: 'Vietnamese Cinnamon (Cassia) Quế Yên Bái',
     category: 'Spices',
     categorySlug: 'spices',
@@ -1026,7 +1026,7 @@ Vietnamese cinnamon is the dominant form used in North American markets (where "
     hsCode: '0906.11.00',
   },
   {
-    slug: 'turmeric powder export',
+    slug: 'turmeric-powder-export',
     name: 'Vietnamese Turmeric Powder',
     category: 'Spices',
     categorySlug: 'spices',
@@ -1067,7 +1067,7 @@ Applications: Curry powder blends, food colouring, supplement manufacturing, cos
 // ─── Green Tea Products ───────────────────────────────────────────────────────
 const greenTeaProducts: Product[] = [
   {
-    slug: 'thai nguyen green tea',
+    slug: 'thai-nguyen-green-tea',
     name: 'Thái Nguyên Green Tea (Loose Leaf)',
     category: 'Green Tea',
     categorySlug: 'green tea',
@@ -1114,7 +1114,7 @@ Export ready packaging includes bulk aluminum foil bags, nitrogen flushed retail
     hsCode: '0902.10.10',
   },
   {
-    slug: 'jasmine green tea',
+    slug: 'jasmine-green-tea',
     name: 'Vietnamese Jasmine Green Tea',
     category: 'Green Tea',
     categorySlug: 'green tea',
@@ -1160,7 +1160,7 @@ The GCC market particularly Saudi Arabia, UAE, Qatar, and Kuwait represents one 
     hsCode: '0902.10.90',
   },
   {
-    slug: 'lotus tea export',
+    slug: 'lotus-tea-export',
     name: 'Vietnamese Lotus Tea (Tra Sen)',
     category: 'Green Tea',
     categorySlug: 'green tea',
@@ -1201,7 +1201,7 @@ Gift Packaging: Hand crafted lacquerware boxes, bamboo canisters, and ceramic te
 // ─── Pineapple Products ───────────────────────────────────────────────────────
 const pineappleProducts: Product[] = [
   {
-    slug: 'fresh export pineapple',
+    slug: 'fresh-export-pineapple',
     name: 'Fresh Vietnamese Pineapple (Queen/MD2)',
     category: 'Fresh Pineapple',
     categorySlug: 'pineapple',
@@ -1249,7 +1249,7 @@ We supply to wholesale importers, supermarket chains, and food distributors acro
     hsCode: '0804.30.00',
   },
   {
-    slug: 'canned pineapple syrup',
+    slug: 'canned-pineapple-syrup',
     name: 'Canned Pineapple in Syrup',
     category: 'Processed Pineapple',
     categorySlug: 'pineapple',
@@ -1293,7 +1293,7 @@ Standard can sizes: A10 (3 kg net), A2½ (825g net), 1 kg, 565g, 227g. All can s
     hsCode: '2008.20.00',
   },
   {
-    slug: 'dried pineapple export',
+    slug: 'dried-pineapple-export',
     name: 'Dried Pineapple Slices & Chunks',
     category: 'Pineapple',
     categorySlug: 'pineapple',
@@ -1334,7 +1334,7 @@ Drying methods: Hot air drying, solar tunnel drying, or freeze drying (premium p
 // ─── Textile & Apparel OEM Products ───────────────────────────────────────────
 const textileProducts: Product[] = [
   {
-    slug: 'garment oem-manufacturing',
+    slug: 'garment-oem-manufacturing',
     name: 'Garment OEM Manufacturing (Full Package)',
     category: 'Textile & Apparel',
     categorySlug: 'textile apparel',
@@ -1425,7 +1425,7 @@ Quality benchmarks applied include fabric pilling resistance testing (ISO 12945)
     hsCode: '6211.42.00',
   },
   {
-    slug: 'polo shirts oem',
+    slug: 'polo-shirts-oem',
     name: 'Polo Shirts OEM Manufacturing',
     category: 'Textile & Apparel',
     categorySlug: 'textile apparel',
@@ -1475,7 +1475,7 @@ All polo shirts are pre-shrunk and tested for colorfastness (ISO 105-C06), dimen
 // ─── Precision Components Products ───────────────────────────────────────────
 const precisionProducts: Product[] = [
   {
-    slug: 'cnc-machined parts',
+    slug: 'cnc-machined-parts',
     name: 'CNC Machined Precision Components',
     category: 'Precision Manufacturing',
     categorySlug: 'precision components',
@@ -1524,7 +1524,7 @@ All production follows ISO 9001:2015 quality management systems with full materi
     hsCode: '8466.93.00',
   },
   {
-    slug: 'precision stamped parts',
+    slug: 'precision-stamped-parts',
     name: 'Precision Metal Stamped Parts',
     category: 'Precision Manufacturing',
     categorySlug: 'precision components',
@@ -1782,7 +1782,7 @@ All paper packaging manufactured from FSC-certified or recycled content can be s
     hsCode: '4819.10.00',
   },
   {
-    slug: 'biodegradable food containers',
+    slug: 'biodegradable-food-containers',
     name: 'Biodegradable Food Containers (Bagasse & PLA)',
     category: 'Eco Packaging',
     categorySlug: 'eco-packaging',
@@ -2127,7 +2127,7 @@ All products comply with ASEAN Cosmetics Directive and EU Cosmetics Regulation 1
     hsCode: '3307.90.00',
   },
   {
-    slug: 'disposable face masks export',
+    slug: 'disposable-face-masks-export',
     name: 'Disposable 3-Ply Face Masks (Medical & Non-Medical)',
     category: 'Hygiene & Disposable',
     categorySlug: 'hygiene disposable',
@@ -2188,7 +2188,7 @@ Custom color, logo printing on mask body available for promotional and corporate
 // ─── Baby Products ────────────────────────────────────────────────────────────
 const babyProducts: Product[] = [
   {
-    slug: 'baby wipes',
+    slug: 'baby-wipes',
     name: 'Baby Wipes (Ultra Soft, Fragrance Free)',
     category: 'Baby Products',
     categorySlug: 'baby products',
@@ -2288,7 +2288,7 @@ Private label includes custom brand name, character artwork, language-specific p
     hsCode: '9619.00.10',
   },
   {
-    slug: 'baby powder export',
+    slug: 'baby-powder-export',
     name: 'Baby Powder (Talc Free & Cornstarch)',
     category: 'Baby Products',
     categorySlug: 'baby products',
